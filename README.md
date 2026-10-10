@@ -1,10 +1,10 @@
-# Readme
+# What this is and how to contribute
 
-OpenAI's math write-ups tend to have inadequate citations and are generally maladapted for human comprehension. This repo seeks to be an inclusive effort to improve these write-ups. The broader math community--students, postdocs, professors, and enthusiasts--is invited to submit pull requests that augment lit reviews and cite related results where appropriate, improve exposition, and identify (and fix, if possible) any errors encountered. It is preferred you edit the TeX directly and compile it to `article.pdf` in subfolders of `preprints`. Adding or editing a `NOTES.md` file with thoughts is also welcome. If you are uncomfortable using git and GitHub, you are encouraged to [familiarize yourself with the wide world of version control](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources), but alternatively, you can email submissions to `mathcommunity@proton.me`.
+OpenAI's math write-ups can have inadequate citations and are generally maladapted for human comprehension. This repo seeks to be an inclusive effort to improve these write-ups. The broader math community--students, postdocs, professors, and enthusiasts--is invited to submit pull requests that augment lit reviews/cite related results where appropriate, improve exposition, and identify (and fix, if possible) any errors. It is preferred you edit the TeX directly and compile it to `article.pdf` in subfolders of `preprints/`. Adding or editing a `NOTES.md` file with thoughts is also welcome. If you are unfamiliar with git and GitHub, [here is a helpful starting point](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources).
 
-Note you do not have to doxx to contribute. You can sign up for an alt GitHub handle or email us.
+Note you do not have to doxx to contribute; you can sign up for an alt GitHub handle. All submissions will be reviewed.
 
-## Original readme
+## Original OAI readme
 
 This repository contains mathematical manuscripts and supporting proof artifacts produced by an internal OpenAI model. 
 
