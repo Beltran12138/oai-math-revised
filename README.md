@@ -7,7 +7,7 @@ To contribute:
 2. Make commits to your forked repo.
 3. [Submit a pull request](https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/creating-a-pull-request-from-a-fork?utm_source=chatgpt.com).
    
-It is preferred you edit the TeX directly and compile it to `article.pdf` in subfolders of [`preprints/`](https://github.com/mathcommunity/oai-math-revised/tree/main/preprints). Adding or editing a `NOTES.md` file with thoughts is also welcome. If you are unfamiliar with git and GitHub, [here is a helpful starting point](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources).
+It is preferred you edit the TeX directly and compile it to `article.pdf` in subfolders of [`preprints/`](https://github.com/mathcommunity/oai-math-revised/tree/main/preprints). Adding or editing a `NOTES.md` file with thoughts is also welcome. Please disclose substantial use of automation (via language models, proof assistants, and other mathematical software) for your contributions. If you are unfamiliar with git and GitHub, [here is a helpful starting point](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources).
 
 Note you do not have to doxx to contribute; you can sign up for an alt GitHub handle. All submissions will be reviewed.
 
