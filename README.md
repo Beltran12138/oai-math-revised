@@ -1,13 +1,19 @@
 # What this is and how to contribute
 
-OpenAI's math write-ups can be difficult to understand and can have incomplete citations. This repo seeks to be an inclusive effort to improve these write-ups. The broader math community--students, postdocs, professors, and enthusiasts--is invited to submit pull requests that augment lit reviews/cite related results where appropriate, improve exposition, and identify (and fix, if possible) any errors.
+OpenAI's math write-ups can be difficult to understand and can have incomplete citations. This repo seeks to be an inclusive effort to improve these write-ups, and the broader math community--students, postdocs, professors, and enthusiasts--is invited to participate.
 
-To contribute:
-1. [Fork](https://docs.github.com/en/pull-requests/how-tos/work-with-forks/fork-a-repo) this repo.
-2. Make commits to your forked repo.
-3. [Submit a pull request](https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/creating-a-pull-request-from-a-fork?utm_source=chatgpt.com).
+Three ways you can contribute:
+1. Submit pull requests that augment lit reviews/cite related results where appropriate, improve exposition, and identify (and fix, if possible) any errors. The workflow is as follows.
+    1. [Fork](https://docs.github.com/en/pull-requests/how-tos/work-with-forks/fork-a-repo) this repo.
+    2. Make commits to your forked repo.
+    3. [Submit a pull request](https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/creating-a-pull-request-from-a-fork?utm_source=chatgpt.com).
    
-It is preferred you edit the TeX directly and compile it to `article.pdf` in subfolders of [`preprints/`](https://github.com/mathcommunity/oai-math-revised/tree/main/preprints). Adding or editing a `NOTES.md` file with thoughts is also welcome. Please disclose substantial use of automation (via language models, proof assistants, and other mathematical software) for your contributions. If you are unfamiliar with git and GitHub, [here is a helpful starting point](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources).
+    It is preferred you edit the TeX directly and compile it to `article.pdf` in subfolders of [`preprints/`](https://github.com/mathcommunity/oai-math-revised/tree/main/preprints). Please disclose substantial use of automation (via language models, proof assistants, and other mathematical software) for your contributions. If you are unfamiliar with git and GitHub, [here is a helpful starting point](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources).
+2. Create an issue proposing changes to a write-up.
+3. Add or modify a `NOTES.md` file in a subfolder of [`preprints/`](https://github.com/mathcommunity/oai-math-revised/tree/main/preprints) with sections for
+    1. follow-up works (use links)
+    2. constructive comments/reviews (use links; if they are difficult to access, reproduce with permission from authors as appropriate)
+    3. list of people interested in meeting to work on digestion (add only your name or the name of anyone whose explicit permission you have to add)
 
 Note you do not have to doxx to contribute; you can sign up for an alt GitHub handle. All submissions will be reviewed.
 
