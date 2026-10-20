@@ -2,7 +2,7 @@
 
 **Author:** OpenAI (with community contributions)
 
-**Date:** October 18, 2026
+**Date:** October 19, 2026
 
 ## Citation
 
