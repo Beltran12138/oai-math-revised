@@ -1,0 +1,43 @@
+name: Interested in working on this paper
+description: Join or start a group reading, checking or improving a manuscript. Your GitHub username is added to the paper's NOTES.md.
+title: "[interested] "
+labels: ["interested"]
+body:
+  - type: input
+    id: paper
+    attributes:
+      label: Paper
+      description: Folder name under preprints/ (filled in when you come from the site).
+      placeholder: The-circulant-Hadamard-conjecture-September-23-2026
+    validations:
+      required: true
+  - type: dropdown
+    id: activity
+    attributes:
+      label: What would you like to do?
+      multiple: true
+      options:
+        - Read and digest it with others
+        - Check the proof
+        - Improve exposition or citations
+        - Formalize parts of it in Lean
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: How to get in touch
+      description: So that others can contact you about working together. This issue is public, so only share what you are happy to have public.
+      value: |
+        Name:
+        Website or email:
+        Background, availability, time zone (optional):
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Listing
+      description: Add only yourself. For other people, ask them to file their own issue.
+      options:
+        - label: List my GitHub username under this paper's notes and on the site.
+          required: true

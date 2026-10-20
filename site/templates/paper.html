@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+{% from "macros.html" import paper_line, markers, lean_marker with context %}
+{% block title %}{{ p.title|plain }} · oai-math-revised{% endblock %}
+{% block main %}
+<p class="crumbs"><a href="{{ root }}/">Browse</a>{% if p.status == "withdrawn" %} › <a href="{{ root }}/#withdrawn">Withdrawn manuscripts</a>{% endif %}{% if fam %} › <a href="{{ root }}/#{{ fam.discipline|slugify }}">{{ fam.discipline }}</a> › <a href="{{ root }}/#family-{{ fam.num }}">{{ fam.num }} {{ fam.title|html|safe }}</a>{% endif %}</p>
+<h1>{{ p.title|html|safe }}</h1>
+<p class="meta">{{ p.author }} · {{ p.date }}</p>
+{% if p.preamble %}<div class="preamble">{{ p.preamble|md(p.slug)|safe }}</div>{% endif %}
+<p class="markers">{{ markers(p, papers) }}{% if fam %} {{ lean_marker(fam) }}{% endif %}</p>
+
+{% if p.status == "withdrawn" %}
+<div class="notice">
+<p>Withdrawn by OpenAI{% if p.withdrawn_on %} on {{ p.withdrawn_on }}{% endif %}.</p>
+{{ p.readme_extra|md(p.slug)|safe }}
+{% if p.archived_pdf %}<p><a href="{{ p.archived_pdf }}">Archived manuscript (PDF before withdrawal)</a></p>{% endif %}
+</div>
+{% elif p.status == "superseded" %}{% set cur = papers[current] %}
+<p class="notice">This is an earlier edition ({{ p.date }}). Current edition: <a href="../{{ cur.slug }}/">{{ cur.title|html|safe }}</a>, {{ cur.date }}.</p>
+{% elif p.community_revised %}
+<p class="notice">Revised with community contributions. <a href="{{ links.upstream_pdf }}">Original OpenAI version</a> ({{ original_date }}) · <a href="{{ links.history }}">Change history</a></p>
+{% endif %}
+
+<p class="actions">
+  {% if p.pdf %}<a class="btn" href="{{ p.pdf }}">Open PDF</a>{% endif %}
+  {% if p.bibtex %}<a class="btn" href="#cite">Cite</a>{% endif %}
+  <a class="btn" href="{{ links.report }}">Report a problem</a>
+  <a class="btn" href="{{ links.reference }}">Add a reference or comment</a>
+  <a class="btn" href="{{ links.interest }}">Interested in working on this</a>
+</p>
+<p class="secondary"><a href="{{ links.notes_edit }}">Edit NOTES.md</a> · <a href="{{ links.issues }}">Existing issues</a> · <a href="{{ links.source }}">Source on GitHub</a></p>
+
+{% if p.abstract %}
+<section><h2>Abstract</h2><p>{{ p.abstract|html|safe }}</p></section>
+{% endif %}
+
+{% if p.pdf and p.status != "withdrawn" %}
+<section class="pdf">
+  <iframe src="{{ p.pdf }}" title="PDF of the manuscript" loading="lazy"></iframe>
+  <p class="small">If the PDF does not display here, open it directly: <a href="{{ p.pdf }}">Open PDF</a>.</p>
+</section>
+{% endif %}
+
+<section id="notes"><h2>Notes</h2>
+{% if p.has_notes %}
+<div class="notes">{{ p.notes_md|notes(p.slug)|safe }}</div>
+{% else %}
+<p class="empty">No notes yet. Add a reference, a comment or your name with the buttons above, or edit <a href="{{ links.notes_edit }}">NOTES.md</a> on GitHub.</p>
+{% endif %}
+</section>
+
+{% if agent %}
+<section>
+<details class="agent">
+<summary><h2>Automatically collected notes (unreviewed)</h2> <span class="mk">work in progress</span></summary>
+<p class="disclaimer">Collected automatically by AI tools{% if agent[0] %} ({{ agent[0] }}){% endif %} and not checked by a person. May be wrong or incomplete. <a href="{{ links.report }}">Report an error</a>.</p>
+<div class="notes">{{ agent[1]|notes(p.slug)|safe }}</div>
+</details>
+</section>
+{% endif %}
+
+{% if elsewhere or fam %}
+<section><h2>Elsewhere</h2>
+<ul class="plist">
+{% for e in elsewhere %}<li>{{ e.source }}: <a href="{{ e.url }}">{{ e.title|html|safe }}</a>{% if e.note %} <span class="date">({{ e.note }})</span>{% endif %}</li>
+{% endfor %}
+{% if fam %}<li>Emergent Mind: <a href="https://www.emergentmind.com/openai-math-explorer/results/{{ fam.num }}">family {{ fam.num }}</a></li>{% endif %}
+</ul>
+<p class="small">Independent sites; their content is not reviewed here.</p>
+</section>
+{% endif %}
+
+{% if p.bibtex %}
+<section id="cite"><h2>Cite</h2>
+<div class="cite"><button type="button" class="copy" hidden>Copy BibTeX</button><pre><code>{{ p.bibtex }}</code></pre></div>
+</section>
+{% endif %}
+
+{% if p.older or version_note %}
+<section><h2>Versions</h2>
+<ul class="plist">{% for o in p.older %}<li>Earlier edition: <a href="../{{ o }}/">{{ papers[o].date }}</a></li>{% endfor %}</ul>
+{% if version_note %}{{ version_note|md(p.slug)|safe }}{% endif %}
+</section>
+{% endif %}
+
+{% if other_readme %}
+<section class="readme"><p class="small">From OpenAI's README for this paper:</p>{{ other_readme|md(p.slug)|safe }}</section>
+{% endif %}
+
+{% if fam and fam.lean_doc %}
+<section><h2>Lean formalization</h2>
+<p>OpenAI provides Lean files for this family: <a href="{{ GITHUB }}/blob/{{ BRANCH }}/{{ fam.lean_doc }}">{{ fam.lean_doc }}</a>. The Lean statements have not been checked by people against the paper's claims.</p>
+</section>
+{% endif %}
+
+{% if fam %}
+<section><h2>Family {{ fam.num }}: {{ fam.title|html|safe }}</h2>
+<p class="summary">{{ fam.summary_text|html|safe }}</p>
+{% if siblings %}
+<p>Other papers in this family:</p>
+<ul class="plist">{% for s in siblings %}{{ paper_line(s, papers, "../") }}{% endfor %}</ul>
+{% else %}
+<p>This is the only paper in this family.</p>
+{% endif %}
+</section>
+{% endif %}
+{% endblock %}
