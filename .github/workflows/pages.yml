@@ -1,0 +1,53 @@
+name: Website
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "preprints/**"
+      - "site/**"
+      - "lean/docs/**"
+      - "CONTENTS.md"
+      - "overview.tex"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Only the files the site is built from; the Lean library is not needed.
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            preprints
+            site
+            lean/docs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install jinja2==3.1.6 markdown==3.10.2 nh3==0.3.7
+      - run: python site/build.py --out _site --pdfs copy
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

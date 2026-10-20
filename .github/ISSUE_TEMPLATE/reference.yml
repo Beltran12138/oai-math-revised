@@ -1,0 +1,41 @@
+name: Add a reference, follow-up work or comment
+description: A missing citation, related prior work, a follow-up paper or exposition, or a review of a manuscript.
+title: "[reference] "
+labels: ["reference"]
+body:
+  - type: input
+    id: paper
+    attributes:
+      label: Paper
+      description: Folder name under preprints/ (filled in when you come from the site).
+      placeholder: The-circulant-Hadamard-conjecture-September-23-2026
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What are you adding?
+      options:
+        - Missing citation or related prior work
+        - Follow-up work (paper, note, talk, exposition)
+        - Review or comment (yours or someone else's)
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Links and context
+      description: Links plus a sentence on how it relates to the paper. For someone else's comment, link to it or confirm you have their permission to reproduce it. Please say if AI tools were used to find or write this.
+    validations:
+      required: true
+  - type: dropdown
+    id: ai_assist
+    attributes:
+      label: May maintainers use AI tools to draft the corresponding edit (citation, NOTES.md entry)?
+      description: A person reviews any draft before it is proposed. Choose "No" if you want human-written drafts only.
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true

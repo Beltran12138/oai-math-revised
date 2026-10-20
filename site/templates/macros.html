@@ -1,0 +1,14 @@
+{% macro markers(p, papers, fam=None) -%}
+{% if p.status == "withdrawn" %}<span class="mk mk-strong">Withdrawn</span>{% endif %}
+{% if p.status == "superseded" %}<span class="mk">Earlier edition</span>{% endif %}
+{% if p.community_revised %}<span class="mk">Community-revised</span>{% endif %}
+{% if p.has_notes %}<span class="mk" title="Has community notes.">Notes</span>{% endif %}
+{%- endmacro %}
+
+{% macro paper_line(p, papers, prefix) -%}
+<li data-slug="{{ p.slug }}"{% if p.status == "superseded" %} class="earlier" hidden{% endif %}><a href="{{ prefix }}{{ p.slug }}/">{{ p.title|html|safe }}</a> <span class="date">· {{ p.date }}</span> {{ markers(p, papers) }}</li>
+{%- endmacro %}
+
+{% macro lean_marker(fam) -%}
+{% if fam.lean_doc %}<span class="mk" title="Lean files exist for this result; the Lean statements have not been checked by people against the paper.">Lean</span>{% endif %}
+{%- endmacro %}

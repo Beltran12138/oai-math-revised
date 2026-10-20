@@ -1,0 +1,36 @@
+name: Report a problem or suggest a correction
+description: An error, gap, unclear step, missing hypothesis or wrong citation in a manuscript.
+title: "[problem] "
+labels: ["problem"]
+body:
+  - type: input
+    id: paper
+    attributes:
+      label: Paper
+      description: Folder name under preprints/ (filled in when you come from the site).
+      placeholder: The-circulant-Hadamard-conjecture-September-23-2026
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Where in the paper
+      description: Section, theorem, lemma, equation or page.
+      placeholder: Lemma 4.2, p. 11
+  - type: textarea
+    id: details
+    attributes:
+      label: What is wrong, or what should change
+      description: Be as specific as you can. Please say if AI tools were used to find or write this.
+    validations:
+      required: true
+  - type: dropdown
+    id: ai_assist
+    attributes:
+      label: May maintainers use AI tools to draft a proposed fix for this issue?
+      description: A person reviews any draft before it is proposed. Choose "No" if you want human-written drafts only.
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
