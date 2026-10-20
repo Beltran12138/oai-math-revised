@@ -19,5 +19,5 @@ Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a huma
 - [Elias Gabriel Minian, Kevin Ivan Piterman, *The fundamental group of the p-subgroup complex*](https://arxiv.org/abs/1903.03549) (arXiv:1903.03549, 2019). Studies the homotopy type (fundamental group) of the same p-subgroup complexes, giving background on their topology beyond rational homology.
 - [Stephen D. Smith, *Subgroup Complexes*](https://homepages.math.uic.edu/~smiths) (AMS Mathematical Surveys and Monographs 179, 2011; listed on the author's homepage). Standard expository reference on p-subgroup complexes and Quillen's conjecture.
 
-## Coverage
-- [Emergent Mind, *OpenAI Math Explorer: result 310*](https://www.emergentmind.com/openai-math-explorer/results/310) (catalogue page, October 2026). Third-party catalogue entry with an AI-generated explainer; no commentary specific to this manuscript was found elsewhere.
+## News and blogs
+- None found.

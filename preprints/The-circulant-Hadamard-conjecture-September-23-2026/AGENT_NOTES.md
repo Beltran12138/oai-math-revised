@@ -23,6 +23,5 @@ Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a huma
 - [Barry Hurley, Paul Hurley, Ted Hurley, *The Hadamard circulant conjecture*](https://arxiv.org/abs/1109.0748) (arXiv:1109.0748, 2011). An earlier claimed proof of the same conjecture, not among the claimed proofs listed in the manuscript's bibliography.
 - [Peter Borwein, Michael J. Mossinghoff, *Wieferich pairs and Barker sequences, II*](https://arxiv.org/abs/1306.0045) (LMS J. Comput. Math., 2014; arXiv:1306.0045). Computational lower bounds and candidate lengths for long Barker sequences, which the manuscript's Barker corollary would supersede.
 
-## Coverage
-- [Emergent Mind, *OpenAI Math Explorer: result 179*](https://www.emergentmind.com/openai-math-explorer/results/179) (catalogue page, October 2026). Third-party catalogue entry with an AI-generated explainer and links to the manuscript and Lean files.
-- [lance.fortnow.com (no author named), *OpenAI Math: TCS Selection*](https://lance.fortnow.com/openai-math-tcs.htm) (2026-10-15). Curated catalogue that lists family 179 among combinatorics results.
+## News and blogs
+- None found.

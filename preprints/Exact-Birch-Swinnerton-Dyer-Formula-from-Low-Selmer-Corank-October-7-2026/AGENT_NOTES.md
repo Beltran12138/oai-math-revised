@@ -19,7 +19,5 @@ Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a huma
 - [David Loeffler's comment naming Skinner, Castella and Burungale](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/#comment-28525) (2026-10-09). Points to prior work by these authors on BSD in analytic rank ≤ 1 as the relevant comparison.
 - [VibeMathed entry citing Gross–Zagier, Kolyvagin, Skinner–Urban, Jetchev–Skinner–Wan, Rubin, Burungale–Flach](https://vibemathed.com/problem/bsd-formula-selmer-corank-one) (2026-10-07). Lists these as the earlier partial leading-term results under reduction, residual or CM hypotheses.
 
-## Coverage
+## News and blogs
 - [Mike Pearl, *OpenAI Dumps 377 New Math Results on GitHub…*, Gizmodo](https://gizmodo.com/openai-dumps-377-new-math-results-on-github-publishes-hand-wringing-blog-post-2000822613) (2026-10-06). News article that describes this paper's claim as an example from the release.
-- [VibeMathed, *The Birch-Swinnerton-Dyer formula in Selmer corank at most one*](https://vibemathed.com/problem/bsd-formula-selmer-corank-one) (2026-10-07, updated 2026-10-08). Registry entry listing the result as a partial result, unreviewed.
-- [Emergent Mind, OpenAI Math Explorer result 002](https://www.emergentmind.com/openai-math-explorer/results/002) (2026-10). Aggregator page for family 002.

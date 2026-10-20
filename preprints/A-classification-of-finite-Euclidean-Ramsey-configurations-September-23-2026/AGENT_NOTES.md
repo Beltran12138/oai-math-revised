@@ -23,6 +23,5 @@ Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a huma
 - [Gábor Damásdi, Nóra Frankl, János Pach, Dömötör Pálvölgyi, *Monochromatic configurations on a circle*](https://arxiv.org/abs/2504.10687) (arXiv:2504.10687, 2025). Studies monochromatic inscribed configurations under colourings of a circle, a related setting for cyclic configurations.
 - [R. Baber et al., *A collection of open problems in celebration of Imre Leader's 60th birthday*](https://arxiv.org/abs/2310.18163) (arXiv:2310.18163, 2023). Problem collection by Leader's students that includes discussion of the Leader–Russell–Walters subtransitivity conjecture.
 
-## Coverage
-- [Emergent Mind, *OpenAI Math Explorer: result 172*](https://www.emergentmind.com/openai-math-explorer/results/172) (catalogue page, October 2026). Third-party catalogue entry with an AI-generated explainer that tags the Leader–Russell–Walters conjecture as "Disproved".
-- [lance.fortnow.com (no author named), *OpenAI Math: TCS Selection*](https://lance.fortnow.com/openai-math-tcs.htm) (2026-10-15). Curated catalogue that lists family 172 among combinatorics results.
+## News and blogs
+- None found.

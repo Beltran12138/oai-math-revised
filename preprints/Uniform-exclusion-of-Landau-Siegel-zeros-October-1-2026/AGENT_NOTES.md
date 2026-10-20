@@ -25,7 +25,5 @@ Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a huma
 - [Masser (1981 zero estimate), Laurent (interpolating polynomials), Bombieri–Vaaler (Siegel's lemma), Stepanov's method, named in Tao's sketch](https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/) (2026-10-19). Tao lists these as the classical tools the argument is related to.
 - [whataifound.org entry comparing with Siegel (1935) and Yitang Zhang's 2022 preprint](https://whataifound.org/finding/2026-10-06-quasi-riemann-hypothesis) (2026-10-07). Notes the paper gives no explicit constant and contrasts it with Siegel's ineffective bound and Zhang's weaker claimed bound.
 
-## Coverage
+## News and blogs
 - [Peter Hall and Joseph Howlett, *The most exciting claims from OpenAI's heap of new proofs*, Scientific American](https://www.scientificamerican.com/article/the-most-exciting-claims-from-openais-heap-of-new-proofs/) (2026-10-08). News overview that covers the no-Siegel-zero claim.
-- [whataifound.org, quasi-Riemann hypothesis entry](https://whataifound.org/finding/2026-10-06-quasi-riemann-hypothesis) (2026-10-07). Registry entry that lists this paper with verification graded "Claimed".
-- [Emergent Mind, OpenAI Math Explorer result 003](https://www.emergentmind.com/openai-math-explorer/results/003) (2026-10). Aggregator page listing this paper with the family's Lean files and X reactions.

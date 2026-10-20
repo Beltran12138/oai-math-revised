@@ -15,8 +15,6 @@ Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a huma
 ## Related prior literature mentioned by others
 - [Marcus Kühn, Lisa Sauermann, Raphael Steiner, Yuval Wigderson, *Disproof of the Odd Hadwiger Conjecture*](https://arxiv.org/abs/2512.20392) (arXiv:2512.20392, 2025-12-23). Earlier disproof of the odd-minor strengthening, which Kalai's post connects to this result (the manuscript also cites it).
 
-## Coverage
+## News and blogs
 - [Wikipedia, *Hadwiger conjecture (graph theory)*](https://en.wikipedia.org/wiki/Hadwiger_conjecture_%28graph_theory%29) (accessed 2026-10-20). States that an October 2026 OpenAI bulk release included a claimed disproof.
 - [Elena Varga, LavX News](https://news.lavx.hu/article/openai-dumps-100-plus-mathematical-preprints-on-github-including-counterexamples-to-major-conjectures) (2026-10-07). News article listing this counterexample among the release's unverified claims.
-- [VibeMathed, *Hadwiger's Conjecture*](https://vibemathed.com/problem/hadwiger-conjecture) (2026-10-07, updated 2026-10-08). Registry entry marking the result as a candidate, Lean-checked for the headline statement only.
-- [Emergent Mind, OpenAI Math Explorer result 157](https://www.emergentmind.com/openai-math-explorer/results/157) (2026-10). Aggregator page for family 157.

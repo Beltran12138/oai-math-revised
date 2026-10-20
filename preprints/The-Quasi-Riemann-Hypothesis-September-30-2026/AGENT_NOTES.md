@@ -28,9 +28,7 @@ Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a huma
 ## Related prior literature mentioned by others
 - [Hooley (Artin's conjecture), Stark and Odlyzko (discriminant bounds), Vinogradov–Korobov zero-free regions, named in Persiflage's post and comments](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/) (2026-10-08). Discussed as the classical context for applications and for prior zero-free regions.
 
-## Coverage
+## News and blogs
 - [Peter Hall and Joseph Howlett, Scientific American](https://www.scientificamerican.com/article/the-most-exciting-claims-from-openais-heap-of-new-proofs/) (2026-10-08). News overview leading with the quasi-RH claim.
 - [David H. Bailey, *OpenAI stuns mathematicians with 722 new papers*, Math Scholar](https://mathscholar.org/2026/10/openai-stuns-mathematicians-with-722-new-papers/) (2026-10-07, updated 2026-10-19). Blog coverage describing the 7/8 and 11/12 results.
 - [Zvi, *New Math from OpenAI*, LessWrong](https://www.lesswrong.com/posts/eyqxBuxXCaamNSxBB/new-math-from-openai) (2026-10-09). Roundup explaining quasi-RH applications and collecting reactions.
-- [whataifound.org, quasi-Riemann hypothesis entry](https://whataifound.org/finding/2026-10-06-quasi-riemann-hypothesis) (2026-10-07). Registry entry grading verification as "Claimed".
-- [Emergent Mind, OpenAI Math Explorer result 003](https://www.emergentmind.com/openai-math-explorer/results/003) (2026-10). Aggregator page for family 003.

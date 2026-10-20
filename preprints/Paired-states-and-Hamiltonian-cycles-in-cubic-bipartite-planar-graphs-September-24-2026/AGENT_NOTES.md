@@ -29,9 +29,6 @@ Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a huma
 - [Bojan Mohar, *Barnette's Conjecture* (problem page)](https://users.fmf.uni-lj.si/mohar/Problems/P4BarnetteConjecture.html) (University of Ljubljana, undated). Problem page recording the Holton–Manvel–McKay computer verification (1985) and a 2002 announcement by Aldred, Brinkmann and McKay extending it to 84 vertices.
 - [Lennart Rudolph, *A Counterexample to Prescribed-Cycle Recovery in Barnette Graphs*](https://zenodo.org/records/21890733) (Zenodo, 2026-08-11). AI-assisted note giving a 16-vertex Barnette graph whose particular Hamiltonian cycle cannot be produced by a known book-embedding algorithm, relevant to which cycles constructive methods can reach.
 
-## Coverage
+## News and blogs
 - [Hacker News, *Sharing AI progress in mathematics*](https://news.ycombinator.com/item?id=49984923) (2026-10-06). Main discussion thread of the release, where most of the Barnette-specific comments above appear.
-- [whataifound.org, *Proof of Barnette's conjecture on Hamiltonian cycles in cubic bipartite planar graphs*](https://whataifound.org/finding/2026-10-06-barnette-conjecture) (entry added 2026-10-12). Registry entry grading the result "Claimed" and "AI-led", noting no outside check or audit of the Lean statement's encoding of planarity and 3-connectivity had been found.
 - [Brandon Harvey, *What happened in math on October 6*](https://kraken.substack.com/p/what-happened-in-math-on-october) (Substack, 2026-10-08). Newsletter that quotes a post relaying the Hacker News reaction to the Barnette proof.
-- [Emergent Mind, *OpenAI Math Explorer: result 180*](https://www.emergentmind.com/openai-math-explorer/results/180) (catalogue page, October 2026). Third-party catalogue entry with an AI-generated explainer.
-- [lance.fortnow.com (no author named), *OpenAI Math: TCS Selection*](https://lance.fortnow.com/openai-math-tcs.htm) (2026-10-15). Curated catalogue that lists family 180 among combinatorics results.

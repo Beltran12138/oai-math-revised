@@ -16,7 +16,5 @@ Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a huma
 - [Zhi-Wei Sun, *Catalan's constant is irrational*](https://arxiv.org/abs/2609.04176) (arXiv:2609.04176, 2026-09-03). Earlier preprint claiming the same result; the VibeMathed entry notes the OpenAI manuscript says it uses nothing from it.
 - [Rivoal–Zudilin (2003) and Zudilin (2003), cited in the VibeMathed entry](https://vibemathed.com/problem/catalan-constant-irrational) (2026-10-07). Listed as the main prior results on irrationality of Dirichlet beta values and Apéry-like approximations to G.
 
-## Coverage
+## News and blogs
 - [David H. Bailey, *OpenAI stuns mathematicians with 722 new papers*, Math Scholar](https://mathscholar.org/2026/10/openai-stuns-mathematicians-with-722-new-papers/) (2026-10-07, updated 2026-10-19). Blog coverage mentioning the Catalan irrationality claim and its history.
-- [VibeMathed, *Irrationality of Catalan's constant*](https://vibemathed.com/problem/catalan-constant-irrational) (2026-10-07). Registry entry marking the result as a candidate, review pending.
-- [Emergent Mind, OpenAI Math Explorer result 005](https://www.emergentmind.com/openai-math-explorer/results/005) (2026-10). Aggregator page for family 005.
