@@ -17,6 +17,7 @@
 
   function setupCopy() {
     document.querySelectorAll(".cite .copy").forEach(function (btn) {
+      btn.hidden = false;
       btn.addEventListener("click", function () {
         var text = btn.parentElement.querySelector("code").textContent;
         navigator.clipboard.writeText(text).then(function () {
@@ -40,7 +41,8 @@
     var q = document.getElementById("q");
     if (!q) return;
     var browse = document.getElementById("browse");
-    var fd = document.getElementById("fd"), fn = document.getElementById("fn");
+    var fd = document.getElementById("fd");
+    var fn = document.getElementById("fn") || { checked: false, addEventListener: function () {} };
     var fl = document.getElementById("fl"), fo = document.getElementById("fo");
     var count = document.getElementById("count"), empty = document.getElementById("empty");
     var clearwrap = document.getElementById("clearwrap");
@@ -57,7 +59,7 @@
     link("expand", function () { discs.forEach(function (d) { if (!d.hidden) d.open = true; }); });
     link("collapse", function () { discs.forEach(function (d) { d.open = false; }); });
     link("clear", function () {
-      q.value = ""; fd.value = ""; fn.checked = fl.checked = false; update();
+      q.value = ""; fd.value = ""; fn.checked = fl.checked = fo.checked = false; update();
     });
 
     function matches(p, terms) {
@@ -65,7 +67,7 @@
       if (fn.checked && !p.n) return false;
       if (fl.checked && !p.l) return false;
       return terms.every(function (t) {
-        if (/^\d{1,3}$/.test(t) && p.f === ("00" + t).slice(-3)) return true;
+        if (/^\d{1,3}$/.test(t)) return p.f === ("00" + t).slice(-3);  // a bare number is a family number
         return p.hay.indexOf(t) >= 0;
       });
     }
@@ -73,7 +75,8 @@
     function update() {
       var terms = norm(q.value).split(/\s+/).filter(Boolean);
       var active = terms.length > 0 || !!fd.value || fn.checked || fl.checked;
-      clearwrap.hidden = !active;
+      clearwrap.hidden = !(active || fo.checked);
+      browse.querySelectorAll(".count").forEach(function (c) { c.hidden = active; });
       if (active && !index) {
         count.textContent = "Loading…";
         if (!loading) {
@@ -114,7 +117,7 @@
       wd.hidden = !wd.querySelector("li:not([hidden])");
       var nFams = Object.keys(fams).length;
       if (!active) {
-        count.textContent = defaultCount;
+        count.textContent = defaultCount + (fo.checked ? ", " + count.dataset.earlier + " earlier editions shown" : "");
       } else {
         count.textContent = nFams + (nFams === 1 ? " family, " : " families, ") + nPapers + (nPapers === 1 ? " manuscript matches" : " manuscripts match");
       }

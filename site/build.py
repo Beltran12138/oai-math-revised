@@ -23,7 +23,7 @@ import markdown
 import nh3
 from jinja2 import Environment, FileSystemLoader, pass_context, select_autoescape
 
-from catalog import load
+from catalog import _date_from_slug, load
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE_SRC = Path(__file__).resolve().parent
@@ -117,6 +117,16 @@ def render_notes(text: str, slug: str | None = None, root: str = ".") -> str:
             continue
         kept.append(block)
     return render_md("".join(kept), slug, root)
+
+
+def split_agent_notes(text: str | None) -> tuple[str, str] | None:
+    """Pull the "Collected by an AI agent (tool) on date." line out of AGENT_NOTES.md."""
+    if text is None:
+        return None
+    m = re.search(r"^Collected by an AI agent \(([^)]*)\) on (\d{4}-\d{2}-\d{2})\..*$", text, flags=re.M)
+    if not m:
+        return "", text
+    return f"{m.group(1)}, {m.group(2)}", text[:m.start()] + text[m.end():]
 
 
 def slugify(text: str) -> str:
@@ -219,7 +229,9 @@ def build(out: Path, pdf_mode: str) -> None:
         path.write_text(env.get_template(template).render(**ctx), encoding="utf-8")
 
     write(out / "index.html", "index.html", root=".", disciplines=disciplines,
-          families=families, papers=papers, withdrawn=withdrawn, earlier=earlier)
+          families=families, papers=papers, withdrawn=withdrawn, earlier=earlier,
+          n_with_notes=sum(p.has_notes for p in papers.values()),
+          n_earlier=sum(p.status == "superseded" for p in papers.values()))
     write(out / "contribute" / "index.html", "contribute.html", root="..")
 
     index = []
@@ -228,12 +240,14 @@ def build(out: Path, pdf_mode: str) -> None:
         current = newest(slug)
         siblings = [papers[s] for s in fam.papers if s not in (slug, current)] if fam else []
         version_note, other_readme = split_readme(p.readme_extra) if p.status != "withdrawn" else ("", "")
+        # Issues and notes for an earlier edition belong to the current one.
+        target = papers[current]
         links = {
-            "report": issue_url("problem", slug, plain(p.title)),
-            "reference": issue_url("reference", slug, plain(p.title)),
-            "interest": issue_url("interest", slug, plain(p.title)),
-            "notes_edit": notes_edit_url(slug, p.notes_md is not None),
-            "issues": issues_search_url(slug),
+            "report": issue_url("problem", current, plain(target.title)),
+            "reference": issue_url("reference", current, plain(target.title)),
+            "interest": issue_url("interest", current, plain(target.title)),
+            "notes_edit": notes_edit_url(current, target.notes_md is not None),
+            "issues": issues_search_url(current),
             "source": f"{GITHUB}/tree/{BRANCH}/preprints/{slug}",
             "upstream": f"{UPSTREAM}/tree/main/preprints/{slug}",
             "upstream_pdf": f"{UPSTREAM}/blob/main/preprints/{slug}/{p.pdf}",
@@ -241,7 +255,8 @@ def build(out: Path, pdf_mode: str) -> None:
         }
         write(out / "papers" / slug / "index.html", "paper.html", root="../..", p=p, fam=fam,
               siblings=siblings, papers=papers, links=links, current=current,
-              version_note=version_note, other_readme=other_readme)
+              version_note=version_note, other_readme=other_readme,
+              original_date=_date_from_slug(slug), agent=split_agent_notes(p.agent_notes_md))
         if p.pdf and pdf_mode != "none":
             src, dst = ROOT / "preprints" / slug / p.pdf, out / "papers" / slug / p.pdf
             if pdf_mode == "link":

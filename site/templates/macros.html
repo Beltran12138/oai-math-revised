@@ -10,5 +10,5 @@
 {%- endmacro %}
 
 {% macro lean_marker(fam) -%}
-{% if fam.lean_doc %}<span class="mk" title="Lean files exist for this result; the Lean statements have not been checked by people against the paper.">Lean</span>{% endif %}
+{% if fam.lean_doc %}<a class="mk" href="{{ GITHUB }}/blob/{{ BRANCH }}/{{ fam.lean_doc }}" title="Lean files exist for this result; the Lean statements have not been checked by people against the paper.">Lean</a>{% endif %}
 {%- endmacro %}

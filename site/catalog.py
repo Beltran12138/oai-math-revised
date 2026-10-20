@@ -36,6 +36,7 @@ class Paper:
     agent_notes_md: str | None = None
     tex_dir: str | None = None  # "build" if TeX sources are present
     withdrawn_on: str = ""
+    archived_pdf: str = ""  # pre-withdrawal PDF, for withdrawn papers
     community_revised: bool = False
 
     @property
@@ -54,6 +55,11 @@ class Family:
     discipline: str
     papers: list[str] = field(default_factory=list)
     lean_doc: str | None = None  # lean/docs/NNN.md, if present
+
+    @property
+    def summary_text(self) -> str:
+        """Summary without the trailing "([Lean](...))" pointer (shown as a marker instead)."""
+        return re.sub(r"\s*\(\[Lean\]\([^)]*\)\)", "", self.summary)
 
 
 @dataclass
@@ -140,6 +146,10 @@ def parse_readme(path: Path) -> dict:
     if m:
         info["older"] = re.findall(r"\]\(\.\./([^/]+)/", m.group(1))
     info["withdrawn"] = text.startswith("# [Withdrawal notice")
+    m = re.search(rf"Withdrawn on ({_DATE})", text)
+    info["withdrawn_on"] = m.group(1) if m else ""
+    m = re.search(r"## Archived manuscript\s*\n.*?\]\((https?://[^)]+)\)", text, flags=re.S)
+    info["archived_pdf"] = m.group(1) if m else ""
     # Keep everything after the citation block (version notes, verification
     # instructions, withdrawal text) for display on the paper page.
     parts = re.split(r"^(?=## )", text, flags=re.M)
@@ -148,6 +158,7 @@ def parse_readme(path: Path) -> dict:
         # The explanation of a withdrawal sits before the first heading.
         head = re.sub(r"\A# .*\n", "", parts[0])
         head = re.sub(r"\A\s*OpenAI\s*\n", "", head)
+        body = "".join(part for part in parts[1:] if not part.startswith(("## Citation", "## Archived manuscript")))
         head = re.sub(r"\A\s*\*\*Withdrawn on .*\*\*\s*\n", "", head)
         body = head + body
     info["extra"] = body.strip()
@@ -186,12 +197,13 @@ def load(root: Path):
         info = parse_readme(d / "README.md")
         if info.get("withdrawn"):
             p.status = "withdrawn"
-            m = re.search(rf"Withdrawn on ({_DATE})", info.get("extra", ""))
-            p.withdrawn_on = m.group(1) if m else ""
+            p.withdrawn_on = info.get("withdrawn_on", "")
+            p.archived_pdf = info.get("archived_pdf", "")
             p.title = re.sub(r"^Withdrawal notice:\s*", "", info.get("title", p.title))
             p.pdf = None  # the folder holds no manuscript; README links the archive
         p.author = info.get("author", p.author)
-        p.date = info.get("date") or _date_from_slug(slug)
+        # A withdrawal notice's only date is the withdrawal date.
+        p.date = (_date_from_slug(slug) if info.get("withdrawn") else info.get("date")) or _date_from_slug(slug)
         p.bibtex = info.get("bibtex", "")
         p.readme_extra = info.get("extra", "")
         if not info.get("withdrawn"):

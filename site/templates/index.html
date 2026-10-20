@@ -2,7 +2,7 @@
 {% from "macros.html" import paper_line, markers, lean_marker with context %}
 {% block main %}
 <p class="tagline">Community corrections, references, comments and reading groups for the OpenAI math manuscripts.</p>
-<p class="intro">OpenAI released 719 manuscripts produced by one of its models, grouped into 372 result families (<a href="{{ UPSTREAM }}">openai/math</a>). This site lists them by discipline with OpenAI's own summaries and abstracts, and collects corrections, references, comments and people who want to read them together. The manuscripts are not peer reviewed; the notes and issues record what has been checked, corrected or questioned so far.</p>
+<p class="intro">OpenAI released 719 manuscripts produced by one of its models, grouped into 372 result families (<a href="{{ UPSTREAM }}">openai/math</a>). This site lists them by discipline with OpenAI's own summaries and abstracts. The manuscripts are not peer reviewed; the notes and issues record what has been checked, corrected or questioned so far.</p>
 
 <div class="search">
   <input id="q" type="search" placeholder="Search titles, summaries, abstracts (e.g. Hadamard, Selmer, 003)" aria-label="Search" autocomplete="off">
@@ -10,12 +10,12 @@
     <summary>Filters</summary>
     <div class="frow">
       <label>Discipline <select id="fd"><option value="">All disciplines</option>{% for d in disciplines %}<option>{{ d.name }}</option>{% endfor %}</select></label>
-      <label><input type="checkbox" id="fn"> With community notes</label>
+      {% if n_with_notes %}<label><input type="checkbox" id="fn"> With community notes</label>{% endif %}
       <label><input type="checkbox" id="fl"> With Lean files</label>
       <label><input type="checkbox" id="fo"> Include earlier editions</label>
     </div>
   </details>
-  <p class="tools"><span id="count" role="status" aria-live="polite">372 families, 719 manuscripts</span>
+  <p class="tools"><span id="count" role="status" aria-live="polite" data-earlier="{{ n_earlier }}">372 families, 719 manuscripts</span>
     <span class="links"><a href="#" id="expand">Expand all</a> · <a href="#" id="collapse">Collapse all</a><span id="clearwrap" hidden> · <a href="#" id="clear">Clear filters</a></span></span></p>
   <p id="empty" class="empty" hidden></p>
 </div>
@@ -27,7 +27,7 @@
   {% for num in d.families %}{% set f = families[num] %}
   <div class="fam" id="family-{{ num }}" data-f="{{ num }}">
     <h3><span class="num">{{ num }}.</span> {{ f.title|html|safe }} {{ lean_marker(f) }}</h3>
-    <p class="summary">{{ f.summary|html|safe }}</p>
+    <p class="summary">{{ f.summary_text|html|safe }}</p>
     <ul class="plist">
     {% for s in f.papers %}{% set p = papers[s] %}
       {{ paper_line(p, papers, "papers/") }}
@@ -39,7 +39,7 @@
 </details>
 {% endfor %}
 <section class="withdrawn" id="withdrawn">
-  <h2>Withdrawn manuscripts ({{ withdrawn|length }})</h2>
+  <h2>Withdrawn manuscripts <span class="count">({{ withdrawn|length }})</span></h2>
   <ul class="plist">{% for p in withdrawn %}{{ paper_line(p, papers, "papers/") }}{% endfor %}</ul>
 </section>
 </div>
