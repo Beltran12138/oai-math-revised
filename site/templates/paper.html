@@ -58,6 +58,17 @@
 </section>
 {% endif %}
 
+{% if elsewhere or fam %}
+<section><h2>Elsewhere</h2>
+<ul class="plist">
+{% for e in elsewhere %}<li>{{ e.source }}: <a href="{{ e.url }}">{{ e.title|html|safe }}</a>{% if e.note %} <span class="date">({{ e.note }})</span>{% endif %}</li>
+{% endfor %}
+{% if fam %}<li>Emergent Mind: <a href="https://www.emergentmind.com/openai-math-explorer/results/{{ fam.num }}">family {{ fam.num }}</a></li>{% endif %}
+</ul>
+<p class="small">Independent sites; their content is not reviewed here.</p>
+</section>
+{% endif %}
+
 {% if p.bibtex %}
 <section id="cite"><h2>Cite</h2>
 <div class="cite"><button type="button" class="copy" hidden>Copy BibTeX</button><pre><code>{{ p.bibtex }}</code></pre></div>

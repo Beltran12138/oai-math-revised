@@ -9,6 +9,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import datetime
 import html
 import posixpath
@@ -221,6 +222,12 @@ def build(out: Path, pdf_mode: str) -> None:
         return slug
 
     earlier = {slug: chain_older(slug) for slug in papers}
+
+    # Links to other sites, curated in site/data/external_links.csv.
+    elsewhere: dict[str, list[dict]] = {}
+    with open(SITE_SRC / "data" / "external_links.csv", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            elsewhere.setdefault(row["paper"], []).append(row)
     for d in disciplines:
         d.n_papers = sum(len(families[n].papers) for n in d.families)
 
@@ -256,7 +263,8 @@ def build(out: Path, pdf_mode: str) -> None:
         write(out / "papers" / slug / "index.html", "paper.html", root="../..", p=p, fam=fam,
               siblings=siblings, papers=papers, links=links, current=current,
               version_note=version_note, other_readme=other_readme,
-              original_date=_date_from_slug(slug), agent=split_agent_notes(p.agent_notes_md))
+              original_date=_date_from_slug(slug), agent=split_agent_notes(p.agent_notes_md),
+              elsewhere=elsewhere.get(slug, []))
         if p.pdf and pdf_mode != "none":
             src, dst = ROOT / "preprints" / slug / p.pdf, out / "papers" / slug / p.pdf
             if pdf_mode == "link":

@@ -7,6 +7,7 @@ The website is generated from the files already in this repository:
 - `preprints/*/README.md`: dates, BibTeX, version notes, withdrawals
 - `preprints/*/NOTES.md` and `preprints/*/AGENT_NOTES.md`: notes shown on paper pages
 - `lean/docs/*.md`: links to Lean scope notes
+- `site/data/external_links.csv`: links to other sites per paper (shown under "Elsewhere"). Collected on 2026-10-20 from VibeMathed (dataset API), Hexagon (works whose bibliography cites the paper; human understanding "all" or "some"), Palomar (entries that formalize or adapt the paper), whataifound, Readable Intelligence and Lance Fortnow's expositions. Emergent Mind family pages are linked by URL pattern. Edit by hand or regenerate; do not scrape Emergent Mind (their terms forbid it).
 
 It is rebuilt and deployed to GitHub Pages by `.github/workflows/pages.yml` on every push to `main` that touches these files.
 
