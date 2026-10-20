@@ -20,6 +20,7 @@ main, .top, footer { max-width: 980px; margin: 0 auto; padding: 0 16px; }
 .top { display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; justify-content: space-between;
   padding-top: 18px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
 .brand { font-weight: 600; color: var(--fg); }
+.beta { font-size: 12px; font-weight: normal; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; padding: 0 5px; margin-left: 4px; vertical-align: 2px; }
 .top nav a { margin-left: 16px; }
 .top nav a:first-child { margin-left: 0; }
 footer { color: var(--muted); font-size: 14px; padding-top: 32px; padding-bottom: 32px; }

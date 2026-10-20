@@ -27,8 +27,12 @@ body:
   - type: textarea
     id: note
     attributes:
-      label: Anything useful for others (optional)
-      description: Background, availability, time zone, how to reach you.
+      label: How to get in touch
+      description: So that others can contact you about working together. This issue is public, so only share what you are happy to have public.
+      value: |
+        Name:
+        Website or email:
+        Background, availability, time zone (optional):
   - type: checkboxes
     id: consent
     attributes:

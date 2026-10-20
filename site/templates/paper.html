@@ -51,7 +51,7 @@
 {% if agent %}
 <section>
 <details class="agent">
-<summary><h2>Automatically collected notes (unreviewed)</h2></summary>
+<summary><h2>Automatically collected notes (unreviewed)</h2> <span class="mk">work in progress</span></summary>
 <p class="disclaimer">Collected automatically by AI tools{% if agent[0] %} ({{ agent[0] }}){% endif %} and not checked by a person. May be wrong or incomplete. <a href="{{ links.report }}">Report an error</a>.</p>
 <div class="notes">{{ agent[1]|notes(p.slug)|safe }}</div>
 </details>
