@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a human; may be incomplete or wrong. Corrections: open an issue.
+Collected by an AI agent (Claude Opus 5.5) on 2026-10-20.
 
 ## Follow-up works
 - [JD Jones, *Six concyclic points satisfy the Euclidean Ramsey tensor criterion, as does every spherical set of at most m + 4 points*](https://github.com/JD-Jones-ASES/six-concyclic-lean) (GitHub six-concyclic-lean; Palomar entry [PALOMAR-2026-10-07-000011](https://data.palomar-registry.org/entries/PALOMAR-2026-10-07-000011-v1.json), 2026-10-07). Lean development proving that six concyclic points (and spherical sets of at most m + 4 points) satisfy the manuscript's tensor criterion, giving the Ramsey property conditionally on the sufficiency half of the classification.
@@ -22,6 +22,9 @@ Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a huma
 - [Erdős Problems, *Problem #174*](https://www.erdosproblems.com/174) (erdosproblems.com, last edited 2025-10-16) and its [discussion thread](https://www.erdosproblems.com/forum/discuss/174). The problem asks for a characterisation of Ramsey sets and records both the spherical (Graham) and subtransitive (Leader–Russell–Walters) conjectures; as of this check the page lists it as open and does not mention the manuscript.
 - [Gábor Damásdi, Nóra Frankl, János Pach, Dömötör Pálvölgyi, *Monochromatic configurations on a circle*](https://arxiv.org/abs/2504.10687) (arXiv:2504.10687, 2025). Studies monochromatic inscribed configurations under colourings of a circle, a related setting for cyclic configurations.
 - [R. Baber et al., *A collection of open problems in celebration of Imre Leader's 60th birthday*](https://arxiv.org/abs/2310.18163) (arXiv:2310.18163, 2023). Problem collection by Leader's students that includes discussion of the Leader–Russell–Walters subtransitivity conjecture.
+
+## Digests and expositions
+- None found.
 
 ## News and blogs
 - None found.

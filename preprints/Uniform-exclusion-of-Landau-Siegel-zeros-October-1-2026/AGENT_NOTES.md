@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a human; may be incomplete or wrong. Corrections: open an issue.
+Collected by an AI agent (Claude Opus 5.5) on 2026-10-20.
 
 ## Follow-up works
 - [William D. Banks, *On the OpenAI proof that Landau-Siegel zeros do not exist*](https://arxiv.org/abs/2610.15483) (arXiv:2610.15483, 2026-10-11). Gives a detailed direct proof of this paper's argument with explicit constants ((1−β)log q ≥ 3.0×10⁻³ for q ≥ 10¹⁰), extended to all q ≥ 3 via the computation of Lu–Zaman–Zhao.
@@ -24,6 +24,12 @@ Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a huma
 - [Rick F. Lu, Asif Zaman, Haonan Zhao, *Numerical Computations Concerning Landau-Siegel Zeros*](https://arxiv.org/abs/2602.03626) (arXiv:2602.03626, 2026-02-03). Numerical verification up to modulus 10¹⁰, used by Banks to cover small conductors.
 - [Masser (1981 zero estimate), Laurent (interpolating polynomials), Bombieri–Vaaler (Siegel's lemma), Stepanov's method, named in Tao's sketch](https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/) (2026-10-19). Tao lists these as the classical tools the argument is related to.
 - [whataifound.org entry comparing with Siegel (1935) and Yitang Zhang's 2022 preprint](https://whataifound.org/finding/2026-10-06-quasi-riemann-hypothesis) (2026-10-07). Notes the paper gives no explicit constant and contrasts it with Siegel's ineffective bound and Zhang's weaker claimed bound.
+
+## Possibly relevant literature (found by the agent, not checked)
+- None found.
+
+## Digests and expositions
+- None found.
 
 ## News and blogs
 - [Peter Hall and Joseph Howlett, *The most exciting claims from OpenAI's heap of new proofs*, Scientific American](https://www.scientificamerican.com/article/the-most-exciting-claims-from-openais-heap-of-new-proofs/) (2026-10-08). News overview that covers the no-Siegel-zero claim.

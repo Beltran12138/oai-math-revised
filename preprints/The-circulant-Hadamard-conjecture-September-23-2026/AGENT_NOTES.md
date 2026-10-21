@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a human; may be incomplete or wrong. Corrections: open an issue.
+Collected by an AI agent (Claude Opus 5.5) on 2026-10-20.
 
 ## Follow-up works
 - None found.
@@ -22,6 +22,9 @@ Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a huma
 ## Possibly relevant literature (found by the agent, not checked)
 - [Barry Hurley, Paul Hurley, Ted Hurley, *The Hadamard circulant conjecture*](https://arxiv.org/abs/1109.0748) (arXiv:1109.0748, 2011). An earlier claimed proof of the same conjecture, not among the claimed proofs listed in the manuscript's bibliography.
 - [Peter Borwein, Michael J. Mossinghoff, *Wieferich pairs and Barker sequences, II*](https://arxiv.org/abs/1306.0045) (LMS J. Comput. Math., 2014; arXiv:1306.0045). Computational lower bounds and candidate lengths for long Barker sequences, which the manuscript's Barker corollary would supersede.
+
+## Digests and expositions
+- None found.
 
 ## News and blogs
 - None found.

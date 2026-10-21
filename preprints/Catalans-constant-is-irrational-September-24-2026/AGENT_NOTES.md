@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a human; may be incomplete or wrong. Corrections: open an issue.
+Collected by an AI agent (Claude Opus 5.5) on 2026-10-20.
 
 ## Follow-up works
 - [Sean Litsey, *An Irrationality Measure for Catalan's Constant*](https://hexagonmath.org/2610.00187) (hexagon:2610.00187, v5 2026-10-18). Extends this paper's proof to a quantitative irrationality measure μ(G) ≤ 740; labeled primarily AI-generated (Claude Opus 5.5 and GPT-6.1 Sol), with a claimed Lean 4 formalization.
@@ -15,6 +15,12 @@ Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a huma
 ## Related prior literature mentioned by others
 - [Zhi-Wei Sun, *Catalan's constant is irrational*](https://arxiv.org/abs/2609.04176) (arXiv:2609.04176, 2026-09-03). Earlier preprint claiming the same result; the VibeMathed entry notes the OpenAI manuscript says it uses nothing from it.
 - [Rivoal–Zudilin (2003) and Zudilin (2003), cited in the VibeMathed entry](https://vibemathed.com/problem/catalan-constant-irrational) (2026-10-07). Listed as the main prior results on irrationality of Dirichlet beta values and Apéry-like approximations to G.
+
+## Possibly relevant literature (found by the agent, not checked)
+- None found.
+
+## Digests and expositions
+- None found.
 
 ## News and blogs
 - [David H. Bailey, *OpenAI stuns mathematicians with 722 new papers*, Math Scholar](https://mathscholar.org/2026/10/openai-stuns-mathematicians-with-722-new-papers/) (2026-10-07, updated 2026-10-19). Blog coverage mentioning the Catalan irrationality claim and its history.

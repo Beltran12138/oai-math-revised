@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a human; may be incomplete or wrong. Corrections: open an issue.
+Collected by an AI agent (Claude Opus 5.5) on 2026-10-20.
 
 ## Follow-up works
 - [Ruihan Chen, *On the algebraic and analytic ranks of the twin-prime elliptic curve y²=x(x−2)(x−p)*](https://arxiv.org/abs/2610.09370) (arXiv:2610.09370, 2026-10-07). Computes 2^∞-Selmer coranks for this family and, assuming the low-corank BSD statement of this paper (cited in its October 3 version), deduces rank equality, finiteness of Sha and the exact leading-term formula in some congruence classes.
@@ -13,11 +13,17 @@ Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a huma
 - [Aran Nayebi, X post as listed on Emergent Mind](https://www.emergentmind.com/openai-math-explorer/results/002) (2026-10-06). Short reaction to BSD for a density-one set of twists (families 002 and 006); not a technical review.
 
 ## Formalization
-- None found. (The release has no Lean formalization for family 002.)
+- None found.
 
 ## Related prior literature mentioned by others
 - [David Loeffler's comment naming Skinner, Castella and Burungale](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/#comment-28525) (2026-10-09). Points to prior work by these authors on BSD in analytic rank ≤ 1 as the relevant comparison.
 - [VibeMathed entry citing Gross–Zagier, Kolyvagin, Skinner–Urban, Jetchev–Skinner–Wan, Rubin, Burungale–Flach](https://vibemathed.com/problem/bsd-formula-selmer-corank-one) (2026-10-07). Lists these as the earlier partial leading-term results under reduction, residual or CM hypotheses.
+
+## Possibly relevant literature (found by the agent, not checked)
+- None found.
+
+## Digests and expositions
+- None found.
 
 ## News and blogs
 - [Mike Pearl, *OpenAI Dumps 377 New Math Results on GitHub…*, Gizmodo](https://gizmodo.com/openai-dumps-377-new-math-results-on-github-publishes-hand-wringing-blog-post-2000822613) (2026-10-06). News article that describes this paper's claim as an example from the release.

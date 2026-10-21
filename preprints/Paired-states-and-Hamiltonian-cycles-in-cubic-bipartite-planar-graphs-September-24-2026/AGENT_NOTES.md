@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a human; may be incomplete or wrong. Corrections: open an issue.
+Collected by an AI agent (Claude Opus 5.5) on 2026-10-20.
 
 ## Follow-up works
 - None found.
@@ -28,6 +28,9 @@ Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a huma
 - [Jan Florek, *A sufficient condition for cubic 3-connected plane bipartite graphs to be hamiltonian*](https://arxiv.org/abs/2309.09578) (arXiv:2309.09578, 2023). Recent partial result on Barnette's conjecture generalizing Goodey's face-size condition.
 - [Bojan Mohar, *Barnette's Conjecture* (problem page)](https://users.fmf.uni-lj.si/mohar/Problems/P4BarnetteConjecture.html) (University of Ljubljana, undated). Problem page recording the Holton–Manvel–McKay computer verification (1985) and a 2002 announcement by Aldred, Brinkmann and McKay extending it to 84 vertices.
 - [Lennart Rudolph, *A Counterexample to Prescribed-Cycle Recovery in Barnette Graphs*](https://zenodo.org/records/21890733) (Zenodo, 2026-08-11). AI-assisted note giving a 16-vertex Barnette graph whose particular Hamiltonian cycle cannot be produced by a known book-embedding algorithm, relevant to which cycles constructive methods can reach.
+
+## Digests and expositions
+- None found.
 
 ## News and blogs
 - [Hacker News, *Sharing AI progress in mathematics*](https://news.ycombinator.com/item?id=49984923) (2026-10-06). Main discussion thread of the release, where most of the Barnette-specific comments above appear.

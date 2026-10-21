@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a human; may be incomplete or wrong. Corrections: open an issue.
+Collected by an AI agent (Claude Opus 5.5) on 2026-10-20.
 
 ## Follow-up works
 - [Baiying Liu, *Improved zero-free half-planes for the quasi-Riemann hypothesis*](https://arxiv.org/abs/2610.12234) (arXiv:2610.12234, v1 2026-10-08, v2 2026-10-12). Retunes three parameters of this paper's argument to lower the constant from 7/8 to about 0.874957, and states the result is formalized in Lean.
@@ -27,6 +27,12 @@ Collected by an AI agent (Claude Opus 5.5) on 2026-10-20. Not reviewed by a huma
 
 ## Related prior literature mentioned by others
 - [Hooley (Artin's conjecture), Stark and Odlyzko (discriminant bounds), Vinogradov–Korobov zero-free regions, named in Persiflage's post and comments](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/) (2026-10-08). Discussed as the classical context for applications and for prior zero-free regions.
+
+## Possibly relevant literature (found by the agent, not checked)
+- None found.
+
+## Digests and expositions
+- None found.
 
 ## News and blogs
 - [Peter Hall and Joseph Howlett, Scientific American](https://www.scientificamerican.com/article/the-most-exciting-claims-from-openais-heap-of-new-proofs/) (2026-10-08). News overview leading with the quasi-RH claim.
