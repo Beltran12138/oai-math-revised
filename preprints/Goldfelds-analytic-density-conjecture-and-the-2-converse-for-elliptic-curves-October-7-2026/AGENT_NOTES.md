@@ -1,0 +1,28 @@
+# Automatically collected context
+
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+
+## Follow-up works
+- [OpenAI, *The Selmer converse for elliptic curves at every prime*](https://github.com/openai/math/blob/main/preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/01-introduction.tex) (OpenAI Math Release companion manuscript, 7 October 2026). This companion uses the density paper’s 2-converse for the prime two and its analytic twist-density theorem to select auxiliary fields in the proposed odd-prime argument. [AI-generated per source]
+- [OpenAI, *Exact Birch–Swinnerton-Dyer Formula from Low Selmer Corank*](https://github.com/openai/math/blob/main/preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/sections/01-introduction.tex) (OpenAI Math Release companion manuscript, 7 October 2026). This companion invokes the analytic twist-density theorem to choose two imaginary quadratic fields in its proposed proof of the full BSD formula from low Selmer corank. [AI-generated per source]
+
+## Expert comments and discussion
+- [holimart, *Report: mod-8 congruence (eq. pw:split-mod8) in Lemma pw:split-witness fails numerically — Goldfeld / 2-converse manuscript*](https://github.com/holimart/math/issues/2) (GitHub issue #2, 8 October 2026). This report gives numerical failures of the displayed congruence while acknowledging that it is derived under an additional branch assumption and that the computations are not a counterexample to Theorem 1.1. [cites earlier version]
+- [borism, *Check of holimart/math#2: mod-8 congruence in Goldfeld 2-converse manuscript (numerics real, not a disproof)*](https://github.com/borism/openai-math-slop/issues/1) (GitHub issue #1 and discussion, 8 October 2026). This Claude-assisted check reproduces the congruence failures but reports equality witnesses for every explicitly named pair, and withdraws proposed local counterexamples because its prime-matching data did not capture the proof’s full finite quotient. [AI-generated per source] [cites earlier version]
+
+## Formalization
+- [mo271 (google-deepmind/formal-conjectures), *Wikipedia/EllipticCurveRank: `goldfeld_conjecture.variants.squarefree` is true*](https://github.com/google-deepmind/formal-conjectures/issues/6916) (issue #6916, opened 2026-10-07, open, label "solution found"). Proposes marking the squarefree Goldfeld statement in the Lean library as solved, citing the companion two-primary BSD manuscript, Smith's distribution theorem and this paper; maintainers reply (2026-10-08) that a status change requires consensus that the proof works, e.g. via formalization, peer review or a digest. [AI-generated per source]
+- [google-deepmind/formal-conjectures, *FormalConjectures/Wikipedia/EllipticCurveRank.lean*](https://raw.githubusercontent.com/google-deepmind/formal-conjectures/main/FormalConjectures/Wikipedia/EllipticCurveRank.lean) (Lean file, main branch, read 2026-10-21). Contains `goldfeld_conjecture` and `goldfeld_conjecture.variants.squarefree`, both tagged `research open`, stating the 1/2–1/2 density of ranks 0 and 1 for twists ordered by |d|; the `two_le` variant is marked solved via Smith (2025), with a docstring saying the analytic-rank version remains open.
+
+## Related prior literature mentioned by others
+- [Alexander Smith, *The Birch and Swinnerton-Dyer conjecture implies Goldfeld’s conjecture*](https://arxiv.org/abs/2503.17619) (arXiv:2503.17619, 22 March 2025). Formal-conjectures issue #6916 and the AI Proved What? family exposition both highlight this theorem on the half-densities of 2-power Selmer coranks zero and one as the statistical input combined with the 2-converse; the paper cites it as its Theorem 1.1 input.
+
+## Possibly relevant literature (found by the agent, not checked)
+- [Ashay Burungale and Ye Tian, *The even parity Goldfeld conjecture: congruent number elliptic curves*](https://arxiv.org/abs/2104.06732) (arXiv:2104.06732, 2021). An expository survey of progress on the analytic-rank-zero half of Goldfeld's conjecture in the congruent-number family, the CM case discussed in the paper's introduction alongside Burungale–Tian (2026).
+- [Jeffrey Hatley and Anwesh Ray, *Iwasawa theory and ranks of elliptic curves in quadratic twist families*](https://arxiv.org/abs/2412.07308) (arXiv:2412.07308, December 2024). Uses 2-adic Iwasawa invariants to produce rank-zero and rank-one quadratic twists with lower bounds close to the conjectured proportions, a 2-adic approach related to the paper's 2-converse and density results.
+
+## Digests and expositions
+- [AI Proved What?, *Half and half: Goldfeld’s conjecture for elliptic curve twists*](https://aiprovedwhat.com/episodes/006-goldfelds-conjecture-densities-mean-analytic/) (episode 006, October 2026; status checked 19 October 2026). This AI-assisted video and transcript explain the claimed 2-converse, the separate large-rank tail estimate needed for the mean, the signed-squarefree counting convention, and the numerical discussion of the density proof. [AI-generated per source] [family-level]
+
+## News and blogs
+- [Azmat (BinaryVerse AI), *Goldfeld’s Conjecture: Why OpenAI’s 50–50 Claim Could Change Number Theory*](https://binaryverseai.com/goldfeld-conjecture/) (blog post, 10 October 2026). A non-technical exposition of both manuscripts, separating Smith’s Selmer statistics, the proposed interpolation argument for the 2-converse, and the tail estimate required for mean analytic rank; the author reports finding no completed independent verification as of that date. [family-level]

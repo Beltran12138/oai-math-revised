@@ -1,0 +1,32 @@
+# Automatically collected context
+
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+
+## Follow-up works
+- [Rohan Arun and repository contributors, *van-der-waerden-refinement* (Conditional refinements of OpenAI's October 2026 math release)](https://github.com/rohanarun/van-der-waerden-refinement) (GitHub research draft, October 2026). Proposes replacing the paper's coefficient $10^{-5}$ by $1/25$, by $1/9$ as the headline value, and more generally any fixed $c<1/8$, conditional on the pinned OpenAI construction and stated additional inputs; the README says the work has had no independent human review or end-to-end formal verification. [AI-generated per source]
+- [1337isnot1337, *Conditional logarithmic endpoint bound and explicit c=1/9 threshold*](https://github.com/rohanarun/van-der-waerden-refinement/pull/12) (GitHub PR #12, 2026-10-16). With disclosed GPT-6 assistance, proposes $W_r(k)>(k^{1/8}/(e^{20}\log k))^{k\lfloor\log_2 r\rfloor}$ for $k\ge2^{1024}$ and $r\ge2$, conditional on the pinned OpenAI geometric counts and subsequent digit-rank refinements.
+
+## Expert comments and discussion
+- [Thomas Bloom (erdosproblems.com), *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10) (erdosproblems.com blog, 2026-10-08). Lists Problem 138 among the significant claims in the release, notes that Fox and Hunter proved such a bound for $r\ge3$, and says the 25-page PDF "appears to use similar methods to [FoHu26] (and various other earlier work)."
+
+## Formalization
+- [OpenAI, *lean/docs/160.md* (Lean scope note, mirrored by mathcommunity)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/160.md) (OpenAI math release, 2026-10-06). The release's scope note: the Lean development proves $W(r,k)>k^{k\lfloor\log_2 r\rfloor/100000}$ for all $k\ge K$, $r\ge2$, together with growth limits, finiteness and boundary values, but not the paper's sharper intermediate estimates.
+- [OpenAI, *ProgressionColoring/Main.lean*](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/ProgressionColoring/Main.lean) (github.com/openai/math, commit adc7f12). Contains `uniform_lower_bound`, `exists_uniform_lower_bound`, `kthRoot_tendsto` ($W_r(k)^{1/k}\to\infty$ for fixed $r$) and `length_rate_tendsto`; this file has no `sorry`, but it relies on imported modules.
+- [OpenAI, *QuantitativeVanDerWaerden.lean* (comparator statement)](https://github.com/openai/math/blob/main/lean/ComparatorChallenges/QuantitativeVanDerWaerden.lean) (github.com/openai/math). The standalone statement of `uniform_lower_bound`, with $W$ defined as an `sInf` and the proof left as `sorry` (as a comparator statement); this is the file linked from erdosproblems.com and Bloom's post.
+- [Google DeepMind formal-conjectures, *ErdosProblems/138.lean*](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/138.lean#L36) (formal-conjectures repository). Marks `erdos_138` ($\lim W(k)^{1/k}=\infty$) as solved, cites this paper as [OAI26], and links the OpenAI Lean proof as its formal proof; the quotient variant $W(k+1)/W(k)\to\infty$ is still marked open.
+- [Rohan Arun, *Add conditional proof reviews and partial Lean verification*](https://github.com/rohanarun/van-der-waerden-refinement/pull/10) (GitHub draft PR #10, 2026-10-13). Reports a Lean package checking selected geometric lemmas, digit identities, coloring transfers and parameter inequalities for the follow-up refinement, with the full lower-bound theorems and major counting and local-lemma arguments explicitly outside its coverage. [AI-generated per source]
+
+## Related prior literature mentioned by others
+- [Jacob Fox and Zach Hunter, *Three-color van der Waerden numbers grow super-exponentially*](https://arxiv.org/abs/2606.02541) (arXiv:2606.02541, 2026-06-01). Proves $W_3(k)>2^{k\log^*k/4}$ for sufficiently large $k$; Bloom's post, erdosproblems.com and the Open Mathematics Courses exposition cite it as the $r\ge3$ precursor whose methods the paper appears to share (already in the paper's bibliography).
+- [Marcelo Campos, Jacob Fox and Carl Schildkraut, *A new lower bound for two-color van der Waerden numbers*](https://arxiv.org/abs/2608.20824) (arXiv:2608.20824, 2026-08-21). Cited in the formal-conjectures entry, the erdosproblems.com forum and the Open Mathematics Courses exposition for $W_2(k)\ge(1-o(1))k2^{k-1}$, which settles $W_2(k)/2^k\to\infty$ (already in the paper's bibliography).
+
+## Possibly relevant literature (found by the agent, not checked)
+- [Thomas Blankenship, Jay Cummings and Vladislav Taranchuk, *A New Lower Bound for van der Waerden Numbers*](https://arxiv.org/abs/1705.09673) (arXiv:1705.09673, European J. Combin., 2017). Proves the multicolour Berlekamp-type bound $w(r,p+1)>p^{r-1}2^p$ for $r\le p$, relevant to the paper's survey of earlier $r$-colour lower bounds (Berlekamp, Kozik–Shabanov, Hunter).
+- [Haitao Cao, *An improved lower bound for the van der Waerden number $w(3,k)$*](https://arxiv.org/abs/2609.31798) (arXiv:2609.31798, 2026-09-25). Claims $w(3,k)\ge k^{\Omega(\log k)}$ for the asymmetric problem the paper places its squared-norm construction alongside (Green 2022, Hunter 2022).
+
+## Digests and expositions
+- [Open Mathematics Courses / Claude Opus 5.5, *Superexponential van der Waerden numbers*](https://kokunoyumeto.github.io/open-math-courses-public/courses/superexponential-van-der-waerden-numbers/) (online course, October 2026). Five lessons on the paper's circle coordinates, adaptive meshes, local-lemma coloring and norm-band perturbation, with exercises and solutions; the text identifies itself as AI-written and self-checked, with independent review incomplete. [AI-generated per source]
+
+## News and blogs
+- [OfficeChai Team, *OpenAI Has Also Included Proofs For 23 Erdos Problems In Its Latest Math Proof Drop*](https://officechai.com/ai/openai-has-also-included-proofs-for-23-erdos-problems-in-its-latest-math-proof-drop/) (OfficeChai, 2026-10-09). Describes Problem 138 as a claimed superexponential lower bound for two-colour van der Waerden numbers that has a Lean formalisation, and notes that Bloom had not yet checked the proofs.
+- [Alex Myers, *AI Digest: October 11th 2026*](https://armchairfuturist.substack.com/p/ai-digest-october-11th-2026) (Substack, 2026-10-11). Reports Rohan Arun's announced coefficient $1/25$ refinement of the van der Waerden bound as one outcome of community work following the OpenAI release.

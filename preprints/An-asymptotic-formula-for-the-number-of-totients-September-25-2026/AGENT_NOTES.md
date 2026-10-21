@@ -1,0 +1,35 @@
+# Automatically collected context
+
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+
+## Follow-up works
+- None found.
+
+## Expert comments and discussion
+- [Thomas Bloom, *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10) (erdosproblems.com blog, 8 October 2026). The entry for Problem 416 restates the claim that $V(cx)/V(x)\to c$ for every fixed $c>0$ (Erdős's question is the case $c=2$), notes that the proof has been formalised, and says it "appears to use many of the same techniques used by Ford (and others)".
+- [donteatllamas, comment on *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10) (erdosproblems.com forum, 10 October 2026). A forum user writes that "Erdős #416 implies an explicit bound for #417" and says they may write an exposition of the 416 proof.
+
+## Formalization
+- [OpenAI math release, *Lean scope notes for result 024*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/024.md) (lean/docs/024.md). Describes the scope of the release's formalization: the explicit main term with $V(x)/\text{mainTerm}(x)\to1$, $V(cx)/V(x)\to c$, and the least-preimage counts in $(kx,(k+1)x]$, including the zero case and positivity for $k=1,2$; it links the comparator files `TotientAsymptotic.lean` and `TotientCompanionZero.lean`. [family-level]
+- [OpenAI, *UnconditionalMain.lean*](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/TotientAsymptotic/UnconditionalMain.lean) (openai/math, commit adc7f12). Contains the release's headline Lean theorems `totient_asymptotic_formula`, `weighted_totient_asymptotic`, `weighted_totient_one_two` and `coefficient_nonnegative`, each derived from conditional results in imported modules (`FordInputs`, `PPTFixedBandLimit`).
+- [Plasma AI / Erdős Problems, *OpenAI's fixed-scale limit for the totient count*](https://erdosproblems.ai/wiki/problems/arithmetic_functions/E0416/claims/2026_09_25_openai) (verification report, 2026-10-07). The report records rebuilding the release's solution and comparator, matching their statement fingerprints, and obtaining only `propext`, `Classical.choice`, and `Quot.sound` for `totient_asymptotic_formula`; it distinguishes these checks from outside review or refereeing. [family-level]
+- [Google DeepMind formal-conjectures, *FormalConjectures/ErdosProblems/416.lean*](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/416.lean) (formal-conjectures). Independent Lean statements of Erdős Problem 416: `erdos_416.parts.i` ($V(2x)/V(x)\to2$) and `erdos_416.variants.regularly_varying` are tagged solved and cite this paper; `erdos_416.parts.ii` (asymptotic formula) is still tagged open.
+- [mo271, *feat: mark problems solved in the OpenAI math release and link formal proofs*](https://github.com/google-deepmind/formal-conjectures/pull/6898) (formal-conjectures PR #6898, merged 11 October 2026). Marks 416 part (i) solved and adds the regular-variation variant with a proof link; part (ii) is left open because its main term needs many auxiliary definitions. [family-level]
+- [mo271, *ErdosProblems/416: `erdos_416.parts.ii` has an explicit asymptotic formula*](https://github.com/google-deepmind/formal-conjectures/issues/6907) (formal-conjectures issue #6907, opened 7 October 2026). Proposes porting the paper's `mainTerm` definitions (about 25 auxiliary definitions) so that part (ii) can be marked solved; the issue says the comparison was prepared with AI assistance. [AI-generated per source]
+- [JenW1N via conjectures.io, *Erdős problem 416 — part i: the proof*](https://conjectures.io/results/51923647-3c0d-418e-b330-aa595f5cad42/solution) (Lean submission, certified 2026-09-16; listed as a proof claim on [erdosproblems.com](https://www.erdosproblems.com/forum/thread/416/proof-claims) on 27 September 2026). An earlier, separate Lean 4 development claiming $V(2x)/V(x)\to2$, a special case of the paper's regular-variation claim, without its explicit asymptotic formula; the page does not mention OpenAI, and the erdosproblems.com listing says the proof has not been verified.
+
+## Related prior literature mentioned by others
+- [Paul Erdős, *Remarks on some problems in number theory*](https://www.renyi.hu/~p_erdos/1974-27.pdf) (Mathematica Balkanica 4, 197–202, 1974). Identified in the Erdős Problems discussion of this manuscript; page 201 asks both for an asymptotic formula for the distinct-totient count in elementary functions and for the doubling limit. [family-level]
+- [Rafik Zeraoulia, *Fixed-Scale Limit Points for the Counting Function of Distinct Euler Totients*](https://github.com/rafikmath15/fixed-scale-totient-limit-points) (GitHub; listed as a proof claim on [erdosproblems.com](https://www.erdosproblems.com/forum/thread/416/proof-claims) on 29 July 2026). Earlier partial result on the same question: it claims $\liminf|V(cn)/V(n)-c|=0$ for fixed $c>1$ and that the cluster set of $V(cx)/V(x)$ is a closed interval containing $c$. [AI-generated per source]
+
+## Possibly relevant literature (found by the agent, not checked)
+- [Kevin Ford, *The number of solutions of φ(x)=m*](https://arxiv.org/abs/math/9907204) (arXiv:math/9907204; Ann. of Math. 150 (1999)). Proves Sierpiński's conjecture that every multiplicity $k\ge2$ occurs for totient fibers, which bears on the paper's discussion of collisions (different integers with the same totient) and fiber sizes.
+- [Kevin Ford, *Poisson Approximation of prime divisors of shifted primes*](https://arxiv.org/abs/2408.03803) (arXiv:2408.03803, v4 January 2026; IMRN 2025). A Kubilius-type model for the prime factors of shifted primes, related to the shifted-prime normality of $p-1$ that the paper's prefix comparison relies on.
+- [P. Erdős and R. Hall, *On the values of Euler's φ-function*](https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/22/2/98659/on-the-values-of-euler-s-function) (Acta Arith. 22 (1973), 201–206). An earlier Erdős–Hall upper bound for $V(x)$, part of the history the introduction surveys; the bibliography cites only their 1976 Mathematika paper.
+
+## Digests and expositions
+- [Latent Seminar, *Counting distinct totients and least preimages*](https://lowrank.github.io/latent-seminar/OpenAI-Math/024-counting-totients) (2026-10-06). Explains the finite-tail union coefficient, prefix-collision estimates, regular variation without assuming coefficient continuity, and the least-preimage alternatives, while explicitly disclaiming independent verification of the complete proofs. [family-level]
+- [Perplexity / Orply, *Distinct Totient Values Have an Explicit Phase-Dependent Asymptotic*](https://orply.com/articles/perplexity/024-an-asymptotic-formula-for-the-number-of-totients-60ad8aea) (2026-10-08). Summarizes the claimed asymptotic, inclusion–exclusion over arithmetic tails, and the unresolved classification of positive least-preimage coefficients beyond the established cases $k=1,2$. [AI-generated per source] [family-level]
+
+## News and blogs
+- None found.

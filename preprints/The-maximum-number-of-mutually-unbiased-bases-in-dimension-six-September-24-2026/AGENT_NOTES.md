@@ -1,0 +1,33 @@
+# Automatically collected context
+
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+
+## Follow-up works
+- [Manvir Jaswal, *An independent certified computation excluding four mutually unbiased bases in dimension six*](https://zenodo.org/doi/10.5281/zenodo.23255857) (Zenodo preprint, DOI 10.5281/zenodo.23255858, 2026-10-13; programs and data: [Zenodo dataset](https://zenodo.org/doi/10.5281/zenodo.23255817), DOI 10.5281/zenodo.23255817). Implements this paper's discretization proof, deciding inequalities in exact integer or outward-rounded interval arithmetic, and reports no four MUBs in C^6 assuming correct binary64 arithmetic; the dataset holds the programs, logs, record files and checksums.
+- [maximusrufus (GitHub), *Independent certified re-run of the computer search for N(6) = 3*](https://github.com/maximusrufus/mub6-certified-rerun) (GitHub repository, pre-registration timestamped 2026-10-19). Re-implements Theorem 1.1's search from the LaTeX with outward-rounded C++ intervals, a separate seed-cover check and a 1% python-flint sample, reporting 0 unresolved cells; `lean/Mub/BoxBound.lean` proves soundness of the seed-cover box test in Lean 4, while the README says the normal-form reduction and the search are not reviewed or formalized.
+- [Hao-Yu Sun, *Mutually unbiased bases: common states, completion, and extension obstructions*](https://arxiv.org/abs/2610.12180) (arXiv:2610.12180, 2026-10-08). Cites this preprint as reporting N(6)=3 by a computer-assisted no-four-bases theorem, states "Neither preprint is a premise of the proofs in this article," and proves an unextendibility result for a specific MUB triple. [family-level]
+
+## Expert comments and discussion
+- [mo271 and commenters, *OpenQuantumProblems/13: `mutuallyUnbiasedBases_dim6` has answer 3*](https://github.com/google-deepmind/formal-conjectures/issues/6918) (google-deepmind/formal-conjectures issue #6918, opened 2026-10-07). Asks whether to mark μ(6)=3 as solved. One comment (2026-10-11) says the cited verification code was missing at the referenced commit, and later comments (2026-10-14, 2026-10-20) report two independent re-runs of the search. [family-level] [AI-generated per source]
+- [Jim Jardine (Lattice24), *openai-math-audit*](https://github.com/JJardine919/openai-math-audit) (GitHub repository, 2026). Finding 2, rated major, says the code and run records behind the computer-assisted upper bound are not in the public release, and calls this "a verifiability gap, not a demonstrated mathematical error." [AI-generated per source]
+- [Dulwich Quantum Computing, *Comment on the dimension-six MUB computation scripts*](https://bsky.app/profile/dulwichquantum.bsky.social/post/3mxlpp3tuv226) (Bluesky, 2026-10-11). Asks where the C++ programs and execution wrapper required by the manuscript's computer-assisted argument were published.
+- [Wim van Dam, comment #62 on Scott Aaronson's *The Mathocalypse*](https://scottaaronson.blog/?p=10169) (Shtetl-Optimized, 2026-10-07). A brief comment singling out "the proof that there are only three mutually unbiased bases (MUBs) in dimension 6," followed by "Finally!"
+
+## Formalization
+- [OpenAI math release, Lean scope note for family 266](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/266.md) (lean/docs/266.md, 2026). The release's Lean proof gives Fourier vanishing and a five-basis bound (MUBSix) plus a cube-fiber cancellation lemma (HadamardCubeFiber); the note says it "does not establish the paper's upper bound of three or its computer-assisted exclusion of four arbitrary bases." [family-level]
+- [Google DeepMind formal-conjectures, *FormalConjectures/OpenQuantumProblems/13.lean*](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/OpenQuantumProblems/13.lean) (GitHub, accessed 2026-10-21). States the MUB problem in Lean, cites this preprint as claiming μ(6)=3 by an unformalised computer-assisted argument, and keeps `mutuallyUnbiasedBases_dim6` marked research open with `sorry`, separately from the formal upper bound of five. [cites earlier version] [family-level]
+- [mo271, *feat: mark problems solved in the OpenAI math release and link formal proofs*](https://github.com/google-deepmind/formal-conjectures/pull/6898) (formal-conjectures PR #6898, merged 2026-10-11). The release-wide PR that added the μ(6) ≤ 5 variant `upper_five` with a link to the release's Lean proof. [family-level]
+
+## Related prior literature mentioned by others
+- [Philippe Jaming, Máté Matolcsi and Péter Móra, *The problem of mutually unbiased bases in dimension 6*](https://arxiv.org/abs/1201.0640) (Cryptography and Communications 2, 211–220, 2010; arXiv:1201.0640, 2012-01-03). Ying Xie's survey, Section 9.3.4, identifies this discretization program as an antecedent of the manuscript's claimed exhaustive cover of arbitrary second bases.
+
+## Possibly relevant literature (found by the agent, not checked)
+- [Philippe Raynal, Xin Lü, Berthold-Georg Englert, *Mutually unbiased bases in dimension six: The four most distant bases*](https://arxiv.org/abs/1103.1025) (Phys. Rev. A 83, 062303, 2011). Numerical evidence against four MUBs in C^6, relevant to Theorem 1.1; cited in the formal-conjectures file.
+- [Gary McConnell, Harry Spencer, Afaq Tahir, *Evidence for and against Zauner's MUB Conjecture in ℂ⁶*](https://arxiv.org/abs/2103.08703) (arXiv:2103.08703, 2021). Finite-field evidence on Zauner's dimension-six conjecture, which this paper claims to resolve.
+
+## Digests and expositions
+- [Ying Xie, *What the Machine Invented: Mining New Mathematical Instruments from OpenAI's October 2026 Release of AI-Generated Mathematics*](https://arxiv.org/html/2610.17090v1) (arXiv:2610.17090, 2026-10-12). Section 9.3.4 describes the phase cover, tangent refinement and companion Fourier certificates, distinguishes their formalization scopes, and states that the headline computation was not independently rerun for this survey. [AI-generated per source] [family-level]
+
+## News and blogs
+- [Carlos Toledo, *OpenAI's math release: what it claims beyond what it checks*](https://carlostoledo.co/reports/openai-math.html) (audit dated 2026-10-10). For the original release at commit fd4aeeb2, entry F-532 reports that the code and data needed to recheck this paper's exhaustive computation were unavailable in the audited clone. [cites earlier version]
+- [Azmat, *Zauner MUB Conjecture: How OpenAI's Proof Ruled Out a Fourth Basis After 35 Years*](https://binaryverseai.com/zauner-mub-conjecture-openai-proof/) (Binary Verse AI, 2026-10-15). Explains the manuscript's three-stage covering and compatibility-graph argument and distinguishes its arithmetic and execution conditions from the weaker Lean result.

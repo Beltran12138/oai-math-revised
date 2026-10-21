@@ -1,0 +1,33 @@
+# Automatically collected context
+
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+
+## Follow-up works
+- None found.
+
+## Expert comments and discussion
+- [mo271, *Wikipedia/SmallCohenMacaulayModules: `exists_isSmallCohenMacaulay` is false*](https://github.com/google-deepmind/formal-conjectures/issues/6912) (google-deepmind/formal-conjectures issue #6912, 2026-10-07). Cites this paper as appearing to settle the formal statement negatively and proposes restating it as a negation; the author asks reviewers to check the claim against the source and notes the comparison was prepared with AI assistance.
+- [maximusrufus, with review by bocowgill, *Add reference note: claimed counterexample of exists_isSmallCohenMacaulay (unrefereed; status unchanged)*](https://github.com/google-deepmind/formal-conjectures/pull/7214) (google-deepmind/formal-conjectures PR #7214, opened 2026-10-12, open at time of collection). Started as a change marking the conjecture as solved but was reduced to a docstring note citing this paper; the reviewer approved the note only, "not certification of the manuscript's proof".
+
+## Formalization
+- [OpenAI math release, *Lean scope note for family 195*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/195.md) (lean/docs/195.md). The scope note states that the formalization verifies the existence of a three-dimensional complete Noetherian integrally closed local domain over ℂ with residue field ℂ, but does not prove the absence of small Cohen–Macaulay modules or the essentially finite-type counterexample.
+- [OpenAI math release, *SurfaceConeCandidateSupport.lean*](https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/SurfaceConeCandidateSupport.lean) (openai/math, lean/ComparatorChallenges). Comparator statement `OAI.SmallCM.candidate_ring_properties` for the ring-theoretic properties listed in the scope note.
+- [google-deepmind/formal-conjectures, *SmallCohenMacaulayModules.lean*](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/Wikipedia/SmallCohenMacaulayModules.lean) (formal-conjectures, accessed 2026-10-21). Lean statement `exists_isSmallCohenMacaulay` of the conjecture this paper claims to refute; it was still tagged `research open` when collected.
+
+## Related prior literature mentioned by others
+- [Cristian Anghel, *Smooth Counterexamples to the Eisenbud–Schreyer–Weyman Ulrich Existence Problem*](https://arxiv.org/abs/2609.02718v1) (arXiv:2609.02718v1, 2026-09-02). The AI Proved What? exposition identifies this earlier preprint, also cited in the manuscript, as the source of the surface construction used in the claimed counterexample.
+- [Cristian Anghel, *Polarized varieties without arithmetically Cohen-Macaulay bundles and section rings without graded maximal Cohen-Macaulay modules in characteristic zero*](https://arxiv.org/abs/2609.15589v1) (arXiv:2609.15589v1, 2026-09-14). The AI Proved What? exposition contrasts this earlier graded-module nonexistence claim, also cited in the manuscript, with OpenAI's claim for arbitrary finite modules over the completed local ring.
+- [Liang Chen, *A local cohomology obstruction to small Cohen–Macaulay modules*](https://arxiv.org/abs/2609.24142v1) (arXiv:2609.24142v1, 2026-09-21). The AI Proved What? exposition highlights this earlier proposed completed-local counterexample, also cited in the manuscript, which uses the exponent-six Hirzebruch–Kummer surface rather than the paper's exponent-seven surface.
+
+## Possibly relevant literature (found by the agent, not checked)
+- [Kazuma Shimomoto and Ehsan Tavanfar, *On local rings without small Cohen-Macaulay algebras in mixed characteristic*](https://arxiv.org/abs/2109.12700) (arXiv:2109.12700, 2021; accepted in Math. Res. Lett.). Constructs normal local domains with no small Cohen–Macaulay algebra that still have small Cohen–Macaulay modules, which bears on the paper's remark that an algebra obstruction does not exclude finite modules.
+- [Likun Xie, *On an Instance of the Small Cohen-Macaulay Conjecture*](https://arxiv.org/abs/2302.11011) (arXiv:2302.11011, 2023; to appear in J. Pure Appl. Algebra). Positive result giving small Cohen–Macaulay modules for certain three-dimensional quasi-Gorenstein deformations, part of the positive side of the problem the paper surveys in its introduction.
+- [Likun Xie, *On an Instance of the Small Cohen-Macaulay Conjecture II*](https://arxiv.org/abs/2608.10962) (arXiv:2608.10962, v1 2026-08-11, v2 2026-10-16). Proves existence of maximal Cohen–Macaulay modules for local rings of depth d−1 with cyclic deficiency module and constructs section-ring examples, a positive counterpart to the paper's section-ring obstruction.
+
+## Digests and expositions
+- [AI Proved What?, *No finite repair? Small Cohen–Macaulay modules*](https://aiprovedwhat.com/episodes/195-counterexample-small-cohen-macaulay-module/) (episode 195, October 2026; status checked 2026-10-16). AI-assisted video and written transcript explaining the claimed obstruction and exponent-seven example, comparing the earlier Anghel and Chen preprints, and distinguishing the Lean candidate-ring statement from module nonexistence. [AI-generated per source]
+- [Open Mathematics Courses / Claude Opus 5.5, *Small Cohen–Macaulay modules*](https://kokunoyumeto.github.io/open-math-courses-public/courses/small-cohen-macaulay-modules/) (four-lesson course, undated). Explicitly AI-written exposition developing the completed cone, elementary modifications, numerical obstruction and Hirzebruch–Kummer construction, with five named surface-theory hypotheses and independent review marked incomplete. [AI-generated per source]
+- [Gradient Damage, *Every OpenAI Math Result, Part 2 of 4: PCP for PPAD, Birkhoff Conjecture and 82 More*](https://gradientdamage.com/videos/every-openai-math-result-part-2-of-4-pcp-for-ppad-birkhoff-conjecture/) (video, 2026-10-14). Chapter 33 (Result 195) gives a short overview of this paper that follows the release's family summary. [family-level]
+
+## News and blogs
+- [Hiren Dave / TheNextGenTechInsider, *OpenAI Math Repository Shows Mismatch Between Headlines and Lean Proofs*](https://www.thenextgentechinsider.com/pulse/openai-math-repository-shows-mismatch-between-headlines-and-lean-proofs) (Tech Pulse, 2026-10-12). Uses the small Cohen–Macaulay result to illustrate the distinction between the manuscript's claim and the narrower candidate-ring formalization. [AI-generated per source]

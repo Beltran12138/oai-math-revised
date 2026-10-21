@@ -1,0 +1,31 @@
+# Automatically collected context
+
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+
+## Follow-up works
+- None found.
+
+## Expert comments and discussion
+- [Bruno and Scott Aaronson, comments #96–#97 on *The Mathocalypse*, Shtetl-Optimized](https://scottaaronson.blog/?p=10169#comment-2041193) (blog comments, 8 Oct 2026). A commenter points out that this result was missing from the post's list, calling the problem "one of the very few problems for which a randomized polytime algorithm was known but no deterministic polytime algorithm"; Aaronson replies that he will add it.
+- [DH and Persiflage, comments on *A Brief Digest of Some New OpenAI Results*, galoisrepresentations.org](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/#comment-28529) (blog comments, 9 Oct 2026). The thread discusses the companion paper's zero-free claim for finite-order Hecke L-functions of cyclotomic fields containing ζ₁₂, which is the analytic input this paper imports as Theorem 10.1; it discusses that claim in the context of Artin's conjecture and does not mention factorization.
+- [Divesh Aggarwal and commenters, *Deterministic Polynomial Factorization Over Finite Fields*](https://www.linkedin.com/posts/divesh-aggarwal-66595610_mathpreprintsdeterministic-polynomial-factorization-over-prime-fields-october-activity-7513737033291554816-u4o9) (LinkedIn, October 2026). Aggarwal highlights the manuscript's significance for deterministic versus randomized computation, while Alon Rosen asks whether it is Lean-verified and about polynomial identity testing; the visible thread does not supply a technical review.
+
+## Formalization
+- [Yao Xu (cadamcat), *artin-primitive-roots-lean4*, file `Hecke/Boundary.lean`](https://github.com/cadamcat/artin-primitive-roots-lean4/blob/main/ArtinPrimitiveRoots/Hecke/Boundary.lean) (GitHub, 2026). This Lean 4 formalization of the companion paper states `thm_hecke_zero_free` for `CyclotomicField n ℚ` with `12 ∣ n` and δ₀ = 10⁻⁶, matching the input this paper imports; when accessed, its proof depended on a lemma marked `sorry` ("this is what part A proves"). The factorization algorithm itself is not formalized there. [AI-generated per source]
+
+## Related prior literature mentioned by others
+- None found.
+
+## Possibly relevant literature (found by the agent, not checked)
+- [B. Poonen, *Using zeta functions to factor polynomials over finite fields*](https://arxiv.org/abs/1710.00970) (arXiv:1710.00970, Oct 2017). Expounds Kayal's idea of using Schoof's point counting, and Pila's algorithm for abelian varieties, for deterministic factoring; related to the paper's geometric odd-degree splitter on Jacobians of curves Y^q = F(X) and its discussion of Schoof and Pila.
+- [G. Ivanyos, M. Karpinski, L. Rónyai, N. Saxena, *Trading GRH for algebra: algorithms for factoring polynomials and related structures*](https://arxiv.org/abs/0811.3165) (arXiv:0811.3165, Nov 2008; revised Feb 2009). Removes GRH from several deterministic factoring results via cyclotomic and Kummer extensions of semisimple algebras; related to the paper's construction of q-primary generators in K_q = F_p(ζ_q), which replaces the nonresidue input usually supplied by GRH.
+- [G. Ivanyos, M. Karpinski, N. Saxena, *Schemes for Deterministic Polynomial Factoring*](https://arxiv.org/abs/0804.1974) (arXiv:0804.1974, 11 April 2008). Its GRH-based m-scheme approach, including polynomial-time splitting for certain prime degrees, provides a comparison for the manuscript's claimed uniform polynomial-time splitting reduction and its stated consequence under GRH.
+- [M. Arora, G. Ivanyos, M. Karpinski, N. Saxena, *Deterministic polynomial factoring and association schemes*](https://arxiv.org/abs/1205.5653) (arXiv:1205.5653; LMS J. Comput. Math. 17 (2014) 123–140). A GRH-conditional deterministic factoring result via m-schemes; relevant to the paper's survey of conditional deterministic bounds (Rónyai, Evdokimov) and its claim that its reduction gives a polynomial bound under GRH.
+- [A. Roy, *Deterministic polynomial factoring under the assumption of the Extended Riemann Hypothesis (ERH)*](https://arxiv.org/abs/1406.3672) (arXiv:1406.3672, Master's thesis, 2014–2015). Extends Gao's approach of building a graph on the roots, which fails when that graph is regular; related to the paper's even-degree step, where a tournament on root differences is shown to have non-constant vertex scores.
+
+## Digests and expositions
+- [Sankalp Thakur, *Speed Limits I: Multiplying, Transforming, Factoring*](https://transientlabs.ai/the-deep-end/speed-limits-multiplying) (Deep End Era, episode 81, undated). The episode includes a segment on family 142 beginning at 00:45:54, and its production credits disclose Claude-generated scripts and synthetic narration reviewed by Thakur. [AI-generated per source] [family-level]
+- [Azmat, *Deterministic Polynomial Factorization over Prime Fields: The Extraordinary Geometry Behind OpenAI’s Proof*](https://binaryverseai.com/deterministic-polynomial-factorization-over-prime-fields/) (Binary Verse AI, 14 October 2026). This exposition traces the even- and odd-degree splitting constructions, norm-equation machinery, and complexity accounting, distinguishing the algebraic reduction from its dependence on the primitive-root companion's asserted Hecke zero-free theorem.
+
+## News and blogs
+- [Scott Aaronson, *The Mathocalypse*, Shtetl-Optimized](https://scottaaronson.blog/?p=10169) (blog post, 7 Oct 2026). The post's list of release highlights includes this paper as a deterministic polynomial-time algorithm for factoring over prime fields "with no need to assume GRH" (the item was added after a reader comment).

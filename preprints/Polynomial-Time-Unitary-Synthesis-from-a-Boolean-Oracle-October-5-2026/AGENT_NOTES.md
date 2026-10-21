@@ -1,0 +1,31 @@
+# Automatically collected context
+
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+
+## Follow-up works
+- [Diyi Liu, Shuchen Zhu, Wibe Albert de Jong, Di Fang, David Williams-Young, Chao Yang, *T-efficient unitary synthesis via block-sparse Hamiltonian simulation*](https://arxiv.org/abs/2610.18589) (arXiv:2610.18589, 13 Oct 2026). Section VIII cites the OpenAI draft as giving constant diamond-norm-error synthesis with polynomially many gates and Boolean-oracle queries, and notes that this accounting excludes the oracle's implementation cost, so it is not directly comparable to Clifford+T T-count bounds.
+
+## Expert comments and discussion
+- [Scott Aaronson, *The Mathocalypse*](https://scottaaronson.blog/?p=10169) (Shtetl-Optimized, 7 Oct 2026). One of the problem's two posers lists the paper as a "Positive solution to the Unitary Synthesis Problem", calls it "the opposite of what most of us expected", and notes that the paper does not give an efficient way to construct the oracle.
+- [Dakshita Khurana, *Classical at Heart*](https://dakshitakhurana.substack.com/p/classical-at-heart) (Substack, 8 Oct 2026). Khurana, who has worked on the problem, writes that she is still working through the proof and names two ingredients she had tried herself (recursive implementation through a smaller unitary, and almost-isometries with sparse rows). She also discusses the implications for quantum cryptography conditionally on the result holding.
+
+## Formalization
+- None found.
+
+## Related prior literature mentioned by others
+- [John Bostanci, Yuval Efron, Tony Metger, Alexander Poremba, Luowen Qian and Henry Yuen, *Unitary Complexity and the Uhlmann Transformation Problem*](https://arxiv.org/abs/2306.13073) (arXiv:2306.13073, 2023-06-22; revised 2025-07-29). Khurana recommends this framework for unitary complexity as broader background to the synthesis problem and its connections to quantum information and cryptography.
+- [Zvika Brakerski and Henry Yuen, *On Scalable Pseudorandom Unitaries and the Unitary Synthesis Problem*](https://arxiv.org/abs/2605.09957) (arXiv:2605.09957, 11 May 2026). Listed as further reading in Khurana's post; it connects scalable PRUs to a positive answer to unitary synthesis and proves that any unitary synthesis algorithm needs oracle input length of roughly 2 log d, which bears on the oracle input length m(n) in Theorem 1.1.
+- [Andrew Huang, Akshar Ramkumar, John Wright, *Random-Oracle Unitary Synthesis is Impossible*](https://arxiv.org/abs/2610.06700) (arXiv:2610.06700, 5 Oct 2026). Cited in Khurana's post; it proves a superpolynomial query lower bound for implementing Haar-random unitaries from a random Boolean function, which contrasts with the target-dependent oracle in this paper.
+- [Aditya Gulati, Dakshita Khurana, Kabir Tomer, *How to Build Pseudorandom Unitaries in Microcrypt*](https://arxiv.org/abs/2610.03711) (arXiv:2610.03711, 2 Oct 2026). Linked in Khurana's post; it builds pseudorandom unitaries from diagonal phase layers and Hadamard transforms using a classical random oracle, related to the paper's use of random diagonal signs and Walsh transforms.
+
+## Possibly relevant literature (found by the agent, not checked)
+- [William Kretschmer and Ewin Tang, *Unitary complexity in polynomial space*](https://arxiv.org/abs/2610.03705) (arXiv:2610.03705, v1 2 Oct 2026, v2 5 Oct 2026). Proves that if quantum commitments exist, then either the unitary synthesis problem has no polynomial-time solution or BPP ≠ NEXP, which may bear on how the paper's existential, non-constructive oracle statement should be interpreted.
+- [Eric Huang, *A 1.5-Query Lower Bound for the Unitary Synthesis Problem*](https://arxiv.org/abs/2508.13215) (arXiv:2508.13215, Aug 2025). Extends the Lombardi–Ma–Wright one-query lower bound (cited in the paper as LMW2024) to a 1.5-query setting, relevant to the paper's statement that known lower bounds leave adaptive multi-query constructions open.
+
+## Digests and expositions
+- [Latent Seminar, *Unitary synthesis from a Boolean oracle: coherent encodings and recursion*](https://lowrank.github.io/latent-seminar/OpenAI-Math/283-boolean-oracle-unitary-synthesis) (2026-10-07). This exposition follows the contracting-block reduction, Fourier encodings, coherent label erasure, single-call recursion and phase-sensitive compilation, and distinguishes its review from independent proof verification.
+
+## News and blogs
+- [Peter Hall and Joseph Howlett, *The most exciting claims from OpenAI's heap of new proofs*](https://www.scientificamerican.com/article/the-most-exciting-claims-from-openais-heap-of-new-proofs/) (Scientific American, 8 Oct 2026). Has a section on Problem 283 that describes the result as unexpected and says it is reported, not independently confirmed.
+- [Azmat, *Unitary Synthesis Problem: The Boolean Oracle Behind OpenAI's Surprising Answer*](https://binaryverseai.com/unitary-synthesis-problem/) (Binary Verse AI, 2026-10-09). Explains the claimed constant-error result and its proof strategy, emphasizing the unrestricted oracle construction cost and the distinction from random-oracle impossibility results.
+- [Lance Fortnow (compiler), *Mathematicians React to OpenAI's October 6, 2026 Math Release*](https://github.com/fortnow/AI-Papers/blob/main/mathematician-reactions-oct6-release.tex) (github.com/fortnow/AI-Papers, Oct 2026). A release-wide compilation of reactions that mentions the unitary synthesis problem in Aaronson's list of TCS results and summarizes Khurana's post on working through the proof. [family-level]

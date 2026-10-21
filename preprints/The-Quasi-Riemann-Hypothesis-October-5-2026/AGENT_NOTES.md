@@ -1,0 +1,33 @@
+# Automatically collected context
+
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+
+## Follow-up works
+- [Dean Cureton, Jesse Thorner, *A quasi-Riemann hypothesis for Dedekind zeta functions*](https://hexagonmath.org/abs/2610.00200v2) (hexagon:2610.00200, v1 2026-10-12, v2 2026-10-14). Proves ζ_K(s) ≠ 0 for Re s > 31/32 for every number field K, citing this paper as the shorter proof of the 11/12 region; proofs and Lean formalization attributed to AxiomProver.
+- [Michael Rubinstein, Mateo Restrepo Borrero, *A zero-free strip for the L-functions of the elliptic curves y²=x³+d*](https://hexagonmath.org/abs/2610.00220v1) (hexagon:2610.00220, 2026-10-13). Part I adapts this paper's 11/12 argument to prove L(E_d,s) ≠ 0 for Re s > 17/12 (arithmetic normalization); its provenance states the complete proof has not been independently checked by a human. [AI-generated per source]
+- [Christopher Frei, Efthymios Sofos and Martin Widmer, *Some applications of the quasi-Riemann hypothesis to class groups and small generators of number fields*](https://arxiv.org/abs/2610.18491) (arXiv:2610.18491v2, 2026-10-14). Uses the OpenAI and Cureton–Thorner results to derive bounds for class-group torsion, least splitting primes and small generators. [family-level]
+- [Shubhrajit Bhattacharya, *Unconditional implications of the Quasi-Riemann Hypothesis*](https://hexagonmath.org/abs/2610.00178v1) (hexagon:2610.00178, 2026-10-11). Collects RH/GRH-conditional results that need only a fixed zero-free half-plane, citing this paper as a companion proof of the 11/12 boundary; states no human scrutiny was performed. [AI-generated per source]
+
+## Expert comments and discussion
+- [Maksym Radziwiłł, Jared Duker Lichtman, Alexander Dunn, Peter Sarnak, Will Sawin, quoted in Quanta Magazine](https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/) (2026-10-19). Radziwiłł: "The reason why people look mostly at the 11/12 result is that it's shorter"; the article reports privately circulating 7–13 page human write-ups of this proof and Sarnak repurposing a course to study it.
+- [Persiflage, *A Brief Digest of Some New OpenAI Results*, galoisrepresentations.org](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/) (2026-10-08). Item 5 discusses the quasi-RH for Dirichlet L-functions as "a very strong intermediate result" and its limits for Dedekind-zeta applications.
+- [Terence Tao, *A sketch of the proof of non-existence of Siegel zeroes*](https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/) (2026-10-19). Links this paper and remarks that the QRH arguments use identities relating the Möbius function to automorphic Fourier coefficients (an "automorphic miracle") and are still being digested. [family-level]
+- [Terence Tao, comment on his tenth-discriminant AI challenge post](https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/#comment-698471) (2026-10-20). Uses the 11/12 half-plane with the Selberg–Chowla formula to bound a hypothetical tenth class-number-one discriminant by d < 1475; LemmaLab's [comment](https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/#comment-698472) reports an uncertified d ≤ 1151 from the 11/12 input.
+
+## Formalization
+- [OpenAI, *The quasi-Riemann hypothesis: Lean scope note*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/003.md) (openai/math release, 2026-10). Formalizes the stronger 7/8 statement of the companion paper and the logarithmic real-zero gap; this 11/12 paper is not listed among the note's accompanying papers. [family-level]
+- [Axiom Math, Dean Cureton and Jesse Thorner, *Dedekind Zeta Zero-Free Region*](https://github.com/AxiomMath/DedekindZetaZeroFree) (GitHub, accessed 2026-10-21). AxiomProver-generated Lean development for the $31/32$ half-plane over arbitrary number fields and finite-order Hecke characters, using analytic-number-theory code adapted from the OpenAI release. [AI-generated per source] [family-level]
+
+## Related prior literature mentioned by others
+- [Alexander Dunn and Maksym Radziwiłł, *Bias in cubic Gauss sums: Patterson's conjecture*](https://arxiv.org/abs/2109.07463) (Annals of Mathematics 200, 2024; arXiv:2109.07463v3). Cited in Rubinstein and Restrepo Borrero's follow-up, this work develops cubic-Gauss-sum transformations that also enter the quasi-Riemann arguments. [family-level]
+
+## Possibly relevant literature (found by the agent, not checked)
+- [Keith Billington, Maddie Cheng, Jordan Schettler, Ade Irma Suriajaya, *The average number of Goldbach representations and zero-free regions of the Riemann zeta-function*](https://arxiv.org/abs/2306.09102) (arXiv:2306.09102, IJNT 2025). Ties the error term in Fujii's average Goldbach formula to general zero-free regions of ζ, relevant to the fixed half-plane of Theorem 1; cited by the 7/8 companion for the term "quasi-Riemann hypothesis" but not here.
+- [Yitang Zhang, *Discrete mean estimates and the Landau-Siegel zero*](https://arxiv.org/abs/2211.02515) (arXiv:2211.02515, 2022). Earlier claimed effective bound L(1,χ) ≫ (log D)^(−2022), relevant to the abstract's statement that Theorem 1 rules out Landau–Siegel zeros.
+
+## Digests and expositions
+- None found.
+
+## News and blogs
+- [Konstantin Kakaes, *AI Proved the Quasi-Riemann Hypothesis. What Happens Now?*, Quanta Magazine](https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/) (2026-10-19). Reports that this 49-page paper is the only one of the release edited by a person, is not yet formally verified, and is the version experts are studying.
+- [David H. Bailey, *OpenAI stuns mathematicians with 722 new papers*, Math Scholar](https://mathscholar.org/2026/10/openai-stuns-mathematicians-with-722-new-papers/) (2026-10-07, updated 2026-10-19). Blog coverage describing the 11/12 zero-free strip alongside the 7/8 one.
