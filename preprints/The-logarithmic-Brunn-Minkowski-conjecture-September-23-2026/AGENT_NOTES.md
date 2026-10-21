@@ -1,0 +1,33 @@
+# Automatically collected context
+
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+
+## Follow-up works
+- [Yude Liu, Qiang Sun, Ge Xiong, *The centered logarithmic Brunn–Minkowski inequality*](https://arxiv.org/abs/2610.10152) (arXiv:2610.10152, v1 7 Oct 2026, v2 8 Oct 2026). Proves the logarithmic Brunn–Minkowski and logarithmic Minkowski inequalities for convex bodies with centroid at the origin, with equality cases and L_p consequences for p > 0, citing this paper as its analytic starting point (ref. [24]); the authors report that independent human verification remains incomplete. [AI-generated per source]
+- [ChatGPT, prepared for Galyna Livshyts, *Intersections of dilated convex sets and mixed-degree variance inequalities*](https://glivshyts6.math.gatech.edu/Intersection.pdf) (public research note, 2026-10-11). Develops the manuscript’s moment-coordinate method into an equivalent intersection formulation of log-Brunn–Minkowski, functional dilation concavity and mixed-degree covariance bounds, without claiming historical novelty. [AI-generated per source]
+
+## Comments and discussion
+- [Galyna V. Livshyts, *AI-generated math explorations*](https://glivshyts6.math.gatech.edu/) (personal webpage, undated; accessed 2026-10-21). Describes prompting ChatGPT to develop theory around the OpenAI log-Brunn–Minkowski proof and highlights the resulting correlation-type exploration and shorter scalar B-conjecture argument.
+
+## Formalization
+- [OpenAI math release, *Lean scope notes for family 091*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/091.md) (lean/docs/091.md, 2026-10-06). States that the formalization covers the Lebesgue-volume inequality of Theorem 1.1 for origin-symmetric convex bodies for every n ≥ 1 and 0 ≤ t ≤ 1, without smoothness or unconditionality assumptions; the L_p corollary and the measure/(B)-conjecture consequences are not listed in its scope. [family-level]
+- [OpenAI, *ComparatorChallenges/LogBrunnMinkowski.lean*](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/LogBrunnMinkowski.lean) (openai/math, commit adc7f12). The Comparator statement of Theorem 1.1, with the logarithmic combination defined as the Wulff shape of h_K^(1−t) h_L^t; the proof is left as `sorry`.
+- [OpenAI, *lean/OAI/Geometry/LogVolume/BrunnMinkowski.lean*](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Geometry/LogVolume/BrunnMinkowski.lean) (openai/math, commit adc7f12). This is the release's Lean proof file for the main theorem, about 24,500 lines long.
+- [anxkhn, *Add the origin-symmetric logarithmic Brunn–Minkowski inequality*](https://github.com/google-deepmind/formal-conjectures/issues/6973) (google-deepmind/formal-conjectures issue #6973, 8 Oct 2026). Proposes adding Theorem 1 (symmetric volume inequality only) to formal-conjectures; equality cases, measure extensions and L_p consequences are out of scope. [AI-generated per source]
+- [anxkhn, *feat(Paper): add logarithmic Brunn–Minkowski*](https://github.com/google-deepmind/formal-conjectures/pull/6978) (google-deepmind/formal-conjectures PR #6978, opened 8 Oct 2026, open). Adds the statement and a bridge to the release's Lean theorem, with the author reporting kernel checks using only standard axioms; reviewer bocowgill reports (10–11 Oct) that the statement and Wulff-body definitions match Theorem 1.1, with Comparator verification still marked incomplete. [AI-generated per source]
+
+## Related prior literature mentioned by others
+- [Christos Saroglou, *More on logarithmic sums of convex bodies*](https://arxiv.org/abs/1409.4346v2) (Mathematika 62 (2016), arXiv:1409.4346). The VibeMathed (B)-conjecture entry identifies this transfer theorem (Theorem 3.1) as the route from Theorem 1.1 to Corollary 8.1; the paper's own bibliography also cites it.
+- [Károly J. Böröczky, *The Logarithmic Minkowski conjecture and the L_p-Minkowski Problem*](https://arxiv.org/abs/2210.00194) (arXiv:2210.00194, v3 2024). Liu–Sun–Xiong (arXiv:2610.10152) cite this survey (their ref. [3]) for the centered conjectures they prove; it is not in this paper's bibliography.
+- [Dario Cordero-Erausquin, Liran Rotem, *Improved log-concavity for rotationally invariant measures of symmetric convex sets*](https://arxiv.org/abs/2111.05110) (arXiv:2111.05110, 2021; Annals of Probability 51, 2023). Proves the (B)-conjecture for rotationally invariant log-concave measures, a special case of the paper's Corollary 8.1; the ChatGPT note prepared for Livshyts cites it as a predecessor.
+
+## Possibly relevant literature (found by the agent, not checked)
+- [Amir Livne Bar-on, *The (B) conjecture for uniform measures in the plane*](https://arxiv.org/abs/1311.6584) (arXiv:1311.6584, 2013). It proves a planar (B)-type log-concavity for uniform measures on symmetric convex sets, which is earlier work on the measure consequence the paper derives in Section 8.
+- [Shouda Wang, *Monotonicity of the deficit in the local log-Brunn-Minkowski inequality*](https://arxiv.org/abs/2510.19061) (arXiv:2510.19061, 2025). It gives another proof of the local inequality for zonoids, a case the paper attributes to van Handel in its survey of local results.
+
+## Digests and expositions
+- [ChatGPT, prepared for Galyna Livshyts, *A concise proof of the scalar B-conjecture*](https://glivshyts6.math.gatech.edu/Bconj.pdf) (public expository note, 2026-10-11). Extracts a direct scalar specialization of the manuscript’s moment-coordinate argument and identifies itself as neither independent human peer review nor formal verification. [AI-generated per source]
+- [Gradient Damage, *Petty’s Projection Conjecture, Log Brunn–Minkowski Conjecture and 8 More*](https://gradientdamage.com/videos/pettys-projection-conjecture-log-brunn-minkowski-conjecture-and-8-more/) (video compilation and accompanying page, 2026-10-15). The chapter beginning at 1:03 introduces the logarithmic Brunn–Minkowski claim and links the manuscript, presenting the animations as illustrations rather than proofs.
+
+## News and blogs
+- [Gil Kalai, *Updates: Sharing AI progress on mathematics (amazing!); and my lecture plans*](https://gilkalai.wordpress.com/2026/10/07/updates-sharing-ai-progress-on-mathematics-amazing-and-my-lecture-plans/) (Combinatorics and more, 7 Oct 2026). This post on the whole release notes in one sentence that it announces a proof of the logarithmic Brunn–Minkowski conjecture for origin-symmetric bodies in every dimension; none of its comments discuss the result.

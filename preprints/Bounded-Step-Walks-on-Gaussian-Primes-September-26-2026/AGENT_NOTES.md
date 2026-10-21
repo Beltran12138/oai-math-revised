@@ -1,0 +1,34 @@
+# Automatically collected context
+
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+
+## Follow-up works
+- [Kenta Kitamura, *Gaussian moat variants and binary-form classification in Lean 4*](https://github.com/KitaKen1/erdos-952-binary-form-moat-classification) (GitHub; author-reported Lean4Web check 2026-10-10). This project cites OpenAI's uniform component bound and claims a generalization to lattice points where an irreducible homogeneous integer binary form of degree at least two has a nonzero value with a bounded number of distinct prime factors, with a classification for general binary forms; it reports Lean checks whose axiom lists contain only `propext`, `Classical.choice`, and `Quot.sound`. [AI-generated per source]
+
+## Comments and discussion
+- None found.
+
+## Formalization
+- [OpenAI math release, *Uniformly bounded components of Gaussian-prime graphs* (Lean scope note)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/028.md) (lean/docs/028.md, release of 6 October 2026). The scope note states that the Lean result rules out infinite bounded-step walks for every real D and gives a uniform bound, depending only on D, on component sizes and injective walk lengths, including axis primes and associates; no explicit function of D is given. [AI-generated per source] [family-level]
+- [OpenAI math release, *lean/OAI/NumberTheory/GaussianMoat/Main.lean*](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/GaussianMoat/Main.lean) (openai/math, commit adc7f12). Contains the theorem `fullMain : MainEndpoint ∧ UniformEndpoint`, derived from a finite sieve endpoint (`exists_sieveCertificate`), matching Theorems 1.1 and 1.2 of the paper.
+- [OpenAI math release, *lean/ComparatorChallenges/GaussianMoat.lean*](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/GaussianMoat.lean) (openai/math, commit adc7f12). The comparator statement: it defines the Gaussian-prime graph `primeGraph D` and its components and states `MainEndpoint` (no injective bounded-step sequence) and `UniformEndpoint` (a uniform bound B for each D).
+- [Google DeepMind formal-conjectures, *FormalConjectures/ErdosProblems/952.lean*](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/952.lean) (formal-conjectures, accessed 2026-10-21). An independent Lean statement of Erdős Problem 952 (the Gaussian moat problem), tagged `research solved`, citing this paper as [OAI26a] and linking the OpenAI Lean proof; the proof in this file is `sorry`.
+- [mo271, *feat: mark problems solved in the OpenAI math release and link formal proofs*](https://github.com/google-deepmind/formal-conjectures/pull/6898) (formal-conjectures PR #6898, merged 11 October 2026). A release-wide PR that lists Erdős 952 among the newly solved problems and notes that its proof link differs from the repository statement by a routine "norm vs distance" transport.
+
+## Related prior literature mentioned by others
+- [Ellen Gethner, Stan Wagon, and Brian Wick, *A Stroll Through the Gaussian Primes*](https://www.researchgate.net/publication/241811125_A_Stroll_Through_the_Gaussian_Primes) (American Mathematical Monthly 105(4), 327–337, 1998). [Grechuk's exposition](https://functor.network/user/3333/entry/2014) recommends this article for the problem's history and early progress when introducing OpenAI's uniform component theorem.
+
+## Possibly relevant literature (found by the agent, not checked)
+- [J. C. Stumpenhusen, *On the Gaussian Moat Problem*](https://arxiv.org/abs/2401.08441) (arXiv:2401.08441, January 2024, withdrawn). An earlier claimed proof of the same negative answer, later withdrawn by the author with the comment "The width of the moat was not correctly computed."
+- [M. Das, *A Note on The Gaussian Moat Problem*](https://arxiv.org/abs/1908.10392) (arXiv:1908.10392, August 2019, withdrawn September 2024). An earlier claimed negative answer for primes off the axes; the withdrawal comment states that the claim in Theorem 3 is incorrect.
+- [M. Das, *Walking through the Gaussian Primes*](https://arxiv.org/abs/1901.04549) (arXiv:1901.04549, January 2019, withdrawn September 2024). Computational work on moats compared against the Gethner–Wagon–Wick algorithm; related to the paper's account of earlier computations (Tsuchimura, Gethner–Wagon–Wick).
+- [Siddharth Prasad, *Walks on Primes in Imaginary Quadratic Fields*](https://arxiv.org/abs/1412.2310) (arXiv:1412.2310, 2014-12-07). A computational treatment of bounded-step prime walks and moats in imaginary quadratic unique-factorization rings, related to the paper's distinction between finite searches from the origin and a uniform bound for every component.
+
+## Digests and expositions
+- [Bogdan Grechuk, *The Gaussian moat conjecture*](https://functor.network/user/3333/entry/2014) (Functor Network, 2026-10-17). This exposition explains the paper's uniform bound, its inclusion of axis primes, and the passage from a periodic sieve obstruction to bounded components.
+- [AI Proved What?, *Walk to infinity? The Gaussian moat conjecture*](https://aiprovedwhat.com/episodes/028-uniformly-bounded-components-gaussian-prime/) (episode 028, October 2026; status updated 2026-10-19). A video and transcript explaining the nonexplicit uniform bound and the sieve-and-information proof outline, with small computational illustrations and a statement that the project has not run OpenAI's Lean check. [AI-generated per source] [family-level]
+
+## News and blogs
+- [Raemon (quoting a quick take by DaemonicSigil), *Are OpenAI's math results "creative" in an important way?*](https://www.lesswrong.com/posts/neHiCSdL4tJDg7Hrm/are-openai-s-math-results-creative-in-an-important-way) (LessWrong, 7 October 2026). Lists the result as item #28, "The Gaussian moat conjecture is true," and restates it informally as a kayaking puzzle with Gaussian primes as islands.
+- [OfficeChai Team, *OpenAI Has Also Included Proofs For 23 Erdős Problems In Its Latest Math Proof Drop*](https://officechai.com/ai/openai-has-also-included-proofs-for-23-erdos-problems-in-its-latest-math-proof-drop/) (OfficeChai, 9 October 2026). A news article that names "the Gaussian moat problem (952)" among the Erdős problems in the release, with no further detail.
+- [ぶちょう, *OpenAIが「ガウス素数の堀」の証明を主張——方眼紙の素数を飛び石に、無限の彼方へ行けるか*](https://note.com/rivas_bucho/n/n30a89846f858) (note.com, 2026-10-08). A Japanese-language article on result 028 explaining the uniform component-size claim, its nonexplicit bound, and the historical computational moat results.

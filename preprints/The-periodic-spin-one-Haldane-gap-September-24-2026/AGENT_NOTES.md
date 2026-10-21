@@ -1,0 +1,33 @@
+# Automatically collected context
+
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+
+## Follow-up works
+- [Hal Tasaki, *The equivalence of topological indices for U(1)⋊Z₂-symmetric quantum spin chains*](https://arxiv.org/abs/2609.34119) (arXiv:2609.34119v2, 10 Oct 2026). Version 2 cites this paper's even-periodic gap theorem as context but says the result "is not needed for this application", using the companion boundary-field theorem for its S=1 Heisenberg application; its revision note says of the OpenAI proofs: "I have so far found no logical gap in the portions I have examined, but my verification is not yet complete." [family-level]
+- [GPT-6 Astra Max / amachino, *Exact-arithmetic refinements of periodic spin-one Haldane-gap bounds*](https://github.com/amachino/haldane-gap-refinement) (GitHub technical note, version 1.7.0, 8 October 2026). This explicitly unreviewed note uses inputs from both manuscripts to claim a periodic gap greater than 0.1515 for every integer length at least 24, conditional on the cited OpenAI transfer identities and certified finite inputs. [AI-generated per source] [family-level]
+
+## Comments and discussion
+- [Hal Tasaki, *OpenAI's proof of the Haldane gap in the S=1 antiferromagnetic Heisenberg chain*](https://haltasaki.github.io/writings/AI/OpenAI_Haldane.html) (author's website, October 2026). Tasaki reports carefully studying the periodic paper's analytic argument and describes it favorably, explicitly stating that he has not independently checked the computer-assisted estimates.
+
+## Formalization
+- None found.
+
+## Related prior literature mentioned by others
+- [Hal Tasaki, *The Ground State of the S=1 Antiferromagnetic Heisenberg Chain is Topologically Nontrivial if Gapped*](https://arxiv.org/abs/2407.17041v4) (Physical Review Letters 134, 076602, 2025; arXiv v4, 3 December 2024). Tasaki's October 2026 exposition identifies this earlier theorem as the route from the companion's boundary-field gap to a nontrivial twist index, a consequence requiring more than the periodic gap alone. [family-level]
+- [Yuta Sakai and Ken-ichi Iwata, *Sharp Bounds Between Two Rényi Entropies of Distinct Positive Orders*](https://arxiv.org/abs/1605.00019) (arXiv:1605.00019, 2016). Section 7 of [Tasaki's exposition](https://haltasaki.github.io/writings/AI/OpenAI_Haldane_CT.pdf) cites these sharp power-sum comparisons as prior work implying its quantitative purity inequality, while distinguishing the coupled spatial and temporal iteration.
+
+## Possibly relevant literature (found by the agent, not checked)
+- [Elliott Lieb and Daniel Mattis, *Ordering Energy Levels of Interacting Spin Systems*](https://pubs.aip.org/jmp/article/3/4/749/227952/Ordering-Energy-Levels-of-Interacting-Spin-Systems) (J. Math. Phys. 3, 749–751, 1962). This paper orders the lowest energies of finite bipartite antiferromagnets by total spin, which may bear on the theorem's uniqueness statement for the ground state at even L ≥ 60.
+- [Synge Todo and Kiyoshi Kato, *Cluster algorithms for general-S quantum spin systems*](https://arxiv.org/abs/cond-mat/9911047) (Phys. Rev. Lett. 87, 047203, 2001). This paper gives the quantum Monte Carlo estimate 0.41048(6) for the S=1 Heisenberg gap, a numerical reference value alongside the White–Huse DMRG value that the introduction quotes.
+
+## Digests and expositions
+- [Hal Tasaki, *OpenAI's proof of the Haldane gap in the S=1 antiferromagnetic Heisenberg chain: Continuous-time version*](https://haltasaki.github.io/writings/AI/OpenAI_Haldane_CT.pdf) (expository note, 18 October 2026; revised 19 October 2026). This AI-assisted exposition follows the periodic transfer-operator argument and discusses the companion's topological consequence in Section 7, while explicitly leaving the underlying computer-assisted estimates independently unchecked. [family-level]
+- [Hal Tasaki, *OpenAI's proof of the Haldane gap in the S=1 antiferromagnetic Heisenberg chain: Discrete-time version*](https://haltasaki.github.io/writings/AI/OpenAI_Haldane_DT.pdf) (expository note, 18 October 2026; revised 19 October 2026). This AI-assisted account replaces the continuous-time operator construction with a checkerboard expansion and finite transfer matrices, deriving the same analytic criterion without independently checking the computational inputs.
+- [Ying Xie, *What the Machine Invented: Mining New Mathematical Instruments from OpenAI's October 2026 Release of AI-Generated Mathematics*](https://arxiv.org/abs/2610.17090) (arXiv:2610.17090, 12 Oct 2026). Section 9.2.4 has a card for family 268 that names the "coupled purity bootstrap" (Prop. 4.4) as a new spectral-gap criterion not requiring frustration-freeness, and notes that the survey did not run the verifier. [family-level]
+- [yuxuanwang2009 (GitHub), *The Haldane Gap, Proved? (haldane-gap-explainer)*](https://github.com/yuxuanwang2009/haldane-gap-explainer) (narrated video and repository, release v1.0, 7 Oct 2026). This roughly 27-minute manim explainer of the proof (one partition function read as Gibbs weights and as a spatial transfer trace) says its creator re-ran the finite computations and the certified numbers reproduced. [AI-generated per source] [family-level]
+
+## News and blogs
+- [GIGAZINE, *OpenAI announces mathematical results on 722 unsolved problems using its internal AI model*](https://gigazine.net/gsc_news/en/20261007-openai-mathematics) (GIGAZINE, 7 Oct 2026). This report on the release embeds a post by Isaac Kim on X that lists "Spin-one Haldane gap" among the highlighted results. [family-level]
+- [シブシブ, *OpenAIが公開した数学の現在地│GitHub公開722本の中身*](https://note.com/xshibuxshibux/n/nd035ed661c58) (note.com, 7 October 2026). Its quantum-chain section explains the periodic purity iteration and distinguishes the boundary-field topological conclusion from uniqueness of the infinite-volume ground state. [family-level]
+- [Azmat, *Haldane Gap Conjecture: Inside OpenAI's Proof of a 43-Year Quantum Prediction*](https://binaryverseai.com/haldane-gap-conjecture-openai-proof/) (Binary Verse AI, 11 October 2026). This popular account describes the periodic theorem's explicit bounds, transfer representation and finite certificates, and separately identifies the boundary-field companion's scope. [family-level]
+- [MeatKey (note.com), *LLM-related Bookmark Summary (2026.10.5–2026.10.11)*](https://note.com/mi6242/n/n3a4153529046?hl=en) (note.com, 12 Oct 2026). This weekly roundup quotes reactions on X to the Haldane-gap result that it attributes to Hal Tasaki ("It is an honor, but the sense of loss from being 'beaten to it' is also great") and to Makoto Kikuchi. [AI-generated per source] [family-level]

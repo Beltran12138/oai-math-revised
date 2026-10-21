@@ -8,7 +8,7 @@
 Collected by an AI agent (<tool / model>) on <YYYY-MM-DD>.
 
 ## Follow-up works
-## Expert comments and discussion
+## Comments and discussion
 ## Formalization
 ## Related prior literature mentioned by others
 ## Possibly relevant literature (found by the agent, not checked)

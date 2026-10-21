@@ -1,0 +1,29 @@
+# Automatically collected context
+
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+
+## Follow-up works
+- [Martin Winter, *A relation between Mahler volume and flag number for convex polytopes*](https://arxiv.org/abs/2610.09990) (arXiv:2610.09990, 7 Oct 2026). Proves a volume-product/flag-number inequality and notes in its Section 1.1 that, assuming this paper's symmetric Mahler theorem is correct, Kalai's flag conjecture follows; Hanner equality for its own inequality is stated as open (Conjecture 3).
+
+## Comments and discussion
+- [Gil Kalai, *Updates: Sharing AI progress on mathematics (amazing!); and my lecture plans*](https://gilkalai.wordpress.com/2026/10/07/updates-sharing-ai-progress-on-mathematics-amazing-and-my-lecture-plans/) (Combinatorics and more, 7 Oct 2026). Lists the symmetric and general Mahler proofs with Hanner and simplex equality cases, links them to his earlier discussions of faces, flags and symplectic geometry, and says the results still need to be verified by human mathematicians. [family-level]
+
+## Formalization
+- [OpenAI math release, *Lean scope note for family 087*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/087.md) (lean/docs/087.md). States that the formalization proves $|K||K^\circ|\ge4^n/n!$ for every $n\ge1$ with equality exactly for linear images of Hanner bodies, via the MahlerConjecture and SymmetricMahlerEquality comparators; the functional inequalities are excluded. [family-level]
+- [OpenAI math release, *MainTheorem.lean* (`symmetric_mahler`)](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Analysis/Mahler/MainTheorem.lean) (openai/math, commit adc7f12). Lean statement of the symmetric inequality in every positive dimension; the equality classification is in a separate file and comparator challenge (`SymmetricMahlerEquality.lean`).
+- [anxkhn, *Add the symmetric Mahler volume-product inequality*](https://github.com/google-deepmind/formal-conjectures/issues/6972) (google-deepmind/formal-conjectures issue #6972, 8 Oct 2026). Proposes adding Theorem 1.1 (inequality only, no equality cases or functional variants) to formal-conjectures; the author discloses AI assistance.
+- [anxkhn, *feat(Paper): add the symmetric Mahler inequality*](https://github.com/google-deepmind/formal-conjectures/pull/6977) (google-deepmind/formal-conjectures PR #6977, opened 8 Oct 2026, open with one approving review on 10 Oct 2026). Adds the statement only; the PR says the external proof build was interrupted, so no `formal_proof` attribute is attached.
+
+## Related prior literature mentioned by others
+- [Matthieu Fradelizi, Mathieu Meyer, Artem Zvavitch, *Volume Product*](https://arxiv.org/abs/2301.06131) (arXiv:2301.06131, Jan 2023). Survey of known lower bounds and special cases of Mahler's conjecture, used by Agentic Economy's Mahler article for the history and definitions behind the symmetric and general claims. [family-level]
+
+## Possibly relevant literature (found by the agent, not checked)
+- [Shibing Chen, Yuanyuan Li, Dongmeng Xi, Zhefeng Xu, *The Symmetric Mahler Inequality in Dimension Three via Admissible Shadow Systems*](https://arxiv.org/abs/2605.13795) (arXiv:2605.13795, May 2026). A separate shadow-system proof of the three-dimensional symmetric case; the paper instead cites the same authors' arXiv:2605.09334 for this.
+
+## Digests and expositions
+- [Elliot Kienzle, *Illustrating the AI proof of the Mahler conjecture*](https://chessapig.github.io/Mahler) (personal site, Oct 2026). Illustrated exposition centred on the companion symplectic-width paper, explaining how replacing its ball argument by a Lelong mass bound connects to this paper's equality cases; Kienzle calls the symplectic proof "a clever construction applying a technique I haven't published yet" and says he has not checked details line by line. [family-level]
+- [Ying Xie, *What the Machine Invented: Mining New Mathematical Instruments from OpenAI's October 2026 Release of AI-Generated Mathematics*](https://arxiv.org/html/2610.17090) (arXiv:2610.17090, 12 Oct 2026). Its family-087 card (Section 8.2.2) summarises the conformal lens, holomorphic mass and feasible-simplex identity, and classifies the identity as new; it states that its novelty judgments were not independently validated. [family-level] [AI-generated per source]
+- [OpenAI Math Digest, *The symmetric Mahler conjecture and its equality cases*](https://masataka123.github.io/OpenAI-Math-Digest/ja/papers/symmetric-mahler/) (Japanese exposition, undated). Illustrated reading guide following the feasible-simplex integral, vanishing deficit and metric-median steps leading to the Hanner classification, separating the functional and entropy–transport consequences. [AI-generated per source]
+
+## News and blogs
+- [Agentic Economy, *OpenAI's Mahler claim: the route through an 87-year-old problem*](https://aecon.ai/blog/openai-mahler-volume-product) (aecon.ai, 8 Oct 2026). Contrasts the symmetric and general proof strategies, their equality classifications and the released reasoning summary, without claiming independent proof certification. [family-level]
