@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Tristan Humbert, reaction in *100+ reactions to 100+ solutions*, Proofs and Prompts](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (Proofs and Prompts, post dated 2026-10-08, reactions added through 2026-10-19). Humbert, author of a local version of the conjecture near real and complex hyperbolic metrics, calls the paper "mostly unreadable slop" and criticises OpenAI's publication standards and the verification burden placed on mathematicians, without presenting a specific mathematical refutation.
 
 ## Formalization

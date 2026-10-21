@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Guozheng Cheng, Xiang Fang, Menghan Li, Hongdou Qu, Chengbo Xiao, *A quantitative form of the planar Falconer distance theorem*](https://arxiv.org/abs/2610.22222) (arXiv:2610.22222, 15 October 2026). The abstract says the proof "develops the multiscale method of the September 2026 manuscript of OpenAI" and gives a quantitative lower bound, depending on diameter and Frostman data, for the measure of planar distance sets; the arXiv comments say higher-dimensional cases will follow in later versions.
 - [Harald Schilly, *Erdős similarity for distance sets: finite patterns, a pinned obstruction, and an open window*](https://zenodo.org/doi/10.5281/zenodo.23219651) (Zenodo, doi:10.5281/zenodo.23219652, 7 October 2026). States its results conditionally on the all-dimensional Falconer theorem of this paper, together with another OpenAI release result, and reports Lean 4 formalizations; the companion repository says Claude assisted with the repository and paper.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Hyunwoo Kwon, in *100+ reactions to 100+ solutions*, Proofs and Prompts](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (blog, 8 October 2026). A short reaction naming the Falconer distance problem among "central problems in harmonic analysis" announced as solved; it discusses the announcement's effect on researchers, not the mathematics. [family-level]
 
 ## Formalization

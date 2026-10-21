@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Olga Kharlampovich, Alexei Miasnikov, *Model Theory and Algorithms for One-Relator Groups*](https://arxiv.org/abs/2610.25305) (arXiv:2610.25305, 18 October 2026). Uses Theorem 1.1 of this paper, which they call (H), for a terminating algorithm that recognizes BS-free one-relator groups and for several corollaries (isomorphism, conjugacy, elementary theory). The authors state that these results are conditional: "We have read both papers, but have not verified all details of their proofs." [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

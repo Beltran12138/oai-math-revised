@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Heath Pearson, *The Mukai conjecture via Cox rings for smooth canonical ambient embeddings*](https://arxiv.org/abs/2604.25023) (arXiv:2604.25023v2, 7 Oct 2026). Version 2 cites this preprint, noting that "an unreleased OpenAI model claimed a solution of the (generalised) Mukai conjecture using Gromov-Witten invariants", and calls that approach "genuinely distinct" from its own Cox-ring proof for ambiently smooth Fano varieties; Remark 1.10 relates its stronger bound to the OpenAI claim.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Kiwamu Watanabe, *Reaction to the release's algebraic-geometry claims (posts archived by Post-Cutoff)*](https://postcutoff.com/p/2026-10-06-kiwamu-watanabe-algebraic-geometry-claims/) (X, 2026-10-06 UTC; archived 2026-10-07). The reproduced Japanese posts identify the generalized Mukai conjecture as a problem he has worked on and express uncertainty about the correctness of the release's claims, without assessing this manuscript's proof.
 
 ## Formalization

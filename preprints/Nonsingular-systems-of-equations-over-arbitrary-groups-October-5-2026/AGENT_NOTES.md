@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Kourovka Notebook (eds. E. I. Khukhro, V. D. Mazurov), *Unsolved Problems in Group Theory, 21st edition: updates file*, Problem 18.87](https://kourovkanotebookorg.wordpress.com/wp-content/uploads/2026/10/21upd-3.pdf) (Kourovka Notebook update, 2026). Problem 18.87(a) (V. A. Roman'kov), the Kervaire–Laudenbach conjecture for independent systems over an arbitrary group, is marked "The conjecture is proved (AI solution confirmed by N. V. Bogachev: OpenAI, Preprint, 2026)". The entry links a [copy of this paper](https://kourovkanotebookorg.wordpress.com/wp-content/uploads/2026/10/18-87.pdf); the nilpotent and solvable versions 18.87(b),(c) carry no solution mark.
 - [Lvzhou Chen, reaction in *100+ reactions to 100+ solutions*, Proofs and Prompts](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (blog post, 8 Oct 2026, updated 19 Oct 2026). Chen, author of the cited Chen2026, writes "I spent a few years thinking about the Kervaire conjecture, Howie's conjecture (Problem 256) and related problems", and expresses interest in the new techniques while stating he has not understood the full details. [family-level]
 

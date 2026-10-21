@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Peter Keevash, *The terminal leave in random greedy hypergraph matching*](https://arxiv.org/abs/2610.20414) (arXiv:2610.20414, 14 Oct 2026). Proves that the edge count of the terminal graph of random triangle removal from $K_n$, divided by $n^{3/2}$, converges in $L^2$ to $1/(2\sqrt2)$, the same statement as Theorem 1.1 here, and extends it to any fixed strictly $k$-balanced $k$-graph; its §2 gives a triangle-case exposition of the approach (freezing the process, tree survival prediction, comparison with the finite random matching).
 
-## Expert comments and discussion
+## Comments and discussion
 - [Peter Keevash, "Statement on AI use and intellectual priority" in *The terminal leave in random greedy hypergraph matching*](https://arxiv.org/html/2610.20414v1) (arXiv:2610.20414v1, §1, 14 Oct 2026). Keevash writes that he shared triangle-removal ideas with ChatGPT from October 2025 and that his triangle-case solution "was essentially the same as that in the recent OpenAI sharing progress in mathematics announcement (manuscript 188)"; he asks OpenAI to clarify whether its model used his work, stating he has no direct evidence that it did.
 
 ## Formalization

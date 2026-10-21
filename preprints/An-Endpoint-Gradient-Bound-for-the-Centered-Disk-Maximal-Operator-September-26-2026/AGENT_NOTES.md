@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Kenta Kitamura, *centered-ball-maximal-endpoint*](https://github.com/KitaKen1/centered-ball-maximal-endpoint) (GitHub repository, October 2026). Proposes a Lean 4 proof of the centered Euclidean-ball endpoint gradient bound in every dimension, citing this paper as "a research starting point"; the repository says independent mathematical review is still pending. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

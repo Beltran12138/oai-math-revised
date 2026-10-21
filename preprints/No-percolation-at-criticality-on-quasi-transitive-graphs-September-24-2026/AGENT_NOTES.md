@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Nutelligence Research, *Independent Research Inspired by OpenAI’s Critical Percolation Work*](https://community.openai.com/t/first-look-at-mathematics-manuscripts-from-an-internal-frontier-model-at-openai/1403886) (OpenAI Developer Community, post 15, 2026-10-17). This announcement explicitly cites family 213 as inspiration for claimed site-percolation results on periodic, quasi-transitive and specialized lattice graphs, reports Lean verification, and notes an additional assumption for the quasi-transitive result and unresolved novelty assessment. [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Olle Häggström, *What I write about the day after the most earth-shattering event in the history of mathematics*](https://haggstrom.substack.com/p/what-i-write-about-the-day-after) (Crunch Time for Humanity, 2026-10-07). Häggström links both manuscripts among percolation problems he had worked on, mentions the role of the van den Berg–Häggström–Kahn inequality, and postpones detailed assessment. [family-level]
 
 ## Formalization

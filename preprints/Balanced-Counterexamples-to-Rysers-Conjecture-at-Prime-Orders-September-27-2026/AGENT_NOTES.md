@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [queelius, *openai-math-counterexamples*](https://github.com/queelius/openai-math-counterexamples) (GitHub repository, accessed 2026-10-21). This project, which recomputes explicit counterexamples from the release, classifies family 162 as "not-explicit": it notes that $q_0$ is not given and the hypergraph comes from a random procedure, and it lists the smallest case $q=5$ as not attempted. [AI-generated per source]
 
 ## Formalization

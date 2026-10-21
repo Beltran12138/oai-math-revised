@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Nándor Sieben, *Snaky: Proof sequence for Snaky*](https://github.com/nandorsieben/Snaky) (GitHub repository, 2026). Gives proof sequences (files `proof-sequence-18/19/20.html.gz`) in the sense of Sieben's proof-tree paper; the README says they are based on strategies described in this paper, and the 20-move sequence was later formalized in the gotrevor project.
 - [Trevor Morris (gotrevor), *snaky-15x15: Snaky is a first-player win on 15x15*](https://github.com/gotrevor/snaky-15x15) (GitHub Lean development, October 2026). Reports kernel-checked theorems `Snaky.snaky_wins_15x15` and `Snaky.snaky_wins_17x17_in_20` and a Breaker win on 9×9, narrowing the smallest winning square-board size to between 10 and 15 after the paper's 17×17 bound. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [edpegg, *Comment on “First look at mathematics manuscripts from an internal frontier model at OpenAI”*](https://community.openai.com/t/first-look-at-mathematics-manuscripts-from-an-internal-frontier-model-at-openai/1403886/5) (OpenAI Developer Community, 2026-10-07). Briefly welcomes the Snaky solution and suggests making the strategy available as a playable game.
 
 ## Formalization

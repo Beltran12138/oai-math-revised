@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Ben Green, contribution to *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/comment-page-1/) (Proofs and Prompts, posted 8 October 2026, updated 19 October 2026). Green singles out result 182's square-difference power saving as the result he intends to study first, while emphasizing the work needed to understand the manuscripts.
 - [Steve Fan and Andrew Lott, *The optimal van der Corput property for squares*](https://arxiv.org/html/2610.07765v2) (arXiv:2610.07765v2, 12 October 2026). An introductory remark says "A prominent AI company has circulated a draft claiming the power-saving bound", calls it "largely unreadable", notes its claimed Lean certificate, and records that their first submission preceded the release's initial repository commit; the paper itself proves an $N\exp(-c\sqrt{\log N\log\log N})$ bound and shows the van der Corput property cannot give a power saving.
 - [Telegram channel @MathfromKrach, post on the OpenAI release](https://t.me/s/MathfromKrach/215) (Telegram, October 2026). The post lists the claimed $N^{1-c}$ bound for square-difference-free sets among the highlighted results and cautions that papers without Lean certificates may contain mistakes. [family-level]

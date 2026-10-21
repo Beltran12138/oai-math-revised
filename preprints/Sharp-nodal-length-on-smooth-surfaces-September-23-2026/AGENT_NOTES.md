@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Guiyu Xie, Cheng Zhang, *Sharp Bounds for Nodal Sets of Steklov Eigenfunctions on Smooth Surfaces*](https://arxiv.org/abs/2610.28391) (arXiv:2610.28391, 2026-10-20). Proves a sharp linear upper bound for the interior nodal length of Steklov eigenfunctions on smooth compact surfaces with boundary; it lists this preprint as reference [26] among works on nodal sets of Laplace eigenfunctions on closed manifolds.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Ricardo Pinho, *An explicit finite cylinder cover of the regular tetrahedron saving $3.86\times10^{-4}$ below the half-area bound*](https://hexagonmath.org/abs/2610.00304v2) (hexagon:2610.00304v2, v1 17 Oct 2026, v2 18 Oct 2026). Uses a finite tilt in this paper's angular-sector framework, with rational radial cutoffs, to give a 4096-cylinder triangular-base cover of normalized area about 0.499613830783714, certified by exact LP dual witnesses; it cites all four family preprints. The source states that the text is primarily AI-generated and that no optimality is claimed. [AI-generated per source]
 - [Ricardo Pinho (with contributions by Alexander Richard Towell), *tetrahedron-cylinder-cover* (GitHub)](https://github.com/rpinho/tetrahedron-cylinder-cover) (code repository, October 2026). Certificates and two independent exact checkers for the 4096-cylinder cover; the README compares it with this paper's small-tilt example (saving about 5.4×10⁻¹⁰ with 16,000,000 cylinders). The README also states that the release's `TriangularCovering.lean` encodes the quantities but is not by itself a checked proof of the paper, its final comparator theorem containing `sorry`. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

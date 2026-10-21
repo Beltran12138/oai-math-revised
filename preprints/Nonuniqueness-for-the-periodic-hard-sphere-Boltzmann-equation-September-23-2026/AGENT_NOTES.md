@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [OpenAI, *Nonuniqueness with local conservation for the hard-sphere Boltzmann equation*](https://github.com/openai/math/blob/main/preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/paper.pdf) (OpenAI Math Release preprint, 5 October 2026). This companion reuses the September concentrating-jet mechanism and claims a new global continuation with exact local mass, momentum and energy conservation and polynomially weighted collision integrability on every bounded time interval. [AI-generated per source] [cites earlier version]
 
-## Expert comments and discussion
+## Comments and discussion
 - [John Evans, *Comment on Boltzmann nonuniqueness with exact local conservation*](https://www.linkedin.com/posts/johnaevans_github-openaimath-activity-7513546545980440576-SNmC) (LinkedIn, October 2026). In notes described as ChatGPT-assisted genealogy rather than an independent proof check, Evans compares the jet-and-seed construction and its later conservation refinement with instability methods and concentration/gluing strategies. [family-level]
 
 ## Formalization

@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [OpenAI, *A uniform influence bound for hypergraph properties*](https://github.com/openai/math/blob/main/preprints/A-uniform-influence-bound-for-hypergraph-properties-October-5-2026/hypergraph-influences.pdf) (OpenAI Math Release preprint, 2026-10-05). The companion manuscript in the same release says it reproduces this paper's Fourier estimate and vertex-block restriction argument, and replaces the graph degree estimate with an r-uniform one to get the exponent r/(r-1). [AI-generated per source] [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Gil Kalai, *Updates: Sharing AI progress on mathematics (amazing!); and my lecture plans*](https://gilkalai.wordpress.com/2026/10/07/updates-sharing-ai-progress-on-mathematics-amazing-and-my-lecture-plans/) (Combinatorics and more, 2026-10-07). One of the conjecture's two posers lists "The Friedgut–Kalai sharp-threshold conjecture" as item 17 of the release's results, restates the announced (log n)^{-2} width bound and the hypergraph extension, and connects them to his earlier exposition; the post does not assess the proof, and none of the comments discuss this result. [family-level]
 
 ## Formalization

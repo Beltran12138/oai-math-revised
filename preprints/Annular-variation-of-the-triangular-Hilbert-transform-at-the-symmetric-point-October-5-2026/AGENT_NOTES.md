@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Zhuowen Guo, Rongzhong Xiao, Shuhao Zhang, *Pointwise convergence of bilinear ergodic averages for commuting transformations*](https://arxiv.org/abs/2610.26388) (arXiv:2610.26388, 19 Oct 2026). Proves a.e. convergence of $\frac1N\sum F(S^nx)G(Q^nx)$ for commuting $S,Q$ and $1/p+1/q\le1$, citing this paper as [23] and taking its matrix energy, Gaussian heat calculations and several lemmas (e.g. Lemmas 3.4–3.6, 4.1, 4.3, 4.4) from it; it declares that ChatGPT (GPT-6) was used.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

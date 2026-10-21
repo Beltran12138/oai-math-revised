@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [AIM open-problem collection (MColbrook/AIM), *Problem 321: Polynomial sample complexity for deletion-trace reconstruction*](https://github.com/MColbrook/AIM/blob/main/problems/321-polynomial-trace-reconstruction.md) (AIM entry, last checked 2026-10-13). Marks the polynomial-sample question as solved by counterexample, citing this paper's Theorems 1.1 and 1.2; the entry calls itself "an AI statement-level review of a published manuscript, not a fresh independent audit." [AI-generated per source]
 - [AIM, *OpenAI manuscript cross-reference, 13 October 2026*](https://github.com/MColbrook/AIM/blob/main/research/solution_reviews/2026-10-13-openai-crosscheck/README.md) (AIM solution review, 2026-10-13). Compares this paper's definitions (complete traces, a common randomized decoder, s=2/3) with AIM problem 321 and notes "No successful local replay/axiom log" for the Lean module. [AI-generated per source]
 - [yuiyuiui for Kaiwen Jin, *321: proposed negative resolution from the OpenAI trace lower bound*](https://github.com/MColbrook/AIM/pull/50) (MColbrook/AIM PR #50, opened 2026-10-11, closed unmerged 2026-10-12). Proposed recording this paper's Theorem 1.2 as a negative answer to AIM problem 321; the author withdrew it as redundant with the existing entry. [AI-generated per source]

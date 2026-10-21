@@ -8,7 +8,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Benjamin Severn, *Algebraicity of Weil classes on abelian sixfolds of Weil type for Q(√−3) with discriminant −2*](https://hexagonmath.org/abs/2610.00246v2) (hexagon:2610.00246v2, Oct 2026). Uses Prym–Tyurin varieties of covers of P¹ with G32 monodromy; this paper is in its reference list. [AI-generated per source] [cites earlier version]
 - [Benjamin Severn, *A transfer theorem for Weil classes on Prym–Tyurin factors of Galois covers*](https://hexagonmath.org/abs/2610.00386v1) (hexagon:2610.00386v1, Oct 2026). Gives conditions under which Weil classes on Prym–Tyurin factors of Galois covers of P¹ are algebraic; this paper is in its reference list. [AI-generated per source] [cites earlier version]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Jaehoon Kim, *A proof of the Erdős–Gallai cycle decomposition conjecture*](https://arxiv.org/abs/2610.07840) (arXiv:2610.07840, v1 6 Oct 2026, v2 9 Oct 2026). Contemporaneous independent proof of the same linear bound, developed with disclosed ChatGPT and Claude assistance; a v2 note acknowledges the OpenAI proof and contrasts its quotient-and-lifting induction with Kim's approach through light graphs and polynomial minimum degree.
 - [Ryan Coffey, proof claim for Erdős Problem #184 on the erdosproblems.com forum](https://www.erdosproblems.com/forum/thread/184/proof-claims) (forum post, 1 Oct 2026). Separate claimed proof of the $O(n)$ bound, listed as made with Claude Opus 5.5 and building on the Bucić–Montgomery round structure, posted after this preprint's date and before the release. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Thomas Bloom (erdosproblems.com), *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10) (blog post, 8 Oct 2026). The curator of the Erdős problems site lists this preprint under Problem 184, summarizes its claim and notes that "This proof has been formalised"; a comment in the thread points to the Coffey and Kim claimed solutions.
 
 ## Formalization

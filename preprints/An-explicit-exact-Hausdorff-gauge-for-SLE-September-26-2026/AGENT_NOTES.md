@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Dapeng Zhan, *An Exact Hausdorff Measure as Natural Length for SLE*](https://arxiv.org/abs/2610.15066) (arXiv:2610.15066, 2026-10-10). Taking this paper's gauge $r^d(\log\log(1/r))^{(2-d)/2}$ and its exactness and finite-expectation theorem (Theorem 1.1) as input, proves that the resulting Hausdorff measure is a deterministic positive multiple of the Lawler–Rezaei occupation measure for $0<\kappa<8$. The author discloses GPT 6 assistance and personal checking of the manuscript.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

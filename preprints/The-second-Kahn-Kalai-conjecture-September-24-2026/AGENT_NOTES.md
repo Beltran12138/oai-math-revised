@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [acprk, *R13: Second Kahn–Kalai conjecture: constant 2048e^50 ≈ 10^25 → 10^5*](https://github.com/acprk/openai-math-remarks/blob/main/remarks/R13-kahn-kalai-constant) (GitHub repository acprk/openai-math-remarks, undated draft). A remark that re-tunes the parameters of this paper's proof and claims computer-certified constants of about 10^5 and 2·10^5 in place of 2048e^50 and 6144e^50, assuming the manuscript's lemmas. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

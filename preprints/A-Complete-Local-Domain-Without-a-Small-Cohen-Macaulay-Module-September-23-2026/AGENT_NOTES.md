@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [mo271, *Wikipedia/SmallCohenMacaulayModules: `exists_isSmallCohenMacaulay` is false*](https://github.com/google-deepmind/formal-conjectures/issues/6912) (google-deepmind/formal-conjectures issue #6912, 2026-10-07). Cites this paper as appearing to settle the formal statement negatively and proposes restating it as a negation; the author asks reviewers to check the claim against the source and notes the comparison was prepared with AI assistance.
 - [maximusrufus, with review by bocowgill, *Add reference note: claimed counterexample of exists_isSmallCohenMacaulay (unrefereed; status unchanged)*](https://github.com/google-deepmind/formal-conjectures/pull/7214) (google-deepmind/formal-conjectures PR #7214, opened 2026-10-12, open at time of collection). Started as a change marking the conjecture as solved but was reduced to a docstring note citing this paper; the reviewer approved the note only, "not certification of the manuscript's proof".
 

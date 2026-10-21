@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Jananan Arulseelan and James E. Hanson, *Counterexamples to the Monotone Completeness Conjecture*](https://arxiv.org/abs/2610.27184) (arXiv:2610.27184, 19 Oct 2026). Modifies this paper's vector-bundle construction (called "the quasitrace manuscript") to get uniform failure of traciality, which together with model-theoretic reductions gives a counterexample to the monotone completeness conjecture. The abstract says the authors fully reproduce the quasitrace disproof with modified arguments, e.g. rank stratification and parametric transversality in place of the incidence-variety estimate.
 - [Jananan Arulseelan, *Model theory of quasitracial AW\*-algebras and the absoluteness of monotone completeness*](https://arxiv.org/abs/2610.17435) (arXiv:2610.17435, 12 Oct 2026). Develops a model theory of quasitracial AW\*-algebras and shows that Kaplansky's II$_1$ AW\*-factor problem is ZFC-equivalent to a $\Pi^0_2$ arithmetic sentence; a note added to the introduction says the OpenAI manuscript's proposed counterexample may settle one of its motivating questions.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

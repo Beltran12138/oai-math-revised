@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [muralisubbarao2 (GitHub), *TR-M528-Ram-Coulomb-Excess-Charge*](https://github.com/muralisubbarao2/Part-5-Improved-solutions-to-239-of-the-722-math-problems-posted-by-OpenAI/blob/main/TR-M528-Ram-Coulomb-Excess-Charge.pdf) (GitHub repository "Improved solutions to 239 of the 722 math problems posted by OpenAI", undated). A technical report whose readable outline and links point to this preprint; the repository README calls its reports "a first draft prepared with the help of GPT 6 Astra" that has "not been verified by humans yet". [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

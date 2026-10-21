@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Ji Ho Bae (jbaelaw), *Erdos928*](https://github.com/jbaelaw/Erdos928) (GitHub repository, Lean 4/Mathlib, accessed 2026-10-21). Formalizes in Lean a counting estimate and an explicit implication from the joint Dickman law of this paper to Erdős Problem 928; it explicitly does not re-prove or import the paper's analytic theorem. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Thomas Bloom, *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10) (erdosproblems.com blog, 8 Oct 2026). Lists Problem 371 among the release's claimed results, notes that the 84-page PDF proves it as a corollary of a more general joint distribution law and that a Lean formalisation exists, and says he had not checked the proofs or formalisations himself. [family-level]
 
 ## Formalization

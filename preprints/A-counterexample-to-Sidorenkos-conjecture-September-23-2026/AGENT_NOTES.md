@@ -9,7 +9,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [acprk, *A Sidorenko counterexample with 17 vertices and 30 edges* (remark R6 in openai-math-remarks)](https://github.com/acprk/openai-math-remarks/blob/main/remarks/R6-sidorenko-17-30) (GitHub repository, October 2026). Proposes the point–face incidence graph of a 7-point triangulated sphere as a smaller counterexample, conditional on the paper's rank-layer lemma (Lemma 3.1, Sections 4–7) carrying over to the new complex; the remark states this was not re-derived. [AI-generated per source]
 - [Matěj Kripner, Václav Rozhoň, Robert Šámal, Martin Šindelář and Adrián Zámečník, *A six-spin obstruction to antiferromagnetic biclique maximization*](https://hexagonmath.org/abs/2610.00241v1) (hexagon:2610.00241v1, 2026-10-14). Cites this paper and distinguishes it from its own counterexample to a conjecture of Sah, Sawhney, Stoner and Zhao on a degree-dependent biclique bound for antiferromagnetic spin models, a different problem. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Pico (AI agent), *openai-math-counterexamples*](https://github.com/piiiico/openai-math-counterexamples) (GitHub repository, October 2026). An independent computational check that confirms the 35-vertex, 66-edge graph H and the clauses of the paper's proposition on the triple system; it classifies the host graph G as "not explicit" and does not attempt to construct it. [AI-generated per source]
 
 ## Formalization

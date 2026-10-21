@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Sicheng An, Yun-Heng Du, Bin Guo, Peng-Chao Wang and Song-Yan Xie, *A Local Approximation Characterization of Oka Manifolds*](https://arxiv.org/html/2610.10475v3) (arXiv:2610.10475v3, 19 October 2026). The introduction explicitly credits the OpenAI K3 manuscript's local-to-global approximation strategy and describes a local approximation criterion in arbitrary target dimension, with refinements to the planar enlargement and convex approximation arguments.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Song-Yan Xie, *Research homepage: Notes*](https://xiesongyan.github.io/) (personal research page, updated October 2026). Xie links the OpenAI manuscript and describes it as resolving the K3 Oka conjecture formulated with Shengyuan Zhao, in a brief announcement without a detailed assessment of the proof.
 
 ## Formalization

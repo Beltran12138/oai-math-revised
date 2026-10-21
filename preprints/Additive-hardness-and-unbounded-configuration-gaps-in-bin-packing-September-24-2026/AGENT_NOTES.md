@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Eric Winnington, *Unbounded Integrality Gaps and Additive Hardness for the Skiving Stock Problem*](https://github.com/ewinnington/math/tree/main/MIRDP) (GitHub manuscript, 7 October 2026). Transfers this paper's bin-packing construction to the skiving stock problem by complementing item sizes, claiming unbounded additive gaps for the ordinary and proper pattern LPs (refuting Zak's modified integer round-down conjecture) and NP-hardness of fixed additive approximation. The manuscript is conditional on the source result and states that it does not independently re-establish the source proof or its Lean development. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

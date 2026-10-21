@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [AHGT project, *On the Bogomolov–Pop reconstruction theorem*](https://ahgt.math.cnrs.fr/activities/workshops/Seminar-Taming_the_flow_2026/) (Taming the Flow seminar announcement, autumn 2026; speaker and date TBA). The programme announces a talk targeting this manuscript and its relation to the Milnor K-theoretic reconstruction results.
 
 ## Formalization

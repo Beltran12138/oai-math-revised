@@ -7,7 +7,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Ying Xie, *From Signed Restrictions to Lower Bounds at Every Fixed Depth*](https://zenodo.org/records/23429046) (Zenodo, doi:10.5281/zenodo.23429046, 17 Oct 2026). Extends the depth-three lower bound for this paper's language to every fixed depth $D\ge3$, with bound $2^{\Omega_D((n\log n/\log\log n)^{1/(D-1)})}$, reusing the paper's signed restriction lemma.
 - [Xin Li and Yan Zhong, *Short Point Lists for CNFs and Stronger Constant-Depth Circuit Hardness*](https://arxiv.org/abs/2610.27127) (arXiv:2610.27127, also ECCC TR26-261, 19 Oct 2026). Uses a short-description CNF decomposition to prove $2^{\Omega_d((n\log n)^{1/(d-1)})}$ lower bounds at every fixed depth $d\ge3$ for three explicit families, including OpenAI's polynomial evaluator with its original parameters; also states, attributing the observation to Chukhin, that this paper's proof implicitly gives $2^{\Omega(\sqrt{n\log\log n/\log\log\log n})}$.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Oded Goldreich, *Comments on Breaking the Parity Barrier for Constant-Depth Circuits*](https://www.wisdom.weizmann.ac.il/~oded/MC/437.html) (Oded's choices no. 437, 2026-10-13). Discusses Chukhin's work as a more accessible development of the OpenAI proof and connects its trilinear target to earlier work on multilinear circuit lower bounds.
 
 ## Formalization

@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Gil Kalai, *Updates: Sharing AI progress on mathematics (amazing!); and my lecture plans*](https://gilkalai.wordpress.com/2026/10/07/updates-sharing-ai-progress-on-mathematics-amazing-and-my-lecture-plans/) (Combinatorics and more, 2026-10-07). Lists the manuscript among the release's results, saying it "announces a proof of this conjecture," and links his earlier blog discussion of Barnette's conjecture; no technical assessment is given.
 - [jboggan, Hacker News](https://news.ycombinator.com/item?id=49987367) (2026-10-07). A commenter who reports working on the conjecture since 2002 notes that the paper is problem 180, that it resembles an approach they had abandoned, and that they are reading it.
 - [Jake Boggan (jboggan), Hacker News](https://news.ycombinator.com/item?id=49987920) (2026-10-07). The same commenter describes the proof as explicitly selecting the edges not in the Hamiltonian cycle, with a key step that "involves a complex valued exponential sum on the edges," while saying they are still digesting it.

@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Ashay Burungale, *BSD and the p-converse* (guest post on Persiflage)](https://galoisrepresentations.org/2026/10/15/bsd-and-the-p-converse-guest-post-ashay-burungale/) (2026-10-15). Survey of the announced family results that mentions this paper only as the source of the 2-primary component of the leading-term formula; it says correctness is still under analysis. [family-level]
 - [Persiflage, *A Brief Digest of Some New OpenAI Results*, item 6 "Results on BSD"](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/) (galoisrepresentations.org, 2026-10-08). First impression that the BSD results are "technical improvements on results already in the literature" rather than progress on higher rank; the item links the companion leading-term paper. [family-level]
 - [David Loeffler, comment on the Persiflage digest](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/#comment-28525) (2026-10-09). Agrees with the blog's assessment and says the BSD results do not seem to go much beyond recent work of Skinner, Castella, Burungale et al. [family-level]

@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Diyi Liu, Shuchen Zhu, Wibe Albert de Jong, Di Fang, David Williams-Young, Chao Yang, *T-efficient unitary synthesis via block-sparse Hamiltonian simulation*](https://arxiv.org/abs/2610.18589) (arXiv:2610.18589, 13 Oct 2026). Section VIII cites the OpenAI draft as giving constant diamond-norm-error synthesis with polynomially many gates and Boolean-oracle queries, and notes that this accounting excludes the oracle's implementation cost, so it is not directly comparable to Clifford+T T-count bounds.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Scott Aaronson, *The Mathocalypse*](https://scottaaronson.blog/?p=10169) (Shtetl-Optimized, 7 Oct 2026). One of the problem's two posers lists the paper as a "Positive solution to the Unitary Synthesis Problem", calls it "the opposite of what most of us expected", and notes that the paper does not give an efficient way to construct the oracle.
 - [Dakshita Khurana, *Classical at Heart*](https://dakshitakhurana.substack.com/p/classical-at-heart) (Substack, 8 Oct 2026). Khurana, who has worked on the problem, writes that she is still working through the proof and names two ingredients she had tried herself (recursive implementation through a smaller unitary, and almost-isometries with sparse rows). She also discusses the implications for quantum cryptography conditionally on the result holding.
 

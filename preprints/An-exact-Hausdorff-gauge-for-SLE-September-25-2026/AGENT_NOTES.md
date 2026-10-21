@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Dapeng Zhan, *An Exact Hausdorff Measure as Natural Length for SLE*](https://arxiv.org/abs/2610.15066) (arXiv:2610.15066, 2026-10-10). Using the explicit-gauge companion's exactness and finite-expectation theorem, proves that its Hausdorff measure is a deterministic positive multiple of the Lawler–Rezaei natural length; it cites only that companion and does not identify this paper's moment-defined gauge. The author discloses GPT 6 assistance and personal checking of the manuscript. [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

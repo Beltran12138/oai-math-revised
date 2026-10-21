@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [realopjt, *Independent check of the base range in "Foulkes' Conjecture for the Sixth Symmetric Power"*](https://github.com/realopjt/foulkes-sixth-power-check) (GitHub, 2026). This Claude-assisted Rust checker reports exact weight-basis computations confirming the multiplicity inequalities for every $6\le b\le25$, while explicitly excluding independent verification of the higher-range certificates and general argument.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

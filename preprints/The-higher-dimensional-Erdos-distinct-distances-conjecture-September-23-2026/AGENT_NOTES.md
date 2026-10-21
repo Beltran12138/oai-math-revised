@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Thomas Bloom (erdosproblems.com blog), *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10) (blog post, 8 October 2026). In the section on Erdős Problem 1083, Bloom says the claimed bound is "actually stronger than Erdős' conjecture, which allowed for an $n^{o(1)}$ loss". He also notes that the proof "has not been formalised", "appears to be heavily algebraic" and uses many ideas from Tidor–Yu–Zakharov.
 
 ## Formalization

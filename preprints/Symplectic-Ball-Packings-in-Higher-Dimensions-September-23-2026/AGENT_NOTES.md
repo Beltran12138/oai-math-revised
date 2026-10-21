@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Symplectic Zoominar, *Working groups on OpenAI papers*](https://www.math.ias.edu/~sarabt/zoominar/?tab=ai) (updated 2026-10-19). Announces a working group on higher-dimensional symplectic ball packing, whose [seminar page](https://researchseminars.org/seminar/SymplecticEmbedding) names Dan Cristofaro-Gardiner as organizer, without reporting an assessment of the manuscript.
 
 ## Formalization

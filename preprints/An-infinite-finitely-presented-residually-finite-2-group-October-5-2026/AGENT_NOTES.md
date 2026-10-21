@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Kenta Kitamura, *Infinite finitely presented residually finite p-groups for every prime*](https://github.com/KitaKen1/all-prime-residually-finite-p-groups) (GitHub repository, October 2026). Claims an infinite finitely presented residually finite p-group for every prime p, extending this paper's p = 2 result with a characteristic-p argument; its README notes that this paper also implies the residually finite periodic variant, and states that ChatGPT, OpenAI Codex and Claude Code assisted. [AI-generated per source] [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Terence Tao, *Erdős Problem #968 forum thread*](https://www.erdosproblems.com/forum/thread/968) (erdosproblems.com, comments of 8 and 10 Sep 2025). These comments predate the paper: they sketch a positive answer to the question in Corollary 1.2, conditional on RH and a weak pair-correlation hypothesis (via Heath-Brown), and call this "close to the limit of current technology".
 
 ## Formalization

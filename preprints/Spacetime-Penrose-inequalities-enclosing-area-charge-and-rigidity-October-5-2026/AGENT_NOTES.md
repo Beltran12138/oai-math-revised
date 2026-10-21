@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Hubert Bray, Tuan Dolmen, Marcus Khuri and David Schmidt, *Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets*, Appendix C](https://arxiv.org/html/2610.20559v1) (arXiv:2610.20559v1, 2026-10-14). An independent proof of the neutral spacetime Penrose inequality for "maximally parameterized" data in dimensions n ≥ 3, relevant to this paper's neutral inequalities in dimensions three and four; its Appendix C discusses checking OpenAI's Penrose series. [family-level]
 
 ## Formalization

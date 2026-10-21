@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [B. Kjos-Hanssen, *Baire measurable functions and automorphisms of the truth-table degrees*](https://arxiv.org/abs/2610.16059) (arXiv:2610.16059, October 2026). Adapts this paper's proof to truth-table (and weak truth-table) reducibility for automorphisms induced by Baire measurable functions, noting that the Turing-degree decoding is an unbounded search and so not a truth-table reduction. Its acknowledgments state assistance from Claude and a Lean 4 formalization with Aristotle (Harmonic), in [bjoernkjoshanssen/tt-auto](https://github.com/bjoernkjoshanssen/tt-auto).
 
-## Expert comments and discussion
+## Comments and discussion
 - [Commenter "Patrick" and others on Computational Complexity, comment thread of *Conjectures that I thought would not be proved in my lifetime....were*](https://blog.computationalcomplexity.org/2026/10/conjecture-that-i-thought-would-not-be.html) (blog comments, 11–13 Oct 2026). Patrick writes that the rigidity proof "is a short proof and not hard to follow" and links Andrew Marks's exposition; later commenters ask whether humans in the area could have found it.
 - [B. Kjos-Hanssen (comment #53) and S. Aaronson (comment #265) on Shtetl-Optimized, *The Mathocalypse*](https://scottaaronson.blog/?p=10169) (blog comments, 7 and 11 Oct 2026). Kjos-Hanssen calls the rigidity of the Turing degrees "the greatest open problem in computability"; Aaronson replies that he never understood why it "was such a huge deal". [family-level]
 

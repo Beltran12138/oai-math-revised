@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Ruslan Shaydulin, with a comment by Junyu Liu, *QAOA Convergence in Higher-Order Spin Glasses*](https://www.linkedin.com/posts/rshaydu_i-was-amused-to-see-openai-resolve-a-conjecture-activity-7513410216923803648-7Pzu) (LinkedIn, accessed 2026-10-21). Shaydulin discusses OpenAI's claimed resolution of thermodynamic-first SK optimality and relates it to his group's spin-boson work on higher-order pure and mixed spin glasses; in a comment, Liu reports difficulty following the manuscript's mathematical language and explicitly leaves its correctness unresolved.
 
 ## Formalization

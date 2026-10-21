@@ -3,9 +3,9 @@
 Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Follow-up works
-- [H. Bray, T. Dolmen, M. Khuri, D. Schmidt, *Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets*](https://arxiv.org/abs/2610.20559) (arXiv:2610.20559, 14 Oct 2026). Proves the spacetime Penrose inequality in all dimensions n ≥ 3 for "maximally parameterized" data via generalized Schoen–Yau identities, cites this paper as [28], and says "we believe this is what the OpenAI paper [28] posted last week on October 6, 2026 claims to have done." Its Appendix C ("AI statement") says this paper starts from regularized versions of their equations with little motivation and that "the mode of release concerns us"; it does not say they checked the proof.
+- [H. Bray, T. Dolmen, M. Khuri, D. Schmidt, *Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets*](https://arxiv.org/abs/2610.20559) (arXiv:2610.20559, 14 Oct 2026). Proves the spacetime Penrose inequality in all dimensions n ≥ 3 for "maximally parameterized" data via generalized Schoen–Yau identities, cites this paper as [27], and says "we believe this is what the OpenAI paper [27] posted last week on October 6, 2026 claims to have done." Its Appendix C ("AI statement") says this paper starts from regularized versions of their equations with little motivation and that "the mode of release concerns us"; it does not say they checked the proof.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

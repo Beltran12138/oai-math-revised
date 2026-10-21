@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Lermont, *Benchmark spectral topology selection for P2P broadcast and audit family 178 feasibility*](https://github.com/Lermont/math/pull/6) (GitHub pull request to Lermont/math, merged 2026-10-11). A simulation experiment motivated by family 178 that compares random regular graphs, a selection heuristic and an LPS Ramanujan graph for peer-to-peer flooding; the PR says "the full deterministic construction from family 178 is not implemented or benchmarked."
 
-## Expert comments and discussion
+## Comments and discussion
 - [Malt7635 (GitHub handle), *Flaw report: Deterministic nonbipartite Ramanujan graphs in every fixed degree*](https://gist.github.com/Malt7635/4569b09c5ec295f0c1c4b294ee58fa0c) (GitHub Gist, 2026-10-10). This public report alleges that the asserted scale of $J_T$ in Step 2 of Theorem 8.3 conflicts with its local spectral-mass hypothesis, affecting the probability law used for exact spectral repair.
 
 ## Formalization

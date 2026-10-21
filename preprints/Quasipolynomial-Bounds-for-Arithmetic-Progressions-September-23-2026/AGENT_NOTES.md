@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Thomas Bloom, *Erdős problems in the OpenAI proofs*, with comment thread (MalekZ, jleng01, Thomas Bloom)](https://www.erdosproblems.com/forum/thread/blog:10) (erdosproblems.com blog and forum, 8–12 Oct 2026). Bloom summarizes the claimed bound for all k ≥ 3, notes that a bound of this shape was already known for k=3 (Kelley–Meka), and says the Lean code "appears to prove the weaker bound" exp(-(log log N)^{1+c_k})N. In the comments, jleng01 calls the proof "largely a synthesis of previous work on the problem," and Bloom agrees that it shows existing techniques "pushed sufficiently far" suffice.
 
 ## Formalization

@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [J. S. Milne, *Articles (abstracts)*, entry for "Abelian motives and Shimura varieties in nonzero characteristic"](https://www.jmilne.org/math/articles/abstracts.html) (jmilne.org, notes added 7 and 13 October 2026). In a note dated 7 October 2026, Milne writes "OpenAI has announced a proof of the rationality conjecture, so, it seems, the statements in the article are now proven"; a note dated 13 October says Madapusi has sent him an improved exposition of the proof.
 - [J. S. Milne, *Abelian motives and Shimura varieties in nonzero characteristic*, v2.4, Section 12 "Comments on OpenAI's proof of the rationality conjecture"](https://www.jmilne.org/math/articles/SVp.pdf) (author's preprint v2.4, 9 October 2026). Milne summarizes the proof in three steps: the Weil-class dichotomy, the reduction from CM varieties to Weil classes (which he calls not new), and lifting to a CM variety. He identifies the dichotomy as the core of the proof and writes: "The immediate tasks for the mathematical community are to verify the proof of this statement and to construct a more comprehensible proof." [cites earlier version]
 - [Keerthi Madapusi, *Parsing AI proofs: Milne's rationality conjecture*](https://keerthimadapusi.com/notes) (personal website, October 2026). Madapusi criticizes the original exposition but describes the underlying idea as simple and clever after exploring the argument with Astra 6.

@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [David Jekel, *On counterexamples to the unification of free entropy*](https://arxiv.org/abs/2610.27243) (arXiv:2610.27243, 19 Oct 2026). Cites this preprint as the first example with $-\infty<\chi<\chi^*$, and presents a similar example with a diffuse (semicircular) last variable in place of the discrete one, proving the gap through a Wasserstein-distance lower bound instead of the data-processing argument.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

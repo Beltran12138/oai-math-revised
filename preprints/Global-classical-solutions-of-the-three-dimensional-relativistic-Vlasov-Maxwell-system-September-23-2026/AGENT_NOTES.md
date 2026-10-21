@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [JohnDriscollAcademic and maintainer MColbrook, AIM (Open Applied Problems) pull request #35, *Update Vlasov-Maxwell problem with new findings*](https://github.com/MColbrook/AIM/pull/35) (GitHub, 7–13 Oct 2026). The problem tracker records this paper as resolving AIM 073 ("Large-data global classical solutions of relativistic Vlasov–Maxwell"). The maintainer notes that the linked comparator theorem ends in `by sorry` and that AIM therefore claims no Lean-verified status. [AI-generated per source]
 - [kieransquared1, *Comment on “OpenAI drops 722 math papers written by internal reasoning model”*](https://www.reddit.com/r/Physics/comments/1wzgqwn/comment/pecerhy/) (r/Physics, accessed 2026-10-21). The commenter, who identifies themselves as a mathematician working in this area, reports that nonstandard terminology and notation make the manuscript's central idea difficult to identify; their expertise is self-reported.
 

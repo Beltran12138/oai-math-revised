@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [琪越 唐 (Hexagon contributor), *A note on counterexamples to homological conjectures*](https://hexagonmath.org/abs/2610.00143v4) (hexagon:2610.00143, v1 2026-10-07, v4 2026-10-15). Extends the constructions of both family papers to any base field containing an element of infinite multiplicative order, and lists counterexamples to the Auslander–Reiten, Gorenstein-projective, Tachikawa, Nakayama-type, finitistic-dimension and Wakamatsu tilting conjectures; the page marks the authorship as mixed human/AI and says "Human understanding: no parts". [AI-generated per source] [family-level]
 - [Weiheng Xia, *Global obstruction property and its applications*](https://arxiv.org/abs/2610.12583) (arXiv:2610.12583, 2026-10-08). Proves positive Auslander–Reiten results via a "global obstruction property"; its introduction cites this paper as "a recent preprint by OpenAI [that] proposes a counterexample to ARC" and states that its results do not depend on that counterexample being valid.
 
-## Expert comments and discussion
+## Comments and discussion
 - [René Marczinzik, *Homological conjectures and problems*](https://sites.google.com/view/rene-marczinzik/homological-conjectures-and-problems) (personal research page, updated 16 October 2026). Discussing the claimed Tachikawa counterexample and its homological consequences, Marczinzik calls for careful checking and proposes a weakly Gorenstein conjecture over fields whose nonzero elements all have finite multiplicative order, outside the fields used by these constructions. [family-level]
 
 ## Formalization

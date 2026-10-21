@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Gil Kalai, *Updates: Sharing AI progress on mathematics (amazing!); and my lecture plans*](https://gilkalai.wordpress.com/2026/10/07/updates-sharing-ai-progress-on-mathematics-amazing-and-my-lecture-plans/) (Combinatorics and more, 7 Oct 2026). Lists the symmetric and general Mahler proofs with Hanner and simplex equality cases, links them to his earlier discussions of faces, flags and symplectic geometry, and says the results still need to be verified by human mathematicians. [family-level]
 
 ## Formalization

@@ -11,7 +11,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Hrishik Sai Bojnal (fringewidth) / Claude, *catalan-exponent*](https://github.com/fringewidth/catalan-exponent) (GitHub, certification dated 2026-10-15). Re-runs Carreira's Theorem 35 with a different design to claim $\mu(G)<2402$; it does not change the construction from this paper, and the README says no second person has checked the instantiation. [AI-generated per source]
 - [Shawn Krisman, *One of β(4), β(6),..., β(36) is irrational*](https://hexagonmath.org/abs/2610.00285v2) (hexagon:2610.00285v2, 2026-10-16). Cites this paper and says it was prompted by it; the abstract describes its own construction and does not say it uses this paper's method. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Persiflage (galoisrepresentations.org), *A Brief Digest of Some New OpenAI Results*](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/) (blog, 2026-10-08). Item 7 discusses this paper: it sees new ideas or optimizations, says "certain optimizations are taking place without being motivated at all", and notes no analogous OpenAI proof for $L(2,\chi_{-3})$ yet.
 - [Marcos Costa Santos Carreira, *catalan-designs* repository](https://github.com/MarcosCarreira/catalan-designs) (GitHub, 2026-10). Contains, alongside Carreira's two notes above, a verification report on this paper and the scripts and logs behind its computations; prepared with assistance from Claude per the acknowledgement.
 

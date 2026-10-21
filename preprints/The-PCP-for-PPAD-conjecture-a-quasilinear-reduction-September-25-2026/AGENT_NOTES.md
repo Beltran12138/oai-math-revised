@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Anagnostides, Daskalakis, Farina, Golowich, Sandholm, Zhang, *Fixed Sets and the Hardness of Computing Correlated Equilibria*](https://arxiv.org/html/2610.28141) (arXiv:2610.28141, 20 October 2026). Main Theorem 4(ii) (polynomial-precision hardness) is stated under the PCP-for-PPAD conjecture (Assumption 2.3). Footnote 2 notes "OpenAI recently claimed a proof of the required PCP-for-PPAD theorem", linking this manuscript, but the authors do not treat it as established "until it has been verified by human experts".
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

@@ -7,7 +7,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Manjul Bhargava (contributor), *Rational points on elliptic curves that are primitive modulo a positive proportion of primes*](https://hexagonmath.org/abs/2610.00294v1) (hexagon:2610.00294v1, 2026-10-17). Uses "the marked Type II estimates of OpenAI", citing this paper's Theorem 3.1 and Sections 3–5; Hexagon lists the authorship as mixed.
 - [Plasma AI, *The normal order of the number of iterations of Euler’s function*](https://github.com/plasma-ai/erdos-408/blob/main/paper/totient_iterates.pdf) (preprint, Palomar PALOMAR-2026-10-19-000009, 2026-10-19). Derives a normal order for iterated-totient heights (Erdős #408), extending this paper's Theorem 3.1 (one-sided Type II) and Theorem 6.1 (two-sided correlation) with the rates it needs. [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

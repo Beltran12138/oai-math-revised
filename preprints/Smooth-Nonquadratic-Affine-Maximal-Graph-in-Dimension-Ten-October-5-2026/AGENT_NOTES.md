@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Neil S. Trudinger, Xu-Jia Wang, *The higher dimensional affine Bernstein and Plateau problems*](https://arxiv.org/abs/2610.09385) (arXiv:2610.09385, v1 7 Oct 2026). Gives a smooth entire convex nonquadratic solution of the affine maximal equation in every dimension n≥10 (Theorem 2.1, via a fourth-order ODE in Section 3), and proves interior regularity for the affine Plateau problem and an affine Bernstein theorem under a growth condition in all dimensions. A "Notes added on October 7th, 2026" section names this paper, states that its dimension-ten counterexample "is already included in Section 3 of this paper", and reports submission on 2026-02-02 and conference presentations in March and May 2026.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

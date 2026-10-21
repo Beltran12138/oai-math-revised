@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Matteo Russo and Jiaye Wei, *The Online Steinitz Problem*](https://arxiv.org/abs/2610.16715) (arXiv:2610.16715, 12 October 2026). Develops online signing-to-ordering reductions and discrepancy bounds; its introduction notes that OpenAI announced a proof of the O(√d) Euclidean bound (citing "result 097"), and a footnote says the authors "have not independently verified the announced proof, which none of this paper's results requires."
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

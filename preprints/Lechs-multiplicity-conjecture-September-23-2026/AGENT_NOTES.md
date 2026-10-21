@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [S. B. Iyengar, L. Ma, M. Walker, *Lech's conjecture in equal characteristic*](https://mark-walker-22.github.io/LengthConjecture.Oct.6.pdf) (preliminary draft, 20 pp., posted on Walker's website, October 2026). A human-written account of a separate AI-generated proof of the equal-characteristic case (found by Alex Gerko with ChatGPT Astra), going through a Dutta-multiplicity lower bound $\chi_\infty(F)\ge e(R)$ in characteristic $p$ and a length bound for "deep" finite free resolutions inspired by Boij–Söderberg theory. This parallels this paper's uniform complex estimate and its Dutta corollary. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Mark Walker (with S. B. Iyengar and L. Ma), *Lech's conjecture in equal characteristic* (project page)](https://mark-walker-22.github.io/Lech.html) (personal website, posted 5 October 2026, updated 6 October 2026). The page hosts the exposition, the original AI-written manuscript and two AI-prepared provenance notes, and links this paper, noting that it covers the general case, not only equal characteristic.
 - [mahrud on GitHub, *194. Lech's multiplicity conjecture* (PR #194, mahrud/openai-math-comments)](https://github.com/mahrud/openai-math-comments/pull/194) (9 October 2026). An inline comment on the introduction says the core idea of the uniform estimate "seems to be a generalization of the core idea in the proof at https://mark-walker-22.github.io/Lech.html". Another comment notes that the Lean proof does not cover the full preprint.
 

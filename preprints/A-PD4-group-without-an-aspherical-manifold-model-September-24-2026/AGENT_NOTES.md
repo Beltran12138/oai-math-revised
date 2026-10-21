@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [OpenAI, *Nonhomeomorphic closed aspherical four-manifolds with the same homotopy type*](https://github.com/openai/math/tree/main/preprints/Nonhomeomorphic-closed-aspherical-four-manifolds-with-the-same-homotopy-type-October-4-2026) (OpenAI Math Release, family 320, 2026-10-04). A later manuscript in the same release claiming a four-dimensional counterexample to the Borel conjecture; it cites this paper (as [PD]) and explicitly imports its controlled filling and support results, together with the algebraicity theorem of the marked tensor obstruction paper of this family. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

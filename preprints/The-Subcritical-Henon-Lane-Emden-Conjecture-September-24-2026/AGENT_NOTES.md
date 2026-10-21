@@ -8,7 +8,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Yuxia Guo, Yichen Hu, Shaolong Peng, Tingfeng Yuan, *Classification of positive solutions to the critical Lane-Emden system*](https://arxiv.org/abs/2610.27875) (arXiv:2610.27875, 2026-10-20). Classifies positive solutions on the critical hyperbola without decay or energy assumptions, citing this paper ("OpenAI [27]") and adapting its "source-layer interval comparison method" to the critical case.
 - [mingfeng87 (GitHub), *Lane–Emden-Type Conjecture*](https://github.com/mingfeng87/Lane-Emden-type-conjecture) (GitHub repository, proofs dated 2026-10-08). Draft candidate proofs for weighted fractional and weighted polyharmonic Lane–Emden systems adapting "the localized source-layer pressure method originally developed for second-order systems"; the README does not cite this paper and marks the proofs as not yet verified. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

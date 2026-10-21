@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [acprk (GitHub), *Remark R5: Thorp shuffle 1600d → 24d*](https://github.com/acprk/openai-math-remarks/blob/main/remarks/R5-thorp-24d) (openai-math-remarks, local draft, undated). Re-selects parameters in this paper's first stage and combines them with the companion's Fourier transfer to claim mixing after 24d shuffles (45d using this paper alone); asymptotic, not formalized, reviewed only by AI. [AI-generated per source]
 - [public-observatory (GitHub), *thorp-shuffle-cutoff: an open research agenda on cutoff for the Thorp shuffle*](https://github.com/public-observatory/thorp-shuffle-cutoff) (GitHub repository, October 2026). A research agenda on whether the Thorp shuffle has cutoff at 2·log₂N, taking Theorem 1.1 of this paper as its starting point; its [reading notes](https://github.com/public-observatory/thorp-shuffle-cutoff/blob/main/writeups/literature.md) (2026-10-11) say the paper leaves the leading constant and cutoff open. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

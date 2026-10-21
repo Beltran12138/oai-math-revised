@@ -7,7 +7,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Antti Hippeläinen, *Algebraicity of Weil classes on non-split abelian sixfolds of Weil type over $\mathbb{Q}(\sqrt{-3})$ with Hermitian determinant $-2$*](https://hexagonmath.org/abs/2610.00371v1) (hexagon:2610.00371v1, 20 Oct 2026). Treats a non-split sixfold case outside the split-form results and cites this paper and two companion papers in the family, without saying how they are used. [AI-generated per source]
 - [Benjamin Severn, *A transfer theorem for Weil classes on Prym–Tyurin factors of Galois covers*](https://hexagonmath.org/abs/2610.00386v1) (hexagon:2610.00386v1, Oct 2026). Proves a transfer theorem for Weil classes on Prym–Tyurin factors; its reference list cites this paper together with the abelian-powers and Gale companions. [AI-generated per source] [cites earlier version]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Abhishek Saha, posts on X, collected by Hraness](https://hraness.com/reading/mathematician-reactions-to-openais-372-math-results) (Hraness reading page, saved 9 Oct 2026). Quotes Saha on 7 Oct 2026: "So now we have confirmation that OpenAI has indeed proved the Hodge conjecture for all (CM) abelian varieties."
 - [Anonymous commenter on Terence Tao's blog, under Claire Voisin's guest post *The status of the Hodge conjecture*](https://terrytao.wordpress.com/2026/09/12/the-status-of-the-hodge-conjecture/) (comment dated 6 Oct 2026). Links this paper and writes "OpenAI proved the Hodge conjecture for CM abelian varieties"; the post itself predates the release and discusses Weil classes and Markman's work.
 

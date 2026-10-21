@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Yukun He, Jiaoyang Huang and Xiaoyu Wang, *Bulk universality of random regular graphs*](https://arxiv.org/abs/2610.08127) (arXiv:2610.08127, 6 October 2026). This contemporaneous work treats the family's clean model for every fixed degree at least three, stating fixed-energy GOE point-process convergence together with deterministic-label gap universality and fixed-energy correlation-measure universality; this is the w = 0 counterpart that this paper takes from its companion. [family-level]
 - [Hexagon, contributed by Patrick Lopatto, *Mobility Edge for Sparse Complex Gaussian Matrices*](https://hexagonmath.org/pdf/2610.00168v1) (hexagon:2610.00168v1, October 2026). Section 1.1 cites both family manuscripts and describes He–Huang–Wang's clean-graph result as independent and simultaneous, within a study of a different model with complex Gaussian edge weights on sparse Erdős–Rényi graphs. [AI-generated per source] [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

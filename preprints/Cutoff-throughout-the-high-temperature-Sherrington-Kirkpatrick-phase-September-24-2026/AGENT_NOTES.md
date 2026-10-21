@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Hang Du, Brice Huang, Sidhanth Mohanty, Amit Rajaraman, *Sampling from the Sherrington-Kirkpatrick Model up to Criticality*](https://arxiv.org/abs/2610.17717) (arXiv:2610.17717, 13 Oct 2026). Section 1.2 ("Concurrent work by OpenAI") lists the worst-case-initialization cutoff for β < 1 among the OpenAI results concurrent with their simulated-annealing sampler.
 - [Zhe Hou, Jingcheng Liu, Yixiao Yu, *Simulated annealing and Weak Poincaré inequalities with inverse-polynomial accuracy for the Sherrington-Kirkpatrick model*](https://arxiv.org/abs/2610.09882) (arXiv:2610.09882, 7 Oct 2026). Section 1.3 ("Concurrent work") notes the worst-case total-variation cutoff on the n log n scale for 0 ≤ β < 1 reported in this OpenAI preprint.
 

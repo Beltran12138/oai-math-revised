@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Chaoyang Qin and Xiaoming Sun, *Hierarchical Melnikov Realization: Logarithmic Factor Improvement to Hilbert Number Lower Bounds*](https://arxiv.org/html/2610.12218v1) (arXiv:2610.12218v1, 8 October 2026). This AI-assisted preprint cites OpenAI's uniform-bound manuscript while claiming the complementary lower bound $H(d)=\Omega(d^2\log^2 d)$ and explicitly states that its results were obtained independently before the release.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

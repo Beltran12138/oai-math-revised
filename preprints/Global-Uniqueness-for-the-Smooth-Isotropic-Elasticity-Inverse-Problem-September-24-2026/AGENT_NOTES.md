@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Huaian Diao, Umidjon Durdiev, *Unique Determination of the Lamé Parameters in Three Dimensions*](https://arxiv.org/abs/2610.14741) (arXiv:2610.14741, 10 Oct 2026). Claims the same full-data global uniqueness theorem (smooth λ, μ, μ > 0 and 3λ+2μ > 0, bounded smooth domain in ℝ³) by a four-component Laplace-type reduction, CGO solutions and Cauchy–Plemelj factorization; its Section 1.2 says the authors later became aware of "the related OpenAI preprint" and describe their work as independent.
 - [Huaian Diao, Umidjon Durdiev, *Logarithmic Stability for the Inverse Boundary Problem in Three-Dimensional Isotropic Elasticity*](https://arxiv.org/abs/2610.24053) (arXiv:2610.24053, 16 Oct 2026). Proves logarithmic interior stability and boundary derivative estimates for both Lamé parameters, and states global uniqueness for C^22 parameters, which it says "relaxes the C∞ regularity assumptions in the independent uniqueness results" including the OpenAI preprint.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

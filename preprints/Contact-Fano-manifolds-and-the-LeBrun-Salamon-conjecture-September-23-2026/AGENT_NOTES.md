@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Zhengyu Hu, Kefeng Liu, Xueyuan Wan, *Transverse rational curves and the LeBrun–Salamon conjecture*](https://arxiv.org/abs/2610.10410) (arXiv:2610.10410, 7 Oct 2026). Claims a proof of the Riemannian LeBrun–Salamon conjecture in real dimension 4n, n ≥ 2 (the statement of this paper's Corollary on quaternionic-Kähler manifolds), using balanced transverse rational curves of contact degree two, a two-point tensor, additive group actions, VMRT arguments (Hwang–Mok) and Beauville's theorem; its Remark 1.2 contrasts this manuscript's smoothing of contact lines into very free conics with its own construction, states that the authors' "main result and core argument were obtained well before the appearance of the OpenAI manuscript", and the paper declares use of ChatGPT as an auxiliary tool.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

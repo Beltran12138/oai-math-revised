@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Scott Aaronson, *The Mathocalypse*](https://scottaaronson.blog/?p=10169) (Shtetl-Optimized, 2026-10-07). Relays Dana Moshkovitz's first reading of the release; her quoted messages note that it also contains "direct optimal NP hardness of approximation proofs" for the main applications of the UGC, bypassing the UGC. [family-level]
 - [Comment thread, *102. The Unique Games Conjecture and optimal approximation thresholds*](https://github.com/mahrud/openai-math-comments/pull/102) (mahrud/openai-math-comments PR #102, opened 2026-10-09). Thread for human commentary on the five manuscripts; so far its only human comment points to the Fei–Minzer–Wang 4-to-1 games preprint and the Quanta article. [family-level]
 

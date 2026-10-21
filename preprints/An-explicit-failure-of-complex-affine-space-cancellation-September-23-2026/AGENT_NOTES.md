@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [queelius (fork of piiiico/openai-math-counterexamples), *openai-math-counterexamples*](https://github.com/queelius/openai-math-counterexamples) (GitHub repository, accessed 2026-10-21). Its row 047 reports an independent exact-arithmetic recomputation of the identities in the stabilization step (the route to $A[w]\cong\mathbb C^{[5]}$) as "holds", and states that the non-polynomiality of $A$ (Sections 3–6) was not checked. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

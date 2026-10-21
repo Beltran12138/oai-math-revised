@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [enaslund (merged by teorth), *Update Erdős unit distance bounds: lower bound 1.04317, upper bound 4/3 − ε*](https://github.com/teorth/optimizationproblems/pull/204) (teorth/optimizationproblems PR #204, opened 2 Oct 2026, merged 18 Oct 2026). Adds this preprint to the unit-distance constants table as the source of an upper exponent 4/3 − ε with ε not explicit; the PR has no review comments, and its author says Claude Opus 5.5 helped with the upper-bound update.
 
 ## Formalization

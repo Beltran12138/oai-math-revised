@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [AHGT project / Alena Pirutka, *On reconstruction from Milnor K-theory modulo the characteristic*](https://ahgt.math.cnrs.fr/activities/workshops/Seminar-Taming_the_flow_2026/) (Taming the Flow seminar announcement, scheduled December 18, 2026). The programme announces Pirutka's forthcoming discussion of this manuscript in the context of logarithmic differential forms and the Bloch–Gabber–Kato theorem.
 
 ## Formalization

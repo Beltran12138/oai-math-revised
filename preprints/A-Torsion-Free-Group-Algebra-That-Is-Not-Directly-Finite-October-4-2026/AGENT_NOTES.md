@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Seth Douglas, Nidhal Mghirbi, *hyperbolic-group-not-sofic* (note and Lean formalization)](https://github.com/Apsiape/hyperbolic-group-not-sofic) (GitHub, v1.1.0, October 2026). This note on a different OpenAI group (*A torsion-free hyperbolic group that is not residually finite*) remarks in its introduction that OpenAI's characteristic-two torsion-free groups "with a group algebra that is not directly finite" already show that Linnell division rings need not exist.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Johan Öinert, comment on *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (proofsandprompts.com, post of 2026-10-08). Öinert observes that the claimed torsion-free example over $\mathbb F_2$ also gives a nontrivial idempotent $ba$, hence a characteristic-two counterexample to the idempotent conjecture, and criticizes the manuscript for not mentioning this.
 - [Michael Chapman, in *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (proofsandprompts.com, 2026-10-08). Lists "the refutations to the Kaplansky conjectures" among the release results on problems he "grew up on", without discussing this manuscript in detail. [family-level]
 

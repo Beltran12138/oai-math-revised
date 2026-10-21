@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [mycaule, *Upstream formal conjectures to Google Deepmind repo* (issue #58, Commutator-IO/grothendieck-project)](https://github.com/Commutator-IO/grothendieck-project/issues/58) (GitHub issue, opened 2026-10-16, closed 2026-10-17). The issue proposes the homotopy hypothesis as a candidate entry for formal-conjectures that stays "research open" and cites this preprint only as an unrefereed claim; the comment thread does not discuss the paper's mathematics.
 
 ## Formalization

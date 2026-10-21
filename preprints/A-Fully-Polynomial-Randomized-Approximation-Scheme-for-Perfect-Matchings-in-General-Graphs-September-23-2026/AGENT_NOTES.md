@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Chenghua Liu, Boning Meng, *A simplified proof of the FPRAS for counting perfect matchings*](https://arxiv.org/abs/2610.26803) (arXiv:2610.26803, 19 Oct 2026). Gives a simplified proof of this paper's FPRAS by establishing the comparison argument of its Sections 4–6 on the original vertex set without auxiliary vertices and tree constructions, while citing and reusing its encoding, replication and mixing/finite-precision results (Lemma 6.4, Lemma 7.2, Theorem 7.3, Section 9).
 
-## Expert comments and discussion
+## Comments and discussion
 - [microprediction, comment in *Add OpenAI results page with applied and difficulty scores* (microprediction/pure PR #20)](https://github.com/microprediction/pure/pull/20) (GitHub, 7 Oct 2026). A correction to a third-party catalogue note on item 113 that separates the earlier Jerrum–Sinclair FPRAS for the monomer–dimer partition function from the newly claimed FPRAS for perfect matchings in general graphs.
 
 ## Formalization

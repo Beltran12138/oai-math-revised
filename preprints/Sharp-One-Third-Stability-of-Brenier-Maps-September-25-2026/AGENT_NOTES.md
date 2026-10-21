@@ -8,7 +8,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Bang-Xian Han, Zhuo-Nan Zhu, *Stability of optimal transport on sub-Riemannian manifolds*](https://arxiv.org/abs/2610.09688) (arXiv:2610.09688, 7 Oct 2026). Proves a W₁^{1/4} map estimate on Riemannian and fat sub-Riemannian manifolds, describes the OpenAI preprint as a concurrent work whose example "disproves the square-root conjecture", and notes that its own W₁ estimate does not give a W₂^{1/3} bound in its settings.
 - [Anonymous, *Exact sensitivity certificates for planar transport maps: coefficient uncertainty, a convergent box refinement and a sharp three-atom calibration*](https://evidencepress.org/releases/planar-transport-map-sensitivity-certificates/) (Evidence Press, version 0.2.0-candidate, 2026-10-07; DOI 10.5281/zenodo.23205731). This unrefereed work extends OpenAI's three-atom construction with exact planar sensitivity formulas and coefficient-box certificates, explicitly stating that it neither uses nor validates the general one-third theorem. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

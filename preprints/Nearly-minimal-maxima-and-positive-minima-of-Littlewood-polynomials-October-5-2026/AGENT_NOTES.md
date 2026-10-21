@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Thomas Bloom, *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10) (erdosproblems.com blog, 8 October 2026). Lists Erdős Problem #1150 among the release's claimed results via the ultraflat companion PDF, which it says "appears to heavily rely on two other related PDFs" of 28 and 26 pages (this paper and the September 23 one). [family-level]
 - [Erdős Problems forum, *Problem #1150 discussion thread*](https://www.erdosproblems.com/forum/thread/1150) (erdosproblems.com, comments February–August 2026). Predates the release; T. Bloom and T. Tao comment on gaps in el Abdalaoui's arXiv:2504.21499, a contrary nonflatness claim that this paper cites, and el Abdalaoui replies.
 

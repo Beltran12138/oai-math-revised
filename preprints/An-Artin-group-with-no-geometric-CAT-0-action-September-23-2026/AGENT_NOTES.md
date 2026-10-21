@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [frogscooper (GitHub handle), *artin-cat0-29*](https://github.com/frogscooper/artin-cat0-29) (GitHub repository, accessed 2026-10-21). Presents an edited version of this paper's argument with 11-strand instead of 40-strand braid blocks, reducing the example from 116 to 29 generators, with an adapted copy of the release's Lean project reported as axiom-clean, plus an 11-generator variant that the author says assumes a special case of van der Lek's theorem; the author says the new argument and Lean port were worked out with help from Claude. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Giulio Tiozzo, contribution to *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (Proofs and Prompts, 8 October 2026; updated 19 October 2026). Writes "I took their example #254 (an Artin group with no CAT(0) action): their group has 116 generators" and reports that Astra produced a 12-generator example in about ten minutes, which he uses to argue the papers were not reviewed by a human.
 
 ## Formalization

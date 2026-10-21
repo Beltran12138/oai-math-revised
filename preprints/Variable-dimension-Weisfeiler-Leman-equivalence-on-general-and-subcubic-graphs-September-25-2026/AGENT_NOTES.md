@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Radu Curticapean, Mingjun Liu, Daniel Neuen, and Tim Seppelt, *Lower Bounds for Weisfeiler–Leman*](https://zenodo.org/records/23213174) (Zenodo:10.5281/zenodo.23213174, 2026-10-07). This concurrent AI-assisted manuscript cites the paper and states EXPTIME- and XP-completeness for pair equivalence on simple bipartite 3-degenerate graphs; its preface dates the AI-assisted results to September 19–29 and describes the manuscript as a hastily written public timestamp. [AI-generated per source] [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

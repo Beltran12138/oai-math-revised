@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Xuan Fang and Tianyu Wang, *A Log-Star Comparison Between Expectation Threshold and Fractional Expectation Threshold*](https://arxiv.org/abs/2609.30680) (arXiv:2609.30680, v1 25 Sep 2026, v2 8 Oct 2026). Proves a log-star comparison between q and q_f; the v2 abstract states that an OpenAI result "proving the equivalence of fractional and integral thresholds" supersedes the note, which is kept for historical reference.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Gil Kalai, *Updates: Sharing AI progress on mathematics (amazing!); and my lecture plans*](https://gilkalai.wordpress.com/2026/10/07/updates-sharing-ai-progress-on-mathematics-amazing-and-my-lecture-plans/) (blog post, 2026-10-07). Links this paper as a "companion result" making integral and fractional expectation thresholds equivalent up to a universal constant, and notes that the release's proofs "will need to be checked and digested by the mathematical community."
 
 ## Formalization

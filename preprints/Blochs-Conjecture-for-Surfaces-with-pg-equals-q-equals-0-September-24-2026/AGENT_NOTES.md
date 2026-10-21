@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Raemon and commenters (LessWrong), *Are OpenAI's math results "creative" in an important way?*](https://www.lesswrong.com/posts/neHiCSdL4tJDg7Hrm/are-openai-s-math-results-creative-in-an-important-way) (LessWrong, post dated 7 Oct 2026). A comment by user Archimedes reports that Simon Pepin Lehalleur, on what is described as "a very superficial reading", judged this proof "not based on deep new insights into codimension 2 cycles in general" but "very substantial progress on cycles on (powers of) surfaces"; the underlying X post is linked from the comment.
 
 ## Formalization

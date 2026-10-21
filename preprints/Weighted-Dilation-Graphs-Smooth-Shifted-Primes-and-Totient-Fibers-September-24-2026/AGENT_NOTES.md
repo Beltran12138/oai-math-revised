@@ -8,7 +8,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Jizhou Guo, *Shifted primes with a prescribed parity of the number of prime factors*](https://github.com/aster2024/openai-math-followups/blob/main/shifted-prime-parity/README.md) (preprint, 2026-10-09). Uses the parity paper’s prime-slot correlations and this paper's sieve estimates to claim a lower bound of $cX/(\log X)^{300}$ for squarefree $p+h$ with either Möbius sign, uniformly for $0<|h|\le(\log X)^5$. [AI-generated per source] [family-level]
 - [Jizhou Guo, *Sums of two rough numbers with prescribed Liouville signs*](https://github.com/aster2024/openai-math-followups/blob/main/rough-goldbach-parity/README.md) (preprint, 2026-10-09). Combines adaptations of this paper’s graph estimates with OpenAI’s Dirichlet zero-free half-plane to claim many representations of large even integers as sums of squarefree rough numbers with prescribed Liouville signs. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Thomas Bloom, *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10) (erdosproblems.com blog, 2026-10-08). The erdosproblems.com maintainer lists this paper's claim as a resolution of Problem #821, notes the previous best exponent was $0.715\ldots$, and says the proof goes through results on the prime factors of $p-1$.
 
 ## Formalization

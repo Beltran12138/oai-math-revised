@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Nic Berkopec, *Crouzeix: Folie à Deux*](https://math.washu.edu/events/crouzeix-folie-deux) (Washington University in St. Louis analysis seminar, 2026-10-19). The seminar abstract notes that the earlier scalar proof methods do not extend directly to the completely bounded case and explicitly associates that case with the OpenAI release. [family-level]
 - [trostaft on Hacker News, comment in the thread *Sharing AI progress in mathematics*](https://news.ycombinator.com/item?id=49986658) (Hacker News, 2026-10-07). Brief comment naming family 325 among the release items of interest; the commenter says they have attended talks on the Crouzeix conjecture and suggests a connection to convergence rates for Krylov methods. [family-level]
 

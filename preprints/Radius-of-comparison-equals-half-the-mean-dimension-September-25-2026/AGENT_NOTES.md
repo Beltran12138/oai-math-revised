@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [George A. Elliott and Zhuang Niu, *Mean dimension and radius of comparison*](https://arxiv.org/html/2610.11143v1) (arXiv:2610.11143v1, 2026-10-08). This follow-up, whose authors disclose ChatGPT use, adapts the comparison and cover-reconstruction arguments using the companion's torus-compression theorem to obtain equality for diagonal AH algebras and free minimal amenable actions with both the uniform Rokhlin property and Cuntz comparison of open sets. [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

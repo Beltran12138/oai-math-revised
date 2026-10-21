@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [anxkhn, bocowgill, mo271 (formal-conjectures contributors and reviewers), *feat(ErdosProblems/551): record the full Ramsey formula*](https://github.com/google-deepmind/formal-conjectures/pull/6992) (google-deepmind/formal-conjectures PR #6992, 8–11 October 2026, open as of 2026-10-21). The PR cites the paper's main theorem to mark `erdos_551` as solved; reviewers discuss whether it covers the full parameter range and non-induced containment definitions and ask for a pinned `formal_proof` link with exactly matching statements, while the author notes the proof's axiom closure has not been checked.
 
 ## Formalization

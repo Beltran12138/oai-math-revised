@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Cyril Houdayer, reaction in *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (Proofs and Prompts, 8 October 2026; collection updated 19 October 2026). Discusses the announced lattice case of Connes’ rigidity conjecture in relation to his work with Rémi Boutonnet on noncommutative boundary theory and describes plans to study the proof with students and postdocs, without reporting a completed verification. [family-level]
 
 ## Formalization

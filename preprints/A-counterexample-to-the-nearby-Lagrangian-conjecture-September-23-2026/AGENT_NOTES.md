@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Wenyuan Li, *Nearby Lagrangian conjecture, present and future*](https://zuma-talks.github.io/gt/index.html) (ZUMA-GT seminar abstract, 2026-10-15). Announces a discussion of OpenAI's proposed embedded counterexample through generating families and parametrized h-cobordism spaces, followed by remaining questions and a perspective from C⁰-limits explicitly conditional on the counterexample being correct.
 
 ## Formalization

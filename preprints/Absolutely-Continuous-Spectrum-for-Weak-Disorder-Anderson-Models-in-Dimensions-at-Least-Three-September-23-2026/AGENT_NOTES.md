@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Vojkan Jakšić, Yoram Last, *Extended States on the Bethe Lattice Revisited*](https://arxiv.org/abs/2610.11611) (arXiv:2610.11611, 8 Oct 2026). Gives a short proof of purely absolutely continuous spectrum on the Bethe lattice at weak disorder, and its Appendix B derives purity directly from the boundary-positivity assertion in equation (177) of this paper, leaving the finite-volume argument establishing that assertion unchanged.
 - [Patrick Lopatto (listed contributor), *Mobility Edge for Sparse Complex Gaussian Matrices*](https://hexagonmath.org/abs/2610.00168v1) (hexagon:2610.00168v1, 12 Oct 2026). Claims a single mobility edge for the local limit of sparse complex Gaussian matrices (weighted Poisson–Galton–Watson trees) and cites both family papers in its introduction as recent lattice results. [AI-generated per source] [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

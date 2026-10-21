@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Zixuan He, *The active entropy photon-number inequality: exact minima, energy budgets and input rigidity*](https://zenodo.org/records/23352232) (Zenodo preprint, doi:10.5281/zenodo.23352232, v1.3, 13 October 2026). Treats the amplifier-type ("active") entropy photon-number inequality for independent multimode inputs with arbitrary internal correlations, with constrained output-entropy minima for thermal amplifiers and stability bounds for near-optimal inputs; the [v1.2 PDF](https://zenodo.org/records/23228543) cites "OpenAI" and links to the openai/math repository at commit adc7f12.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

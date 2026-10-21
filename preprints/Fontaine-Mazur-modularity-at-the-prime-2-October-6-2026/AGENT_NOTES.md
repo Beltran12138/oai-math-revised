@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Persiflage (galoisrepresentations.org), *A Brief Digest of Some New OpenAI Results*](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/) (blog post, 2026-10-08). Item #2 gives an explicitly superficial assessment of this paper, suggesting the main difficulties at p=2 are technical, relating it to recent work of Lue Pan, calling it "very clean, which is useful for applications" and noting its use in the release's Hilbert's tenth problem argument. In the comments, Chris Xu writes: "#2 feels like folklore that people didn't care to write down."
 
 ## Formalization

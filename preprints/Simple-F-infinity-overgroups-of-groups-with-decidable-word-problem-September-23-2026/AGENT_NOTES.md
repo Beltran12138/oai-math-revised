@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Xiaolei Wu, reaction in *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (Proofs and Prompts, 2026-10-08). Wu reacts to the claimed resolution of the Boone–Higman conjecture and its strengthening to simple overgroups of type $F_\infty$, which is the main theorem of this paper. [family-level]
 
 ## Formalization

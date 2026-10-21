@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Jizhou Guo, *Shifted primes with a prescribed parity of the number of prime factors*](https://github.com/aster2024/openai-math-followups/blob/main/shifted-prime-parity/README.md) (preprint, 2026-10-09). Uses this paper’s prime-slot correlations and the weighted-dilation paper’s sieve estimates to claim a lower bound of $cX/(\log X)^{300}$ for squarefree $p+h$ with either Möbius sign, uniformly for $0<|h|\le(\log X)^5$. [AI-generated per source] [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

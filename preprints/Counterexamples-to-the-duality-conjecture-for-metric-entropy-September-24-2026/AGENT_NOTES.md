@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [bocowgill (review on google-deepmind/formal-conjectures PR #7152)](https://github.com/google-deepmind/formal-conjectures/pull/7152) (GitHub, 2026-10-12). Approving review saying the proposed Lean statement matches Theorem 1.1 and the manuscript's conventions; it explicitly approves only the statement translation, not a formal proof.
 
 ## Formalization

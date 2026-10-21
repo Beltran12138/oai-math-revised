@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [P. M. Aronow, P. Lopatto, *An N^{-7/10} Bound for the Finite-Size Bias of the Sherrington-Kirkpatrick Free Energy*](https://hexagonmath.org/abs/2610.00177v1) (hexagon:2610.00177v1, 2026-10-12). Section 1.5 cites the initial release's full-support theorem among four OpenAI release items, while the finite-temperature bias argument uses interval support at fixed inverse temperature greater than one; the abstract notes an improvement over exponent 2/3 that "would follow from the ideas in OpenAI's recently released manuscripts." [AI-generated per source] [cites earlier version]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

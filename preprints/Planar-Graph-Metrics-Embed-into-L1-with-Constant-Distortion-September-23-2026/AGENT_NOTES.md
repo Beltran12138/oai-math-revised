@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Hung Le, *OpenAI Math Dump Hits My Home*](https://minorfree.github.io/OpenAIDump/) (Rambling on Graphs, 2026-10-07; updated through 2026-10-20). Discusses both embedding claims and records an ongoing detailed reading of the planar proof, highlighting the column model and charts; the author reports increasing confidence while still working to internalize the argument. [family-level]
 
 ## Formalization

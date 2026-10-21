@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Minbo Gao, Zhengfeng Ji, Chenghua Liu, *A simplified proof of PARITY ∉ QAC⁰*](https://eccc.weizmann.ac.il/report/2026/258/) (ECCC TR26-258, 18 October 2026). Presents itself as a self-contained simplification of this paper's localization proof: it replaces the low-count enumeration and three-factor propagation of Lemmas 5–6 here with a direct layer-removal argument (citing the companion paper's Proposition 4.1), and keeps the zero-count polynomial, the inverse-circuit argument and the parity reduction. [family-level]
 - [Shiva Kintali, *PARITY ∉ QAC⁰ (via Polarization and Direct Induction)*](https://shivakintali.github.io/papers/Parity.pdf) (preprint, dated 17 October 2026). Gives a self-contained simplification of this paper's proof: polarization writes the reflection expansion as a linear combination of product projections with coefficient cost 18^k, which replaces the intermediate low-count propagation while keeping the localization framework and the inverse-circuit bootstrap; the companion paper is cited as a different proof. [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Scott Aaronson, *The Mathocalypse*](https://scottaaronson.blog/?p=10169) (Shtetl-Optimized, 7 October 2026). Names "Parity is not in QAC0" among the release's highlights and calls it "one of the great questions of quantum complexity theory since 1999 that many of my colleagues had been closing in on"; the post does not discuss the proofs. [family-level]
 
 ## Formalization

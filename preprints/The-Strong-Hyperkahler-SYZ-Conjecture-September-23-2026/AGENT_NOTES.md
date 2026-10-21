@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Philip Engel, Mirko Mauri, *Hyperkähler SYZ conjecture*](https://arxiv.org/abs/2610.12277) (arXiv:2610.12277, 2026-10-08). Independent human-written proof of the same semiampleness statement and of the finiteness consequence for deformation classes with second Betti number at least five; its AI-disclosure section says "The structure of the proofs appears similar, but we have not yet had time to examine the OpenAI proof carefully." [family-level]
 - [Jie Fu, Bin Wang, Shihao Wang, Zhiwei Zheng, *A Sharp Bound for the Second Betti Number of Hyperkähler Sixfolds*](https://arxiv.org/html/2610.15803) (arXiv:2610.15803, 11 Oct 2026). Cites this preprint and Engel–Mauri in its introduction as recent proofs of SYZ statements and their finiteness consequences, and states that its own proofs do not use these SYZ results.
 
-## Expert comments and discussion
+## Comments and discussion
 - [OSVerify, *The strong hyperkähler SYZ conjecture*](https://osverify.github.io/cases/hyperkahler-syz.html) (automated review report, undated; reviewed manuscript dated 2026-09-23). The report flags the introduction's description of the Engel–Filipazzi–Greer–Mauri–Svaldi finiteness theorem as boundedness, while stating that Section 6 uses the needed finiteness conclusion. [AI-generated per source]
 
 ## Formalization

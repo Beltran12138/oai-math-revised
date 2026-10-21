@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Grigori Avramidi, *Comment #243 on “The Mathocalypse”*](https://scottaaronson.blog/?p=10169) (Shtetl-Optimized, 2026-10-10). Identifies result 249 as the longstanding Bestvina–Brady candidate and describes its small SU(2)-holonomy argument as an alternative to proving the epsilon-map conjecture or Whitehead’s conjecture.
 - [Grigori Avramidi, *Comment on “The Curve Bends You”*](https://thezvi.substack.com/p/the-curve-bends-you/comment/355812478) (Substack, 2026-10-08). Discusses the finitely generated Bestvina–Brady example and suggests investigating other, finitely presented candidates.
 - [Xiaolei Wu, quoted in *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (Proofs and Prompts, 2026-10-08). In a short reaction to the group theory section of the release, Wu writes: "Eilenberg–Ganea is false—not so surprising, perhaps, but how?", and distinguishes the result from the still-open Whitehead conjecture.

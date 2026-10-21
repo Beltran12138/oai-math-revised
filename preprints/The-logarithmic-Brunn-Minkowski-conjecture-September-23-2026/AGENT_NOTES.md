@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Yude Liu, Qiang Sun, Ge Xiong, *The centered logarithmic Brunn–Minkowski inequality*](https://arxiv.org/abs/2610.10152) (arXiv:2610.10152, v1 7 Oct 2026, v2 8 Oct 2026). Proves the logarithmic Brunn–Minkowski and logarithmic Minkowski inequalities for convex bodies with centroid at the origin, with equality cases and L_p consequences for p > 0, citing this paper as its analytic starting point (ref. [24]); the authors report that independent human verification remains incomplete. [AI-generated per source]
 - [ChatGPT, prepared for Galyna Livshyts, *Intersections of dilated convex sets and mixed-degree variance inequalities*](https://glivshyts6.math.gatech.edu/Intersection.pdf) (public research note, 2026-10-11). Develops the manuscript’s moment-coordinate method into an equivalent intersection formulation of log-Brunn–Minkowski, functional dilation concavity and mixed-degree covariance bounds, without claiming historical novelty. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Galyna V. Livshyts, *AI-generated math explorations*](https://glivshyts6.math.gatech.edu/) (personal webpage, undated; accessed 2026-10-21). Describes prompting ChatGPT to develop theory around the OpenAI log-Brunn–Minkowski proof and highlights the resulting correlation-type exploration and shorter scalar B-conjecture argument.
 
 ## Formalization

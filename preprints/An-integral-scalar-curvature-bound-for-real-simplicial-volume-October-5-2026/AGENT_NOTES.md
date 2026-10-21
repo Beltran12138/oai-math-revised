@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Roman Sauer, contribution to *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (Proofs and Prompts, 8 October 2026). Sauer identifies the replacement of manifolds by measurable foliated objects, used in his work with Sabine Braun and subsequent work by Hannah Alpert, as a method appearing in result families 207 and 335. [family-level]
 
 ## Formalization

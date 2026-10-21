@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Ben Webster (repository owner), with substantial assistance from Claude, *Hikita's conjecture for quiver gauge theories: after the slop*](https://raw.githubusercontent.com/bwebste/Hikita-AI/main/Hikita-rewrite.tex) (LaTeX draft in github.com/bwebste/Hikita-AI, October 2026). A rewrite that credits the theorem and overall strategy to this preprint, takes the comparison map from Botta–Tamagni, and proves the dimension count for quivers with a loop at every vertex by restriction to Levi subgroups instead of Hausel's formula, using an announced comparison theorem without proof; an inline comment says "At the moment I don't want to say that humans have verified the full argument, since that isn't true". [AI-generated per source]
 - [bwebste/Hikita-AI, *NOTES.md*](https://raw.githubusercontent.com/bwebste/Hikita-AI/main/NOTES.md) (working notes, 6–14 October 2026). Describes a draft `bps-proof.tex`, a second proof of the dimension bound via BPS cohomology that avoids added loops, cut ideals and Hausel's formula and is conditional on three inputs from Jindal–Neguț. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Hiraku Nakajima, pull request #2 "Adding HN's texts" to bwebste/Hikita-AI](https://github.com/bwebste/Hikita-AI/pull/2) (GitHub, 13 October 2026). Nakajima contributed a rewrite of the geometric part of Section 6 of the preprint; a later commit by him adds citations to Konno's papers on (equivariant) cohomology rings of toric hyperKähler manifolds.
 
 ## Formalization

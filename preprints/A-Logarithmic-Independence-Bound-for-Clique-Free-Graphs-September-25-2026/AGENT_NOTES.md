@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Kaizhe Chen, *A note on the logarithmic exponent of Ramsey number r(4,t)*](https://arxiv.org/abs/2610.15293) (arXiv:2610.15293, 11 October 2026). Cites this paper for its Lemma 1.3, the bound α(G) ≥ c_s n log d/d for K_s-free graphs, and combines it with the release's r(s,t) preprints to derive r(4,t) = t³/(log t)^(2+o(1)); the note says it is for informal circulation only.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

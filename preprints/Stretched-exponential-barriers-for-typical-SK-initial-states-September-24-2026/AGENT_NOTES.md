@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [P. M. Aronow, Patrick Lopatto, *Lower and Upper Bounds for Glauber Dynamics from Typical States of the Low-Temperature Sherrington–Kirkpatrick Model*](https://hexagonmath.org/abs/2610.00402v1) (hexagon:2610.00402v1, 20 Oct 2026). Follows this paper's proof structure and improves the typical-start lower bound from time exp(n^{1/10000}) to exp(A_β n^{7/30}) for every fixed β > 1, using a three-replica comparison with a cubic pressure deficit. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

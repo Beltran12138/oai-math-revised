@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [NotOscarWilde (Hacker News), comment in the thread *Sharing AI progress in mathematics*](https://news.ycombinator.com/item?id=49985622) (HN item 49985622, 2026-10-06). The commenter, a self-described "TCS/scheduling person", says the paper addresses the three-machine problem open since Garey and Johnson (1979), remarks on the exponent 150020, and says they cannot check its correctness.
 
 ## Formalization

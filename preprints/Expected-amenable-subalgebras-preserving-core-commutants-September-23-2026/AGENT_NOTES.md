@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Shuoxing Zhou, *Poisson boundaries of type III factors and the relative bicentralizer conjecture*](https://hexagonmath.org/abs/2610.00134v2) (hexagon:2610.00134v2, v1 6 Oct 2026, v2 7 Oct 2026). Using Poisson boundary theory, it proves the weak Dixmier property for an expected inclusion into the continuous core and, via Marrakchi's Theorem D, the relative bicentralizer conjecture for separable preduals; it cites this paper and its provenance statement says the result "overlaps with OpenAI's concurrent work, but the proofs use fundamentally different methods." [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Cyril Houdayer, reaction in *100+ reactions to 100+ solutions*, Proofs and Prompts](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (post dated 8 Oct 2026; collection updated through 19 October). Houdayer says that "The proof announced by OpenAI builds on the methods developed in Amine's earlier work" and on a resonance mechanism found with Marrakchi, and that "OpenAI's result extends ours by establishing the relative version." [family-level]
 
 ## Formalization

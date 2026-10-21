@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [gavenren (GitHub), *Attempt: TOP-30007447*](https://github.com/We-Solve/research/issues/129) (We-Solve/research issue #129, 2026-10-18). A partial result giving an exact reduction and an FPRAS for two partition matroids whose nonloop blocks all have capacity one; it cites this paper's general claim as context and says the claim was not audited. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

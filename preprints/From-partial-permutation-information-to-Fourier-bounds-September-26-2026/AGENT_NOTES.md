@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [acprk (GitHub), *Remark R5: Thorp shuffle 1600d → 24d*](https://github.com/acprk/openai-math-remarks/blob/main/remarks/R5-thorp-24d) (openai-math-remarks, local draft, undated). Uses this paper's Theorem 1.1 (Hilbert–Schmidt transfer) with different block counts in the two factors to claim Thorp mixing after 24d shuffles; asymptotic, not formalized, reviewed only by AI. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

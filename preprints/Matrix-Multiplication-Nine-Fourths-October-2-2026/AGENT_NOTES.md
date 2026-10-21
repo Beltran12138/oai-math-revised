@@ -9,7 +9,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [acprk, *openai-math-followups: ω ≤ 9/4 profile barrier*](https://github.com/acprk/openai-math-followups/blob/main/results/01-omega94-profile-barrier.md) (GitHub note, October 2026). Constructs an extremal profile satisfying the paper's properties of P(a,b) with 1/t = 4/3, claiming the argument as formulated cannot give ω < 9/4; it credits the core statement to eliottcassidy2000/math (THM-4568). [AI-generated per source]
 - [jackal092927, *matrix-mult-exponent*](https://github.com/jackal092927/matrix-mult-exponent) (GitHub project, 2026). An AI-assisted open research effort whose first target is ω(ℂ) < 9/4 starting from this paper's construction; its README states that no smaller ω has been established. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Alex Meiburg, *Comment #179 on “The Mathocalypse”*](https://scottaaronson.blog/?p=10169) (Shtetl-Optimized, 2026-10-09). Emphasizes the distinction between the paper’s $O_\varepsilon(n^{9/4+\varepsilon})$ guarantee and an exact $O(n^{9/4})$ bound, and discusses the dependence of constants on $\varepsilon$.
 
 ## Formalization

@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Vigleik Angeltveit, *The Smith-Toda complex V(4) exists for p ≥ 11*](https://arxiv.org/abs/2610.23215) (arXiv:2610.23215, 2026-10-16). Extends the existence of V(4) from p = 1009 to all primes p ≥ 11, reusing this paper's framework with shorter arguments (a reference to Toda, a shorter May spectral sequence calculation, a Toda bracket argument); the author reports finding no mathematical errors but calls 1009 "suspiciously high", and states that ChatGPT was used as a research assistant. [family-level]
 - [acprk (GitHub account; author name a placeholder), *Smith–Toda V(4) exists if and only if p ≥ 11*](https://github.com/acprk/openai-math-remarks/blob/main/remarks/R4-smith-toda-v4-p11) (GitHub remark R4, October 2026). Reruns this paper's finite inequalities at a general prime p ≥ 11 by exact enumeration, with existence conditional on this manuscript, and collects nonexistence arguments for p < 11; it states that it does not verify the manuscript's homotopy-theoretic steps. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Vigleik Angeltveit, *A closer look at one of the OpenAI papers*](https://maths.anu.edu.au/news-events/events/closer-look-one-openai-papers) (ANU Algebra and Topology Seminar, 2026-10-20). The seminar abstract describes using ChatGPT as a research assistant to understand this manuscript, simplify its arguments, and extend the result to all primes p ≥ 11.
 
 ## Formalization

@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Faruk Temur, *The square function estimate for the cone in four dimensions*](https://arxiv.org/abs/2610.12681) (arXiv:2610.12681, 2026-10-08). Proves an $L^3$ reverse square function estimate for the light cone in four dimensions, with consequences for spheres and elliptic paraboloids in three dimensions, taking as stated external inputs this paper's Theorem 1.1, Definitions 8.1–8.2, Lemma 8.4, Theorem 9.1 (round-cone propagation) and equation (10.22); it says it "does not supply an independent proof of those statements".
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

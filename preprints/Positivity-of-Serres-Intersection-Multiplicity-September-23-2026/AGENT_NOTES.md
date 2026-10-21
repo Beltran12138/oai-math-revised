@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [maximusrufus, bocowgill, mo271 (GitHub), *Add reference note: claimed proof of intersectionMultiplicity_pos (unrefereed; status unchanged)*](https://github.com/google-deepmind/formal-conjectures/pull/7215) (google-deepmind/formal-conjectures PR #7215, opened 2026-10-12, open). A docstring-only PR that records Theorem 1.1 as an unrefereed claim and leaves `intersectionMultiplicity_pos` as research open; in a 2026-10-19 reply the PR author says they reviewed the proof in detail and found no errors, but that it should stay labelled "claimed, unrefereed".
 
 ## Formalization

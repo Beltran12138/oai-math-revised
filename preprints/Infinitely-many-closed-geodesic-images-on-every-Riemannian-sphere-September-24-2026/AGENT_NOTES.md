@@ -7,7 +7,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Kenta Kitamura (GitHub KitaKen1), *Infinitely Many Closed Geodesic Images on Reversible Finsler Spheres*](https://github.com/KitaKen1/reversible-finsler-spheres) (GitHub repository, public draft 1, 9 October 2026). Claims the same conclusion for smooth, strongly convex, reversible Finsler metrics on $S^n$, $n\ge3$, with a README proof sketch (degree-uniform filling bound, reflection-equivariant classes, half-translation fixed locus, doubling inequality) that follows this paper's outline without naming it. [AI-generated per source]
 - [Kenta Kitamura (KitaKen1), *Add a conjecture: infinitely many closed geodesic images on reversible Finsler spheres*](https://github.com/google-deepmind/formal-conjectures/issues/7041) (google-deepmind/formal-conjectures issue #7041, 9 October 2026). Proposes the reversible Finsler analogue of this paper's Theorem 1.1 as a new Formal Conjectures entry, linking the note above; its disclosure says ChatGPT and OpenAI Codex assisted. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Marco Mazzucchelli, Alexandru Oancea and Egor Shelukhin (organizers), *Closed geodesics on Riemannian spheres*](https://researchseminars.org/seminar/ClosedGeodesics) (Symplectic Zoominar working group, first listed talk 2026-10-21). A specialist reading group on this paper, listing Oancea's opening talk "Tools for the closed geodesics problem, and history" followed by talks by Mazzucchelli and Shelukhin.
 
 ## Formalization

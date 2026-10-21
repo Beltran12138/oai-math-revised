@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [erdosproblems.com forum (T. Bloom, M. Firsching and others), *Erdős Problem #978 discussion thread*](https://www.erdosproblems.com/forum/thread/978) (forum, Sep 2025 – Mar 2026). This thread predates the paper and does not comment on it, but discusses the hypotheses of the question that Theorem 1.1 addresses: Firsching reports a degree-6 counterexample with fixed divisor $2^4$, and the problem statement was then amended to exclude fixed prime-power divisors.
 
 ## Formalization

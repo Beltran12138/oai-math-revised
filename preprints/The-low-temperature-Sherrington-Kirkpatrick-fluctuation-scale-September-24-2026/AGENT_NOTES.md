@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [P. M. Aronow and Patrick Lopatto, *Lower and Upper Bounds for Glauber Dynamics from Typical States of the Low-Temperature Sherrington–Kirkpatrick Model*](https://hexagonmath.org/abs/2610.00402v1) (hexagon:2610.00402v1, 2026-10-20). Restates this paper's main theorem as its Theorem 1.6, reproves the deduction from the positive-logarithmic-moment bound (its Section 20), and combines the variance exponent with a variance–bias inequality to get a mean-bias lower bound of order $n^{-5/6-\varepsilon}$ (its Corollary 1.7). [AI-generated per source]
 - [P. M. Aronow and Patrick Lopatto, *An $N^{-7/10}$ Bound for the Finite-Size Bias of the Sherrington–Kirkpatrick Free Energy*](https://hexagonmath.org/abs/2610.00177v1) (hexagon:2610.00177v1, 2026-10-12). Section 1.6 conditionally derives a mean-bias lower bound of order $N^{-5/6-\varepsilon}$ from this paper's variance exponent and compares consequences of the limiting-law companion. [AI-generated per source] [cites earlier version] [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

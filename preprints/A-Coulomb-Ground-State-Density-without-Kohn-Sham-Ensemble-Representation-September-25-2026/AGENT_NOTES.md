@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Cody Haycraft, *A Kohn–Sham Hamiltonian for the OpenAI three-electron density: a note on representability beyond L^{3/2}+L^∞*](https://github.com/Hadron90/kohn-sham-representability) (GitHub working draft, status updated 2026-10-10). A response note that keeps the paper's exclusion in L^{3/2}+L^∞ and argues that a Friedrichs realisation of the candidate potential V = Δg/(2g) gives a Kohn–Sham Hamiltonian with ground-state density n (Theorem A). Per its README, a further theorem depends on an open estimate (Estimate 5.5), and the auxiliary Lean lemmas do not verify the analytic content.
 
-## Expert comments and discussion
+## Comments and discussion
 - [r/comp_chem participants, *OpenAI paper on Kohn-Sham DFT*](https://www.reddit.com/r/comp_chem/comments/1x0a9an/openai_paper_on_kohnsham_dft/) (Reddit discussion, accessed 2026-10-21). Community participants discuss the construction's scale and the distinction between density-functional theory and noninteracting representability, and link earlier literature; their specialist credentials are not established in the thread.
 
 ## Formalization

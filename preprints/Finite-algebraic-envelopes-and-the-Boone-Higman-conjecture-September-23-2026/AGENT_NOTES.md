@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Matt Zaremsky, reaction in *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (Proofs and Prompts, 2026-10-08). Zaremsky says the release shows that his group's sufficient condition for the Boone–Higman conjecture "always works" and compares its affine-like action mechanism to their 2025 advance; the reaction is also critical of how the result was released. [family-level]
 - [Xiaolei Wu, reaction in *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (Proofs and Prompts, 2026-10-08). Wu reacts to the claimed resolution of the Boone–Higman conjecture and its strengthening to simple overgroups of type $F_\infty$. [family-level]
 - [Peter Cameron, comment on *A fable*](https://cameroncounts.wordpress.com/2026/10/09/a-fable/) (Peter Cameron's Blog, 9 October 2026). Cameron connects the announced Boone–Higman result to Bleak and collaborators' hyperbolic-group theorem while cautioning that the new claims were not yet established truth.

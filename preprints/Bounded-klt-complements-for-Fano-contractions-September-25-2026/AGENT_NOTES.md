@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [mbintz, comment in *AI In Mathematics: October 10, 2026*](https://www.reddit.com/r/math/comments/1x2iy00/comment/pgd37u5/) (r/math, October 2026). Reports an LLM-assisted comparison of this paper's Proposition 14.3 with Lemma 8.3 of the release's *Minimal models and Mori fibre spaces for generalized log canonical Q-pairs*, suggesting related arguments without assessing correctness. [AI-generated per source]
 
 ## Formalization

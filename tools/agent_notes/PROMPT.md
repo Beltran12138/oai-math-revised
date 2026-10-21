@@ -37,7 +37,7 @@ Exact format (all seven sections, in this order; empty sections contain `- None 
 Collected by an AI agent ({MODEL}) on {DATE}.
 
 ## Follow-up works
-## Expert comments and discussion
+## Comments and discussion
 ## Formalization
 ## Related prior literature mentioned by others
 ## Possibly relevant literature (found by the agent, not checked)

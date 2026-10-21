@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Ariel Elboim, *The Unique Games Theorem: A Short Self-Contained Proof*](https://zenodo.org/records/23265572) (Zenodo, doi:10.5281/zenodo.23265572, version 1.0, 2026-10-09). An 11-page reconstruction of this paper's proof that takes Håstad's parity gap, the Khot–Minzer–Safra Grassmann expansion theorem and Dinur–Steurer repetition as inputs and simplifies the noise gadget, certificate extraction and decoding; it states no human expert has reviewed it. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Scott Aaronson, *The Mathocalypse*](https://scottaaronson.blog/?p=10169) (Shtetl-Optimized, 2026-10-07). Relays Dana Moshkovitz's first reading of the release; her quoted messages note that it also contains "direct optimal NP hardness of approximation proofs" for the main applications of the UGC, bypassing the UGC. [family-level]
 - [Dana Moshkovitz (relayed by Scott Aaronson), comment #2 on *The Mathocalypse*](https://scottaaronson.blog/?p=10169#comment-2041062) (Shtetl-Optimized, 2026-10-07). States the UGC "is true, though it wasn't really needed for the proof of its most famous corollaries", describes the proof's new tree-based recursive code with a noise test and the difficulty of reading it, and wonders whether a half-space code could also work.
 - [Scott Aaronson, comment #94 on *The Mathocalypse*](https://scottaaronson.blog/?p=10169#comment-2041191) (Shtetl-Optimized, 2026-10-08). Reports that Moshkovitz "now _mostly_ understands the proof of the UGC", is struck by its new ideas and intends to give talks about them.

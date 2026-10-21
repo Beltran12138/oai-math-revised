@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Vigleik Angeltveit, *The Smith-Toda complex V(4) exists for p ≥ 11*](https://arxiv.org/abs/2610.23215) (arXiv:2610.23215, 2026-10-16). Extends the family's explicit height-four construction to every prime p ≥ 11, building on the companion p = 1009 paper rather than proving the all-height assertion; its introduction reports finding no mathematical errors in the two manuscripts, but suggests stating this result for all sufficiently large p and questions the use of ultrafilters. [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

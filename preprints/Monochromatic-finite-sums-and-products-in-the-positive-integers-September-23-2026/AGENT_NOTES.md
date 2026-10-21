@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Thomas Bloom (erdosproblems.com forum), *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10) (blog post, 8 October 2026). The post lists Problem 172 as a claimed proof of Hindman's conjecture, notes Alweiss's earlier proof over the rationals, and describes the 70-page PDF as one that "has not been formalised".
 
 ## Formalization

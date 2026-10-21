@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Hyunwoo Kwon, contribution to *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/comment-page-1/) (Proofs and Prompts, posted 2026-10-08, updated 2026-10-19). Kwon explicitly names Kakeya maximal bounds among the announced harmonic-analysis results and discusses the release's pace, readability, and impact on researchers, without presenting a technical assessment of this proof.
 
 ## Formalization

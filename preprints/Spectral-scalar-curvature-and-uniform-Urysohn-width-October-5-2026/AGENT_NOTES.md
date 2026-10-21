@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Yuchen Bi, *A note on the cube inequality*](https://arxiv.org/abs/2610.28390) (arXiv:2610.28390, v1 20 Oct 2026). Its abstract says it adapts ideas from "No. 336" of the OpenAI release, but the only manuscript it cites is the companion paper *Positive scalar curvature and uniform codimension-two width*, not this one. [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

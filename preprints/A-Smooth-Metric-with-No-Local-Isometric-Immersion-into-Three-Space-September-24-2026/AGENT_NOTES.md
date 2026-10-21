@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization
@@ -15,7 +15,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## Possibly relevant literature (found by the agent, not checked)
-- [N. Nadirashvili, *The local embedding problem for surfaces*, as cited in Nadirashvili–Yuan, *Counterexamples for Local Isometric Embedding*](https://arxiv.org/pdf/math/0208127) (preprint 2002, cited as [N] in arXiv:math/0208127v1, p. 1). The Nadirashvili–Yuan preprint states that Nadirashvili "gave a C^∞ metric g on B_1 with no smooth isometric embedding of (B_r, g) in R^3 for any r > 0", with curvature of changing sign; the manuscript discusses the Nadirashvili–Yuan preprint but not this separate Nadirashvili preprint, of which no public copy was found.
 - [J. Hong, *Some new developments of realization of surfaces into R^3*](https://arxiv.org/abs/math/0304391) (arXiv:math/0304391; Proceedings of the ICM, Beijing 2002, vol. 3, 155–166). An ICM survey reviewing local isometric embedding results connected with the Schläfli–Yau conjecture, relevant to the manuscript's account of the problem's status.
 - [E. Kann, *The Local Isometric Embedding of Two-Metrics of Low Differentiability in Euclidean Three Space*](https://arxiv.org/abs/2210.02942) (arXiv:2210.02942, October 2022). A preprint on local isometric embedding of low-regularity two-metrics in $\mathbb R^3$, related to the manuscript's discussion of how existence depends on regularity (Nash–Kuiper at $C^1$ versus smooth).
 

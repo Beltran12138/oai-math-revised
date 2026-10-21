@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Kuan Cheng, Shengtang Huang, Ruiyang Wu, *High Precision Multiplicative-Error Approximation of #SAC$^1$ Functions in Logspace Uniform AC$^1$*](https://arxiv.org/abs/2610.25623) (arXiv:2610.25623, 19 October 2026). The abstract says "We note that recently OpenAI announced that BPL $=$ L". It presents its own multiplicative-error approximation results as different in kind, not as building on this paper.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Ran Raz, quoted in Peter Hall and Joseph Howlett, *The most exciting claims from OpenAI's heap of new proofs*](https://www.scientificamerican.com/article/the-most-exciting-claims-from-openais-heap-of-new-proofs/) (Scientific American, 8 October 2026). The article includes Problem 103 among highlighted claims, explains $\mathsf L=\mathsf{RL}$ for a general audience, and quotes Raz on its status before this paper ("I didn't see any directions that were promising [before]"); it does not report any assessment of the proof itself.
 - [Scott Aaronson, *The Mathocalypse*](https://scottaaronson.blog/?p=10169) (Shtetl-Optimized, 7 October 2026). Lists L = BPL among the results he expects to follow most closely, calling it "one of the great derandomization conjectures short of P=BPP", and reproduces, with permission, Omer Reingold's reaction specifically to RL versus L.
 

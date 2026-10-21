@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Lyudmila Korobenko and Eric T. Sawyer, *Probabilistic Fourier extension and the Schrödinger equation*](https://arxiv.org/html/2610.22634v1) (arXiv:2610.22634v1, 15 October 2026). Cites this manuscript as the deterministic three-dimensional comparison for its martingale-averaged Fourier extension and Schrödinger regularity estimates.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

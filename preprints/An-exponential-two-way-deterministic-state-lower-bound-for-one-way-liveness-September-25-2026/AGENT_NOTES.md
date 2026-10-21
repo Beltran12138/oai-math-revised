@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Sudais Arif, *A Factor-Two Lower Bound for Complementing Two-Way Deterministic Finite Automata*](https://arxiv.org/html/2610.18897) (arXiv:2610.18897, 10 Oct 2026). Cites this paper and its companion in its related-work paragraph for related descriptions of interval behavior, and states that "those papers concern different state-complexity questions"; the acknowledgments say the work was developed with assistance from an OpenAI model. [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

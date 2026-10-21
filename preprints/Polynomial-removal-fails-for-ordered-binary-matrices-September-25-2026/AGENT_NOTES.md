@@ -8,7 +8,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Erebos Labs, *ordered-matrix-removal-4x4*, release v1.0.0](https://github.com/erebos-labs/ordered-matrix-removal-4x4/releases/tag/v1.0.0) (GitHub release, 2026-10-09; [v1.1.0](https://github.com/erebos-labs/ordered-matrix-removal-4x4/releases/tag/v1.1.0) claims the exact repair distance $m^2$). Lean-checked obstruction for the $4\times4$ pattern with rows 0110, 1001, 1010, 0111, crediting this paper's signed-tree construction; it says its reviews were AI-assisted.
 - [Ryan Shea, *ordered-binary-matrix-removal*](https://github.com/shea256/ordered-binary-matrix-removal) (GitHub repository, README dated 2026-10-12; [PR #10](https://github.com/shea256/ordered-binary-matrix-removal/pull/10)). Claims the $3\times3$ pattern 011/101/110 has no polynomial removal bound, checked in Lean, with tree and propagation ideas credited to this paper's $66\times66$ construction; prepared "with Codex assistance", peer review pending. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [ZinanWang, post in the thread "First look at mathematics manuscripts from an internal frontier model at OpenAI"](https://community.openai.com/t/first-look-at-mathematics-manuscripts-from-an-internal-frontier-model-at-openai/1403886) (OpenAI Developer Community, 2026-10-11). Announces the $4\times4$ follow-up as "reducing the obstruction size from 66×66 in the original construction" and invites scrutiny.
 
 ## Formalization

@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [OpenAI, *Deforming hypersymplectic four-manifolds to hyperkähler triples*](https://github.com/openai/math/blob/main/preprints/Deforming-hypersymplectic-four-manifolds-to-hyperkahler-triples-October-7-2026/build/sections/01-introduction.tex) (OpenAI Math Release preprint, 2026-10-07). This companion manuscript explicitly reuses the taming paper’s current estimates and density-splitting argument, adding prescribed-class arguments under closed definite-pair and $b^+=3$ hypotheses for its claimed hypersymplectic deformation theorem. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

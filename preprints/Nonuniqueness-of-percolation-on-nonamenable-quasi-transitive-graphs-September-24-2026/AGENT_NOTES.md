@@ -5,8 +5,8 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
-- [Tasmin Chu (Caltech graduate student in percolation), reaction in *100+ reactions to 100+ solutions*, Proofs and Prompts](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (blog post of 2026-10-08, reactions updated to 2026-10-19). Recalls the 1996 Benjamini–Schramm conjecture and remarks: "Unsurprisingly the OpenAI preprint builds on work of my advisor Tom Hutchcroft", also describing the preprint's impact on Chu's own research plans.
+## Comments and discussion
+- [Tasmin Chu, reaction in *100+ reactions to 100+ solutions*, Proofs and Prompts](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (blog post of 2026-10-08, reactions updated to 2026-10-19). Recalls the 1996 Benjamini–Schramm conjecture and remarks: "Unsurprisingly the OpenAI preprint builds on work of my advisor Tom Hutchcroft", also describing the preprint's impact on Chu's own research plans.
 - [Inhyeok Choi, reaction in *100+ reactions to 100+ solutions*, Proofs and Prompts](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (2026-10-08). Choi, co-author of the cited Choi–Seo paper on acylindrically hyperbolic groups, says they had thought about the $p_c<p_u$ question and asks "whether there is a more natural proof for groups with free subgroups."
 
 ## Formalization

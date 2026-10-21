@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Hao-Yu Sun, *Mutually unbiased bases: common states, completion, and extension obstructions*](https://arxiv.org/abs/2610.12180) (arXiv:2610.12180, 2026-10-08). Cites this preprint alongside its companion, states "Neither preprint is a premise of the proofs in this article," and proves an unextendibility result for a specific dimension-six MUB triple. [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - [mo271 and commenters, *OpenQuantumProblems/13: `mutuallyUnbiasedBases_dim6` has answer 3*](https://github.com/google-deepmind/formal-conjectures/issues/6918) (google-deepmind/formal-conjectures issue #6918, opened 2026-10-07). A comment of 2026-10-11 reports a re-implementation of this paper's μ(6) ≤ 5 certificate from the LaTeX in exact rational arithmetic, with matching table sizes and ranks; the comment says the Lean proof was not built. [family-level] [AI-generated per source]
 
 ## Formalization

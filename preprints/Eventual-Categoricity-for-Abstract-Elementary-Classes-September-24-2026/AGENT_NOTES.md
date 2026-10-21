@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [JesterOfAllTrades, *Comments in “AI In Mathematics: October 10, 2026”*](https://www.reddit.com/r/math/comments/1x2iy00/comment/pf8ejsw/) (Reddit r/math, October 2026). A commenter describing previous research in AECs discusses the significance of the claimed ZFC result and reports difficulty following its exposition, without identifying a specific false lemma or providing a verification.
 
 ## Formalization

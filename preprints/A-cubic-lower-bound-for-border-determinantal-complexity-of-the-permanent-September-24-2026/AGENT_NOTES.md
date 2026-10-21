@@ -7,7 +7,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Jizhou Guo, *An n^2 log log n Lower Bound for Permanent Circuits with Valid Division*](https://arxiv.org/abs/2609.29568) (arXiv:2609.29568v2, 8 Oct 2026). Version 2 cites this manuscript (release commit adc7f12) and uses twelve machine-checked declarations from its Lean development, deriving one weaker bound by "assuming Proposition 7.3 of that manuscript".
 - [Ying Xie, *Smooth slices and superquadratic border determinantal complexity of the permanent*](https://zenodo.org/records/23108131) (Zenodo, doi:10.5281/zenodo.23108131, 2 Oct 2026). This preprint claims an Ω(n^2 log n) border determinantal complexity bound for the permanent, combining "the matching-polynomial restrictions of OpenAI with Sheshadri's determinantal kernel incidence".
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

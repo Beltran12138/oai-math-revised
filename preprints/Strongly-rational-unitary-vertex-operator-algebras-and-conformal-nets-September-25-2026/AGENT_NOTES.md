@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Isaac Kim, *Reaction to the OpenAI mathematics release*](https://postcutoff.com/p/2026-10-06-isaac-kim-quantum-results-list/) (X post reproduced by Post-Cutoff, 2026-10-06). The archived post singles out unitary VOAs generating conformal nets among five results attracting his attention, without discussing the proof; the hosting site's surrounding commentary is AI-generated per its disclosure.
 
 ## Formalization

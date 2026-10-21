@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [kieransquared1, comment on *OpenAI: Sharing AI progress in mathematics*](https://www.reddit.com/r/mathematics/comments/1wzg35m/comment/pecc0nt/) (r/mathematics, accessed 2026-10-21). This public discussion comment connects the potential extension and hard-sphere fluctuation claims to open problems in Deng–Hani–Ma, without presenting a proof assessment of either manuscript. [family-level]
 
 ## Formalization

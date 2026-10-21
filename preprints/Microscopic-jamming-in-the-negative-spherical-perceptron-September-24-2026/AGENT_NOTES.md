@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Daniel Fu, Youngtak Sohn, *Parisi formula for Ising and Spherical Perceptrons*](https://hexagonmath.org/abs/2610.00154v1) (hexagon:2610.00154v1, 2026-10-08). Independently developed working draft that, among other consequences, claims the predicted variational formulas for the entropy and capacity of the negative spherical perceptron. Its disclaimer says an initial capacity draft dates from July 2026 and cites this paper among three overlapping OpenAI manuscripts. [AI-generated per source] [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

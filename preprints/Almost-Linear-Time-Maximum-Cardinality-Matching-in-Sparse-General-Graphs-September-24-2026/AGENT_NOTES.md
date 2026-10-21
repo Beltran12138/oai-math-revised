@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [spele1100 (GitHub), *reverse-matching: Reference implementation of 'Almost-Linear-Time Maximum-Cardinality Matching in General Graphs'*](https://github.com/spele1100/reverse-matching) (GitHub repository, 2026). A pure-Python reimplementation of the paper's reductions, phase machine, ledgers and assembly, tested against NetworkX blossom matching, with the pricing machinery of Sections 5–8 replaced by exact substitutes. The README states "Running time is not reproduced" and lists six deviations from the text. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

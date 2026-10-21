@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Nik Weaver, Timothy Chow and commenters, *How many of the results released by OpenAI went against the conventional mathematical wisdom?*](https://mathoverflow.net/a/515860) (MathOverflow, 2026-10-08–2026-10-10). Weaver identifies result 297 as contrary to his expectation that a positive answer might also be consistent with ZFC; in the comments, Chow relays Alex Meiburg's concern that the Lean statement does not establish provability in ZFC, and Weaver replies that, after looking at the manuscript, he does not think this is an issue.
 
 ## Formalization

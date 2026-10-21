@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [acprk (GitHub repository openai-math-remarks), *Remark R7: Hahn–Wilson counterexamples for every prime p ≥ 293*](https://github.com/acprk/openai-math-remarks/blob/main/remarks/R7-hahn-wilson-p293) (GitHub, undated; literature search stated up to 2026-10-09). Re-selects the parameters of the paper's operator construction (conditions `op:parameters` and `op:correction-bound`) to claim the counterexample for every prime p ≥ 293, versus the paper's explicit condition first holding at p = 17,073,437; it states its checks are computational, "not human peer review", and do not re-verify the rest of the paper. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

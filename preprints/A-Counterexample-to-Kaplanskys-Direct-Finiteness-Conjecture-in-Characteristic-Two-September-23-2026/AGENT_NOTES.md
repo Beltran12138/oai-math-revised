@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Michael Chapman, in *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (proofsandprompts.com, 2026-10-08). Lists "the refutations to the Kaplansky conjectures" among the release results on problems he "grew up on", without discussing this manuscript in detail. [family-level]
 
 ## Formalization

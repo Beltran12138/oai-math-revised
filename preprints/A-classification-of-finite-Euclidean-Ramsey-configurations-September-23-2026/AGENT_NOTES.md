@@ -9,7 +9,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Will Strinz, *The radian nine-gon is Euclidean Ramsey iff e^(i theta) is algebraic*](https://github.com/wstrinz/radian-ramsey) (GitHub; Palomar entry [PALOMAR-2026-10-18-000020](https://data.palomar-registry.org/entries/PALOMAR-2026-10-18-000020-v1.json), 2026-10-18). Adapts the manuscript's nine-point non-Ramsey example (Proposition 7.6, algebraically independent parameters) to the one-parameter family of points at angles 0, θ, …, 8θ. [AI-generated per source]
 - [Will Strinz, *spherical-ramsey*](https://github.com/wstrinz/spherical-ramsey) (GitHub, 2026). Umbrella repository with Lean proofs, exact certificates, numerical probes and a conjecture ledger on which finite spherical sets are Ramsey; it explicitly trusts the release's Lean proof of the classification. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

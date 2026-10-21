@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Haozhou Zhang, *Sharp Minimax Gram-Determinant Asymptotics for Labelled Unit Decompositions of the Identity and Recent Developments on Makai's Conjecture*](https://arxiv.org/abs/2610.10979) (arXiv:2610.10979, v1 7 Oct 2026, v2 9 Oct 2026). Version 2 adds an appendix (Theorem A.1, "Makai from Strong Slicing") that derives Makai's reverse isodiametric conjecture, including its simplex equality case, from Theorem 1.1 of this paper; the author's note says they have "strong confidence in OpenAI's proof" but take no responsibility for that external result.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

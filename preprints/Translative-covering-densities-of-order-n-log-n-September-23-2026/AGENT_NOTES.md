@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Hexagon deposit contributed by Scott Kominers, *Multi-coverings by lattice translates of convex bodies*](https://hexagonmath.org/abs/2610.00165v1) (hexagon:2610.00165v1, October 2026). This paper is in its bibliography, but its body text cites only the companion single-lattice paper, whose construction it extends to lattice multi-coverings; the source calls the work "heavily LLM-assisted". [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

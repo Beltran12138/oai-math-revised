@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Chris Bruce and Shirly Geffen, *C\*-selflessness and Z-stability for Thompson's group F*](https://arxiv.org/abs/2610.28473) (arXiv:2610.28473, 20 Oct 2026). Cites this paper as [42] and proves that the reduced C\*-algebra of Thompson's group F is Z-stable, applying the paper's infinite minimal tensor-power corollary to that algebra and embedding the tensor power into it; the authors say they used AI tools, including OpenAI and Anthropic models.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

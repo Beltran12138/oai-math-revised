@@ -8,7 +8,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Chris Bruce and Shirly Geffen, *C\*-selflessness and Z-stability for Thompson's group F*](https://arxiv.org/abs/2610.28473) (arXiv:2610.28473, 20 Oct 2026). Proves that the reduced C\*-algebra of F is Z-stable and selfless, using this paper's nonamenability theorem together with another release preprint (*The Kirchberg–Rørdam character criterion*).
 - [acprk, *An explicit isoperimetric constant for Thompson's group F*](https://github.com/acprk/thompson-f-explicit-isoperimetric) (GitHub, version 0.1.0, 2026-10-10). Gives an explicit edge-isoperimetric (Cheeger) lower bound for F with generators {x0, x1} (about 2.1e-19 unconditionally) by making this paper's constants explicit, conditional on the upstream proof's correctness, and states that the work has neither human peer review nor a Lean formalization. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Ville Salo, *Paradoxical decompositions of Thompson's F*](https://mathoverflow.net/questions/515834/paradoxical-decompositions-of-thompsons-f) (MathOverflow, 2026-10-08). Asks how to extract concrete translation sets and a paradoxical decomposition from this paper's Følner argument, identifying the auxiliary map's Lipschitz constant as an obstacle to making the construction explicit.
 
 ## Formalization

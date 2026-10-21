@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [EcoDataLab, *contingency-tables: Open research on bounded contingency tables*](https://github.com/EcoDataLab/contingency-tables) (GitHub repository, October 2026). Describes itself as auditing and improving OpenAI result #115, noting that the companion FPRAS "covers cell bounds and structural zeros"; it also reports a separate Lean development (1511 named declarations) for a bounded sampler, whose strict Comparator verification it says "remains open". [AI-generated per source] [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Rohan Arun and repository contributors, *van-der-waerden-refinement* (Conditional refinements of OpenAI's October 2026 math release)](https://github.com/rohanarun/van-der-waerden-refinement) (GitHub research draft, October 2026). Proposes replacing the paper's coefficient $10^{-5}$ by $1/25$, by $1/9$ as the headline value, and more generally any fixed $c<1/8$, conditional on the pinned OpenAI construction and stated additional inputs; the README says the work has had no independent human review or end-to-end formal verification. [AI-generated per source]
 - [1337isnot1337, *Conditional logarithmic endpoint bound and explicit c=1/9 threshold*](https://github.com/rohanarun/van-der-waerden-refinement/pull/12) (GitHub PR #12, 2026-10-16). With disclosed GPT-6 assistance, proposes $W_r(k)>(k^{1/8}/(e^{20}\log k))^{k\lfloor\log_2 r\rfloor}$ for $k\ge2^{1024}$ and $r\ge2$, conditional on the pinned OpenAI geometric counts and subsequent digit-rank refinements.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Thomas Bloom (erdosproblems.com), *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10) (erdosproblems.com blog, 2026-10-08). Lists Problem 138 among the significant claims in the release, notes that Fox and Hunter proved such a bound for $r\ge3$, and says the 25-page PDF "appears to use similar methods to [FoHu26] (and various other earlier work)."
 
 ## Formalization

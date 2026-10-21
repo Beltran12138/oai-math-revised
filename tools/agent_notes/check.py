@@ -17,7 +17,7 @@ from pathlib import Path
 
 SECTIONS = [
     "Follow-up works",
-    "Expert comments and discussion",
+    "Comments and discussion",
     "Formalization",
     "Related prior literature mentioned by others",
     "Possibly relevant literature (found by the agent, not checked)",
@@ -48,8 +48,8 @@ def problems_in(path: Path) -> list[str]:
                 out.append(f"{title}: not a list item: {line[:80]}")
             elif line != "- None found." and not LINK.search(line):
                 out.append(f"{title}: item without a link: {line[:80]}")
-        if title == SECTIONS[4] and len(items) > 7:  # docs say 5; older pilot files have up to 7
-            out.append(f"{title}: {len(items)} items (keep it to about 5)")
+        if title == SECTIONS[4] and len(items) > 5:
+            out.append(f"{title}: {len(items)} items (at most 5)")
         if re.search(r"(?i)\bsearched\b|\bno results\b", body):
             out.append(f"{title}: mentions the search process; remove")
     return out

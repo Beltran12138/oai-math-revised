@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Xiaolei Wu, reaction collected in Proofs and Prompts, *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (proofsandprompts.com, posted 2026-10-08, updated to 2026-10-19). Wu's reaction mentions this result in passing while browsing the release's topology section ("So the Borel conjecture fails in dimension 4, the coarse Baum-Connes also fails…"), without assessing the argument.
 
 ## Formalization

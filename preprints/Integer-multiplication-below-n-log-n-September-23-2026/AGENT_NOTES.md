@@ -11,7 +11,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Volkan Dağlı, Zerrin Dağlı, Dağhan Dağlı, *Bipartite Carrier Compression and Machine-Certified Bounds in Schönhage Trilinear Multiplication Tensors*](https://arxiv.org/abs/2610.14263) (arXiv:2610.14263, 2026-10-09). A 5-page note in a conditional framework "originating from OpenAI Preprint #109" reporting a carrier-matching improvement to $\kappa\approx4.131076535\times10^{-5}$, with exact arithmetic certificates and a Lean 4 check of the wire-reduction identity.
 - [Klakocik, *below-nlogn*](https://github.com/Klakocik/below-nlogn) (GitHub repository, 2026). An experimental Rust toolbox that implements and tests some of the paper's finite gadgets (motif networks, shear factorization, butterfly layers, Gaussian resampling matrices); the README says the sections it does not implement are documented only.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Hacker News, *Integer multiplication below n log n*](https://news.ycombinator.com/item?id=49985524) (HN item 49985524, 2026-10-06). The discussion thread for the paper (about 80 comments); commenters ask for a machine-checked proof and discuss practical relevance and the companion DFT preprint, and no commenter identifies as a specialist.
 - [Hacker News, *Auto Research: Integer multiplication below n log n*](https://news.ycombinator.com/item?id=50047664) (HN item 50047664, 2026-10-11). A thread about the agent-driven community effort to raise κ beyond the paper's 2^-182, with debate about cost models and the value of such constant-chasing.
 

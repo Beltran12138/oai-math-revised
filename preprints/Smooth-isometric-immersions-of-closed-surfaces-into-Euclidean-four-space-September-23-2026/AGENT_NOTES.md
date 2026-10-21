@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Kenta Kitamura (KitaKen1), *Lean proof of smooth isometric embeddings into four-space*](https://github.com/KitaKen1/smooth-isometric-embeddings-r4) (GitHub repository with manuscript "public draft 1", 9 October 2026). Claims to strengthen this paper's immersion result to a smooth isometric embedding of closed orientable surfaces in ℝ⁴, crediting the immersion result to OpenAI and providing a non-peer-reviewed Lean development with a self-reported Lean Comparator pass. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

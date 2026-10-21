@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Alon Dogon, reaction in *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (Proofs and Prompts, 8 October 2026; collection updated 19 October 2026). A short signed reaction says the strong Ulam stability/amenability equivalence "(along with Dixmier's problem) has particularly touched me", noting that the author has worked on this question for years. [family-level]
 
 ## Formalization

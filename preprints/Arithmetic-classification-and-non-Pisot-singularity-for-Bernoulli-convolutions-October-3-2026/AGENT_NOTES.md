@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Guozheng Cheng, Xiang Fang, Xueqing Ma, Hongli Zhang, *Strict correlation-dimension drop for quartic Salem Bernoulli convolutions*](https://arxiv.org/abs/2610.09902) (arXiv:2610.09902, 7 October 2026). Proves correlation dimension strictly less than one (so no $L^2$ density) for $\nu_{\beta^{-1}}$ at every quartic Salem $\beta\in(1,2)$; it cites this manuscript as settling the measure type for these parameters and says its collision-based argument is different and is not implied by the OpenAI result.
 - [Guozheng Cheng, Xiang Fang, Xueqing Ma and Hongli Zhang, *Strict Hausdorff-dimension drop for Quartic Salem Bernoulli convolutions*](https://arxiv.org/html/2610.12072v2) (arXiv:2610.12072v2, 9 October 2026). Reports Hausdorff dimension strictly below one for every quartic Salem reciprocal and explicit deficit bounds for the two overlapping parameters, citing OpenAI's singularity theorem only for comparison and stating that its proofs and computations do not rely on that manuscript.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

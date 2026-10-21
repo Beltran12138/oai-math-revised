@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Dani Dorfman and Uri Zwick, *Strategy recovery for Mean-Payoff Games is as hard as solving them from scratch*](https://arxiv.org/abs/2610.25188) (arXiv:2610.25188, 18 Oct 2026). Reduces solving mean-payoff games to recovering optimal strategies from known values; its "Note added in proof" ([HTML version](https://arxiv.org/html/2610.25188)) cites this preprint ("OpenAI recently announced a quasipolynomial-time algorithm for solving MPGs") and adds that its reductions remain meaningful since the algorithm is not polynomial-time.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

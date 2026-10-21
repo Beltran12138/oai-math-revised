@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Stephen S.-T. Yau, Qiwei Zhu, Huaiqing Zuo, *Nakai conjectures for isolated weighted homogeneous hypersurface singularities*](https://arxiv.org/abs/2604.24508v4) (arXiv:2604.24508v4, 8 Oct 2026). The introduction of v4 mentions OpenAI's claimed counterexample without a citation, and says "this claim has not yet been verified by the mathematical community."
 
 ## Formalization

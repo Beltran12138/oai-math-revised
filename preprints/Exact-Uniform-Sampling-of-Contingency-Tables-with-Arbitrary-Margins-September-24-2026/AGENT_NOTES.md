@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [EcoDataLab, *contingency-tables: Open research on bounded contingency tables*](https://github.com/EcoDataLab/contingency-tables) (GitHub repository, October 2026). Describes itself as auditing and improving OpenAI result #115, including a separate Lean development (1511 named declarations) with a bounded sampler of total variation at most $2^{-h}$; it notes that "the source claim of exact expected-polynomial sampling concerns ordinary tables" and does not transfer it to the cell-bounded setting. [AI-generated per source] [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

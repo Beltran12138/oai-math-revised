@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Qiang Gao, *Improving the lower bound on the Laughlin gap: An SDP search*](https://arxiv.org/abs/2610.12700) (arXiv:2610.12700, 2026-10-08). Reports an SDP-based improvement of the family's unperturbed spherical gap bound from $1/25$ to $1/5$ for sufficiently large systems, strengthening the type of unperturbed input used in the stability paper. [AI-generated per source] [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

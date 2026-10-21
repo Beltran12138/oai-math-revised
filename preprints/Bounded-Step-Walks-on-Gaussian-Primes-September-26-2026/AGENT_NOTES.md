@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Kenta Kitamura, *Gaussian moat variants and binary-form classification in Lean 4*](https://github.com/KitaKen1/erdos-952-binary-form-moat-classification) (GitHub; author-reported Lean4Web check 2026-10-10). This project cites OpenAI's uniform component bound and claims a generalization to lattice points where an irreducible homogeneous integer binary form of degree at least two has a nonzero value with a bounded number of distinct prime factors, with a classification for general binary forms; it reports Lean checks whose axiom lists contain only `propext`, `Classical.choice`, and `Quot.sound`. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

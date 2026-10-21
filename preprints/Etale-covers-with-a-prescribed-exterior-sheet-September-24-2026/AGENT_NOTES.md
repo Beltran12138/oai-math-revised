@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Magnus Carlson, Minhyong Kim, Padmavathi Srinivasan and Jakob Stix, *The p-adic section conjecture (following OpenAI): an online seminar*](https://www.minhyongkim.net/home/p-adic-section-conjecture) (online seminar, first meeting 2026-10-20). The seminar aims to understand the claimed proof, with Benjamin Collas's opening overview relating the valuative approach to the resolution-of-nonsingularities geometry used in this family. [family-level]
 
 ## Formalization

@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [John Hoffman and Benjamin Jaye, *On Singular Integrals and Quantitative Rectifiability in Parabolic Space and the Heisenberg Group*](https://arxiv.org/abs/2510.26934) (arXiv:2510.26934v4, 10 Oct 2026). The v4 introduction calls the intermediate cases "the longstanding higher-codimension David–Semmes problem", which "a recent preprint ... claims" to resolve positively, and says a version of the authors' technique "also appears in OpenAI's recent claimed solution".
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

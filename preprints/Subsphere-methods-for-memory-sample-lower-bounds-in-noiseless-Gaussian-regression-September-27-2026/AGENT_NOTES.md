@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [GitHub user acprk (author name not given), *The leading constant of the memory–sample tradeoff for noiseless Gaussian regression*](https://github.com/acprk/memory-sample-leading-constant) (GitHub note, v0.1.0, 2026-10-10). Claims the constant $2^{-16}$ of this paper can be replaced by any $c < 2\ln 2$ for $o(d^2)$ memory, matched by finite-bit randomized Kaczmarz, conditional on the upstream proof; it takes its architecture and unchanged lemmas from this paper. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

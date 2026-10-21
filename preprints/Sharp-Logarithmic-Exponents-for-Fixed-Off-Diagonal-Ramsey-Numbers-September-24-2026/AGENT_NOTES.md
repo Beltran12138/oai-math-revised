@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Kaizhe Chen, *A note on the logarithmic exponent of Ramsey number r(4,t)*](https://arxiv.org/abs/2610.15293) (arXiv:2610.15293, 11 Oct 2026). Informal note that cites this paper (s≥6) and its companion (s=5), and derives $r(4,t)=t^3/(\log t)^{2+o(1)}$ from them via a transfer principle from $r(s,t)$ to $r(s-1,t)$; it also remarks that removing the $o(1)$ for some $s\ge5$ would remove it for $s-1$. [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

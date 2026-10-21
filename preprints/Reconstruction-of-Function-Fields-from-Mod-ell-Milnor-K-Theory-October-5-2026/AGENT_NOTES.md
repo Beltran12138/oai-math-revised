@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [AHGT project / Adam Topaz, *On the reconstruction of function fields from mod-ℓ Milnor K-theory*](https://ahgt.math.cnrs.fr/activities/workshops/Seminar-Taming_the_flow_2026/) (Taming the Flow seminar announcement, autumn 2026; date TBA). The programme names Topaz for a forthcoming talk targeting this manuscript and situating its degree-one and degree-two invariants in birational anabelian geometry.
 
 ## Formalization

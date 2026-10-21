@@ -8,7 +8,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Xin Shen (curator), *The Bosonic Laughlin Spectral Gap: A Candidate Proof*](https://github.com/Shencongli/bosonic-laughlin-spectral-gap) (GitHub, v0.1, 7 October 2026). Adapts this paper's Fock-space comparison strategy to the bosonic V0 model and claims $H_Q^2\ge H_Q/3$ for $Q\ge3088$; the repository states that independent review remains open. [AI-generated per source]
 - [GitHub user Yuchenian, *vortexable-laughlin-gap*](https://github.com/Yuchenian/vortexable-laughlin-gap) (GitHub repository, 2026). Self-described AI-assisted research draft that transfers a reference Laughlin spectral inequality to changed vortexable one-particle subspaces, taking Gao's refinement of this paper (arXiv:2610.12700) as its input. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

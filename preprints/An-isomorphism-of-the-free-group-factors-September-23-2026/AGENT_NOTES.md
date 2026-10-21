@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [D. Shlyakhtenko, *On the Isomorphism of Semicircular Algebras*](https://arxiv.org/abs/2610.19590) (arXiv:2610.19590 [math.OA], v1 14 Oct 2026). Gives a self-contained C*-algebraic version of the result, showing that the C*-algebra of a free semicircular n-tuple and the n-fold reduced free product of Jiang–Su algebras do not depend on n for 2 ≤ n ≤ ∞, and recovers $L(\mathbb F_n)\cong L(\mathbb F_2)$; it follows "the same strategy as OpenAI's paper [9], although implemented differently" without relying on its results. [AI-generated per source]
 - [Jizhou Guo, *Consequences of results in the OpenAI mathematics release*, §7: Group von Neumann algebras of surface groups](https://raw.githubusercontent.com/aster2024/openai-math-followups/main/consequences/README.md) (GitHub research notes, 8 October 2026). Conditionally combines this paper's isomorphisms with Shlyakhtenko's Fuchsian-group-factor preprint to deduce that the factors of all closed orientable surface groups of genus at least two are isomorphic to $L(\mathbb F_2)$.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Vadim Alekseev and Srivatsav Kunnawalkam Elayavalli, in *100+ reactions to 100+ solutions* (Proofs and Prompts)](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (blog post, 8 Oct 2026, updated 19 Oct 2026). Signed reactions to the result: Alekseev writes "I got really impressed by the resolution of the free factor problem", and Kunnawalkam Elayavalli says he had believed "that the free group factors ought to be non-isomorphic".
 
 ## Formalization

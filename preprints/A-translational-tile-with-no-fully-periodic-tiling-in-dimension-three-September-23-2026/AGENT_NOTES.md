@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Erik D. Demaine, Stefan Langerman, *Tiling 3D by Translates of a Single Polycube is Undecidable*](https://arxiv.org/abs/2610.12392) (arXiv:2610.12392, 8 Oct 2026). Proves that translational tiling of 3D space by a single face-connected polycube is undecidable (co-RE-complete), using "a cyclic encoding adapted from OpenAI's 3D aperiodic tile" with decorated two-prime Sudoku constraints; it cites this preprint as reference [15].
 
-## Expert comments and discussion
+## Comments and discussion
 - [Quanta Magazine "Transformation" (Konstantin Kakaes's column), *Cracks appear in OpenAI's wall of proofs*](https://www.quantamagazine.org/update/168049/) (Quanta Magazine, 9 Oct 2026). A short news item on early reactions to the release that links this preprint as its three-dimensional aperiodic tile example and quotes Chaim Goodman-Strauss (Museum of Mathematics) saying it has some novel ideas but is "unnecessarily difficult to read".
 
 ## Formalization

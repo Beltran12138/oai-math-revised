@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Yangyan Gu, Rongxing Xu, *A shorter proof of the linear list Hadwiger conjecture*](https://arxiv.org/html/2610.01946v2) (arXiv:2610.01946v2, revised 2026-10-12). Revised version of a paper whose v1 this manuscript cites; it gives a simpler proof of a weaker form of this paper's Proposition 3.1 (graphs on at most $t(\ln t)^5$ vertices) and reuses its thinning argument as Lemma 2.9 to give a shorter proof of the conjecture.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

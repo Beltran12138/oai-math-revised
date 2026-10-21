@@ -8,7 +8,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Weiheng Xia, *Global obstruction property and its applications*](https://arxiv.org/abs/2610.12583) (arXiv:2610.12583, Oct 8, 2026). Cites this paper in its introduction as proposing an algebra of infinite little finitistic dimension and states that its own finitistic-dimension results are independent of that construction.
 - [Qiyue Tang (琪越 唐), *A note on counterexamples to homological conjectures*](https://hexagonmath.org/abs/2610.00143v4) (hexagon:2610.00143v4, Oct 15, 2026). Builds on the release's Auslander–Reiten and Tachikawa papers (not on this one) and claims counterexamples to the little and big finitistic dimension conjectures over any field with an element of infinite multiplicative order; the page records "Human understanding: no parts". [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

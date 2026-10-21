@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Michael Mislan, *Endotactic permanence and quantitative recovery with vanishing reverse rates*](https://hexagonmath.org/abs/2610.00321v1) (hexagon:2610.00321, October 2026). Cites this paper and its companion and uses "the finite affine construction of OpenAI" to prove classwise permanence for ordinary endotactic networks with measurable rates in a fixed positive rate box; it also gives quantitative concentration bounds and recovery times for weakly reversible networks whose rates scale as powers of a small parameter. [AI-generated per source] [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

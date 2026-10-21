@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Buhai, Cohen-Addad, Fleischmann, Gupta, Jubés Monforte, Pittu, Stouras, Svensson, Vogl, *A Better-than-2 Approximation for k-Median Part I: The Power of General Bids*](https://arxiv.org/abs/2610.18144) (arXiv:2610.18144, 13 October 2026). An independent randomized polynomial-time 1.95-approximation for k-median; its "AI Acknowledgment and Concurrent Work" paragraph describes the OpenAI result that extends iterative rounding to a $(1+2/e+\varepsilon)$-approximation as concurrent work announced on 6 October 2026. [family-level]
 - [Buhai, Cohen-Addad, Fleischmann, Gupta, Jubés Monforte, Pittu, Stouras, Svensson, Vogl, *A Better-than-2 Approximation for k-Median Part II: Stable Instances*](https://arxiv.org/abs/2610.17172) (arXiv:2610.17172, 12 October 2026). The companion paper (a $(1.89+\varepsilon)$-approximation for β-stable instances) calls the iterative-rounding OpenAI paper "an optimal" $(1+2/e+\varepsilon)$-approximation in its concurrent-work discussion. [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Ola Svensson, quoted by Digg, *OpenAI is said to have solved a problem students worked on for over a year*](https://digg.com/ai/5agbrefi) (X post quoted by Digg, 2026-10-07). The quoted post describes OpenAI's k-median result as solving a problem the poster's students had pursued and announces the group's different algorithmic approach. [family-level]
 
 ## Formalization

@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Hal Tasaki, *The equivalence of topological indices for U(1)⋊Z₂-symmetric quantum spin chains*](https://arxiv.org/abs/2609.34119) (arXiv:2609.34119v2, 10 Oct 2026). Version 2 cites this paper's even-periodic gap theorem as context but says the result "is not needed for this application", using the companion boundary-field theorem for its S=1 Heisenberg application; its revision note says of the OpenAI proofs: "I have so far found no logical gap in the portions I have examined, but my verification is not yet complete." [family-level]
 - [GPT-6 Astra Max / amachino, *Exact-arithmetic refinements of periodic spin-one Haldane-gap bounds*](https://github.com/amachino/haldane-gap-refinement) (GitHub technical note, version 1.7.0, 8 October 2026). This explicitly unreviewed note uses inputs from both manuscripts to claim a periodic gap greater than 0.1515 for every integer length at least 24, conditional on the cited OpenAI transfer identities and certified finite inputs. [AI-generated per source] [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Hal Tasaki, *OpenAI's proof of the Haldane gap in the S=1 antiferromagnetic Heisenberg chain*](https://haltasaki.github.io/writings/AI/OpenAI_Haldane.html) (author's website, October 2026). Tasaki reports carefully studying the periodic paper's analytic argument and describes it favorably, explicitly stating that he has not independently checked the computer-assisted estimates.
 
 ## Formalization

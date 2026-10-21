@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Matěj Kripner, Václav Rozhoň, Robert Šámal, Martin Šindelář and Adrián Zámečník, *Small witnesses for eventual Erdős–Straus binomial divisibility*](https://hexagonmath.org/pdf/2610.00239v1) (Hexagon:2610.00239v1, 2026-10-14). Section 1.3 cites the strengthened Jacobsthal bound when comparing polynomial coprimality sieves, and states explicitly that its proof uses no Jacobsthal estimate. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

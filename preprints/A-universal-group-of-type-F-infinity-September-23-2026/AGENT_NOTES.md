@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Laurent Bartholdi and Roman Mikhailov, *Every countable group embeds in a group of type $\mathrm{FP}_n$*](https://arxiv.org/html/2609.37562v2) (arXiv:2609.37562v2, 8 October 2026; first version 29 September 2026). Appendix A adapts this paper's controlled additivity, uniform fillings and product-coefficient arguments to obtain two-generator $FP_\infty$ overgroups of arbitrary countable groups, with ChatGPT Astra assistance disclosed in the arXiv record.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

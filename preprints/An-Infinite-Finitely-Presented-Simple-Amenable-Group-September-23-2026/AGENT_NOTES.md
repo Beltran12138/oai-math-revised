@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Matthew C. B. Zaremsky, *Some open problems*](https://zaremsky.github.io/open_problems.pdf) (author's problem list, version dated October 8, 2026). The paper cites the July 12, 2026 version (Problem 10, "Find a finitely presented (or F∞), infinite, simple, amenable group."); in the October 8 version this problem is struck through with the note "Update 10/8/26: I'll just cross out problems solved by AI." [cites earlier version]
 
 ## Formalization

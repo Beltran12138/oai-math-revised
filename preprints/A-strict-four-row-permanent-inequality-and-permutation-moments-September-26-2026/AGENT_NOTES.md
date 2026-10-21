@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [J. D. Jones, *Sharp robustness and stability of the four-row permanent inequality*](https://palomar-registry.org/entry?id=PALOMAR-2026-10-08-000007&version=1) (Palomar PALOMAR-2026-10-08-000007, registered 8 Oct 2026; code at [JD-Jones-ASES/four-row](https://github.com/JD-Jones-ASES/four-row)). A Lean development that the registry marks as adapting this paper; it claims the sharp total-variation radius 1/24 and optimal variance-deficit coefficient (1−24r)/9 for balanced laws, and its [disclosure](https://github.com/JD-Jones-ASES/four-row/blob/main/DISCLOSURE.md) says OpenAI models contributed and the review status is agent-reviewed. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

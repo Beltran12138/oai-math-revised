@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Zhouyu Long and Wenming Zou, *On the Allen–Cahn equation*](https://arxiv.org/abs/2610.28080) (arXiv:2610.28080, 20 October 2026). Proves that finite Morse index implies $O(R^{n-1})$ energy growth for bounded entire solutions in dimensions $4\le n\le 9$; the introduction cites this paper as [12] and says its positive normal equation, penalized reach, root-sum-squares gluing and radial comparison "follow the approach of [12]".
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

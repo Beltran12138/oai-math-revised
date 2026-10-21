@@ -10,7 +10,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Ryan Matthew Casper, *The irrationality exponent of real and imaginary quadratic periods is 2*](https://github.com/Mattie/math/blob/main/preprints/The-irrationality-exponent-of-real-and-imaginary-quadratic-periods-is-2-October-9-2026/README.md) (preprint with Lean formalization, 2026-10-09). Building on this paper's interpolation and determinant method, reports exponent two for $\pi/\sqrt r$ with positive rational $r$ and for specified normalized real and imaginary quadratic logarithmic periods. [AI-generated per source]
 - [Sean Litsey (contributor), *Irrationality measures for $G\pm5\pi^2/48$ and $L(2,\chi_{-3})$*](https://hexagonmath.org/abs/2610.00401v1) (hexagon:2610.00401v1, 2026-10-20). Builds on the release's determinant method for Catalan's constant and lists this paper in its bibliography; the abstract does not say it uses this paper's argument. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Persiflage, *A Brief Digest of Some New OpenAI Results*, item 8](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/) (blog, 2026-10-08). Reports Wadim Zudilin's observation of a close similarity to Roth's argument for algebraic irrationals, while stating that the blog author had not yet examined this paper.
 
 ## Formalization

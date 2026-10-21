@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Radu Curticapean, Mingjun Liu, Daniel Neuen, and Tim Seppelt, *Purpose and AI Statement*](https://zenodo.org/records/23213174/files/Compiling_to_WL.pdf?download=1) (preface to Lower Bounds for Weisfeiler–Leman, 2026-10-07). The authors date their AI-assisted results to September 19–29 and describe the release-triggered manuscript as a hastily written public timestamp. [AI-generated per source] [family-level]
 
 ## Formalization

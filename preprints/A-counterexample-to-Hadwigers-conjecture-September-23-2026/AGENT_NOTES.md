@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Gil Kalai, *Updates: Sharing AI progress on mathematics (amazing!); and my lecture plans*, Combinatorics and more](https://gilkalai.wordpress.com/2026/10/07/updates-sharing-ai-progress-on-mathematics-amazing-and-my-lecture-plans/) (blog, 2026-10-07). Lists this paper among the release's results, saying it "gives counterexamples to the original conjecture, even among graphs with independence number at most two", and notes the earlier disproof of the odd-minor strengthening.
 - [Manifold Markets, *Is Hadwiger's conjecture true?*](https://manifold.markets/Pazzaz/is-hadwigers-conjecture-true) (prediction market, resolved 2026-10-16). The comment thread links this paper and its Lean files; the market creator resolved NO after checking the Lean definitions `not_hadwiger_conjecture`, `hadwigerNumber` and `HasCliqueMinor`.
 

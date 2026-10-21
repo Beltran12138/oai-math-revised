@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Annanay Kapila, *Subset Sum in time O(2^{0.4877n})*](https://hexagonmath.org/2610.00261v1) (hexagon:2610.00261v1, 15 Oct 2026). States that it builds on this paper, keeping its framework of isolation, capped preliminary search, modular checksum and alias subtraction, replacing the alias procedure and using 43 checksum filters, and claiming exponent 0.4877; results of this paper are restated in an appendix and Arb-based scripts check numerical inequalities. [AI-generated per source]
 - [Joshua Wharton, *A conditional refinement of the Subset Sum exponent to 0.487676*](https://github.com/JoshuaQFEX/subset-sum-bound/blob/dcb002174cb1e06213e171c9f5ff6b063fdf2c40/paper.tex) (GitHub manuscript, 20 October 2026). Refines parameters and transfers certificates from Kapila's follow-up, retaining explicit dependence on the underlying algorithmic and analytic premises. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

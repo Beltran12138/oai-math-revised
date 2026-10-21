@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Nina Holden, *The Tutte embedding of tree-weighted planar maps converges to Liouville quantum gravity*](https://arxiv.org/abs/2610.10501) (arXiv:2610.10501, 7 Oct 2026). Independent work proving Tutte-embedding convergence of spanning-tree-decorated Boltzmann maps with a large boundary to a √2-LQG disk, with random walk converging to Brownian motion modulo time parametrization; the author writes that her results "are close to “A linear clock for random walk on tree-weighted planar maps” by Open AI" and that the OpenAI papers solve several of her Future directions items 1, 2 and 4.
 - [Nina Holden and Pu Yu, *The circle packing and Riemann uniformization embedding of tree-weighted planar maps converge to Liouville quantum gravity*](https://arxiv.org/abs/2610.10505) (arXiv:2610.10505, 7 Oct 2026). Independent companion work on conformal embeddings of spanning-tree-weighted maps, which says "none of the OpenAI results imply the results of our paper, or vice versa." [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

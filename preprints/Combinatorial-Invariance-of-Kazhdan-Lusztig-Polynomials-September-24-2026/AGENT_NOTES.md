@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [F. Caselli and M. Marietti, *A simple classification of the special matchings in the symmetric group*](https://arxiv.org/abs/2610.21647) (arXiv:2610.21647, 15 Oct 2026). Gives a combinatorial algorithm for Kazhdan–Lusztig polynomials on an isomorphism-closed family of type-A Bruhat intervals; its Remark 1.2 cites this manuscript as [28] and notes that it "claims to prove the Combinatorial Invariance Conjecture".
 - [Nicolás Libedinsky, *Polytopal invariance for Lusztig’s q-weight multiplicities*](https://arxiv.org/html/2610.14275v1) (arXiv:2610.14275v1, 2026-10-09). Cites the OpenAI manuscript as an announced proof, establishes a metric spherical analogue, and proposes in §6.1 a conjecture connecting polytope isometries to Bruhat interval isomorphisms; the AI-use disclosure describes an AI-produced initial argument subsequently corrected and expanded by the author.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Sara Billey, *OpenAI publishes new math research on GitHub*](https://www.linkedin.com/posts/sara-billey-85440a159_openai-posted-a-lot-of-new-math-research-activity-7513431670612557824-mW4j) (LinkedIn, undated). Highlights the claimed proof of the Kazhdan–Lusztig combinatorial invariance conjecture and asks how to approach the volume of released work, without offering a technical assessment.
 
 ## Formalization

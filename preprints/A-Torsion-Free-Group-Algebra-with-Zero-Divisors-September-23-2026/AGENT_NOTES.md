@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [acprk/openai-math-remarks, *R14: Kaplansky zero-divisor counterexample over PG(2,16)*](https://github.com/acprk/openai-math-remarks/blob/main/remarks/R14-kaplansky-zero-divisor-q16) (GitHub remark, undated; literature search stated up to 2026-10-09). Argues that the paper's construction and proof also work with projective-plane parameter q = 16 instead of q = 128, and reports a spectral-radius computation indicating the key lemma fails for q = 8; the remark states it assumes the q = 128 manuscript and was reviewed by AI sessions, not human peer review. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

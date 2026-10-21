@@ -9,7 +9,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Boyang Hu, *A seven-eighths zero-free half-plane for unitary Weil L-functions*](https://hexagonmath.org/abs/2610.00216v1) (hexagon:2610.00216v1, 2026-10-13). Claims a zero-free half-plane $\Re s>7/8$ for $L$-functions of unitary representations of the Weil group; the provenance statement says the work grew out of AI-assisted investigations of this paper's Hecke zero-free arguments, and the paper cites it as reference 17. [AI-generated per source]
 - [OpenAI, *Deterministic Polynomial Factorization over Prime Fields*](https://github.com/openai/math/tree/main/preprints/Deterministic-Polynomial-Factorization-over-Prime-Fields-October-4-2026) (OpenAI Math Release preprint, 2026-10-04). Another release manuscript, which the VibeMathed entry for it describes as depending on this paper's Theorem 1.2 (uniform Hecke zero-free strip over cyclotomic fields). [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Persiflage (galoisrepresentations.org), *A Brief Digest of Some New OpenAI Results*](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/) (blog, 2026-10-08). Item 4 discusses this paper: Hooley's argument would need quasi-RH for Dedekind $L$-functions, so the paper takes a different route, which the post calls "a little bit different, but also not at all surprising"; in the comments (2026-10-09) DH points to the paper's more general quasi-RH for Hecke characters of cyclotomic fields, and Persiflage replies that Hooley's argument "needs full GRH for these".
 
 ## Formalization

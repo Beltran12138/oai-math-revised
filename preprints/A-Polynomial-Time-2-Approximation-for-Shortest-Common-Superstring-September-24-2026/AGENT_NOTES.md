@@ -8,7 +8,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [bkarak (GitHub), *shortest-superstring-js*](https://github.com/bkarak/shortest-superstring-js) (GitHub repository, JavaScript). Implements the paper's algorithm as `twoApprox` next to Greedy, MGREEDY, TGREEDY and an exact solver, and reports benchmarks including the family {c(ab)^k, (ba)^k, (ab)^k c}, where it reports greedy outputs of 4k+2 against the algorithm's 2k+6.
 - [rongou (GitHub), *superstring-rs*](https://github.com/rongou/superstring-rs) (GitHub repository, Rust). Provides preprocessing, an exact solver, a greedy baseline and the occurrence-count lower bound W as groundwork for the paper's algorithm; the README states the approximation algorithm itself is not implemented yet.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

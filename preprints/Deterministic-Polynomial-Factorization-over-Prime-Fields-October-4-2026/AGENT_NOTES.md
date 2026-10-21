@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Bruno and Scott Aaronson, comments #96–#97 on *The Mathocalypse*, Shtetl-Optimized](https://scottaaronson.blog/?p=10169#comment-2041193) (blog comments, 8 Oct 2026). A commenter points out that this result was missing from the post's list, calling the problem "one of the very few problems for which a randomized polytime algorithm was known but no deterministic polytime algorithm"; Aaronson replies that he will add it.
 - [DH and Persiflage, comments on *A Brief Digest of Some New OpenAI Results*, galoisrepresentations.org](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/#comment-28529) (blog comments, 9 Oct 2026). The thread discusses the companion paper's zero-free claim for finite-order Hecke L-functions of cyclotomic fields containing ζ₁₂, which is the analytic input this paper imports as Theorem 10.1; it discusses that claim in the context of Artin's conjecture and does not mention factorization.
 - [Divesh Aggarwal and commenters, *Deterministic Polynomial Factorization Over Finite Fields*](https://www.linkedin.com/posts/divesh-aggarwal-66595610_mathpreprintsdeterministic-polynomial-factorization-over-prime-fields-october-activity-7513737033291554816-u4o9) (LinkedIn, October 2026). Aggarwal highlights the manuscript's significance for deterministic versus randomized computation, while Alon Rosen asks whether it is Lean-verified and about polynomial identity testing; the visible thread does not supply a technical review.

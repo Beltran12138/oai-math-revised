@@ -9,7 +9,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Benjamin Severn, *A transfer theorem for Weil classes on Prym–Tyurin factors of Galois covers*](https://hexagonmath.org/abs/2610.00386v1) (hexagon:2610.00386v1, Oct 2026). Gives conditions under which Weil classes on Prym–Tyurin factors of Galois covers are algebraic; its reference list cites this paper. [AI-generated per source] [cites earlier version]
 - [Benjamin Severn, *Weil classes on every abelian sixfold of Weil type for Q(√−3)*](https://hexagonmath.org/abs/2610.00387v1) (hexagon:2610.00387v1, Oct 2026). Claims algebraicity of Weil classes on every polarized Weil-type sixfold over Q(√−3), plus the Hodge conjecture for powers when the special Mumford–Tate group is SU_H, extending the Q(√−3) case of this paper's split-sixfold theorem. [AI-generated per source] [cites earlier version]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

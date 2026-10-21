@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Yuchen Bi, *A note on the cube inequality*](https://arxiv.org/abs/2610.28390) (arXiv:2610.28390, v1 20 Oct 2026). Proves a weighted cube inequality in all dimensions by adapting ideas from this manuscript, which it cites as [OAI], stating that its treatment of singularities "largely follows [OAI, Appendices C–E]"; its AI disclosure says the note arose from discussions with ChatGPT about [OAI].
 
-## Expert comments and discussion
+## Comments and discussion
 - [Jialong Deng, personal homepage](https://sites.google.com/view/jialongdeng) (undated page). Deng says his earlier locally-conformally-flat result (arXiv:2609.02267) gives a sharper macroscopic-dimension bound in that setting than the related results announced in Families 335 and 336, and that "Neither manuscript mentions my earlier work."
 
 ## Formalization

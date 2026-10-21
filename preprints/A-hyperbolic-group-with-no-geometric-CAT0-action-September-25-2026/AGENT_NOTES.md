@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Martino Lupini, *Robust fixed points and finite classifying spaces: CAT(0) actions, Banach targets and group fillings*](https://zenodo.org/records/23424960) (Zenodo, doi:10.5281/zenodo.23424960, v2, 2026-10-16; v1 2026-10-14 under a different title). Starting from "OpenAI's group construction, diagram argument and analytic obstruction", it claims infinite torsion-free hyperbolic groups with finite two-dimensional classifying spaces whose isometric actions on every nonempty complete CAT(0) space have a fixed point, which it says answers an existence question recorded by Eskenazis, Mendel and Naor (2019).
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

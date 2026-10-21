@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Philip Engel, Mirko Mauri, *Hyperkähler SYZ conjecture*](https://arxiv.org/abs/2610.12277) (arXiv:2610.12277, 2026-10-08). A parallel preprint with an independent proof of the semiampleness statement that this paper imports from Theorem 1.1 of its companion preprint; its authors disclose a largely complete human-written draft preceding the release, later proofread with ChatGPT Astra, and that they had not yet carefully examined OpenAI's proof. [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

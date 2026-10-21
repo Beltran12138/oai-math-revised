@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Roman Sauer, contribution to *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (Proofs and Prompts, posted 2026-10-08). Sauer writes that a trick from his work with Braun and from Alpert's extension of it "now appear in OpenAI's deeply creative solutions of problems 207 and 335"; those works are cited in the companion group-ring paper, not in this one. [family-level]
 
 ## Formalization

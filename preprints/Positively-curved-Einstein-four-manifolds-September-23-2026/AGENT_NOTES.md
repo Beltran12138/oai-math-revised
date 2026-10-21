@@ -5,13 +5,13 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization
 - [OpenAI math release, *Lean scope note 348: Nonnegative-curvature Einstein classification and an L² topological gap*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/348.md) (lean/docs/348.md, 2026). The scope note names this manuscript and says the Lean development covers its classification theorem (round S⁴, Fubini–Study CP², round RP⁴, no orientability assumption), linking to a comparator statement.
 - [OpenAI math release, *EinsteinFour.lean* (comparator challenge statement)](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/EinsteinFour.lean) (github.com/openai/math, commit adc7f12, 2026). Target statements `orientedClassification`, `classificationOn` and `classification` for this paper's main theorem, stated there with `sorry` as the challenge to be matched.
-- [OpenAI math release, *OAI/Geometry/EinsteinFour/Classification.lean*](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Geometry/EinsteinFour/Classification.lean) (github.com/openai/math, commit adc7f12, 2026). Solution module stating `classification` for this paper's Theorem 1.1; its proof calls `classificationOn` from imported modules, which the agent did not inspect.
+- [OpenAI math release, *OAI/Geometry/EinsteinFour/Classification.lean*](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Geometry/EinsteinFour/Classification.lean) (github.com/openai/math, commit adc7f12, 2026). Solution module stating `classification` for this paper's Theorem 1.1; its proof calls `classificationOn` from imported modules.
 
 ## Related prior literature mentioned by others
 - None found.

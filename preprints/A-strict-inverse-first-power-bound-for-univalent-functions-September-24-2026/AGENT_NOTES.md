@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Ilia Binder, Oleg Ivrii, István Prause, Stanislav Smirnov, *Brennan's Conjecture and the Universal Integral Means Spectrum*](https://arxiv.org/abs/2610.23853) (arXiv:2610.23853 [math.CV], 16 Oct 2026). Cites this paper and states that $B_b(t)\le t^2/4$ on $[-2,2]$, with strict inequality for $t\in(-2,2)\setminus\{0\}$. It gives a full argument only for the non-strict inequality and defers the details of strictness to a separate paper. [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Ilia Binder, Oleg Ivrii, István Prause, Stanislav Smirnov, §1.2–1.3 of *Brennan's Conjecture and the Universal Integral Means Spectrum*](https://arxiv.org/abs/2610.23853) (arXiv:2610.23853, 16 Oct 2026). The authors summarize this paper's strictness mechanism: "The strict inequality is guaranteed by a global harmonic obstruction." They also write that the AI proofs contain derivations "that, while correct, are redundant". [family-level]
 
 ## Formalization

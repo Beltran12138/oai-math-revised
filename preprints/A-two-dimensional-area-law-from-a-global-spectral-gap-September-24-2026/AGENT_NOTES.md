@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Tomotaka Kuwahara, *The Rényi area law conjecture is false below α=1 in high dimensions*](https://arxiv.org/abs/2610.15199) (arXiv:2610.15199, 10 Oct 2026). Constructs uniformly gapped finite-range Hamiltonians in dimension ≥2 with volume-law Rényi-α entanglement for α<1. A "Note added" cites this paper as "a proposed proof" of the von Neumann area law and says that, assuming it, Rényi area laws follow for all α≥1; the author states the results are independent of it.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

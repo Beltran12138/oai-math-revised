@@ -7,7 +7,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Vjekoslav Kovač (submitter), generated with ChatGPT-6 Astra, *Superexponentially decaying sequences in the Erdos similarity problem*](https://hexagonmath.org/abs/2610.00176v1) (hexagon:2610.00176v1, 10 October 2026). Proves a non-universality criterion that covers some superexponentially decaying sequences, and states that its proof modifies the finite-tree construction of this geometric-case manuscript (its reference [18]). [AI-generated per source]
 - [Harald Schilly, *Erdős similarity for distance sets: finite patterns, a pinned obstruction, and an open window*](https://github.com/haraldschilly/math-distance-set-similarity) (preprint and Lean repository, October 2026). This follow-up, prepared with substantial Claude assistance, derives pinned-distance obstructions from the avoidance results and reports replaying the dyadic Lean proof, while retaining general-ratio avoidance as an explicit hypothesis. [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Elliot Kienzle, *Illustrating the AI proof of the Mahler conjecture*](https://chessapig.github.io/Mahler) (personal site, Oct 2026). Hand-drawn and interactive exposition of this paper's construction of large symplectic balls in $K\times K^\circ$, calling it "a clever construction applying a technique I haven't published yet"; Kienzle says he has not checked the details line by line. [family-level]
 
 ## Formalization

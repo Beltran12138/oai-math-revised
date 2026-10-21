@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Ryan Shea, *Sharper One-Sample Matroid Prophet Inequalities*](https://github.com/shea256/matroid-prophet-inequality) (GitHub repository and [manuscript](https://github.com/shea256/matroid-prophet-inequality/blob/master/manuscript.md), 2026-10-11). Claims a refinement of this paper's construction with reward fraction greater than $(35/32)2^{-31}$ under the same one-sample, full-seed adversary model; it states that independent mathematical review and formalization remain pending. [AI-generated per source]
 - [bottlebrushes, *MatroidProphet (#111): one-sample ratio 2^-310 → 2^-38, Lean-verified*](https://github.com/bottlebrushes/math/pull/1) (GitHub pull request, merged 2026-10-10). Keeps this paper's rule and proof architecture, re-tunes parameters and tightens estimates, and reports a sorry-free Lean theorem `one_sample_sharp` with ratio 2^-38 built on the release's Lean development.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

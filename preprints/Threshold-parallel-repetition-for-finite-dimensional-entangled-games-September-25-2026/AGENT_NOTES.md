@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Rahul Jain, *Parallel Repetition for Entangled Games via Conditional Relative Entropy*](https://arxiv.org/abs/2610.21410) (arXiv:2610.21410, 15 October 2026). Cites this paper's Theorem 1.1 and Corollary 5.2 and, in Section 1.1, compares its two threshold rates with Jain's bound exp(−Ω(δ⁵n/(ε²L))), where ε = 1 − ω*(G) and L = max{1, log(|A||B|)}, obtained using conditional relative entropy and Song's sampler.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Scott Aaronson, *The Mathocalypse*](https://scottaaronson.blog/?p=10169) (Shtetl-Optimized, 2026-10-07). Aaronson, a co-author of the cubic conjecture this paper claims to disprove, lists the "Nearly 4th-power separation between randomized and quantum query complexity for total Boolean functions" as "a favorite problem of mine since 1998" that "finally closes that story", i.e. the exponent interval between three and four.
 
 ## Formalization

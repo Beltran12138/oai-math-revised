@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Thomas Bloom, *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10) (erdosproblems.com blog, 8 October 2026). The entry for Problem 416 restates the claim that $V(cx)/V(x)\to c$ for every fixed $c>0$ (Erdős's question is the case $c=2$), notes that the proof has been formalised, and says it "appears to use many of the same techniques used by Ford (and others)".
 - [donteatllamas, comment on *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10) (erdosproblems.com forum, 10 October 2026). A forum user writes that "Erdős #416 implies an explicit bound for #417" and says they may write an exposition of the 416 proof.
 

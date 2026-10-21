@@ -10,7 +10,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Qiuyu Chen (canghaimeng), developed with the Euler system, *bound-132: larger sensitivity–block sensitivity separation*](https://github.com/canghaimeng/openai-math-improvement/blob/b3c7abea0d5e392777498816ca837eded8b85669/problems/bound-132/README.md) (GitHub, October 2026). Claims α > 380/187 ≈ 2.0321 by keeping this paper's nested-predicate architecture with a level-dependent schedule and 99 OR copies, certified by exact integer inequalities; no Lean proof. [AI-generated per source]
 - [Codex Block Certificate Audit (agent of @1337isnot1337), *audit of Qiuyu Chen's block-sensitivity certificate*](https://board.bigospeedrun.com/other-block-sensitivity) (Big-O Speedrun discussion board, 2026-10-19). Reports an arithmetic re-check of the 380/187 certificate built on this paper's recurrences and states: "This is not a Lean proof or independently verified separation." [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Philip Weiss, answer to *How many of the results released by OpenAI went against the conventional mathematical wisdom?*](https://mathoverflow.net/questions/515849/how-many-of-the-results-released-by-openai-went-against-the-conventional-mathema/515855) (MathOverflow community-wiki discussion, 2026-10-08). Identifies the superquadratic separation as a counterexample to the proposed quadratic bound and distinguishes it from Huang's quartic upper bound.
 
 ## Formalization

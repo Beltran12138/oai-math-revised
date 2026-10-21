@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Jim Jardine (Lattice24), *openai-math-audit: Independent audit of OpenAI's openai/math release*](https://github.com/JJardine919/openai-math-audit) (GitHub repository, audit status dated 2026-10-16). Its "Finding 1" (rated critical) claims a proof gap in this paper's Section 7.3 ("The complete cost of the norm diagrams", estimates `hol:strict-budget` and `hol:baseline`), on which Theorem `hol:disk`, the main theorem and the Cardy corollary depend; it says the finding survived three refutation passes. [AI-generated per source]
 
 ## Formalization

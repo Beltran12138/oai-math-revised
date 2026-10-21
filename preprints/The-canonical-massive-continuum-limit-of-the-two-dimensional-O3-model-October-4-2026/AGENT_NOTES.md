@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Anton Ragin, *The massive continuum limit of the two-dimensional O(4) sigma model*](https://zenodo.org/records/23349319) (Zenodo, doi:10.5281/zenodo.23349319, v7, 2026-10-13). Constructs an O(4) continuum limit "conditionally on results of two recent unrefereed, AI-generated manuscripts released by OpenAI", naming the O(3) continuum limit as one of the two inputs and citing this manuscript. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Peter Hall and Joseph Howlett, *The most exciting claims from OpenAI's heap of new proofs*](https://www.scientificamerican.com/article/the-most-exciting-claims-from-openais-heap-of-new-proofs/) (Scientific American, 2026-10-08). Reports several release papers claiming to resolve the sigma-model analogue of the Yang-Mills mass-gap problem, quoting Michael Douglas and Roland Bauerschmidt (the first sigma-model paper "seems very reasonable", the second "horrible") without identifying the papers by title. [family-level]
 
 ## Formalization

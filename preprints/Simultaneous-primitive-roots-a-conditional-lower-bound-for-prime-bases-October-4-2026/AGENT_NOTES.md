@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Dean Cureton and Jesse Thorner, *A quasi-Riemann hypothesis for Dedekind zeta functions*](https://hexagonmath.org/abs/2610.00200v2) (hexagon:2610.00200v2, 2026-10-12). Extends the strategy of the primitive-root paper's analytic core to arbitrary number fields and claims nonvanishing for Re(s)>31/32, strengthening the zero-free input used by both papers in this family. [AI-generated per source] [family-level]
 - [Boyang Hu, *A seven-eighths zero-free half-plane for unitary Weil L-functions*](https://hexagonmath.org/abs/2610.00216v1) (hexagon:2610.00216v1, 2026-10-13). Builds on the primitive-root and quasi-Riemann manuscripts to claim nonvanishing for Re(s)>7/8 for unitary Hecke characters over arbitrary number fields and then unitary Weil representations, extending the analytic input shared by this family. [AI-generated per source] [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

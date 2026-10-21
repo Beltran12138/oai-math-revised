@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [P. M. Aronow and Patrick Lopatto, *Lower and Upper Bounds for Glauber Dynamics from Typical States of the Low-Temperature Sherrington–Kirkpatrick Model*](https://hexagonmath.org/abs/2610.00402v1) (hexagon:2610.00402v1, 2026-10-20). Cites this paper's Theorems 1.1–1.2 (variance prefactor $a_2(\beta)>0$ and limiting law), notes these would sharpen its mean-bias lower bound to $c_\beta n^{-5/6}$, and states that it does not use this paper. [AI-generated per source]
 - [P. M. Aronow and Patrick Lopatto, *An $N^{-7/10}$ Bound for the Finite-Size Bias of the Sherrington–Kirkpatrick Free Energy*](https://hexagonmath.org/abs/2610.00177v1) (hexagon:2610.00177v1, 2026-10-12). Section 1.6 derives conditional mean-bias bounds from both manuscripts of this family, including an $N^{-5/6}$ lower bound from the positive variance prefactor and an upper bound from this paper's uncentered comparison. [AI-generated per source] [cites earlier version] [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

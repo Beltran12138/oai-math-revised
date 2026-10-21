@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [J. Balogh, N. Layman, B. Lidický, F. Pfender, G. Salazar, S. Spiro, J. Volec, *Crossing numbers of complete bipartite graphs*](https://arxiv.org/abs/2610.25204) (arXiv:2610.25204, 18 Oct 2026). Uses flag algebras to obtain asymptotic lower bounds of 0.96936 times the Zarankiewicz value for balanced complete bipartite graphs (also treating the rectilinear version) and 0.9899 times the Hill value for complete graphs; its abstract notes that both conjectures "were claimed to be true in manuscripts by OpenAI dated Sep 23, 2026", and it cites both manuscripts while describing its results as preceding them. [family-level]
 - [A. Hubard, C. S. Ndiaye, O. Solé-Pi, *Crossing numbers of simplicial complexes*](https://arxiv.org/abs/2610.21017) (arXiv:2610.21017, 14 Oct 2026). A paper on higher-dimensional crossing numbers; a footnote says a solution to the Zarankiewicz and Hill conjectures was announced as the manuscript was about to be made public, without naming the source. [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

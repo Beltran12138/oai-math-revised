@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [John Evans, *Comment on Boltzmann nonuniqueness with exact local conservation*](https://www.linkedin.com/posts/johnaevans_github-openaimath-activity-7513546545980440576-SNmC) (LinkedIn, October 2026). In notes described as ChatGPT-assisted genealogy rather than an independent proof check, Evans compares the jet-and-seed construction and its later conservation refinement with instability methods and concentration/gluing strategies. [family-level]
 
 ## Formalization

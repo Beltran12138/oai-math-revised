@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Ricardo Pinho, *An explicit finite cylinder cover of the regular tetrahedron saving $3.86\times10^{-4}$ below the half-area bound*](https://hexagonmath.org/abs/2610.00304v2) (hexagon:2610.00304v2, v1 17 Oct 2026, v2 18 Oct 2026). Gives 4,096 triangular-base cylinders with normalized cost approximately 0.499613830783714 and exact rational certificates; it cites this paper among the four family preprints but builds mainly on the angular-sector construction of the companion paper. [AI-generated per source] [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

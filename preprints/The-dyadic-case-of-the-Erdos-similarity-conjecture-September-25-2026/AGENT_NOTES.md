@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Kan Jiang and Lifeng Xi, *The Erdős similarity problem for null sequences with adjacent ratios bounded below*](https://arxiv.org/abs/2610.11449) (arXiv:2610.11449, 8 October 2026). Builds compact sets of measure above $1-\eta$ in $[0,1]$ that avoid affine copies of positive null sequences with $\liminf a_{n+1}/a_n>0$ (without monotonicity, and simultaneously for prescribed countable families), adapting the finite-tree construction of the dyadic and geometric manuscripts, which it cites as unpublished manuscripts [17, 18]. [family-level]
 - [Harald Schilly, *Erdős similarity for distance sets: finite patterns, a pinned obstruction, and an open window*](https://github.com/haraldschilly/math-distance-set-similarity) (preprint and Lean repository, October 2026). This follow-up, prepared with substantial Claude assistance, derives pinned-distance obstructions from the avoidance results and reports replaying the dyadic Lean proof, while retaining general-ratio avoidance as an explicit hypothesis. [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

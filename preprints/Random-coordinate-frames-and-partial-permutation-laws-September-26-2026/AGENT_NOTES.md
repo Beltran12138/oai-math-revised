@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [public-observatory (GitHub), *thorp-shuffle-cutoff: an open research agenda on cutoff for the Thorp shuffle*](https://github.com/public-observatory/thorp-shuffle-cutoff) (GitHub repository, October 2026). A research agenda on cutoff for the Thorp shuffle that cites this paper's Corollary 11.4 ($512d$ shuffles) as the smallest explicit constant in the family; its [reading notes](https://github.com/public-observatory/thorp-shuffle-cutoff/blob/main/writeups/literature.md) (2026-10-11) say only the introduction, one discussion section and Corollary 11.4 were inspected. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

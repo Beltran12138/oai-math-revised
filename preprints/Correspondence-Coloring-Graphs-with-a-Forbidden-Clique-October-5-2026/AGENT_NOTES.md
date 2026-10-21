@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Kaizhe Chen, *A note on the logarithmic exponent of Ramsey number r(4,t)*](https://arxiv.org/abs/2610.15293) (arXiv:2610.15293, 11 October 2026). Cites this paper as proving the Alon–Krivelevich–Sudakov coloring conjecture, and says the coloring theorem lets the author avoid the log log t loss from Shearer's bound in deriving r(4,t) = t³/(log t)^(2+o(1)).
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Oliver Knill, *Positive entropy for Standard Map by Open AI*](https://www.quantumcalculus.org/positive-entropy-for-standard-map-by-open-ai/) (Quantum Calculus blog, 7 October 2026, updated 10 October 2026). Knill, who worked on this problem for over ten years, reports that the release covers positive entropy for large parameters, notes the problem remains open for smaller parameters, and calls the solution "just plain ugly" based on what he had seen so far.
 
 ## Formalization

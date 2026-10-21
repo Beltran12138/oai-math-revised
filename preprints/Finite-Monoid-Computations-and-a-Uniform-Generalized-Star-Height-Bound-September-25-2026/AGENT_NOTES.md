@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Elias Botsford, *Generalized Star Height One for Computations via Run Padding*](https://zenodo.org/records/23254500) (Zenodo preprint, doi:10.5281/zenodo.23254500, 2026-10-09). States that it is motivated by the release's claim that every regular language has generalized star height at most three and studies a complementary height-one phenomenon; it does not name this specific paper. [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Ivan Blinov (@littleBro), *heilbronn-triangle-bounds*](https://github.com/littleBro/heilbronn-triangle-bounds) (GitHub repository, conditional research draft). Calls itself a conditional extension of this manuscript (pinned at commit fd4aeeb), using extension degree d = 5 and a shifted sphere packing to state a conditional exponent η = 1/145,278,430, with selected parts formalized in Lean 4 (not the full Heilbronn theorem); it says it was made with "substantial OpenAI Codex assistance" and has no peer review. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

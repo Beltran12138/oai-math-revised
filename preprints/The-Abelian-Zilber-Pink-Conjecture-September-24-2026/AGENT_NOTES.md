@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Netan Dogra, Arnab Saha, *Arithmetic jet spaces and the unramified Zilber–Pink conjecture for subvarieties of abelian varieties*](https://arxiv.org/abs/2610.17325) (arXiv:2610.17325, 12 Oct 2026). Its introduction cites this preprint as an announced AI-generated proof of Zilber–Pink for subvarieties of abelian varieties over ℚ̄, noting that by Barroero–Dill this implies the general abelian case; the paper itself bounds degrees of Zilber–Pink points with bounded ramification at a fixed prime using delta geometry.
 - [Fabrizio Barroero, Gabriel A. Dill, Lars Kühne, *Intersecting a curve in an abelian variety with multiples of another curve*](https://arxiv.org/abs/2610.10212) (arXiv:2610.10212, 7 Oct 2026). This independently completed work on an abelian analogue of Levin's question notes that OpenAI released a preprint "claiming a proof of the Zilber-Pink conjecture" for abelian varieties over ℚ̄, which prompted the authors to post their manuscript; its results do not depend on it.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

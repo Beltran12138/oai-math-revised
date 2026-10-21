@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [P. M. Aronow, Patrick Lopatto, *Lower and Upper Bounds for Glauber Dynamics from Typical States of the Low-Temperature Sherrington–Kirkpatrick Model*](https://hexagonmath.org/abs/2610.00402v1) (hexagon:2610.00402v1, 20 Oct 2026). Follows this paper's proof structure and improves the typical-start upper bound from exp(n^{1−1/40000000}) to exp(n^{1−ω}) for every fixed ω in (0, 1/4), using a pathwise information–energy cancellation. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

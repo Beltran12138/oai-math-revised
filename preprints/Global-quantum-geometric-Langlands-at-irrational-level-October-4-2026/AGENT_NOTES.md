@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [OSVerify, *Global quantum geometric Langlands at irrational level*](https://osverify.github.io/cases/quantum-langlands.html) (Paper Referee report on the October 4, 2026 version; accessed 2026-10-21). The report, described by OSVerify as further verified by human experts, flags failure of continuity for Proposition 4.3's absolute pairing over non-quasi-compact parameters (with a counterexample at exponent zero), an unsupported global scalar identification in Proposition 6.1, and incorrect cross-references, while proposing repairs and explicitly not claiming to disprove the main theorem. [AI-generated per source]
 
 ## Formalization

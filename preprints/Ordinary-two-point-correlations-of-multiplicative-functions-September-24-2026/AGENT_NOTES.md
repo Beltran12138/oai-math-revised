@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Biao Wang and Shaoyun Yi, *Dynamical generalizations of the two-point Chowla conjecture*](https://arxiv.org/abs/2610.16394) (arXiv:2610.16394, 12 October 2026). Proves the two-point case of a Charamaras–Richter generalization concerning prime Omega functions along fixed nonproportional affine forms; it cites this manuscript as resolving the two-point case, and Section 3 adapts its progression-correlation argument, using several of its lemmas and Proposition 8.4.
 - [Jizhou Guo, *Rough numbers at a fixed distance with prescribed Liouville signs*](https://github.com/aster2024/openai-math-followups/blob/main/rough-pairs-fixed-distance/paper.pdf) (GitHub preprint, 10 October 2026). The author's repository describes an adaptation of family 007's graph operator that retains sieve density to obtain equidistribution of the four Liouville sign patterns on rough-number pairs at a fixed even distance. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [Jared Duker Lichtman, comments on two-point Chowla as reported by Post-Cutoff](https://postcutoff.com/p/2026-10-06-jdlichtman-zero-free-strip-hodge/) (account of an X thread, 6–7 October 2026). This AI-written secondary account attributes to Lichtman an assessment of the quantitative ordinary two-point result as especially significant while describing its methods as lying within existing approaches. [AI-generated per source]
 
 ## Formalization

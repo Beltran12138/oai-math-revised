@@ -3,10 +3,9 @@
 Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Follow-up works
-- [Kun Fang, *The classical capacity of generalized amplitude-damping channels and its strong-converse exponent*](https://arxiv.org/abs/2609.14621) (arXiv:2609.14621v2, 6 Oct 2026). Revised and retitled version of the converse-bound preprint cited by this paper as [Fang2026]; v2 independently states that the capacity of all generalized amplitude-damping channels equals the one-copy Holevo information and adds the exact strong-converse exponent. Its acknowledgments say OpenAI GPT-6 Astra was used to explore proof strategies; it does not cite the OpenAI release.
 - [Kenta Kitamura (GitHub: KitaKen1), *qubit-strong-additivity*](https://github.com/KitaKen1/qubit-strong-additivity) (GitHub repository, Lean v4.34.1, draft of 11 Oct 2026). Claims, with a Lean proof, strong Holevo additivity for every qubit-to-qubit channel with any finite-dimensional partner, which would include the Holevo part of this paper's partner-additivity corollary; it lists Fang (2026) and OpenAI (2026) as earlier results for generalized amplitude damping. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

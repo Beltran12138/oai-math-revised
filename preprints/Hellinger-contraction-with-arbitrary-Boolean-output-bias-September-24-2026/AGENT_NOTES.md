@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [V. K. Ky, *The Hellinger Conjecture for Antipodal Boolean Functions*](https://arxiv.org/abs/2610.10618) (arXiv:2610.10618, 7 Oct 2026). Gives a spectral proof of the balanced Hellinger inequality for antipodal (sign-reversing) Boolean functions and extends it to arbitrary independent binary-input channels; Section 1.2 cites OpenAI's family-119 entry as an announcement of the Hellinger inequality for arbitrary output bias, without verifying it.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

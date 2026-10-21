@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [琪越 唐 (Hexagon contributor), *A note on counterexamples to homological conjectures*](https://hexagonmath.org/abs/2610.00143v4) (hexagon:2610.00143, v1 2026-10-07, v4 2026-10-15). Extends the constructions of both family papers to any base field containing an element of infinite multiplicative order, and lists counterexamples to both Tachikawa conjectures, the Auslander–Reiten, Nakayama-type, Auslander–Gorenstein, finitistic-dimension and Wakamatsu tilting conjectures; the page marks the authorship as mixed human/AI and says "Human understanding: no parts". [AI-generated per source] [family-level]
 - [Kenta Kitamura, *tachikawa-characteristic-zero* (repository with the manuscript "A characteristic-zero Tachikawa counterexample")](https://github.com/KitaKen1/tachikawa-characteristic-zero) (GitHub, October 2026). Its README says it adapts this paper's characteristic-two example to a finite-dimensional symmetric Q-algebra with a nonprojective self-orthogonal module, with a Lean 4 proof; the README discloses ChatGPT/Codex assistance and lists independent review as outstanding. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - [René Marczinzik, *Homological conjectures and problems*](https://sites.google.com/view/rene-marczinzik/homological-conjectures-and-problems) (personal research page, updated 16 October 2026). Discussing the claimed Tachikawa counterexample and its homological consequences, Marczinzik calls for careful checking and proposes a weakly Gorenstein conjecture over fields whose nonzero elements all have finite multiplicative order, outside the fields used by these constructions. [family-level]
 
 ## Formalization

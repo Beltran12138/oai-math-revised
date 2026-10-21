@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Xiangsen Qin and Yuanhong Tian, *Chern Holomorphic Sectional Curvature: Canonical Ampleness, Rigidity, and Flatness Counterexamples*](https://arxiv.org/abs/2609.25762) (arXiv:2609.25762, v1 22 Sep 2026, v5 19 Oct 2026). Version 5 cites this paper as [OAI26] for the extremal-disc, boundary-frame and canonical-envelope constructions and adapts them to non-Kähler Brody-hyperbolic manifolds carrying a strictly positive current $T$ with $dT$ smooth and $dd^cT\le0$ (nefness of $K_X$, and ampleness under a Lelong-level-set dimension condition); the paper includes an AI-use disclosure.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

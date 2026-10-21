@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Cyril Houdayer, reaction in *100+ reactions to 100+ solutions*, Proofs and Prompts](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (post dated 8 Oct 2026; collection updated through 19 October). Houdayer says that "The proof announced by OpenAI builds on the methods developed in Amine's earlier work" and on a resonance mechanism found with Marrakchi, and that "OpenAI's result extends ours by establishing the relative version." [family-level]
 
 ## Formalization

@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Cârstea, Liimatainen, Lin, Trad, *The conformal Poisson embedding method for the anisotropic Calderón problem with a potential*](https://arxiv.org/html/2610.13592) (arXiv:2610.13592, 9 Oct 2026). Its relation-to-earlier-work section says a preprint in the OpenAI collection "announces smooth metric-only uniqueness from one boundary patch" and notes that these preprints use the Poisson embedding in part; it states: "The preprints mentioned above are not used in this paper, and our results do not follow from them." [family-level]
 
 ## Formalization

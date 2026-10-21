@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Arpan Sadhukhan, Sagnik Sen, *Locating a Seymour vertex in oriented graphs having minimum outdegree at most 7*](https://arxiv.org/abs/2606.30588) (arXiv:2606.30588v2, 13 Oct 2026). Revised version of the minimum-outdegree-7 preprint that this paper cites as v1, now under a new title and without computational assistance. Its introduction notes the OpenAI preprint "presenting a proof of Seymour's Second Neighborhood Conjecture" and calls its own result "a work in parallel".
 
-## Expert comments and discussion
+## Comments and discussion
 - [Anonymous research release, *Seymour's second neighbourhood conjecture at order 2δ+3: structure of counterexamples, a certified 18-vertex lower bound, and a refutation of DeVos's conjecture as recorded in Sullivan's survey*](https://evidencepress.org/releases/seymour-second-neighbourhood-2delta3/) (evidencepress.org, 24 Sep 2026; note added 7 Oct 2026). An unrefereed counterexample-structure study whose "External development" note says the release "includes a claimed proof of the full conjecture". It reports that a local build and a statement check of the Lean formalization passed, while a hardened Comparator run was not performed.
 
 ## Formalization

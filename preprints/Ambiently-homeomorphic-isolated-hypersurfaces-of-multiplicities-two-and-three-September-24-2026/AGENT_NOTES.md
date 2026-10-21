@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [GitHub user acprk, *R11: Zariski multiplicity counterexample, ambient dimension*](https://github.com/acprk/openai-math-remarks/tree/main/remarks/R11-zariski-multiplicity-dim) (GitHub repository openai-math-remarks, undated; literature search cutoff 2026-10-09). Feeds a shorter integer product relation, found by lattice reduction, into this paper's construction and reports ambient dimension N = 1,802,976 instead of about 4.6·10^143; it states that only the finite arithmetic was checked and that the topology and lattice theory were not re-proved. [AI-generated per source]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

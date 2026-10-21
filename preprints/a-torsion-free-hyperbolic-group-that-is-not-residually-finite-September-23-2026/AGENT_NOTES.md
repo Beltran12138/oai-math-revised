@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Seth Douglas and Nidhal Mghirbi, *Non-soficity of OpenAI's torsion-free hyperbolic group*](https://github.com/Apsiape/hyperbolic-group-not-sofic) (GitHub repository with note and Lean code, v1.1.0, Zenodo DOI 10.5281/zenodo.23374284, 2026). Adapts this paper's rank argument against finite quotients to approximate permutation models and claims that the same group is not sofic. The main Lean theorem, `Approx252.exists_torsionFree_wordHyperbolic_not_sofic`, imports the release's development, and the README says the sharper constants and the v1.1.0 additions are proved only on paper.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Henry Wilton, reaction in *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/comment-page-1/) (Proofs and Prompts, post dated 2026-10-08). Wilton names the non-residually-finite hyperbolic group among results of particular interest to him, while explicitly stating that he had not examined these proofs in detail.
 
 ## Formalization

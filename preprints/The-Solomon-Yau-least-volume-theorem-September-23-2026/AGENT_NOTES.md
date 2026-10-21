@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Jingwen Chen, *Allen–Cahn and mean curvature flows from Clifford hypersurfaces to equators*](https://arxiv.org/abs/2610.20453) (arXiv:2610.20453, 2026-10-14). Uses "OpenAI's resolution of the Solomon–Yau conjecture" (cited as [23], "for n≥3") to extend constructions of eternal Allen–Cahn and integral Brakke flows from least-area Clifford hypersurfaces to equatorial spheres to all dimensions n ≥ 2; it does not discuss verification of the proof.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

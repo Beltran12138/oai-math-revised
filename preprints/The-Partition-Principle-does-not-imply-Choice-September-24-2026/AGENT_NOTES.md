@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Frederico Cançado, *AC-zoo-results* (notes and reports on weak forms of choice)](https://github.com/frederico-cancado/AC-zoo-results) (GitHub repository, notes dated 7 October 2026 and later). Preliminary notes that take this paper's model construction as their "external source" and derive a finite-basis property for the injection order on cardinalities in that model; the author states they were prepared with substantial OpenAI Codex assistance and have not been externally reviewed.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Asaf Karagila, *OpenAI, the Partition Principle, and mathematics*](https://karagila.org/2026/openai-pp/) (blog post, 8 October 2026). After a brief look, a set theorist who has long worked on this problem criticizes the preprint's exposition, structure, terminology and references (including Lemmas 7.4 and 8.1) and calls it "unclear, muddled, and has a strange structure"; he does not assess whether the result is correct and reports no mathematical error.
 - [Asaf Karagila, *Why I don't trust Lean code from AI*](https://karagila.org/2026/lean/) (blog post, 10 October 2026). A follow-up post explaining why he does not intend to read or run the AI-generated Lean proof accompanying this paper, while accepting that formalising the statement itself is "easy enough to do right".
 - [Hacker News discussion of Karagila's post, *OpenAI, the Partition Principle, and Mathematics*](https://news.ycombinator.com/item?id=50013902) (Hacker News, 8 October 2026). A long thread that is mostly about AI in mathematics in general; a few comments discuss what the Lean proof attached to this result does and does not establish.

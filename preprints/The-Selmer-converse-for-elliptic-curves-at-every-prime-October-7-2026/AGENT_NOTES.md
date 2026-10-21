@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - None found.
 
-## Expert comments and discussion
+## Comments and discussion
 - [Ashay Burungale, *BSD and the p-converse* (guest post on Persiflage)](https://galoisrepresentations.org/2026/10/15/bsd-and-the-p-converse-guest-post-ashay-burungale/) (2026-10-15). Discusses this paper (cited as [OA1]) in detail against prior Iwasawa-theoretic p-converse results, covering its consequences for Goldfeld's and Sylvester's conjectures and its rank-one strategy via tame congruences and Heegner points; it says correctness is still under analysis. [family-level]
 - [L-function apprentice, comment on Burungale's guest post](https://galoisrepresentations.org/2026/10/15/bsd-and-the-p-converse-guest-post-ashay-burungale/#comment-28606) (2026-10-15). Reads this paper's argument as "more like a Skinner style argument" that avoids Iwasawa-theoretic difficulties; a related comment (#comment-28605) discusses the strict case and Heegner-point vanishing.
 - [AB, reply on Burungale's guest post](https://galoisrepresentations.org/2026/10/15/bsd-and-the-p-converse-guest-post-ashay-burungale/#comment-28619) (2026-10-16). Describes the strategy as "Skinner-like with vanishing understood in the tame parameter t."

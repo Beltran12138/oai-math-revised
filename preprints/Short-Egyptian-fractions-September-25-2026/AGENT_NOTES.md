@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Thomas F. Bloom and Wouter van Doorn, *Optimal bounds for the length and number of unit fraction representations*](https://hexagonmath.org/abs/2610.00407v1) (hexagon:2610.00407v1, 2026-10-20). A human-written exposition and simplification of this paper's proofs of $N(b)\ll\log\log b$, $\log\log F(k)\gg k$ and $\log\log v(k)\gg k$, deriving Theorem 1 from the more elementary prescribed-denominator argument and discussing improved constants in Section 5. The same note is also hosted at [erdosproblems.com](https://www.erdosproblems.com/static/UnitFractions.pdf).
 
-## Expert comments and discussion
+## Comments and discussion
 - [Thomas F. Bloom and Wouter van Doorn, Section 6 "Comparison to the AI-generated paper"](https://www.erdosproblems.com/static/UnitFractions.pdf) (hexagon:2610.00407v1, October 2026). Says the later elementary argument for $v(k)$ also gives Theorem 1, so "the technical arguments of Sections 3-5 (occupying 15 pages, out of 33 total) are entirely redundant"; it also criticizes the exposition and attribution of novelty, and the authors state they had not read Sections 3-5 in detail.
 - [Thomas Bloom, *Erdős Problem #304*](https://www.erdosproblems.com/304) (erdosproblems.com, last edited 2026-10-16). The problem page now refers to "the recent OpenAI proof that $N(b)\ll \log\log b$" and links the paper and the Bloom-van Doorn exposition.
 - [Thomas Bloom, *Erdős Problem #293*](https://www.erdosproblems.com/293) (erdosproblems.com, last edited 2026-10-16). Credits the paper with the proof that $\log\log v(k)\gg k$ (the paper's prescribed-denominator corollary), after van Doorn and Tang's $\log v(k)\gg k^2$.

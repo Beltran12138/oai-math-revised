@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Paolo Leonetti, *On the inverse Goldbach problem*](https://arxiv.org/abs/2610.15758) (arXiv:2610.15758, 11 Oct 2026). Proves upper and lower counting-function bounds for a hypothetical decomposition of the primes and a lower bound for ternary sumsets; its introduction cites this paper and says the claim "has not yet been verified by the math community."
 - [Christian Elsholtz and Julia Stadlmann, *The large sieve inequality and additive decompositions of sums of squares*](https://arxiv.org/abs/2610.20554) (arXiv:2610.20554, 14 Oct 2026). Proves a large-sieve estimate for sets that miss residue classes modulo prime squares, applies it to sums of two squares, and notes that OpenAI "claimed a full resolution of Ostmann's problem"; the authors state that their work predates the claim.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Qizhong Lin, Qiuyang Zhang, *The logarithmic exponent of the Ramsey number r(4,t)*](https://arxiv.org/abs/2610.17891) (arXiv:2610.17891, 13 Oct 2026). Proves $t^3/(\log t)^{2+\varepsilon}\le r(4,t)\le Ct^3/(\log t)^2$, taking the lower bound $r(5,t)\ge t^4/(\log t)^{3+\delta}$ from Theorem 1.1 of this paper as an explicitly stated "external input" combined with Shearer's 1995 independence estimate, and also giving a sharper transfer using Li–Rousseau–Zang.
 - [Kaizhe Chen, *A note on the logarithmic exponent of Ramsey number r(4,t)*](https://arxiv.org/abs/2610.15293) (arXiv:2610.15293, 11 Oct 2026). Informal note that cites this paper (s=5) and its companion (s≥6), and derives $r(4,t)=t^3/(\log t)^{2+o(1)}$ from them via a transfer principle from $r(s,t)$ to $r(s-1,t)$. [family-level]
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Hexagon deposit contributed by Scott Kominers, *Multi-coverings by lattice translates of convex bodies*](https://hexagonmath.org/abs/2610.00165v1) (hexagon:2610.00165v1, October 2026). Uses translates along a single lattice to prove multi-covering versions (mean multiplicity exactly a prescribed density of order at least $A_\varepsilon n\log n$, every point covered at least $(1-\varepsilon)$ times that density), extending this paper's horizontal–vertical construction; the source calls the work "heavily LLM-assisted", and Hexagon labels it as mixed human/AI authorship.
 
-## Expert comments and discussion
+## Comments and discussion
 - None found.
 
 ## Formalization

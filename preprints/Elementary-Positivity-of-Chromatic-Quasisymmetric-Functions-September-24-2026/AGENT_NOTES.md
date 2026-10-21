@@ -5,7 +5,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Follow-up works
 - [Per Alexandersson, Lilan Dai, *Flip classes and elementary expansions of vertical-strip LLT polynomials*](https://arxiv.org/abs/2610.26294) (arXiv:2610.26294, 19 Oct 2026). Proves elementary positivity of flip-class sums for vertical-strip LLT polynomials; its introduction cites this paper's Theorem 1.1 as having proved that the elementary coefficients of the chromatic quasisymmetric function of every natural unit-interval graph lie in ℕ[q].
 
-## Expert comments and discussion
+## Comments and discussion
 - [Joshua P. Swanson, *Status of the Stanley–Stembridge conjecture*](https://mathoverflow.net/questions/481860/status-of-the-stanley-stembridge-conjecture/482378) (MathOverflow answer, update 2026-10-07). Swanson discusses OpenAI's Shareshian–Wachs paper, describes its exposition as opaque, and says its approach appears independent of Hikita's proof and the Griffin–Mellit–Romero–Weigl–Wen proof.
 
 ## Formalization
