@@ -42,7 +42,7 @@ ROOT = HERE.parents[1]
 sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(ROOT / "site"))
 from catalog import load  # noqa: E402
-from check import problems_in  # noqa: E402
+from check import normalize, problems_in  # noqa: E402
 from make_prompt import make_prompt  # noqa: E402
 
 CLAUDE_MODEL, CLAUDE_NAME = "claude-opus-5-5", "Claude Opus 5.5"
@@ -108,11 +108,22 @@ def snapshot(job: Path, fam, folders: list[str]) -> Path:
     return repo
 
 
+def recover_from_log(logfile: Path, out: Path, folders: list[str]) -> None:
+    """Agents may print files between '=== FILE <folder> ===' and '=== END ===' instead of writing them."""
+    text = logfile.read_text(errors="ignore") if logfile.exists() else ""
+    for folder, body in re.findall(r"^=== FILE (\S+) ===\n(.*?)^=== END ===", text, flags=re.M | re.S):
+        if folder in folders and not (out / folder / "AGENT_NOTES.md").is_file():
+            (out / folder).mkdir(parents=True, exist_ok=True)
+            (out / folder / "AGENT_NOTES.md").write_text(body.strip("\n").strip("`").strip() + "\n", encoding="utf-8")
+
+
 def publish(src: Path, dst: Path, folders: list[str]) -> list[str]:
     """Validate the files in src and copy them to dst; return problems (nothing is copied if any)."""
     problems = []
     for f in folders:
         p = src / f / "AGENT_NOTES.md"
+        if p.is_file():
+            p.write_text(normalize(p.read_text(encoding="utf-8")), encoding="utf-8")
         problems += [f"{f}: missing"] if not p.is_file() else [f"{f}: {m}" for m in problems_in(p)]
     if not problems:
         for f in folders:
@@ -143,6 +154,7 @@ def research(engine: str, fam, work: Path, cands: dict) -> bool:
                "-c", 'web_search="live"', "--sandbox", "workspace-write", "-C", str(job),
                "--skip-git-repo-check", "-"]
     code = run(cmd, job, logfile, prompt)
+    recover_from_log(logfile, out, fam.papers)
     problems = publish(out, work / engine, fam.papers) if code == 0 else [f"exit {code}"]
     if not problems and DENIED_RE.search(logfile.read_text(errors="ignore")):
         # A run without web access still produces well-formed (but empty) notes; treat as systemic failure.
@@ -192,6 +204,7 @@ def merge(fam, work: Path) -> bool:
     logfile = work / "logs" / f"merge-{fam.num}.log"
     t = time.time()
     code = run(cmd, job, logfile, text)
+    recover_from_log(logfile, out, fam.papers)
     problems = publish(out, work / "merged", fam.papers) if code == 0 else [f"exit {code}"]
     ok = not problems
     log(work, f"merge {fam.num}: {'ok' if ok else 'FAILED: ' + '; '.join(problems)[:300]} ({time.time() - t:.0f}s)")

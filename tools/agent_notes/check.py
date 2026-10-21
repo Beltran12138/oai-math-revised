@@ -55,6 +55,18 @@ def problems_in(path: Path) -> list[str]:
     return out
 
 
+def normalize(text: str) -> str:
+    """Drop list lines without a link (agents sometimes explain an absence in prose);
+    a section left without items becomes '- None found.'."""
+    head, *blocks = re.split(r"^(?=## )", text, flags=re.M)
+    out = [head]
+    for block in blocks:
+        title, _, body = block.partition("\n")
+        items = [l for l in body.splitlines() if l.startswith("- ") and LINK.search(l)]
+        out.append(f"{title}\n" + ("\n".join(items) if items else "- None found.") + "\n\n")
+    return "".join(out).rstrip("\n") + "\n"
+
+
 def status(url: str) -> int | str:
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (link check; github.com/mathcommunity/oai-math-revised)"})
     try:
