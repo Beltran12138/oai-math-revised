@@ -50,6 +50,7 @@ CODEX_MODEL, CODEX_NAME = "gpt-6-astra", "GPT-6 Astra"
 TIMEOUT = 45 * 60
 LIMIT_RE = re.compile(r"(?i)usage limit|rate.?limit|limit (?:reached|exceeded)|quota|too many requests|\b429\b|credit balance")
 MAX_CONSECUTIVE_FAILURES = 4
+DENIED_RE = re.compile(r"(?i)\b(?:was|were|been|is|are) denied\b|permission denied|denied permission|without (?:web|internet) access")
 
 lock = threading.Lock()
 stopped: dict[str, str] = {}  # engine -> reason; "claude" also stops merges
@@ -135,13 +136,17 @@ def research(engine: str, fam, work: Path, cands: dict) -> bool:
     t = time.time()
     if engine == "claude":
         cmd = ["claude", "-p", "--model", CLAUDE_MODEL, "--restricted", "--no-session-persistence",
-               "--tools", "Read,Glob,Grep,Write,WebSearch,WebFetch", "--permission-mode", "acceptEdits"]
+               "--tools", "Read,Glob,Grep,Write,WebSearch,WebFetch",
+               "--allowedTools", "Read,Glob,Grep,Write,WebSearch,WebFetch", "--permission-mode", "acceptEdits"]
     else:
         cmd = ["codex", "exec", "--model", CODEX_MODEL, "-c", "model_reasoning_effort=high",
                "-c", 'web_search="live"', "--sandbox", "workspace-write", "-C", str(job),
                "--skip-git-repo-check", "-"]
     code = run(cmd, job, logfile, prompt)
     problems = publish(out, work / engine, fam.papers) if code == 0 else [f"exit {code}"]
+    if not problems and DENIED_RE.search(logfile.read_text(errors="ignore")):
+        # A run without web access still produces well-formed (but empty) notes; treat as systemic failure.
+        problems = ["reply mentions denied access (see log); counted as a failure"]
     ok = not problems
     log(work, f"{engine} {fam.num}: {'ok' if ok else 'FAILED: ' + '; '.join(problems)[:300]} ({time.time() - t:.0f}s)")
     if ok:
