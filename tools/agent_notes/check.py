@@ -24,10 +24,10 @@ SECTIONS = [
     "Digests and expositions",
     "News and blogs",
 ]
-HEADER = re.compile(r"\A# Automatically collected context\n\nCollected by an AI agent \([^)]+\) on \d{4}-\d{2}-\d{2}\.\n")
+HEADER = re.compile(r"\A# Automatically collected context\n\nCollected by an AI agent \(.+\) on \d{4}-\d{2}-\d{2}\.\n")
 LINK = re.compile(r"\]\((https?://[^)\s]+)\)")
 # Sites that refuse automated requests but are fine in a browser.
-NO_CHECK = ("x.com", "twitter.com", "science.org", "sciencedirect.com", "jstor.org", "wiley.com")
+NO_CHECK = ("x.com", "twitter.com", "science.org", "sciencedirect.com", "jstor.org", "wiley.com", "forbes.com")
 
 
 def problems_in(path: Path) -> list[str]:

@@ -10,7 +10,7 @@ For each folder, read `README.md`, the abstract and introduction of the TeX in `
 
 ## Candidates already found automatically
 
-These links point to the papers from structured sources (VibeMathed, whataifound, Hexagon, Palomar, formal-conjectures). Use them as leads: open each, and include it only if it fits a section below. Do not list a bare catalogue or registry page as an item; use what it contains (for example an expert comment it quotes, with the original link if it opens).
+These links point to the papers from structured sources (VibeMathed, whataifound, Hexagon, Palomar, formal-conjectures). Use them as leads: open each, and include it only if it fits a section below. Do not list a bare catalogue or registry page as an item; use what it contains (for example an expert comment it quotes, with the original link if it opens). VibeMathed and whataifound entries are already linked from the website and their notes are AI-assisted: do not list them as expert comments or digests.
 
 {CANDIDATES}
 

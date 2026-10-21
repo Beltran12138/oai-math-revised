@@ -17,7 +17,7 @@ sys.path.insert(0, str(ROOT / "site"))
 from catalog import load  # noqa: E402
 
 
-def make_prompt(family: str, candidates: dict, out: str, model: str) -> str:
+def make_prompt(family: str, candidates: dict, out: str, model: str, repo: Path = ROOT) -> str:
     _, families, papers = load(ROOT)
     fam = families[family]
     folders = "\n".join(f"- `{s}`: {papers[s].title}" for s in fam.papers)
@@ -32,7 +32,7 @@ def make_prompt(family: str, candidates: dict, out: str, model: str) -> str:
                 cands.append(f"- for `{row['paper']}`: {row['source']}: [{row['title']}]({row['url']})")
     text = (Path(__file__).parent / "PROMPT.md").read_text(encoding="utf-8")
     for key, value in {
-        "FAMILY": family, "FAMILY_TITLE": fam.title, "REPO": str(ROOT), "FOLDERS": folders,
+        "FAMILY": family, "FAMILY_TITLE": fam.title, "REPO": str(repo), "FOLDERS": folders,
         "CANDIDATES": "\n".join(cands) or "- None.", "OUT": out, "MODEL": model,
         "DATE": datetime.date.today().isoformat(),
     }.items():
