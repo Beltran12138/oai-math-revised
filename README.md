@@ -2,6 +2,8 @@
 
 OpenAI's math write-ups can be difficult to understand and can have incomplete citations. This repo seeks to be an inclusive effort to improve these write-ups, and the broader math community--students, postdocs, professors, and enthusiasts--is invited to participate.
 
+**Use [this website](https://mathcommunity.github.io/oai-math-revised/) to browse the repo more easily.**
+
 Three ways you can contribute:
 1. Submit pull requests that augment lit reviews/cite related results where appropriate, improve exposition, and identify (and fix, if possible) any errors. The workflow is as follows.
     1. [Fork](https://docs.github.com/en/pull-requests/how-tos/work-with-forks/fork-a-repo) this repo.
