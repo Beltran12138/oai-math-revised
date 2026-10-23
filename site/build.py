@@ -431,7 +431,7 @@ def build(out: Path, pdf_mode: str) -> None:
             "interest": issue_url("interest", current, plain(target.title)),
             "discuss": discussion_new_url(current, plain(target.title)),
             "discussions": f"{GITHUB}/discussions/categories/{DISCUSSION_CATEGORY}?"
-                           + urlencode({"discussions_q": current}, quote_via=quote),
+                           + urlencode({"discussions_q": " OR ".join([current] + earlier[current])}, quote_via=quote),
             "notes_edit": notes_edit_url(current, target.notes_md is not None),
             "issues": issues_search_url([current] + earlier[current]),
             "source": f"{GITHUB}/tree/{BRANCH}/preprints/{slug}",
