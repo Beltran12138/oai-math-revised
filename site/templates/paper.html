@@ -27,7 +27,8 @@
   <a class="btn" href="{{ links.reference }}">Add a reference or comment</a>
   <a class="btn" href="{{ links.interest }}">Interested in working on this</a>
   {% if live.discussion %}<a class="btn" href="{{ live.discussion.url }}">Discussion ({{ live.discussion.comments }} {{ "reply" if live.discussion.comments == 1 else "replies" }})</a>
-  {% else %}<a class="btn" href="{{ links.discuss }}">Start a discussion</a>{% endif %}
+  {% elif live_ok %}<a class="btn" href="{{ links.discuss }}">Start a discussion</a>
+  {% else %}<a class="btn" href="{{ links.discussions }}">Discussion</a>{% endif %}
 </p>
 <p class="secondary"><a href="{{ links.notes_edit }}">Edit NOTES.md</a> · <a href="{{ links.issues }}">Existing issues{% if live.open_issues %} ({{ live.open_issues }} open){% endif %}</a> · <a href="{{ links.source }}">Source on GitHub</a></p>
 

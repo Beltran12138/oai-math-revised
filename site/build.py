@@ -257,15 +257,20 @@ def _gh(url: str, token: str, data: dict | None = None):
 
 def _paper_field(body: str | None) -> str:
     """The "Paper" field of an issue or discussion form."""
-    m = re.search(r"^### Paper\s*\n+\s*(\S+)", body or "", flags=re.M)
-    return m.group(1).strip() if m else ""
+    lines = (body or "").splitlines()
+    for i, line in enumerate(lines):
+        if line.strip() == "### Paper":
+            value = next((l.strip() for l in lines[i + 1:] if l.strip()), "")
+            return "" if not value or value.startswith("#") else value.split()[0]
+    return ""
 
 
-def fetch_live(slugs: set[str]) -> dict[str, dict]:
+def fetch_live(slugs: set[str]) -> dict[str, dict] | None:
+    """{slug: {"open_issues": n, "discussion": {...}}}, or None if GitHub could not be asked."""
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
     if not token:
         print("no GITHUB_TOKEN: skipping issue and discussion data")
-        return {}
+        return None
     owner, name = REPO.split("/")
     live: dict[str, dict] = {}
     try:
@@ -299,13 +304,13 @@ def fetch_live(slugs: set[str]) -> dict[str, dict]:
                 if d["category"]["slug"] == DISCUSSION_CATEGORY and slug in slugs:
                     # The oldest discussion of a paper is the one the site links to.
                     live.setdefault(slug, {}).setdefault("discussion", {
-                        "url": d["url"], "comments": d["comments"]["totalCount"]})
+                        "url": d["url"], "comments": d["comments"]["totalCount"], "created": d["createdAt"]})
             if not page["pageInfo"]["hasNextPage"]:
                 break
             after = page["pageInfo"]["endCursor"]
     except Exception as e:  # never fail the deployment over this
         print(f"warning: could not fetch issues/discussions from GitHub: {e}")
-        return {}
+        return None
     print(f"live data: {sum('open_issues' in v for v in live.values())} papers with open issues, "
           f"{sum('discussion' in v for v in live.values())} with discussions")
     return live
@@ -362,6 +367,16 @@ def build(out: Path, pdf_mode: str) -> None:
 
     earlier = {slug: chain_older(slug) for slug in papers}
 
+    # Issues and discussions about any edition belong to the current one.
+    fetched = fetch_live(set(papers))
+    live: dict[str, dict] = {}
+    for slug, v in (fetched or {}).items():
+        cur = live.setdefault(newest(slug), {})
+        if "open_issues" in v:
+            cur["open_issues"] = cur.get("open_issues", 0) + v["open_issues"]
+        if "discussion" in v and ("discussion" not in cur or v["discussion"]["created"] < cur["discussion"]["created"]):
+            cur["discussion"] = v["discussion"]
+
     # Links to other sites, curated in site/data/external_links.csv.
     elsewhere: dict[str, list[dict]] = {}
     with open(SITE_SRC / "data" / "external_links.csv", encoding="utf-8") as f:
@@ -374,7 +389,6 @@ def build(out: Path, pdf_mode: str) -> None:
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(env.get_template(template).render(**ctx), encoding="utf-8")
 
-    live = fetch_live(set(papers))
     activity = activity_entries(papers)
     for slug, p in papers.items():
         for line in p.contribution_problems:
@@ -405,6 +419,8 @@ def build(out: Path, pdf_mode: str) -> None:
             "reference": issue_url("reference", current, plain(target.title)),
             "interest": issue_url("interest", current, plain(target.title)),
             "discuss": discussion_new_url(current, plain(target.title)),
+            "discussions": f"{GITHUB}/discussions/categories/{DISCUSSION_CATEGORY}?"
+                           + urlencode({"discussions_q": current}, quote_via=quote),
             "notes_edit": notes_edit_url(current, target.notes_md is not None),
             "issues": issues_search_url(current),
             "source": f"{GITHUB}/tree/{BRANCH}/preprints/{slug}",
@@ -417,7 +433,7 @@ def build(out: Path, pdf_mode: str) -> None:
               version_note=version_note, other_readme=other_readme,
               original_date=_date_from_slug(slug), agent=split_agent_notes(p.agent_notes_md),
               elsewhere=elsewhere.get(slug, []),
-              live=live.get(current, {}),
+              live=live.get(current, {}), live_ok=fetched is not None,
               contributions=sorted(p.contributions, key=lambda c: (c.date, c.order), reverse=True))
         if p.pdf and pdf_mode != "none":
             src, dst = ROOT / "preprints" / slug / p.pdf, out / "papers" / slug / p.pdf
@@ -434,7 +450,7 @@ def build(out: Path, pdf_mode: str) -> None:
                 p.abstract, fam.summary if fam else "", p.notes_md or "", p.discipline or "")),
             "d": p.discipline or "",
             "st": p.status,
-            "n": int(p.has_notes or p.community_revised or bool(live.get(slug))),
+            "n": int(p.has_notes or p.community_revised or bool(live.get(current))),
             "a": agent_sections(p.agent_notes_md),
             "l": int(bool(fam and fam.lean_doc)),
         })
