@@ -304,6 +304,7 @@ def fetch_live(slugs: set[str], titles: dict[str, str] | None = None) -> dict[st
                 slug = _paper_field(d.get("body"))
                 if slug not in slugs:  # Paper field missing or wrong: try the title
                     slug = (titles or {}).get(re.sub(r"^\[discussion\]\s*", "", d.get("title") or "").strip().lower(), "")
+                # Replies to the first 100 comments only; enough for a button label.
                 comments = d["comments"]["totalCount"] + sum(c["replies"]["totalCount"] for c in d["comments"]["nodes"])
                 if d["category"]["slug"] == DISCUSSION_CATEGORY and slug in slugs:
                     # The oldest discussion of a paper is the one the site links to.
@@ -320,8 +321,10 @@ def fetch_live(slugs: set[str], titles: dict[str, str] | None = None) -> dict[st
     return live
 
 
-def issues_search_url(slug: str) -> str:
-    return f"{GITHUB}/issues?{urlencode({'q': f'is:issue \"{slug}\"'}, quote_via=quote)}"
+def issues_search_url(slugs: list[str]) -> str:
+    """Issues mentioning any of these folder names (a paper's current and earlier editions)."""
+    terms = " OR ".join(f'"{s}"' for s in slugs)
+    return f"{GITHUB}/issues?{urlencode({'q': f'is:issue ({terms})' if len(slugs) > 1 else f'is:issue {terms}'}, quote_via=quote)}"
 
 
 # --- build ------------------------------------------------------------------
@@ -430,7 +433,7 @@ def build(out: Path, pdf_mode: str) -> None:
             "discussions": f"{GITHUB}/discussions/categories/{DISCUSSION_CATEGORY}?"
                            + urlencode({"discussions_q": current}, quote_via=quote),
             "notes_edit": notes_edit_url(current, target.notes_md is not None),
-            "issues": issues_search_url(current),
+            "issues": issues_search_url([current] + earlier[current]),
             "source": f"{GITHUB}/tree/{BRANCH}/preprints/{slug}",
             "upstream": f"{UPSTREAM}/tree/main/preprints/{slug}",
             "upstream_pdf": f"{UPSTREAM}/blob/main/preprints/{slug}/{p.pdf}",
