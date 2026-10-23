@@ -1,9 +1,10 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Thomas F. Bloom and Wouter van Doorn, *Optimal bounds for the length and number of unit fraction representations*](https://hexagonmath.org/abs/2610.00407v1) (hexagon:2610.00407v1, 2026-10-20). A human-written exposition and simplification of this paper's proofs of $N(b)\ll\log\log b$, $\log\log F(k)\gg k$ and $\log\log v(k)\gg k$, deriving Theorem 1 from the more elementary prescribed-denominator argument and discussing improved constants in Section 5. The same note is also hosted at [erdosproblems.com](https://www.erdosproblems.com/static/UnitFractions.pdf).
+- [Thomas Bloom (@thomasfbloom), post on X](https://x.com/thomasfbloom/status/2110500887026151887) (2026-10-14). A 12-post thread announcing the Bloom-van Doorn exposition, which describes the proof of the $O(\log\log b)$ bound as "short and elementary", combining sum-product theory and the weak Goldbach problem, and notes that the AI paper proved the bound twice, first in a long way and then "in a much shorter and simpler way".
 
 ## Comments and discussion
 - [Thomas F. Bloom and Wouter van Doorn, Section 6 "Comparison to the AI-generated paper"](https://www.erdosproblems.com/static/UnitFractions.pdf) (hexagon:2610.00407v1, October 2026). Says the later elementary argument for $v(k)$ also gives Theorem 1, so "the technical arguments of Sections 3-5 (occupying 15 pages, out of 33 total) are entirely redundant"; it also criticizes the exposition and attribution of novelty, and the authors state they had not read Sections 3-5 in detail.
@@ -19,7 +20,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Related prior literature mentioned by others
 - [Wouter van Doorn (with ChatGPT), *Practical numbers and Egyptian fractions*](https://github.com/Woett/ChatGPT-s-note-on-Erdos18) (GitHub, uploaded 2026-09-16). An earlier, mostly AI-written note with Lean formalization proving $N(b)\le 2c_0(\log\log b)^2$ and $v(k)\ge\exp(\exp(\sqrt{k/(2c_0)}))$, with $c_0=14/\log 2$, via practical numbers; Bloom-van Doorn cite it as the previous best bound. [AI-generated per source]
 - [Ernest S. Croot III, *On a coloring conjecture about unit fractions*](https://arxiv.org/abs/math/0311421) (Ann. of Math. 157 (2003), 545-556). Bloom-van Doorn say the Fourier method in the paper's proof of Theorem 1 is closely related to Croot's work; the paper cites Croot's 1999 Mathematika paper but not this one.
-- [M. N. Bleicher and P. Erdős, *Denominators of Egyptian fractions*](https://emis.dsd.sztaki.hu/classics/Erdos/cit/32810010.htm) (J. Number Theory 8 (1976), 157-168; zbMATH review). Bloom-van Doorn note that Erdős and Graham said the bound $v(k)\gg k!$ should follow from this work.
+- [M. N. Bleicher and P. Erdős, *Denominators of Egyptian fractions*](https://doi.org/10.1016/0022-314X%2876%2990098-6) (J. Number Theory 8 (1976), 157-168). Bloom-van Doorn note that Erdős and Graham said the bound $v(k)\gg k!$ should follow from this work.
 - [K. Soundararajan, *Approximating 1 from below using n Egyptian fractions*](https://arxiv.org/abs/math/0502247) (arXiv:math/0502247, 2005-02-11). Cited by Bloom-van Doorn in Appendix A for the classical approximation bound used to obtain the complementary bounds for the three results.
 - [Thomas F. Bloom and Christian Elsholtz, *Egyptian fractions*](https://arxiv.org/abs/2210.04496) (arXiv:2210.04496; Nieuw Arch. Wiskd. 2022). A survey of open problems and recent progress on unit fractions, cited by Bloom-van Doorn for background.
 

@@ -1,15 +1,17 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Ariel Elboim, *The Unique Games Theorem: A Short Self-Contained Proof*](https://zenodo.org/records/23265572) (Zenodo, doi:10.5281/zenodo.23265572, version 1.0, 2026-10-09). An 11-page reconstruction of this paper's proof that takes Håstad's parity gap, the Khot–Minzer–Safra Grassmann expansion theorem and Dinur–Steurer repetition as inputs and simplifies the noise gadget, certificate extraction and decoding; it states no human expert has reviewed it. [AI-generated per source]
+- [Ariel Elboim (@arielb42), post on X](https://x.com/arielb42/status/2108594348090642527) (2026-10-09). Thread announcing an 11-page self-contained version of the 58-page proof whose only cited inputs are Håstad's 3-LIN theorem, Khot–Minzer–Safra Grassmann expansion and Dinur–Steurer repetition.
 
 ## Comments and discussion
 - [Scott Aaronson, *The Mathocalypse*](https://scottaaronson.blog/?p=10169) (Shtetl-Optimized, 2026-10-07). Relays Dana Moshkovitz's first reading of the release; her quoted messages note that it also contains "direct optimal NP hardness of approximation proofs" for the main applications of the UGC, bypassing the UGC. [family-level]
 - [Dana Moshkovitz (relayed by Scott Aaronson), comment #2 on *The Mathocalypse*](https://scottaaronson.blog/?p=10169#comment-2041062) (Shtetl-Optimized, 2026-10-07). States the UGC "is true, though it wasn't really needed for the proof of its most famous corollaries", describes the proof's new tree-based recursive code with a noise test and the difficulty of reading it, and wonders whether a half-space code could also work.
 - [Scott Aaronson, comment #94 on *The Mathocalypse*](https://scottaaronson.blog/?p=10169#comment-2041191) (Shtetl-Optimized, 2026-10-08). Reports that Moshkovitz "now _mostly_ understands the proof of the UGC", is struck by its new ideas and intends to give talks about them.
 - [Comment thread, *102. The Unique Games Conjecture and optimal approximation thresholds*](https://github.com/mahrud/openai-math-comments/pull/102) (mahrud/openai-math-comments PR #102, opened 2026-10-09). Thread for human commentary on the five manuscripts; so far its only human comment points to the Fei–Minzer–Wang 4-to-1 games preprint and the Quanta article. [family-level]
+- [Sasho Nikolov (@thesasho), post on X](https://x.com/thesasho/status/2109281180659163372) (2026-10-11). Describes the UGC proof as an extension of the Khot–Minzer–Safra line of work on the 2-to-1 games conjecture that "very much follows an existing program".
 
 ## Formalization
 - [OpenAI, *Lean scope notes for family 102*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/102.md) (release Lean docs, lean/docs/102.md). States the formalized Unique Games gap reduction (binary 3SAT to unweighted simple bipartite fixed-alphabet translation games over F_2^s) and links the comparator statement UniqueGamesTheorem.lean. [family-level]
@@ -29,6 +31,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Readable Intelligence, *The Unique Games Theorem (readable version)*](https://readable-intelligence.com/paper/0122896e49cb?view=readable) (readable-intelligence.com). Rewritten version of this paper with a proof overview; the site states its proofs have not been independently checked. [AI-generated per source]
 - [Latent Seminar, *Unique Games and optimal approximation thresholds*](https://lowrank.github.io/latent-seminar/OpenAI-Math/102-unique-games-approximation) (2026-10-07). Explains the nonlinear-noise construction and distinguishes it from the four direct companion reductions, without claiming independent verification. [family-level]
 - [Lance Fortnow (prepared with Claude), *Mathematicians React to OpenAI's October 6, 2026 Math Release*](https://github.com/fortnow/AI-Papers/blob/main/mathematician-reactions-oct6-release.pdf) (fortnow/AI-Papers, 2026-10-18). Review of reactions to the release; its Unique Games material summarizes Aaronson's post and Moshkovitz's reading. [AI-generated per source]
+- [Lance Fortnow (@fortnow), post on X](https://x.com/fortnow/status/2108343978114351486) (2026-10-08). Announces a new version of the Unique Games paper written by Claude, on the grounds that Claude "does a better job writing up mathematics".
 
 ## News and blogs
 - [Ben Brubaker, *As AI Closed In on 'Unique Games' Proof, Researchers Raced to Beat the Machines*](https://quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007) (Quanta Magazine, 2026-10-07). Reports the claimed proof and the concurrent Fei–Minzer–Wang result, with comments from Ryan O'Donnell, Mark Braverman and Dor Minzer.

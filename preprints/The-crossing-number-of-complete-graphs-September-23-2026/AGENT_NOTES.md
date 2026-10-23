@@ -1,13 +1,13 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [J. Balogh, N. Layman, B. Lidický, F. Pfender, G. Salazar, S. Spiro, J. Volec, *Crossing numbers of complete bipartite graphs*](https://arxiv.org/abs/2610.25204) (arXiv:2610.25204, 18 Oct 2026). Uses flag algebras to obtain asymptotic lower bounds of 0.9899 times the Hill value for complete graphs and 0.96936 times the Zarankiewicz value for balanced complete bipartite graphs; its abstract notes that both conjectures "were claimed to be true in manuscripts by OpenAI dated Sep 23, 2026", and it cites both manuscripts while describing its results as preceding them. [family-level]
 - [A. Hubard, C. S. Ndiaye, O. Solé-Pi, *Crossing numbers of simplicial complexes*](https://arxiv.org/abs/2610.21017) (arXiv:2610.21017, 14 Oct 2026). Studies a higher-dimensional generalized Harary–Hill conjecture and gives a proof of Harary–Hill for antipodal drawings; a footnote says a solution to the Zarankiewicz and Hill conjectures was announced as the manuscript was about to be made public, without naming the source. [family-level]
 
 ## Comments and discussion
-- None found.
+- [Ruy Fabila-Monroy (@ruyfabila), post on X](https://x.com/ruyfabila/status/2109712691702952345) (12 Oct 2026). After reading the proof of the Harary–Hill conjecture, the post reflects on what it means for human researchers: "They didn't take anything from us; we were never going to solve it. All they took was the hope that we might."
 
 ## Formalization
 - [OpenAI math release, *Lean scope note for family 165* (mirrored on mathcommunity/oai-math-revised)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/165.md) (release, 6 Oct 2026). The release's Lean scope note states that the formalization proves cr(K_n) = Z(n) for n ≥ 3 with a matching two-page drawing, crossings counted as points, and links the comparator statements `CompleteCrossing.lean` and `BipartiteCrossing.lean`. [family-level]

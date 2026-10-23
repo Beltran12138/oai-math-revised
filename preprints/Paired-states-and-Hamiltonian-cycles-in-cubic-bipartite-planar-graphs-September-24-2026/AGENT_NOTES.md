@@ -1,17 +1,21 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - None found.
 
 ## Comments and discussion
+- [Mohamed Sabba (@ma_sabba), post on X](https://x.com/ma_sabba/status/2108263808011555123) (2026-10-08). Replying to the physics-flavoured description of the proof, points to "a deep connection between a quantum control problem involving sums of complex exponentials (composite pulse design) and Hamiltonian cycles"; a [follow-up post](https://x.com/ma_sabba/status/2108282706484199747) says Astra claims this analogy for the proof's key insight and that the author can attest only to the composite-pulse side.
 - [Gil Kalai, *Updates: Sharing AI progress on mathematics (amazing!); and my lecture plans*](https://gilkalai.wordpress.com/2026/10/07/updates-sharing-ai-progress-on-mathematics-amazing-and-my-lecture-plans/) (Combinatorics and more, 2026-10-07). Lists the manuscript among the release's results, saying it "announces a proof of this conjecture," and links his earlier blog discussion of Barnette's conjecture; no technical assessment is given.
 - [jboggan, Hacker News](https://news.ycombinator.com/item?id=49987367) (2026-10-07). A commenter who reports working on the conjecture since 2002 notes that the paper is problem 180, that it resembles an approach they had abandoned, and that they are reading it.
 - [Jake Boggan (jboggan), Hacker News](https://news.ycombinator.com/item?id=49987920) (2026-10-07). The same commenter describes the proof as explicitly selecting the edges not in the Hamiltonian cycle, with a key step that "involves a complex valued exponential sum on the edges," while saying they are still digesting it.
 - [jboggan, Hacker News](https://news.ycombinator.com/item?id=49988192) (2026-10-07). Calls the paper "a fairly short paper and quite tractable," names the disk lemma and the cancellation calculations as the main parts, and says their earlier test suite agrees with the new algorithm.
 - [jboggan, Hacker News](https://news.ycombinator.com/item?id=49988526) (2026-10-07). Reports having an AI implement the paper's constructive procedure and run it against the commenter's existing test suite of graphs, with results that looked good.
 - [prideout, Hacker News](https://news.ycombinator.com/item?id=49985321) (2026-10-06). A commenter who had tried the conjecture with AI models calls the proof "approachable at first glance"; a reply in the same thread asks whether anyone has validated it.
+- [Jake Boggan (@jakeboggan), post on X](https://x.com/jakeboggan/status/2107939899328643244) (2026-10-07). In a thread of posts (also [1](https://x.com/jakeboggan/status/2107827341342933481), [2](https://x.com/jakeboggan/status/2107835310348681265), [3](https://x.com/jakeboggan/status/2107836013959840109)), the same long-time hobbyist says the complex-valued terms led an LLM to cite a "fugacity-zero loop gas in an infinitesimal magnetic field", that the key insight is "more at home in a theoretical physics paper than most graph theory papers", and that the result clears them to work on a strengthening of the conjecture.
+- [Jake Boggan (@jakeboggan), post on X](https://x.com/jakeboggan/status/2108439876559643038) (2026-10-09). Says the OpenAI proof "was quite different than most approaches" taken by them and others, which "typically focused on induction proofs and lifting Hamiltonian cycles".
+- [Jake Boggan (@jakeboggan), post on X](https://x.com/jakeboggan/status/2108962827801436246) (2026-10-10). Describes the proof as using "very saavy counting arguments with complex terms" not seen in related graph theory papers, with techniques that "seem borrowed from physics and partition functions."
 
 ## Formalization
 - [OpenAI, *Lean scope note for family 180*](https://github.com/openai/math/blob/main/lean/docs/180.md) (openai/math release, 2026-10-06). States that the release's Lean formalization proves the existence of a Hamiltonian cycle for every finite simple cubic bipartite planar 3-vertex-connected graph, with challenge statement [BarnetteHamiltonian.lean](https://github.com/openai/math/blob/main/lean/ComparatorChallenges/BarnetteHamiltonian.lean) and proof modules under [lean/OAI/Combinatorics/Hamiltonian](https://github.com/openai/math/tree/main/lean/OAI/Combinatorics/Hamiltonian); as of 2026-10-20 the family is not listed in `lean/formalization.yaml`.

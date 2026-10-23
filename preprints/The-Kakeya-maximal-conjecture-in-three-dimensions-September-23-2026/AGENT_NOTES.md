@@ -1,12 +1,13 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - None found.
 
 ## Comments and discussion
 - [Hyunwoo Kwon, contribution to *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/comment-page-1/) (Proofs and Prompts, posted 2026-10-08, updated 2026-10-19). Kwon explicitly names Kakeya maximal bounds among the announced harmonic-analysis results and discusses the release's pace, readability, and impact on researchers, without presenting a technical assessment of this proof.
+- [deffie (@df_163), post on X](https://x.com/df_163/status/2107613280558551392) (2026-10-06). Points out that Wang and Zahl resolved the three-dimensional Kakeya set conjecture, while this claim concerns the stronger maximal conjecture, which implies it and which Wang and Zahl had not solved.
 
 ## Formalization
 - None found.

@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - None found.
@@ -11,6 +11,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [AB, reply on Burungale's guest post](https://galoisrepresentations.org/2026/10/15/bsd-and-the-p-converse-guest-post-ashay-burungale/#comment-28619) (2026-10-16). Describes the strategy as "Skinner-like with vanishing understood in the tame parameter t."
 - [Persiflage, *A Brief Digest of Some New OpenAI Results*, item 6 "Results on BSD"](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/) (galoisrepresentations.org, 2026-10-08). First impression that the BSD results are "technical improvements on results already in the literature" rather than progress on higher rank; the item links the companion leading-term paper. [family-level]
 - [David Loeffler, comment on the Persiflage digest](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/#comment-28525) (2026-10-09). Says the BSD results do not seem to go much beyond recent work of Skinner, Castella, Burungale et al., and notes that the Sylvester cube-sum application (proved in this paper's last section) "has already been announced multiple times by different groups in the last 6 months." [family-level]
+- [Alexander Smith (@Alexand11428651), post on X](https://x.com/Alexand11428651/status/2107899455139725335) (2026-10-07). Says BSD in Selmer corank 0 and 1 was an active research area "likely to reach this point 'soon'", counts it as no progress on BSD, calls it "unwisely not formalized", and compares the 2-converse argument to work of Kriz and Nordentoft. [family-level]
 
 ## Formalization
 - None found.

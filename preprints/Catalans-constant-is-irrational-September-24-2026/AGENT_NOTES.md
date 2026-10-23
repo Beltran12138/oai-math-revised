@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Rohit Kumar Jha, *A finite irrationality measure for Catalan's constant*](https://zenodo.org/records/23237269) (Zenodo preprint, doi:10.5281/zenodo.23237269, 2026-10-08). Extends this paper's determinant proof by bounding complementary minors uniformly, claiming $|G-p/q|>q^{-10^8}$ for large $q$; the abstract states the exponent bound is formalized in Lean.
@@ -14,6 +14,8 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Comments and discussion
 - [Persiflage (galoisrepresentations.org), *A Brief Digest of Some New OpenAI Results*](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/) (blog, 2026-10-08). Item 7 discusses this paper: it sees new ideas or optimizations, says "certain optimizations are taking place without being motivated at all", and notes no analogous OpenAI proof for $L(2,\chi_{-3})$ yet.
 - [Marcos Costa Santos Carreira, *catalan-designs* repository](https://github.com/MarcosCarreira/catalan-designs) (GitHub, 2026-10). Contains, alongside Carreira's two notes above, a verification report on this paper and the scripts and logs behind its computations; prepared with assistance from Claude per the acknowledgement.
+- [நா. கணேசன் (Dr. N. Ganesan) (@naa_ganesan), post on X](https://x.com/naa_ganesan/status/2107845798578749721) (2026-10-07). Points to the 44-page preprint, suggests it "can be made into arxiv readable paper", and notes that an earlier attempt by Zhi-Wei Sun "had failed scrutiny".
+- [UnstableReserves (@UnstableReserve), post on X](https://x.com/UnstableReserve/status/2109926974856523922) (2026-10-13). Reports an independent exact rebuild of the paper's mod-101 certificate ("all 144 pivots") and a check of the $\zeta(2)$ cancellation for $N=1,2$.
 
 ## Formalization
 - [OpenAI, Lean scope note for family 005](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/005.md) (openai/math release, 2026-10-06). States that the release's Lean formalization proves irrationality of $G=\sum_{j\ge0}(-1)^j/(2j+1)^2$ and links the comparator statement.

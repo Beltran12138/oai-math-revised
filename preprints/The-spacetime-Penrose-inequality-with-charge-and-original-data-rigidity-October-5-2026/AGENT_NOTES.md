@@ -1,12 +1,13 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - None found.
 
 ## Comments and discussion
 - [Hubert Bray, Tuan Dolmen, Marcus Khuri and David Schmidt, *Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets*, Appendix C](https://arxiv.org/html/2610.20559v1) (arXiv:2610.20559v1, 2026-10-14). Appendix C discusses checking OpenAI's Penrose series. [family-level]
+- [UnstableReserves (@UnstableReserve), post on X](https://x.com/UnstableReserve/status/2109926781960556812) (2026-10-13). Summarizes this paper's charged inequality, with equality "only for a single Reissner–Nordström hole", and reports the poster's own exact two-hole computations ("watch the common horizon pinch off"), with gap asymptotics described as derived but not proved.
 
 ## Formalization
 - [OpenAI, *Spacetime Penrose inequalities: enclosing area, charge, rotation, and anti-de Sitter extensions — Lean scope*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/260.md) (release scope documentation, 2026). The family's only formalization covers the end-replacement construction and the Schwarzschild equality examples of the companion CKS/Bondi paper; this paper's charged inequality and rigidity theorem are not formalized. [family-level]

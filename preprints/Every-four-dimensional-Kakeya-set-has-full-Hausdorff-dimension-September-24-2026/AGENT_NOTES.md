@@ -1,12 +1,12 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - None found.
 
 ## Comments and discussion
-- None found.
+- [Florious (@Florious95), thread on X](https://x.com/Florious95/status/2108522391676870685) (2026-10-09). In Chinese, notes that this unreviewed four-dimensional proof takes the Wang–Zahl sticky Kakeya theorem and the Guth–Wang–Zahl three-dimensional estimates as key inputs, arguing it builds on that human work.
 
 ## Formalization
 - [mo271, *Wikipedia/Kakeya: the Kakeya set conjecture holds in dimension 4* (issue #6910)](https://github.com/google-deepmind/formal-conjectures/issues/6910) (google-deepmind/formal-conjectures, opened 2026-10-07). This open issue cites this paper and proposes adding `kakeya_4d : KakeyaSetConjectureDim 4`, tagged as solved, to `FormalConjectures/Wikipedia/Kakeya.lean`; it contains no proof or linked PR and says the comparison was prepared with AI assistance.

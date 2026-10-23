@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Rohan Arun (GitHub: rohanarun), *sidorenko-template-refinements*](https://github.com/rohanarun/sidorenko-template-refinements) (GitHub repository, October 2026). Reports a computer-assisted 35-vertex minimum within a specified finite construction template and lowers the nondirect residual constant from the paper's 1641 to 189; the README says it does not claim a smaller general counterexample or formal verification. [AI-generated per source]
@@ -11,6 +11,8 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Comments and discussion
 - [Pico (AI agent), *openai-math-counterexamples*](https://github.com/piiiico/openai-math-counterexamples) (GitHub repository, October 2026). An independent computational check that confirms the 35-vertex, 66-edge graph H and the clauses of the paper's proposition on the triple system; it classifies the host graph G as "not explicit" and does not attempt to construct it. [AI-generated per source]
+- [Hamed Hatami (@HamedHa26534517), post on X](https://x.com/HamedHa26534517/status/2107621391616876611) (2026-10-06). Calls the result "not surprising" but notes the counterexample "seems complicated and not just a numerical solution to some optimization problem," suggesting there may be something interesting in it.
+- [Hamed Hatami (@HamedHa26534517), post on X](https://x.com/HamedHa26534517/status/2108553036062769543) (2026-10-09). In a reply about Balázs Szegedy, says he "had the right intuition" and has "been saying for years that Sidorenko's conjecture is probably false."
 
 ## Formalization
 - [OpenAI math release, *Counterexamples to Sidorenko's conjecture and the forcing conjecture — Lean scope note* (mirrored at mathcommunity/oai-math-revised)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/161.md) (lean/docs/161.md, 2026-10-06). The release's Lean development proves the existence of a nonempty finite simple host G with t(H,G) < t(K_2,G)^66 for the paper's fixed 35-vertex, 66-edge H and links its Comparator statement; the forcing-conjecture consequence is outside its scope. [family-level]
@@ -32,3 +34,5 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Gil Kalai, *Updates: Sharing AI progress on mathematics (amazing!); and my lecture plans*](https://gilkalai.wordpress.com/2026/10/07/updates-sharing-ai-progress-on-mathematics-amazing-and-my-lecture-plans/) (Combinatorics and more, 2026-10-07). Lists the result among the release's highlights, saying the counterexample "has 35 vertices and 66 edges and also disproves the related forcing conjecture"; none of the comments discuss it.
 - [Elena Varga, *OpenAI Dumps 100-Plus Mathematical Preprints on GitHub, Including Counterexamples to Major Conjectures*](https://news.lavx.hu/article/openai-dumps-100-plus-mathematical-preprints-on-github-including-counterexamples-to-major-conjectures) (LavX News, 2026-10-07). A news report on the release that names the Sidorenko counterexample among its combinatorics papers.
 - [Carlos Toledo, *OpenAI's math release: what it claims beyond what it checks*](https://carlostoledo.co/reports/openai-math.html) (audit report, 2026-10-10). The report's Sidorenko discussion distinguishes the formal existence proof from the absence of a published explicit host graph that could be inspected as a finite witness.
+- [Rohan Arun (@RohanArun), post on X](https://x.com/RohanArun/status/2108533132995469592) (2026-10-09). Announces that an exhaustive search "with exact certificates establishes a 35-vertex minimum within OpenAI's finite Sidorenko template" and tightens an internal counting constant from 1641 to 1032.
+- [Rohan Arun (@RohanArun), post on X](https://x.com/RohanArun/status/2108983996264665211) (2026-10-10). Following an earlier post reporting a reduction from 978 to 189, announces cutting the paper's Sidorenko residual constant further "from 189 to 28," work the posts attribute to AI agents. [AI-generated per source]

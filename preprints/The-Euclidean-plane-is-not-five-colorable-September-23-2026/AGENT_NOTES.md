@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Shisheng Li and Yong Su, *Every n points in the plane contain (m1 + o(1)) n points with no unit distance*](https://arxiv.org/abs/2610.15424) (arXiv:2610.15424, 11 Oct 2026). Proves f(n)/n → m1(R^2), identifying the limiting worst-case finite independence ratio with the maximal measurable unit-distance-avoiding density; the abstract states that its "only non-classical input is the Haar rigidity theorem for wild character laws" from this preprint. [AI-generated per source]
@@ -11,6 +11,9 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Joshua Zelinsky, Bluesky post](https://bsky.app/profile/joshuazelinsky.bsky.social/post/3mxak2f4ywk24) (Bluesky, 6 Oct 2026). Early reaction to this paper: "it doesn't look like the method is a direction that the prior lit used".
 - [JoshuaZ (Joshua Zelinsky) and Archimedes, comments on *Are OpenAI's math results "creative" in an important way?*](https://www.lesswrong.com/posts/neHiCSdL4tJDg7Hrm/are-openai-s-math-results-creative-in-an-important-way) (LessWrong, Oct 2026). Archimedes collects reactions to this paper; JoshuaZ (10 Oct) points to a 2014 paper of Bachoc, DeCorte, de Oliveira Filho and Vallentin as precedent for the "weakly measurable coloring" notion and names the transfer theorem (Theorem 1.3) as the new idea.
 - [Dmitry Rybin, quoted in Jose Antonio Lanz, *OpenAI Says a Secret AI Model Cracked Hundreds of Open Math Problems in One Prompt—Mathematicians Want Receipts*](https://tech.yahoo.com/ai/chatgpt/articles/openai-says-secret-ai-model-214603535.html) (Decrypt via Yahoo Tech, 7 Oct 2026). Release-wide news article whose only paper-specific passage quotes Rybin: "Somehow the model found that any K-coloring <=> "weakly measurable" K-coloring, which seems out of nowhere".
+- [Dmitry Rybin (@DmitryRybin1), post on X](https://x.com/DmitryRybin1/status/2107852898617229724) (7 Oct 2026). Two-post thread calling the equivalence of arbitrary and "weakly measurable" colorings unexpected and contrasting the proof's use of amenable groups, Pontryagin duality and Furstenberg–Zimmer towers with the single finite graph behind the earlier ≥ 5 bound.
+- [Gabriel Gaster (@gabegaster), post on X](https://x.com/gabegaster/status/2108382713539375351) (9 Oct 2026). Remarks on the proof's combination of "Pontryagin duality, ergodic theory, and amenable groups" and asks whether six colors can be ruled out.
+- [Dr.山川｜Visual Math (@MathWithShan), post on X](https://x.com/MathWithShan/status/2111392685756183040) (17 Oct 2026). Contrasts de Grey's explicit 1581-vertex graph from 2018 with this paper's proof, which the post describes as "reportedly non-constructive", via the weakly measurable colorings step.
 
 ## Formalization
 - [OpenAI math release, *The Euclidean plane cannot be colored with five colors: Lean scope notes* (mirrored on mathcommunity/oai-math-revised)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/158.md) (release Lean docs, 2026-10-06). The release's own Lean statement of no proper five-coloring (EuclideanFiveColor.lean) and of a proper seven-coloring including boundaries (PlaneColoring.lean), with links to both comparator statements. [AI-generated per source]

@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Qiang Gao, *Improving the lower bound on the Laughlin gap: An SDP search*](https://arxiv.org/abs/2610.12700) (arXiv:2610.12700, 2026-10-08). Keeps this paper's architecture, refines its comparison estimates and optimizes its auxiliary operators by an SDP search certified in exact rational arithmetic, reporting $H_Q^2\ge\gamma H_Q$ for every $\gamma<0.2190037845063196\ldots$ at sufficiently large flux and hence a spherical Laughlin gap of at least $1/5$; the paper says the proof and search were completed by Claude Opus 5.5 under the author's direction. [AI-generated per source]
@@ -9,7 +9,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [GitHub user Yuchenian, *vortexable-laughlin-gap*](https://github.com/Yuchenian/vortexable-laughlin-gap) (GitHub repository, 2026). Self-described AI-assisted research draft that transfers a reference Laughlin spectral inequality to changed vortexable one-particle subspaces, taking Gao's refinement of this paper (arXiv:2610.12700) as its input. [AI-generated per source]
 
 ## Comments and discussion
-- None found.
+- [Harry Stoltz (@HarryStoltz1), post on X](https://x.com/HarryStoltz1/status/2107646752371171641) (2026-10-07). In a two-post thread, describes the result as a stopping rule for algorithms preparing a Laughlin state, which "can stop when the energy gets below a certain cutoff".
 
 ## Formalization
 - [OpenAI, *Uniform Laughlin gap and stability under bounded scalar disorder: Lean scope notes*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/269.md) (OpenAI Math Release, lean/docs/269.md, 2026). Describes Lean statements for the $1/100$ finite spherical bound, the Fock-space inequality $H_Q^2\ge\gamma H_Q$ for $\gamma<\gamma_*$, the $1/25$ gap inequality and the planar endpoint inequality, with links to the comparator files; stability under projected one-body potentials is explicitly excluded. [family-level]

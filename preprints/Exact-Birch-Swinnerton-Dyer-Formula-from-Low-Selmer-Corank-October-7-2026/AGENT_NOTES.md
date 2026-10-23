@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Ruihan Chen, *On the algebraic and analytic ranks of the twin-prime elliptic curve $y^2=x(x-2)(x-p)$*](https://arxiv.org/abs/2610.09370) (arXiv:2610.09370, 2026-10-07). Computes the $2^\infty$-Selmer corank of this family and, taking the specialization at 2 of this paper's main theorem as an explicit hypothesis (Hypothesis 1.1), deduces rank equality, finiteness of Sha and the exact leading-term formula for $p\equiv3,5,7\pmod8$. [cites earlier version]
@@ -12,6 +12,10 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [David Loeffler, comment on the Persiflage digest](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/#comment-28525) (2026-10-09). Says the BSD results do not seem to go much beyond recent work of Skinner, Castella, Burungale et al., and notes that the cube-sum application has already been announced by several groups. [family-level]
 - [Chris Xu, comment on the Persiflage digest](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/#comment-28519) (2026-10-08). Short reaction to the BSD item: "All of the money is on higher rank." [family-level]
 - [Álvaro Lozano-Robledo, quoted in the Proofs and Prompts reactions roundup](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (2026-10-08). Notes the release targeted BSD but obtained partial results ("BSD, not Goldfeld's 50-50").
+- [Alexander Smith (@Alexand11428651), post on X](https://x.com/Alexand11428651/status/2107899455139725335) (2026-10-07). Says BSD in Selmer corank 0 and 1 was an active research area "likely to reach this point 'soon'", counts it as no progress on BSD, calls it "unwisely not formalized", and compares the 2-converse argument to work of Kriz and Nordentoft. [family-level]
+- [William Stein (@wstein389), post on X](https://x.com/wstein389/status/2108210779094990986) (2026-10-08). Says that having the exact BSD formula fully proved in all cases of analytic rank at most 1 is "something I personally appreciate." [family-level]
+- [Pierre Colmez (@ColmezPierre), post on X](https://x.com/ColmezPierre/status/2107898549476180125) (2026-10-07). Contrasts the release's BSD and Riemann items, calling the claimed progress on BSD "pure PR, no content"; a later reply describes the result as "basically a matter of chasing powers of 2". [family-level]
+- [Hara qui rit (@humanismetoussa), post on X](https://x.com/humanismetoussa/status/2107765964951449956) (2026-10-07). Explains that full BSD in Selmer corank 0 and 1 combined with the Goldfeld conjecture gives full BSD for 100% of quadratic twists of any elliptic curve over Q, "still far from BSD." [family-level]
 
 ## Formalization
 - None found.

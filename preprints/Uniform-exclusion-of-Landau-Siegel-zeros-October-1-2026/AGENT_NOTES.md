@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [William D. Banks, *On the OpenAI proof that Landau-Siegel zeros do not exist*](https://arxiv.org/abs/2610.15483) (arXiv:2610.15483, 2026-10-11). Gives a detailed direct proof of this paper's interpolation-determinant argument with explicit constants, $(1-\beta)\log q\ge 0.003$ for $q\ge10^{10}$, extended to all $q\ge3$ via Lu–Zaman–Zhao; cited in the paper's current version.
@@ -18,6 +18,11 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Hector Pasten, quoted in Scientific American](https://www.scientificamerican.com/article/the-most-exciting-claims-from-openais-heap-of-new-proofs/) (2026-10-08). On the no-Siegel-zero result: "This is not just progress on Siegel zeros—it settles the question."
 - [Ben Green, in the Proofs and Prompts reactions roundup](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (2026-10-08). Mentions "a second, short, proof of no Siegel zeros" alongside the 7/8 region as "absolutely shocking to me".
 - [Alex Kontorovich, X post as quoted in Zvi's LessWrong roundup](https://www.lesswrong.com/posts/eyqxBuxXCaamNSxBB/new-math-from-openai) (post 2026-10-06; roundup 2026-10-09). "Yeah, no Siegel zeros either. So I guess two Fields medals…"
+- [Jared Duker Lichtman (@jdlichtman), post on X](https://x.com/jdlichtman/status/2111941263536886230) (2026-10-18). Compares Kerr's and Green's write-ups, noting Kerr devotes an extra page to deriving the no-Siegel-zeros statement from the bound on log(p)/p, which Green treats as the endpoint.
+- [Jared Duker Lichtman (@jdlichtman), post on X](https://x.com/jdlichtman/status/2112245476414353919) (2026-10-19). Links a write-up with the comment "No Siegel zeros proved in 3 pages".
+- [Thomas Bloom (@thomasfbloom), post on X](https://x.com/thomasfbloom/status/2112259330879983979) (2026-10-19). Suggests the result came late partly because "few were trying", since Siegel zeros had "a near-mythical status" and other proofs were usually reduced to them.
+- [Shaowu Zhang (@ivanswzhang), post on X](https://x.com/ivanswzhang/status/2112421999800992169) (2026-10-20). Opens a walk-through of this paper, calling it "a nice manuscript with genuinely new mathematical ideas and a good use of existing techniques."
+- [Luke Bailey (@LukeBailey181), post on X](https://x.com/LukeBailey181/status/2113346230046822641) (2026-10-22). Shares a pseudo-formalization of the no-Siegel-zeros proof and says pseudo-formal proofs are easier to read and understand than the AI-written proofs.
 
 ## Formalization
 - [OpenAI, *The quasi-Riemann hypothesis: Lean scope note*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/003.md) (openai/math release, 2026-10). The comparator statement SiegelZeros.lean formalizes 1−β ≥ c/log q for every primitive nonprincipal real character of conductor q ≥ 3 (both parities), with no explicit value of c.

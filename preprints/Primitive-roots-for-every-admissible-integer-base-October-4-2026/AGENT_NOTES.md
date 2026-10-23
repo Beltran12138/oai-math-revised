@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Manjul Bhargava, *Every nonsquare integer not equal to −1 is a primitive root modulo a positive lower density of primes*](https://hexagonmath.org/abs/2610.00228v1) (hexagon:2610.00228v1, 2026-10-14). Upgrades the conclusion to a positive lower density of primes, assuming a zero-free half-plane $\Re s>1-1/N$ for all Dedekind zeta functions (supplied, per the abstract, by the Cureton–Thorner result); it uses this paper's marked replacement proposition (Lemma 10.2, Proposition 10.3), the proof of Lemma 12.1 and Sections 11–12; the provenance statement reports contributions by GPT-6 and a Lean check of the deductions only, with the cited theorems kept as explicit hypotheses.
@@ -11,6 +11,10 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Comments and discussion
 - [Persiflage (galoisrepresentations.org), *A Brief Digest of Some New OpenAI Results*](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/) (blog, 2026-10-08). Item 4 discusses this paper: Hooley's argument would need quasi-RH for Dedekind $L$-functions, so the paper takes a different route, which the post calls "a little bit different, but also not at all surprising"; in the comments (2026-10-09) DH points to the paper's more general quasi-RH for Hecke characters of cyclotomic fields, and Persiflage replies that Hooley's argument "needs full GRH for these".
+- [Christopher D. Long (@octonion), post on X](https://x.com/octonion/status/2110222443646177608) (2026-10-14). A two-post thread presenting the paper as "another consequence of the QRH" proving Artin's conjecture, and noting the conjecture dates from 1927 and "had been open for 99 years".
+- [Almost Sure (@Almost_Sure), post on X](https://x.com/Almost_Sure/status/2110364679075942637) (2026-10-14). Contrasts this paper with a linked work "claiming a positive lower density of primes", calling that claim, if true, "significantly stronger" than this result.
+- [Go Big or Go Home (@AmericaGetBig), post on X](https://x.com/AmericaGetBig/status/2110346460470649038) (2026-10-14). Notes that Hooley obtained both infinitude and the exact density on GRH in 1967 and asks: "Does the QRH route recover the full density, or just infinitude?"
+- [Sendtoshi Profimoto (@profimoto), post on X](https://x.com/profimoto/status/2108363265264734544) (2026-10-09). Part of a thread summarizing the method as building primes with $p-1=2\cdot r\cdot Q$, $Q$ a prime above $x^{0.9}$, "plus a uniform zero-free strip for Hecke L-functions of cyclotomic fields", and suggesting the engine does not need an integer base.
 
 ## Formalization
 - [Yao Xu (cadamcat), *artin-primitive-roots-lean4*](https://github.com/cadamcat/artin-primitive-roots-lean4) (GitHub, 2026). An independent Lean 4 project that follows this paper, with Lean theorems for the controlled-predecessor construction, uniform splitting and the Hecke zero-free region, and a main theorem stating that the set of primes with primitive root $a$ is infinite; the README says it was developed with AI assistance, that it is kernel-checked using only the standard axioms, and that it depends on pinned external libraries including openai/math.

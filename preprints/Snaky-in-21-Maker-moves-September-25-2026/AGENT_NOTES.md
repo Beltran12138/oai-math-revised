@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Nándor Sieben, *Snaky: Proof sequence for Snaky*](https://github.com/nandorsieben/Snaky) (GitHub repository, 2026). Gives proof sequences (files `proof-sequence-18/19/20.html.gz`) in the sense of Sieben's proof-tree paper; the README says they are based on strategies described in this paper, and the 20-move sequence was later formalized in the gotrevor project.
@@ -8,6 +8,8 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Comments and discussion
 - [edpegg, *Comment on “First look at mathematics manuscripts from an internal frontier model at OpenAI”*](https://community.openai.com/t/first-look-at-mathematics-manuscripts-from-an-internal-frontier-model-at-openai/1403886/5) (OpenAI Developer Community, 2026-10-07). Briefly welcomes the Snaky solution and suggests making the strategy available as a playable game.
+- [Carl Feynman (@carl_feynman), post on X](https://x.com/carl_feynman/status/2107938812173447301) (2026-10-07). In a two-post thread, first nominates #187 as the release's "least marvelous" result, then qualifies this in a [follow-up](https://x.com/carl_feynman/status/2107973332037415229) noting Snaky was "the sole unsolved case" of Harary's generalized tic-tac-toe.
+- [Robin Houston (@robinhouston), post on X](https://x.com/robinhouston/status/2108397324321898888) (2026-10-09). Points to a playable version made by @gotrevor in which the user plays as the second player and tries to keep Snaky at bay.
 
 ## Formalization
 - [OpenAI math release, *Lean scope notes for result 187*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/187.md) (lean/docs/187.md, 2026). The release's own Lean development: a legal Maker strategy that wins within 21 Maker moves on the empty infinite board (excluding the finite-board restriction), plus reconstructions of the 35-move certificate and four conditional templates.
@@ -30,3 +32,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Azmat, *Snaky in 21 Maker Moves: How OpenAI's Proof Ended a 47-Year Tic-Tac-Toe Mystery*](https://binaryverseai.com/snaky-in-21-maker-moves/) (Binary Verse AI, 2026-10-15). Discusses the paper's conditional winning positions, 728-card certificate and 17×17 corollary, and distinguishes the reported infinite-board Lean scope from finite-board claims.
 - [kaiasky (reblogged on Centrally Unplanned), *Recently I have heard a bunch of people discussing...*](https://centrally-unplanned.tumblr.com/post/777761085255303168/recently-i-have-heard-a-bunch-of-people-discussing) (Tumblr post, undated on page). An informal post on the 21-move result: it notes that optimality is not established and links to a playable demo.
 - [Wikipedia, *Harary's generalized tic-tac-toe*](https://en.wikipedia.org/wiki/Harary%27s_generalized_tic-tac-toe) (encyclopedia article, accessed 2026-10-21). States that in October 2026 OpenAI claimed to have proven Snaky a winner in 21 moves, and cites this preprint.
+- [V (@shjvandekamp), post on X](https://x.com/shjvandekamp/status/2110714551574397262) (2026-10-15). Reports a Lean-checked improvement of the bound to 19 Maker moves, following this paper's 21 and a 20-move result by Nándor Sieben.

@@ -1,14 +1,18 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Thomas Willwacher, *The Deligne–Drinfeld conjecture after OpenAI*](https://arxiv.org/abs/2610.15592) (arXiv:2610.15592, v1 11 Oct 2026, v2 16 Oct 2026). Presents a streamlined, simplified version of this paper's proof built around a reduction to characteristic 2, and states that the author "claims no originality regarding the proof strategy"; its AI usage statement says AI tools helped restructure the arguments.
 - [Minoru Hirose, *Confluence relations, Hoffman basis over $\mathbb{Z}_{(2)}$, and the Deligne–Drinfeld conjecture*](https://arxiv.org/abs/2610.23719) (arXiv:2610.23719, 16 Oct 2026). Gives an alternative proof via a $\mathbb{Z}_{(2)}$-integral Hoffman-basis result for multiple zeta values, combined with Brown's theorem and Furusho's confluence characterization of GRT; cites this paper as the earlier proof, notes both arguments use reduction modulo 2, and discloses AI assistance with author verification.
+- [Minoru Hirose (@hirose_minoru), post on X](https://x.com/hirose_minoru/status/2112725404645826716) (21 Oct 2026). The author states (in Japanese) that combining his result with results of Brown and Furusho and with motivic results also gives an alternative proof of the Deligne–Drinfeld conjecture announced by OpenAI.
 
 ## Comments and discussion
 - [Leila Schneps, *The OpenAI proof of the Deligne-Drinfeld conjecture*](https://sites.google.com/view/hmi-workshop-2026/schedule) (HMI workshop talk abstract, October 2026). Announces an overview of the paper's proof strategy and main ideas, distinguishing straightforward steps from technical parts.
 - [Thomas Willwacher / AHGT, *On the Deligne–Drinfeld conjecture*](https://ahgt.math.cnrs.fr/activities/workshops/Seminar-Taming_the_flow_2026/) (Taming the Flow seminar, scheduled for 22 October 2026). Announces a seminar on this manuscript, situating its claim relative to earlier work of Drinfeld, Brown and Willwacher.
+- [Christian Haesemeyer (@CHaesemeyer), post on X](https://x.com/CHaesemeyer/status/2112478250261946595) (20 Oct 2026). Two-post thread saying the now three-page proof "works by writing down a representation that comes out of nowhere" and then checking well-definedness, and arguing that where it comes from "is where the mathematics is."
+- [Sinan Unver (@SinanUnver1), post on X](https://x.com/SinanUnver1/status/2109157528323928220) (11 Oct 2026). Says he was "very surprised to see 2-adic arguments also in the proof of Deligne-Drinfeld conjecture," remarking that computers seem to like 2-adic arguments.
+- [Bjørn Kjos-Hanssen (@kjoshanssen), post on X](https://x.com/kjoshanssen/status/2109352112807379377) (11 Oct 2026). Asks whether the argument in question is about the localization ℤ₍₂₎ rather than the 2-adic integers ℤ₂.
 
 ## Formalization
 - [OpenAI, *The Deligne–Drinfeld conjecture: Lean scope note* (`lean/docs/008.md`)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/008.md) (OpenAI Math Release, 6 October 2026). States that the main statement (freeness on odd generators for the solution space of antisymmetry, three-term and pentagon equations with the Ihara bracket, plus the completed isomorphism) is formalized, and that the regularized-transport proposition and graph-complex consequences are not. [family-level]
