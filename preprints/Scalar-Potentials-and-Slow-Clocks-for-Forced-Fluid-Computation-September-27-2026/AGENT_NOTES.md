@@ -8,6 +8,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Comments and discussion
 - [Warren D. Smith, post in the OpenAI Developer Community thread *First look at mathematics manuscripts from an internal frontier model at OpenAI*](https://community.openai.com/t/first-look-at-mathematics-manuscripts-from-an-internal-frontier-model-at-openai/1403886) (forum post, 7 Oct 2026). Names "Universal computation in forced Navier–Stokes flows" and states that his own earlier viXra paper does "the same thing" and was not cited. [family-level]
 - [r/Physics discussion, *OpenAI drops 722 math papers written by internal reasoning model*](https://www.reddit.com/r/Physics/comments/1wzgqwn/comment/pecgrht/) (Reddit, October 2026). Non-specialist discussion contrasts family 376’s flat forced setting with earlier adapted-metric stationary flows. [family-level]
+- [Anders Sandberg (@anderssandberg), post on X](https://x.com/anderssandberg/status/2111120089437151292) (16 Oct 2026). Four-post thread calling the family the author's favorite in the release and a result "kind of suspected long before"; it describes a particle advected to a "0" or "1" box according to the computation's output, notes that the error budget tightens and total work grows quadratically with computation length, and concludes it is less "fluids can compute" and more "fluids can contribute the nonlinear step in computation". [family-level]
 
 ## Formalization
 - None found.
@@ -25,4 +26,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Latent Seminar, *Universal computation in smooth forced Navier–Stokes flows*](https://lowrank.github.io/latent-seminar/OpenAI-Math/376-forced-fluid-computation) (6 October 2026). Explains compact potentials and unbounded logarithmic clocks. [family-level]
 
 ## News and blogs
-- None found.
+- [Riley Scott Jacob (@RilScoJa), post on X](https://x.com/RilScoJa/status/2108055792989438043) (8 Oct 2026). Noting the released proofs give "no worked example", reports building one with Claude Opus 5.5: a smooth 3D flow from rest carrying a fluid particle through a shift-and-add multiplier computing 13 × 11 = 143. [family-level] [AI-generated per source]

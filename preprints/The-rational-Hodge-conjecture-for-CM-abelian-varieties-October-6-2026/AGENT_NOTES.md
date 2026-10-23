@@ -10,6 +10,11 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Comments and discussion
 - [Abhishek Saha, posts on X, collected by Hraness](https://hraness.com/reading/mathematician-reactions-to-openais-372-math-results) (Hraness reading page, saved 9 Oct 2026). Quotes Saha on 7 Oct 2026: "So now we have confirmation that OpenAI has indeed proved the Hodge conjecture for all (CM) abelian varieties."
 - [Anonymous commenter on Terence Tao's blog, under Claire Voisin's guest post *The status of the Hodge conjecture*](https://terrytao.wordpress.com/2026/09/12/the-status-of-the-hodge-conjecture/) (comment dated 6 Oct 2026). Links this paper and writes "OpenAI proved the Hodge conjecture for CM abelian varieties"; the post itself predates the release and discusses Weil classes and Markman's work.
+- [Elliot Glazer (@ElliotGlazer), post on X](https://x.com/ElliotGlazer/status/2107602154756489340) (6 Oct 2026). Calls the CM result "very, very good mathematics" while stressing that it does not cover all abelian varieties, contrary to earlier rumors.
+- [Tony Tanuki (@tonyyueyu), post on X](https://x.com/tonyyueyu/status/2108077529399718339) (8 Oct 2026). Lists the Hodge conjecture for CM abelian varieties among favorite problems in the release and says the author had been trying counterexamples in recent years.
+- [Elliot Glazer (@ElliotGlazer), post on X](https://x.com/ElliotGlazer/status/2108125478469111983) (8 Oct 2026). States that the CM result was not Lean-formalized and expresses confidence in it because it "was achieved independently by Ant and by OAI" and trusted people report the ideas make sense.
+- [Tony Tanuki (@tonyyueyu), post on X](https://x.com/tonyyueyu/status/2109110584096817465) (11 Oct 2026). Places the result in a status summary of the Hodge conjecture, listing CM abelian varieties as "Claimed by OpenAI" alongside separately withdrawn claims on Weil classes.
+- [Antoine Ducros (@antoineducros), post on X](https://x.com/antoineducros/status/2109164962082120180) (11 Oct 2026). Replies to the status summary that the CM claim should be described as "Claimed and not Lean-formalized".
 
 ## Formalization
 - None found.

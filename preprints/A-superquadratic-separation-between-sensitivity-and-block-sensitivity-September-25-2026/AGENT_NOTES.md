@@ -12,6 +12,8 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Comments and discussion
 - [Philip Weiss, answer to *How many of the results released by OpenAI went against the conventional mathematical wisdom?*](https://mathoverflow.net/questions/515849/how-many-of-the-results-released-by-openai-went-against-the-conventional-mathema/515855) (MathOverflow community-wiki discussion, 2026-10-08). Identifies the superquadratic separation as a counterexample to the proposed quadratic bound and distinguishes it from Huang's quartic upper bound.
+- [Robin Kothari (@RobinKothari), post on X](https://x.com/RobinKothari/status/2110829273108127765) (2026-10-15). Invites Lean-verified improvements on the paper's exponent of about 2.006, stating "The optimal exponent is between 2 and 4. My guess is 2.5 is achievable."
+- [Robin Kothari (@RobinKothari), post on X](https://x.com/RobinKothari/status/2111231171371712667) (2026-10-16). Reports that within less than a day the separation exponent moved from 2.006 to 2.05 and asks how much higher it can go.
 
 ## Formalization
 - [OpenAI math release, *Lean scope notes for family 132*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/132.md) (lean/docs/132.md). States that the formalization covers the quantitative ratio $\mathrm{bs}(f)/s(f)^2\ge 2^d/(4(d+2)^2)$ and a fixed exponent $\alpha>2$ along a sequence with unbounded block sensitivity at zero; the comparator statement is SensitivitySeparation.lean.

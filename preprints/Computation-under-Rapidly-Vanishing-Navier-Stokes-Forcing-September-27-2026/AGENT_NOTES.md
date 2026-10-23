@@ -8,6 +8,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Comments and discussion
 - [Warren D. Smith, post in the OpenAI Developer Community thread *First look at mathematics manuscripts from an internal frontier model at OpenAI*](https://community.openai.com/t/first-look-at-mathematics-manuscripts-from-an-internal-frontier-model-at-openai/1403886) (forum post, 7 Oct 2026). Names "Universal computation in forced Navier–Stokes flows" and states that his own earlier viXra paper does "the same thing" and was not cited. [family-level]
 - [r/Physics discussion, *OpenAI drops 722 math papers written by internal reasoning model*](https://www.reddit.com/r/Physics/comments/1wzgqwn/comment/pecgrht/) (Reddit, October 2026). Non-specialist discussion contrasts family 376’s flat forced setting with earlier adapted-metric stationary flows. [family-level]
+- [Anders Sandberg (@anderssandberg), post on X](https://x.com/anderssandberg/status/2111120097154847008) (16 Oct 2026). Part of a four-post thread on the family that notes the error budget tightens and total work grows quadratically with computation length, says this paper "seems to have a finite work limit, but needs to shrink", and concludes the family shows "fluids can contribute the nonlinear step in computation". [family-level]
 
 ## Formalization
 - [OpenAI math release, Lean scope note *Universal computation in forced Navier–Stokes flows* (lean/docs/376.md)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/376.md) (release Lean documentation, Oct 2026). Lists this paper; the formalized statement covers halting detection with alternating-coordinate memory, velocity, force and all mixed derivatives decaying faster than every inverse power of time, and a shared compact support, with particle-halting equivalence in the stated comparison class.
@@ -25,4 +26,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Latent Seminar, *Universal computation in smooth forced Navier–Stokes flows*](https://lowrank.github.io/latent-seminar/OpenAI-Math/376-forced-fluid-computation) (6 October 2026). Explains shrinking spatial steps and exact detection. [family-level]
 
 ## News and blogs
-- None found.
+- [Riley Scott Jacob (@RilScoJa), post on X](https://x.com/RilScoJa/status/2108055792989438043) (8 Oct 2026). Noting the released proofs give "no worked example", reports building one with Claude Opus 5.5: a smooth 3D flow from rest carrying a fluid particle through a shift-and-add multiplier computing 13 × 11 = 143. [family-level] [AI-generated per source]

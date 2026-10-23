@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Kenta Kitamura (KitaKen1), *Add a conjecture: mixed Fujita freeness and linear effective base-point freeness*](https://github.com/google-deepmind/formal-conjectures/issues/7012) (formal-conjectures issue #7012, 2026-10-09). Proposes a "mixed" freeness statement (K_X + L_1 + ... + L_s + N globally generated for ample L_i, s ≥ n+1, nef N) and a klt base-point-freeness variant, with a proposed proof sketch in an accompanying [repository](https://github.com/KitaKen1/mixed-fujita-freeness); neither cites this paper, and the author discloses assistance from ChatGPT and OpenAI Codex.
 
 ## Comments and discussion
-- None found.
+- [spurious-bows (@spurious-bows.bsky.social), post on Bluesky](https://bsky.app/profile/spurious-bows.bsky.social/post/3mxpl2oqw4c2i) (2026-10-12). Pairs this manuscript with the release's "The ordinary-double-point gap in every dimension" (9/24), matching the proof of Prop 3.2 to that paper's Lemma 5.2, Lemma 3.1 and Eq. 5.5 to its Prop 4.1(i), and sections 4-5 broadly to its sections 4.2-4.4.
 
 ## Formalization
 - None found.

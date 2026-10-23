@@ -8,6 +8,8 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Comments and discussion
 - [Ola Svensson, quoted by Digg, *OpenAI is said to have solved a problem students worked on for over a year*](https://digg.com/ai/5agbrefi) (X post quoted by Digg, 2026-10-07). The quoted post describes OpenAI's k-median result as solving a problem the poster's students had pursued and announces the group's different algorithmic approach. [family-level]
+- [Ola Svensson (@AlgoSvensson), post on X](https://x.com/AlgoSvensson/status/2107736070192287922) (2026-10-07). The original post says OpenAI "completely solved a problem on which my students have worked hard for 1+ years" and that the group will upload a different algorithmic approach. [family-level]
+- [Ola Svensson (@AlgoSvensson), post on X](https://x.com/AlgoSvensson/status/2107739490349420894) (2026-10-07). The post says the tight k-median approximation implies a tight result for facility location, an optimal opening-cost versus connection-cost tradeoff, a "pretty well-known connection but not stated in the OpenAI paper".
 
 ## Formalization
 - [OpenAI math release, *Lean scope notes for family 125*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/125.md) (lean/docs/125.md, 2026). The release's Lean scope note covers the deterministic polynomial-time $1+2/e+\varepsilon$ approximation on finite rational metrics with specified candidate facilities and, assuming $P\ne NP$, the exact infimum threshold $1+2/e$; comparator files are MetricKMedian.lean and KMedianThreshold.lean. [family-level]

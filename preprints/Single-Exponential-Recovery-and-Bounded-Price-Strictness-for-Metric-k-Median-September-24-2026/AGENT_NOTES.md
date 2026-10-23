@@ -8,6 +8,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Comments and discussion
 - [Ola Svensson, quoted by Digg, *OpenAI is said to have solved a problem students worked on for over a year*](https://digg.com/ai/5agbrefi) (X post quoted by Digg, 2026-10-07). The quoted post describes OpenAI's k-median result as solving a problem the poster's students had pursued and announces the group's different algorithmic approach. [family-level]
+- [Ola Svensson (@AlgoSvensson), post on X](https://x.com/AlgoSvensson/status/2107736070192287922) (2026-10-07). The original post says OpenAI "completely solved a problem on which my students have worked hard for 1+ years" and that the group will upload a different algorithmic approach. [family-level]
 
 ## Formalization
 - [OpenAI math release, *Lean scope notes for family 125*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/125.md) (lean/docs/125.md, 2026). The release's Lean scope note covers the exact-budget refined recovery theorem (under the bounded-integral-metric and accurate-proxy hypotheses) and the randomized $(2-\sigma)$ approximation on finite rational metrics; comparator files are KMedianRefinedRecovery.lean and KMedianRecovery.lean. [family-level]

@@ -7,6 +7,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Comments and discussion
 - [Peter Hall and Joseph Howlett, *The most exciting claims from OpenAI's heap of new proofs*](https://www.scientificamerican.com/article/the-most-exciting-claims-from-openais-heap-of-new-proofs/) (Scientific American, 2026-10-08). Reports several release papers claiming to resolve the sigma-model analogue of the Yang-Mills mass-gap problem, quoting Michael Douglas and Roland Bauerschmidt (the first sigma-model paper "seems very reasonable", the second "horrible") without identifying the papers by title. [family-level]
+- [Marcus Bintz (@spurious_bows), post on X](https://x.com/spurious_bows/status/2109335927512551562) (2026-10-11). Notes that the "squaring probabilities" trick of another release paper's Lemma 4.1 also appears as Lemma 8.2/Prop 8.3 here and as Lemma 2.1/Prop 2.2 in the O(4) mass-bound paper.
 
 ## Formalization
 - None found.

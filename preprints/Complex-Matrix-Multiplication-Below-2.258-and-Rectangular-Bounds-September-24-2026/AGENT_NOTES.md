@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Przemysław Uznański, *Rectangular matrix multiplication from polynomial products*](https://arxiv.org/abs/2610.10494) (arXiv:2610.10494, v1 2026-10-07, v2 2026-10-11). Extends the family’s $9/4$ analysis in characteristic zero to $\alpha\ge1/2$ and $\omega(1,k,1)\le1+k+1/(4k)$ for $k\ge1/2$, strengthening this paper's α > 0.465 and rectangular bounds, though it does not cite this paper. [AI-generated per source] [family-level]
 
 ## Comments and discussion
-- None found.
+- [Igor Carron (@IgorCarron), post on X](https://x.com/IgorCarron/status/2107613154192597133) (2026-10-06). Reports asking Opus 5.5 whether this paper's proof is constructive and quotes the answer "Yes, but not for the title result."
 
 ## Formalization
 - [OpenAI, *Matrix multiplication with exponent at most 9/4 — Lean scope notes*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/107.md) (OpenAI math release, lean/docs/107.md, 2026-10-06). Lists this paper as accompanying the Lean development, which records $\alpha>0.465$ and $\omega(\mathbb C;1,0.709,1)<2.092$ together with $\omega(\mathbb C)\le9/4$; the notes say the square statement implies this paper's 2.258 bound. [family-level]
