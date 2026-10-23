@@ -77,7 +77,7 @@ def bluesky(query: str, token: str) -> list[dict]:
         handle = p["author"]["handle"]
         out.append({"source": "Bluesky", "title": f"@{handle}, {p.get('indexedAt', '')[:10]}",
                     "url": f"https://bsky.app/profile/{handle}/post/{rkey}",
-                    "context": plain(p.get("record", {}).get("text", ""))[:500]})
+                    "context": post_text(p.get("record", {}).get("text", ""))[:500]})
     return out
 
 
