@@ -9,7 +9,7 @@
 <updated>{{ updated }}T00:00:00Z</updated>
 {% for e in activity %}
 <entry>
-<title>{{ e.paper.title|html|plain }}</title>
+<title>{% for h, n in e.c.people %}{{ ("@" ~ h) if h else n }}{% if not loop.last %}, {% endif %}{% endfor %} on {{ e.paper.title|html|plain }}</title>
 <link href="{{ SITE_URL }}/papers/{{ e.slug }}/#contributions"/>
 <id>{{ e.id }}</id>
 <updated>{{ e.c.date }}T00:00:00Z</updated>

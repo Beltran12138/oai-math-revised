@@ -29,9 +29,10 @@
 </p>
 <p class="secondary"><a href="{{ links.notes_edit }}">Edit NOTES.md</a> · <a href="{{ links.issues }}">Existing issues</a> · <a href="{{ links.source }}">Source on GitHub</a></p>
 
-{% if contributions %}
+{% if contributions or p.contribution_problems %}
 <section id="contributions"><h2>Contributions</h2>
 <ul class="activity">{% for c in contributions %}<li>{{ contribution(c, p.slug) }}</li>
+{% endfor %}{% for line in p.contribution_problems %}<li>{{ line[1:].strip()|inline_md(p.slug)|safe }}</li>
 {% endfor %}</ul>
 </section>
 {% endif %}
@@ -51,7 +52,7 @@
 {% if p.has_notes_body %}
 <div class="notes">{{ p.notes_body|notes(p.slug)|safe }}</div>
 {% else %}
-<p class="empty">No notes yet. Add a reference, a comment or your name with the buttons above, or edit <a href="{{ links.notes_edit }}">NOTES.md</a> on GitHub.</p>
+<p class="empty">{% if p.contributions %}No other notes yet{% else %}No notes yet{% endif %}. Add a reference, a comment or your name with the buttons above, or edit <a href="{{ links.notes_edit }}">NOTES.md</a> on GitHub.</p>
 {% endif %}
 </section>
 

@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import csv
 import datetime
+import hashlib
 import html
 import posixpath
 import json
@@ -183,7 +184,8 @@ def activity_entries(papers: dict) -> list[dict]:
     for slug, p in papers.items():
         for c in p.contributions:
             out.append({"slug": slug, "paper": p, "c": c,
-                        "id": f"tag:{SITE_URL.split('://')[-1].split('/')[0]},2026:{slug}/{c.date}/{c.order}"})
+                        "id": f"tag:{SITE_URL.split('://')[-1].split('/')[0]},2026:{slug}/{c.date}/"
+                              + hashlib.sha1(c.text.encode()).hexdigest()[:12]})
     out.sort(key=lambda e: (e["c"].date, e["slug"], e["c"].order), reverse=True)
     return out
 

@@ -8,7 +8,7 @@
 
 ```bibtex
 @misc{OAI:The-circulant-Hadamard-conjecture-September-23-2026,
-  author = {{OpenAI}},
+  author = {{OpenAI (with community contributions)}},
   title = {{The circulant Hadamard conjecture}},
   howpublished = {OpenAI Math Release preprint
                   \href{https://github.com/openai/math/blob/main/preprints/The-circulant-Hadamard-conjecture-September-23-2026/paper.pdf}{OAI:The-circulant-Hadamard-conjecture-September-23-2026}},

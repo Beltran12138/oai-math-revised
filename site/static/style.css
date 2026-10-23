@@ -107,3 +107,4 @@ pre { background: var(--code); padding: 12px; padding-right: 120px; border-radiu
 .recent { margin: 0 0 22px; padding: 10px 14px; border: 1px solid var(--line); border-radius: 6px; }
 .recent h2 { font-size: 1rem; margin-bottom: 4px; }
 .recent .small { margin: 4px 0 0; }
+@media (max-width: 699px) { .recent li:nth-child(n+2) { display: none; } }

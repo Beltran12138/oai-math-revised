@@ -4,7 +4,7 @@ This file is for AI coding agents (Claude Code, Codex and others) that help some
 
 ## What this repository is
 
-A community fork of [openai/math](https://github.com/openai/math): 719 manuscripts written by an OpenAI model, grouped into 372 result families. The community adds missing citations, corrects errors, records follow-up work and comments, and organizes reading groups. Nothing here is peer reviewed or verified, and nothing you write should suggest that it is (no "verified", "correct", "certified", no scores).
+A community fork of [openai/math](https://github.com/openai/math): 719 manuscripts written by an OpenAI model, grouped into 372 result families. The community adds missing citations, corrects errors, records follow-up work and comments, and organizes reading groups. Nothing here is peer reviewed or verified, and nothing you write should suggest that it is (no claims that a paper or result is verified, correct or certified; no scores).
 
 The website (https://mathcommunity.github.io/oai-math-revised/) is generated from the files in this repository by `site/build.py`, so the formats below matter: the site parses them.
 
@@ -22,12 +22,12 @@ The website (https://mathcommunity.github.io/oai-math-revised/) is generated fro
 
 ## Scope of changes to a manuscript
 
-In scope: adding missing citations and related prior work, correcting attribution, fixing mathematical errors that can be fixed, correcting Lean statements that do not match the paper, and pointing to follow-up work or expositions (for example in an unnumbered remark). Rewriting sections for style, or replacing the manuscript with a new version, is currently out of scope; propose it in an issue first.
+In scope: adding missing citations and related prior work, correcting attribution, fixing mathematical errors that can be fixed, correcting Lean statements that do not match the paper (in a separate pull request), and pointing to follow-up work or expositions (for example in an unnumbered remark). Rewriting sections for style, or replacing the manuscript with a new version, is currently out of scope; propose it in an issue first.
 
 ## Editing a manuscript
 
 1. Edit the TeX in `preprints/<paper>/build/`. Keep theorem, section and equation numbering unchanged (use unnumbered remarks for additions).
-2. Set the byline to `OpenAI (with community contributions)` and the date to the date of your change, in both the TeX (`\author`, `\date`, `pdfauthor` if present) and `README.md` (`**Author:**`, `**Date:**`).
+2. Set the byline to `OpenAI (with community contributions)` and the date to the date of your change, in the TeX (`\author`, `\date`, `pdfauthor` if present) and in `README.md` (`**Author:**`, `**Date:**` and the BibTeX `author` field).
 3. Recompile and replace the PDF, keeping its file name. Check that there are no undefined references or citations. Do not commit auxiliary files (`.aux`, `.log`, `.bbl`, ...).
 4. Every reference you add must exist: check it at its DOI, arXiv, journal or publisher page, and make sure the bibliographic data (authors, title, year, venue) match. Never cite something only because a search tool or language model mentioned it.
 5. Add a line under "Contributions" in the paper's `NOTES.md` (next section).
@@ -54,7 +54,7 @@ In scope: adding missing citations and related prior work, correcting attributio
   - 2026-10-21 @handle-one (Optional Name), @handle-two: ...
   ```
 
-  Date `YYYY-MM-DD`, then one or more people separated by commas (a GitHub handle, optionally followed by a name in parentheses), a colon, and the description. If you do not know the PR number yet, leave the link out; a maintainer adds it. If AI tools were used substantially, say so in the description (for example "Drafted with Claude Code; sources checked by the contributor").
+  Date `YYYY-MM-DD` (the day of the change, e.g. when the pull request was opened or merged), then one or more people separated by commas (a GitHub handle, optionally followed by a name in parentheses; a plain name for someone without a GitHub account), a colon and a space, and the description. Each entry must fit on one line. Sign-ups to "People interested" also get a line. If you do not know the PR number yet, leave the link out; a maintainer adds it. If AI tools were used substantially, say so in the description (for example "Drafted with Claude Code; sources checked by the contributor").
 - **Follow-up works**, **Constructive comments / reviews**: one item per line with a link and one neutral sentence on how it relates to the paper. Reproduce other people's comments only with their permission.
 - **People interested**: add only the contributor's own name, or names whose owners explicitly agreed.
 

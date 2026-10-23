@@ -10,6 +10,7 @@ Sources:
 
 from __future__ import annotations
 
+import datetime
 import re
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -159,8 +160,13 @@ def parse_contributions(notes: str) -> tuple[list[Contribution], list[str]]:
             continue
         m = _CONTRIB_LINE.fullmatch(line.strip())
         people = []
+        try:
+            m = m if m and datetime.date.fromisoformat(m.group(1)) else None
+        except ValueError:  # not a calendar date
+            m = None
         if m:
-            for part in m.group(2).split(","):
+            # Split on commas outside parentheses: "@a (Doe, Jane), @b".
+            for part in re.split(r",(?![^()]*\))", m.group(2)):
                 pm = _PERSON.fullmatch(part.strip())
                 if not pm:
                     break
