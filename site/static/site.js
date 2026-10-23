@@ -43,7 +43,7 @@
     var browse = document.getElementById("browse");
     var fd = document.getElementById("fd");
     var fn = document.getElementById("fn") || { checked: false, addEventListener: function () {} };
-    var fl = document.getElementById("fl"), fo = document.getElementById("fo");
+    var fl = document.getElementById("fl"), fo = document.getElementById("fo"), fa = document.getElementById("fa");
     var count = document.getElementById("count"), empty = document.getElementById("empty");
     var clearwrap = document.getElementById("clearwrap");
     var discs = Array.prototype.slice.call(browse.querySelectorAll(".disc"));
@@ -59,13 +59,14 @@
     link("expand", function () { discs.forEach(function (d) { if (!d.hidden) d.open = true; }); });
     link("collapse", function () { discs.forEach(function (d) { d.open = false; }); });
     link("clear", function () {
-      q.value = ""; fd.value = ""; fn.checked = fl.checked = fo.checked = false; update();
+      q.value = ""; fd.value = ""; fa.value = ""; fn.checked = fl.checked = fo.checked = false; update();
     });
 
     function matches(p, terms) {
       if (fd.value && p.d !== fd.value) return false;
       if (fn.checked && !p.n) return false;
       if (fl.checked && !p.l) return false;
+      if (fa.value && (p.a || []).indexOf(fa.value) < 0) return false;
       return terms.every(function (t) {
         if (/^\d{1,3}$/.test(t)) return p.f === ("00" + t).slice(-3);  // a bare number is a family number
         return p.hay.indexOf(t) >= 0;
@@ -74,7 +75,8 @@
 
     function update() {
       var terms = norm(q.value).split(/\s+/).filter(Boolean);
-      var active = terms.length > 0 || !!fd.value || fn.checked || fl.checked;
+      var active = terms.length > 0 || !!fd.value || !!fa.value || fn.checked || fl.checked;
+      saveState();
       clearwrap.hidden = !(active || fo.checked);
       browse.querySelectorAll(".count").forEach(function (c) { c.hidden = active; });
       if (active && !index) {
@@ -130,10 +132,34 @@
       wasActive = active;
     }
 
+    // Search and filters are kept in the URL (?q=...&d=...), so a filtered view can be shared.
+    var checks = { contributions: fn, lean: fl, earlier: fo };
+    function saveState() {
+      var params = new URLSearchParams();
+      if (q.value.trim()) params.set("q", q.value.trim());
+      if (fd.value) params.set("d", fd.value);
+      if (fa.value) params.set("ai", fa.value);
+      Object.keys(checks).forEach(function (k) { if (checks[k].checked) params.set(k, "1"); });
+      var s = params.toString();
+      try {  // Safari limits how often this may be called
+        history.replaceState(null, "", location.pathname + (s ? "?" + s : "") + location.hash);
+      } catch (e) {}
+    }
+    function loadState() {
+      var params = new URLSearchParams(location.search);
+      if (params.has("q")) q.value = params.get("q").trim();
+      [[fd, "d"], [fa, "ai"]].forEach(function (x) {
+        var v = params.get(x[1]);
+        if (v && Array.prototype.some.call(x[0].options, function (o) { return o.value === v; })) x[0].value = v;
+      });
+      Object.keys(checks).forEach(function (k) { if (params.get(k) === "1") checks[k].checked = true; });
+    }
+
     var timer;
     q.addEventListener("input", function () { clearTimeout(timer); timer = setTimeout(update, 150); });
-    [fd, fn, fl, fo].forEach(function (el) { el.addEventListener("change", update); });
-    if (q.value || fd.value || fn.checked || fl.checked || fo.checked) update();  // restored form state
+    [fd, fa, fn, fl, fo].forEach(function (el) { el.addEventListener("change", update); });
+    loadState();
+    if (q.value || fd.value || fa.value || fn.checked || fl.checked || fo.checked) update();  // from URL or restored form state
   }
 
   document.addEventListener("DOMContentLoaded", function () {

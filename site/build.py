@@ -172,6 +172,29 @@ NOTES_TEMPLATE = """## Contributions
 """
 
 
+# AGENT_NOTES.md sections offered as a browse filter (code, heading, label). "Possibly
+# relevant literature (found by the agent, not checked)" is left out on purpose.
+AGENT_SECTIONS = [
+    ("fw", "Follow-up works", "follow-up works"),
+    ("cd", "Comments and discussion", "comments and discussion"),
+    ("fm", "Formalization", "formalization"),
+    ("pl", "Related prior literature mentioned by others", "prior literature"),
+    ("de", "Digests and expositions", "digests and expositions"),
+    ("nb", "News and blogs", "news and blogs"),
+]
+
+
+def agent_sections(text: str | None) -> list[str]:
+    """Codes of the AGENT_NOTES.md sections that list at least one item."""
+    found = []
+    for block in re.split(r"^(?=## )", text or "", flags=re.M):
+        head, _, body = block.partition("\n")
+        for code, heading, _ in AGENT_SECTIONS:
+            if head.strip() == f"## {heading}" and re.search(r"^- (?!none found)", body, flags=re.M | re.I):
+                found.append(code)
+    return found
+
+
 def long_date(iso: str) -> str:
     """2026-10-20 -> October 20, 2026 (the format used elsewhere on the site)."""
     d = datetime.date.fromisoformat(iso)
@@ -278,6 +301,7 @@ def build(out: Path, pdf_mode: str) -> None:
 
     write(out / "index.html", "index.html", root=".", disciplines=disciplines,
           families=families, papers=papers, withdrawn=withdrawn, earlier=earlier, activity=activity[:3],
+          agent_sections=[(code, label) for code, _, label in AGENT_SECTIONS],
           n_with_notes=sum(p.has_notes for p in papers.values()),
           n_earlier=sum(p.status == "superseded" for p in papers.values()))
     write(out / "contribute" / "index.html", "contribute.html", root="..")
@@ -327,7 +351,8 @@ def build(out: Path, pdf_mode: str) -> None:
                 p.abstract, fam.summary if fam else "", p.notes_md or "", p.discipline or "")),
             "d": p.discipline or "",
             "st": p.status,
-            "n": int(p.has_notes),
+            "n": int(p.has_notes or p.community_revised),
+            "a": agent_sections(p.agent_notes_md),
             "l": int(bool(fam and fam.lean_doc)),
         })
 
