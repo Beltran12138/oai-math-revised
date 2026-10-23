@@ -172,12 +172,13 @@ NOTES_TEMPLATE = """## Contributions
 """
 
 
-# AGENT_NOTES.md sections offered as a browse filter (code, label).
+# AGENT_NOTES.md sections offered as a browse filter (code, heading, label). "Possibly
+# relevant literature (found by the agent, not checked)" is left out on purpose.
 AGENT_SECTIONS = [
     ("fw", "Follow-up works", "follow-up works"),
     ("cd", "Comments and discussion", "comments and discussion"),
     ("fm", "Formalization", "formalization"),
-    ("pl", "Related prior literature mentioned by others", "prior literature mentioned by others"),
+    ("pl", "Related prior literature mentioned by others", "prior literature"),
     ("de", "Digests and expositions", "digests and expositions"),
     ("nb", "News and blogs", "news and blogs"),
 ]
@@ -189,7 +190,7 @@ def agent_sections(text: str | None) -> list[str]:
     for block in re.split(r"^(?=## )", text or "", flags=re.M):
         head, _, body = block.partition("\n")
         for code, heading, _ in AGENT_SECTIONS:
-            if head.strip() == f"## {heading}" and re.search(r"^- (?!None found)", body, flags=re.M):
+            if head.strip() == f"## {heading}" and re.search(r"^- (?!none found)", body, flags=re.M | re.I):
                 found.append(code)
     return found
 

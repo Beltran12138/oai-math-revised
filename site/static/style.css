@@ -107,3 +107,6 @@ pre { background: var(--code); padding: 12px; padding-right: 120px; border-radiu
 .recent { margin: 0 0 14px; }
 .recent > summary h2 { display: inline; font-size: 1rem; }
 .recent .small { margin: 4px 0 0; }
+.recent .count { font-size: 14px; }
+.nowrap { white-space: nowrap; }
+.frow + .frow { margin-top: 8px; }

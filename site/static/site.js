@@ -66,7 +66,7 @@
       if (fd.value && p.d !== fd.value) return false;
       if (fn.checked && !p.n) return false;
       if (fl.checked && !p.l) return false;
-      if (fa.value && p.a.indexOf(fa.value) < 0) return false;
+      if (fa.value && (p.a || []).indexOf(fa.value) < 0) return false;
       return terms.every(function (t) {
         if (/^\d{1,3}$/.test(t)) return p.f === ("00" + t).slice(-3);  // a bare number is a family number
         return p.hay.indexOf(t) >= 0;
@@ -141,11 +141,13 @@
       if (fa.value) params.set("ai", fa.value);
       Object.keys(checks).forEach(function (k) { if (checks[k].checked) params.set(k, "1"); });
       var s = params.toString();
-      history.replaceState(null, "", location.pathname + (s ? "?" + s : "") + location.hash);
+      try {  // Safari limits how often this may be called
+        history.replaceState(null, "", location.pathname + (s ? "?" + s : "") + location.hash);
+      } catch (e) {}
     }
     function loadState() {
       var params = new URLSearchParams(location.search);
-      if (params.has("q")) q.value = params.get("q");
+      if (params.has("q")) q.value = params.get("q").trim();
       [[fd, "d"], [fa, "ai"]].forEach(function (x) {
         var v = params.get(x[1]);
         if (v && Array.prototype.some.call(x[0].options, function (o) { return o.value === v; })) x[0].value = v;
