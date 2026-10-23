@@ -30,6 +30,8 @@ concurrency:
 
 jobs:
   build:
+    # Discussions outside the "Papers" category do not change the site.
+    if: ${{ !startsWith(github.event_name, 'discussion') || github.event.discussion.category.slug == 'papers' }}
     runs-on: ubuntu-latest
     steps:
       # Only the files the site is built from; the Lean library is not needed.

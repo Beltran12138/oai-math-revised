@@ -26,7 +26,7 @@
   <a class="btn" href="{{ links.report }}">Report a problem</a>
   <a class="btn" href="{{ links.reference }}">Add a reference or comment</a>
   <a class="btn" href="{{ links.interest }}">Interested in working on this</a>
-  {% if live.discussion %}<a class="btn" href="{{ live.discussion.url }}">Discussion ({{ live.discussion.comments }} {{ "reply" if live.discussion.comments == 1 else "replies" }})</a>
+  {% if live.discussion %}<a class="btn" href="{{ live.discussion.url }}">Discussion{% if live.discussion.comments %} ({{ live.discussion.comments }} {{ "comment" if live.discussion.comments == 1 else "comments" }}){% endif %}</a>
   {% elif live_ok %}<a class="btn" href="{{ links.discuss }}">Start a discussion</a>
   {% else %}<a class="btn" href="{{ links.discussions }}">Discussion</a>{% endif %}
 </p>

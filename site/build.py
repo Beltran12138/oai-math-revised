@@ -265,7 +265,7 @@ def _paper_field(body: str | None) -> str:
     return ""
 
 
-def fetch_live(slugs: set[str]) -> dict[str, dict] | None:
+def fetch_live(slugs: set[str], titles: dict[str, str] | None = None) -> dict[str, dict] | None:
     """{slug: {"open_issues": n, "discussion": {...}}}, or None if GitHub could not be asked."""
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
     if not token:
@@ -288,7 +288,8 @@ def fetch_live(slugs: set[str]) -> dict[str, dict] | None:
           repository(owner: $owner, name: $name) {
             discussions(first: 100, after: $after, orderBy: {field: CREATED_AT, direction: ASC}) {
               pageInfo { hasNextPage endCursor }
-              nodes { url createdAt body category { slug } comments { totalCount } }
+              nodes { url title createdAt body category { slug }
+                      comments(first: 100) { totalCount nodes { replies { totalCount } } } }
             }
           }
         }"""
@@ -301,10 +302,13 @@ def fetch_live(slugs: set[str]) -> dict[str, dict] | None:
             page = res["data"]["repository"]["discussions"]
             for d in page["nodes"]:
                 slug = _paper_field(d.get("body"))
+                if slug not in slugs:  # Paper field missing or wrong: try the title
+                    slug = (titles or {}).get(re.sub(r"^\[discussion\]\s*", "", d.get("title") or "").strip().lower(), "")
+                comments = d["comments"]["totalCount"] + sum(c["replies"]["totalCount"] for c in d["comments"]["nodes"])
                 if d["category"]["slug"] == DISCUSSION_CATEGORY and slug in slugs:
                     # The oldest discussion of a paper is the one the site links to.
                     live.setdefault(slug, {}).setdefault("discussion", {
-                        "url": d["url"], "comments": d["comments"]["totalCount"], "created": d["createdAt"]})
+                        "url": d["url"], "comments": comments, "created": d["createdAt"]})
             if not page["pageInfo"]["hasNextPage"]:
                 break
             after = page["pageInfo"]["endCursor"]
@@ -368,7 +372,11 @@ def build(out: Path, pdf_mode: str) -> None:
     earlier = {slug: chain_older(slug) for slug in papers}
 
     # Issues and discussions about any edition belong to the current one.
-    fetched = fetch_live(set(papers))
+    by_title: dict[str, str] = {}
+    for slug, p in papers.items():
+        key = plain(inline_links(p.title)).lower()
+        by_title[key] = newest(slug) if by_title.get(key, newest(slug)) == newest(slug) else ""  # ambiguous titles: no match
+    fetched = fetch_live(set(papers), by_title)
     live: dict[str, dict] = {}
     for slug, v in (fetched or {}).items():
         cur = live.setdefault(newest(slug), {})

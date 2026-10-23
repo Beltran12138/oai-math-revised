@@ -2,7 +2,7 @@ title: "[discussion] "
 body:
   - type: markdown
     attributes:
-      value: One discussion per paper. If one already exists for this paper, please post there instead (the paper's page on the website links to it).
+      value: One discussion per paper. If one already exists for this paper, please post there instead (the paper's page on the website links to it). Keep the Paper field as filled in; the website uses it to find this discussion.
   - type: input
     id: paper
     attributes:
