@@ -1,3 +1,7 @@
+## Contributions
+
+- 2026-10-20 @schmittj (Johannes Schmitt): Signed up as interested in working on this paper.
+
 ## Follow-up works
 
 ## Constructive comments / reviews

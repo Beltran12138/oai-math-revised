@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import csv
 import datetime
+import hashlib
 import html
 import posixpath
 import json
@@ -31,6 +32,7 @@ SITE_SRC = Path(__file__).resolve().parent
 REPO = os.environ.get("SITE_REPO", "mathcommunity/oai-math-revised")
 BRANCH = os.environ.get("SITE_BRANCH", "main")
 GITHUB = f"https://github.com/{REPO}"
+SITE_URL = os.environ.get("SITE_URL", "https://mathcommunity.github.io/oai-math-revised").rstrip("/")
 UPSTREAM = "https://github.com/openai/math"
 
 
@@ -160,12 +162,37 @@ def plain(text: str) -> str:
 
 # --- links into GitHub ------------------------------------------------------
 
-NOTES_TEMPLATE = """## Follow-up works
+NOTES_TEMPLATE = """## Contributions
+
+## Follow-up works
 
 ## Constructive comments / reviews
 
 ## People interested in meeting to work on digestion
 """
+
+
+def long_date(iso: str) -> str:
+    """2026-10-20 -> October 20, 2026 (the format used elsewhere on the site)."""
+    d = datetime.date.fromisoformat(iso)
+    return f"{d:%B} {d.day}, {d.year}"
+
+
+def activity_entries(papers: dict) -> list[dict]:
+    """All "Contributions" lines from NOTES.md files, newest first."""
+    out = []
+    host = SITE_URL.split("://")[-1].split("/")[0]
+    for slug, p in papers.items():
+        seen: dict[tuple, int] = {}
+        for c in p.contributions:
+            # Feed id from paper, date and people (stable when the text is edited),
+            # numbered if the same people have several entries on one day.
+            who = tuple(h or n for h, n in c.people)
+            seen[(c.date, who)] = k = seen.get((c.date, who), 0) + 1
+            key = hashlib.sha1("|".join(who).encode()).hexdigest()[:10]
+            out.append({"slug": slug, "paper": p, "c": c, "id": f"tag:{host},2026:{slug}/{c.date}/{key}/{k}"})
+    out.sort(key=lambda e: (e["c"].date, e["slug"], e["c"].order), reverse=True)
+    return out
 
 
 def issue_url(template: str, slug: str, title: str) -> str:
@@ -191,7 +218,7 @@ def build(out: Path, pdf_mode: str) -> None:
     disciplines, families, papers = load(ROOT)
 
     env = Environment(loader=FileSystemLoader(SITE_SRC / "templates"),
-                      autoescape=select_autoescape(["html"]), trim_blocks=True, lstrip_blocks=True)
+                      autoescape=select_autoescape(["html", "xml"]), trim_blocks=True, lstrip_blocks=True)
     env.globals.update(
         GITHUB=GITHUB, UPSTREAM=UPSTREAM, BRANCH=BRANCH,
         BUILD_DATE=datetime.date.today().isoformat(),
@@ -199,6 +226,15 @@ def build(out: Path, pdf_mode: str) -> None:
     )
     env.filters["md"] = pass_context(lambda ctx, t, slug=None: render_md(t, slug, ctx["root"]))
     env.filters["notes"] = pass_context(lambda ctx, t, slug=None: render_notes(t, slug, ctx["root"]))
+    def inline_md(ctx, text, slug=None, elsewhere=False):
+        out = re.sub(r"\A<p>(.*)</p>\Z", r"\1", render_md(text, slug, ctx["root"]).strip(), flags=re.S)
+        if elsewhere and slug:  # shown outside the paper's page: anchors refer to that page
+            out = out.replace('href="#', f'href="{ctx["root"]}/papers/{slug}/#')
+        return out
+
+    env.filters["inline_md"] = pass_context(inline_md)
+    env.filters["long_date"] = long_date
+    env.filters["unbullet"] = lambda line: re.sub(r"\A[-*]\s+", "", line)
     env.filters["slugify"] = slugify
     env.filters["plain"] = plain
     env.filters["html"] = pass_context(lambda ctx, t: inline_links(t, ctx["root"]))
@@ -235,11 +271,21 @@ def build(out: Path, pdf_mode: str) -> None:
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(env.get_template(template).render(**ctx), encoding="utf-8")
 
+    activity = activity_entries(papers)
+    for slug, p in papers.items():
+        for line in p.contribution_problems:
+            print(f"warning: preprints/{slug}/NOTES.md: Contributions line not understood: {line}")
+
     write(out / "index.html", "index.html", root=".", disciplines=disciplines,
-          families=families, papers=papers, withdrawn=withdrawn, earlier=earlier,
+          families=families, papers=papers, withdrawn=withdrawn, earlier=earlier, activity=activity[:3],
           n_with_notes=sum(p.has_notes for p in papers.values()),
           n_earlier=sum(p.status == "superseded" for p in papers.values()))
     write(out / "contribute" / "index.html", "contribute.html", root="..")
+    write(out / "activity" / "index.html", "activity.html", root="..", activity=activity)
+    feed = env.get_template("activity.xml").render(
+        root=SITE_URL, activity=activity[:50], SITE_URL=SITE_URL,
+        updated=(activity[0]["c"].date if activity else datetime.date.today().isoformat()))
+    (out / "activity.xml").write_text(feed, encoding="utf-8")
 
     index = []
     for slug, p in papers.items():
@@ -264,7 +310,8 @@ def build(out: Path, pdf_mode: str) -> None:
               siblings=siblings, papers=papers, links=links, current=current,
               version_note=version_note, other_readme=other_readme,
               original_date=_date_from_slug(slug), agent=split_agent_notes(p.agent_notes_md),
-              elsewhere=elsewhere.get(slug, []))
+              elsewhere=elsewhere.get(slug, []),
+              contributions=sorted(p.contributions, key=lambda c: (c.date, c.order), reverse=True))
         if p.pdf and pdf_mode != "none":
             src, dst = ROOT / "preprints" / slug / p.pdf, out / "papers" / slug / p.pdf
             if pdf_mode == "link":

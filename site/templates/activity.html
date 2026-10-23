@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% from "macros.html" import activity_line with context %}
+{% block title %}Activity · oai-math-revised{% endblock %}
+{% block main %}
+<h1>Activity</h1>
+<p>Changes to papers and notes made by people, newest first. Each paper's NOTES.md records them under "Contributions". <a href="{{ root }}/activity.xml">Atom feed</a></p>
+{% if activity %}
+<ul class="activity">{% for e in activity %}{{ activity_line(e, root ~ "/papers/") }}
+{% endfor %}</ul>
+{% else %}
+<p class="empty">Nothing yet.</p>
+{% endif %}
+{% endblock %}

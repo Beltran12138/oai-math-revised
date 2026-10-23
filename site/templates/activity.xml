@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+{% from "macros.html" import people with context %}
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>oai-math-revised: activity</title>
+<subtitle>Changes to papers and notes made by people.</subtitle>
+<link rel="self" href="{{ SITE_URL }}/activity.xml"/>
+<link href="{{ SITE_URL }}/activity/"/>
+<id>{{ SITE_URL }}/activity.xml</id>
+<updated>{{ updated }}T00:00:00Z</updated>
+{% for e in activity %}
+<entry>
+<title>{% for h, n in e.c.people %}{{ ("@" ~ h) if h else n }}{% if not loop.last %}, {% endif %}{% endfor %} on {{ e.paper.title|html|plain }}</title>
+<link href="{{ SITE_URL }}/papers/{{ e.slug }}/#contributions"/>
+<id>{{ e.id }}</id>
+<updated>{{ e.c.date }}T00:00:00Z</updated>
+<author><name>{% for h, n in e.c.people %}{{ n or ("@" ~ h) }}{% if not loop.last %}, {% endif %}{% endfor %}</name></author>
+{% set body %}{{ people(e.c) }}: {{ e.c.text|inline_md(e.slug, True)|safe }}{% endset %}
+<content type="html">{{ body|forceescape }}</content>
+</entry>
+{% endfor %}
+</feed>

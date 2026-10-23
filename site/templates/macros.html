@@ -12,3 +12,15 @@
 {% macro lean_marker(fam) -%}
 {% if fam.lean_doc %}<a class="mk" href="{{ GITHUB }}/blob/{{ BRANCH }}/{{ fam.lean_doc }}" title="Lean files exist for this result; the Lean statements have not been checked by people against the paper.">Lean</a>{% endif %}
 {%- endmacro %}
+
+{% macro people(c) -%}
+{% for h, n in c.people %}{% if h %}{% if n %}{{ n }} (<a href="https://github.com/{{ h }}">@{{ h }}</a>){% else %}<a href="https://github.com/{{ h }}">@{{ h }}</a>{% endif %}{% else %}{{ n }}{% endif %}{% if not loop.last %}, {% endif %}{% endfor %}
+{%- endmacro %}
+
+{% macro contribution(c, slug, elsewhere=False) -%}
+<span class="date">{{ c.date|long_date }}</span> · {{ people(c) }}: {{ c.text|inline_md(slug, elsewhere)|safe }}
+{%- endmacro %}
+
+{% macro activity_line(e, prefix) -%}
+<li><a href="{{ prefix }}{{ e.slug }}/">{{ e.paper.title|html|safe }}</a><br>{{ contribution(e.c, e.slug, True) }}</li>
+{%- endmacro %}
