@@ -5,12 +5,12 @@
 <p class="intro">OpenAI released 719 manuscripts produced by one of its models, grouped into 372 result families (<a href="{{ UPSTREAM }}">openai/math</a>). This site lists them by discipline with OpenAI's own summaries and abstracts. The manuscripts are not peer reviewed; the notes and issues record what has been checked, corrected or questioned so far.</p>
 
 {% if activity %}
-<section class="recent">
-<h2>Recent activity</h2>
+<details class="recent" id="recent">
+<summary><h2>Recent activity</h2> <span class="count">(latest {{ activity[0].c.date|long_date }})</span></summary>
 <ul class="activity">{% for e in activity %}{{ activity_line(e, "papers/") }}
 {% endfor %}</ul>
 <p class="small"><a href="activity/">All activity</a> · <a href="activity.xml">Atom feed</a></p>
-</section>
+</details>
 {% endif %}
 
 <div class="search">
@@ -19,9 +19,10 @@
     <summary>Filters</summary>
     <div class="frow">
       <label>Discipline <select id="fd"><option value="">All disciplines</option>{% for d in disciplines %}<option>{{ d.name }}</option>{% endfor %}</select></label>
-      {% if n_with_notes %}<label><input type="checkbox" id="fn"> With community notes</label>{% endif %}
+      {% if n_with_notes %}<label title="Revised by people, or with entries in NOTES.md (references, comments, sign-ups)"><input type="checkbox" id="fn"> With community contributions</label>{% endif %}
       <label><input type="checkbox" id="fl"> With Lean files</label>
       <label><input type="checkbox" id="fo"> Include earlier editions</label>
+      <label title="Notes collected by AI tools; not checked by people">Automatically collected notes <select id="fa"><option value="">(no filter)</option>{% for code, name in agent_sections %}<option value="{{ code }}">list {{ name }}</option>{% endfor %}</select></label>
     </div>
   </details>
   <p class="tools"><span id="count" role="status" aria-live="polite" data-earlier="{{ n_earlier }}">372 families, 719 manuscripts</span>
