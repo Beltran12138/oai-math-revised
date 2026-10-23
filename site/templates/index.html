@@ -1,8 +1,17 @@
 {% extends "base.html" %}
-{% from "macros.html" import paper_line, markers, lean_marker with context %}
+{% from "macros.html" import paper_line, markers, lean_marker, activity_line with context %}
 {% block main %}
 <p class="tagline">Community corrections, references, comments and reading groups for the OpenAI math manuscripts.</p>
 <p class="intro">OpenAI released 719 manuscripts produced by one of its models, grouped into 372 result families (<a href="{{ UPSTREAM }}">openai/math</a>). This site lists them by discipline with OpenAI's own summaries and abstracts. The manuscripts are not peer reviewed; the notes and issues record what has been checked, corrected or questioned so far.</p>
+
+{% if activity %}
+<section class="recent">
+<h2>Recent activity</h2>
+<ul class="activity">{% for e in activity %}{{ activity_line(e, "papers/") }}
+{% endfor %}</ul>
+<p class="small"><a href="activity/">All activity</a> · <a href="activity.xml">Atom feed</a></p>
+</section>
+{% endif %}
 
 <div class="search">
   <input id="q" type="search" placeholder="Search titles, summaries, abstracts (e.g. Hadamard, Selmer, 003)" aria-label="Search" autocomplete="off">

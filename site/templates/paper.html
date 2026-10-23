@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "macros.html" import paper_line, markers, lean_marker with context %}
+{% from "macros.html" import paper_line, markers, lean_marker, contribution with context %}
 {% block title %}{{ p.title|plain }} · oai-math-revised{% endblock %}
 {% block main %}
 <p class="crumbs"><a href="{{ root }}/">Browse</a>{% if p.status == "withdrawn" %} › <a href="{{ root }}/#withdrawn">Withdrawn manuscripts</a>{% endif %}{% if fam %} › <a href="{{ root }}/#{{ fam.discipline|slugify }}">{{ fam.discipline }}</a> › <a href="{{ root }}/#family-{{ fam.num }}">{{ fam.num }} {{ fam.title|html|safe }}</a>{% endif %}</p>
@@ -29,6 +29,13 @@
 </p>
 <p class="secondary"><a href="{{ links.notes_edit }}">Edit NOTES.md</a> · <a href="{{ links.issues }}">Existing issues</a> · <a href="{{ links.source }}">Source on GitHub</a></p>
 
+{% if contributions %}
+<section id="contributions"><h2>Contributions</h2>
+<ul class="activity">{% for c in contributions %}<li>{{ contribution(c, p.slug) }}</li>
+{% endfor %}</ul>
+</section>
+{% endif %}
+
 {% if p.abstract %}
 <section><h2>Abstract</h2><p>{{ p.abstract|html|safe }}</p></section>
 {% endif %}
@@ -41,8 +48,8 @@
 {% endif %}
 
 <section id="notes"><h2>Notes</h2>
-{% if p.has_notes %}
-<div class="notes">{{ p.notes_md|notes(p.slug)|safe }}</div>
+{% if p.has_notes_body %}
+<div class="notes">{{ p.notes_body|notes(p.slug)|safe }}</div>
 {% else %}
 <p class="empty">No notes yet. Add a reference, a comment or your name with the buttons above, or edit <a href="{{ links.notes_edit }}">NOTES.md</a> on GitHub.</p>
 {% endif %}

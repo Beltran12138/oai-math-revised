@@ -1,8 +1,8 @@
 # [The circulant Hadamard conjecture](paper.pdf)
 
-**Author:** OpenAI
+**Author:** OpenAI (with community contributions)
 
-**Date:** September 23, 2026
+**Date:** October 18, 2026
 
 ## Citation
 

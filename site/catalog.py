@@ -16,6 +16,14 @@ from pathlib import Path
 
 
 @dataclass
+class Contribution:
+    date: str  # YYYY-MM-DD
+    people: list[tuple[str, str]]  # (GitHub handle or "", display name or "")
+    text: str  # Markdown
+    order: int = 0  # position in NOTES.md, to keep same-day entries in order
+
+
+@dataclass
 class Paper:
     slug: str  # folder name under preprints/
     title: str  # display title (may contain $..$ math)
@@ -38,13 +46,24 @@ class Paper:
     withdrawn_on: str = ""
     archived_pdf: str = ""  # pre-withdrawal PDF, for withdrawn papers
     community_revised: bool = False
+    contributions: list[Contribution] = field(default_factory=list)  # from NOTES.md
+    contribution_problems: list[str] = field(default_factory=list)  # lines that did not parse
+
+    @property
+    def notes_body(self) -> str:
+        """NOTES.md without its "Contributions" section (shown separately)."""
+        return split_contributions(self.notes_md or "")[1]
 
     @property
     def has_notes(self) -> bool:
-        """NOTES.md has some content beyond headings."""
+        """NOTES.md has some content beyond headings (contributions included)."""
         if not self.notes_md:
             return False
         return any(line.strip() and not line.lstrip().startswith("#") for line in self.notes_md.splitlines())
+
+    @property
+    def has_notes_body(self) -> bool:
+        return any(line.strip() and not line.lstrip().startswith("#") for line in self.notes_body.splitlines())
 
 
 @dataclass
@@ -116,6 +135,41 @@ def parse_overview(root: Path):
         if m and out:
             out[-1][1].append(m.group(1))
     return out
+
+
+# NOTES.md records changes made by people in a "## Contributions" section,
+# one line each:  - 2026-10-20 @handle (Optional Name), @other: What changed ([PR #3](...)).
+_CONTRIB_LINE = re.compile(r"[-*]\s+(\d{4}-\d{2}-\d{2})\s+(.+?):\s+(.+?)\s*")
+_PERSON = re.compile(r"@([A-Za-z0-9](?:[A-Za-z0-9-]{0,38}))(?:\s*\((.+)\))?|([^@()]+)")
+
+
+def split_contributions(notes: str) -> tuple[str, str]:
+    """Return (body of the Contributions section, the rest of NOTES.md)."""
+    m = re.search(r"^## Contributions[ \t]*\n(.*?)(?=^## |\Z)", notes, flags=re.M | re.S)
+    if not m:
+        return "", notes
+    return m.group(1), notes[:m.start()] + notes[m.end():]
+
+
+def parse_contributions(notes: str) -> tuple[list[Contribution], list[str]]:
+    section, _ = split_contributions(notes)
+    entries, problems = [], []
+    for line in section.splitlines():
+        if not line.strip():
+            continue
+        m = _CONTRIB_LINE.fullmatch(line.strip())
+        people = []
+        if m:
+            for part in m.group(2).split(","):
+                pm = _PERSON.fullmatch(part.strip())
+                if not pm:
+                    break
+                people.append((pm.group(1), (pm.group(2) or "").strip()) if pm.group(1) else ("", pm.group(3).strip()))
+            else:
+                entries.append(Contribution(date=m.group(1), people=people, text=m.group(3), order=len(entries)))
+                continue
+        problems.append(line.strip())
+    return entries, problems
 
 
 _MONTHS = "January|February|March|April|May|June|July|August|September|October|November|December"
@@ -219,6 +273,8 @@ def load(root: Path):
         for name, attr in (("NOTES.md", "notes_md"), ("AGENT_NOTES.md", "agent_notes_md")):
             if (d / name).is_file():
                 setattr(p, attr, (d / name).read_text(encoding="utf-8"))
+        if p.notes_md:
+            p.contributions, p.contribution_problems = parse_contributions(p.notes_md)
         if p.pdf and not (d / p.pdf).is_file():
             p.pdf = None
 

@@ -13,9 +13,10 @@ Three ways you can contribute:
     It is preferred you edit the TeX directly. Each paper has a subfolder of [`preprints/`](https://github.com/mathcommunity/oai-math-revised/tree/main/preprints) with its TeX sources in `build/` and its PDF at the top; after editing, recompile and replace that PDF, keeping its file name (often `paper.pdf` or `main.pdf`). The full repository is large, so to work locally on a few papers you can do a sparse checkout that downloads only those papers; [docs/SPARSE_CHECKOUT.md](docs/SPARSE_CHECKOUT.md) explains how. Please disclose substantial use of automation (via language models, proof assistants, and other mathematical software) for your contributions. If you are unfamiliar with git and GitHub, [here is a helpful starting point](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources).
 2. Create an issue proposing changes to a write-up.
 3. Add or modify a `NOTES.md` file in a subfolder of [`preprints/`](https://github.com/mathcommunity/oai-math-revised/tree/main/preprints) with sections for
-    1. follow-up works (use links)
-    2. constructive comments/reviews (use links; if they are difficult to access, reproduce with permission from authors as appropriate)
-    3. list of people interested in meeting to work on digestion (add only your name or the name of anyone whose explicit permission you have to add)
+    1. contributions: one line per accepted change to the paper or its notes, in the form `- 2026-10-20 @your-handle: What changed ([PR #3](link))`. Add the line in the same pull request (maintainers add it if you forget). You may add your name after your handle, as in `@your-handle (Your Name)`; several people are separated by commas. These lines are what the website shows under "Activity".
+    2. follow-up works (use links)
+    3. constructive comments/reviews (use links; if they are difficult to access, reproduce with permission from authors as appropriate)
+    4. list of people interested in meeting to work on digestion (add only your name or the name of anyone whose explicit permission you have to add)
 
 Note you do not have to doxx to contribute; you can sign up for an alt GitHub handle. All submissions will be reviewed.
 
