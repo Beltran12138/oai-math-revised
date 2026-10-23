@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Sang-hyun Kim and Yash Lodha, *A note on the proof of nonamenability of F*](https://arxiv.org/abs/2610.18360) (arXiv:2610.18360, 13 Oct 2026). Describes itself as "a human written exposition of OpenAI's recent proof that Thompson's group F is nonamenable"; it gives a streamlined argument by showing the action of F on the dyadic rationals is not extensively amenable, and states a generalization (Theorem 2.7) to groups of permutations of a set, with its proof omitted.

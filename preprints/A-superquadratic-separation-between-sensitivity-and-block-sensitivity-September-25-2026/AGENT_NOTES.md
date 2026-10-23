@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Robin Kothari (GitHub user robinkothari), *New problem suggestion: block sensitivity vs. sensitivity*](https://github.com/bigospeedrun/site/issues/2) (bigospeedrun/site issue #2, 2026-10-15). Proposes tracking the best exponent α in bs(f) ≥ s(f)^(α−o(1)), taking this paper as the baseline; it says the paper's general bounds with d = 20, M = 9^21 give an exponent of about 2.00647 (the Lean witness d = 9, M = 9^10 gives about 2.000252).

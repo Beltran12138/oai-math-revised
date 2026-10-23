@@ -87,7 +87,7 @@ def mastodon(query: str, token: str) -> list[dict]:
     q = urllib.parse.urlencode({"q": query, "type": "statuses", "limit": 20})
     r = http(f"https://mathstodon.xyz/api/v2/search?{q}", headers={"Authorization": f"Bearer {token}"})
     return [{"source": "Mathstodon", "title": f"@{s['account']['acct']}, {s['created_at'][:10]}",
-             "url": s["url"], "context": plain(s.get("content", ""))[:500]}
+             "url": s["url"], "context": post_text(s.get("content", ""))[:500]}
             for s in r.get("statuses", []) if s.get("created_at", "") >= SINCE]
 
 
@@ -140,6 +140,13 @@ def x_search(fam, papers, key: str) -> tuple[list[dict], dict]:
     return out, r.get("usage", {})
 
 
+def post_text(html_fragment: str) -> str:
+    """Post text from HTML: drop tags, decode entities, keep $...$ math."""
+    import html as _html
+    text = re.sub(r"<br\s*/?>", " ", html_fragment)
+    return re.sub(r"\s+", " ", _html.unescape(re.sub(r"<[^>]+>", "", text))).strip()
+
+
 def oembed_text(url: str) -> str | None:
     """Text of a public X post via publish.twitter.com/oembed, or None if it does not exist."""
     try:
@@ -147,7 +154,7 @@ def oembed_text(url: str) -> str | None:
     except Exception:
         return None
     m = re.search(r"<p[^>]*>(.*?)</p>", r.get("html", ""), flags=re.S)
-    return plain(m.group(1)) if m else ""
+    return post_text(m.group(1)) if m else ""
 
 
 def main():

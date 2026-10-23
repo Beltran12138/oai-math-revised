@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Bao Le Hung (contributor), *Modularity of elliptic curves over totally real field and CM fields not containing ζ₅*](https://hexagonmath.org/abs/2610.00156v1) (Hexagon 2610.00156v1, 8 Oct 2026). A mixed human-written and AI-generated note that explains the paper's prime-switch construction and states extensions to all totally real fields and CM fields not containing ζ₅, assuming geometric inputs from this paper. [AI-generated per source]

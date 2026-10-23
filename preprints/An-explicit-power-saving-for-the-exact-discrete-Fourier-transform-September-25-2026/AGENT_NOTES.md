@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Ryan Shea et al., *Finite Network Improvements for the Exact Discrete Fourier Transform*](https://raw.githubusercontent.com/shea256/fourier-transform-below-nlogn/master/manuscript.md) (GitHub manuscript, selected result recorded 2026-10-12). Uses this paper's model, local Fourier compiler and all-length reduction with credited community networks, and reports an all-length exponent saving of $\delta=0.0012331685$; independent human review is described as pending. [AI-generated per source]

@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Manjul Bhargava, *Every nonsquare integer not equal to −1 is a primitive root modulo a positive lower density of primes*](https://hexagonmath.org/abs/2610.00228v1) (hexagon:2610.00228v1, 2026-10-14). Upgrades the conclusion to a positive lower density of primes, assuming a zero-free half-plane $\Re s>1-1/N$ for all Dedekind zeta functions (supplied, per the abstract, by the Cureton–Thorner result); it uses this paper's marked replacement proposition (Lemma 10.2, Proposition 10.3), the proof of Lemma 12.1 and Sections 11–12; the provenance statement reports contributions by GPT-6 and a Lean check of the deductions only, with the cited theorems kept as explicit hypotheses.

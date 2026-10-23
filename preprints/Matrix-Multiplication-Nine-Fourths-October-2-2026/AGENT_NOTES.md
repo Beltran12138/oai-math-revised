@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Rafael Pass, *Matrix Multiplication from Polynomial Packings: A Constructive and Elementary Proof of ω ≤ 9/4*](https://arxiv.org/abs/2610.28627) (arXiv:2610.28627, 2026-10-20). Gives an explicit Strassen-style identity and block recursion for the same bound, multiplying n×n integer matrices with O(n^{9/4+γ}) integer operations; the abstract describes OpenAI's argument as "non-constructive arguments in Strassen's asymptotic spectral framework".

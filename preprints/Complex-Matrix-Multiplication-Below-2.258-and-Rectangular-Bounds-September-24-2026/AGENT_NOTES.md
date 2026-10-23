@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Przemysław Uznański, *Rectangular matrix multiplication from polynomial products*](https://arxiv.org/abs/2610.10494) (arXiv:2610.10494, v1 2026-10-07, v2 2026-10-11). Extends the family’s $9/4$ analysis in characteristic zero to $\alpha\ge1/2$ and $\omega(1,k,1)\le1+k+1/(4k)$ for $k\ge1/2$, strengthening this paper's α > 0.465 and rectangular bounds, though it does not cite this paper. [AI-generated per source] [family-level]

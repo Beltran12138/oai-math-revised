@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Rohit Kumar Jha, *A finite irrationality measure for Catalan's constant*](https://zenodo.org/records/23237269) (Zenodo preprint, doi:10.5281/zenodo.23237269, 2026-10-08). Extends this paper's determinant proof by bounding complementary minors uniformly, claiming $|G-p/q|>q^{-10^8}$ for large $q$; the abstract states the exponent bound is formalized in Lean.

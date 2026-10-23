@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - None found.
@@ -9,7 +9,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Gil Kalai, *Updates: Sharing AI progress on mathematics (amazing!); and my lecture plans*, Combinatorics and more](https://gilkalai.wordpress.com/2026/10/07/updates-sharing-ai-progress-on-mathematics-amazing-and-my-lecture-plans/) (blog, 2026-10-07). Lists this paper among the release's results, saying it "gives counterexamples to the original conjecture, even among graphs with independence number at most two", and notes the earlier disproof of the odd-minor strengthening.
 - [Manifold Markets, *Is Hadwiger's conjecture true?*](https://manifold.markets/Pazzaz/is-hadwigers-conjecture-true) (prediction market, resolved 2026-10-16). The comment thread links this paper and its Lean files; the market creator resolved NO after checking the Lean definitions `not_hadwiger_conjecture`, `hadwigerNumber` and `HasCliqueMinor`.
 - [Jake Boggan (@jakeboggan), post on X](https://x.com/jakeboggan/status/2107931254939336795) (2026-10-07). Asks what this result means for k-critical graphs: "I wonder what the state of the k-critical graphs are now that Hadwiger's conjecture is false?"
-- [Rishikesh Gajjala (@publishiperishi), post on X](https://x.com/publishiperishi/status/2107763637742104918) (2026-10-07). Reports spending several days with GPT-6 Astra on Hadwiger's conjecture and feeling "like it wasn't even close", contrasting this with the new model that produced this result.
 
 ## Formalization
 - [OpenAI, Lean scope note for family 157 (`lean/docs/157.md`)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/157.md) (openai/math release, 2026-10-06). The release's formalization proves $h(G)<26m/75+2/3<m/2\le\chi(G)$ for arbitrarily large graphs with $\alpha(G)\le2$; the fractional strengthening and the Colin de Verdière consequence are stated to be outside its scope. [family-level]

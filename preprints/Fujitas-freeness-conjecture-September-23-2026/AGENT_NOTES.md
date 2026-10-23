@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Kenta Kitamura (KitaKen1), *Add a conjecture: mixed Fujita freeness and linear effective base-point freeness*](https://github.com/google-deepmind/formal-conjectures/issues/7012) (formal-conjectures issue #7012, 2026-10-09). Proposes a "mixed" freeness statement (K_X + L_1 + ... + L_s + N globally generated for ample L_i, s ≥ n+1, nef N) and a klt base-point-freeness variant, with a proposed proof sketch in an accompanying [repository](https://github.com/KitaKen1/mixed-fujita-freeness); neither cites this paper, and the author discloses assistance from ChatGPT and OpenAI Codex.

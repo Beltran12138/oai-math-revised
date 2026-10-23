@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Buhai, Cohen-Addad, Fleischmann, Gupta, Jubés Monforte, Pittu, Stouras, Svensson, Vogl, *A Better-than-2 Approximation for k-Median Part II: Stable Instances*](https://arxiv.org/abs/2610.17172) (arXiv:2610.17172, 12 October 2026). An independent $(1.89+\varepsilon)$-approximation for β-stable instances; its concurrent-work discussion says the OpenAI stable-instance paper shares "many similarities" with it and achieves $(1+2/e+\varepsilon)$ on stable instances but only $(2-\sigma)$ in general. [family-level]

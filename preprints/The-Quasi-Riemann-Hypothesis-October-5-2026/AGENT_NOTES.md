@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Dean Cureton, Jesse Thorner, *A quasi-Riemann hypothesis for Dedekind zeta functions*](https://hexagonmath.org/abs/2610.00200v2) (hexagon:2610.00200, v1 2026-10-12, v2 2026-10-14). Proves ζ_K(s) ≠ 0 for Re s > 31/32 for every number field K, citing this paper as the shorter proof of the 11/12 region; proofs and Lean formalization attributed to AxiomProver.
@@ -16,7 +16,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [John Carlos Baez (@johncarlosbaez.bsky.social), post on Bluesky](https://bsky.app/profile/johncarlosbaez.bsky.social/post/3myd7hu2irs2u) (2026-10-20). Opens a thread explaining the zero-free strip and the resulting bound on |π(n) − li(n)| for p > 11/12, saying "a lot of number theorists are checking the second one and it seems to be correct!" [family-level]
 - [John Carlos Baez (@johncarlosbaez.bsky.social), post on Bluesky](https://bsky.app/profile/johncarlosbaez.bsky.social/post/3myi72d2mbc2m) (2026-10-22). Says quasi-RH "was solved using a clever blend of existing tricks" and that the Riemann hypothesis itself "will probably not fall so easily". [family-level]
 - [Abhishek Saha (@ObhishekSaha), post on X](https://x.com/ObhishekSaha/status/2110275632223453627) (2026-10-14). Describes follow-up developments to the quasi-RH proof, starting with the Cureton–Thorner Hexagon preprint of October 12 that builds on OpenAI's proof. [family-level]
-- [Ricardo Pérez-Marco (@rperezmarco), post on X](https://x.com/rperezmarco/status/2113515394841428306) (2026-10-23). Says he checked, with ChatGPT's help, that the Lean formalization of the 11/12 quasi-Riemann paper has "the same issue" as the case discussed in the thread he replies to.
+- [Ricardo Pérez-Marco (@rperezmarco), post on X](https://x.com/rperezmarco/status/2113515394841428306) (2026-10-23). Says he checked, with ChatGPT's help, that the Lean formalization of the 11/12 quasi-Riemann paper has the same problem as the case discussed in the thread he replies to.
 
 ## Formalization
 - [OpenAI, *The quasi-Riemann hypothesis: Lean scope note*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/003.md) (openai/math release, 2026-10). Formalizes the stronger 7/8 statement of the companion paper and the logarithmic real-zero gap; this 11/12 paper is not listed among the note's accompanying papers. [family-level]

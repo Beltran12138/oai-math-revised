@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Thomas F. Bloom and Wouter van Doorn, *Optimal bounds for the length and number of unit fraction representations*](https://hexagonmath.org/abs/2610.00407v1) (hexagon:2610.00407v1, 2026-10-20). A human-written exposition and simplification of this paper's proofs of $N(b)\ll\log\log b$, $\log\log F(k)\gg k$ and $\log\log v(k)\gg k$, deriving Theorem 1 from the more elementary prescribed-denominator argument and discussing improved constants in Section 5. The same note is also hosted at [erdosproblems.com](https://www.erdosproblems.com/static/UnitFractions.pdf).

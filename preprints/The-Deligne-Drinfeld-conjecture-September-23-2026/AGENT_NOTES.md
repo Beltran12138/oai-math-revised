@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Thomas Willwacher, *The Deligne–Drinfeld conjecture after OpenAI*](https://arxiv.org/abs/2610.15592) (arXiv:2610.15592, v1 11 Oct 2026, v2 16 Oct 2026). Presents a streamlined, simplified version of this paper's proof built around a reduction to characteristic 2, and states that the author "claims no originality regarding the proof strategy"; its AI usage statement says AI tools helped restructure the arguments.

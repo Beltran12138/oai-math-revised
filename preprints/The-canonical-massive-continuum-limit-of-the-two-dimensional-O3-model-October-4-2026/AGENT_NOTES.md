@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Anton Ragin, *The massive continuum limit of the two-dimensional O(4) sigma model*](https://zenodo.org/records/23349319) (Zenodo, doi:10.5281/zenodo.23349319, v7, 2026-10-13). Constructs an O(4) continuum limit "conditionally on results of two recent unrefereed, AI-generated manuscripts released by OpenAI", naming the O(3) continuum limit as one of the two inputs and citing this manuscript. [AI-generated per source]

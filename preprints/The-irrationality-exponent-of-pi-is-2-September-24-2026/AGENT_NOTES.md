@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Manuscript at jdb19937.github.io (author line "Dan Brown"), *The irrationality measure of the logarithm of a rational number is 2*](https://jdb19937.github.io/log-irrationality-measure/logmeasure.pdf) (PDF, dated October 7, 2026). Claims $\mu(\log\alpha)=2$ for every positive rational $\alpha\ne1$ by moving the interpolation centres of this paper's determinant argument from $(1,2\pi i j)$ to $(\alpha^j, j\log\alpha)$, with a Lean 4 formalization; the paper is cited throughout by section and equation number.

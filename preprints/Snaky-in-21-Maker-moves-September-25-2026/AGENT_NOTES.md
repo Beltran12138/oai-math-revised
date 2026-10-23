@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Nándor Sieben, *Snaky: Proof sequence for Snaky*](https://github.com/nandorsieben/Snaky) (GitHub repository, 2026). Gives proof sequences (files `proof-sequence-18/19/20.html.gz`) in the sense of Sieben's proof-tree paper; the README says they are based on strategies described in this paper, and the 20-move sequence was later formalized in the gotrevor project.

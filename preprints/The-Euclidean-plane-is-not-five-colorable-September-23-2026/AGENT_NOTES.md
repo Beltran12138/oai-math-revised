@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Shisheng Li and Yong Su, *Every n points in the plane contain (m1 + o(1)) n points with no unit distance*](https://arxiv.org/abs/2610.15424) (arXiv:2610.15424, 11 Oct 2026). Proves f(n)/n → m1(R^2), identifying the limiting worst-case finite independence ratio with the maximal measurable unit-distance-avoiding density; the abstract states that its "only non-classical input is the Haar rigidity theorem for wild character laws" from this preprint. [AI-generated per source]

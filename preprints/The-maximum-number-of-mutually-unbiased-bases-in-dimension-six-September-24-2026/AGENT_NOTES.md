@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Manvir Jaswal, *An independent certified computation excluding four mutually unbiased bases in dimension six*](https://zenodo.org/doi/10.5281/zenodo.23255857) (Zenodo preprint, DOI 10.5281/zenodo.23255858, 2026-10-13; programs and data: [Zenodo dataset](https://zenodo.org/doi/10.5281/zenodo.23255817), DOI 10.5281/zenodo.23255817). Implements this paper's discretization proof, deciding inequalities in exact integer or outward-rounded interval arithmetic, and reports no four MUBs in C^6 assuming correct binary64 arithmetic; the dataset holds the programs, logs, record files and checksums.

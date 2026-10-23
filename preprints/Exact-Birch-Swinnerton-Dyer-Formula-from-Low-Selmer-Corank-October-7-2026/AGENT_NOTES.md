@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Ruihan Chen, *On the algebraic and analytic ranks of the twin-prime elliptic curve $y^2=x(x-2)(x-p)$*](https://arxiv.org/abs/2610.09370) (arXiv:2610.09370, 2026-10-07). Computes the $2^\infty$-Selmer corank of this family and, taking the specialization at 2 of this paper's main theorem as an explicit hypothesis (Hypothesis 1.1), deduces rank equality, finiteness of Sha and the exact leading-term formula for $p\equiv3,5,7\pmod8$. [cites earlier version]

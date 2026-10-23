@@ -1,12 +1,11 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - None found.
 
 ## Comments and discussion
-- [Kyle Chickering (@_selebou), post on X](https://x.com/_selebou/status/2107621360919011427) (2026-10-06). Asks whether four-dimensional Kakeya is significantly harder than the three-dimensional case once a three-dimensional proof is available.
 - [Florious (@Florious95), thread on X](https://x.com/Florious95/status/2108522391676870685) (2026-10-09). In Chinese, notes that this unreviewed four-dimensional proof takes the Wang–Zahl sticky Kakeya theorem and the Guth–Wang–Zahl three-dimensional estimates as key inputs, arguing it builds on that human work.
 
 ## Formalization

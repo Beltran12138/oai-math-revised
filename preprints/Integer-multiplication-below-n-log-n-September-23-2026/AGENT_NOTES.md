@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Douglas Colkitt and contributors, *integer-mult-bounds* ("A sharper exponent for integer multiplication")](https://github.com/CrocSwap/integer-mult-bounds) (GitHub repository, 2026). A community project, explicitly "conditional on the original OpenAI #109 framework", reporting $\kappa=0.001672660197076918$ via new finite constructions and exact certificates, with scoped Lean checks of finite and arithmetic contracts that the README says "do not formalize the whole multiplication algorithm"; the maintainer credits OpenAI Codex assistance.

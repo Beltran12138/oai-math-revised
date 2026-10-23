@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Buhai, Cohen-Addad, Fleischmann, Gupta, Jubés Monforte, Pittu, Stouras, Svensson, Vogl, *A Better-than-2 Approximation for k-Median Part I: The Power of General Bids*](https://arxiv.org/abs/2610.18144) (arXiv:2610.18144, 13 October 2026). An independent randomized polynomial-time 1.95-approximation for k-median; its "AI Acknowledgment and Concurrent Work" paragraph describes the OpenAI result that extends iterative rounding to a $(1+2/e+\varepsilon)$-approximation as concurrent work announced on 6 October 2026. [family-level]

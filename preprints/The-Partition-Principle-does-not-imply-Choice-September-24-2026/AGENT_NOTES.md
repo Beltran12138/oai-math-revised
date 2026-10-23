@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Frederico Cançado, *AC-zoo-results* (notes and reports on weak forms of choice)](https://github.com/frederico-cancado/AC-zoo-results) (GitHub repository, notes dated 7 October 2026 and later). Preliminary notes that take this paper's model construction as their "external source" and derive a finite-basis property for the injection order on cardinalities in that model; the author states they were prepared with substantial OpenAI Codex assistance and have not been externally reviewed.

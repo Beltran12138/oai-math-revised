@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Diyi Liu, Shuchen Zhu, Wibe Albert de Jong, Di Fang, David Williams-Young, Chao Yang, *T-efficient unitary synthesis via block-sparse Hamiltonian simulation*](https://arxiv.org/abs/2610.18589) (arXiv:2610.18589, 13 Oct 2026). Section VIII cites the OpenAI draft as giving constant diamond-norm-error synthesis with polynomially many gates and Boolean-oracle queries, and notes that this accounting excludes the oracle's implementation cost, so it is not directly comparable to Clifford+T T-count bounds.

@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Pol van Hoften and Jack Sempliner, *The Hodge Conjecture for CM abelian varieties*](https://hexagonmath.org/abs/2610.00259v2) (hexagon:2610.00259v2, v1 15 Oct 2026, v2 18 Oct 2026). The authors present this as a proof of the Hodge conjecture for CM abelian varieties "following the recent work [Ope26]" (this paper), using theta lifts and the doubling method. The text is described as human-written, with ChatGPT used among other things to rework [Ope26, Section 2] via Hazama's work.

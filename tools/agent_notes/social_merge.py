@@ -77,8 +77,13 @@ def main():
     _, families, _ = load(ROOT)
 
     if args.apply:
+        # Only the selected families (default: all) are copied.
+        nums = [f.zfill(3) for f in args.families] if args.families else sorted(families)
+        selected = {s for n in nums for s in families[n].papers}
         n = 0
         for f in sorted((work / "social_merged").glob("*/AGENT_NOTES.md")):
+            if f.parent.name not in selected:
+                continue
             if not problems_in(f) and (ROOT / "preprints" / f.parent.name).is_dir():
                 shutil.copy(f, ROOT / "preprints" / f.parent.name / "AGENT_NOTES.md")
                 n += 1

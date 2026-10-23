@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [William D. Banks, *On the OpenAI proof that Landau-Siegel zeros do not exist*](https://arxiv.org/abs/2610.15483) (arXiv:2610.15483, 2026-10-11). Gives a detailed direct proof of this paper's interpolation-determinant argument with explicit constants, $(1-\beta)\log q\ge 0.003$ for $q\ge10^{10}$, extended to all $q\ge3$ via Lu–Zaman–Zhao; cited in the paper's current version.

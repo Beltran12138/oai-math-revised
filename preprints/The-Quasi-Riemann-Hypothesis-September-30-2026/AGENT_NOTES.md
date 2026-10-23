@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Baiying Liu, *Improved zero-free half-planes for the quasi-Riemann hypothesis*](https://arxiv.org/abs/2610.12234) (arXiv:2610.12234, v1 2026-10-08, v2 2026-10-12). Varies three parameters (b, ℓ, κ) of this paper's argument to lower the boundary from 7/8 to approximately $0.874957019420098946$, claims optimality within the paper's exponent comparison system, and states the result is formalized in Lean.

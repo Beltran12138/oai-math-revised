@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Rohan Arun (GitHub: rohanarun), *sidorenko-template-refinements*](https://github.com/rohanarun/sidorenko-template-refinements) (GitHub repository, October 2026). Reports a computer-assisted 35-vertex minimum within a specified finite construction template and lowers the nondirect residual constant from the paper's 1641 to 189; the README says it does not claim a smaller general counterexample or formal verification. [AI-generated per source]

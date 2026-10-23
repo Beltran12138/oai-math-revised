@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [acprk, *Borsuk numbers of projective-space projector sets (towards dimension 8)*](https://github.com/acprk/openai-math-followups/blob/main/results/03-borsuk.md) (GitHub research notes, 2026-10-10). Reports numerical evidence for an eleven-cell nearest-line cover of the paper's projector set $X$, which with the paper's lower bound would give $b(X)=11$, and a nine-cell cover of the $\mathbb{CP}^2$ analogue, so that it is not an 8-dimensional counterexample; the note labels this "numerical, reproducible; not yet interval-certified". [AI-generated per source]

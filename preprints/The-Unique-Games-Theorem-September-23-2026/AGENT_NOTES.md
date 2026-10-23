@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Follow-up works
 - [Ariel Elboim, *The Unique Games Theorem: A Short Self-Contained Proof*](https://zenodo.org/records/23265572) (Zenodo, doi:10.5281/zenodo.23265572, version 1.0, 2026-10-09). An 11-page reconstruction of this paper's proof that takes Håstad's parity gap, the Khot–Minzer–Safra Grassmann expansion theorem and Dinur–Steurer repetition as inputs and simplifies the noise gadget, certificate extraction and decoding; it states no human expert has reviewed it. [AI-generated per source]
