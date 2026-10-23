@@ -231,6 +231,86 @@ def notes_edit_url(slug: str, exists: bool) -> str:
     return f"{GITHUB}/new/{BRANCH}/preprints/{slug}?{q}"
 
 
+DISCUSSION_CATEGORY = "papers"
+
+
+def discussion_new_url(slug: str, title: str) -> str:
+    params = {"category": DISCUSSION_CATEGORY, "title": f"[discussion] {title}", "paper": slug}
+    return f"{GITHUB}/discussions/new?{urlencode(params, quote_via=quote)}"
+
+
+# --- live data from GitHub (issues, discussions) ----------------------------
+#
+# Fetched at build time when a token is available (the Pages workflow passes
+# GITHUB_TOKEN and rebuilds on issue and discussion events). Without a token,
+# or if GitHub cannot be reached, the pages fall back to plain links.
+
+def _gh(url: str, token: str, data: dict | None = None):
+    import urllib.request
+
+    req = urllib.request.Request(url, data=json.dumps(data).encode() if data else None, headers={
+        "Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json",
+        "User-Agent": "oai-math-revised-site"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.load(r), r.headers.get("Link", "")
+
+
+def _paper_field(body: str | None) -> str:
+    """The "Paper" field of an issue or discussion form."""
+    m = re.search(r"^### Paper\s*\n+\s*(\S+)", body or "", flags=re.M)
+    return m.group(1).strip() if m else ""
+
+
+def fetch_live(slugs: set[str]) -> dict[str, dict]:
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    if not token:
+        print("no GITHUB_TOKEN: skipping issue and discussion data")
+        return {}
+    owner, name = REPO.split("/")
+    live: dict[str, dict] = {}
+    try:
+        url = f"https://api.github.com/repos/{REPO}/issues?state=open&per_page=100"
+        while url:
+            items, link = _gh(url, token)
+            for it in items:
+                slug = _paper_field(it.get("body"))
+                if "pull_request" not in it and slug in slugs:
+                    live.setdefault(slug, {}).setdefault("open_issues", 0)
+                    live[slug]["open_issues"] += 1
+            m = re.search(r'<([^>]+)>;\s*rel="next"', link)
+            url = m.group(1) if m else None
+        query = """query($owner: String!, $name: String!, $after: String) {
+          repository(owner: $owner, name: $name) {
+            discussions(first: 100, after: $after, orderBy: {field: CREATED_AT, direction: ASC}) {
+              pageInfo { hasNextPage endCursor }
+              nodes { url createdAt body category { slug } comments { totalCount } }
+            }
+          }
+        }"""
+        after = None
+        while True:
+            res, _ = _gh("https://api.github.com/graphql", token,
+                         {"query": query, "variables": {"owner": owner, "name": name, "after": after}})
+            if res.get("errors"):
+                raise RuntimeError(res["errors"])
+            page = res["data"]["repository"]["discussions"]
+            for d in page["nodes"]:
+                slug = _paper_field(d.get("body"))
+                if d["category"]["slug"] == DISCUSSION_CATEGORY and slug in slugs:
+                    # The oldest discussion of a paper is the one the site links to.
+                    live.setdefault(slug, {}).setdefault("discussion", {
+                        "url": d["url"], "comments": d["comments"]["totalCount"]})
+            if not page["pageInfo"]["hasNextPage"]:
+                break
+            after = page["pageInfo"]["endCursor"]
+    except Exception as e:  # never fail the deployment over this
+        print(f"warning: could not fetch issues/discussions from GitHub: {e}")
+        return {}
+    print(f"live data: {sum('open_issues' in v for v in live.values())} papers with open issues, "
+          f"{sum('discussion' in v for v in live.values())} with discussions")
+    return live
+
+
 def issues_search_url(slug: str) -> str:
     return f"{GITHUB}/issues?{urlencode({'q': f'is:issue \"{slug}\"'}, quote_via=quote)}"
 
@@ -294,6 +374,7 @@ def build(out: Path, pdf_mode: str) -> None:
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(env.get_template(template).render(**ctx), encoding="utf-8")
 
+    live = fetch_live(set(papers))
     activity = activity_entries(papers)
     for slug, p in papers.items():
         for line in p.contribution_problems:
@@ -323,6 +404,7 @@ def build(out: Path, pdf_mode: str) -> None:
             "report": issue_url("problem", current, plain(target.title)),
             "reference": issue_url("reference", current, plain(target.title)),
             "interest": issue_url("interest", current, plain(target.title)),
+            "discuss": discussion_new_url(current, plain(target.title)),
             "notes_edit": notes_edit_url(current, target.notes_md is not None),
             "issues": issues_search_url(current),
             "source": f"{GITHUB}/tree/{BRANCH}/preprints/{slug}",
@@ -335,6 +417,7 @@ def build(out: Path, pdf_mode: str) -> None:
               version_note=version_note, other_readme=other_readme,
               original_date=_date_from_slug(slug), agent=split_agent_notes(p.agent_notes_md),
               elsewhere=elsewhere.get(slug, []),
+              live=live.get(current, {}),
               contributions=sorted(p.contributions, key=lambda c: (c.date, c.order), reverse=True))
         if p.pdf and pdf_mode != "none":
             src, dst = ROOT / "preprints" / slug / p.pdf, out / "papers" / slug / p.pdf
@@ -351,7 +434,7 @@ def build(out: Path, pdf_mode: str) -> None:
                 p.abstract, fam.summary if fam else "", p.notes_md or "", p.discipline or "")),
             "d": p.discipline or "",
             "st": p.status,
-            "n": int(p.has_notes or p.community_revised),
+            "n": int(p.has_notes or p.community_revised or bool(live.get(slug))),
             "a": agent_sections(p.agent_notes_md),
             "l": int(bool(fam and fam.lean_doc)),
         })

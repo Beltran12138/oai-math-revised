@@ -10,10 +10,19 @@ on:
       - "CONTENTS.md"
       - "overview.tex"
       - ".github/workflows/pages.yml"
+  # Paper pages show open issues and the paper's discussion.
+  issues:
+    types: [opened, edited, closed, reopened, deleted, transferred]
+  discussion:
+    types: [created, edited, deleted, transferred, category_changed]
+  discussion_comment:
+    types: [created, deleted]
   workflow_dispatch:
 
 permissions:
   contents: read
+  issues: read
+  discussions: read
 
 concurrency:
   group: pages
@@ -35,6 +44,8 @@ jobs:
           python-version: "3.12"
       - run: pip install jinja2==3.1.6 markdown==3.10.2 nh3==0.3.7
       - run: python site/build.py --out _site --pdfs copy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
