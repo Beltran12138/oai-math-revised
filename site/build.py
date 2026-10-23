@@ -226,8 +226,13 @@ def build(out: Path, pdf_mode: str) -> None:
     )
     env.filters["md"] = pass_context(lambda ctx, t, slug=None: render_md(t, slug, ctx["root"]))
     env.filters["notes"] = pass_context(lambda ctx, t, slug=None: render_notes(t, slug, ctx["root"]))
-    env.filters["inline_md"] = pass_context(lambda ctx, t, slug=None: re.sub(
-        r"\A<p>(.*)</p>\Z", r"\1", render_md(t, slug, ctx["root"]).strip(), flags=re.S))
+    def inline_md(ctx, text, slug=None, elsewhere=False):
+        out = re.sub(r"\A<p>(.*)</p>\Z", r"\1", render_md(text, slug, ctx["root"]).strip(), flags=re.S)
+        if elsewhere and slug:  # shown outside the paper's page: anchors refer to that page
+            out = out.replace('href="#', f'href="{ctx["root"]}/papers/{slug}/#')
+        return out
+
+    env.filters["inline_md"] = pass_context(inline_md)
     env.filters["long_date"] = long_date
     env.filters["unbullet"] = lambda line: re.sub(r"\A[-*]\s+", "", line)
     env.filters["slugify"] = slugify
