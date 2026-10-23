@@ -181,11 +181,16 @@ def long_date(iso: str) -> str:
 def activity_entries(papers: dict) -> list[dict]:
     """All "Contributions" lines from NOTES.md files, newest first."""
     out = []
+    host = SITE_URL.split("://")[-1].split("/")[0]
     for slug, p in papers.items():
+        seen: dict[tuple, int] = {}
         for c in p.contributions:
-            out.append({"slug": slug, "paper": p, "c": c,
-                        "id": f"tag:{SITE_URL.split('://')[-1].split('/')[0]},2026:{slug}/{c.date}/"
-                              + hashlib.sha1(c.text.encode()).hexdigest()[:12]})
+            # Feed id from paper, date and people (stable when the text is edited),
+            # numbered if the same people have several entries on one day.
+            who = tuple(h or n for h, n in c.people)
+            seen[(c.date, who)] = k = seen.get((c.date, who), 0) + 1
+            key = hashlib.sha1("|".join(who).encode()).hexdigest()[:10]
+            out.append({"slug": slug, "paper": p, "c": c, "id": f"tag:{host},2026:{slug}/{c.date}/{key}/{k}"})
     out.sort(key=lambda e: (e["c"].date, e["slug"], e["c"].order), reverse=True)
     return out
 
@@ -224,6 +229,7 @@ def build(out: Path, pdf_mode: str) -> None:
     env.filters["inline_md"] = pass_context(lambda ctx, t, slug=None: re.sub(
         r"\A<p>(.*)</p>\Z", r"\1", render_md(t, slug, ctx["root"]).strip(), flags=re.S))
     env.filters["long_date"] = long_date
+    env.filters["unbullet"] = lambda line: re.sub(r"\A[-*]\s+", "", line)
     env.filters["slugify"] = slugify
     env.filters["plain"] = plain
     env.filters["html"] = pass_context(lambda ctx, t: inline_links(t, ctx["root"]))

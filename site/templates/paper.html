@@ -32,7 +32,7 @@
 {% if contributions or p.contribution_problems %}
 <section id="contributions"><h2>Contributions</h2>
 <ul class="activity">{% for c in contributions %}<li>{{ contribution(c, p.slug) }}</li>
-{% endfor %}{% for line in p.contribution_problems %}<li>{{ line[1:].strip()|inline_md(p.slug)|safe }}</li>
+{% endfor %}{% for line in p.contribution_problems %}<li>{{ line|unbullet|inline_md(p.slug)|safe }}</li>
 {% endfor %}</ul>
 </section>
 {% endif %}
