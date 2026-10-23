@@ -1,0 +1,20 @@
+title: "[discussion] "
+body:
+  - type: markdown
+    attributes:
+      value: One discussion per paper. If one already exists for this paper, please post there instead (the paper's page on the website links to it). Keep the Paper field as filled in; the website uses it to find this discussion.
+  - type: input
+    id: paper
+    attributes:
+      label: Paper
+      description: Folder name under preprints/ (filled in when you come from the site).
+      placeholder: The-circulant-Hadamard-conjecture-September-23-2026
+    validations:
+      required: true
+  - type: textarea
+    id: text
+    attributes:
+      label: What would you like to discuss?
+      description: Questions, explanations, ideas, reading notes. Concrete errors and missing references are easier to track as issues (buttons on the paper's page). Please say if AI tools were used to write this.
+    validations:
+      required: true

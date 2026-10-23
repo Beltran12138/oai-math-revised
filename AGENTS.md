@@ -62,6 +62,8 @@ In scope: adding missing citations and related prior work, correcting attributio
 
 For a report without a fix, use the issue forms (`.github/ISSUE_TEMPLATE/`): problem, reference or comment, interest. Each asks for the paper's folder name. The paper pages on the website have buttons that open them pre-filled.
 
+For open-ended discussion of a paper (questions, explanations, reading notes) there is one GitHub Discussion per paper in the "Papers" category, created from the form `.github/DISCUSSION_TEMPLATE/papers.yml` (it asks for the folder name). Before starting one, check the paper's page on the website: if a discussion exists, its button links to it; post there instead of opening a second one.
+
 ## Disclosure and conduct
 
 - State in the pull request description which tools were used and what the human contributor checked.

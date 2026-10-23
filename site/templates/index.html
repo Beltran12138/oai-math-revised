@@ -19,7 +19,7 @@
     <summary>Filters</summary>
     <div class="frow">
       <label>Discipline <select id="fd"><option value="">All disciplines</option>{% for d in disciplines %}<option>{{ d.name }}</option>{% endfor %}</select></label>
-      {% if n_with_notes %}<label title="Revised by people, or with entries in NOTES.md (references, comments, sign-ups)"><input type="checkbox" id="fn"> With community contributions</label>{% endif %}
+      {% if n_with_notes %}<label title="Revised by people, with entries in NOTES.md (references, comments, sign-ups), or with an open issue or a discussion"><input type="checkbox" id="fn"> With community contributions</label>{% endif %}
       <label><input type="checkbox" id="fl"> With Lean files</label>
       <label><input type="checkbox" id="fo"> Include earlier editions</label>
     </div>
