@@ -55,7 +55,14 @@ def merge_family(fam, cands: list[dict], work: Path) -> bool:
     t = time.time()
     code = run(cmd, job, logfile, text)
     recover_from_log(logfile, out, fam.papers)
-    problems = publish(out, work / "social_merged", fam.papers) if code == 0 else [f"exit {code}"]
+    problems = []
+    for f in fam.papers:  # the merge may only add items, never drop or edit existing ones
+        new = (out / f / "AGENT_NOTES.md").read_text(encoding="utf-8") if (out / f / "AGENT_NOTES.md").is_file() else ""
+        lost = [l for l in (job / "notes" / f / "AGENT_NOTES.md").read_text(encoding="utf-8").splitlines()
+                if l.startswith("- [") and l not in new]
+        problems += [f"{f}: existing item changed or dropped: {l[:80]}" for l in lost]
+    if not problems:
+        problems = publish(out, work / "social_merged", fam.papers) if code == 0 else [f"exit {code}"]
     ok = not problems
     log(work, f"social {fam.num}: {'ok' if ok else 'FAILED: ' + '; '.join(problems)[:300]} ({time.time() - t:.0f}s)")
     if ok:
@@ -66,7 +73,7 @@ def merge_family(fam, cands: list[dict], work: Path) -> bool:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--work", required=True)
-    ap.add_argument("--social", nargs="+", required=True)
+    ap.add_argument("--social", nargs="+", default=[])
     ap.add_argument("--families", nargs="*")
     ap.add_argument("--jobs", type=int, default=6)
     ap.add_argument("--apply", action="store_true", help="copy validated results into preprints/")

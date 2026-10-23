@@ -7,7 +7,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - [A. Hubard, C. S. Ndiaye, O. Solé-Pi, *Crossing numbers of simplicial complexes*](https://arxiv.org/abs/2610.21017) (arXiv:2610.21017, 14 Oct 2026). A paper on higher-dimensional crossing numbers; a footnote says a solution to the Zarankiewicz and Hill conjectures was announced as the manuscript was about to be made public, without naming the source. [family-level]
 
 ## Comments and discussion
-- [Andrew Anderson (@mochacortado), post on X](https://x.com/mochacortado/status/2110892129631244796) (16 Oct 2026). An attached explanation of Turán's brickyard problem "for a middle schooler", described as "open since 1944" and among the problems recently solved by OpenAI.
+- None found.
 
 ## Formalization
 - [OpenAI math release, *Lean scope note for family 165* (mirrored on mathcommunity/oai-math-revised)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/165.md) (release, 6 Oct 2026). The release's Lean scope note states that the formalization proves cr(K_{m,n}) = ⌊m/2⌋⌊(m−1)/2⌋⌊n/2⌋⌊(n−1)/2⌋ for all positive m, n with a drawing attaining it, crossings counted as points, and links the comparator statements `BipartiteCrossing.lean` and `CompleteCrossing.lean`. [family-level]

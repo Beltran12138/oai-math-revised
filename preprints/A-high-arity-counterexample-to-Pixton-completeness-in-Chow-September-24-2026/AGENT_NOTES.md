@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - None found.
 
 ## Comments and discussion
-- [@spurious-bows.bsky.social, post on Bluesky](https://bsky.app/profile/spurious-bows.bsky.social/post/3mxpl2oqt6k2i) (2026-10-12). Pairs this paper with the release paper "Bloch's conjecture for surfaces with p_g=0", matching that paper's Lemmas 3.3 and 5.1 with Lemmas 5.3 and 5.5 here, and broadly its sections 5.1–5.4 with sections 5.5–5.7 here.
+- [Marcus Bintz (@spurious-bows.bsky.social), post on Bluesky](https://bsky.app/profile/spurious-bows.bsky.social/post/3mxpl2oqt6k2i) (2026-10-12). Pairs this paper with the release paper "Bloch's conjecture for surfaces with p_g=0", matching that paper's Lemmas 3.3 and 5.1 with Lemmas 5.3 and 5.5 here, and broadly its sections 5.1–5.4 with sections 5.5–5.7 here.
 
 ## Formalization
 - [OpenAI, *Exterior monomials, color counts and finite stable-graph bounds*](https://github.com/openai/math/blob/main/lean/OAI/Combinatorics/StableGraphs/ExteriorBounds.lean) (release Lean source, accessed 2026-10-21). Formalizes numerical parameters, color counts, permutation multiplicities, exterior-monomial nonvanishing and finite graph bounds; its scope statement explicitly excludes the class Y, its realizations, the Pixton span, detector pairing and geometric vanishing.
