@@ -8,7 +8,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Comments and discussion
 - [Alan J. Coppola, *hilberts-5th-oai: Sherlock reverse-verification of OpenAI Hilbert-Smith preprint (Sept 2026)*](https://github.com/ajjcoppola/hilberts-5th-oai) (GitHub repository, checkpoints 2026-10-18/19; [audit ledger](https://raw.githubusercontent.com/ajjcoppola/hilberts-5th-oai/main/docs/02_audit_ledger.md)). A lemma-by-lemma audit of this paper and the Dabrowski preprint; it reports no `FAIL` grades for this paper but `WEAK` grades for the dense doubling step, the Balmer–Walter bridge and the equal-parts isometry, with character coproducts also flagged in the ledger. [AI-generated per source]
-- [Hacker News, *Independent Hilbert-Smith proof with Lean4 verification*](https://news.ycombinator.com/item?id=50003926) (HN item 50003926, 2026-10-08). A submission of the Dabrowski repository, whose submitter writes that the release was rushed after OpenAI's announcement and calls it the first available Lean 4 formalization "since openai didn't publish it".
 - [Alex Elzenaar, *Answer to “How to complete an AI generated verification of an OpenAI proof for the Hilbert-Smith Conjecture”*](https://mathoverflow.net/questions/515824/how-to-complete-an-ai-generated-verification-of-an-openai-proof-for-the-hilbert/515826) (MathOverflow, 2026-10-07). Responding to an AI-assisted audit of this paper, Elzenaar calls for expert understanding and sustained mathematical review rather than treating an AI-generated verification as sufficient.
 
 ## Formalization

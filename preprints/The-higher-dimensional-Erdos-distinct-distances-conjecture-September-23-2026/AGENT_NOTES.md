@@ -20,8 +20,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Adam Sheffer, *Distinct Distances: Open Problems and Current Bounds*](https://arxiv.org/abs/1406.1949) (arXiv:1406.1949, v3 2 July 2018). A survey of distinct-distances variants and their best known bounds, relevant to the paper's account of prior bounds and conjectures for $d\ge3$; not in the paper's bibliography.
 
 ## Digests and expositions
-- [Gradient Damage, *Erdős Distinct Distances, Higher Dimensions: OpenAI Claims a Proof*](https://gradientdamage.com/videos/erdos-distinct-distances-higher-dimensions-openai-claims-a-proof/) (video, 2026-10-14). A 21-second animation illustrating the claimed dimension-dependent constant-factor bound and its comparison with the integer grid; its description distinguishes illustration from proof.
+- None found.
 
 ## News and blogs
 - [Gil Kalai, *Updates: Sharing AI progress on mathematics (amazing!); and my lecture plans*](https://gilkalai.wordpress.com/2026/10/07/updates-sharing-ai-progress-on-mathematics-amazing-and-my-lecture-plans/) (Combinatorics and more, 2026-10-07). Item 8 links this paper's sharp-order distinct-distances claim and connects it to earlier blog discussions, in a post stating that the release's proofs require community verification.
-- [OfficeChai Team, *OpenAI Has Also Included Proofs For 23 Erdos Problems In Its Latest Math Proof Drop*](https://officechai.com/ai/openai-has-also-included-proofs-for-23-erdos-problems-in-its-latest-math-proof-drop/) (OfficeChai, 9 October 2026). A news report on Bloom's blog post that lists Problem 1083 among the claimed results and repeats Bloom's remark that the bound is stronger than Erdős's conjecture.

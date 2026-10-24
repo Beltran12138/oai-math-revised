@@ -24,4 +24,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Latent Seminar, *Bernoulli convolutions: measure type and non-Pisot singularity*](https://lowrank.github.io/latent-seminar/OpenAI-Math/153-bernoulli-convolution-type) (6 October 2026). Explains the arithmetic approximation criterion and both non-Pisot constructions, while stating that it does not independently verify the complete proofs or execute the degree-31 certificates. [family-level]
 
 ## News and blogs
-- [Gradient Damage (YouTube channel), *Every OpenAI Math Result, Part 2 of 4: PCP for PPAD, Birkhoff Conjecture and 82 More*](https://gradientdamage.com/videos/every-openai-math-result-part-2-of-4-pcp-for-ppad-birkhoff-conjecture/) (video, 14 October 2026). A compilation video about the whole release; chapter 15 summarizes this paper, including the claimed singularity at reciprocals of all quartic Salem numbers in $(1,2)$.
+- None found.

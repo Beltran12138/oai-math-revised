@@ -31,5 +31,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - [heyprof, *Short Egyptian fractions*](https://www.heyprof.app/en/demo/aegyptische-brueche) (VisuApp, undated; accessed 2026-10-21). A paper-specific interactive exposition comparing greedy and shortest expansions and illustrating the historical length bounds.
 
 ## News and blogs
-- [OfficeChai Team, *OpenAI Has Also Included Proofs For 23 Erdos Problems In Its Latest Math Proof Drop*](https://officechai.com/ai/openai-has-also-included-proofs-for-23-erdos-problems-in-its-latest-math-proof-drop/) (OfficeChai, 2026-10-09). Reports Thomas Bloom's list of Erdős problems addressed by the release, grouping problems 148, 293 and 304 under this paper and noting that Bloom had not verified the proofs.
 - [Azmat, *Short Egyptian Fractions: How OpenAI’s Proof Solved Erdős’s 76-Year-Old Conjecture and Established the Optimal Double-Logarithmic Bound*](https://binaryverseai.com/short-egyptian-fractions-openai-erdos-proof/) (Binary Verse AI, 2026-10-16). Walks through the paper's dense-family construction and two corollaries and discusses the published Lean scope.

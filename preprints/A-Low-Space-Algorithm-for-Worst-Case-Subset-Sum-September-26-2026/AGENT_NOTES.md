@@ -20,7 +20,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [dimenwarper, *oai-math-vids*, video 30 "Subset Sum in O(2^0.49n) time (138)"](https://github.com/dimenwarper/oai-math-vids) (GitHub, Oct 2026). A 4:50 narrated explainer video on family 138 in an unofficial series of Manim videos on the release; the listing does not say whether it covers the low-space companion paper. [AI-generated per source] [family-level]
-- [Wikipedia contributors, *Subset sum problem*, “OpenAI” subsection](https://en.wikipedia.org/wiki/Subset_sum_problem) (Wikipedia, accessed 21 October 2026). Briefly summarizes both the release's time-exponent claim and its companion time–space claim within an overview of Subset Sum algorithms. [family-level]
 
 ## News and blogs
 - None found.

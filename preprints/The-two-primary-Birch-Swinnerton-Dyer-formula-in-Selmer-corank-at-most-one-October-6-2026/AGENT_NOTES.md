@@ -26,4 +26,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - [Ying Xie, *What the Machine Invented: Mining New Mathematical Instruments from OpenAI's October 2026 Release of AI-Generated Mathematics*, §9.1.1](https://arxiv.org/abs/2610.17090) (arXiv:2610.17090, 2026-10-12). Survey entry on family 002 naming this paper as the source of the 2-adic part of the leading-term formula; it relates the family's tame-variable and finite-model constructions to Taylor–Wiles–Kisin auxiliary primes and Scholze–Manning ultrapatching, with caveats. [AI-generated per source] [family-level]
 
 ## News and blogs
-- [Wikipedia, *OpenAI bulk release of mathematical papers*](https://en.wikipedia.org/wiki/OpenAI_bulk_release_of_mathematical_papers) (accessed 2026-10-21). Lists the partial BSD result for curves with Selmer corank 0 or 1, including rank equality and finiteness of Sha, among its example topics. [family-level]
+- None found.

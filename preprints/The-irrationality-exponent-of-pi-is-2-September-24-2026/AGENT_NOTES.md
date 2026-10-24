@@ -12,10 +12,8 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Comments and discussion
 - [Persiflage, *A Brief Digest of Some New OpenAI Results*, item 8](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/) (blog, 2026-10-08). Reports Wadim Zudilin's observation of a close similarity to Roth's argument for algebraic irrationals, while stating that the blog author had not yet examined this paper.
-- [Constantin Kogler (@ConstantinKogl), post on X](https://x.com/ConstantinKogl/status/2108909208204607495) (2026-10-10). Calls the result "really striking" and places it in the context of Diophantine approximation and Roth's theorem on algebraic irrationals.
 - [もの(換気中) (@monoxxxx), post on X](https://x.com/monoxxxx/status/2107839581580320962) (2026-10-07). In Japanese, describes the proof as an argument by contradiction that assumes an unusually good rational approximation to π, builds an algebraic construction from it and rules that construction out, in contrast with earlier work that lowered numerical bounds such as 7.103.
 - [Almost Sure (@Almost_Sure), post on X](https://x.com/Almost_Sure/status/2110397723048313103) (2026-10-14). Remarks that the paper's derivation of Flint–Hills convergence from an irrationality measure below 5/2 is "way shorter" than two other proofs the author had seen.
-- [Almost Sure (@Almost_Sure), post on X](https://x.com/Almost_Sure/status/2111226591275585846) (2026-10-16). Reports a first-time Lean check by the author that appears to confirm the proof "all checks out".
 - [UnstableReserves (@UnstableReserve), post on X](https://x.com/UnstableReserve/status/2109926873530605713) (2026-10-13). Follows the paper's parameter lemma to estimate the size of the proof (3,977 variables for ν = 5/2) and reports certifying 292,361 terms of π's continued fraction.
 
 ## Formalization
@@ -37,6 +35,3 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## News and blogs
 - [John D. Cook, *Irrationality exponent of π*](https://www.johndcook.com/blog/2026/10/07/irrationality-exponent-of-pi/) (blog, 2026-10-07). Short explanatory post on what $\mu(\pi)=2$ means for rational approximations of $\pi$; it links the preprint.
-- [John Cook, *Quick takes on new OpenAI results*](https://johndcookconsulting.substack.com/p/quick-takes-on-new-openai-results) (Substack, 2026-10-07). Includes a brief take on the claim that $\pi$ has irrationality exponent 2, like almost all real numbers.
-- [David H. Bailey, *OpenAI stuns mathematicians with 722 new papers*](https://mathscholar.org/2026/10/openai-stuns-mathematicians-with-722-new-papers/) (Math Scholar, 2026-10-07, updated 2026-10-19). Lists this result as a release highlight and compares the claim with the Zeilberger–Zudilin bound $7.103$.
-- [Aamir Khollam, *OpenAI's largest mathematics release tackles 4,000 problems with Lean-checked proofs*](https://interestingengineering.com/ai-robotics/openai-largest-math-release-lean-proofs) (Interesting Engineering, 2026-10-06). News report on the release that names the irrationality exponent of $\pi$ as one example, without technical detail.

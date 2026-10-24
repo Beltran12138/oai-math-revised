@@ -25,4 +25,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Gradient Damage, *Kadison's Similarity Problem: Every Warped Action Can Be Unwarped*](https://gradientdamage.com/videos/kadisons-similarity-problem-every-warped-action-can-be-unwarped/) (video and accompanying description, 14 October 2026). This 22-second animation illustrates similarity through a stretched rotation action, links the manuscript, and describes the visualization as an illustration rather than a proof.
 
 ## News and blogs
-- [Ben Yeoh, *Spectacular number of maths proofs and what that might mean* (Then Do Better)](https://www.thendobetter.com/arts/2026/10/7/spectacular-number-of-maths-proofs-and-what-that-might-mean) (blog, 2026-10-07). Lists Kadison's similarity conjecture as row 9 of a ranked table of release findings, with a one-sentence description and no technical discussion. [family-level]
+- None found.

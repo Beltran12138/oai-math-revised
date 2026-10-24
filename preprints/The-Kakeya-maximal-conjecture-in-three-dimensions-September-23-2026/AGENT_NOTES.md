@@ -6,7 +6,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - None found.
 
 ## Comments and discussion
-- [Hyunwoo Kwon, contribution to *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/comment-page-1/) (Proofs and Prompts, posted 2026-10-08, updated 2026-10-19). Kwon explicitly names Kakeya maximal bounds among the announced harmonic-analysis results and discusses the release's pace, readability, and impact on researchers, without presenting a technical assessment of this proof.
 - [deffie (@df_163), post on X](https://x.com/df_163/status/2107613280558551392) (2026-10-06). Points out that Wang and Zahl resolved the three-dimensional Kakeya set conjecture, while this claim concerns the stronger maximal conjecture, which implies it and which Wang and Zahl had not solved.
 
 ## Formalization
@@ -25,4 +24,3 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 ## News and blogs
 - [Azmat, *Kakeya Conjecture: How OpenAI Claims to Break the 4D Barrier*](https://binaryverseai.com/kakeya-conjecture-openai-4d-proof/) (Binary Verse AI, 2026-10-07). This exposition discusses both manuscripts, distinguishes their claims from the Wang–Zahl set theorem, and outlines the four-dimensional argument and its dependence on the three-dimensional companion. [family-level]
 - [36Kr (credited to 新智元 / AI Era), *Wang Hong Solves the 3D Kakeya Conjecture: OpenAI Releases 175-Page 4D Proof Manuscript*](https://eu.36kr.com/en/p/4019356333002630) (36Kr, 2026-10-10). This article describes the 97-page three-dimensional manuscript as aiming at a maximal-function statement stronger than the Wang–Zahl set theorem, and says both arguments "still need independent verification". [family-level]
-- [Machine Heart (机器之心), *Top 30 Most Challenging & Representative Classic Math Problems Selected From All 722 OpenAI Mathematical Manuscripts*](https://eu.36kr.com/en/p/4015466508816520) (36Kr, 2026-10-08). This article lists family 074 among the release's highlights as a stronger three-dimensional version plus the four-dimensional dimension conjecture, notes there is no Lean formalization, and says the result particularly needs expert review. [family-level]

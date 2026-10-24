@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## Comments and discussion
-- [Qi wang (forum participant), *等待大的*, comment 54](https://chaoli.club/index.php/12239/45) (Chaoli forum, 2026-10-07). This Chinese-language comment discusses the claimed local bi-Lipschitz Euclidean neighborhoods in the context of synthetic Ricci bounds and Ricci-limit geometry.
+- None found.
 
 ## Formalization
 - None found.

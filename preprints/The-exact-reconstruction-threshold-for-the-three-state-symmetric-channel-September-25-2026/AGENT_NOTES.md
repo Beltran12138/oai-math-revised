@@ -20,7 +20,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [M. Formentin and C. Külske, *On the Purity of the free boundary condition Potts measure on random trees*](https://arxiv.org/abs/0810.0677) (arXiv:0810.0677, 2008). Gives explicit non-reconstruction (extremality) ranges for Potts channels on random trees, described as close to conjectured values for $q=3$, a precursor setting for the paper's Poisson-tree non-reconstruction statement; the paper cites a different Formentin–Külske article (the symmetric-entropy bound).
 
 ## Digests and expositions
-- [Gradient Damage, *Every OpenAI Math Result, Part 2 of 4: PCP for PPAD, Birkhoff Conjecture and 82 More*](https://gradientdamage.com/videos/every-openai-math-result-part-2-of-4-pcp-for-ppad-birkhoff-conjecture/) (video, 2026-10-14). An animated survey of the release with a chapter on "Result 229" (tree reconstruction threshold); its text reproduces the family summary. [family-level]
+- None found.
 
 ## News and blogs
 - None found.

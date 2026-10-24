@@ -22,7 +22,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Junhui Qin, *Moduli of twisted Higgs bundles*](https://ems.press/content/serial-article-files/49478) (Oberwolfach Report 16/2024, pp. 974–978, workshop 31 March–5 April 2024). Section 2 reviews SLₙ endoscopic decomposition, including the canonical twist, providing background for the manuscript's extension of the filtration comparison to variant cohomology in composite rank.
 
 ## Digests and expositions
-- [Gradient Damage, *Every OpenAI Math Result, Part 1 of 4: Goldfeld's Conjecture and 82 More*](https://gradientdamage.com/videos/every-openai-math-result-part-1-of-4-goldfelds-conjecture-and-82-more/) (video compilation, 14 October 2026). Chapter 37 at 12:31 is devoted to family 043, with the accompanying text reproducing the release's claim about full cohomology and the inclusion of the variant part. [family-level]
+- None found.
 
 ## News and blogs
 - None found.

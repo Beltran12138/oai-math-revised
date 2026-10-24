@@ -22,7 +22,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [Latent Seminar, *Randomized k-server: competitive ratios and uniform computation*](https://lowrank.github.io/latent-seminar/OpenAI-Math/110-randomized-k-server) (blog exposition, 2026-10-07). Exposition of both manuscripts' proof mechanisms, including partition and allocation costs, the bounded request filter, and delayed activation with an unrestricted additive constant; it states that it did not independently verify the complete proofs. [family-level]
-- [Gradient Damage, *Unique Games Conjecture, Bin Packing and 8 More in Theoretical Computer Science*](https://gradientdamage.com/videos/unique-games-conjecture-bin-packing-and-8-more-in-theoretical/) (video compilation, 2026-10-15). The chapter beginning at 1:25 introduces randomized k-server through a taxi analogy, and its accompanying text attributes the arbitrary-metric bound and finite-rational-metric implementation claims to OpenAI. [family-level]
 
 ## News and blogs
-- [JinV+, *OpenAI Just Solved Hundreds of Math Problems. The Fight Over How It Did That Is Just Beginning.*](https://vocal.media/01/openai-just-solved-hundreds-of-math-problems-the-fight-over-how-it-did-that-is-just-beginning) (vocal.media, October 2026). Article about the release with a short section titled "k-server Closes", mentioning the randomized problem and the Bubeck–Coester–Rabani lower bound next to the Coester–Koutsoupias–Zbysiński deterministic result, without naming these manuscripts. [family-level]
+- None found.

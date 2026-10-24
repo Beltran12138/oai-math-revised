@@ -22,7 +22,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [B. Pass, *Multi-marginal optimal transport: theory and applications*](https://arxiv.org/abs/1406.0026) (arXiv:1406.0026, 2014). This survey covers the existence, uniqueness and structure (including Monge form) of multi-marginal optimizers, the setting of the paper's Monge-attainment question.
 
 ## Digests and expositions
-- [Hal Tasaki (requester) / ChatGPT Astra, *Mathematical physics in the OpenAI math release*, entry 1.20](https://haltasaki.github.io/writings/pdf/OpenAI_Mathematical_Physics_Catalogue_2026-10-07.pdf) (research catalogue, 7 October 2026). This catalogue entry summarizes the paper's claim in one sentence and marks it as having its main Lean statement listed, with the inverse-power extensions not documented. [AI-generated per source]
 - [Gradient Damage, *Boltzmann Equation, Hot Spots Conjecture and 7 More in Partial Differential Equations*](https://gradientdamage.com/videos/boltzmann-equation-hot-spots-conjecture-and-7-more-in-partial/) (video compilation, 15 October 2026). The chapter beginning at 2:06 introduces the three-particle Coulomb Monge problem and presents the release's nonattainment claim as an illustration rather than a proof. [family-level]
 
 ## News and blogs

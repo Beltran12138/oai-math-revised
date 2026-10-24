@@ -30,4 +30,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Gradient Damage, *Petty’s Projection Conjecture, Log Brunn–Minkowski Conjecture and 8 More*](https://gradientdamage.com/videos/pettys-projection-conjecture-log-brunn-minkowski-conjecture-and-8-more/) (video compilation and accompanying page, 2026-10-15). The chapter beginning at 1:03 introduces the logarithmic Brunn–Minkowski claim and links the manuscript, presenting the animations as illustrations rather than proofs.
 
 ## News and blogs
-- [Gil Kalai, *Updates: Sharing AI progress on mathematics (amazing!); and my lecture plans*](https://gilkalai.wordpress.com/2026/10/07/updates-sharing-ai-progress-on-mathematics-amazing-and-my-lecture-plans/) (Combinatorics and more, 7 Oct 2026). This post on the whole release notes in one sentence that it announces a proof of the logarithmic Brunn–Minkowski conjecture for origin-symmetric bodies in every dimension; none of its comments discuss the result.
+- None found.

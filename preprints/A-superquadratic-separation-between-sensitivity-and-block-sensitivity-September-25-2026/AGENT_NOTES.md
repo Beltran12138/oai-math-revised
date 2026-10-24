@@ -34,4 +34,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - [Orply / Perplexity, *Boolean Functions Break Every Quadratic Bound on Block Sensitivity*](https://orply.com/articles/perplexity/132-a-superquadratic-separation-between-sensitivity-and-block-sensitivity-bf912210) (Orply, 2026-10-11). Explains the paper's nested predicates, gate-repair counting, block multiplication and composition amplification, explicitly leaving the label-existence calculation and full recurrence algebra undeveloped. [AI-generated per source]
 
 ## News and blogs
-- [Scott Aaronson, *The Mathocalypse*](https://scottaaronson.blog/?p=10169) (Shtetl-Optimized, 2026-10-07). Lists the superquadratic sensitivity separation among the release's results he intends to study, without a technical assessment of it. [family-level]
+- None found.

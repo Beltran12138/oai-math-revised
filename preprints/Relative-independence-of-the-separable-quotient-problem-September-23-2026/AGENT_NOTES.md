@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Tomasz Kania and Jerzy Kąkol, *Separable quotients of pointwise function spaces and relative consistency*](https://arxiv.org/abs/2609.19351) (arXiv:2609.19351, v1 16 Sep 2026, v2 17 Oct 2026). The v2 cites this preprint as [28] and compares its methods with it in Section 11, saying that [28, Lemma 3.2]'s small-density sampling idea carries over to $C_p(K)$ but that the Borel-coding/Fubini step [28, Lemma 3.4] and the final contradiction [28, Section 3] do not. The authors state that they did not verify the preprint's construction and use none of its theorems.
 
 ## Comments and discussion
-- [Mitchell Taylor, reaction collected in *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (proofsandprompts.com, 8 Oct 2026, updated 19 Oct 2026). A short reaction calling it "very cool to see that the separable quotient problem is independent of ZFC" and saying he would like to understand it more deeply; it does not discuss the proof. [family-level]
+- None found.
 
 ## Formalization
 - [OpenAI math release, *Lean scope notes for family 323*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/323.md) (lean/docs/323.md, 6 Oct 2026). The release's Lean development covers only the negative direction: under CH, over $\mathbb R$ and $\mathbb C$, an infinite-dimensional Banach space with no bounded linear surjection onto an infinite-dimensional separable Banach space (comparator file `SeparableQuotientNegative.lean`). The positive direction from a real-valued measurable continuum and the relative-consistency conclusions are out of scope. [family-level]

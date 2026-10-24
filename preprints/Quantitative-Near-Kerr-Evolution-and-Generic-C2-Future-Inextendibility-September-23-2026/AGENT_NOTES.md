@@ -24,7 +24,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Digests and expositions
 - [Latent Seminar, *Kerr cosmic censorship: curvature, holonomy, and weak connections*](https://lowrank.github.io/latent-seminar/OpenAI-Math/264-kerr-cosmic-censorship) (expository article, 2026-10-07). Explains the comparison development, finite curvature tests and Baire-category argument for C² inextendibility, explicitly without independently verifying the full proofs. [family-level]
 - [Papex, *Cosmic censorship hypothesis*](https://papex.org/problems/cosmic-censorship-hypothesis) (overview, reviewed 2026-10-14). Discusses the family's local square-integrable-connection claim alongside earlier censorship results and distinguishes the claim from independent verification. [family-level]
-- [Gradient Damage, *Spacetime Penrose Inequality, Strong Cosmic Censorship Near Kerr and 8 More*](https://gradientdamage.com/videos/spacetime-penrose-inequality-strong-cosmic-censorship-near-kerr-and-8/) (video compilation, 2026-10-15). The chapter beginning at 1:04 introduces the family's near-Kerr censorship claim as an illustration rather than a proof. [family-level]
 
 ## News and blogs
 - None found.

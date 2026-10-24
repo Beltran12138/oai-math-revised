@@ -32,4 +32,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Gradient Damage, *Circulant Hadamard Conjecture, Cycle–Clique Ramsey Numbers and 7 More in Combinatorics*](https://gradientdamage.com/videos/circulant-hadamard-conjecture-cycle-clique-ramsey-numbers-and-7-more/) (video compilation, 2026-10-15). The chapter beginning at 0:21 introduces circulant matrices and states this family's claimed Hadamard and Barker classifications, describing the animations as illustrations rather than proofs. [family-level]
 
 ## News and blogs
-- [Wolfram MathWorld, *Hadamard Matrix*](https://mathworld.wolfram.com/HadamardMatrix.html) (encyclopedia entry, accessed 2026-10-21). Records that "OpenAI (2026) announced that a Hadamard matrix exists iff its order is 1 or 4" for real circulant matrices, adding that "the release proofs have not been independently verified here."
+- None found.

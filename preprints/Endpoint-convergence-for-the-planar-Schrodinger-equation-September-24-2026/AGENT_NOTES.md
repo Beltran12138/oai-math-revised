@@ -21,7 +21,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [AI Proved What?, *Result 080: The exact Sobolev endpoint for Schrödinger convergence*](https://aiprovedwhat.com/episodes/080-schrodinger-convergence-sobolev-endpoint/) (video explainer with transcript, October 2026). Summarizes both preprints and their status, noting that the planar paper does not claim the endpoint local $L^3$ estimate and that the page has "seen no expert review". [family-level]
-- [Gradient Damage, *Falconer Distance Conjecture, Bochner–Riesz Conjecture and 8 More*](https://gradientdamage.com/videos/falconer-distance-conjecture-bochner-riesz-conjecture-and-8-more/) (video compilation, 15 October 2026). The chapter beginning at 2:27 introduces Carleson's Schrödinger convergence problem and the endpoint claim of family 080. [family-level]
 
 ## News and blogs
 - None found.

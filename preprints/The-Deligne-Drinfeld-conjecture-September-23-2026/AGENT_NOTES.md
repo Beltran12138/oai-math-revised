@@ -11,7 +11,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - [Leila Schneps, *The OpenAI proof of the Deligne-Drinfeld conjecture*](https://sites.google.com/view/hmi-workshop-2026/schedule) (HMI workshop talk abstract, October 2026). Announces an overview of the paper's proof strategy and main ideas, distinguishing straightforward steps from technical parts.
 - [Thomas Willwacher / AHGT, *On the Deligne–Drinfeld conjecture*](https://ahgt.math.cnrs.fr/activities/workshops/Seminar-Taming_the_flow_2026/) (Taming the Flow seminar, scheduled for 22 October 2026). Announces a seminar on this manuscript, situating its claim relative to earlier work of Drinfeld, Brown and Willwacher.
 - [Christian Haesemeyer (@CHaesemeyer), post on X](https://x.com/CHaesemeyer/status/2112478250261946595) (20 Oct 2026). Two-post thread saying the now three-page proof "works by writing down a representation that comes out of nowhere" and then checking well-definedness, and arguing that where it comes from "is where the mathematics is."
-- [Sinan Unver (@SinanUnver1), post on X](https://x.com/SinanUnver1/status/2109157528323928220) (11 Oct 2026). Says he was "very surprised to see 2-adic arguments also in the proof of Deligne-Drinfeld conjecture," remarking that computers seem to like 2-adic arguments.
 - [Bjørn Kjos-Hanssen (@kjoshanssen), post on X](https://x.com/kjoshanssen/status/2109352112807379377) (11 Oct 2026). Asks whether the argument in question is about the localization ℤ₍₂₎ rather than the 2-adic integers ℤ₂.
 
 ## Formalization
@@ -30,4 +29,3 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## News and blogs
 - [Trinity College Dublin News, *Leading mathematicians gather in Trinity to examine new AI-generated mathematical proof*](https://www.tcd.ie/news_events/articles/2026/delignedrinfeld-conjecture-workshop/) (15 Oct 2026). Reports that a Hamilton Mathematics Institute workshop examined this proof, that Leila Schneps presented her understanding of it, and that Willwacher reduced the roughly 40-page argument to about eight pages; it quotes Anton Alekseev and Florian Naef.
-- [Machine Heart via 36Kr, *Top 30 Most Challenging & Representative Classic Math Problems Selected From All 722 OpenAI Mathematical Manuscripts*](https://eu.36kr.com/en/p/4015466508816520) (8 Oct 2026). Lists this paper among selected results, noting that it claims to solve the conjecture and comes with a Lean formalization; it quotes no expert comment on this item.

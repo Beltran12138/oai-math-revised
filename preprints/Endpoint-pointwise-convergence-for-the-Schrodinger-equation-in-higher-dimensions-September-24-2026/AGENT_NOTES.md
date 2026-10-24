@@ -22,7 +22,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Digests and expositions
 - [AI Proved What?, *Result 080: The exact Sobolev endpoint for Schrödinger convergence*](https://aiprovedwhat.com/episodes/080-schrodinger-convergence-sobolev-endpoint/) (video explainer with transcript, October 2026). Summarizes both preprints and their status, noting that the higher-dimensional paper depends on lemmas from the planar paper and that no Lean development covers it. [family-level]
 - [Perplexity / Orply, *Schrödinger Waves Converge Pointwise at the Sobolev Endpoint in Dimensions Three and Higher*](https://orply.com/articles/perplexity/080-2-endpoint-pointwise-convergence-for-the-schrodinger-equation-in-higher-dimensions-96efafca) (Orply, 9 October 2026). This AI-assisted exposition describes the manuscript's Gaussian representative, packet-geometric proof outline, and time-tree frequency summation. [AI-generated per source]
-- [Gradient Damage, *Falconer Distance Conjecture, Bochner–Riesz Conjecture and 8 More*](https://gradientdamage.com/videos/falconer-distance-conjecture-bochner-riesz-conjecture-and-8-more/) (video compilation, 15 October 2026). The chapter beginning at 2:27 introduces Carleson's Schrödinger convergence problem and the endpoint claim of family 080. [family-level]
 
 ## News and blogs
 - None found.

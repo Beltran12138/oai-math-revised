@@ -24,4 +24,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Open Mathematics Courses, *A projection of irrational trace and the Baum–Connes conjecture*](https://kokunoyumeto.github.io/open-math-courses-public/courses/irrational-trace-and-baum-connes/) (online course, undated; accessed 2026-10-21). This seven-lesson exposition, attributed to Claude Opus 5.5 and marked as not independently reviewed, covers graphical geometry, lamp-module codes, the spectral gap and the trace calculation. [AI-generated per source]
 
 ## News and blogs
-- [Anoushka Nagle and Haley Rodriguez, *Dartmouth mathematicians weigh artificial intelligence’s role in the future of their work*](https://www.thedartmouth.com/article/2026/10/rodriguez-nagle-dartmouth-mathematicians-weigh-artificial-intelligences-role-in-the-future-of-their-work) (The Dartmouth, 2026-10-20). The article discusses the three counterexample manuscripts through an interview with Erik van Erp, who reports stopping after the introductions because he found the papers difficult to read; this is not a proof assessment. [family-level]
+- None found.

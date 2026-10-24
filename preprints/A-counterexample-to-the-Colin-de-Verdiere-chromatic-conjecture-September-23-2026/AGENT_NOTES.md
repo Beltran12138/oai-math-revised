@@ -21,4 +21,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## News and blogs
-- [Elena Varga, *OpenAI Dumps 100-Plus Mathematical Preprints on GitHub, Including Counterexamples to Major Conjectures*, LavX News](https://news.lavx.hu/article/openai-dumps-100-plus-mathematical-preprints-on-github-including-counterexamples-to-major-conjectures) (2026-10-07). Names "the Colin de Verdière chromatic conjecture" in its list of conjectures the release addresses, without further detail. [family-level]
+- None found.

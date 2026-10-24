@@ -21,7 +21,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [S. Sarkar, *Stability of plethysm coefficients and modified polynomial induction*](https://arxiv.org/abs/2610.07929) (arXiv:2610.07929, October 2026). Gives sharper stabilization bounds for coefficients of $h_n[h_m]$ and a short proof of Brion's stability theorem, which the paper cites for eventual truth at fixed a; it does not mention the release.
 
 ## Digests and expositions
-- [Gradient Damage, *Every OpenAI Math Result, Part 2 of 4: PCP for PPAD, Birkhoff Conjecture and 82 More*](https://gradientdamage.com/videos/every-openai-math-result-part-2-of-4-pcp-for-ppad-birkhoff-conjecture/) (video, 14 October 2026). Chapter 45, "Foulkes' conjecture for sixth powers and quadratic stabilization", summarizes both papers' main claims as part of a survey of the whole release. [family-level]
+- None found.
 
 ## News and blogs
 - [realopjt, *Checking an AI's maths, part 2*](https://realopjt.github.io/2026/10/07/checking-an-ais-maths-part-2.html) (Checking AI maths, 2026-10-07). This post, prepared with Claude's help, explains the independent check of $6\le b\le25$ and reports a successful rerun of the manuscript's programs, distinguishing those checks from verification of the remaining proof.

@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## Comments and discussion
-- [mycaule, *Upstream formal conjectures to Google Deepmind repo* (issue #58, Commutator-IO/grothendieck-project)](https://github.com/Commutator-IO/grothendieck-project/issues/58) (GitHub issue, opened 2026-10-16, closed 2026-10-17). The issue proposes the homotopy hypothesis as a candidate entry for formal-conjectures that stays "research open" and cites this preprint only as an unrefereed claim; the comment thread does not discuss the paper's mathematics.
+- None found.
 
 ## Formalization
 - [OpenAI math release, *Lean scope notes for family 312* (lean/docs/312.md)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/312.md) (release Lean development, 2026-10-06). According to these notes, the Lean development formalizes the elementary-expansion weak-equivalence theorem (Theorem 1.1, Henry's pushout conjecture) for every Ara–Henry coherator and boundary-cellular model; the semi-model structure and the comparison with spaces are not included.

@@ -23,4 +23,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Gradient Damage, *De Giorgi's Conjecture in Dimension 8: Must the Wall Be Flat?*](https://gradientdamage.com/videos/de-giorgis-conjecture-in-dimension-8-must-the-wall-be-flat/) (video and accompanying description, 2026-10-15). Illustrates the claimed dimension-eight monotone rigidity and dimension-seven stable classification, explicitly describing the animation as an illustration rather than a proof.
 
 ## News and blogs
-- [DownloadFan, *OpenAI publiceert 722 door AI gegenereerde wiskundige doorbraken in grote wetenschappelijke mijlpaal*](https://downloadfan.nl/2026/10/08/openai-publiceert-722-door-ai-gegenereerde-wiskundige-doorbraken-in-grote-wetenschappelijke-mijlpaal/) (2026-10-08). This Dutch news report briefly mentions the claimed De Giorgi result and its connection to equations used to study metal alloys, without discussing the proof or specifying the dimension.
+- None found.

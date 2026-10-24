@@ -24,4 +24,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Gradient Damage, *Unique Games Conjecture, Bin Packing and 8 More in Theoretical Computer Science*](https://gradientdamage.com/videos/unique-games-conjecture-bin-packing-and-8-more-in-theoretical/) (video compilation, 2026-10-15). Chapter 9, beginning at 2:49, illustrates the claimed almost-linear-time maximum-matching result, and the accompanying page reproduces the matching and prescribed-degree-factor guarantees. [family-level]
 
 ## News and blogs
-- [Scott Aaronson, *The Mathocalypse*](https://scottaaronson.blog/?p=10169) (Shtetl-Optimized, 2026-10-07). This post on the release lists the paper's result, "a randomized nearly linear-time algorithm" for finding a maximum matching, among the theoretical-computer-science results it highlights. [family-level]
+- None found.

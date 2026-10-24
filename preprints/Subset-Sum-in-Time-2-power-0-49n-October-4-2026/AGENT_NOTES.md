@@ -21,10 +21,8 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Yiming Gao, Yansong Feng, Honggang Hu, Yanbin Pan, *Subset Balancing and Generalized Subset Sum via Lattices*](https://arxiv.org/abs/2604.04656) (arXiv:2604.04656, Apr 2026). Gives lattice-based algorithms for Subset Balancing and Generalized Subset Sum, the setting of the Randolph–Węgrzycki work that the paper contrasts with ordinary Subset Sum.
 
 ## Digests and expositions
-- [we-solve research archive, *OpenAI claim summary for CS-153*](https://we-solve.github.io/contributions/worst-case-subset-sum-below-the-half-exponent/attempt-1/r1/) (we-solve, 6 Oct 2026). A short literature report summarizing the claimed uniform $O(2^{0.49n})$ algorithm from this manuscript; it states the platform has not examined or verified the material. [AI-generated per source]
 - [Sankalp Thakur, *Speed Limits I: Multiplying, Transforming, Factoring*](https://transientlabs.ai/the-deep-end/speed-limits-multiplying) (Deep End Era, episode 81, undated). Includes segments on the claimed Subset Sum time improvement at 40:22 and how a referee would test it at 44:10, with disclosed AI-generated scripting and synthetic narration. [AI-generated per source]
 - [dimenwarper, *oai-math-vids*, video 30 "Subset Sum in O(2^0.49n) time (138)"](https://github.com/dimenwarper/oai-math-vids) (GitHub, Oct 2026). A 4:50 narrated explainer video on this family's result in an unofficial series of Manim videos on the release. [AI-generated per source] [family-level]
-- [Wikipedia contributors, *Subset sum problem*, “OpenAI” subsection](https://en.wikipedia.org/wiki/Subset_sum_problem) (Wikipedia, accessed 21 October 2026). Briefly summarizes both the release's time-exponent claim and its companion time–space claim within an overview of Subset Sum algorithms. [family-level]
 
 ## News and blogs
 - None found.

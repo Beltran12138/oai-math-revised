@@ -53,6 +53,7 @@ Rules:
 - "Possibly relevant literature": at most 5 items, each tied to a specific claim of the paper and not already in its bibliography (check!).
 - "Formalization": Lean or other formal developments of these results, including the release's own (`lean/docs/{FAMILY}.md`, link it on github.com/mathcommunity/oai-math-revised) and independent ones.
 - "News and blogs": articles and posts that discuss these papers. Not catalogue or registry listings, and not a description of where you searched.
+- Comments must add something for a researcher in the area (an assessment with reasons, an explanation, a pointer, a correction, a specific question); skip comments that only restate the claim. No prediction markets, polls or votes.
 - No private or paywalled content; no personal information beyond public names.
 - Every list item must contain a link. Do not explain absences ("there is no Lean development ..."); just write `- None found.`
 

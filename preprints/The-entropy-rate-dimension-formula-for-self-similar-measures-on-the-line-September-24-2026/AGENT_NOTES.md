@@ -7,7 +7,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Samuel Kittle, Constantin Kogler, *Supplementary material for the exact overlaps conjecture for self-similar measures on the real line*](https://github.com/ckkogler/kk26-supplementary-material) (GitHub, 2026). Model-written manuscripts and a conversation transcript (27 Sep–5 Oct 2026) behind the Kittle–Kogler proof, including explorations of a sharper entropy-loss bound and higher-dimensional extensions, which the repository distinguishes from the established results of the main paper. [AI-generated per source]
 
 ## Comments and discussion
-- [Jörg Neunhäuserer, comment on *AHM Statement on OpenAI's October 6 Release of Mathematical Documents* (Terence Tao's blog)](https://terrytao.wordpress.com/2026/10/07/ahm-statement-on-openais-october-6-release-of-mathematical-documents/#comment-697228) (8 Oct 2026). The commenter writes "I worked on three of the problems that have now been solved by ChatGPT (153, 148, and 146)" and reflects on how mathematicians might respond; an anonymous reply notes that the solutions have not yet been independently peer-reviewed.
 - [Zhou Feng, contribution to *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/comment-page-1/) (Proofs and Prompts, Oct 2026). Feng discusses item 148, observes that its proof appears to work within the framework developed by earlier mathematicians, and says he intends to study it further.
 
 ## Formalization

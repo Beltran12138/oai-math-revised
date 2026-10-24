@@ -24,4 +24,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Latent Seminar, *The weighted subcritical Lane–Emden system*](https://lowrank.github.io/latent-seminar/OpenAI-Math/370-lane-emden) (2026-10-06). Explains the claimed theorem, scaling, localized virial identity, and weighted interval-pressure estimates, while stating that it is not an independent verification of the complete proof. [family-level]
 
 ## News and blogs
-- [Post-Cutoff, *AI-assisted results in the 19 Oct 2026 arXiv listing*](https://postcutoff.com/e/2026-10-19-ai-assisted-results-october-19-listing/) (2026-10-19). Discusses Li, Lu, and Zhang's fractional extension as a follow-up to family 370 and reports their acknowledgement of AI assistance. [family-level]
+- None found.

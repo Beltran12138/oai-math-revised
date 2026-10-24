@@ -36,4 +36,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - None found.
 
 ## News and blogs
-- [David H. Bailey, *OpenAI stuns mathematicians with 722 new papers*, Math Scholar](https://mathscholar.org/2026/10/openai-stuns-mathematicians-with-722-new-papers/) (blog, 2026-10-07, updated 2026-10-19). Reports OpenAI's claimed proof that Catalan's constant is irrational and describes it as a problem at least 70 years old.
+- None found.

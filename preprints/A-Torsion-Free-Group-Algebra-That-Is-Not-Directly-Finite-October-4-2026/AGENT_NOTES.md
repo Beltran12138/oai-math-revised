@@ -7,7 +7,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Comments and discussion
 - [Johan Öinert, comment on *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (proofsandprompts.com, post of 2026-10-08). Öinert observes that the claimed torsion-free example over $\mathbb F_2$ also gives a nontrivial idempotent $ba$, hence a characteristic-two counterexample to the idempotent conjecture, and criticizes the manuscript for not mentioning this.
-- [Michael Chapman, in *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (proofsandprompts.com, 2026-10-08). Lists "the refutations to the Kaplansky conjectures" among the release results on problems he "grew up on", without discussing this manuscript in detail. [family-level]
 
 ## Formalization
 - [OpenAI, *Lean scope note for family 197* (`lean/docs/197.md`)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/197.md) (openai/math release, 2026-10-06). The family's scope note covers the characteristic-two, odd-characteristic and determinant companions; it does not list this torsion-free manuscript among the formalized papers. [family-level]

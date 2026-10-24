@@ -22,7 +22,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [Latent Seminar, *Einstein four-manifolds: curvature rigidity and an L² topological gap*](https://lowrank.github.io/latent-seminar/OpenAI-Math/348-einstein-four-manifold-rigidity) (7 October 2026). Explains the three manuscripts’ dependencies, coupled Weyl estimates and Ricci-flow gap argument, and distinguishes its reported arithmetic checks from verification of the complete proofs. [family-level]
-- [Gradient Damage, *Calabi Flow, Affine Bernstein Problem and 7 More in Differential Geometry*](https://gradientdamage.com/videos/calabi-flow-affine-bernstein-problem-and-7-more-in-differential/) (15 October 2026). The opening chapter presents the family’s nonnegative-curvature classification and topological-gap claims as an illustrative animation. [family-level]
 
 ## News and blogs
 - None found.

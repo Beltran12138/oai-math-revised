@@ -24,7 +24,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [AI Proved What?, *One signal, every pattern? A smooth three-torus map with simple Lebesgue spectrum*](https://aiprovedwhat.com/episodes/144-simple-lebesgue-spectrum/) (episode 144, October 2026). This illustrated exposition and transcript explain the claimed spectral model and the twist, passage, density-bias, whitening, and diagonal-limit construction, with numerical illustrations and a statement that its authors have not run the Lean check. [AI-generated per source]
-- [Gradient Damage, *Birkhoff Conjecture, Zero Entropy and 7 More in Dynamical Systems and Ergodic Theory*](https://gradientdamage.com/videos/birkhoff-conjecture-zero-entropy-and-7-more-in-dynamical-systems/) (video and accompanying post, 15 October 2026). The opening chapter, at 0:00–0:21, introduces Banach’s probability-preserving spectrum problem and the release’s claim, linking this manuscript.
 
 ## News and blogs
-- [Tom Whipple / BBC Inside Science, *The future of mathematics in the age of AI*](https://podscan.fm/podcasts/bbc-inside-science/episodes/the-future-of-mathematics-in-the-age-of-ai) (BBC Radio 4; public episode description and transcript on Podscan, 8 October 2026). The episode description names Banach’s simple Lebesgue-spectrum problem among the release’s claims, without a technical assessment of this manuscript.
+- None found.

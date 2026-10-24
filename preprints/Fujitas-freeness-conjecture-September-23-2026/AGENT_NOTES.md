@@ -24,4 +24,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - [AI Proved What?, *Sections everywhere? Fujita’s freeness conjecture*](https://aiprovedwhat.com/episodes/038-fujitas-freeness-conjecture/) (episode 038, October 2026). This video and accompanying transcript explain the manuscript's claimed bound and its counting, exponential minimization, point-center reduction, and vanishing argument, while distinguishing freeness from very ampleness. [AI-generated per source] [family-level]
 
 ## News and blogs
-- [Post-Cutoff, *Japanese algebraic geometer lists the release’s algebraic-geometry claims (Hodge for CM abelian varieties, Fujita, Nagata, MMP…)*](https://postcutoff.com/p/2026-10-06-kiwamu-watanabe-algebraic-geometry-claims/) (report of an X post dated 6 October 2026). This AI-written report reproduces Kiwamu Watanabe's public reaction listing Fujita freeness among the release's claims and explicitly expressing uncertainty about correctness. [AI-generated per source] [family-level]
+- None found.

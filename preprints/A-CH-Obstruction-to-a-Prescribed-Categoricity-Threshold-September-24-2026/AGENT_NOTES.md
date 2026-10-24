@@ -20,7 +20,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Will Boney and John Baldwin, *Hanf Numbers and Presentation Theorems in AECs*](https://arxiv.org/abs/1511.02935) (arXiv:1511.02935, 2016). Shows that a strongly compact cardinal bounds Hanf numbers for amalgamation and related properties, using a functorial relational presentation theorem; this connects to the paper's use of the Hanf bound $H(K)$ and its discussion of where amalgamation and joint embedding fail.
 
 ## Digests and expositions
-- [Gradient Damage, *Every OpenAI Math Result, Part 2 of 4: PCP for PPAD, Birkhoff Conjecture and 82 More*](https://gradientdamage.com/videos/every-openai-math-result-part-2-of-4-pcp-for-ppad-birkhoff-conjecture/) (video, 14 October 2026). Chapter 61 (20:49) gives a short summary of family 240, including the claim that under CH "a proposed specific Hanf threshold need not suffice." [family-level]
+- None found.
 
 ## News and blogs
 - None found.

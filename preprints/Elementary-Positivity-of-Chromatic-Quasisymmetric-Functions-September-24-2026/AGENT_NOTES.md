@@ -25,7 +25,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [SymCat (symmetricfunctions.com), *Chromatic symmetric functions in the elementary basis*](https://www.symmetricfunctions.com/chromaticEexpansion.htm) (page dated 2026-10-07). Discusses the paper's Theorem 1.1 and Section 6, explaining that its permutation statistic uses auxiliary geometric choices and ordered finite matchings, and notes that the separate elementary-unimodality conjecture remains open.
-- [symmetricfunctions.com, *Chromatic quasisymmetric functions*](https://www.symmetricfunctions.com/chromaticQuasisymmetric.htm) (online reference, accessed 2026-10-21). Mentions the paper's Theorem 1.1 in its section on the elementary expansion and records that elementary unimodality remains open.
 
 ## News and blogs
 - None found.

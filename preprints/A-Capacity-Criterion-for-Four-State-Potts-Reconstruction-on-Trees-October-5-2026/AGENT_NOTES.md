@@ -18,7 +18,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## Digests and expositions
-- [Gradient Damage, *Every OpenAI Math Result, Part 2 of 4: PCP for PPAD, Birkhoff Conjecture and 82 More*](https://gradientdamage.com/videos/every-openai-math-result-part-2-of-4-pcp-for-ppad-birkhoff-conjecture/) (video, 2026-10-14). An animated survey of the release with a chapter on "Result 229"; its text reproduces the family summary and does not describe the capacity criterion separately. [family-level]
+- None found.
 
 ## News and blogs
 - None found.

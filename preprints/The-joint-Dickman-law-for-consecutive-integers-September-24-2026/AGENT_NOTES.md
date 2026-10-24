@@ -24,4 +24,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [eigendash, *openai-math-visualised*](https://github.com/eigendash/openai-math-visualised) (GitHub repository, accessed 2026-10-21). Includes a numerical probe of family 012 up to $6\times10^7$: the density of $P^+(n)<P^+(n+1)$ is reported as 0.499983, with a comparison of the binned joint distribution against the product of Dickman marginals.
 
 ## News and blogs
-- [OfficeChai Team, *OpenAI Has Also Included Proofs For 23 Erdos Problems In Its Latest Math Proof Drop*](https://officechai.com/ai/openai-has-also-included-proofs-for-23-erdos-problems-in-its-latest-math-proof-drop/) (OfficeChai, 9 Oct 2026). Lists Problem 371 ("the largest prime factors of consecutive integers") among the 23 Erdős problems with claimed results in the release, noting that it is on the FrontierMath Erdős list and has a Lean formalisation, without discussing this paper's argument. [family-level]
+- None found.

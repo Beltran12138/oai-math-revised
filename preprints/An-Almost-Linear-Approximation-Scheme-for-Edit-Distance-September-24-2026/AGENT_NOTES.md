@@ -7,7 +7,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Jihan-Wang (GitHub), *An Almost-Linear Approximation Scheme for Metric-Weighted Edit Distance*](https://github.com/Jihan-Wang/metric-weighted-edit-distance) (GitHub repository, commits 8–9 October 2026). Manuscript that adapts this paper's refinement framework to edit costs from an arbitrary metric and claims expected time N^{1+O(log log log N / log log N)}. It also contains independent reading notes on this paper and states that it has no implementation and no formal proof.
 
 ## Comments and discussion
-- [FedorovP777 and maxbachmann on GitHub, *Feature Request: Integration of the new almost-linear edit distance approximation scheme*](https://github.com/rapidfuzz/RapidFuzz/issues/498) (RapidFuzz issue #498, 7 October 2026). Asks for an optional approximate mode in the RapidFuzz string-matching library based on this paper; the maintainer replied "This would definitely be interesting to explore" and offered help with integration.
 - [sebzim4500, *Comment on “Sharing AI progress in mathematics”*](https://news.ycombinator.com/item?id=49993877) (Hacker News, October 2026). This brief reader comment discusses the manuscript’s readability and questions the completeness of its linked Lean challenge, without providing a mathematical review.
 
 ## Formalization

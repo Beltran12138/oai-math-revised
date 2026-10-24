@@ -27,4 +27,3 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## News and blogs
 - [Azmat, *Two-Point Chowla Conjecture: OpenAI’s Proof Breaks a 61-Year Averaging Deadlock*](https://binaryverseai.com/two-point-chowla-conjecture-openai-proof/) (Binary Verse AI, 12 October 2026). This paper-specific article discusses the two theorem statements, residue comparisons and graph estimates, and explicitly says it does not report a fresh Lean compilation or completed independent review.
-- [kingy.ai blog, *OpenAI's 722 Math Manuscripts: The Results, Proofs, Compute and Costs*](https://kingy.ai/blog/openai-math-722-manuscripts-results-proofs-compute-costs/) (kingy.ai, undated). A survey of the release with a short section on family 007 that restates its two headline claims (the ordinary two-point Chowla bound and the corrected binary Elliott statement). [family-level]

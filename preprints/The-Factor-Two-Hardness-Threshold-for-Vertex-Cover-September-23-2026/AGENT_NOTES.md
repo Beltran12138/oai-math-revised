@@ -23,4 +23,3 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## News and blogs
 - [Agentic Economy, *OpenAI's Unique Games claim: repairing the completeness gap*](https://aecon.ai/blog/openai-unique-games-approximation) (2026-10-08). Identifies the direct Vertex Cover manuscript separately from the Khot–Regev implication and says its reduction needs to be examined on its own. [family-level]
-- [Post-Cutoff, *OpenAI model claims a proof of Khot's Unique Games Conjecture, with Lean formalization*](https://postcutoff.com/e/2026-10-06-unique-games-conjecture-openai/) (postcutoff.com, filed 2026-10-07). News entry on the Unique Games manuscript that also lists the companion Max-Cut, Vertex Cover, Min-UnCut and DFVS claims and collects early reactions. [AI-generated per source] [family-level]

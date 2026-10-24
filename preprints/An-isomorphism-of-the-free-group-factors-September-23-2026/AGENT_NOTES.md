@@ -7,7 +7,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Jizhou Guo, *Consequences of results in the OpenAI mathematics release*, §7: Group von Neumann algebras of surface groups](https://raw.githubusercontent.com/aster2024/openai-math-followups/main/consequences/README.md) (GitHub research notes, 8 October 2026). Conditionally combines this paper's isomorphisms with Shlyakhtenko's Fuchsian-group-factor preprint to deduce that the factors of all closed orientable surface groups of genus at least two are isomorphic to $L(\mathbb F_2)$.
 
 ## Comments and discussion
-- [Vadim Alekseev and Srivatsav Kunnawalkam Elayavalli, in *100+ reactions to 100+ solutions* (Proofs and Prompts)](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (blog post, 8 Oct 2026, updated 19 Oct 2026). Signed reactions to the result: Alekseev writes "I got really impressed by the resolution of the free factor problem", and Kunnawalkam Elayavalli says he had believed "that the free group factors ought to be non-isomorphic".
+- None found.
 
 ## Formalization
 - [OpenAI math release, Lean scope note for family 287 (mirror on mathcommunity/oai-math-revised)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/287.md) (lean/docs/287.md, 6 October 2026). States that the formalization covers normal trace-preserving isomorphism of interpolated free group factors for all parameters r, s > 1, including ∞, and links the Comparator statement; the fundamental-group conclusion is not a separately selected statement.
@@ -24,5 +24,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [OpenAI Math Digest, *An isomorphism of the free group factors*](https://masataka123.github.io/OpenAI-Math-Digest/en/papers/free-group-factor-isomorphism/) (online reading guide, undated). Gives proof diagrams and source references for the polynomial flow, small cocycle, adaptive generating limit, amplification step and free entropy dimension consequences, distinguishing its checks from independent referee certification. [AI-generated per source]
 
 ## News and blogs
-- [postcutoff.com, *OpenAI model claims the free group factor problem*](https://postcutoff.com/e/2026-10-06-free-group-factors-isomorphism-openai/) (filed 7 Oct 2026, updated 19 Oct 2026). A news entry on this paper and its Lean scope, also reporting Shlyakhtenko's follow-up arXiv:2610.19590; the page says it was researched and written by AI agents and records no human review. [AI-generated per source]
 - [Azmat, *Free Group Factor Isomorphism Problem: How OpenAI’s Proof Absorbs an Extra Generator*](https://binaryverseai.com/free-group-factor-isomorphism-problem/) (BinaryVerse AI, 10 October 2026). Explains the manuscript's generator-absorption construction, including why preserving the limiting Haar distribution and proving generation require separate arguments.

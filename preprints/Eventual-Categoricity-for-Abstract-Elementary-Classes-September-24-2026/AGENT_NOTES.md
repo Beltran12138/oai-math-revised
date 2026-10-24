@@ -22,7 +22,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [GitHub repository WBoney/AEC-categoricity-notes, *Working Summary of the Eventual Categoricity Proof: Sections 2–4 and a Roadmap for Further Reading*](https://github.com/WBoney/AEC-categoricity-notes) (LaTeX notes, revised 15 October 2026). Reading notes on this manuscript that treat Sections 2–4.1 in detail (EM foundations, strong-type reversal, comparison diagrams, amalgamation at selected cardinals) and outline the rest; the notes say they are "not an independent verification of the manuscript's proofs."
-- [Gradient Damage, *Every OpenAI Math Result, Part 2 of 4: PCP for PPAD, Birkhoff Conjecture and 82 More*](https://gradientdamage.com/videos/every-openai-math-result-part-2-of-4-pcp-for-ppad-birkhoff-conjecture/) (video, 14 October 2026). Chapter 61 (20:49) gives a short summary of family 240, describing it as a ZFC proof of Shelah's conjecture together with the CH threshold obstruction. [family-level]
 
 ## News and blogs
 - None found.

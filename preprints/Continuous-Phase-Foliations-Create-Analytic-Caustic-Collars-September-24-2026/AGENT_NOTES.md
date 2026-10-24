@@ -22,7 +22,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [heyprof, *Birkhoff billiards: only the ellipse has no gaps*](https://www.heyprof.app/en/demo/birkhoff-billard) (interactive exposition, undated). Illustrates caustics and phase portraits for ellipses and deformed convex tables, explicitly relating a full near-boundary foliation to the claims of family 147. [family-level]
-- [Gradient Damage, *The near-boundary Birkhoff conjecture*](https://gradientdamage.com/openai-math/near-boundary-birkhoff-conjecture/) (gradientdamage.com, 14 October 2026). An independent explainer page restating the family's claims from OpenAI's catalogue and noting they are not peer reviewed, with an animated segment in [Every OpenAI Math Result, Part 2 of 4](https://gradientdamage.com/videos/every-openai-math-result-part-2-of-4-pcp-for-ppad-birkhoff-conjecture/) (chapter 10, from 3:06). [family-level]
 
 ## News and blogs
 - None found.

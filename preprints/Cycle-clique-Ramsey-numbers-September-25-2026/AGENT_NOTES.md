@@ -11,7 +11,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Formalization
 - [OpenAI math release, *Lean scope notes for family 189: Cycle–clique Ramsey numbers*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/189.md) (lean/docs/189.md, 2026-10-06). The release's Lean formalization states $R(C_m,K_n)=(m-1)(n-1)+1$ for all $m\ge n\ge3$ except $(3,3)$, and $R(C_3,K_3)=6$, covering the paper's full main theorem; the comparator statement is in `CycleCliqueRamsey.lean`.
 - [Google DeepMind formal-conjectures, *FormalConjectures/ErdosProblems/551.lean*](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/551.lean) (formal-conjectures, accessed 2026-10-21). An independent Lean statement of the Erdős–Faudree–Rousseau–Schelp conjecture (Erdős Problem 551), still tagged `research open` with `sorry`, which also contains a "sufficiently large $n$" variant attributed to Keevash–Long–Skokan.
-- [anxkhn, *Erdős 551: record the full cycle–clique Ramsey formula*](https://github.com/google-deepmind/formal-conjectures/issues/6987) (google-deepmind/formal-conjectures issue #6987, 2026-10-08). The issue proposes citing the paper's Theorem 1.1 and marking the existing `erdos_551` statement as solved, noting that no `formal_proof` attribute has been added.
 
 ## Related prior literature mentioned by others
 - None found.

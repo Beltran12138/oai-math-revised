@@ -34,6 +34,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## News and blogs
 - [Wikipedia contributors, *Borsuk's conjecture*](https://en.wikipedia.org/wiki/Borsuk%27s_conjecture) (Wikipedia, accessed 2026-10-21). Records OpenAI's 2026 claim of a counterexample in ℝ⁹ and notes that the construction is infinite, so it would not disprove the finite version in ℝ⁹.
-- [OfficeChai Team, *OpenAI Releases Over 300 Mathematical Results Produced By An Internal Model*](https://officechai.com/ai/openai-releases-over-300-mathematical-results-produced-by-an-internal-model/) (OfficeChai, 2026-10-07). This release report singles out the dimension-nine Borsuk counterexample, noting the previous smallest known dimension "was in the sixties". [family-level]
 - [Azmat, *Borsuk Conjecture: OpenAI's 9D Proof Shatters the 63-Dimension Record*](https://binaryverseai.com/borsuk-conjecture-openai-proof/) (BinaryVerse AI, 2026-10-12). Outlines the paper's projector construction and proof strategy and distinguishes the strict smaller-diameter condition from merely avoiding orthogonal pairs.
-- [Gil Kalai (@GilKalai), post on X](https://x.com/GilKalai/status/2112883277447279066) (2026-10-21). Announces "Open AI's proof that Borsuk's conjecture fails already in dimension 9! (And other related news.)" and links a further write-up via a shortened link.

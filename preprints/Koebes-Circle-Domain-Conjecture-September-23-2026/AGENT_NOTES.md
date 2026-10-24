@@ -25,4 +25,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [AI Proved What?, *Every hole made round? Koebe's circle-domain conjecture*](https://aiprovedwhat.com/episodes/071-koebes-circle-domain-conjecture/) (Episode 071, October 2026). This AI-assisted video and transcript explain both manuscripts, their dependence on retained tests, and the distinction between circle-domain existence and rigidity under removability. [AI-generated per source] [family-level]
 
 ## News and blogs
-- [机器之心 Pro (Synced / Machine Heart), *翻完OpenAI的722篇数学手稿，我们挑出了最重的30道名题*](https://finance.sina.com.cn/tech/roll/2026-10-07/doc-iniuksyc8187559.shtml) (Sina Technology republication, 2026-10-07; [English version on 36Kr](https://eu.36kr.com/en/p/4015466508816520), 2026-10-08). This Chinese-language article includes Koebe's conjecture among its 30 selected problems, noting that OpenAI claims only the existence part and that a Lean formalization is attached.
+- None found.

@@ -29,4 +29,3 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## News and blogs
 - [Thomas Bloom, *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10) (erdosproblems.com blog, 8 Oct 2026). Has a section headed "Primes are not a sumset" that summarizes the claimed result as Problem 431, notes that the proof has been formalised, and says the PDF is 80 pages. [family-level]
-- [OfficeChai Team, *OpenAI Has Also Included Proofs For 23 Erdos Problems In Its Latest Math Proof Drop*](https://officechai.com/ai/openai-has-also-included-proofs-for-23-erdos-problems-in-its-latest-math-proof-drop/) (OfficeChai, 9 Oct 2026). Lists Problem 431 in one bullet as a proof of Ostmann's conjecture with a Lean formalisation.

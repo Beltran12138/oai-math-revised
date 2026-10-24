@@ -6,7 +6,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## Comments and discussion
-- [Thomas Bloom, *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10) (erdosproblems.com blog, 8 October 2026). Lists this paper under Problem 181 as a claimed proof of the Burr–Erdős conjecture, noting that the PDF is 172 pages long and that "This proof has not been formalised"; the post does not assess correctness.
 - [mo271, *ErdosProblems/181: `erdos_181` is true*](https://github.com/google-deepmind/formal-conjectures/issues/6906) (google-deepmind/formal-conjectures issue #6906, opened 7 October 2026, closed 11 October 2026). Argues that Theorem 1.1 of this paper matches the Lean statement `erdos_181` and proposes marking it solved; the issue says the comparison was prepared with AI assistance.
 
 ## Formalization
@@ -26,4 +25,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Latent Seminar, *Linear-order Ramsey numbers for hypercubes*](https://lowrank.github.io/latent-seminar/OpenAI-Math/171-hypercube-ramsey) (2026-10-07). Explains the paper's patch decomposition, common-neighbor lists and final Hall-obstruction estimates, and states that its proof outlines are not an independent verification of the complete proof. [family-level]
 
 ## News and blogs
-- [OfficeChai Team, *OpenAI Has Also Included Proofs For 23 Erdos Problems In Its Latest Math Proof Drop*](https://officechai.com/ai/openai-has-also-included-proofs-for-23-erdos-problems-in-its-latest-math-proof-drop/) (OfficeChai, 9 October 2026). Lists the hypercube result as Erdős Problem 181 among those addressed in the release and reports that the 172-page paper was not yet formalised, before the 11 October Formal Conjectures update.
+- None found.

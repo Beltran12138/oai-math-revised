@@ -22,4 +22,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Claude Opus 5.5 / Open Mathematics Courses, *A counterexample to Wall's D(2) problem*](https://kokunoyumeto.github.io/open-math-courses-public/courses/a-counterexample-to-walls-d2-problem/) (Open Mathematics Courses, October 2026). Four lessons expand the paper's twisted homology, cyclic-tower obstruction, finite plus construction and explicit counterexample, with exercises and solutions; the source states that independent review is incomplete. [AI-generated per source]
 
 ## News and blogs
-- [Petre Bucur, *OpenAI publică 722 de lucrări cu descoperiri matematice*](https://partnermarket.ro/piata-parteneri/openai-722-descoperiri-matematice/) (PartnerMarket, 2026-10-07). This Romanian news report quotes Francis Johnson's surprise at the speed of the claimed solution to Wall's D(2) problem after his own long involvement with it, without providing a technical assessment of the proof.
+- None found.

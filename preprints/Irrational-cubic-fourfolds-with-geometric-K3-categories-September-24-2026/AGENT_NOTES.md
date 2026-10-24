@@ -23,4 +23,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## News and blogs
-- [Machine Heart (via 36Kr), *Top 30 Most Challenging & Representative Classic Math Problems Selected From All 722 OpenAI Mathematical Manuscripts*](https://eu.36kr.com/en/p/4015466508816520) (36Kr, 2026-10-08). Includes entry No. 054, which briefly summarizes the claimed counterexample to Kuznetsov's conjecture and says OpenAI "claims to have constructed examples that meet this criterion but still cannot be rationally parameterized".
+- None found.
