@@ -1,6 +1,6 @@
 ## Contributions
 
-- 2026-10-24 @gavramidi: Added Mario Bonk's Quasiworld seminar talk on this paper under Follow-up works ([issue #18](https://github.com/mathcommunity/oai-math-revised/issues/18), [PR #22](https://github.com/mathcommunity/oai-math-revised/pull/22)). Entry drafted with Claude Code, which also checked the source.
+- 2026-10-24 @gavramidi: Added Mario Bonk's Quasiworld seminar talk on this paper under Follow-up works ([issue #18](https://github.com/mathcommunity/oai-math-revised/issues/18), [PR #22](https://github.com/mathcommunity/oai-math-revised/pull/22)). Entry drafted with Claude Code; source checked by the maintainer.
 
 ## Follow-up works
 
