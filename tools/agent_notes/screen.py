@@ -120,10 +120,14 @@ def main():
         batches = [papers[i:i + a.batch] for i in range(0, len(papers), a.batch)]
         todo = [(b, batch_path(a.work, b)) for b in batches]
         todo = [(b, p) for b, p in todo if not p.exists()]
+        failed = 0
         with cf.ThreadPoolExecutor(a.jobs) as ex:
             for msg in ex.map(lambda t: screen(*t), todo):
                 print(msg, flush=True)
-        return
+                failed += ": failed" in msg
+        if failed:
+            print(f"{failed} of {len(todo)} batches failed; rerun to retry them", flush=True)
+        return 1 if failed else 0
 
     drops = all_drops(a.work)
     if a.cmd == "report":
