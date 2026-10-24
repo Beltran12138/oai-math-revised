@@ -7,6 +7,7 @@
 
 `run` sends the notes of a batch of papers to `claude -p` with SCREEN.md and
 stores the proposed drops per batch, each with its folder and line text
+(drops of an item with identical copies are marked ambiguous and never applied)
 (resumable: a batch is reused only for exactly the same papers). `apply`
 removes those lines by exact text, so drops whose line changed or is already
 gone are reported and skipped; a section left empty gets "- None found.".
@@ -72,7 +73,9 @@ def screen(batch, path: Path):
     except (subprocess.TimeoutExpired, ValueError) as e:  # JSONDecodeError is a ValueError
         return f"{path.name}: failed: {e}"
     where = {iid: (folder, line) for folder, items in batch for iid, _, _, line in items}
-    drops = [{"id": d["id"], "folder": where[d["id"]][0], "line": where[d["id"]][1], "reason": str(d.get("reason", ""))}
+    lines = [(folder, line) for folder, items in batch for *_, line in items]
+    drops = [{"id": d["id"], "folder": where[d["id"]][0], "line": where[d["id"]][1], "reason": str(d.get("reason", "")),
+              "ambiguous": lines.count(where[d["id"]]) > 1}  # identical copies: never applied, remove by hand
              for d in reply if isinstance(d, dict) and d.get("id") in where]
     data = {"folders": [folder for folder, _ in batch], "drops": drops}
     path.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -84,7 +87,10 @@ def all_drops(work: Path):
     drops = {}
     for f in sorted(work.glob("batch-*.json")):
         for d in json.loads(f.read_text(encoding="utf-8"))["drops"]:
-            drops[(d["folder"], d["line"])] = (d["id"], d["reason"])
+            reason = d["reason"] + (" [AMBIGUOUS: identical copies, not applied]" if d.get("ambiguous") else "")
+            drops.setdefault((d["folder"], d["line"]), (d["id"], reason))
+            if d.get("ambiguous"):  # once ambiguous, always ambiguous
+                drops[(d["folder"], d["line"])] = (d["id"], reason)
     return drops
 
 
@@ -130,7 +136,8 @@ def main():
         print(f"{total} proposed drops in {a.work / 'drops.md'}")
         return
 
-    wanted = {k for k, (iid, _) in drops.items() if iid not in a.skip and (not a.only or k[0] in a.only)}
+    wanted = {k for k, (iid, reason) in drops.items()
+              if iid not in a.skip and (not a.only or k[0] in a.only) and "[AMBIGUOUS" not in reason}
     removed, found = 0, set()
     for folder, items in papers:
         count = {}
