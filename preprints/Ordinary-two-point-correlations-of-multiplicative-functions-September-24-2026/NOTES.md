@@ -1,6 +1,6 @@
 ## Contributions
 
-- 2026-10-24 @John-Layne (John Layne): Signed up as interested in working on this paper.
+- 2026-10-24 @John-Layne (John Layne): Signed up as interested in working on this paper ([PR #20](https://github.com/mathcommunity/oai-math-revised/pull/20)).
 
 ## Follow-up works
 
