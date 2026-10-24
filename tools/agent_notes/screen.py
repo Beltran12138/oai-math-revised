@@ -133,7 +133,13 @@ def main():
     wanted = {k for k, (iid, _) in drops.items() if iid not in a.skip and (not a.only or k[0] in a.only)}
     removed, found = 0, set()
     for folder, items in papers:
-        hit = {n for _, _, n, line in items if (folder, line) in wanted}
+        count = {}
+        for _, _, _, line in items:
+            count[line] = count.get(line, 0) + 1
+        for line in {l for _, _, _, l in items if count[l] > 1 and (folder, l) in wanted}:
+            print(f"ambiguous ({count[line]} identical items), remove by hand: {folder}: {line[:100]}")
+            found.add((folder, line))
+        hit = {n for _, _, n, line in items if (folder, line) in wanted and count[line] == 1}
         if not hit:
             continue
         found |= {(folder, line) for _, _, n, line in items if n in hit}
