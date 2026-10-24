@@ -3,7 +3,7 @@
 
     screen.py run WORK [--batch 12] [--jobs 6] [--only FOLDER ...]
     screen.py report WORK            # writes WORK/drops.md for review
-    screen.py apply WORK [--skip ID ...]
+    screen.py apply WORK [--skip ID ...]   # IDs as shown in drops.md
 
 `run` sends the notes of a batch of papers to `claude -p` with SCREEN.md and
 stores the proposed drops per batch, each with its folder and line text
@@ -94,6 +94,11 @@ def all_drops(work: Path):
     return drops
 
 
+def key(folder, line):
+    """Stable review ID of an item (positional IDs are only used inside a batch prompt)."""
+    return hashlib.sha1(f"{folder}\n{line}".encode()).hexdigest()[:10]
+
+
 def batch_path(work: Path, batch):
     key = hashlib.sha1("\n".join(folder for folder, _ in batch).encode()).hexdigest()[:12]
     return work / f"batch-{key}.json"
@@ -128,16 +133,16 @@ def main():
             if hits:
                 out.append(f"## {folder}\n")
                 for sec, line in hits:
-                    iid, reason = drops[(folder, line)]
-                    out.append(f"- `{iid}` *{sec}* — {reason}\n  {line[2:]}")
+                    reason = drops[(folder, line)][1]
+                    out.append(f"- `{key(folder, line)}` *{sec}* — {reason}\n  {line[2:]}")
                     total += 1
                 out.append("")
         (a.work / "drops.md").write_text(f"# Proposed drops: {total}\n\n" + "\n".join(out), encoding="utf-8")
         print(f"{total} proposed drops in {a.work / 'drops.md'}")
         return
 
-    wanted = {k for k, (iid, reason) in drops.items()
-              if iid not in a.skip and (not a.only or k[0] in a.only) and "[AMBIGUOUS" not in reason}
+    wanted = {k for k, (_, reason) in drops.items()
+              if key(*k) not in a.skip and (not a.only or k[0] in a.only) and "[AMBIGUOUS" not in reason}
     removed, found = 0, set()
     for folder, items in papers:
         count = {}
