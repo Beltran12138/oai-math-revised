@@ -6,12 +6,15 @@
     screen.py apply WORK [--skip ID ...]
 
 `run` sends the notes of a batch of papers to `claude -p` with SCREEN.md and
-stores the proposed drops per batch (resumable). `apply` removes the proposed
-items, checking each line still matches; a section left empty gets
-"- None found.". Nothing is removed without a review of drops.md.
+stores the proposed drops per batch, each with its folder and line text
+(resumable: a batch is reused only for exactly the same papers). `apply`
+removes those lines by exact text, so drops whose line changed or is already
+gone are reported and skipped; a section left empty gets "- None found.".
+Nothing is removed without a review of drops.md.
 """
 import argparse
 import concurrent.futures as cf
+import hashlib
 import json
 import re
 import subprocess
@@ -52,7 +55,7 @@ def render(batch):
             if sec != section:
                 out.append(f"## {sec}")
                 section = sec
-            out.append(f"[{iid}] {line[2:]}")
+            out.append(f"#{iid} {line[2:]}")
         out.append("")
     return "\n".join(out)
 
@@ -60,22 +63,34 @@ def render(batch):
 def screen(batch, path: Path):
     prompt = (HERE / "SCREEN.md").read_text(encoding="utf-8").replace("{NOTES}", render(batch))
     cmd = ["claude", "-p", "--model", MODEL, "--no-session-persistence", "--tools", ""]
-    r = subprocess.run(cmd, input=prompt, capture_output=True, text=True, timeout=1800)
-    m = re.search(r"\[.*\]", r.stdout, re.S)
-    if r.returncode or not m:
-        return f"{path.name}: failed (exit {r.returncode}): {(r.stdout + r.stderr)[-300:]}"
-    ids = {iid for _, items in batch for iid, *_ in items}
-    drops = [d for d in json.loads(m.group(0)) if d.get("id") in ids]
-    path.write_text(json.dumps(drops, ensure_ascii=False, indent=1), encoding="utf-8")
+    try:
+        r = subprocess.run(cmd, input=prompt, capture_output=True, text=True, timeout=1800)
+        m = re.search(r"^\[.*\]", r.stdout.strip(), re.S)
+        if r.returncode or not m:
+            raise ValueError(f"exit {r.returncode}: {(r.stdout + r.stderr)[-300:]}")
+        reply = json.loads(m.group(0))
+    except (subprocess.TimeoutExpired, ValueError) as e:  # JSONDecodeError is a ValueError
+        return f"{path.name}: failed: {e}"
+    where = {iid: (folder, line) for folder, items in batch for iid, _, _, line in items}
+    drops = [{"id": d["id"], "folder": where[d["id"]][0], "line": where[d["id"]][1], "reason": str(d.get("reason", ""))}
+             for d in reply if isinstance(d, dict) and d.get("id") in where]
+    data = {"folders": [folder for folder, _ in batch], "drops": drops}
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     return f"{path.name}: {len(drops)} drops"
 
 
 def all_drops(work: Path):
+    """{(folder, line): (id, reason)} over all stored batches."""
     drops = {}
     for f in sorted(work.glob("batch-*.json")):
-        for d in json.loads(f.read_text(encoding="utf-8")):
-            drops[d["id"]] = d["reason"]
+        for d in json.loads(f.read_text(encoding="utf-8"))["drops"]:
+            drops[(d["folder"], d["line"])] = (d["id"], d["reason"])
     return drops
+
+
+def batch_path(work: Path, batch):
+    key = hashlib.sha1("\n".join(folder for folder, _ in batch).encode()).hexdigest()[:12]
+    return work / f"batch-{key}.json"
 
 
 def main():
@@ -92,7 +107,7 @@ def main():
 
     if a.cmd == "run":
         batches = [papers[i:i + a.batch] for i in range(0, len(papers), a.batch)]
-        todo = [(b, a.work / f"batch-{b[0][1][0][0].split('.')[0]}.json") for b in batches]
+        todo = [(b, batch_path(a.work, b)) for b in batches]
         todo = [(b, p) for b, p in todo if not p.exists()]
         with cf.ThreadPoolExecutor(a.jobs) as ex:
             for msg in ex.map(lambda t: screen(*t), todo):
@@ -103,25 +118,27 @@ def main():
     if a.cmd == "report":
         out, total = [], 0
         for folder, items in papers:
-            hits = [(iid, sec, line) for iid, sec, _, line in items if iid in drops]
+            hits = [(sec, line) for _, sec, _, line in items if (folder, line) in drops]
             if hits:
                 out.append(f"## {folder}\n")
-                for iid, sec, line in hits:
-                    out.append(f"- `{iid}` *{sec}* — {drops[iid]}\n  {line[2:]}")
+                for sec, line in hits:
+                    iid, reason = drops[(folder, line)]
+                    out.append(f"- `{iid}` *{sec}* — {reason}\n  {line[2:]}")
                     total += 1
                 out.append("")
         (a.work / "drops.md").write_text(f"# Proposed drops: {total}\n\n" + "\n".join(out), encoding="utf-8")
         print(f"{total} proposed drops in {a.work / 'drops.md'}")
         return
 
-    removed = 0
+    wanted = {k for k, (iid, _) in drops.items() if iid not in a.skip and (not a.only or k[0] in a.only)}
+    removed, found = 0, set()
     for folder, items in papers:
-        hit = {n: line for iid, _, n, line in items if iid in drops and iid not in a.skip}
+        hit = {n for _, _, n, line in items if (folder, line) in wanted}
         if not hit:
             continue
+        found |= {(folder, line) for _, _, n, line in items if n in hit}
         path = ROOT / "preprints" / folder / "AGENT_NOTES.md"
         lines = path.read_text(encoding="utf-8").splitlines()
-        assert all(lines[n] == line for n, line in hit.items()), f"{folder} changed since screening"
         keep = [l for n, l in enumerate(lines) if n not in hit]
         fixed = []
         for i, l in enumerate(keep):  # fill sections left empty
@@ -131,6 +148,8 @@ def main():
                 fixed.append(NONE)
         path.write_text("\n".join(fixed) + "\n", encoding="utf-8")
         removed += len(hit)
+    for folder, line in sorted(wanted - found):
+        print(f"not found (changed or already removed), skipped: {folder}: {line[:100]}")
     print(f"removed {removed} items")
 
 

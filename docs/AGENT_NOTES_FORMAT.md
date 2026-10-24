@@ -22,7 +22,7 @@ Rules:
 - Every URL must have been opened successfully during the run. Never cite a search engine's summary.
 - Neutral descriptions; no judgement of correctness by the agent. Quotes at most 25 words.
 - "Possibly relevant literature": at most 5 items, each tied to a specific claim of the paper and not already in its bibliography.
-- "News and blogs": articles and posts that discuss this paper. Not catalogue or registry listings (those are linked from the website automatically), and not a list of where the agent searched.
+- "News and blogs" and "Digests and expositions": pieces that discuss this paper specifically (explanation, context, assessment, expert quotes); not release roundups, listicles or compilation videos that only name it or restate its claim. "News and blogs": not catalogue or registry listings (those are linked from the website automatically), and not a list of where the agent searched.
 - Only items that add something for a researcher in the area. Not comments or posts that only restate the claim, broad questions or reactions, prediction markets, polls or votes.
 - Empty sections: `- None found.`
 - No private or paywalled content, no personal information beyond public names.
