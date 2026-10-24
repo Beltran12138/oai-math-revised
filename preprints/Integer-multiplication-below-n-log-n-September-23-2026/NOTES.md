@@ -1,6 +1,6 @@
 ## Contributions
 
-- 2026-10-24 @mark-schultz-wu (Mark Schultz-Wu): Added David Harvey's note on the paper under "Constructive comments / reviews". Drafted with Claude Code; source checked by the contributor.
+- 2026-10-24 @mark-schultz-wu (Mark Schultz-Wu): Added David Harvey's note on the paper under "Constructive comments / reviews". Drafted with Claude Code; source checked by the contributor ([PR #24](https://github.com/mathcommunity/oai-math-revised/pull/24)).
 
 ## Follow-up works
 
