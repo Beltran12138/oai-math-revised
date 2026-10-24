@@ -27,4 +27,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## News and blogs
-- [Jose Antonio Lanz, *OpenAI Says a Secret AI Model Cracked Hundreds of Open Math Problems in One Prompt—Mathematicians Want Receipts*](https://decrypt.co/380366/openai-secret-ai-model-cracked-hundreds-math-problems-one-prompt) (Decrypt, 2026-10-07). Release-level coverage whose only mention of this paper is a quoted post by Keith Adler announcing work on a Lean 4 formalization of OpenAI's Saxl proof and raising concerns about submitting contributions to the release repository.
+- None found.

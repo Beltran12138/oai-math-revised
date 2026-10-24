@@ -29,4 +29,3 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## News and blogs
 - [Azmat, *Kaplansky Zero-Divisor Conjecture: Inside OpenAI’s Remarkable Counterexample*](https://binaryverseai.com/kaplansky-zero-divisor-conjecture/) (BinaryVerse AI, 10 October 2026; [video version](https://www.youtube.com/watch?v=IxFs-Q4yO50)). Explains the manuscript’s characteristic-two cancellation, root separation and asphericity arguments and distinguishes its claim from the related unit conjecture.
-- [Kingy AI, *OpenAI's 722 Math Manuscripts: The Results, Proofs, Compute and Costs*](https://kingy.ai/blog/openai-math-722-manuscripts-results-proofs-compute-costs/) (kingy.ai blog, includes an October 9 update). A release overview that briefly lists family 196 as a negative resolution that "constructs nonzero elements whose product is zero." [family-level]

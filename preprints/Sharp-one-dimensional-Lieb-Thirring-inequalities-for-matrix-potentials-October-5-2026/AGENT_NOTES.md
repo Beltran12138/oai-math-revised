@@ -22,7 +22,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [Latent Seminar, *Sharp Lieb–Thirring bounds: one state, matrix channels, and equality*](https://lowrank.github.io/latent-seminar/OpenAI-Math/262-sharp-lieb-thirring-inequalities) (2026-10-07). This exposition distinguishes the three manuscripts and outlines the action inequality, arbitrary-rank trace comparison, and fixed-channel equality argument, explicitly limiting its verification scope. [family-level]
-- [Gradient Damage, *Spacetime Penrose Inequality, Strong Cosmic Censorship Near Kerr and 8 More*](https://gradientdamage.com/videos/spacetime-penrose-inequality-strong-cosmic-censorship-near-kerr-and-8/) (video compilation, 2026-10-15). The chapter at 0:22 introduces the family's spectral bound through potential wells and bound-state energies as an illustration of the reported result. [family-level]
 
 ## News and blogs
 - None found.

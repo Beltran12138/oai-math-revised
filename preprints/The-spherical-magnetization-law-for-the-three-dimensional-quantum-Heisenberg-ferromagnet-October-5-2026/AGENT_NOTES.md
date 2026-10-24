@@ -22,4 +22,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## News and blogs
-- [Kingy.ai, *OpenAI's 722 Math Manuscripts: The Results, Proofs, Compute and Costs*](https://kingy.ai/blog/openai-math-722-manuscripts-results-proofs-compute-costs/) (Kingy.ai blog, October 2026). Summarizes family 271 and notes that its Lean-selected scope does not certify every claim in the family. [family-level]
+- None found.

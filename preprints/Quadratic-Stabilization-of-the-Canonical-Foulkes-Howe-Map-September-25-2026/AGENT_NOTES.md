@@ -22,7 +22,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Digests and expositions
 - [Math Referee, *Quadratic stabilization of the canonical Foulkes–Howe map*](https://mathreferee.dimensionreducers.ai/papers/foulkes-howe-stabilization/) (reading guide, review dated 2026-10-13). This AI-assisted guide maps the annihilator criterion, differential injectivity lemma, two derivative sequences and equivariant splitting, with independent human assessment explicitly pending. [AI-generated per source]
 - [Perplexity / Orply, *A Quadratic Bound Guarantees Surjectivity of the Foulkes–Howe Map*](https://orply.com/articles/perplexity/210-2-quadratic-stabilization-of-the-canonical-foulkes-howe-map-52bcf460) (Orply, 2026-10-11). This AI-assisted exposition explains the derivative norm identity and degree bookkeeping behind the sufficient bound $b\ge a(a-1)$, including its specialization to $b\ge30$ when $a=6$. [AI-generated per source]
-- [Gradient Damage, *Every OpenAI Math Result, Part 2 of 4: PCP for PPAD, Birkhoff Conjecture and 82 More*](https://gradientdamage.com/videos/every-openai-math-result-part-2-of-4-pcp-for-ppad-birkhoff-conjecture/) (video, 14 October 2026). Chapter 45, "Foulkes' conjecture for sixth powers and quadratic stabilization", summarizes both papers' main claims, including surjectivity for $b\ge a(a-1)$, as part of a survey of the whole release. [family-level]
 
 ## News and blogs
 - None found.

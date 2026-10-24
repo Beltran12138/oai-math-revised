@@ -8,13 +8,8 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - [Benjamin Severn, *A transfer theorem for Weil classes on Prym–Tyurin factors of Galois covers*](https://hexagonmath.org/abs/2610.00386v1) (hexagon:2610.00386v1, Oct 2026). Proves a transfer theorem for Weil classes on Prym–Tyurin factors; its reference list cites this paper together with the abelian-powers and Gale companions. [AI-generated per source] [cites earlier version]
 
 ## Comments and discussion
-- [Abhishek Saha, posts on X, collected by Hraness](https://hraness.com/reading/mathematician-reactions-to-openais-372-math-results) (Hraness reading page, saved 9 Oct 2026). Quotes Saha on 7 Oct 2026: "So now we have confirmation that OpenAI has indeed proved the Hodge conjecture for all (CM) abelian varieties."
-- [Anonymous commenter on Terence Tao's blog, under Claire Voisin's guest post *The status of the Hodge conjecture*](https://terrytao.wordpress.com/2026/09/12/the-status-of-the-hodge-conjecture/) (comment dated 6 Oct 2026). Links this paper and writes "OpenAI proved the Hodge conjecture for CM abelian varieties"; the post itself predates the release and discusses Weil classes and Markman's work.
 - [Elliot Glazer (@ElliotGlazer), post on X](https://x.com/ElliotGlazer/status/2107602154756489340) (6 Oct 2026). Calls the CM result "very, very good mathematics" while stressing that it does not cover all abelian varieties, contrary to earlier rumors.
-- [Tony Tanuki (@tonyyueyu), post on X](https://x.com/tonyyueyu/status/2108077529399718339) (8 Oct 2026). Lists the Hodge conjecture for CM abelian varieties among favorite problems in the release and says the author had been trying counterexamples in recent years.
 - [Elliot Glazer (@ElliotGlazer), post on X](https://x.com/ElliotGlazer/status/2108125478469111983) (8 Oct 2026). States that the CM result was not Lean-formalized and expresses confidence in it because it "was achieved independently by Ant and by OAI" and trusted people report the ideas make sense.
-- [Tony Tanuki (@tonyyueyu), post on X](https://x.com/tonyyueyu/status/2109110584096817465) (11 Oct 2026). Places the result in a status summary of the Hodge conjecture, listing CM abelian varieties as "Claimed by OpenAI" alongside separately withdrawn claims on Weil classes.
-- [Antoine Ducros (@antoineducros), post on X](https://x.com/antoineducros/status/2109164962082120180) (11 Oct 2026). Replies to the status summary that the CM claim should be described as "Claimed and not Lean-formalized".
 
 ## Formalization
 - None found.
@@ -33,7 +28,5 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - None found.
 
 ## News and blogs
-- [OfficeChai Team, *OpenAI Proves The Rational Hodge Conjecture For CM Abelian Varieties: Understand What This Means*](https://officechai.com/ai/hodge-conjecture-abelian-varieties/) (OfficeChai, 7 Oct 2026). News article summarizing Theorem 1.1 and the stated corollaries; it notes the paper has not been peer reviewed.
 - [Agentic Economy, *OpenAI's Hodge claims: constructing the missing geometry*](https://aecon.ai/blog/openai-hodge-conjecture-cm-k3) (aecon.ai, 8 Oct 2026). Explains this paper's four-factor construction and arithmetic source identification from the pre-withdrawal repository snapshot, alongside the K3 claims, and disclaims independent proof certification. [cites earlier version]
 - [Kingy.ai, *OpenAI's 722 Math Manuscripts: The Results, Proofs, Compute and Costs*](https://kingy.ai/blog/openai-math-722-manuscripts-results-proofs-compute-costs/) (Kingy.ai blog, Oct 2026). Summarizes the family 032 claims and proof roadmap, and reports that the K3 papers in the family were withdrawn on 7 Oct while the CM paper remains listed. [family-level]
-- [Wikipedia, *OpenAI bulk release of mathematical papers*](https://en.wikipedia.org/wiki/OpenAI_bulk_release_of_mathematical_papers) (Wikipedia, accessed 21 Oct 2026). Describes this paper as the release's partial result on the Hodge conjecture and notes it was an exception to the standard procedure.

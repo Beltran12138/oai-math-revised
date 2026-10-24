@@ -20,7 +20,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Giovanni Pighizzini, *Two-Way Finite Automata: Old and Recent Results*](https://arxiv.org/abs/1208.2755) (arXiv:1208.2755, EPTCS 90, 2012). Survey of partial results on the Sakoda–Sipser question, which the paper's main theorem addresses over growing alphabets.
 
 ## Digests and expositions
-- [Gradient Damage, *Weisfeiler–Leman Refinement, PCP for PPAD and 8 More in Theoretical Computer Science*](https://gradientdamage.com/videos/weisfeiler-leman-refinement-pcp-for-ppad-and-8-more-in-theoretical/) (video, 2026-10-15). The chapter beginning at 2:03 introduces the Sakoda–Sipser simulation question and links this paper; the source describes the animations as illustrations rather than proofs.
+- None found.
 
 ## News and blogs
 - None found.

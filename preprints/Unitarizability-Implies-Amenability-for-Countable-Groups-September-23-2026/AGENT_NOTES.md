@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## Comments and discussion
-- [Alon Dogon, reaction in *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (Proofs and Prompts, 8 October 2026; collection updated 19 October 2026). A short signed reaction says the strong Ulam stability/amenability equivalence "(along with Dixmier's problem) has particularly touched me", noting that the author has worked on this question for years. [family-level]
+- None found.
 
 ## Formalization
 - [OpenAI math release, *Lean scope note 251: Amenability, unitarizability, and strong Ulam stability*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/251.md) (lean/docs/251.md, October 2026). The release's Lean scope note states that the formalization proves amenability ⇔ unitarizability for every discrete group and gives nonunitarizable representations with bound at most 1+ε, with comparator statements `DixmierAllDiscrete.lean` and `Dixmier.lean` (the latter a separable witness with bound 101 for countable groups). [AI-generated per source]

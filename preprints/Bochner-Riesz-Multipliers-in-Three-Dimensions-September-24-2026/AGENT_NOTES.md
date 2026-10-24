@@ -24,5 +24,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Latent Seminar, *Bochner–Riesz multipliers in three dimensions*](https://lowrank.github.io/latent-seminar/OpenAI-Math/078-bochner-riesz) (Latent Seminar, 2026-10-06). Explains the claimed strict-order range, positive transport and entropy arguments, packet composition at the uncertainty boundary, and shell summation, while explicitly stating that it does not independently verify the complete proof. [family-level]
 
 ## News and blogs
-- [Post-Cutoff, *OpenAI claims 3D restriction and Bochner–Riesz conjectures*](https://postcutoff.com/e/2026-10-06-openai-release-3d-restriction-bochner-riesz-claims/) (Post-Cutoff, filed 2026-10-19). Reports the manuscript's claimed positive-order bound on L³(ℝ³) alongside the release's restriction and local-smoothing claims, with the reported results marked as awaiting review. [AI-generated per source] [family-level]
-- [LRST (AI Era / 36Kr), *When Stars Shine: Collective Portrait of Scientists Behind OpenAI's 722 Publicly Released Papers*](https://eu.36kr.com/en/p/4026496742576260) (36Kr, 2026-10-15). An article about the authors cited across the release; it notes that the Bochner–Riesz manuscript cites Guo–Oh–Wang–Wu–Zhang (2025) and Tao's 2003 bilinear estimate together as the source of its wave-packet method.
+- None found.

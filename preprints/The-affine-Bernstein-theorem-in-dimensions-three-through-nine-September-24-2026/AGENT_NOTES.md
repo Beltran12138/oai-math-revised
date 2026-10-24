@@ -22,4 +22,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Gradient Damage, *Calabi Flow, Affine Bernstein Problem and 7 More in Differential Geometry*](https://gradientdamage.com/videos/calabi-flow-affine-bernstein-problem-and-7-more-in-differential/) (video companion page, 2026-10-15). The chapter beginning at 1:23 introduces the affine Bernstein problem and presents the family's claimed dimension threshold, with the page distinguishing its illustrations from proofs. [family-level]
 
 ## News and blogs
-- [Curtis Pyke, *One OpenAI Math Proof Target Passed Twice. Two Hit Our Memory Cap.*](https://kingy.ai/blog/openai-math-proof-test-local-memory-limit/) (Kingy AI, 2026-10-06). Reports two Codex-operated local attempts on the Affine Bernstein formal target that stopped at a 7 GiB memory ceiling without a checker verdict.
+- None found.

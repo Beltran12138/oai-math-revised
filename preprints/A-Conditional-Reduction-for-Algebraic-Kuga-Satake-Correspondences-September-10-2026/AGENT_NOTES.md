@@ -23,4 +23,3 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## News and blogs
 - [OpenAI, *history.md* (release change history)](https://raw.githubusercontent.com/openai/math/main/history.md) (openai/math, entry of 7 Oct 2026). Records the withdrawal of the K3 papers "Algebraicity of Kuga–Satake Correspondences for K3 Surfaces" and "The rational Hodge conjecture for products of K3 surfaces" because of a sign error in a supporting construction; this paper is not listed as withdrawn or revised. [family-level]
-- [Alicia Gallegos, *OpenAI withdraws three preprints a day after releasing 722 manuscripts on unsolved math problems*](https://retractionwatch.com/2026/10/08/openai-withdraws-preprints-722-manuscripts-unsolved-math-problems/) (Retraction Watch, 8 Oct 2026). Reports the same three withdrawals and does not discuss this paper's mathematics. [family-level]

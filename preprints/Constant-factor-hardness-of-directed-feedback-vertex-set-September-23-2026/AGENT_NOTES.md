@@ -22,4 +22,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Latent Seminar, *Unique Games and optimal approximation thresholds*](https://lowrank.github.io/latent-seminar/OpenAI-Math/102-unique-games-approximation) (2026-10-07). Explains the direct proof's rank comparisons, shared prefixes and common pivotality budget, without claiming independent verification. [family-level]
 
 ## News and blogs
-- [Post-Cutoff, *OpenAI model claims a proof of Khot's Unique Games Conjecture, with Lean formalization*](https://postcutoff.com/e/2026-10-06-unique-games-conjecture-openai/) (postcutoff.com, filed 2026-10-07). News entry on the Unique Games manuscript that also lists the companion Max-Cut, Vertex Cover, Min-UnCut and DFVS claims and collects early reactions. [AI-generated per source] [family-level]
+- None found.

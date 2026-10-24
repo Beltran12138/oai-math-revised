@@ -21,4 +21,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Latent Seminar, *Smith–Toda complexes: varying primes and an explicit height four*](https://lowrank.github.io/latent-seminar/OpenAI-Math/308-smith-toda-complexes-varying-primes-explicit-height-four) (2026-10-07). Explains both constructions, including finite descent and the timing of Adams–Novikov obstructions, and explicitly disclaims independent verification of the complete proofs. [family-level]
 
 ## News and blogs
-- [Post-Cutoff, *Smith–Toda V(4) for p ≥ 11, after OpenAI’s p = 1009*](https://postcutoff.com/e/2026-10-16-smith-toda-v4-angeltveit-improves-openai/) (filed 2026-10-19). Reports Angeltveit's height-four improvement and his comments on both OpenAI manuscripts, with links to the primary sources. [AI-generated per source] [family-level]
+- None found.

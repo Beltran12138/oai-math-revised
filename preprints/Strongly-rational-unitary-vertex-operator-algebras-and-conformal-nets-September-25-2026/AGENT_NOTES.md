@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## Comments and discussion
-- [Isaac Kim, *Reaction to the OpenAI mathematics release*](https://postcutoff.com/p/2026-10-06-isaac-kim-quantum-results-list/) (X post reproduced by Post-Cutoff, 2026-10-06). The archived post singles out unitary VOAs generating conformal nets among five results attracting his attention, without discussing the proof; the hosting site's surrounding commentary is AI-generated per its disclosure.
+- None found.
 
 ## Formalization
 - [OpenAI math release, *Lean scope notes for family 280*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/280.md) (release documentation, 2026-10-06). According to these notes, the Lean statement covers only clause (1) of Theorem 1.1 (polynomial energy bounds, CKLW strong locality, irreducible conformal net), excluding complete rationality, complete unitarity, the braided tensor equivalence and the extension correspondence.

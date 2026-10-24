@@ -24,7 +24,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 ## Digests and expositions
 - [Ying Xie, *What the Machine Invented: Mining New Mathematical Instruments from OpenAI's October 2026 Release of AI-Generated Mathematics*](https://arxiv.org/abs/2610.17090) (arXiv:2610.17090, 12 Oct 2026). Section 9.4.8 summarizes family 376, describing a time-independent mean-zero force on the 3-torus, and lists this manuscript's directory in its references. [family-level]
 - [Latent Seminar, *Universal computation in smooth forced Navier–Stokes flows*](https://lowrank.github.io/latent-seminar/OpenAI-Math/376-forced-fluid-computation) (6 October 2026). Explains the spatial clock and stationary forcing. [family-level]
-- [Binary Verse AI (YouTube channel), *Navier–Stokes Turing Complete: OpenAI Proof That a Fixed Force Can Sustain Endless Computation*](https://www.youtube.com/watch?v=bDpfJ0Ejrmk) (YouTube video, date not visible). The title matches this paper's eventually stationary forcing result; the visible page does not name the manuscript.
 
 ## News and blogs
 - [Riley Scott Jacob (@RilScoJa), post on X](https://x.com/RilScoJa/status/2108055792989438043) (8 Oct 2026). Noting the released proofs give "no worked example", reports building one with Claude Opus 5.5: a smooth 3D flow from rest carrying a fluid particle through a shift-and-add multiplier computing 13 × 11 = 143. [family-level] [AI-generated per source]

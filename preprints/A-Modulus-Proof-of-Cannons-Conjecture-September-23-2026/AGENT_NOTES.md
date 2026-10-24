@@ -6,7 +6,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Jizhou Guo, *Consequences of results in the OpenAI mathematics release*, §5](https://raw.githubusercontent.com/aster2024/openai-math-followups/main/consequences/README.md) (GitHub research note, 2026-10-08). The note assumes the manuscript's Cannon theorem and combines it with earlier literature to derive three results: the hyperbolic case of Wall's question, the torsion-free Kapovich–Kleiner conjecture, and the toral relative Cannon conjecture. [AI-generated per source]
 
 ## Comments and discussion
-- [Henry Wilton, reaction in *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (Proofs and Prompts, 2026-10-08; updated 2026-10-19). Wilton names the Cannon conjecture among the problems on OpenAI's list that he cares about and writes "I haven't looked at any of them in detail yet". He expects checking and digesting the proofs to take months of work.
 - [Harry Hyungryul Baik, reaction in *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (Proofs and Prompts, 2026-10-08; updated 2026-10-19). Baik writes that "The Cannon conjecture is one example" of release problems he had worked on, and he discusses it in relation to his research on laminar groups. He does not assess the proof.
 
 ## Formalization

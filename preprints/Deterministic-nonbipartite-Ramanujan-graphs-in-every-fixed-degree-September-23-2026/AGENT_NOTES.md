@@ -22,4 +22,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [AI Proved What?, *Ramanujan graphs, made to order?*](https://aiprovedwhat.com/episodes/178-deterministic-nonbipartite-ramanujan-graphs-every/) (Episode 178, October 2026). This illustrated exposition summarizes the prescribed-order claim, the pairing and switching stages, the exact positivity certificate, and distinctions from earlier existence and near-Ramanujan results. [AI-generated per source]
 
 ## News and blogs
-- [Gil Kalai, *Updates: Sharing AI progress on mathematics (amazing!); and my lecture plans*](https://gilkalai.wordpress.com/2026/10/07/updates-sharing-ai-progress-on-mathematics-amazing-and-my-lecture-plans/) (blog post, Combinatorics and more, 2026-10-07). Item 15, "Ramanujan graphs and higher-dimensional expanders", names this paper's deterministic nonbipartite construction and links to the preprint without discussing the proof; none of the post's comments are about this paper.
+- None found.

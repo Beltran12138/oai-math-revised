@@ -19,7 +19,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [Latent Seminar, *Alexandrov curvature: from distributional tensors to every geodesic*](https://lowrank.github.io/latent-seminar/OpenAI-Math/356-alexandrov-curvature-characterization) (7 October 2026). This exposition outlines both manuscripts’ proof mechanisms, including exponential reweighting, concentration onto prescribed geodesics, and the index-to-Hessian comparison argument, while explicitly disclaiming independent verification of the complete proofs. [family-level]
-- [Gradient Damage, *Calabi Flow, Affine Bernstein Problem and 7 More in Differential Geometry*](https://gradientdamage.com/videos/calabi-flow-affine-bernstein-problem-and-7-more-in-differential/) (video, 15 October 2026). The chapter beginning at 1:44 introduces Alexandrov triangle comparison and the claimed Gigli characterization as an illustration of the result.
 
 ## News and blogs
 - None found.

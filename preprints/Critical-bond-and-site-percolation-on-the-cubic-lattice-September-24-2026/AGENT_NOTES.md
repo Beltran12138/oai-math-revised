@@ -27,4 +27,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Perplexity / Orply, *Critical Percolation on the Cubic Lattice Has No Infinite Cluster*](https://orply.com/articles/perplexity/213-1-critical-bond-and-site-percolation-on-the-cubic-lattice-0afddf10) (Orply, 2026-10-11). This AI-assisted exposition summarizes the manuscript’s finite hyperedge comparison, site endpoint convention, and adaptive exploration with conditional failure bounds. [AI-generated per source]
 
 ## News and blogs
-- [Gil Kalai, *Updates: Sharing AI progress on mathematics (amazing!); and my lecture plans*](https://gilkalai.wordpress.com/2026/10/07/updates-sharing-ai-progress-on-mathematics-amazing-and-my-lecture-plans/) (Combinatorics and more, 2026-10-07). Item 20 of the post lists the release's "absence of infinite critical clusters" for bond percolation on quasi-transitive graphs with $p_c<1$, but it does not discuss the $\mathbb Z^3$ site result separately. [family-level]
+- None found.

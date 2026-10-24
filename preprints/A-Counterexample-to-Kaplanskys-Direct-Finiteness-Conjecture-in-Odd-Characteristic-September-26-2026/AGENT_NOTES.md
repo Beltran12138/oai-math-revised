@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## Comments and discussion
-- [Michael Chapman, in *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (proofsandprompts.com, 2026-10-08). Lists "the refutations to the Kaplansky conjectures" among the release results on problems he "grew up on", without discussing this manuscript in detail. [family-level]
+- None found.
 
 ## Formalization
 - [OpenAI, *Lean scope note for family 197* (`lean/docs/197.md`)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/197.md) (openai/math release, 2026-10-06). States that the formalization constructs the field of order $p^4$, a finitely generated group with torsion and $a,b$ with $ab=1\ne ba$. It also covers the injective, non-surjective map on $K^G$ and some fixed-field transfer results.

@@ -10,7 +10,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Comments and discussion
 - [Krzysztof Burdzy, remarks in Section 1 of arXiv:2610.12622](https://arxiv.org/html/2610.12622) (arXiv, Oct 2026). Burdzy, who stated the simply connected conjecture in 2005, says he has not assessed this paper's proof and that "The OpenAI model that generated [3] missed the theorem presented in this note"; he also reports that Rodrigo Bañuelos used ChatGPT to generate an almost identical theorem and proof. [AI-generated per source]
-- [Sugata Mondal, *Hot spots for a class of Lip-1 domains*](https://www.kth.se/en/2.82512/kalender/sugata-mondal-hot-spots-for-a-class-of-lip-1-domains-1.1501857?date=2026-10-28&length=1&orgdate=2026-01-15&orglength=351) (Stockholm Mathematics Centre seminar announcement, updated 2026-10-15; talk 2026-10-28). The abstract identifies OpenAI's claimed resolution for simply connected planar domains as recent context for a talk on lip domains and higher-dimensional analogues.
 
 ## Formalization
 - [mathcommunity/oai-math-revised, *lean/docs/369.md*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/369.md) (OpenAI math release Lean scope notes, 2026-10-06). States that the Lean formalization proves nonvanishing interior gradient for every nonzero first positive Neumann eigenfunction on nonempty smooth bounded simply connected planar domains, including the multiple-eigenvalue case.
@@ -23,7 +22,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Jonathan Rohleder, *Inequalities between Neumann and Dirichlet Laplacian eigenvalues on planar domains*](https://arxiv.org/abs/2306.12922) (arXiv:2306.12922, v4 Jun 2025). Introduces a variational principle on simply connected planar Lipschitz domains of the same kind as the tangent-vector-field principle in Section 3 of this paper, whose bibliography cites only Rohleder's arXiv:2106.05224 and the 2024 extended abstract.
 
 ## Digests and expositions
-- [Gradient Damage, *Boltzmann Equation, Hot Spots Conjecture and 7 More in Partial Differential Equations*](https://gradientdamage.com/videos/boltzmann-equation-hot-spots-conjecture-and-7-more-in-partial/) (video compilation, 2026-10-15). The chapter beginning at 1:24 illustrates the hot-spots claim and links this manuscript; the accompanying page distinguishes the animations from proofs.
+- None found.
 
 ## News and blogs
 - None found.

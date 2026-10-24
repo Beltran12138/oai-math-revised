@@ -24,4 +24,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Open Mathematics Courses, *Classical capacity of generalized amplitude damping*](https://kokunoyumeto.github.io/open-math-courses-public/courses/classical-capacity-of-generalized-amplitude-damping/) (undated). Five-lesson exposition of the manuscript's log-determinant and block-entropy argument through tensor-power and arbitrary-partner additivity, treating the classical coding theorem as a named hypothesis and stating that independent review is incomplete. [AI-generated per source] [family-level]
 
 ## News and blogs
-- [r/accelerate, *Most Impactful Math Discoveries from OpenAI's Oct. 6 Math Release*](https://www.reddit.com/r/accelerate/comments/1wzh3ij/most_impactful_math_discoveries_from_openais_oct/) (Reddit, October 2026). Post discussing family 276's capacity claim and possible relevance to noisy quantum communication, disclosing that ChatGPT supplied most of its explanations. [AI-generated per source] [family-level]
+- None found.

@@ -22,7 +22,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [Open Mathematics Courses, *Kirchberg's embedding problem*](https://kokunoyumeto.github.io/open-math-courses-public/courses/kirchbergs-embedding-problem/) (online course, undated). Three lessons explain the paper's spectral test, nuclear finiteness argument and predecessor-chain contradiction, with property (T) of $\mathbb Z^3\rtimes\mathrm{SL}_3(\mathbb Z)$ and nuclearity of $\mathcal O_2$ taken as named hypotheses; the course states that independent review is incomplete. [AI-generated per source]
-- [Gradient Damage, *Kaplansky's Quasitrace Conjecture, Naimark's Problem and 7 More in Operator Algebras*](https://gradientdamage.com/videos/kaplanskys-quasitrace-conjecture-naimarks-problem-and-7-more/) (video digest, 2026-10-15). The chapter beginning at 0:43 introduces Kirchberg's $\mathcal O_2$ embedding problem and presents this paper's claimed obstruction, linking the manuscript. [family-level]
 
 ## News and blogs
 - None found.

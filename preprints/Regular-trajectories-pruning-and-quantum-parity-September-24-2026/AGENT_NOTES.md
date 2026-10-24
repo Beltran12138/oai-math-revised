@@ -7,7 +7,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Shiva Kintali, *PARITY ∉ QAC⁰ (via Polarization and Direct Induction)*](https://shivakintali.github.io/papers/Parity.pdf) (preprint, dated 17 October 2026). Simplifies the companion localization paper's proof by polarization and direct induction, and cites this paper as a different proof of the parity bound via regular trajectories and pruning. [family-level]
 
 ## Comments and discussion
-- [Scott Aaronson, *The Mathocalypse*](https://scottaaronson.blog/?p=10169) (Shtetl-Optimized, 7 October 2026). Names "Parity is not in QAC0" among the release's highlights and calls it "one of the great questions of quantum complexity theory since 1999 that many of my colleagues had been closing in on"; the post does not discuss the proofs. [family-level]
+- None found.
 
 ## Formalization
 - [OpenAI math release, *Lean scope notes for family 274*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/274.md) (lean/docs/274.md, October 2026). Formalizes the general positive-advantage parity lower bound (RegularParity.lean comparator), its success-below-2/3 specialization and product-projection localization; the notes state that regular-trajectory propagation and pruning are not separate formalized statements. [family-level]

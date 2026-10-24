@@ -20,7 +20,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Yuzhou Gu and Yury Polyanskiy, *Uniqueness of BP fixed point for the Potts model and applications to community detection*](https://arxiv.org/abs/2303.14688) (arXiv:2303.14688, 2023). Reports that for $q\ge4$, BP fixed-point uniqueness fails in some regimes below the Kesten–Stigum threshold, which bears on the paper's remark that four states lies at the boundary between sharp and non-sharp behaviour.
 
 ## Digests and expositions
-- [Gradient Damage, *Every OpenAI Math Result, Part 2 of 4: PCP for PPAD, Birkhoff Conjecture and 82 More*](https://gradientdamage.com/videos/every-openai-math-result-part-2-of-4-pcp-for-ppad-birkhoff-conjecture/) (video, 2026-10-14). An animated survey of the release with a chapter on "Result 229" (tree reconstruction threshold); its text reproduces the family summary. [family-level]
+- None found.
 
 ## News and blogs
 - None found.

@@ -22,4 +22,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Orply / Perplexity, *Abelian Zilber–Pink Gives Finitely Many Maximal Atypical Subvarieties*](https://orply.com/articles/perplexity/016-1-the-abelian-zilber-pink-conjecture-0be5cf2a) (Orply, 2026-10-08). This AI-assisted exposition describes the manuscript's special-closure formulation, maximal atypical subvarieties and non-density strategy. [AI-generated per source]
 
 ## News and blogs
-- [David H. Bailey, *OpenAI stuns mathematicians with 722 new papers*](https://mathscholar.org/2026/10/openai-stuns-mathematicians-with-722-new-papers/) (Math Scholar blog, 7 Oct 2026, updated 19 Oct 2026). Lists "The Abelian Zilber-Pink conjecture" among the highlights of the release and restates its main claim, with no expert assessment specific to this result.
+- None found.

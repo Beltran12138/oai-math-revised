@@ -21,7 +21,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Digests and expositions
 - [Claude Opus 5.5 / Open Mathematics Courses, *The square-root degree bound*](https://kokunoyumeto.github.io/open-math-courses-public/courses/the-square-root-degree-bound/) (Open Mathematics Courses, October 2026). Four lessons with proofs and exercises develop the manuscript's observation calculus, asymptotically normal scores, tagged reporting rule and average degree costs; the site states that independent review is incomplete. [AI-generated per source]
 - [Gradient Damage, *Circulant Hadamard Conjecture, Cycle–Clique Ramsey Numbers and 7 More in Combinatorics*](https://gradientdamage.com/videos/circulant-hadamard-conjecture-cycle-clique-ramsey-numbers-and-7-more/) (video, 2026-10-15). The chapter beginning at 1:23 introduces the Gopalan–Servedio square-root degree bound and the manuscript's claimed disproof through a Boolean-cube illustration.
-- [Gradient Damage, *Every OpenAI Math Result, Part 2 of 4: PCP for PPAD, Birkhoff Conjecture and 82 More*](https://gradientdamage.com/videos/every-openai-math-result-part-2-of-4-pcp-for-ppad-birkhoff-conjecture/) (video, 14 October 2026). Chapter 30 (from 10:01) presents result 192, restating the claimed bound violation; the page says the animations illustrate the results and are not proofs. [family-level]
 
 ## News and blogs
 - None found.

@@ -29,4 +29,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Gradient Damage, *Jacobsthal’s Function: OpenAI Claims the Quadratic Bound*](https://gradientdamage.com/videos/jacobsthals-function-openai-claims-the-quadratic-bound/) (video exposition, 16 October 2026). A short animation illustrating covered runs for the first one to nine primes and describing the improvement over Iwaniec's bound; it identifies itself as an illustration rather than a proof.
 
 ## News and blogs
-- [David H. Bailey, *OpenAI stuns mathematicians with 722 new papers*](https://mathscholar.org/2026/10/openai-stuns-mathematicians-with-722-new-papers/) (Math Scholar blog, 2026-10-07, updated 2026-10-19). Lists "Quadratic bound for Jacobsthal's function" among the release's highlights and states the bound $h(k)\ll k^2/(\log\log 3k)^2$, without further discussion. [family-level]
+- None found.

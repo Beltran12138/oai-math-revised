@@ -7,7 +7,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Nicolás Libedinsky, *Polytopal invariance for Lusztig’s q-weight multiplicities*](https://arxiv.org/html/2610.14275v1) (arXiv:2610.14275v1, 2026-10-09). Cites the OpenAI manuscript as an announced proof, establishes a metric spherical analogue, and proposes in §6.1 a conjecture connecting polytope isometries to Bruhat interval isomorphisms; the AI-use disclosure describes an AI-produced initial argument subsequently corrected and expanded by the author.
 
 ## Comments and discussion
-- [Sara Billey, *OpenAI publishes new math research on GitHub*](https://www.linkedin.com/posts/sara-billey-85440a159_openai-posted-a-lot-of-new-math-research-activity-7513431670612557824-mW4j) (LinkedIn, undated). Highlights the claimed proof of the Kazhdan–Lusztig combinatorial invariance conjecture and asks how to approach the volume of released work, without offering a technical assessment.
+- None found.
 
 ## Formalization
 - [OpenAI, *Combinatorial invariance of Kazhdan–Lusztig polynomials: Lean scope note*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/168.md) (OpenAI math release, 2026-10-06). States that the formalization proves that every order isomorphism between Bruhat intervals in arbitrary, possibly different Coxeter systems preserves the equal-parameter Kazhdan–Lusztig polynomial, and links the comparator statement `KLInvariance.lean`.
@@ -27,4 +27,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## News and blogs
-- [Gil Kalai, *Updates: Sharing AI progress on mathematics (amazing!); and my lecture plans*](https://gilkalai.wordpress.com/2026/10/07/updates-sharing-ai-progress-on-mathematics-amazing-and-my-lecture-plans/) (Combinatorics and more, 7 Oct 2026). Item 14 lists this result, notes it was "Problem 11 in my discussions of the G-programme", and restates the theorem.
+- None found.

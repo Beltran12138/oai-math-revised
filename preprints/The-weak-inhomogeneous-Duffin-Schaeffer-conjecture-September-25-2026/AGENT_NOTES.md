@@ -23,7 +23,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Digests and expositions
 - [Latent Seminar, *Weak inhomogeneous Duffin–Schaeffer approximation*](https://lowrank.github.io/latent-seminar/OpenAI-Math/022-inhomogeneous-duffin-schaeffer) (2026-10-06). Explains the fixed-shift quantifiers, unrestricted numerators, finite-block construction, prime-step matching and Hausdorff-measure consequence, stating that it reviews statements and selected proof mechanisms rather than verifying the complete proof. [family-level]
 - [Perplexity / Orply, *Weighted Divergence Guarantees Infinitely Many Inhomogeneous Approximations*](https://orply.com/articles/perplexity/022-the-weak-inhomogeneous-duffin-schaeffer-conjecture-69b3c73d) (2026-10-08). Summarizes the manuscript's weighted divergence criterion and distinguishes its local prime-step mass identity from the global overlap estimates needed by the proposed proof. [AI-generated per source]
-- [Gradient Damage, *Duffin–Schaeffer Conjecture: OpenAI Claims the Inhomogeneous Case*](https://gradientdamage.com/videos/duffin-schaeffer-conjecture-openai-claims-the-inhomogeneous-case/) (2026-10-16). A short animation of shifted approximation counts describing the manuscript's claimed theorem, identified by the source as an illustration rather than a proof. [family-level]
 
 ## News and blogs
 - None found.

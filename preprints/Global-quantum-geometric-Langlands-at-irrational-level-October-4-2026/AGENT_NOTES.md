@@ -26,4 +26,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [AI Proved What?, *Langlands, quantized? Quantum geometric Langlands at irrational level*](https://aiprovedwhat.com/episodes/069-global-quantum-geometric-langlands-irrational/) (Episode 069, October 2026; status checked 2026-10-12). This video and full transcript outline the claimed equivalence, the uses of irrationality, the local-to-global construction, and OSVerify's reported issues. [AI-generated per source]
 
 ## News and blogs
-- [Machine Heart (机器之心) via 36Kr, *Top 30 Most Challenging & Representative Classic Math Problems Selected From All 722 OpenAI Mathematical Manuscripts*](https://eu.36kr.com/en/p/4015466508816520) (36Kr, 2026-10-08). The article's algebraic geometry section lists No. 069 as a quantum version of geometric Langlands at irrational parameters, building on the Gaitsgory et al. proof, without assessing it.
+- None found.

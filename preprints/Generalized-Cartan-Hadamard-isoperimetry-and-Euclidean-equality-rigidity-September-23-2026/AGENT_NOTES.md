@@ -20,7 +20,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [Latent Seminar, *Cartan–Hadamard isoperimetry and sharp integral fillings*](https://lowrank.github.io/latent-seminar/OpenAI-Math/337-cartan-hadamard-isoperimetry) (7 October 2026). This exposition outlines both manuscripts' claimed proof mechanisms, including the hypersurface Sobolev estimate, confined profiles, equality rigidity and the CAT(0) variance argument, while explicitly disclaiming independent verification of the complete proofs. [family-level]
-- [Gradient Damage, *Yau's Uniformization Conjecture, Blaschke Conjecture and 8 More*](https://gradientdamage.com/videos/yaus-uniformization-conjecture-blaschke-conjecture-and-8-more/) (video compilation, 15 October 2026). The chapter beginning at 0:21 introduces the Euclidean Cartan–Hadamard comparison and links this manuscript, presenting the animation as an illustration of the claim.
 
 ## News and blogs
 - [Carlos Toledo, *OpenAI's math release: what it claims beyond what it checks*](https://carlostoledo.co/reports/openai-math.html) (audit report, 10 October 2026). The report lists family 337 among families whose headline includes a result from a manuscript outside the scope note's linked formalization, specifically identifying the generalized smooth isoperimetric comparison. [family-level]

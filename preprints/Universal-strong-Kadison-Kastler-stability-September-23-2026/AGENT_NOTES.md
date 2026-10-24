@@ -22,7 +22,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [Latent Seminar, *Kadison–Kastler stability and its spatial boundaries*](https://lowrank.github.io/latent-seminar/OpenAI-Math/289-kadison-kastler-stability-boundaries) (expository article, 2026-10-07). Explains all three manuscripts through positive-map correction, the almost-commuting-matrix obstruction, and sequence-algebra spatial rigidity; the article states that it reviews selected proof mechanisms rather than verifying the complete proofs. [family-level]
-- [Gradient Damage, *Kaplansky's Quasitrace Conjecture, Naimark's Problem and 7 More in Operator Algebras*](https://gradientdamage.com/videos/kaplanskys-quasitrace-conjecture-naimarks-problem-and-7-more/) (video, 2026-10-15). The opening chapter illustrates the strong Kadison–Kastler stability claim; the accompanying description distinguishes the animation from a proof.
 
 ## News and blogs
 - None found.

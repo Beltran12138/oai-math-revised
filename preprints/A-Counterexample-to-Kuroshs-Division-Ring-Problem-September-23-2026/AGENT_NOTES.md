@@ -19,7 +19,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Jason P. Bell, Lance W. Small, Agata Smoktunowicz, *Primitive algebraic algebras of polynomially bounded growth*](https://arxiv.org/abs/1011.4133) (arXiv:1011.4133, 18 November 2010). Over a countable field it constructs finitely generated (including two-generated), infinite-dimensional, primitive algebraic algebras, a comparison for Theorem 1.1's stronger requirement that the constructed algebra be a division ring.
 
 ## Digests and expositions
-- [Wikipedia, *Kurosh problem*](https://en.wikipedia.org/wiki/Kurosh_problem) (encyclopedia article, accessed 2026-10-21). The division-ring section now cites this preprint as a counterexample from the OpenAI bulk release and adds: "This still requires verification."
 - [Gradient Damage, *Kurosh’s Division Ring Problem: OpenAI Claims a Counterexample*](https://gradientdamage.com/videos/kuroshs-division-ring-problem-openai-claims-a-counterexample/) (video and accompanying description, 16 October 2026). Illustrates the claimed failure of local finiteness by comparing quaternion word spans with an expanding tree, explicitly describing the animation as an illustration rather than the paper’s construction or proof.
 
 ## News and blogs

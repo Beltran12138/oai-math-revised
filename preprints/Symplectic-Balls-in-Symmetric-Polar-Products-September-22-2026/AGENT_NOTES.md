@@ -20,7 +20,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Mark Berezovik, Roman Karasev, *Symplectic polarity and Mahler's conjecture*](https://arxiv.org/abs/2211.14630) (arXiv:2211.14630, Israel J. Math. 2025). Gives a symplectic reformulation of Mahler's conjecture and capacity bounds for symplectically self-polar bodies, related to the paper's symplectic route to the volume-product bound; not in its bibliography.
 
 ## Digests and expositions
-- [Ying Xie, *What the Machine Invented: Mining New Mathematical Instruments from OpenAI's October 2026 Release of AI-Generated Mathematics*](https://arxiv.org/html/2610.17090) (arXiv:2610.17090, 12 Oct 2026). Its family-087 card (Section 8.2.2) restates this paper's width claim but says the claim was not separately checked. [family-level] [AI-generated per source]
 - [OpenAI Math Digest, *Symplectic Balls in Symmetric Polar Products*](https://masataka123.github.io/OpenAI-Math-Digest/ja/papers/symplectic-polar-products/) (Japanese exposition, undated). Illustrated reading guide tracking the holomorphic ball construction, lens estimate uniform near the tips, approximation and volume consequence, distinguishing capacities below 4 from an endpoint embedding. [AI-generated per source]
 
 ## News and blogs

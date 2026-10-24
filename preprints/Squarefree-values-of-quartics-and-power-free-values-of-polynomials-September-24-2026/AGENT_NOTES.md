@@ -24,7 +24,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [Bogdan Grechuk, *Square-free values of quartic polynomials*](https://functor.network/user/3333/entry/2011) (Functor Network, 2026-10-14). Explains the local density factors, the quartic examples, the large-prime obstacle and determinant-method strategy, and the higher-degree consequence via Browning's theorem.
-- [Gradient Damage, *Zilber–Pink Conjecture, Duffin–Schaeffer Conjecture and 8 More in Number Theory*](https://gradientdamage.com/videos/zilber-pink-conjecture-duffin-schaeffer-conjecture-and-8-more/) (video compilation, 2026-10-13). The chapter beginning at 2:27 introduces the squarefree quartic result; the accompanying page links the paper and describes the presentation as an illustration of the release's claims.
 
 ## News and blogs
 - None found.

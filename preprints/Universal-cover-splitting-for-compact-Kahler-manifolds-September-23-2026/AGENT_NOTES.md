@@ -21,7 +21,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Fabrizio Catanese and Marco Franciosi, *On varieties whose universal cover is a product of curves*](https://arxiv.org/abs/0812.4317) (arXiv:0812.4317, 2008). Classifies Kähler surfaces whose universal cover is a product of two curves, related to the surface case (Beauville's Theorem C) recalled in the introduction.
 
 ## Digests and expositions
-- [Gradient Damage, *Shafarevich Conjecture, Zariski's Cancellation Problem and 7 More*](https://gradientdamage.com/videos/shafarevich-conjecture-zariskis-cancellation-problem-and-7-more/) (video compilation, 15 October 2026). Chapter 8, starting at 2:28, introduces Beauville’s splitting conjecture, and its accompanying text reproduces the release’s claims for both universal-cover splitting and rationally connected integrability. [family-level]
+- None found.
 
 ## News and blogs
 - None found.

@@ -27,4 +27,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Open Mathematics Courses, *Griffiths positivity on the quadric*](https://kokunoyumeto.github.io/open-math-courses-public/courses/griffiths-positivity-on-the-quadric/) (online course, 2026). Five lessons with exercises and solutions explain the paper’s construction and proof, with authorship and self-checking attributed to Claude Opus 5.5 and independent review explicitly incomplete. [AI-generated per source]
 
 ## News and blogs
-- [Anna Gao, *Mathematicians Are Worried About AI Proofs. But GPTZero Spotted Them All*](https://gptzero.me/news/mathematicians-are-worried-about-ai-proofs-but-gptzero-spotted-them-all/) (GPTZero, 2026-10-16). The article uses a page from this manuscript to illustrate GPTZero’s claimed detection of AI-generated mathematical prose, without assessing its mathematical arguments.
+- None found.

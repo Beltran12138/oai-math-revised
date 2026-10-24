@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## Comments and discussion
-- [Federico Aschieri, *The Future of Mathematics, Part I: Understanding and Creating Mathematics*](https://federicoaschieri.substack.com/p/the-future-of-mathematics-part-i) (Understanding Intelligence, 2026-10-08). Recalls his doctoral interest in the weak-to-strong normalization conjecture while discussing its announced resolution in the OpenAI release.
+- None found.
 
 ## Formalization
 - [OpenAI math release, *Lean scope note for family 245: Weak normalization implies strong normalization in pure type systems*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/245.md) (lean/docs/245.md; original at [openai/math commit adc7f12](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/245.md)). The scope note says the Lean development proves the β-Barendregt–Geuvers–Klop implication with reduction inside annotations and arbitrary, possibly nonfunctional, axioms and rules, and links the comparator statement `ComparatorChallenges/TypeSystemNormalization.lean`. [family-level]
@@ -23,4 +23,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [AI Proved What?, *If every program can finish, must it?*](https://aiprovedwhat.com/episodes/245-wn-implies-sn-pure-type-systems/) (episode 245, October 2026). Provides a video and transcript explaining the system-wide hypothesis, the restriction to β-reduction, and the proposed proof through sort profiles and exclusion of a paradox-supporting configuration. [AI-generated per source] [family-level]
 
 ## News and blogs
-- [Radboud University Department of Software Science, *News*](https://sws.cs.ru.nl/News) (2026). Announces the Barendregt–Geuvers–Klop weak-to-strong β-normalization conjecture as solved in OpenAI's October 6 release.
+- None found.

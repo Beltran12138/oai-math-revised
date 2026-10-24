@@ -7,7 +7,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Shiva Kintali, *PARITY ∉ QAC⁰ (via Polarization and Direct Induction)*](https://shivakintali.github.io/papers/Parity.pdf) (preprint, dated 17 October 2026). Gives a self-contained simplification of this paper's proof: polarization writes the reflection expansion as a linear combination of product projections with coefficient cost 18^k, which replaces the intermediate low-count propagation while keeping the localization framework and the inverse-circuit bootstrap; the companion paper is cited as a different proof. [family-level]
 
 ## Comments and discussion
-- [Scott Aaronson, *The Mathocalypse*](https://scottaaronson.blog/?p=10169) (Shtetl-Optimized, 7 October 2026). Names "Parity is not in QAC0" among the release's highlights and calls it "one of the great questions of quantum complexity theory since 1999 that many of my colleagues had been closing in on"; the post does not discuss the proofs. [family-level]
+- None found.
 
 ## Formalization
 - [OpenAI math release, *Lean scope notes for family 274*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/274.md) (lean/docs/274.md, October 2026). Describes the release's Lean formalization of the measured-output parity lower bound for every fixed positive worst-case advantage and polynomial total-qubit bound (plus a specialization to success below 2/3) and the product-projection localization estimate, with comparator statements in QACParity.lean and RegularParity.lean. [family-level]

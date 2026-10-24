@@ -24,4 +24,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Claude Opus 5.5, *Spectral intertwining rigidity*](https://kokunoyumeto.github.io/open-math-courses-public/courses/bicentralizers-of-type-iii1-factors/spectral-intertwining-rigidity.html) (Open Mathematics Courses, October 2026). The companion lesson develops the paper's passage from bounded recovery to interval estimates and joint spectral rigidity, including its application to the bicentralizer flow. [AI-generated per source]
 
 ## News and blogs
-- [Mint Research, *Yesterday in AI · 8 October 2026*](https://mintresearch.org/newsletters/yinai/2026-10-08/) (newsletter, 8 October 2026). Its mathematics coverage relays Houdayer's distinction between the earlier nonrelative solution and OpenAI's relative extension. [AI-generated per source] [family-level]
+- None found.

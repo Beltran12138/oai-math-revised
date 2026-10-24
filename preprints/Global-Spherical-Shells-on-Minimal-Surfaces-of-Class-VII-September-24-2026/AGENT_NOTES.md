@@ -19,7 +19,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [AI Proved What?, *Every K3 flexible? Oka classification for minimal compact complex surfaces*](https://aiprovedwhat.com/episodes/042-oka-classification-minimal-compact-complex/) (Episode 042, October 2026). This exposition distinguishes the release’s K3 claim from its class VII Oka classification, explaining that the latter combines Forstnerič–Lárusson’s work with result 060’s claimed global spherical shell theorem. [AI-generated per source] [family-level]
-- [Gradient Damage, *Kobayashi’s Ampleness Conjecture, Kuznetsov Conjecture, Virasoro Conjecture and 7 More*](https://gradientdamage.com/videos/kobayashis-ampleness-conjecture-kuznetsov-conjecture-virasoro/) (video compilation, 15 October 2026). The chapter beginning at 1:44 gives a brief animated presentation of the global spherical shell claim and links this manuscript. [family-level]
 
 ## News and blogs
 - None found.

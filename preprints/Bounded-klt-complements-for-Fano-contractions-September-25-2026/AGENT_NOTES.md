@@ -6,7 +6,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - None found.
 
 ## Comments and discussion
-- [mbintz, comment in *AI In Mathematics: October 10, 2026*](https://www.reddit.com/r/math/comments/1x2iy00/comment/pgd37u5/) (r/math, October 2026). Reports an LLM-assisted comparison of this paper's Proposition 14.3 with Lemma 8.3 of the release's *Minimal models and Mori fibre spaces for generalized log canonical Q-pairs*, suggesting related arguments without assessing correctness. [AI-generated per source]
 - [Marcus Bintz (@spurious-bows.bsky.social), post on Bluesky](https://bsky.app/profile/spurious-bows.bsky.social/post/3mxpl2oqx3k2i) (12 October 2026). Pairs this paper with the release's *Minimal models and Mori fibre spaces for generalized log canonical Q-pairs*, equating its Proposition 14.3 with that paper's Lemma 8.3 and matching Lemma 11.6 through Proposition 14.5 with Lemma 6.3 through Section 8.3 "broadly".
 
 ## Formalization
@@ -22,7 +21,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - [Stefano Filipazzi and Joaquín Moraga, *Strong (δ, n)-Complements for Semi-Stable Morphisms*](https://ems.press/content/serial-article-files/26570) (Documenta Mathematica 25, 1953–1996, 2020). Theorem 1.4 gives local strong complements with a positive discrepancy bound under semistability, finite boundary coefficients and bounded Cartier index of the base canonical divisor, a restricted-setting comparison for bounded klt complements. [family-level]
 
 ## Digests and expositions
-- [Gradient Damage, *Every OpenAI Math Result, Part 3 of 4: Operator Paving, Naimark's Problem and 82 More*](https://gradientdamage.com/videos/every-openai-math-result-part-3-of-4-operator-paving-naimarks-problem/) (video, 14 October 2026). Chapter 78, beginning at 26:52, presents a brief animated illustration of the family's claimed bounded-klt-complement result. [family-level]
+- None found.
 
 ## News and blogs
 - None found.

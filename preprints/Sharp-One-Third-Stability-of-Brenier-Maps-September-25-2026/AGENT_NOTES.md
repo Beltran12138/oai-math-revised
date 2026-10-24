@@ -27,4 +27,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## News and blogs
-- [ミトKeY (MeatKey), *An "Experiment" on the Impact of OpenAI's "openai/math" on Broad-Sense Research*](https://note.com/mi6242/n/n7753aa269c7e?hl=en) (note.com, 2026-10-12). The post reproduces AI-generated discussion and a draft application combining family 374's transport stability bound with family 140's regression bounds for manufacturing domain adaptation, with experiments described as synthetic. [AI-generated per source] [family-level]
+- None found.

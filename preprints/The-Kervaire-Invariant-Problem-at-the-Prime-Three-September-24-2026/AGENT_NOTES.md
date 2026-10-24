@@ -21,7 +21,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [Latent Seminar, *The prime-three Kervaire family: detection and order three*](https://lowrank.github.io/latent-seminar/OpenAI-Math/309-kervaire-prime-three-outgoing-differentials-moore-correction) (October 7, 2026). Explains the outgoing-differential argument and Moore-spectrum correction producing the claimed order-three class, while explicitly excluding independent verification of the complete proofs and finite matrix calculations.
-- [Gradient Damage, *Kervaire Invariant Problem at Prime 3, The Grothendieck Homotopy Hypothesis and 8 More*](https://gradientdamage.com/videos/kervaire-invariant-problem-at-prime-3-the-grothendieck-homotopy/) (video compilation, October 15, 2026). The chapter beginning at 1:04 introduces the prime-three Kervaire claim as part of a visual overview of the release's topology results.
 
 ## News and blogs
 - None found.

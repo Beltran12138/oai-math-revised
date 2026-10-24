@@ -23,7 +23,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Digests and expositions
 - [Latent Seminar, *First and second out-neighborhoods in oriented graphs*](https://lowrank.github.io/latent-seminar/OpenAI-Math/173-second-neighborhoods) (2026-10-07). Explains the manuscript's subset reduction, matching-and-rank pruning argument, and extremal objective; it states that it does not independently verify the complete proof or audit the Lean development. [family-level]
 - [Open Mathematics Courses / Claude Opus 5.5, *Seymour's second neighborhood conjecture*](https://kokunoyumeto.github.io/open-math-courses-public/courses/seymours-second-neighborhood-conjecture/) (undated). Four lessons with exercises and solutions develop the minimal-counterexample reduction, tournament blow-ups, pruning theorem, and extremal argument; the course identifies itself as AI-written and self-checked, with independent review incomplete. [AI-generated per source] [family-level]
-- [Gradient Damage, *Seymour's second-neighborhood conjecture*](https://gradientdamage.com/openai-math/seymours-second-neighborhood-conjecture/) (gradientdamage.com, video compilation dated 14 Oct 2026). A summary page with a video chapter that, per the page, "illustrates the statement; it is not the proof" and does not discuss the method.
 
 ## News and blogs
 - None found.

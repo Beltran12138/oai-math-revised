@@ -27,4 +27,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Yao Xu, *The statement and proof*](https://raw.githubusercontent.com/cadamcat/hindman-sums-products-lean4/main/docs/mathematics.md) (project documentation, accessed 2026-10-21). This guide maps the Lean development to the manuscript's sections and explains its replacement concatenation theorem and its bridge from OpenAI's cyclic inverse theorem to the nilsequence models used in §5.
 
 ## News and blogs
-- [OfficeChai Team, *OpenAI Has Also Included Proofs For 23 Erdos Problems In Its Latest Math Proof Drop*](https://officechai.com/ai/openai-has-also-included-proofs-for-23-erdos-problems-in-its-latest-math-proof-drop/) (OfficeChai, 9 October 2026). The article lists Problem 172 (this paper's result) among the claimed Erdős-problem results, noting it was one of four without a Lean formalization at the time of writing.
+- None found.

@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## Comments and discussion
-- [Xiaolei Wu, reaction quoted in *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (Proofs and Prompts, 8 October 2026, updated 19 October 2026). In a first-day reaction to the release, Wu lists "the coarse Baum-Connes also fails" among the topology results but names no specific manuscript. [family-level]
+- None found.
 
 ## Formalization
 - [OpenAI, *Family 307 Lean scope note*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/307.md) (lean/docs/307.md, OpenAI Math Release, 2026-10-06). The note links the CoarseAssembly comparator, which formalizes this paper's infinite-order degree-one coarse K-homology class with zero image under ordinary assembly into the reduced Roe algebra, including its persistence after rationalization. [AI-generated per source] [family-level]

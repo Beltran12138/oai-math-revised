@@ -24,4 +24,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Gradient Damage, *Yau’s Uniformization Conjecture, Blaschke Conjecture and 8 More*](https://gradientdamage.com/videos/yaus-uniformization-conjecture-blaschke-conjecture-and-8-more/) (video compilation, 2026-10-15). Chapter 8, beginning at 2:27, illustrates the metric Blaschke claim, with the accompanying page distinguishing the animation from a proof. [family-level]
 
 ## News and blogs
-- [机器之心 (Machine Heart) via 36Kr, *翻完OpenAI的722篇数学手稿，我们挑出了最重的30道名题* (After reading OpenAI's 722 math manuscripts, we picked the 30 heaviest classic problems)](https://eu.36kr.com/zh/p/4015466508816520) (36Kr, 2026-10-08). This Chinese-language overview of the release lists the metric Blaschke conjecture (No. 344) as a geometry highlight and says it had not yet been formalized.
+- None found.

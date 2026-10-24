@@ -20,7 +20,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Stéphane Druel, *Variétés algébriques dont le fibré tangent est totalement décomposé*](https://arxiv.org/abs/math/9901138) (arXiv:math/9901138, 1999; J. Reine Angew. Math. 522, 2000). Shows that integrability conditions are automatic for minimal varieties with totally decomposed tangent bundle, a counterpart to the automatic integrability in Theorem 1.1; not in this paper's bibliography (the Kähler companion cites it).
 
 ## Digests and expositions
-- [Gradient Damage, *Shafarevich Conjecture, Zariski's Cancellation Problem and 7 More*](https://gradientdamage.com/videos/shafarevich-conjecture-zariskis-cancellation-problem-and-7-more/) (video compilation, 15 October 2026). Chapter 8, starting at 2:28, introduces Beauville’s splitting conjecture, and its accompanying text reproduces the release’s claims for both universal-cover splitting and rationally connected integrability. [family-level]
+- None found.
 
 ## News and blogs
 - None found.

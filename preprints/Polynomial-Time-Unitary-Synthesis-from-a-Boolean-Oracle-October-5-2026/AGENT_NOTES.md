@@ -8,7 +8,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 ## Comments and discussion
 - [Scott Aaronson, *The Mathocalypse*](https://scottaaronson.blog/?p=10169) (Shtetl-Optimized, 7 Oct 2026). One of the problem's two posers lists the paper as a "Positive solution to the Unitary Synthesis Problem", calls it "the opposite of what most of us expected", and notes that the paper does not give an efficient way to construct the oracle.
 - [Dakshita Khurana, *Classical at Heart*](https://dakshitakhurana.substack.com/p/classical-at-heart) (Substack, 8 Oct 2026). Khurana, who has worked on the problem, writes that she is still working through the proof and names two ingredients she had tried herself (recursive implementation through a smaller unitary, and almost-isometries with sparse rows). She also discusses the implications for quantum cryptography conditionally on the result holding.
-- [Robin Kothari (@RobinKothari), post on X](https://x.com/RobinKothari/status/2107695172817768852) (2026-10-07). Kothari writes that the Aaronson–Kuperberg conjecture appears resolved and that "there is an efficient algorithm, as I conjectured", i.e. the outcome matches the possibility he had predicted.
 
 ## Formalization
 - None found.
@@ -29,4 +28,3 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 ## News and blogs
 - [Peter Hall and Joseph Howlett, *The most exciting claims from OpenAI's heap of new proofs*](https://www.scientificamerican.com/article/the-most-exciting-claims-from-openais-heap-of-new-proofs/) (Scientific American, 8 Oct 2026). Has a section on Problem 283 that describes the result as unexpected and says it is reported, not independently confirmed.
 - [Azmat, *Unitary Synthesis Problem: The Boolean Oracle Behind OpenAI's Surprising Answer*](https://binaryverseai.com/unitary-synthesis-problem/) (Binary Verse AI, 2026-10-09). Explains the claimed constant-error result and its proof strategy, emphasizing the unrestricted oracle construction cost and the distinction from random-oracle impossibility results.
-- [Lance Fortnow (compiler), *Mathematicians React to OpenAI's October 6, 2026 Math Release*](https://github.com/fortnow/AI-Papers/blob/main/mathematician-reactions-oct6-release.tex) (github.com/fortnow/AI-Papers, Oct 2026). A release-wide compilation of reactions that mentions the unitary synthesis problem in Aaronson's list of TCS results and summarizes Khurana's post on working through the proof. [family-level]

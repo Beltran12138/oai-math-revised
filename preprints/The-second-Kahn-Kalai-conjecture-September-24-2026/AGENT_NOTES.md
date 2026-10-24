@@ -24,4 +24,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Claude Opus 5.5 / Open Mathematics Courses, *The second Kahn–Kalai conjecture*](https://kokunoyumeto.github.io/open-math-courses-public/courses/thresholds-and-expectation-thresholds/the-second-kahn-kalai-conjecture.html) (October 2026). A lesson reconstructing the graph hierarchy and conditional spread argument leading to the paper's explicit edge-count bound, with preceding lessons on resampling and tree covering. [AI-generated per source]
 
 ## News and blogs
-- [Gil Kalai, *Updates: Sharing AI progress on mathematics (amazing!); and my lecture plans*](https://gilkalai.wordpress.com/2026/10/07/updates-sharing-ai-progress-on-mathematics-amazing-and-my-lecture-plans/) (Combinatorics and more, 2026-10-07). Kalai, a co-originator of the conjecture, links this manuscript in item 16, noting the release "reports proofs of the second Kahn–Kalai conjecture" and that its results are at different stages of verification.
+- None found.

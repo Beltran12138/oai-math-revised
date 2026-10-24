@@ -9,7 +9,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## Formalization
-- [franzhusch, *Baum–Connes conjecture* (formal-conjectures issue #2165)](https://github.com/google-deepmind/formal-conjectures/issues/2165) (google-deepmind/formal-conjectures, opened 2026-02-04). An open proposal to formalize the statement of the Baum–Connes conjecture, labelled "needs-prerequisites"; it predates and does not mention this paper. [family-level]
+- None found.
 
 ## Related prior literature mentioned by others
 - None found.

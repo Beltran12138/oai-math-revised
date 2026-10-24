@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## Comments and discussion
-- [Hirosi Ooguri, *Positive eigenvalues of the relative SU(2) BFSS Hamiltonian*](https://tools.kitp.ucsb.edu/) (KITP, Intermediate-Scale AI for Physics, October 20, 2026). KITP’s programme lists a talk on this manuscript, without providing the talk’s contents.
+- None found.
 
 ## Formalization
 - [etblink (GitHub), *BFSS: manuscript–source paired SU2 Hamiltonian realization and closed-domain bridge*](https://github.com/etblink/Foundational-Convergence-Program/issues/28) (GitHub issue #28, opened 2026-10-17, open). An independent Lean 4 project matching this manuscript's relative SU(2) Hamiltonian with its own definition, reporting Lean-checked pieces (charge operators, closed domains, gauge-representation facts) and listing the Spin(9) confinement argument and the positive-eigenvalue theorem as still open. [AI-generated per source]

@@ -22,4 +22,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## News and blogs
-- [Kingy.ai, *OpenAI's 722 Math Manuscripts: The Results, Proofs, Compute and Costs*](https://kingy.ai/blog/openai-math-722-manuscripts-results-proofs-compute-costs/) (Kingy.ai blog, October 2026). Links this paper and states that the Bloch-law paper "should be assessed separately from the spontaneous-magnetization target" covered by the Lean scope. [family-level]
+- None found.

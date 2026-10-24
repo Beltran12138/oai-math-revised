@@ -9,7 +9,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Ryan Shea, *ordered-binary-matrix-removal*](https://github.com/shea256/ordered-binary-matrix-removal) (GitHub repository, README dated 2026-10-12; [PR #10](https://github.com/shea256/ordered-binary-matrix-removal/pull/10)). Claims the $3\times3$ pattern 011/101/110 has no polynomial removal bound, checked in Lean, with tree and propagation ideas credited to this paper's $66\times66$ construction; prepared "with Codex assistance", peer review pending. [AI-generated per source]
 
 ## Comments and discussion
-- [ZinanWang, post in the thread "First look at mathematics manuscripts from an internal frontier model at OpenAI"](https://community.openai.com/t/first-look-at-mathematics-manuscripts-from-an-internal-frontier-model-at-openai/1403886) (OpenAI Developer Community, 2026-10-11). Announces the $4\times4$ follow-up as "reducing the obstruction size from 66×66 in the original construction" and invites scrutiny.
+- None found.
 
 ## Formalization
 - [OpenAI math release, *Lean scope notes for family 190*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/190.md) (lean/docs/190.md, 2026-10-06). States the formalized failure of every polynomial removal bound for an explicit $66\times66$ pattern, with independently increasing row and column indices and edits in both directions, and links the comparator statement.

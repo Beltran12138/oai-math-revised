@@ -28,4 +28,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [AI Proved What?, *Flat with signs only? Ultraflat Littlewood polynomials and merit factors*](https://aiprovedwhat.com/episodes/076-real-ultraflat-littlewood-polynomials-unbounded/) (Episode 076, October 2026). Video and transcript explain the progression of the three manuscripts, quadratic-phase waves, rounding and the documented Lean scope. [AI-generated per source] [family-level]
 
 ## News and blogs
-- [OfficeChai Team, *OpenAI Has Also Included Proofs For 23 Erdos Problems In Its Latest Math Proof Drop*](https://officechai.com/ai/openai-has-also-included-proofs-for-23-erdos-problems-in-its-latest-math-proof-drop/) (OfficeChai, 9 October 2026). Names "ultraflat Littlewood polynomials (1150)" in its list of claimed Erdős-problem results, without further detail. [family-level]
+- None found.

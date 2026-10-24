@@ -22,7 +22,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [T. C. Corso, *v-representability and Hohenberg-Kohn theorem for non-interacting Schrödinger operators with distributional potentials in the one-dimensional torus*](https://arxiv.org/abs/2501.13513) (arXiv:2501.13513, 2025). A positive noninteracting v-representability result on the 1D torus with distributional potentials, complementing the existence results the paper contrasts with its own (Sutter et al.; Corso's 1D interval paper).
 
 ## Digests and expositions
-- [Gradient Damage, *QAOA Reaches the SK Optimum, Laughlin Spectral Gap Conjecture and 7 More*](https://gradientdamage.com/videos/qaoa-reaches-the-sk-optimum-laughlin-spectral-gap-conjecture-and-7/) (video compilation, 2026-10-15). The opening chapter (0:00–0:21) introduces the claimed Kohn–Sham representability counterexample as a visual illustration, and the accompanying page links the paper.
+- None found.
 
 ## News and blogs
 - None found.

@@ -20,7 +20,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Gianluca Occhetta, Luis E. Solá Conde and Eleonora A. Romano, *Manifolds with two projective bundle structures*](https://arxiv.org/abs/2001.06215) (arXiv:2001.06215, 2020; Proc. Amer. Math. Soc. 150, 2022). Classifies Picard-number-two varieties with two mutually uniform projective bundle structures and obtains a Campana–Peternell result under additional group-action hypotheses, a point of comparison for the manuscript's use of two fibrations to identify homogeneous geometry.
 
 ## Digests and expositions
-- [Gradient Damage, *Shafarevich Conjecture, Zariski's Cancellation Problem and 7 More*](https://gradientdamage.com/videos/shafarevich-conjecture-zariskis-cancellation-problem-and-7-more/) (video compilation, 2026-10-15). The opening chapter, starting at 0:00, presents the claimed dimension-six Campana–Peternell result as a brief visual exposition.
+- None found.
 
 ## News and blogs
 - None found.

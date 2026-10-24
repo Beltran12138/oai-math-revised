@@ -6,7 +6,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## Comments and discussion
-- [Matt Mitchell, comment #207 on Shtetl-Optimized, *The Mathocalypse*](https://scottaaronson.blog/?p=10169#comment-2041359) (blog comment, 2026-10-09). A reader comment on the release that names "scale invariance implies conformal invariance in 4d" as a question the commenter had hoped someone would answer; it gives no technical assessment of the paper.
+- None found.
 
 ## Formalization
 - None found.

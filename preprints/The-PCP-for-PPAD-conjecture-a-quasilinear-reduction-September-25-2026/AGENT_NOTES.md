@@ -20,7 +20,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [AI Proved What?, *PCP for PPAD? A quasilinear, gate-robust reduction from End-of-Line*](https://aiprovedwhat.com/episodes/136-pcp-for-ppad/) (episode 136, October 2026). This illustrated exposition and transcript explain the claimed reduction, its outer and inner constructions, robustness to failed gates, and the limited scope of the accompanying Lean development. [AI-generated per source]
-- [Gradient Damage, *Every OpenAI Math Result, Part 2 of 4: PCP for PPAD, Birkhoff Conjecture and 82 More*](https://gradientdamage.com/videos/every-openai-math-result-part-2-of-4-pcp-for-ppad-birkhoff-conjecture/) (video, 14 October 2026). An animated overview of many release results that presents result 136 at 0:41, restating the release summary and calling it a preprint that has not been peer reviewed.
 
 ## News and blogs
 - None found.

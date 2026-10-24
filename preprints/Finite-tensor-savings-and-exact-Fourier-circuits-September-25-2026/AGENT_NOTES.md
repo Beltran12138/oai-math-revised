@@ -25,4 +25,3 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## News and blogs
 - [Peter Hall and Joseph Howlett, *The most exciting claims from OpenAI's heap of new proofs*](https://www.scientificamerican.com/article/the-most-exciting-claims-from-openais-heap-of-new-proofs/) (Scientific American, 2026-10-08). Has a short section on paper 130's sub-n log n Fourier result, described mainly through the uniform (log n)^(1−10^−13) bound. [family-level]
-- [Faizan, *OpenAI Faster Fourier Transform: What It Means for Developers*](https://dev.to/faizan050/openai-faster-fourier-transform-what-it-means-for-developers-51bo) (DEV Community, 2026-10-19). A practitioner-oriented post on result 130 based on the Lean scope note, which separates the subsequential circuit result from the uniform all-length result. [family-level]

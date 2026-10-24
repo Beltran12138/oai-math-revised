@@ -26,4 +26,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [heyprof, *Triangular billiards — irrational angles mix (3D)*](https://www.heyprof.app/en/demo/dreiecksbillard) (interactive exposition, undated; accessed 2026-10-21). Illustrates family 150 using trajectories, direction distributions and paired trajectories, noting that floating-point simulation cannot distinguish exact rationality from irrationality. [family-level]
 
 ## News and blogs
-- [Orply, *AI-Generated Proofs Expand Mathematical Results but Leave Questions of Understanding*](https://orply.com/articles/two-minute-papers/openai-just-changed-what-it-means-to-do-math-3db4d2fc) (2026-10-13). This AI-assisted rendering of a Two Minute Papers video uses irrational triangular billiards as a specific example of the release’s claimed equidistribution results. [AI-generated per source] [family-level]
+- None found.

@@ -24,5 +24,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - None found.
 
 ## News and blogs
-- [OfficeChai Team, *OpenAI Has Found A Far Faster Way To Multiply Matrices*](https://officechai.com/ai/openai-has-found-a-far-faster-way-to-multiply-matrices-the-math-that-underpins-all-of-modern-ai/) (OfficeChai, 2026-10-07). News article summarizing this paper's ω < 2.258, α > 0.465 and ω(1,0.709,1) < 2.092 claims alongside the later 9/4 paper. [family-level]
 - [Carlos Toledo, *OpenAI’s math release: what it claims beyond what it checks*](https://carlostoledo.co/reports/openai-math.html) (audit report, 2026-10-10). Separates finite checks of the rectangular witnesses and square-certificate components from the full manuscript, assigning its F-213 audit entry the status “REFUSED”.

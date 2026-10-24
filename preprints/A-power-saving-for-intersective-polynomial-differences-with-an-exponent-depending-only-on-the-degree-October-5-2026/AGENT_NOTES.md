@@ -20,7 +20,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Khalid Younis, *Sets whose differences avoid a bracket quadratic*](https://arxiv.org/abs/2608.30078) (arXiv:2608.30078, 30 Aug 2026). Proves a fixed power saving $N^{1-c}$ for differences that avoid a bracket quadratic (generalised polynomial), a nearby extension of polynomial Sárközy-type power savings.
 
 ## Digests and expositions
-- [Gradient Damage, *Circulant Hadamard Conjecture, Cycle–Clique Ramsey Numbers and 7 More in Combinatorics*](https://gradientdamage.com/videos/circulant-hadamard-conjecture-cycle-clique-ramsey-numbers-and-7-more/) (video compilation, 15 October 2026). The chapter beginning at 2:26 illustrates square-difference avoidance, while its accompanying text summarizes the family's intersective-polynomial and prime-argument claims. [family-level]
+- None found.
 
 ## News and blogs
 - None found.

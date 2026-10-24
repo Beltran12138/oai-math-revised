@@ -22,7 +22,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [Latent Seminar, *The sharp IID-factor threshold for free tree Ising spins*](https://lowrank.github.io/latent-seminar/OpenAI-Math/236-tree-ising-factors) (6 October 2026). This exposition outlines the manuscript's innovations recovery, conditional-copy coupling, critical Osgood comparison, and everywhere-equivariant version, stating that it does not independently verify the complete proof. [family-level]
-- [Gradient Damage, *Six-Vertex Model, Lipschitz Heights, The O(3) Model Continuum Limit and 6 More*](https://gradientdamage.com/videos/six-vertex-model-lipschitz-heights-the-o-3-model-continuum-limit/) (video compilation, 15 October 2026). The chapter beginning at 1:24 illustrates the free Ising factor-of-IID threshold claim and links the manuscript. [family-level]
 
 ## News and blogs
 - None found.

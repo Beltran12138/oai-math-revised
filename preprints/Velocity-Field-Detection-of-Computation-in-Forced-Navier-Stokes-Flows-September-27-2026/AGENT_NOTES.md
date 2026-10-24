@@ -22,7 +22,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - None found.
 
 ## Digests and expositions
-- [Ying Xie, *What the Machine Invented: Mining New Mathematical Instruments from OpenAI's October 2026 Release of AI-Generated Mathematics*](https://arxiv.org/abs/2610.17090) (arXiv:2610.17090, 12 Oct 2026). Section 9.4.8 summarizes family 376 and lists an Eulerian observer among its variants. [family-level]
 - [Latent Seminar, *Universal computation in smooth forced Navier–Stokes flows*](https://lowrank.github.io/latent-seminar/OpenAI-Math/376-forced-fluid-computation) (6 October 2026). Explains velocity observation through advection–diffusion estimates. [family-level]
 
 ## News and blogs

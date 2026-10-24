@@ -21,7 +21,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Stefano Filipazzi and Joaquín Moraga, *Strong (δ, n)-Complements for Semi-Stable Morphisms*](https://ems.press/content/serial-article-files/26570) (Documenta Mathematica 25, 1953–1996, 2020). Theorem 1.4 gives local strong complements with a positive discrepancy bound under semistability, finite boundary coefficients and bounded Cartier index of the base canonical divisor, a restricted-setting comparison for bounded klt complements. [family-level]
 
 ## Digests and expositions
-- [Gradient Damage, *Every OpenAI Math Result, Part 3 of 4: Operator Paving, Naimark's Problem and 82 More*](https://gradientdamage.com/videos/every-openai-math-result-part-3-of-4-operator-paving-naimarks-problem/) (video, 14 October 2026). Chapter 78, beginning at 26:52, presents a brief animated illustration of the family's claimed bounded-klt-complement result. [family-level]
+- None found.
 
 ## News and blogs
 - None found.

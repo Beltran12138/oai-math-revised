@@ -24,4 +24,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Latent Seminar, *Entropy equality and local symmetry in negative curvature*](https://lowrank.github.io/latent-seminar/OpenAI-Math/339-entropy-rigidity) (7 October 2026). Outlines the manuscript's route from entropy equality through formal symmetry and transverse smoothness to local symmetry, treating the algebraic classification as an input and explicitly disclaiming independent verification of the complete proof.
 
 ## News and blogs
-- [RAUM, *Research Notes: The OpenAI Math Drop (October 2026)*](https://raum.com/references/openai-math-drop/) (undated research note covering 2026-10-06 to 2026-10-09). This summary of reactions to the release quotes Humbert's assessment of the Katok entropy conjecture paper and links to the Proofs and Prompts collection as its source.
+- None found.

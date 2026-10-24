@@ -25,4 +25,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## News and blogs
-- [Mikko Salo, *Mathematics and AI*](https://fameflagship.fi/blog/mathematics-and-ai/) (FAME Flagship, 2026-10-15). Identifies the release’s scalar and system versions of anisotropic Calderón recovery and its three-dimensional measurable-conductivity nonuniqueness claim as results of direct interest to inverse problems. [family-level]
+- None found.

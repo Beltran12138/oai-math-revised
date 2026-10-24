@@ -24,4 +24,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## News and blogs
-- [Latent Space AINews, *Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers …*](https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai) (newsletter, 7 Oct 2026). Its Twitter recap mentions this paper in one sentence, as "a uniqueness result for the elastic inverse problem, which the paper says had been open in 3D since 1994."
+- None found.

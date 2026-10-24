@@ -24,7 +24,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [AI Proved What?, *The cone decides? Robert’s trace-cone question*](https://aiprovedwhat.com/episodes/301-trace-cones/) (episode 301, October 2026). This AI-assisted video and transcript illustrate extended traces and ideal recovery, outline the claimed existence-and-uniqueness argument, and distinguish the supporting Lean development from the classification theorem. [AI-generated per source] [family-level]
-- [Gradient Damage, *Kaplansky's Quasitrace Conjecture, Naimark's Problem and 7 More in Operator Algebras*](https://gradientdamage.com/videos/kaplanskys-quasitrace-conjecture-naimarks-problem-and-7-more/) (video compilation, 15 October 2026). The chapter beginning at 2:46 introduces this paper's trace-cone classification claim, with the source describing the animations as illustrations rather than proofs. [family-level]
 
 ## News and blogs
 - None found.

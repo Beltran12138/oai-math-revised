@@ -24,7 +24,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Digests and expositions
 - [Latent Seminar, *Sharp logarithmic exponents for off-diagonal Ramsey numbers*](https://lowrank.github.io/latent-seminar/OpenAI-Math/170-off-diagonal-ramsey) (2026-10-07). Explains the two manuscripts' flag graphs, selected-sequence entropy bounds and compression iteration, while distinguishing exposition from independent proof verification. [family-level]
 - [AI Proved What?, *Ramsey numbers: log power settled?*](https://aiprovedwhat.com/episodes/170-sharp-logarithmic-exponents-off-diagonal/) (episode 170, October 2026; last checked 2026-10-19). Provides an animated introduction and written transcript covering both papers' claims, proof strategy and distinction between a sharp logarithmic exponent and a constant-factor asymptotic. [AI-generated per source] [family-level]
-- [Wolfram MathWorld, *Ramsey Number*](https://mathworld.wolfram.com/RamseyNumber.html) (MathWorld entry, footer dated 20 Oct 2026). The entry describes the Lin–Zhang $r(4,t)$ refinement as "using an external OpenAI theorem asserting R(5,t)>=t^4/(lnt)^(3+delta)" and notes that this input "has not been independently verified here".
 
 ## News and blogs
 - None found.
