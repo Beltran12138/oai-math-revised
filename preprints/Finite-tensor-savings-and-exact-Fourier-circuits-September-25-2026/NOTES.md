@@ -1,6 +1,6 @@
 ## Contributions
 
-- 2026-10-25 @jacobalansussman (Jacob Sussman): Added his repository of Walsh–Hadamard circuits and Lean proofs of their operation counts under Follow-up works ([issue #8](https://github.com/mathcommunity/oai-math-revised/issues/8)). Entry drafted with Claude Code; source checked by the maintainer.
+- 2026-10-25 @jacobalansussman (Jacob Sussman): Added his repository of Walsh–Hadamard circuits and Lean proofs of their operation counts under Follow-up works ([issue #8](https://github.com/mathcommunity/oai-math-revised/issues/8), [PR #34](https://github.com/mathcommunity/oai-math-revised/pull/34)). Entry drafted with Claude Code; source checked by the maintainer.
 
 ## Follow-up works
 
