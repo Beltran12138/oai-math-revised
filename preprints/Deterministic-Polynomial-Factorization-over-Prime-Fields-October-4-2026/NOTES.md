@@ -1,6 +1,6 @@
 ## Contributions
 
-- 2026-10-25 @jfvoloch (Felipe Voloch): Added a draft note that reformulates the cyclic-cover argument of Sections 4 and 8 and extends it to q = 2, under Follow-up works ([issue #26](https://github.com/mathcommunity/oai-math-revised/issues/26)). Entry drafted with Claude Code; source checked by the maintainer.
+- 2026-10-25 @jfvoloch (Felipe Voloch): Added a draft note that reformulates the cyclic-cover argument of Sections 4 and 8 and extends it to q = 2, under Follow-up works ([issue #26](https://github.com/mathcommunity/oai-math-revised/issues/26), [PR #33](https://github.com/mathcommunity/oai-math-revised/pull/33)). Entry drafted with Claude Code; source checked by the maintainer.
 
 ## Follow-up works
 
