@@ -1,6 +1,6 @@
 ## Contributions
 
-- 2026-10-25 @jasonrute (Jason Rute): Added an exchange on X about the status of Christian Espíndola's earlier claimed proof under Constructive comments / reviews ([issue #31](https://github.com/mathcommunity/oai-math-revised/issues/31)). Entry drafted with Claude Code; source checked by the maintainer.
+- 2026-10-25 @jasonrute (Jason Rute): Added an exchange on X about the status of Christian Espíndola's earlier claimed proof under Constructive comments / reviews ([issue #31](https://github.com/mathcommunity/oai-math-revised/issues/31), [PR #36](https://github.com/mathcommunity/oai-math-revised/pull/36)). Entry drafted with Claude Code; source checked by the maintainer.
 
 ## Follow-up works
 
