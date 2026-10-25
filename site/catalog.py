@@ -11,7 +11,9 @@ Sources:
 from __future__ import annotations
 
 import datetime
+import json
 import re
+import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -75,6 +77,8 @@ class Family:
     discipline: str
     papers: list[str] = field(default_factory=list)
     lean_doc: str | None = None  # lean/docs/NNN.md, if present
+    # (result label, challenge file, proof file or None) from the comparator table in lean_doc
+    lean_challenges: list[tuple[str, str, str | None]] = field(default_factory=list)
 
     @property
     def summary_text(self) -> str:
@@ -303,6 +307,7 @@ def load(root: Path):
     for num, fam in families.items():
         if (root / "lean" / "docs" / f"{num}.md").is_file():
             fam.lean_doc = f"lean/docs/{num}.md"
+            fam.lean_challenges = lean_challenges(root, fam.lean_doc)
 
     for doc in sorted((root / "lean" / "docs").glob("*.md")):
         for slug in set(re.findall(r"\.\./\.\./preprints/([^/]+)/", doc.read_text(encoding="utf-8"))):
@@ -310,6 +315,22 @@ def load(root: Path):
                 papers[slug].lean_notes.append(f"lean/docs/{doc.name}")
 
     return disciplines, families, papers
+
+
+def lean_challenges(root: Path, doc: str) -> list[tuple[str, str, str | None]]:
+    """Rows "| result | [X.lean](../ComparatorChallenges/X.lean) |" of a scope note, with the proof
+    module that ComparatorChallenges/X.json names, as a file path (None if the .json is missing)."""
+    out = []
+    for label, name in re.findall(r"^\|\s*(.+?)\s*\|\s*\[[^\]]*\]\(\.\./ComparatorChallenges/([^)]+?)\.lean\)",
+                                  (root / doc).read_text(encoding="utf-8"), re.M):
+        proof = None
+        try:
+            module = json.loads((root / "lean" / "ComparatorChallenges" / f"{name}.json").read_text())["solution_module"]
+            proof = "lean/" + module.replace(".", "/") + ".lean"
+        except (OSError, ValueError, KeyError) as e:
+            print(f"warning: {doc}: no proof module for {name}: {e}", file=sys.stderr)
+        out.append((label, f"lean/ComparatorChallenges/{name}.lean", proof))
+    return out
 
 
 if __name__ == "__main__":

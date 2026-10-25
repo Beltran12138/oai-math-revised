@@ -99,7 +99,16 @@
 
 {% if fam and fam.lean_doc %}
 <section><h2>Lean formalization</h2>
-<p>OpenAI provides Lean files for this family: <a href="{{ GITHUB }}/blob/{{ BRANCH }}/{{ fam.lean_doc }}">{{ fam.lean_doc }}</a>. The Lean statements have not been checked by people against the paper's claims.</p>
+<p>OpenAI provides Lean files for this family. The scope note, <a href="{{ GITHUB }}/blob/{{ BRANCH }}/{{ fam.lean_doc }}">{{ fam.lean_doc }}</a>, says which results they cover.</p>
+{% if fam.lean_challenges %}
+<p>Each result is stated in a file in <code>lean/ComparatorChallenges/</code>. These files end in <code>sorry</code> on purpose: they only state the result. The proof is in a separate module, and Lean's <a href="https://github.com/leanprover/comparator">comparator</a> is the tool for checking that the module proves exactly what the statement file says.</p>
+<ul>
+{% for label, challenge, proof in fam.lean_challenges %}
+<li>{{ label }}: <a href="{{ GITHUB }}/blob/{{ BRANCH }}/{{ challenge }}">statement</a>{% if proof %}, <a href="{{ GITHUB }}/blob/{{ BRANCH }}/{{ proof }}">proof</a>{% endif %}</li>
+{% endfor %}
+</ul>
+{% endif %}
+<p>Nobody has checked whether the Lean statements say what the paper claims.</p>
 </section>
 {% endif %}
 
