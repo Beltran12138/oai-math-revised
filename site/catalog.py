@@ -13,6 +13,7 @@ from __future__ import annotations
 import datetime
 import json
 import re
+import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -326,8 +327,8 @@ def lean_challenges(root: Path, doc: str) -> list[tuple[str, str, str | None]]:
         try:
             module = json.loads((root / "lean" / "ComparatorChallenges" / f"{name}.json").read_text())["solution_module"]
             proof = "lean/" + module.replace(".", "/") + ".lean"
-        except (OSError, ValueError, KeyError):
-            pass
+        except (OSError, ValueError, KeyError) as e:
+            print(f"warning: {doc}: no proof module for {name}: {e}", file=sys.stderr)
         out.append((label, f"lean/ComparatorChallenges/{name}.lean", proof))
     return out
 
