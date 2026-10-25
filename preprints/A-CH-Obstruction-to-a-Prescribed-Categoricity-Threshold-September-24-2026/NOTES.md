@@ -1,6 +1,6 @@
 ## Contributions
 
-- 2026-10-25 @jasonrute (Jason Rute): Added Christian Espíndola's reply on X, which disputes the paper's Proposition 7.2, under Constructive comments / reviews ([issue #30](https://github.com/mathcommunity/oai-math-revised/issues/30)). Entry drafted with Claude Code; source checked by the maintainer.
+- 2026-10-25 @jasonrute (Jason Rute): Added Christian Espíndola's reply on X, which disputes the paper's Proposition 7.2, under Constructive comments / reviews ([issue #30](https://github.com/mathcommunity/oai-math-revised/issues/30), [PR #35](https://github.com/mathcommunity/oai-math-revised/pull/35)). Entry drafted with Claude Code; source checked by the maintainer.
 
 ## Follow-up works
 
