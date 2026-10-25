@@ -34,6 +34,7 @@ A-Torsion-Free-Group-Algebra-with-Zero-Divisors-September-23-2026,VibeMathed,Pro
 A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026,VibeMathed,Problem record,https://vibemathed.com/problem/disc-embedding-conjecture-free-group-good,
 A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/euclidean-ramsey-sets-classification,
 A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/leader-russell-walters-subtransitive-conjecture,
+A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026,openai-math-counterexamples,Row 172: the finite algebra under the nine- and twelve-point examples recomputed; the kites not computed,https://github.com/piiiico/openai-math-counterexamples/tree/main/rows/172,"computations by Pico, an AI agent, and Alexander Towell with Codex; not a proof"
 A-closed-Ricci-flow-with-bounded-scalar-curvature-and-finite-time-curvature-blowup-September-24-2026,VibeMathed,Problem record,https://vibemathed.com/problem/scalar-curvature-extension-conjecture,
 A-counterexample-to-Hadwigers-conjecture-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/fgs-sharp-connected-matching-conjecture,
 A-counterexample-to-Hadwigers-conjecture-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/hadwiger-conjecture,
@@ -41,9 +42,11 @@ A-counterexample-to-Kaplanskys-quasitrace-conjecture-September-23-2026,VibeMathe
 A-counterexample-to-Sidorenkos-conjecture-September-23-2026,Hexagon,A six-spin obstruction to antiferromagnetic biclique maximization,https://hexagonmath.org/abs/2610.00241v1,AI-generated; human understanding: some
 A-counterexample-to-Sidorenkos-conjecture-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/forcing-conjecture-bipartite,
 A-counterexample-to-Sidorenkos-conjecture-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/sidorenko-conjecture,
+A-counterexample-to-Sidorenkos-conjecture-September-23-2026,openai-math-counterexamples,Row 161: the graph H and Proposition prop:complex recomputed; the host graph G is not given,https://github.com/piiiico/openai-math-counterexamples/tree/main/rows/161,"computation by Pico, an AI agent; not a proof"
 A-counterexample-to-Tachikawas-second-conjecture-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/nakayama-conjecture-dominant-dimension,
 A-counterexample-to-Tachikawas-second-conjecture-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/tachikawa-second-conjecture,
 A-counterexample-to-integer-degree-harmonic-dimension-comparison-September-25-2026,VibeMathed,Problem record,https://vibemathed.com/problem/yau-harmonic-dimension-comparison-integer-degree,
+A-counterexample-to-integer-degree-harmonic-dimension-comparison-September-25-2026,openai-math-counterexamples,"Row 361: the paper's finite counting step re-run, with an independent certificate; the metric theorem not checked",https://github.com/piiiico/openai-math-counterexamples/tree/main/rows/361,"computations by Pico, an AI agent, and Alexander Towell with Codex; not a proof"
 A-counterexample-to-the-Colin-de-Verdiere-chromatic-conjecture-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/colin-de-verdiere-chromatic-conjecture,
 A-counterexample-to-the-Monge-ansatz-for-the-three-marginal-Coulomb-cost-September-25-2026,VibeMathed,Problem record,https://vibemathed.com/problem/coulomb-monge-ansatz-three-marginal,
 A-counterexample-to-the-coarse-Novikov-conjecture-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/coarse-novikov-conjecture-bounded-geometry,
@@ -65,6 +68,7 @@ A-linear-list-coloring-bound-in-terms-of-the-Hadwiger-number-September-23-2026,V
 A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026,whataifound,Registry entry,https://whataifound.org/finding/2026-10-06-borel-conjecture-four-manifolds,
 A-negatively-pinched-Kahler-threefold-without-bounded-holomorphic-coordinates-September-25-2026,VibeMathed,Problem record,https://vibemathed.com/problem/negatively-pinched-kahler-bounded-domain,
 A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/borsuk-conjecture-dimension-nine,
+A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026,openai-math-counterexamples,Row 156: the metric premises and a finite obstruction computed; the topology is not checked,https://github.com/piiiico/openai-math-counterexamples/tree/main/rows/156,"computations by Pico, an AI agent, and Alexander Towell with Codex; not a proof"
 A-nondegenerate-counterexample-to-the-Morse-number-Arnold-bound-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/morse-number-arnold-conjecture,
 A-polynomial-time-algorithm-for-three-machine-unit-job-scheduling-September-24-2026,VibeMathed,Problem record,https://vibemathed.com/problem/three-machine-precedence-scheduling,
 A-positive-solution-to-Tingleys-problem-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/tingley-problem,
@@ -74,6 +78,7 @@ A-power-saving-for-planar-unit-distances-September-23-2026,Readable Intelligence
 A-power-saving-for-planar-unit-distances-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/planar-unit-distances-power-saving,
 A-power-saving-for-square-difference-free-sets-September-24-2026,VibeMathed,Problem record,https://vibemathed.com/problem/square-difference-free-power-saving,
 A-product-counterexample-to-the-simplex-maximum-for-projection-body-volume-September-24-2026,VibeMathed,Problem record,https://vibemathed.com/problem/brannen-simplex-projection-body-maximum,
+A-product-counterexample-to-the-simplex-maximum-for-projection-body-volume-September-24-2026,openai-math-counterexamples,Row 088: the exact inequality at dimension 20 and an enumeration of simplex products,https://github.com/piiiico/openai-math-counterexamples/tree/main/rows/088,"computations by Pico, an AI agent, and Alexander Towell with Codex; not a proof"
 A-proof-of-Seymours-second-neighborhood-conjecture-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/seymour-second-neighborhood-conjecture,
 A-quadratic-bound-for-Jacobsthals-function-September-25-2026,Hexagon,Small witnesses for eventual Erdős--Straus binomial divisibility,https://hexagonmath.org/abs/2610.00239v1,AI-generated; human understanding: some
 A-quadratic-bound-for-Jacobsthals-function-September-25-2026,VibeMathed,Problem record,https://vibemathed.com/problem/jacobsthal-function-quadratic-bound,
@@ -87,6 +92,7 @@ A-smooth-three-torus-diffeomorphism-with-simple-Lebesgue-spectrum-September-23-2
 A-spectral-gap-throughout-the-high-temperature-Sherrington-Kirkpatrick-phase-September-24-2026,Hexagon,Lower and Upper Bounds for Glauber Dynamics from Typical States of the Low-Temperature Sherrington–Kirkpatrick Model,https://hexagonmath.org/abs/2610.00402v1,AI-generated; human understanding: some
 A-spectral-gap-throughout-the-high-temperature-Sherrington-Kirkpatrick-phase-September-24-2026,VibeMathed,Problem record,https://vibemathed.com/problem/sk-glauber-spectral-gap-high-temperature,
 A-stable-coordinate-that-is-not-a-coordinate-in-four-variables-October-5-2026,VibeMathed,Problem record,https://vibemathed.com/problem/stable-coordinate-conjecture-four-variables,
+A-stable-coordinate-that-is-not-a-coordinate-in-four-variables-October-5-2026,openai-math-counterexamples,Row 049: the explicit identities for f and F recomputed; that no automorphism takes them to x1 is not computed,https://github.com/piiiico/openai-math-counterexamples/tree/main/rows/049,"computations by Pico, an AI agent, and Alexander Towell with Codex; not a proof"
 A-strict-four-row-permanent-inequality-and-permutation-moments-September-26-2026,Palomar,Sharp robustness and stability of the four-row permanent inequality,https://palomar-registry.org/entry?id=PALOMAR-2026-10-08-000007&version=1,Lean formalization (adapts)
 A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026,VibeMathed,Problem record,https://vibemathed.com/problem/kraetzer-integral-means-conjecture,
 A-superquadratic-separation-between-sensitivity-and-block-sensitivity-September-25-2026,VibeMathed,Problem record,https://vibemathed.com/problem/block-sensitivity-quadratic-in-sensitivity,
@@ -110,6 +116,7 @@ Almost-everywhere-regularity-of-stationary-integral-varifolds-September-23-2026,
 Ambiently-homeomorphic-isolated-hypersurfaces-of-multiplicities-two-and-three-September-24-2026,VibeMathed,Problem record,https://vibemathed.com/problem/arnold-corank-problem,
 Ambiently-homeomorphic-isolated-hypersurfaces-of-multiplicities-two-and-three-September-24-2026,VibeMathed,Problem record,https://vibemathed.com/problem/bfln-initial-form-milnor-fibre-conjecture,
 Ambiently-homeomorphic-isolated-hypersurfaces-of-multiplicities-two-and-three-September-24-2026,VibeMathed,Problem record,https://vibemathed.com/problem/zariski-multiplicity-conjecture,
+Ambiently-homeomorphic-isolated-hypersurfaces-of-multiplicities-two-and-three-September-24-2026,openai-math-counterexamples,Row 059: Lemma seed:product recomputed for the shipped relation at d = 3^11; the homeomorphism not computed,https://github.com/piiiico/openai-math-counterexamples/tree/main/rows/059,"computations by Pico, an AI agent, and Alexander Towell with Codex; not a proof"
 An-Almost-Linear-Approximation-Scheme-for-Edit-Distance-September-24-2026,VibeMathed,Problem record,https://vibemathed.com/problem/edit-distance-near-linear-approximation-scheme,
 An-Artin-group-with-no-geometric-CAT-0-action-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/artin-groups-cat0-conjecture,
 An-Endpoint-Gradient-Bound-for-the-Centered-Disk-Maximal-Operator-September-26-2026,VibeMathed,Problem record,https://vibemathed.com/problem/hajlasz-onninen-centered-disk-maximal-w11,
@@ -124,10 +131,12 @@ An-algebra-of-infinite-little-finitistic-dimension-September-23-2026,Hexagon,Ano
 An-algebra-of-infinite-little-finitistic-dimension-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/little-finitistic-dimension-conjecture,
 An-asymptotic-formula-for-the-number-of-totients-September-25-2026,VibeMathed,Problem record,https://vibemathed.com/problem/erdos-416-number-of-totients,
 An-explicit-counterexample-to-the-Auslander-Reiten-conjecture-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/auslander-reiten-conjecture,
+An-explicit-counterexample-to-the-Auslander-Reiten-conjecture-September-23-2026,openai-math-counterexamples,Row 199: Lemma alg:C and a degree-three cocycle computed; the Ext claim has no finite check,https://github.com/piiiico/openai-math-counterexamples/tree/main/rows/199,"computations by Pico, an AI agent, and Alexander Towell with Codex; not a proof"
 An-explicit-exact-Hausdorff-gauge-for-SLE-September-26-2026,VibeMathed,Problem record,https://vibemathed.com/problem/sle-exact-hausdorff-gauge,
 An-explicit-failure-of-complex-affine-space-cancellation-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/dolgachev-weisfeiler-affine-fibration,
 An-explicit-failure-of-complex-affine-space-cancellation-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/stable-coordinate-conjecture-dimension-five,
 An-explicit-failure-of-complex-affine-space-cancellation-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/zariski-cancellation-complex-dimension-four,
+An-explicit-failure-of-complex-affine-space-cancellation-September-23-2026,openai-math-counterexamples,Row 047: the stabilization identities recomputed exactly; that A is not C^[4] is not computed,https://github.com/piiiico/openai-math-counterexamples/tree/main/rows/047,"computations by Pico, an AI agent, and Alexander Towell with Claude; not a proof"
 An-explicit-noncoordinate-polynomial-with-affine-three-space-zero-fibre-September-24-2026,VibeMathed,Problem record,https://vibemathed.com/problem/abhyankar-sathaye-conjecture,
 An-explicit-obstruction-to-nuclear-norm-ultrapower-embeddings-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/kirchberg-embedding-problem,
 An-exponential-state-lower-bound-for-two-way-nondeterministic-complementation-September-25-2026,VibeMathed,Problem record,https://vibemathed.com/problem/two-way-nfa-polynomial-complementation,
@@ -205,6 +214,7 @@ Elliptic-Squares-and-Zilber-Pink-for-Curves-in-A2-September-24-2026,VibeMathed,P
 Endpoint-convergence-for-the-planar-Schrodinger-equation-September-24-2026,VibeMathed,Problem record,https://vibemathed.com/problem/carleson-schrodinger-convergence-endpoint,
 Entanglement-with-zero-distillable-secret-key-in-local-dimension-ten-September-27-2026,VibeMathed,Problem record,https://vibemathed.com/problem/ppt-squared-conjecture,
 Entanglement-with-zero-distillable-secret-key-in-local-dimension-ten-September-27-2026,VibeMathed,Problem record,https://vibemathed.com/problem/secret-key-from-all-entangled-states,
+Entanglement-with-zero-distillable-secret-key-in-local-dimension-ten-September-27-2026,openai-math-counterexamples,"Row 272: the explicit 4×4 PPT pencil and all 184,756 ten-point subsets recomputed; the secret-key claim not checked",https://github.com/piiiico/openai-math-counterexamples/tree/main/rows/272,"computations by Pico, an AI agent, and Alexander Towell with Codex; not a proof"
 Entropy-and-Face-Dimension-of-the-Perfect-Matching-Polytope-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/aov-perfect-matching-entropy-conjecture,
 Entropy-equality-and-local-symmetry-in-negative-curvature-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/katok-entropy-rigidity-conjecture,
 Equidistribution-of-Prime-Degree-Torus-Packets-with-Arbitrary-Local-Type-September-24-2026,VibeMathed,Problem record,https://vibemathed.com/problem/higher-dimensional-duke-prime-degree-packets,
@@ -236,6 +246,7 @@ Finite-Smith-Toda-Complexes-at-Varying-Primes-September-23-2026,VibeMathed,Probl
 Finite-algebraic-envelopes-and-the-Boone-Higman-conjecture-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/boone-higman-conjecture,
 Finite-angular-cylinder-covers-below-the-half-area-bound-September-27-2026,Hexagon,An explicit finite cylinder cover of the regular tetrahedron saving $3.86\times10^{-4}$ below the half-area bound,https://hexagonmath.org/abs/2610.00304v2,AI-generated; human understanding: some
 Finite-angular-cylinder-covers-below-the-half-area-bound-September-27-2026,VibeMathed,Problem record,https://vibemathed.com/problem/bang-half-area-cylinder-covering,
+Finite-angular-cylinder-covers-below-the-half-area-bound-September-27-2026,openai-math-counterexamples,"Row 100: the area sum of the 16,000,000-cylinder cover recomputed; coverage sampled",https://github.com/piiiico/openai-math-counterexamples/tree/main/rows/100,"computations by Pico, an AI agent, and Alexander Towell with Codex; not a proof"
 Finite-cylinder-approximation-of-ruled-sets-September-27-2026,Hexagon,An explicit finite cylinder cover of the regular tetrahedron saving $3.86\times10^{-4}$ below the half-area bound,https://hexagonmath.org/abs/2610.00304v2,AI-generated; human understanding: some
 Finite-generation-for-the-Kn-local-sphere-September-24-2026,VibeMathed,Problem record,https://vibemathed.com/problem/kn-local-sphere-finite-generation,
 Finite-tensor-savings-and-exact-Fourier-circuits-September-25-2026,VibeMathed,Problem record,https://vibemathed.com/problem/dft-n-log-n-lower-bound,
@@ -340,6 +351,7 @@ Polynomial-Mixing-of-the-Switch-Chain-for-Every-Graphical-Degree-Sequence-Septem
 Polynomial-PEPS-approximation-of-gapped-square-grid-ground-states-September-24-2026,VibeMathed,Problem record,https://vibemathed.com/problem/polynomial-peps-gapped-ground-states,
 Polynomial-Time-Unitary-Synthesis-from-a-Boolean-Oracle-October-5-2026,VibeMathed,Problem record,https://vibemathed.com/problem/unitary-synthesis-constant-error,
 Polynomial-removal-fails-for-ordered-binary-matrices-September-25-2026,VibeMathed,Problem record,https://vibemathed.com/problem/polynomial-ordered-matrix-removal,
+Polynomial-removal-fails-for-ordered-binary-matrices-September-25-2026,openai-math-counterexamples,Row 190: H and A_h built from the stated rules; the distance lower bound is not computed,https://github.com/piiiico/openai-math-counterexamples/tree/main/rows/190,"computations by Pico, an AI agent, and Alexander Towell with Codex; not a proof"
 Positive-Metric-Entropy-for-the-Standard-Map-at-Large-Parameters-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/sinai-standard-map-positive-entropy,
 Positive-eigenvalues-of-the-relative-SU-2-BFSS-Hamiltonian-October-5-2026,VibeMathed,Problem record,https://vibemathed.com/problem/bfss-su2-positive-energy-eigenstates,
 Positive-lower-density-of-large-prime-gaps-September-25-2026,VibeMathed,Problem record,https://vibemathed.com/problem/erdos-968-prime-ratio-increases,
@@ -416,6 +428,7 @@ Symplectic-Ball-Packings-in-Higher-Dimensions-September-23-2026,VibeMathed,Probl
 Symplectic-Balls-in-Symmetric-Polar-Products-September-22-2026,VibeMathed,Problem record,https://vibemathed.com/problem/gromov-width-symmetric-polar-products,
 Talagrands-discrete-convexity-conjecture-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/talagrand-discrete-convexity-conjecture,
 Taming-implies-compatibility-on-four-manifolds-October-6-2026,VibeMathed,Problem record,https://vibemathed.com/problem/donaldson-tamed-to-compatible-conjecture,
+Taming-implies-compatibility-on-four-manifolds-October-6-2026,openai-math-counterexamples,Row 342: the four-torus example added on 7 October recomputed,https://github.com/piiiico/openai-math-counterexamples/tree/main/rows/342,"computations by Pico, an AI agent, and Alexander Towell with Codex; not a proof"
 Tangent-flow-uniqueness-2026-09-24,VibeMathed,Problem record,https://vibemathed.com/problem/tangent-flow-uniqueness-first-singular-time,
 Temperedness-at-ramified-places-for-globally-generic-exceptional-groups-October-5-2026,VibeMathed,Problem record,https://vibemathed.com/problem/generic-ramanujan-exceptional-function-fields,
 Tensor-Saturation-for-Even-Spin-Groups-September-24-2026,VibeMathed,Problem record,https://vibemathed.com/problem/saturation-conjecture-type-d-spin,
@@ -550,6 +563,7 @@ Triangular-minimality-for-planar-Coulomb-renormalized-energy-September-23-2026,V
 Triangular-minimality-for-planar-Coulomb-renormalized-energy-September-23-2026,VibeMathed,Problem record,https://vibemathed.com/problem/sandier-serfaty-triangular-renormalized-energy,
 Turn-Based-Stochastic-Mean-Payoff-Games-in-Deterministic-Quasipolynomial-Time-October-5-2026,VibeMathed,Problem record,https://vibemathed.com/problem/simple-stochastic-games-quasipolynomial-time,
 Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026,VibeMathed,Problem record,https://vibemathed.com/problem/gopalan-servedio-square-root-degree-conjecture,
+Unbounded-Violations-of-the-Square-Root-Degree-Bound-September-26-2026,openai-math-counterexamples,Row 192: exhaustive search for n ≤ 4 and scalar certificates; no explicit witness,https://github.com/piiiico/openai-math-counterexamples/tree/main/rows/192,"computations by Pico, an AI agent, and Alexander Towell with Codex; not a proof"
 Uniform-Interior-C1alpha-Estimates-for-Infinity-Harmonic-Functions-October-4-2026,VibeMathed,Problem record,https://vibemathed.com/problem/infinity-harmonic-c1-regularity,
 Uniform-Permanence-in-Weakly-Reversible-Mass-Action-Systems-October-5-2026,Hexagon,Endotactic permanence and quantitative recovery with vanishing reverse rates,https://hexagonmath.org/abs/2610.00321v1,AI-generated; human understanding: some
 Uniform-Permanence-in-Weakly-Reversible-Mass-Action-Systems-October-5-2026,Palomar,Quantitative permanence and recovery with vanishing reverse rates,https://palomar-registry.org/entry?id=PALOMAR-2026-10-11-000020&version=1,Lean formalization (adapts)
