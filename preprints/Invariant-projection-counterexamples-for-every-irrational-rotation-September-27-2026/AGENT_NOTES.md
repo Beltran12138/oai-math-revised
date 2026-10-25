@@ -10,7 +10,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Formalization
 - [OpenAI, *Invariant projections, hyperinvariant subspaces, and transitive algebras: Lean scope note*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/293.md) (OpenAI Math Release, lean/docs/293.md, 2026-10-06). Describes the Lean scope for this paper: a continuous circle weight at every irrational angle whose weighted rotation is nonzero, quasinilpotent and has no nontrivial invariant projection in $R_\theta$, plus a product realization and the product model's Brown measure $\delta_0$. [family-level]
-- [OpenAI math release, *IrrationalRotation.lean*](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/IrrationalRotation.lean) (Comparator challenge, commit adc7f12, 2026). Comparator statement file with `prescribed_irrational_counterexample` (Theorem 1.1 for every irrational $\theta\in(0,1)$) and `product_realization`; the theorem bodies in this statement file are `sorry`.
+- [OpenAI math release, *IrrationalRotation.lean*](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/IrrationalRotation.lean) (Comparator challenge, commit adc7f12, 2026). Comparator statement file with `prescribed_irrational_counterexample` (Theorem 1.1 for every irrational $\theta\in(0,1)$) and `product_realization`; the theorem bodies in this statement file are `sorry`. Comparator challenge files leave the proof as `sorry` by design; `IrrationalRotation.json` names the module `OAI.Analysis.IrrationalRotation.Main` as the release's proof of this statement.
 
 ## Related prior literature mentioned by others
 - None found.

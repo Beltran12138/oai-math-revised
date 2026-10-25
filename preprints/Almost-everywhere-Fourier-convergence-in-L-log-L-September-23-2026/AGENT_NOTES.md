@@ -10,7 +10,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Formalization
 - [OpenAI math release, *Lean scope notes for family 075: The L log L Fourier-convergence conjecture*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/075.md) (lean/docs/075.md, release of 2026-10-06). Release scope note: the formalization covers almost-everywhere convergence of the full symmetric partial sums for measurable complex $f$ on $\mathbb R/2\pi\mathbb Z$ with $\int|f|\log(2+|f|)<\infty$, and links the comparator statement. [family-level]
-- [OpenAI, *FourierLLogL.lean* (Comparator challenge)](https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/FourierLLogL.lean) (openai/math, Lean 4 over Mathlib). Comparator statement `paperMain` for Theorem 1.1, with the proof left as `sorry` and only Mathlib imported; the weak-$L^1$ maximal corollary is not stated.
+- [OpenAI, *FourierLLogL.lean* (Comparator challenge)](https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/FourierLLogL.lean) (openai/math, Lean 4 over Mathlib). Comparator statement `paperMain` for Theorem 1.1, with the proof left as `sorry` and only Mathlib imported; the weak-$L^1$ maximal corollary is not stated. Comparator challenge files leave the proof as `sorry` by design; `FourierLLogL.json` names the module `OAI.Analysis.FourierLLogL.PaperMain` as the release's proof of this statement.
 
 ## Related prior literature mentioned by others
 - None found.

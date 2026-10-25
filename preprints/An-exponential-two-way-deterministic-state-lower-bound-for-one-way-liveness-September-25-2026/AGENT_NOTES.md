@@ -10,7 +10,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Formalization
 - [OpenAI math release, *Lean scope notes for family 129: Exponential state costs for two-way automata*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/129.md) (lean/docs/129.md, October 2026). Describes the release's Lean formalization of the bound $2^{\lfloor(h-2)/31\rfloor}\le4(s+2)^2$ for every $h\ge2$ under both acceptance conventions; this paragraph follows a sentence excluding the one-way-liveness result from scope. [family-level]
-- [OpenAI, *OneWayLiveness.lean*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/ComparatorChallenges/OneWayLiveness.lean) (OpenAI Math Release comparator statement, 2026). This file defines relation-product liveness and both finite-run acceptance conventions and states the small-source/exponential-target theorem, with its proof represented by a `sorry` placeholder.
+- [OpenAI, *OneWayLiveness.lean*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/ComparatorChallenges/OneWayLiveness.lean) (OpenAI Math Release comparator statement, 2026). This file defines relation-product liveness and both finite-run acceptance conventions and states the small-source/exponential-target theorem, with its proof represented by a `sorry` placeholder. `OneWayLiveness.json` names the module `OAI.Combinatorics.Automata.Main` as the release's proof of this statement.
 
 ## Related prior literature mentioned by others
 - None found.
