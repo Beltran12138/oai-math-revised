@@ -19,7 +19,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Possibly relevant literature (found by the agent, not checked)
 - [Mark Sellke, *Covering Irrep(S_n) With Tensor Products and Powers*](https://arxiv.org/abs/2004.05283) (arXiv:2004.05283, accepted in Math. Annalen per arXiv). Studies which tensor products and minimal tensor powers of irreducibles of $S_n$ cover all irreducibles, the setting in which the paper places its tensor-square result against fourth-power and cube coverage.
 - [Nariel Monteiro, Alexander Stasinski, *A tensor square theorem for characters of GL_n(q)*](https://arxiv.org/abs/2609.17319) (arXiv:2609.17319, 2026-09-15). Constructs an irreducible character of $GL_n(q)$ whose square contains every irreducible character trivial on the centre; related to Corollary 1.2 on unipotent tensor squares of $GL_n(\mathbb F_q)$.
-- [Soong Kyum Lee, *Staircase Minimality and a Proof of Saxl's Conjecture*](https://arxiv.org/abs/2512.15035) (arXiv:2512.15035, Dec 2025). A withdrawn earlier claimed proof of Saxl's conjecture (the staircase input used here), which also claims staircases are the only Kronecker-universal self-conjugate partitions at triangular degrees.
 
 ## Digests and expositions
 - None found.
