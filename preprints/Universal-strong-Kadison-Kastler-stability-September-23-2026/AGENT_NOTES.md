@@ -10,7 +10,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Formalization
 - [OpenAI math release, *Lean scope note 289: Strong Kadison–Kastler stability and its spatial boundaries*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/289.md) (lean/docs/289.md, 2026-10-06). Reports a formalization of the uniform strong Kadison–Kastler statement of Theorem 1.1 (near-identity unitary conjugacy for close unital von Neumann algebras, uniform over algebras, representations and Hilbert spaces); it lists only this paper of the family.
-- [OpenAI math release, *StrongKadisonKastler.lean* (comparator statement)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/ComparatorChallenges/StrongKadisonKastler.lean) (lean/ComparatorChallenges, 2026). The comparator file states `universal_strong_stability : UniversalStrongStability` with a `sorry` placeholder and is linked from the scope note as the formal counterpart of Theorem 1.1.
+- [OpenAI math release, *StrongKadisonKastler.lean* (comparator statement)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/ComparatorChallenges/StrongKadisonKastler.lean) (lean/ComparatorChallenges, 2026). The comparator file states `universal_strong_stability : UniversalStrongStability` with a `sorry` placeholder and is linked from the scope note as the formal counterpart of Theorem 1.1. `StrongKadisonKastler.json` names the module `OAI.Analysis.KadisonKastler.StrongStability` as the release's proof of this statement.
 
 ## Related prior literature mentioned by others
 - None found.

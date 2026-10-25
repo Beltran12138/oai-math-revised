@@ -10,7 +10,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Formalization
 - [OpenAI math release, *Lean scope notes for family 365*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/365.md) (lean/docs/365.md, Oct 2026). The scope document covers only this paper's Theorem 1.1 on the ball B(0,3) ⊂ ℝ³, describing formalized scalar nonuniqueness with uniform positivity, agreement with one near the boundary, distinctness on a set of positive volume, identical full weak Dirichlet-to-Neumann operators, and unique weak solvability for every boundary trace.
-- [OpenAI math release, *Conductivity.lean* (comparator challenge statement)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/ComparatorChallenges/Conductivity.lean) (lean/ComparatorChallenges, Oct 2026). The Lean statement of the nonuniqueness theorem used as the comparator target; its body here is `sorry` by design.
+- [OpenAI math release, *Conductivity.lean* (comparator challenge statement)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/ComparatorChallenges/Conductivity.lean) (lean/ComparatorChallenges, Oct 2026). The Lean statement of the nonuniqueness theorem used as the comparator target; its body here is `sorry` by design. `Conductivity.json` names the module `OAI.Analysis.Conductivity.Main` as the release's proof of this statement.
 - [OpenAI math release, *OAI/Analysis/Conductivity/Main.lean*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/OAI/Analysis/Conductivity/Main.lean) (Lean solution module, Oct 2026). This module contains the proof of `main_nonuniqueness` and has no `sorry` in the file itself; it imports roughly 15 further modules.
 
 ## Related prior literature mentioned by others

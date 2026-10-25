@@ -10,7 +10,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Formalization
 - [OpenAI math release, *Lean scope note for family 218*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/218.md) (lean/docs/218.md, October 2026). Selects this paper's finite-graph conditional likelihood comparison (ratio between $\exp(\pm 4\,\mathrm{artanh}\,q_0)$ with common pinned spins and arbitrary fields and boundary mixtures) as the comparator challenge, explicitly excluding the stopping-band approximation theorem.
-- [OpenAI, *BufferedIsing.lean*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/ComparatorChallenges/BufferedIsing.lean) (OpenAI Math Release, 2026). The comparator defines the finite-graph Ising and FK quantities and states `finite_graph_comparison`, whose proof in this file is admitted with `sorry`.
+- [OpenAI, *BufferedIsing.lean*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/ComparatorChallenges/BufferedIsing.lean) (OpenAI Math Release, 2026). The comparator defines the finite-graph Ising and FK quantities and states `finite_graph_comparison`, whose proof in this file is admitted with `sorry`. Comparator challenge files leave the proof as `sorry` by design; `BufferedIsing.json` names the module `OAI.Probability.Ising.Main` as the release's proof of this statement.
 
 ## Related prior literature mentioned by others
 - None found.

@@ -10,7 +10,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Formalization
 - [OpenAI math release, *Tangent splittings and product decompositions* (Lean scope notes)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/052.md) (lean/docs/052.md, October 2026). The release's scope notes say the formalized statement is the two-integrable-summand universal-cover splitting; automatic integrability and the paper's further corollaries are not included. [family-level]
-- [OpenAI math release, *KahlerSplitting.lean*](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/KahlerSplitting.lean) (comparator challenge, declaration `OAI.UniversalCoverSplitting.main`, October 2026). Comparator statement of Theorem 1.1 (compact connected Kähler, two positive-rank integrable summands, compatible product on the universal cover); the proof body in this file is `sorry`, as for a comparator statement.
+- [OpenAI math release, *KahlerSplitting.lean*](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/KahlerSplitting.lean) (comparator challenge, declaration `OAI.UniversalCoverSplitting.main`, October 2026). Comparator statement of Theorem 1.1 (compact connected Kähler, two positive-rank integrable summands, compatible product on the universal cover); the proof body in this file is `sorry`, as for a comparator statement. Comparator challenge files leave the proof as `sorry` by design; `KahlerSplitting.json` names the module `OAI.Geometry.KahlerSplitting.Main` as the release's proof of this statement.
 
 ## Related prior literature mentioned by others
 - None found.
