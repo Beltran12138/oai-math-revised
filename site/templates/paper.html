@@ -103,10 +103,20 @@
 {% if fam.lean_challenges %}
 <p>Each result is stated in a file in <code>lean/ComparatorChallenges/</code>. These files end in <code>sorry</code> on purpose: they only state the result. The proof is in a separate module, and Lean's <a href="https://github.com/leanprover/comparator">comparator</a> is the tool for checking that the module proves exactly what the statement file says.</p>
 <ul>
-{% for label, challenge, proof in fam.lean_challenges %}
-<li>{{ label }}: <a href="{{ GITHUB }}/blob/{{ BRANCH }}/{{ challenge }}">statement</a>{% if proof %}, <a href="{{ GITHUB }}/blob/{{ BRANCH }}/{{ proof }}">proof</a>{% endif %}</li>
+{% for c in fam.lean_challenges %}
+<li>{{ c.label }}: <a href="{{ GITHUB }}/blob/{{ BRANCH }}/{{ c.challenge }}">statement</a>{% if c.proof %}, <a href="{{ GITHUB }}/blob/{{ BRANCH }}/{{ c.proof }}">proof</a>{% endif %}.
+{%- if c.check %}
+{%- if c.check.changed %} The statement, its configuration or a file it imports has changed since the comparator run of {{ c.check.date }}.
+{%- elif c.check.result == "accepted" %} Comparator run of {{ c.check.date }}: accepted (<a href="{{ GITHUB }}/blob/{{ BRANCH }}/{{ c.check.log }}">log</a>).
+{%- else %} Comparator run of {{ c.check.date }}: did not finish (<a href="{{ GITHUB }}/blob/{{ BRANCH }}/{{ c.check.log }}">log</a>).
+{%- endif %}
+{%- if c.check.note and not c.check.changed %} <span class="small">{{ c.check.note[:1]|upper }}{{ c.check.note[1:] }}.</span>{% endif %}
+{%- endif %}</li>
 {% endfor %}
 </ul>
+{% if fam.lean_challenges|selectattr("check")|list %}
+<p>The comparator runs are described, with what they show and what they do not, in <a href="{{ GITHUB }}/blob/{{ BRANCH }}/docs/LEAN_CHECKS.md">docs/LEAN_CHECKS.md</a>.</p>
+{% endif %}
 {% endif %}
 <p>Nobody has checked whether the Lean statements say what the paper claims.</p>
 </section>

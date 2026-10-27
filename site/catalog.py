@@ -10,7 +10,9 @@ Sources:
 
 from __future__ import annotations
 
+import csv
 import datetime
+import hashlib
 import json
 import re
 import sys
@@ -70,6 +72,24 @@ class Paper:
 
 
 @dataclass
+class ComparatorCheck:
+    """One row of checks/comparator-<date>/results.tsv, for the challenge files as they are now."""
+    result: str        # "accepted" or "not finished"
+    date: str          # YYYY-MM-DD of the run
+    log: str           # repository path of the log
+    note: str
+    changed: bool      # the challenge's .lean or .json differs from the version that was checked
+
+
+@dataclass
+class LeanChallenge:
+    label: str         # result label from the scope note
+    challenge: str     # lean/ComparatorChallenges/X.lean
+    proof: str | None  # file of the solution module named in X.json
+    check: ComparatorCheck | None = None
+
+
+@dataclass
 class Family:
     num: str
     title: str
@@ -77,8 +97,7 @@ class Family:
     discipline: str
     papers: list[str] = field(default_factory=list)
     lean_doc: str | None = None  # lean/docs/NNN.md, if present
-    # (result label, challenge file, proof file or None) from the comparator table in lean_doc
-    lean_challenges: list[tuple[str, str, str | None]] = field(default_factory=list)
+    lean_challenges: list[LeanChallenge] = field(default_factory=list)  # comparator table in lean_doc
 
     @property
     def summary_text(self) -> str:
@@ -304,10 +323,11 @@ def load(root: Path):
             if q.family:
                 p.family, p.discipline = q.family, q.discipline
 
+    checks = comparator_checks(root)
     for num, fam in families.items():
         if (root / "lean" / "docs" / f"{num}.md").is_file():
             fam.lean_doc = f"lean/docs/{num}.md"
-            fam.lean_challenges = lean_challenges(root, fam.lean_doc)
+            fam.lean_challenges = lean_challenges(root, fam.lean_doc, checks)
 
     for doc in sorted((root / "lean" / "docs").glob("*.md")):
         for slug in set(re.findall(r"\.\./\.\./preprints/([^/]+)/", doc.read_text(encoding="utf-8"))):
@@ -317,9 +337,43 @@ def load(root: Path):
     return disciplines, families, papers
 
 
-def lean_challenges(root: Path, doc: str) -> list[tuple[str, str, str | None]]:
+def git_blob(path: Path) -> str | None:
+    """The git blob hash of a file (as `git hash-object` computes it), or None if it is missing."""
+    try:
+        data = path.read_bytes()
+    except OSError:
+        return None
+    return hashlib.sha1(b"blob %d\0" % len(data) + data).hexdigest()
+
+
+def comparator_checks(root: Path) -> dict[str, ComparatorCheck]:
+    """The most recent comparator run under checks/comparator-<YYYY-MM-DD>/results.tsv, by challenge name."""
+    runs = sorted((root / "checks").glob("comparator-*/results.tsv"))
+    if not runs:
+        return {}
+    tsv = runs[-1]
+    date = tsv.parent.name.removeprefix("comparator-")
+    out = {}
+    with tsv.open(encoding="utf-8") as f:
+        for row in csv.DictReader(f, delimiter="\t"):
+            name = row["challenge"]
+            base = root / "lean" / "ComparatorChallenges" / name
+            # Unchanged only if the challenge, its configuration and every repository file the
+            # challenge imports (path=blob;...) are byte-identical to the checked versions; a
+            # missing file counts as changed, since it cannot be compared.
+            imports = [dep.split("=", 1) for dep in row.get("imports", "").split(";") if dep]
+            changed = (git_blob(base.with_suffix(".lean")) != row["challenge_blob"]
+                       or git_blob(base.with_suffix(".json")) != row["config_blob"]
+                       or any(git_blob(root / path) != blob for path, blob in imports))
+            out[name] = ComparatorCheck(row["result"], date, f"{tsv.parent.relative_to(root).as_posix()}/{row['log']}",
+                                        row["note"], changed)
+    return out
+
+
+def lean_challenges(root: Path, doc: str, checks: dict[str, ComparatorCheck] | None = None) -> list[LeanChallenge]:
     """Rows "| result | [X.lean](../ComparatorChallenges/X.lean) |" of a scope note, with the proof
-    module that ComparatorChallenges/X.json names, as a file path (None if the .json is missing).
+    module that ComparatorChallenges/X.json names, as a file path (None if the .json is missing),
+    and the latest comparator result for X, if any.
     A challenge in a folder (ComparatorChallenges/Dir/Challenge.lean) has its config in Dir/main.json.
     A line anchor on the link (X.lean#L84, several results in one file) is kept in the statement link."""
     out = []
@@ -334,7 +388,8 @@ def lean_challenges(root: Path, doc: str) -> list[tuple[str, str, str | None]]:
             proof = "lean/" + module.replace(".", "/") + ".lean"
         except (OSError, ValueError, KeyError) as e:
             print(f"warning: {doc}: no proof module for {name}: {e}", file=sys.stderr)
-        out.append((label, f"lean/ComparatorChallenges/{name}.lean{anchor}", proof))
+        out.append(LeanChallenge(label, f"lean/ComparatorChallenges/{name}.lean{anchor}", proof,
+                                 (checks or {}).get(name)))
     return out
 
 
