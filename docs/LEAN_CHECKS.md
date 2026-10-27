@@ -2,7 +2,7 @@
 
 OpenAI's release states each formalized result in a file `lean/ComparatorChallenges/X.lean`, whose proof is left as `sorry` on purpose, and names the module that proves it in `X.json`. Lean's [comparator](https://github.com/leanprover/comparator) checks that this module proves exactly the theorems stated there, that it uses no axioms beyond those the `.json` permits (`propext`, `Quot.sound`, `Classical.choice` for all 416), and that the Lean kernel accepts the proof.
 
-The maintainers ran the comparator on all 416 challenges. Results per challenge: [`checks/comparator-2026-10-26/results.tsv`](../checks/comparator-2026-10-26/results.tsv), with one log per run in [`checks/comparator-2026-10-26/logs/`](../checks/comparator-2026-10-26/logs/). The paper pages show the result next to each statement in their "Lean formalization" section.
+The maintainers ran the comparator on all 416 challenges of the version checked (419 after OpenAI's update of 26 October). Results per challenge: [`checks/comparator-2026-10-26/results.tsv`](../checks/comparator-2026-10-26/results.tsv), with one log per run in [`checks/comparator-2026-10-26/logs/`](../checks/comparator-2026-10-26/logs/). The paper pages show the result next to each statement in their "Lean formalization" section.
 
 ## Result
 
@@ -29,7 +29,7 @@ The run was set up and monitored by an AI agent (Claude Code) for the maintainer
 
 ## Later changes
 
-OpenAI updated its repository on 26 October 2026 ("Some Comparator configurations were fixed, and some Lean formalizations were improved"), changing 11 of the checked challenges or their configurations (the 10 above, which now list no definitions, and `HarmonicGrowth`) and adding new ones. `results.tsv` records the git hashes of each challenge's `.lean` and `.json` as checked, and of the repository files a challenge imports (two challenges import library modules); the site shows a result only while all these files are unchanged, and otherwise says that the challenge has changed since the run. Challenges added later have no result here.
+OpenAI updated its repository on 26 October 2026 ("Some Comparator configurations were fixed, and some Lean formalizations were improved"), changing 11 of the checked challenges or their configurations: the 10 above (the nine configurations now list no definitions; `ElementaryPositivity` now names its theorem, `OAI.elementaryPositivityExpansion`, and keeps the definition) and `HarmonicGrowth` and adding new ones. `results.tsv` records the git hashes of each challenge's `.lean` and `.json` as checked, and of the repository files a challenge imports (two challenges import library modules); the site shows a result only while all these files are unchanged, and otherwise says that the challenge has changed since the run. Challenges added later have no result here.
 
 ## Other runs
 

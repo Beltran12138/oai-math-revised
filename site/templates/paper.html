@@ -106,7 +106,7 @@
 {% for c in fam.lean_challenges %}
 <li>{{ c.label }}: <a href="{{ GITHUB }}/blob/{{ BRANCH }}/{{ c.challenge }}">statement</a>{% if c.proof %}, <a href="{{ GITHUB }}/blob/{{ BRANCH }}/{{ c.proof }}">proof</a>{% endif %}.
 {%- if c.check %}
-{%- if c.check.changed %} The statement or its configuration has changed since the comparator run of {{ c.check.date }}.
+{%- if c.check.changed %} The statement, its configuration or a file it imports has changed since the comparator run of {{ c.check.date }}.
 {%- elif c.check.result == "accepted" %} Comparator run of {{ c.check.date }}: accepted (<a href="{{ GITHUB }}/blob/{{ BRANCH }}/{{ c.check.log }}">log</a>).
 {%- else %} Comparator run of {{ c.check.date }}: did not finish (<a href="{{ GITHUB }}/blob/{{ BRANCH }}/{{ c.check.log }}">log</a>).
 {%- endif %}
