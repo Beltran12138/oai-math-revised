@@ -1,0 +1,11 @@
+Partial check run on 2026-10-26 in the same workspace after the comparator run did not finish
+(output transcribed from the session; the "has local changes" warnings about patched dependencies are omitted).
+
+$ cat ax.lean
+import OAI.Analysis.PlanarPacking.Main
+#print axioms OAI.sharp_fourier_certificate
+$ lake env lean ax.lean
+'OAI.sharp_fourier_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Statement comparison (whitespace-normalized text of the theorem statement up to ':='):
+challenge lean/ComparatorChallenges/PlanarPacking.lean vs the only solution file declaring it: identical

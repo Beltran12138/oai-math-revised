@@ -217,7 +217,7 @@ LogBrunnMinkowski	accepted	a40e4c0e7c1cd07231a2335927d8c3588a9115cd	882a9ff95709
 LogConcaveQuery	accepted	bb5e705b7f6a62aee93a071473d7a06d9dc735d3	9a80391ad8226fdbdfd6db1ebca617821b571a2a	logs/LogConcaveQuery.log	
 LogKodairaFiberNegative	accepted	399a9de26676b0fcf9e7e89ae6b5e31474109111	ce98b6e80190efca2332a2bccb8c9f5383c43d99	logs/LogKodairaFiberNegative.log	
 LogspaceEquality	accepted	692a4bdc0de7de093d83abdcb7a2bb1ccb7d476b	06ca6c6af3ecbe3b426f36b54c7ec9b4e319d117	logs/LogspaceEquality.log	the configuration lists 20 definitions (Word, Language, CoinTape, move and 16 more) whose bodies the comparator does not compare, only their types; so the proof may use different definitions than the statement file
-MUBSix	not finished	c4175d7e59389fdc09abcff6935902c4df73122e	e7ca6af996cfe93e34d55bba7a9c78e42bd01769	logs/MUBSix.retry.log	exceeded the 2-hour limit; a retry was stopped after about 3 hours to free the server; the proof builds, uses only the standard axioms, and states the challenge theorem verbatim
+MUBSix	not finished	c4175d7e59389fdc09abcff6935902c4df73122e	e7ca6af996cfe93e34d55bba7a9c78e42bd01769	logs/MUBSix.retry.log	stopped after about 3 hours on a retry, the first run having hit the 2-hour limit. Outside the comparator, the maintainers checked that the proof module builds, that its theorem is word for word the statement, and that Lean reports only the standard axioms for it (see logs/MUBSix.axioms.txt)
 MahlerConjecture	accepted	bb8fd407424ca2e0a71dc34fa6d60cf8ce84bd8d	410a7c012b122da7d8a7f78e6214e1f9856e9d9b	logs/MahlerConjecture.log	
 MarkovType	accepted	5fcf3818f09073764b6be28ecaf25acb2a432d30	35f10fca9eafdab3c99979464ceed4b964325a6c	logs/MarkovType.log	
 MassAction	accepted	838d6cd67700dc8f843c67cd5cb334a5ec4b7d86	1b5a55ee481e3cadb778d820ab604549f3f387e7	logs/MassAction.log	
@@ -271,7 +271,7 @@ PlanarAndersonSpectrum	accepted	aac6e079c38b70768c57c325ea97467682e19697	7602028
 PlanarFalconer	accepted	56a7d65c687b851e93055b9776d6623a6e266aac	f4d121eb9ac0f5dea4afc9fc38825b3463bd80a9	logs/PlanarFalconer.log	
 PlanarFirstPassage	accepted	747a40dc3b5058a23c5f0a1eafe6fe25bd6c4def	8d47a2039f683ef4edf2b683a206606e84812f8b	logs/PlanarFirstPassage.log	
 PlanarL1	accepted	0b93c85ebad6b2f9efbeb62cfe1dfc5f61cc8bd9	7f18a29b2df2cc67bc14cbadae6a87940dbf9804	logs/PlanarL1.log	
-PlanarPacking	not finished	661041e8c9c991c54d19a54e1f9040efa7605371	f1575ad9294afa3c93c5507bbb0e3089c9f84d39	logs/PlanarPacking.retry.log	exceeded the 2-hour limit and a 12-hour retry; the proof builds, uses only the standard axioms, and states the challenge theorem verbatim
+PlanarPacking	not finished	661041e8c9c991c54d19a54e1f9040efa7605371	f1575ad9294afa3c93c5507bbb0e3089c9f84d39	logs/PlanarPacking.retry.log	stopped by a 12-hour limit on a retry, the first run having hit the 2-hour limit. Outside the comparator, the maintainers checked that the proof module builds, that its theorem is word for word the statement, and that Lean reports only the standard axioms for it (see logs/PlanarPacking.axioms.txt)
 PlanarUnitDistances	accepted	92866ae695092215b79a72c636d9687bfe958304	6cf673e92784682bce651b4b8842e1cfe5d28d10	logs/PlanarUnitDistances.log	
 PlaneColoring	accepted	7c836214b1fbdef0ed72ccd619f20bbeb0b66e80	f7ccb51bddd3231b637085715221a55af27d058e	logs/PlaneColoring.log	
 PolycyclicRecognition	accepted	7010023a67931b9c31128e4938defcba27481da9	186f1d6f1a9e5d370f337e0b96054bcdc8c9d5f4	logs/PolycyclicRecognition.log	
@@ -402,7 +402,7 @@ UniformKServer	accepted	254cfcd71efed615bde22b8f993d5591ab783857	665f0b45c117682
 UniformSparsestCut	accepted	b6d86522ae638ac47d23f0b25b98159de703fd02	c84a168e2692c861687b5d83bc5f136a5c854b35	logs/UniformSparsestCut.log	
 UniqueGamesTheorem	accepted	5e0e18daac92b039a30dc500decc576b91fddb91	9eafa9cbbd76b1d3bbaa0ad85fe3a6af483cd78b	logs/UniqueGamesTheorem.log	
 UniversalFInfinity	accepted	13b690fdf9629da241a85d1b602ddc6250c43dba	223eda13a0d5d57a11b3aedeecd4a3a0b7967836	logs/UniversalFInfinity.log	
-UniversalTensorSquares	accepted	935b1ac8a650d05d05c1a313e0d831bd605a5706	1f93d649664b38985359f1d12020c8f52fb2c426	logs/UniversalTensorSquares.retry.log	accepted on a retry after 15233 s; the first run exceeded the 2-hour limit
+UniversalTensorSquares	accepted	935b1ac8a650d05d05c1a313e0d831bd605a5706	1f93d649664b38985359f1d12020c8f52fb2c426	logs/UniversalTensorSquares.retry.log	accepted on a retry that took about 4 hours; the first run hit the 2-hour limit
 VariableWL	accepted	92252e2a6d9961ddc619833f9ab0be9f2d57d696	950e87ae11edcfbceb2d8cfcf4fa8e6c3e187b0b	logs/VariableWL.log	
 VelocityHemisphere	accepted	125c0d315ad45595e6d278332286265231bfb0a8	30af250684d97d7bc95597aad09a38c6035fcbb6	logs/VelocityHemisphere.log	
 VertexAlgebraNet	accepted	06094cb4fd32fcf163a69989e6e93594347ee118	8bc28ea62ec8aaa0c3dd3c50b8db4a1425d56cdc	logs/VertexAlgebraNet.log	

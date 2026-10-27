@@ -1,0 +1,11 @@
+Partial check run on 2026-10-26 in the same workspace after the comparator run did not finish
+(output transcribed from the session; the "has local changes" warnings about patched dependencies are omitted).
+
+$ cat ax.lean
+import OAI.Analysis.MutuallyUnbiased.Main
+#print axioms OAI.MUB6.fourier_and_family_bound
+$ lake env lean ax.lean
+'OAI.MUB6.fourier_and_family_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Statement comparison (whitespace-normalized text of the theorem statement up to ':='):
+challenge lean/ComparatorChallenges/MUBSix.lean vs the only solution file declaring it: identical
