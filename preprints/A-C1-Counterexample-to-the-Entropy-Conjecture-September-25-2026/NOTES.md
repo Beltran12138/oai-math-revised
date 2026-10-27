@@ -1,6 +1,6 @@
 ## Contributions
 
-- 2026-10-27 @AI-Thales: Added Andrey Gogolev's expository note on this paper's construction under Follow-up works ([issue #41](https://github.com/mathcommunity/oai-math-revised/issues/41)). Entry drafted with Claude Code; source checked by the maintainer.
+- 2026-10-27 @AI-Thales: Added Andrey Gogolev's expository note on this paper's construction under Follow-up works ([issue #41](https://github.com/mathcommunity/oai-math-revised/issues/41), [PR #48](https://github.com/mathcommunity/oai-math-revised/pull/48)). Entry drafted with Claude Code; source checked by the maintainer.
 
 ## Follow-up works
 
