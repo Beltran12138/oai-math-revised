@@ -4,7 +4,7 @@ This file is for AI coding agents (Claude Code, Codex and others) that help some
 
 ## What this repository is
 
-A community fork of [openai/math](https://github.com/openai/math): 719 manuscripts written by an OpenAI model, grouped into 372 result families. The community adds missing citations, corrects errors, records follow-up work and comments, and organizes reading groups. Nothing here is peer reviewed or verified, and nothing you write should suggest that it is (no claims that a paper or result is verified, correct or certified; no scores).
+A community fork of [openai/math](https://github.com/openai/math): 721 manuscripts written by an OpenAI model, grouped into 373 result families (as of OpenAI's update of 2026-10-26). The community adds missing citations, corrects errors, records follow-up work and comments, and organizes reading groups. Nothing here is peer reviewed or verified, and nothing you write should suggest that it is (no claims that a paper or result is verified, correct or certified; no scores).
 
 The website (https://mathcommunity.github.io/oai-math-revised/) is generated from the files in this repository by `site/build.py`, so the formats below matter: the site parses them.
 

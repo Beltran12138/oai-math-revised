@@ -373,17 +373,23 @@ def comparator_checks(root: Path) -> dict[str, ComparatorCheck]:
 def lean_challenges(root: Path, doc: str, checks: dict[str, ComparatorCheck] | None = None) -> list[LeanChallenge]:
     """Rows "| result | [X.lean](../ComparatorChallenges/X.lean) |" of a scope note, with the proof
     module that ComparatorChallenges/X.json names, as a file path (None if the .json is missing),
-    and the latest comparator result for X, if any."""
+    and the latest comparator result for X, if any.
+    A challenge in a folder (ComparatorChallenges/Dir/Challenge.lean) has its config in Dir/main.json.
+    A line anchor on the link (X.lean#L84, several results in one file) is kept in the statement link."""
     out = []
-    for label, name in re.findall(r"^\|\s*(.+?)\s*\|\s*\[[^\]]*\]\(\.\./ComparatorChallenges/([^)]+?)\.lean\)",
+    for label, name, anchor in re.findall(r"^\|\s*(.+?)\s*\|\s*\[[^\]]*\]\(\.\./ComparatorChallenges/([^)#]+?)\.lean(#L\d+)?\)",
                                   (root / doc).read_text(encoding="utf-8"), re.M):
         proof = None
+        config = root / "lean" / "ComparatorChallenges" / f"{name}.json"
+        if not config.exists() and "/" in name:
+            config = config.parent / "main.json"
         try:
-            module = json.loads((root / "lean" / "ComparatorChallenges" / f"{name}.json").read_text())["solution_module"]
+            module = json.loads(config.read_text())["solution_module"]
             proof = "lean/" + module.replace(".", "/") + ".lean"
         except (OSError, ValueError, KeyError) as e:
             print(f"warning: {doc}: no proof module for {name}: {e}", file=sys.stderr)
-        out.append(LeanChallenge(label, f"lean/ComparatorChallenges/{name}.lean", proof, (checks or {}).get(name)))
+        out.append(LeanChallenge(label, f"lean/ComparatorChallenges/{name}.lean{anchor}", proof,
+                                 (checks or {}).get(name)))
     return out
 
 

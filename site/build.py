@@ -409,6 +409,8 @@ def build(out: Path, pdf_mode: str) -> None:
           families=families, papers=papers, withdrawn=withdrawn, earlier=earlier, activity=activity[:3],
           agent_sections=[(code, label) for code, _, label in AGENT_SECTIONS],
           n_with_notes=sum(p.has_notes for p in papers.values()),
+          n_families=sum(len(d.families) for d in disciplines),
+          n_manuscripts=sum(d.n_papers for d in disciplines),
           n_earlier=sum(p.status == "superseded" for p in papers.values()))
     write(out / "contribute" / "index.html", "contribute.html", root="..")
     write(out / "activity" / "index.html", "activity.html", root="..", activity=activity)

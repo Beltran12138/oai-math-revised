@@ -2,7 +2,9 @@
 {% from "macros.html" import paper_line, markers, lean_marker, activity_line with context %}
 {% block main %}
 <p class="tagline">Community corrections, references, comments and reading groups for the OpenAI math manuscripts.</p>
-<p class="intro">OpenAI released 719 manuscripts produced by one of its models, grouped into 372 result families (<a href="{{ UPSTREAM }}">openai/math</a>). This site lists them by discipline with OpenAI's own summaries and abstracts. The manuscripts are not peer reviewed; the notes and issues record what has been checked, corrected or questioned so far. The effort is entirely independent and is neither sanctioned nor sponsored by OpenAI.</p>
+<p class="intro">OpenAI released {{ n_manuscripts }} manuscripts produced by one of its models, grouped into {{ n_families }} result families (<a href="{{ UPSTREAM }}">openai/math</a>). This site lists them by discipline with OpenAI's own summaries and abstracts. The manuscripts are not peer reviewed; the notes and issues record what has been checked, corrected or questioned so far. The effort is entirely independent and is neither sanctioned nor sponsored by OpenAI.</p>
+
+<p class="news"><strong>New on 26 October 2026:</strong> OpenAI added two manuscripts, <a href="papers/The-Exponential-Time-Hypothesis-is-False-October-25-2026/">The Exponential Time Hypothesis is False</a> (<a href="#family-378">family 378</a>) and <a href="papers/Local-smoothing-for-the-Euclidean-wave-equation-October-25-2026/">Local smoothing for the Euclidean wave equation</a> (<a href="#family-079">family 079</a>), as well as Lean files for these and for <a href="#family-032">family 032</a> (<a href="{{ UPSTREAM }}/blob/main/history.md">OpenAI's notes on the update</a>).</p>
 
 {% if activity %}
 <details class="recent" id="recent">
@@ -27,7 +29,7 @@
       <label>Unreviewed AI notes <select id="fa"><option value="">(no filter)</option>{% for code, name in agent_sections %}<option value="{{ code }}">with {{ name }}</option>{% endfor %}</select></label>
     </div>
   </details>
-  <p class="tools"><span id="count" role="status" aria-live="polite" data-earlier="{{ n_earlier }}">372 families, 719 manuscripts</span>
+  <p class="tools"><span id="count" role="status" aria-live="polite" data-earlier="{{ n_earlier }}">{{ n_families }} families, {{ n_manuscripts }} manuscripts</span>
     <span class="links"><a href="#" id="expand">Expand all</a> · <a href="#" id="collapse">Collapse all</a><span id="clearwrap" hidden> · <a href="#" id="clear">Clear filters</a></span></span></p>
   <p id="empty" class="empty" hidden></p>
 </div>
