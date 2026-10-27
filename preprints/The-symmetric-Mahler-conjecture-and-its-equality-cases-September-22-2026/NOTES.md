@@ -1,6 +1,6 @@
 ## Contributions
 
-- 2026-10-27 @RotemAssouline (Rotem Assouline): Added their expository notes on this paper's proof under Follow-up works ([issue #40](https://github.com/mathcommunity/oai-math-revised/issues/40)). Entry drafted with Claude Code; source checked by the maintainer.
+- 2026-10-27 @RotemAssouline (Rotem Assouline): Added their expository notes on this paper's proof under Follow-up works ([issue #40](https://github.com/mathcommunity/oai-math-revised/issues/40), [PR #47](https://github.com/mathcommunity/oai-math-revised/pull/47)). Entry drafted with Claude Code; source checked by the maintainer.
 
 ## Follow-up works
 
