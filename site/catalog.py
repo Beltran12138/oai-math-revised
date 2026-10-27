@@ -319,13 +319,17 @@ def load(root: Path):
 
 def lean_challenges(root: Path, doc: str) -> list[tuple[str, str, str | None]]:
     """Rows "| result | [X.lean](../ComparatorChallenges/X.lean) |" of a scope note, with the proof
-    module that ComparatorChallenges/X.json names, as a file path (None if the .json is missing)."""
+    module that ComparatorChallenges/X.json names, as a file path (None if the .json is missing).
+    A challenge in a folder (ComparatorChallenges/Dir/Challenge.lean) has its config in Dir/main.json."""
     out = []
     for label, name in re.findall(r"^\|\s*(.+?)\s*\|\s*\[[^\]]*\]\(\.\./ComparatorChallenges/([^)]+?)\.lean\)",
                                   (root / doc).read_text(encoding="utf-8"), re.M):
         proof = None
+        config = root / "lean" / "ComparatorChallenges" / f"{name}.json"
+        if not config.exists() and "/" in name:
+            config = config.parent / "main.json"
         try:
-            module = json.loads((root / "lean" / "ComparatorChallenges" / f"{name}.json").read_text())["solution_module"]
+            module = json.loads(config.read_text())["solution_module"]
             proof = "lean/" + module.replace(".", "/") + ".lean"
         except (OSError, ValueError, KeyError) as e:
             print(f"warning: {doc}: no proof module for {name}: {e}", file=sys.stderr)
