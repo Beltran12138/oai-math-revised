@@ -358,8 +358,13 @@ def comparator_checks(root: Path) -> dict[str, ComparatorCheck]:
         for row in csv.DictReader(f, delimiter="\t"):
             name = row["challenge"]
             base = root / "lean" / "ComparatorChallenges" / name
+            # Unchanged only if the challenge, its configuration and every repository file the
+            # challenge imports (path=blob;...) are byte-identical to the checked versions; a
+            # missing file counts as changed, since it cannot be compared.
+            imports = [dep.split("=", 1) for dep in row.get("imports", "").split(";") if dep]
             changed = (git_blob(base.with_suffix(".lean")) != row["challenge_blob"]
-                       or git_blob(base.with_suffix(".json")) != row["config_blob"])
+                       or git_blob(base.with_suffix(".json")) != row["config_blob"]
+                       or any(git_blob(root / path) != blob for path, blob in imports))
             out[name] = ComparatorCheck(row["result"], date, f"{tsv.parent.relative_to(root).as_posix()}/{row['log']}",
                                         row["note"], changed)
     return out

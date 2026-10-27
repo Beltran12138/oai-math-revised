@@ -29,7 +29,7 @@ The run was set up and monitored by an AI agent (Claude Code) for the maintainer
 
 ## Later changes
 
-OpenAI updated its repository on 26 October 2026 ("Some Comparator configurations were fixed, and some Lean formalizations were improved"), changing 11 of the checked challenges or their configurations (the 10 above, which now list no definitions, and `HarmonicGrowth`) and adding new ones. `results.tsv` records the git hashes of each challenge's `.lean` and `.json` as checked; the site shows a result only while both files are unchanged, and otherwise says that the challenge has changed since the run. Challenges added later have no result here.
+OpenAI updated its repository on 26 October 2026 ("Some Comparator configurations were fixed, and some Lean formalizations were improved"), changing 11 of the checked challenges or their configurations (the 10 above, which now list no definitions, and `HarmonicGrowth`) and adding new ones. `results.tsv` records the git hashes of each challenge's `.lean` and `.json` as checked, and of the repository files a challenge imports (two challenges import library modules); the site shows a result only while all these files are unchanged, and otherwise says that the challenge has changed since the run. Challenges added later have no result here.
 
 ## Other runs
 
