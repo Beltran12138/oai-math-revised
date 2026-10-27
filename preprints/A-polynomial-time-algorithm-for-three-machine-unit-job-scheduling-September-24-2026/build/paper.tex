@@ -92,11 +92,11 @@ two-processor case to individual deadlines \citep{GareyJohnson1976} and
 to release times together with deadlines \citep{GareyJohnson1977}.
 Allowing the number of machines to be part of the input
 yields an NP-complete problem \citep[Theorem~1]{Ullman1975}.
-Lenstra and Rinnooy Kan showed that deciding whether a schedule of
-length three exists is already NP-complete, so no polynomial-time
-algorithm has a worst-case ratio below \(4/3\) unless
-\(\mathrm{P}=\mathrm{NP}\) \citep{LenstraRinnooyKan1978}. With the number
-of machines as the parameter, the general problem is W[2]-hard
+For this general problem, Lenstra and Rinnooy Kan showed that deciding
+whether a schedule of length three exists is already NP-complete, so no
+polynomial-time algorithm for it has a worst-case ratio below \(4/3\)
+unless \(\mathrm{P}=\mathrm{NP}\) \citep{LenstraRinnooyKan1978}. With the
+number of machines as the parameter, it is W[2]-hard
 \citep{BodlaenderFellows1995}.
 The fixed-three decision problem appears as OPEN8 in Appendix~A13 of
 Garey and Johnson \citep{GJ1979} and has remained a central complexity
@@ -163,6 +163,10 @@ Garey, Johnson, Tarjan, and Yannakakis gave a linear-time
 algorithm on three processors for opposing forests, which are disjoint
 unions of an in-forest and an out-forest
 \citep[Section~4]{GareyJohnsonTarjanYannakakis1983}.
+For fixed \(m\), polynomial-time algorithms are also known for level
+orders and opposing forests in a setting where the number of available
+processors may vary over time \citep{DolevWarmuth1985Profile}, and for
+further special classes of precedence graphs \citep{DolevWarmuth1985Flat}.
 Dolev and Warmuth obtained a running time
 \(O(n^{h(m-1)+1})\) when the precedence graph has height \(h\), measured
 in arcs, and at most \(m\) processors are available in each slot
@@ -173,11 +177,6 @@ whose at most \(m-1\) jobs with successors determine the prefix and the
 remaining subproblem, the latter up to isomorphism. When the graph has positive
 height, both recursive pieces have smaller height
 \citep[Theorem~2]{DW1984}.
-For fixed \(m\), Dolev and Warmuth also gave polynomial algorithms for
-level orders and opposing forests, again allowing the number of
-available processors to vary over time \citep{DolevWarmuth1985Profile},
-and for further special classes of precedence graphs
-\citep{DolevWarmuth1985Flat}.
 
 Nederlof, Swennenhuis, and Węgrzycki developed this structural approach
 into an exact algorithm with running
