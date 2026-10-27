@@ -6,17 +6,17 @@ The maintainers ran the comparator once on all 416 challenges. Results per chall
 
 ## Result
 
-- **414 accepted.** One of them, `UniversalTensorSquares`, only on a retry that took about 4 hours.
+- **414 accepted**, 10 of them with the limitation described below. One of them, `UniversalTensorSquares`, only on a retry that took about 4 hours.
 - **2 not finished:** `PlanarPacking` (stopped by a 12-hour limit) and `MUBSix` (retry stopped after about 3 hours to free the server). Both are very large computational certificates (about 0.9 and 2.8 million lines of Lean). For both, the proof module builds without errors, `#print axioms` on the proved theorem lists only the three standard axioms, and the proved theorem's statement is word for word the challenge's. The comparator itself gave no verdict.
 - **None rejected.**
 
 ## What this shows, and what it does not
 
-An accepted run means: the proof module proves the statement written in the challenge file, using only the standard axioms, and the Lean kernel accepts it.
+An accepted run means: the proof module proves the statement written in the challenge file, using only the standard axioms, and the Lean kernel accepts it (with the exception for 10 challenges described below).
 
 It does not mean that the challenge statement says what the paper claims. The definitions and the theorem in the challenge file can differ from the paper's (special cases, weaker conclusions, non-standard definitions). OpenAI's scope notes in `lean/docs/` describe some of these differences. Whether a statement matches the paper needs a person who knows the subject; on this site nobody has checked that unless a paper's notes say so.
 
-`ElementaryPositivity`: the challenge leaves the definition `elementaryPositivityWitness` to the proof (a "definition hole"). The comparator only checks that the proof's definition has the stated type, so a person should look at the definition the proof supplies. Nine other challenges list definitions in their `.json`; those are given in full in the challenge file (in `DefocusingNLS` one proof obligation inside a definition is left open), and the comparator checks that the proof uses the same definitions.
+**A limitation for 10 challenges.** A configuration can list definitions under `definition_names`. For those, the comparator checks only that the proof's definition has the same name and type as in the statement file, not that its body is the same, even when the statement file spells the body out. In the version checked here, 10 configurations list definitions: `Brenier`, `DefocusingNLS`, `ElementaryPositivity`, `EuclideanFiveColor`, `KServer`, `LogspaceEquality`, `Naimark`, `OccupiedOverlap`, `Rokhlin` and `SpinAngle`. For them, an accepted run does not show that the proof uses the statement file's definitions. `ElementaryPositivity` lists no theorem at all, only one definition, so its run says nothing about the paper's theorem. OpenAI changed all 10 configurations on 26 October 2026 (see below); the results here are for the earlier versions.
 
 ## How it was run
 
@@ -29,7 +29,7 @@ The run was set up and monitored by an AI agent (Claude Code) for the maintainer
 
 ## Later changes
 
-OpenAI updated its repository on 26 October 2026 ("Some Comparator configurations were fixed, and some Lean formalizations were improved"), changing 11 of the checked challenges or their configurations (among them `ElementaryPositivity` and the nine others that list definitions, and `HarmonicGrowth`) and adding new ones. `results.tsv` records the git hashes of each challenge's `.lean` and `.json` as checked; the site shows a result only while both files are unchanged, and otherwise says that the challenge has changed since the run. Challenges added later have no result here.
+OpenAI updated its repository on 26 October 2026 ("Some Comparator configurations were fixed, and some Lean formalizations were improved"), changing 11 of the checked challenges or their configurations (the 10 above, which now list no definitions, and `HarmonicGrowth`) and adding new ones. `results.tsv` records the git hashes of each challenge's `.lean` and `.json` as checked; the site shows a result only while both files are unchanged, and otherwise says that the challenge has changed since the run. Challenges added later have no result here.
 
 ## Other runs
 
