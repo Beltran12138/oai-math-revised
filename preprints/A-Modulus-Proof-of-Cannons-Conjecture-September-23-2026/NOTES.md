@@ -1,7 +1,7 @@
 ## Contributions
 
 - 2026-10-24 @gavramidi: Added Mario Bonk's Quasiworld seminar talk on this paper under Follow-up works ([issue #18](https://github.com/mathcommunity/oai-math-revised/issues/18), [PR #22](https://github.com/mathcommunity/oai-math-revised/pull/22)). Entry drafted with Claude Code; source checked by the maintainer.
-- 2026-10-27 @dpthurst (Dylan Thurston): Comment on the Lean statement of the paper's main theorem, summarized under Constructive comments / reviews ([issue #28](https://github.com/mathcommunity/oai-math-revised/issues/28)). Summary drafted with Claude Code; checked by the maintainer and by Dylan Thurston.
+- 2026-10-27 @dpthurst (Dylan Thurston): Comment on the Lean statement of the paper's main theorem, summarized under Constructive comments / reviews ([issue #28](https://github.com/mathcommunity/oai-math-revised/issues/28), [PR #46](https://github.com/mathcommunity/oai-math-revised/pull/46)). Summary drafted with Claude Code; checked by the maintainer and by Dylan Thurston.
 
 ## Follow-up works
 
