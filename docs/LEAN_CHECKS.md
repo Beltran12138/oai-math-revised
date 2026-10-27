@@ -6,17 +6,17 @@ The maintainers ran the comparator on all 416 challenges. Results per challenge:
 
 ## Result
 
-- **414 accepted**, 10 of them with the limitation described below. One of them, `UniversalTensorSquares`, only on a retry that took about 4 hours.
+- **414 accepted**, 9 of them with the limitation described below. One of them, `UniversalTensorSquares`, only on a retry that took about 4 hours.
 - **2 not finished:** `PlanarPacking` (stopped by a 12-hour limit) and `MUBSix` (retry stopped after about 3 hours to free the server). Both are very large computational certificates (about 0.9 and 2.8 million lines of Lean). For both, the maintainers checked outside the comparator that the proof module builds without errors, that `#print axioms` on the proved theorem lists only the three standard axioms, and that the proved theorem's statement is word for word the challenge's (`logs/PlanarPacking.axioms.txt`, `logs/MUBSix.axioms.txt`). The comparator itself gave no verdict.
 - **None rejected.**
 
 ## What this shows, and what it does not
 
-An accepted run means: the proof module proves the statement written in the challenge file, using only the standard axioms, and the Lean kernel accepts it (with the exception for 10 challenges described below).
+An accepted run means: the proof module proves the statement written in the challenge file, using only the standard axioms, and the Lean kernel accepts it (with the exception for 9 challenges described below).
 
 It does not mean that the challenge statement says what the paper claims. The definitions and the theorem in the challenge file can differ from the paper's (special cases, weaker conclusions, non-standard definitions). OpenAI's scope notes in `lean/docs/` describe some of these differences. Whether a statement matches the paper needs a person who knows the subject; on this site nobody has checked that unless a paper's notes say so.
 
-**A limitation for 10 challenges.** A configuration can list definitions under `definition_names`. For those, the comparator checks only that the proof's definition has the same name and type as in the statement file, not that its body is the same, even when the statement file spells the body out. In the version checked here, 10 configurations list definitions: `Brenier`, `DefocusingNLS`, `ElementaryPositivity`, `EuclideanFiveColor`, `KServer`, `LogspaceEquality`, `Naimark`, `OccupiedOverlap`, `Rokhlin` and `SpinAngle`. For them, an accepted run does not show that the proof uses the statement file's definitions. `ElementaryPositivity` lists no theorem at all, only one definition, so its run says nothing about the paper's theorem. OpenAI changed all 10 configurations on 26 October 2026 (see below); the results here are for the earlier versions.
+**A limitation for 9 challenges.** A configuration can list definitions under `definition_names`. For those, the comparator checks only that the proof's definition has the same name and type as in the statement file, not that its body is the same, even when the statement file spells the body out. In the version checked here, 9 configurations list definitions that the statement file spells out: `Brenier`, `DefocusingNLS`, `EuclideanFiveColor`, `KServer`, `LogspaceEquality`, `Naimark`, `OccupiedOverlap`, `Rokhlin` and `SpinAngle`. For them, an accepted run does not show that the proof uses the statement file's definitions. A tenth, `ElementaryPositivity`, names no theorem; its result is stated as the type of a definition (`elementaryPositivityWitness`) whose fields include the claimed expansion, and the comparator checks that the proof supplies a definition of exactly that type. OpenAI changed all 10 configurations on 26 October 2026 (see below); the results here are for the earlier versions.
 
 ## How it was run
 
