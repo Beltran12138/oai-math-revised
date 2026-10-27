@@ -8,6 +8,8 @@ on:
       - "site/**"
       - "lean/docs/**"
       - "lean/ComparatorChallenges/*.json"
+      - "lean/ComparatorChallenges/*.lean"
+      - "checks/**"
       - "CONTENTS.md"
       - "overview.tex"
       - ".github/workflows/pages.yml"
@@ -33,8 +35,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Only the files the site is built from; of the Lean library, only the scope notes
-      # and the comparator configs (which name each result's proof module) are needed.
+      # Only the files the site is built from; of the Lean library, only the scope notes and
+      # the comparator challenges (configs name each proof module; files are hashed against checks/).
       - uses: actions/checkout@v4
         with:
           sparse-checkout: |
@@ -42,6 +44,7 @@ jobs:
             site
             lean/docs
             lean/ComparatorChallenges
+            checks
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

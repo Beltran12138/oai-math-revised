@@ -1,0 +1,36 @@
+# Comparator run on OpenAI's Lean challenges (October 2026)
+
+OpenAI's release states each formalized result in a file `lean/ComparatorChallenges/X.lean`, whose proof is left as `sorry` on purpose, and names the module that proves it in `X.json`. Lean's [comparator](https://github.com/leanprover/comparator) checks that this module proves exactly the stated theorem, that it uses no axioms beyond those the `.json` permits (`propext`, `Quot.sound`, `Classical.choice` for all 416), and that the Lean kernel accepts the proof.
+
+The maintainers ran the comparator once on all 416 challenges. Results per challenge: [`checks/comparator-2026-10-26/results.tsv`](../checks/comparator-2026-10-26/results.tsv), with one log per run in [`checks/comparator-2026-10-26/logs/`](../checks/comparator-2026-10-26/logs/). The paper pages show the result next to each statement in their "Lean formalization" section.
+
+## Result
+
+- **414 accepted.** One of them, `UniversalTensorSquares`, only on a retry that took about 4 hours.
+- **2 not finished:** `PlanarPacking` (stopped by a 12-hour limit) and `MUBSix` (retry stopped after about 3 hours to free the server). Both are very large computational certificates (about 0.9 and 2.8 million lines of Lean). For both, the proof module builds without errors, `#print axioms` on the proved theorem lists only the three standard axioms, and the proved theorem's statement is word for word the challenge's. The comparator itself gave no verdict.
+- **None rejected.**
+
+## What this shows, and what it does not
+
+An accepted run means: the proof module proves the statement written in the challenge file, using only the standard axioms, and the Lean kernel accepts it.
+
+It does not mean that the challenge statement says what the paper claims. The definitions and the theorem in the challenge file can differ from the paper's (special cases, weaker conclusions, non-standard definitions). OpenAI's scope notes in `lean/docs/` describe some of these differences. Whether a statement matches the paper needs a person who knows the subject; on this site nobody has checked that unless a paper's notes say so.
+
+`ElementaryPositivity`: the challenge leaves the definition `elementaryPositivityWitness` to the proof (a "definition hole"). The comparator only checks that the proof's definition has the stated type, so a person should look at the definition the proof supplies. Nine other challenges list definitions in their `.json`; those are given in full in the challenge file (in `DefocusingNLS` one proof obligation inside a definition is left open), and the comparator checks that the proof uses the same definitions.
+
+## How it was run
+
+- Repository commit `f1be4a4`, whose `lean/` folder is identical to openai/math at commit `fd4aeeb` (OpenAI's update of 8 October 2026), Lean `v4.34.1`, Mathlib and the other dependencies as pinned by `lean/lake-manifest.json`, with the compatibility patches the lakefile applies (the logs' "has local changes" warnings refer to them).
+- comparator `v4.34.0` (commit `d03acab`) and lean4export `v4.34.0` (commit `076e8e5`), both built with Lean `v4.34.1`; landrun 0.1.18 (commit `ec104f6`) as the sandbox, on Linux 7.2 with Landlock. The second kernel (nanoda) was not used.
+- On a university server, 25–26 October 2026. To save time, the proof modules were compiled in the same workspace before the comparator ran on them. The comparator's documentation advises against this when a proof might be adversarial; nothing here suggests that, but it is a deviation from its strictest setting. For one challenge, `CHObstruction`, the comparator was also run in a fresh workspace before anything had been compiled, with the same result.
+- Each run had a 2-hour limit; the three that exceeded it were retried with longer limits as described above. Server paths in the logs are replaced by `<workspace>`, `<elan>` and `<server-path>`.
+
+The run was set up and monitored by an AI agent (Claude Code) for the maintainers. The logs are the comparator's own output.
+
+## Later changes
+
+OpenAI updated its repository on 26 October 2026 ("Some Comparator configurations were fixed, and some Lean formalizations were improved"), changing 11 of the checked challenges or their configurations (among them `ElementaryPositivity` and the nine others that list definitions, and `HarmonicGrowth`) and adding new ones. `results.tsv` records the git hashes of each challenge's `.lean` and `.json` as checked; the site shows a result only while both files are unchanged, and otherwise says that the challenge has changed since the run. Challenges added later have no result here.
+
+## Other runs
+
+[MathVet](https://math.vet), an independent project, reports running the comparator on all 416 challenges in October 2026 with all accepted, 401 of them in the landrun sandbox ([table](https://github.com/mathvet/mathvet/blob/main/reviews/openai-math/challenge-status.csv)).
