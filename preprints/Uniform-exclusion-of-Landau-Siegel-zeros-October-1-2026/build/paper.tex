@@ -34,7 +34,7 @@
 \numberwithin{equation}{section}
 \title{Uniform exclusion of Landau--Siegel zeros}
 \author{OpenAI (with community contributions)}
-\date{October 19, 2026}
+\date{October 26, 2026}
 \subjclass[2020]{Primary 11M20; Secondary 11J81, 14L17.}
 \keywords{Dirichlet L-functions, Landau--Siegel zeros, polynomial interpolation,
 interpolation determinants}
@@ -165,7 +165,7 @@ at selected primes and uses it directly for determinant divisibility,
 rather than applying an algebraicity criterion. All algebraic estimates
 used in the proof are established below.
 
-\begin{remark*}[Subsequent expositions]
+\begin{remark*}[Subsequent expositions and developments]
 Several expositions and variants of the argument of this paper have
 since appeared. Banks \cite{Banks} gives a detailed direct proof with
 explicit constants: for conductors $q\ge10^{10}$ one may take
@@ -191,7 +191,26 @@ Further variants are due to Pescador \cite{Pescador} and Barreto
 $(1/2)\log x+(1/4)\log q+\log\log x+O(1)$. Barreto's three-page
 argument establishes the nonsingularity of the relevant matrix using a
 Wronskian in place of resultants, and deduces
-$(1-\beta)\log q\ge1-O(\log\log q/\log q)$.
+$(1-\beta)\log q\ge1-O(\log\log q/\log q)$. Van Dijk \cite{vanDijk}
+uses the Frobenius congruence to establish both the divisibility and
+the nonvanishing of the determinant, the latter by reduction modulo a
+suitable inert prime, avoiding resultants and Wronskians. Guo
+\cite{Guo} gives an elementary proof with the explicit constant
+$c=1/100$ for every conductor $q\ge3$, without separate numerical
+computations for small conductors. Kominers \cite{Kominers} observes
+that the determinant argument applies to every Frobenius class in a
+finite Galois extension of $\Q$, giving a weighted Chebotarev-type
+upper bound from elementary prime estimates. Banks \cite{Banks2}
+extends the exclusion to quadratic extensions $F/k$ of a fixed number
+field $k$, showing that every real zero $\beta$ of $L(s,\chi_{F/k})$
+satisfies $(1-\beta)\log d_F\ge c(k)$, and deduces an effective
+Brauer--Siegel theorem via a reduction of Stark. Notes of Nelson
+\cite{Nelson} give a detailed account of the method for Frobenius
+classes in Galois extensions of number fields, with explicit constants.
+As an application, Pollack \cite{Pollack} combines the exclusion of
+Landau--Siegel zeros with Selberg's symmetry formulas to give an
+elementary proof of Linnik's theorem on the least prime in an
+arithmetic progression.
 \end{remark*}
 
 All logarithms are natural. Constants
@@ -750,14 +769,18 @@ This proves Theorem~\ref{thm:main}.
 
 \begin{thebibliography}{99}
 \raggedright
-\bibitem{Barreto}
-K.~Barreto, \emph{An elementary proof of the non-existence of
-Landau--Siegel zeros}, manuscript (2026), posted at
-\url{https://x.com/acerfur/status/2112239827077026128}.
 \bibitem{Banks}
 W.~D.~Banks, \emph{On the OpenAI proof that Landau--Siegel zeros do not exist},
 preprint (2026).
 \href{https://arxiv.org/abs/2610.15483}{arXiv:2610.15483}.
+\bibitem{Banks2}
+W.~D.~Banks, \emph{Landau--Siegel zeros over a base field and effective
+Brauer--Siegel}, preprint (2026).
+\href{https://arxiv.org/abs/2610.31402}{arXiv:2610.31402}.
+\bibitem{Barreto}
+K.~Barreto, \emph{An elementary proof of the non-existence of
+Landau--Siegel zeros}, manuscript (2026), posted at
+\url{https://x.com/acerfur/status/2112239827077026128}.
 \bibitem{BGTZ}
 K.~Benli, S.~Goel, H.~Twiss, and A.~Zaman,
 \emph{Explicit Deuring--Heilbronn phenomenon for Dirichlet $L$-functions},
@@ -771,6 +794,10 @@ Publ. Math. Inst. Hautes \'Etudes Sci. \textbf{93} (2001), 161--221.
 H.~Davenport, \emph{Multiplicative number theory}, 2nd ed., revised by
 H.~L.~Montgomery, Graduate Texts in Mathematics, vol.~74,
 Springer-Verlag, New York, 1980.
+\bibitem{vanDijk}
+R.~van Dijk, \emph{A Frobenius determinant proof of the non-existence of
+Landau--Siegel zeros}, preprint (2026).
+\href{https://hexagonmath.org/2610.00409}{hexagon:2610.00409}.
 \bibitem{Fischler}
 S.~Fischler, \emph{Interpolation on algebraic groups},
 Compos. Math. \textbf{141} (2005), no.~4, 907--925.
@@ -782,6 +809,10 @@ Expo. Math. \textbf{36} (2018), nos.~3--4, 343--350.
 \bibitem{Green}
 B.~Green, \emph{On Landau--Siegel zeros}, preprint (2026).
 \href{https://hexagonmath.org/2610.00311}{hexagon:2610.00311}.
+\bibitem{Guo}
+V.~Z.~Guo, \emph{An explicit elementary proof of no Landau--Siegel zeros},
+preprint (2026).
+\href{https://arxiv.org/abs/2610.30476}{arXiv:2610.30476}.
 \bibitem{HeathBrown}
 D.~R.~Heath-Brown, \emph{Zero-free regions for Dirichlet $L$-functions,
 and the least prime in an arithmetic progression},
@@ -791,6 +822,10 @@ Proc. London Math. Soc. (3) \textbf{64} (1992), no.~2, 265--338.
 B.~Kerr, \emph{A simpler proof that there are no Landau--Siegel zeros},
 preprint (2026).
 \href{https://arxiv.org/abs/2610.21099}{arXiv:2610.21099}.
+\bibitem{Kominers}
+S.~Kominers, \emph{Small algebraic integers and Frobenius prime sums},
+preprint (2026).
+\href{https://hexagonmath.org/2610.00451}{hexagon:2610.00451}.
 \bibitem{Laurent}
 M.~Laurent, \emph{Sur quelques r\'esultats r\'ecents de transcendance},
 Ast\'erisque \textbf{198--199--200} (1991), 209--230.
@@ -809,6 +844,10 @@ preprint (2026).
 D.~W.~Masser, \emph{On polynomials and exponential polynomials in several
 complex variables}, Invent. Math. \textbf{63} (1981), no.~1, 81--95.
 \href{https://doi.org/10.1007/BF01389194}{doi:10.1007/BF01389194}.
+\bibitem{Nelson}
+P.~Nelson, \emph{Some notes on recent results on Landau--Siegel zeros},
+online notes (2026).
+\url{https://ultronozm.github.io/math/20261020T163023--siegel-zeros.html}.
 \bibitem{Page}
 A.~Page, \emph{On the number of primes in an arithmetic progression},
 Proc. London Math. Soc. (2) \textbf{39} (1935), 116--141.
@@ -821,6 +860,9 @@ Bull. Soc. Math. France \textbf{114} (1986), 355--383;
 errata et addenda, \textbf{115} (1987), 397--398.
 \href{https://doi.org/10.24033/bsmf.2060}{doi:10.24033/bsmf.2060};
 \href{https://doi.org/10.24033/bsmf.2084}{doi:10.24033/bsmf.2084}.
+\bibitem{Pollack}
+P.~Pollack, \emph{The missing Lin(ni)k}, preprint (2026).
+\href{https://hexagonmath.org/2610.00545}{hexagon:2610.00545}.
 \bibitem{Siegel}
 C.~L.~Siegel, \emph{\"Uber die Classenzahl quadratischer Zahlk\"orper},
 Acta Arith. \textbf{1} (1935), 83--86.
