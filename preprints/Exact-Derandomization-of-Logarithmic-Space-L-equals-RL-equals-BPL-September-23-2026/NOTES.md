@@ -1,6 +1,6 @@
 ## Contributions
 
-- 2026-10-28 @Beltran12138 (ZHAO Han): Added a review recording that, at the commit checked by the comparator run of 2026-10-26, the proof's definitions are identical to the statement file's, including the 20 definitions whose bodies that run does not compare. Prepared with Claude Code; checked by the contributor ([PR #N](https://github.com/mathcommunity/oai-math-revised/pull/N)).
+- 2026-10-28 @Beltran12138 (ZHAO Han): Added a review recording that, at the commit checked by the comparator run of 2026-10-26, the proof's definitions are identical to the statement file's, including the 20 definitions whose bodies that run does not compare. Prepared with Claude Code; checked by the contributor ([PR #57](https://github.com/mathcommunity/oai-math-revised/pull/57)).
 
 ## Follow-up works
 
