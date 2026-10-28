@@ -2,7 +2,7 @@
 
 ## Contributions
 
-- 2026-10-28 @chelsinchaos (Chelsea A. McElveen): Added NOTES.md and checks/ (executable toy model of Sections 2.3–2.7, structural remarks on Section 2.7, expository suggestions)
+- 2026-10-28 @chelsinchaos (Chelsea A. McElveen): Added NOTES.md and checks/ (executable toy model of Sections 2.3–2.7, structural remarks on Section 2.7, expository suggestions) ([PR #60](https://github.com/mathcommunity/oai-math-revised/pull/60))
 
 ## Follow-up works
 
