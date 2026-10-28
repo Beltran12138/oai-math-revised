@@ -1,6 +1,6 @@
 ## Contributions
 
-- 2026-10-28 @dimpase (Dima Pasechnik): Added the crossing-number forest, a linked reading guide to this paper and its Lean development, under Follow-up works ([issue #56](https://github.com/mathcommunity/oai-math-revised/issues/56)). Entry drafted with Claude Code; source checked by the maintainer.
+- 2026-10-28 @dimpase (Dima Pasechnik): Added the crossing-number forest, a linked reading guide to this paper and its Lean development, under Follow-up works ([issue #56](https://github.com/mathcommunity/oai-math-revised/issues/56), [PR #58](https://github.com/mathcommunity/oai-math-revised/pull/58)). Entry drafted with Claude Code; source checked by the maintainer.
 
 ## Follow-up works
 
