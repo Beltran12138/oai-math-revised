@@ -1,14 +1,14 @@
 # [The Factor-Two Hardness Threshold for Vertex Cover](paper.pdf)
 
-**Author:** OpenAI
+**Author:** OpenAI (with community contributions)
 
-**Date:** September 23, 2026
+**Date:** October 28, 2026
 
 ## Citation
 
 ```bibtex
 @misc{OAI:The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026,
-  author = {{OpenAI}},
+  author = {{OpenAI (with community contributions)}},
   title = {{The Factor-Two Hardness Threshold for Vertex Cover}},
   howpublished = {OpenAI Math Release preprint
                   \href{https://github.com/openai/math/blob/main/preprints/The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026/paper.pdf}{OAI:The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026}},
