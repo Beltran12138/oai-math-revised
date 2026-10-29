@@ -1,6 +1,6 @@
 ## Contributions
 
-- 2026-10-29 @Beltran12138 (ZHAO Han): Added a review recording an independent build of the Lean formalization at openai/math `7ef5c0c`, which the comparator run of 2026-10-26 predates, with a comparison of the statement's elaborated constants and a pre-registered reading of the statement. Prepared with Claude Code; checked by the contributor ([PR #N](https://github.com/mathcommunity/oai-math-revised/pull/N)).
+- 2026-10-29 @Beltran12138 (ZHAO Han): Added a review recording an independent build of the Lean formalization at openai/math `7ef5c0c`, which the comparator run of 2026-10-26 predates, with a comparison of the statement's elaborated constants and a pre-registered reading of the statement. Prepared with Claude Code; checked by the contributor ([PR #62](https://github.com/mathcommunity/oai-math-revised/pull/62)).
 
 ## Follow-up works
 
