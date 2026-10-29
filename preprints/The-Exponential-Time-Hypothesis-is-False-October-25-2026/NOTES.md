@@ -1,0 +1,16 @@
+## Contributions
+
+- 2026-10-29 @Beltran12138 (ZHAO Han): Added a review recording an independent build of the Lean formalization at openai/math `7ef5c0c`, which the comparator run of 2026-10-26 predates, with a comparison of the statement's elaborated constants and a pre-registered reading of the statement. Prepared with Claude Code; checked by the contributor ([PR #N](https://github.com/mathcommunity/oai-math-revised/pull/N)).
+
+## Follow-up works
+
+## Constructive comments / reviews
+
+- [oai-math-recheck, family 378](https://github.com/Beltran12138/oai-math-recheck/tree/4565162/families/378) (independent re-check, 2026-10-27/28). openai/math `7ef5c0c`, the current upstream version; challenge and configuration blobs `a8d5ff3a` and `d4cc9e70`, the same as in this repository's `lean/`. `checks/comparator-2026-10-26/` ran at `fd4aeeb`, before this family was added, so it has no row for `SubexponentialSAT`.
+  - Proof: all 3,977 modules of `OAI/Algorithms/SubexponentialSAT` built against Mathlib `d13f23b` (Lean v4.34.1, Apple M4). `exact_count_and_sat` rests on `propext`, `Classical.choice` and `Quot.sound` only, and the family's source contains no `axiom`, `native_decide`, `unsafe`, `implemented_by` or `@[extern]`. The build ran in several segments because single modules need up to about 9 GB; the write-up says how, and notes that no single log shows every module being compiled.
+  - Statement: the re-check elaborates the challenge module and OpenAI's solution module separately and dumps every `OAI` constant reachable from the theorem's statement, with types, universe parameters and definition bodies. The two dumps are byte-identical (69 constants, sha256 `8ed3f7a6…`). A negative control that changes the exponent of `log log n` in `runtimeScale` from 2 to 3 is rejected as "differs in OAI.Algorithms.SubexponentialSAT.SqrtLog.Statement.runtimeScale".
+  - This is not a comparator run: no sandbox, no `lean4export` replay, one kernel, and the proof was built in the same workspace. The configuration's `definition_names` is empty, so a comparator run would compare definition bodies as well; the re-check does not replace that run.
+  - Reading of the statement, pre-registered before it was done ([`PLAN.md`](https://github.com/Beltran12138/oai-math-recheck/blob/4565162/families/378/PLAN.md), [`STATEMENT.md`](https://github.com/Beltran12138/oai-math-recheck/blob/4565162/families/378/STATEMENT.md)): taken as stated, the theorem implies that ETH fails, given one human step (simulating the statement's machine model on a standard multitape Turing machine and converting a standard 3-CNF encoding). A blind referee rejected three mutated copies (the machine chosen after `n`; `∀` in place of `∃` inside a clause; `runtimeScale n := n`), each for the intended reason, and accepted the original. Both readers were Claude models, not complexity theorists, so this is a check on the statement's form, not an expert review, and not evidence that the theorem is true.
+  - Not shown: that the machine model and encoding are the standard ones (the human step above), or anything about the paper beyond the Lean statement. The Lean bound has `(log log n)²` where the manuscript's Theorem 1.1 has `log log n`, as `lean/docs/378.md` says.
+
+## People interested in meeting to work on digestion
