@@ -33,7 +33,7 @@ def urls_in(text: str) -> set[str]:
 def blocked_urls(root: Path, families: dict) -> dict[str, set[str]]:
     """folder -> URLs once in the notes of its family that are not in its notes now."""
     log = ""
-    for cmd in (["log", "-p", "--format="], ["diff", "HEAD"]):  # commits, then removals not committed yet
+    for cmd in (["log", "-p", "--diff-merges=remerge", "--format="], ["diff", "HEAD"]):  # commits (and edits in merges), then uncommitted
         log += subprocess.run(["git", "-C", str(root), *cmd, "--unified=0", "--", "preprints/*/AGENT_NOTES.md"],
                               capture_output=True, text=True, check=True).stdout
     removed: dict[str, set[str]] = {}

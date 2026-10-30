@@ -97,9 +97,15 @@ def main():
         for f in sorted((work / "social_merged").glob("*/AGENT_NOTES.md")):
             if f.parent.name not in selected:
                 continue
-            if not problems_in(f) and (ROOT / "preprints" / f.parent.name).is_dir():
-                shutil.copy(f, ROOT / "preprints" / f.parent.name / "AGENT_NOTES.md")
-                n += 1
+            target = ROOT / "preprints" / f.parent.name / "AGENT_NOTES.md"
+            if problems_in(f) or not target.is_file():
+                continue
+            text, lost, _ = additive(f.read_text(encoding="utf-8"), target.read_text(encoding="utf-8"), blocked[f.parent.name])
+            if lost:  # the repository moved on since the merge
+                print(f"skip {f.parent.name}: {len(lost)} items differ from the repository, for example {lost[0][:80]}")
+                continue
+            target.write_text(text, encoding="utf-8")
+            n += 1
         print(f"{n} files copied into preprints/")
         return
 
