@@ -26,7 +26,7 @@
 \pdfglyphtounicode{hatwide}{02C6 FE01}
 \pdfglyphtounicode{tildewide}{02DC FE01}
 \pdfgentounicode=1
-\hypersetup{pdftitle={A Polynomial-Time Algorithm for Three-Machine Unit-Job Scheduling},pdfauthor={OpenAI}}
+\hypersetup{pdftitle={A Polynomial-Time Algorithm for Three-Machine Unit-Job Scheduling},pdfauthor={OpenAI (with community contributions)}}
 \usepackage{caption}
 \captionsetup{font=small,labelfont=bf}
 \setlength{\emergencystretch}{2em}
@@ -60,8 +60,8 @@
 
 \title{A Polynomial-Time Algorithm for Three-Machine\\
 Unit-Job Scheduling}
-\author{OpenAI}
-\date{September 24, 2026}
+\author{OpenAI (with community contributions)}
+\date{October 27, 2026}
 
 \begin{document}
 \maketitle
@@ -86,11 +86,29 @@ interaction between these restrictions is subtle. The two-processor case
 was treated by Fujii, Kasami, and Ninomiya
 \citep{FujiiKasamiNinomiya1969,FujiiKasamiNinomiya1971Erratum}, and
 Coffman and Graham gave an optimal list-scheduling algorithm
-\citep{CG1972}. Allowing the number of machines to be part of the input
+\citep{CG1972}. Gabow gave an almost-linear-time algorithm for two
+processors \citep{Gabow1982}, and Garey and Johnson extended the
+two-processor case to individual deadlines \citep{GareyJohnson1976} and
+to release times together with deadlines \citep{GareyJohnson1977}.
+Allowing the number of machines to be part of the input
 yields an NP-complete problem \citep[Theorem~1]{Ullman1975}.
+For this general problem, Lenstra and Rinnooy Kan showed that deciding
+whether a schedule of length three exists is already NP-complete, so no
+polynomial-time algorithm for it has a worst-case ratio below \(4/3\)
+unless \(\mathrm{P}=\mathrm{NP}\) \citep{LenstraRinnooyKan1978}. With the
+number of machines as the parameter, it is W[2]-hard
+\citep{BodlaenderFellows1995}.
 The fixed-three decision problem appears as OPEN8 in Appendix~A13 of
 Garey and Johnson \citep{GJ1979} and has remained a central complexity
 question in scheduling \citep{NSW2025}.
+Lenstra and Rinnooy Kan discussed it as one of two open problems in
+precedence-constrained scheduling \citep{LenstraRinnooyKan1984}, its
+status was reviewed again in Johnson's NP-completeness column
+\citep{Johnson2005}, and it appears in lists of open problems on
+approximation \citep{SchuurmanWoeginger1999} and on parameterized
+complexity \citep[Open Problem~6]{MnichVanBevern2018}. The classical
+results on precedence-constrained scheduling are surveyed by Lawler,
+Lenstra, Rinnooy Kan, and Shmoys \citep{LawlerLenstraRinnooyKanShmoys1993}.
 
 We consider the following precise decision problem. The input is an
 explicitly listed directed acyclic graph \(G=(V,E)\), with
@@ -137,10 +155,18 @@ no practical running-time claim is made.
 
 \paragraph{Prior work and the point of departure.}
 Structural restrictions on precedence yield important intermediate
-results. Garey, Johnson, Tarjan, and Yannakakis gave a linear-time
+results. On any number of machines, Hu's highest-level-first algorithm
+is optimal when the precedence constraints form an in-tree
+\citep{Hu1961}, and Papadimitriou and Yannakakis gave a polynomial-time
+algorithm for interval orders \citep{PapadimitriouYannakakis1979}.
+Garey, Johnson, Tarjan, and Yannakakis gave a linear-time
 algorithm on three processors for opposing forests, which are disjoint
 unions of an in-forest and an out-forest
 \citep[Section~4]{GareyJohnsonTarjanYannakakis1983}.
+For fixed \(m\), polynomial-time algorithms are also known for level
+orders and opposing forests in a setting where the number of available
+processors may vary over time \citep{DolevWarmuth1985Profile}, and for
+further special classes of precedence graphs \citep{DolevWarmuth1985Flat}.
 Dolev and Warmuth obtained a running time
 \(O(n^{h(m-1)+1})\) when the precedence graph has height \(h\), measured
 in arcs, and at most \(m\) processors are available in each slot
@@ -168,6 +194,10 @@ this decomposition viewpoint. We prove the required separator statements
 and bound the size of each global interval description directly; the
 polynomial bound does not follow by specializing their subexponential bound.
 
+The classical approximation guarantees are the ratio \(2-1/m\) of
+Graham's list scheduling \citep{Graham1966} and the ratio \(2-2/m\) of
+the Coffman--Graham algorithm on \(m\) machines, which is \(4/3\) for
+three machines \citep{LamSethi1977}.
 Approximation algorithms also revealed useful recursive structure.
 For fixed machine count and fixed \(\varepsilon>0\), Levey and Rothvoß
 obtained a \((1+\varepsilon)\)-approximation using linear programming
