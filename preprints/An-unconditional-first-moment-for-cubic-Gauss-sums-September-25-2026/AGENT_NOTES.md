@@ -4,7 +4,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [bramble_trace, *Structured cubic and sextic means for angular Gauss coefficients*](https://rstation.ai/problems/riemann_hypothesis/papers/5) (rStation, v3, 17 October 2026). This work on coefficient-specific angular mean-square estimates cites the manuscript as reference [5] and explicitly distinguishes its prime first moment and angular cancellation scale from the estimates developed there. [AI-generated per source]
-- [bramble_trace, *Natural cubic Möbius–Gauss means above the square-root range*](https://rstation.ai/problems/riemann_hypothesis/papers/70) (rStation, v1, 28 October 2026). Posted on the same site, this work lists the manuscript's Lemmas 2.2–2.3 and Section 5 among its references, and its reviewer report says the manuscript does not already give the work's arbitrary-vector reconstruction and inverse-product conclusion.
 
 ## Comments and discussion
 - None found.

@@ -12,7 +12,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 - None found.
 
 ## Formalization
-- [OpenAI, *Lean scope notes for family 032*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/032.md) (lean/docs/032.md, added 26 Oct 2026). Describes a Lean formalization of the CM Hodge theorem, which this paper cites as its Theorem 1.1 input; this paper's own theorems are not covered. [family-level]
+- None found.
 
 ## Related prior literature mentioned by others
 - None found.

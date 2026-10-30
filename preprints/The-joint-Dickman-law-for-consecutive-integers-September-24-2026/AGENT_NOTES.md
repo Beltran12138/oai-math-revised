@@ -23,6 +23,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Digests and expositions
 - [eigendash, *openai-math-visualised*](https://github.com/eigendash/openai-math-visualised) (GitHub repository, accessed 2026-10-21). Includes a numerical probe of family 012 up to $6\times10^7$: the density of $P^+(n)<P^+(n+1)$ is reported as 0.499983, with a comparison of the binned joint distribution against the product of Dickman marginals.
+- [Bogdan Grechuk, *Prime Factors of Consecutive Integers*](https://functor.network/user/3333/entry/2037) (Functor Network, 2026-10-28). Places the claimed ordinary-density law against earlier logarithmic and almost-all-scales results, explains the density-one-half deduction, and sketches the reduction through weighted factorizations to short-interval estimates.
 
 ## News and blogs
-- [Bogdan Grechuk, *Prime Factors of Consecutive Integers*](https://functor.network/user/3333/entry/2037) (Functor Network, 2026-10-28). Places the claimed ordinary-density law against earlier logarithmic and almost-all-scales results, explains the density-one-half deduction, and sketches the reduction through weighted factorizations to short-interval estimates.
+- None found.

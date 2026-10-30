@@ -8,6 +8,9 @@ Mark a new item DROP if a researcher in the area would gain little from it:
 - routine project activity: roadmap jobs, TODO issues, bookkeeping commits, entries in formal-statement collections that only record the statement as solved or open;
 - one more entry in a series of near-identical incremental records (of several Prove2Me missions or the like, keep only the strongest);
 - a repository or note from an unknown author with an AI-generated claim of no evident substance, or one that only rephrases the paper;
+- from a repository, forum or site whose content is written by AI agents without human review: more than two items per paper (keep the most substantial); entries that name no human author and state no provenance;
+- a pointer to a long thread with nothing specific (a specific comment in it can stay); a machine summary of a video, or a file the collecting agent could not read; a folder listing;
+- an anonymous or pseudonymous claim about named people's unpublished work, or a relayed attribution to a named person that cannot be checked; a link to this repository's own files;
 - a press release, marketing or SEO article, general news that only names the paper, or a piece that only restates its claim without explanation, context or assessment;
 - an anonymous or pseudonymous comment without a specific technical point; reactions, praise, broad questions or musings; polls, prediction markets;
 - a post on X, Bluesky or Mastodon that does not tell the reader something specific that the notes do not have, even if its author is famous. Be strict here: if in doubt, drop.

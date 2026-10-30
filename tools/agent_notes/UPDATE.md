@@ -9,6 +9,8 @@ Write only the new items. Each output file has the usual header and all seven se
 
 Cite an X post only at `https://x.com/<handle>/status/<id>`, never at a mirror or API such as fxtwitter, even if that is how you read it.
 
+Describe a claim as a claim ("claims", "reports"), also in follow-up work; write theorem references in words, never as raw LaTeX labels, and use a work's real title, not an invented one. Give the same source the same attribution and tag in every item.
+
 Do not include these links, removed from the notes on purpose:
 
 {BLOCKED}

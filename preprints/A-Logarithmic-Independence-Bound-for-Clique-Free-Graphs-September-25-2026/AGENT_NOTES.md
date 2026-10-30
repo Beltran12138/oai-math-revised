@@ -4,7 +4,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Kaizhe Chen, *A note on the logarithmic exponent of Ramsey number r(4,t)*](https://arxiv.org/abs/2610.15293) (arXiv:2610.15293, 11 October 2026). Cites this paper for its Lemma 1.3, the bound α(G) ≥ c_s n log d/d for K_s-free graphs, and combines it with the release's r(s,t) preprints to derive r(4,t) = t³/(log t)^(2+o(1)); the note says it is for informal circulation only.
-- [Ross J. Kang, *Ode to the Ajtai-Erdős-Komlós-Szemerédi conjecture*](https://zenodo.org/records/23351325) (Zenodo working paper, DOI 10.5281/zenodo.23351325, 13 October 2026). Its abstract bounds the mean size of a uniformly chosen independent set in K_r-free graphs, r ≥ 4, by an absolute constant multiple of n log d/(rd), and the erdosproblemaday review below describes it as adapting Sections 2–5 of this paper and reporting no error. [AI-generated per source]
+- [Ross J. Kang, *Ode to the Ajtai-Erdős-Komlós-Szemerédi conjecture*](https://zenodo.org/records/23351325) (Zenodo working paper, DOI 10.5281/zenodo.23351325, 13 October 2026). Its abstract bounds the mean size of a uniformly chosen independent set in K_r-free graphs, r ≥ 4, by an absolute constant multiple of n log d/(rd), and the erdosproblemaday review below describes it as adapting Sections 2–5 of this paper and reporting no error.
 
 ## Comments and discussion
 - None found.

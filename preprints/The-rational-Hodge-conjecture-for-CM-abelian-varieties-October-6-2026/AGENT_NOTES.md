@@ -12,7 +12,6 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 - [Elliot Glazer (@ElliotGlazer), post on X](https://x.com/ElliotGlazer/status/2108125478469111983) (8 Oct 2026). States that the CM result was not Lean-formalized and expresses confidence in it because it "was achieved independently by Ant and by OAI" and trusted people report the ideas make sense.
 
 ## Formalization
-- [OpenAI, *The rational Hodge conjecture for CM abelian varieties — Lean scope notes*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/032.md) (release formalization added 26 Oct 2026). Describes formal coverage of algebraicity of rational Hodge classes in every dimension and codimension under the stated geometric CM hypotheses, excluding the Tate and Hodge-standard consequences.
 - [Paul-Lez and contributors, *HodgeConjecture*](https://github.com/Paul-Lez/HodgeConjecture) (GitHub, 2026). Work-in-progress Lean statement of the Hodge conjecture whose statement the scope notes credit as used for this theorem's Comparator challenge; the repository itself does not mention CM abelian varieties.
 
 ## Related prior literature mentioned by others

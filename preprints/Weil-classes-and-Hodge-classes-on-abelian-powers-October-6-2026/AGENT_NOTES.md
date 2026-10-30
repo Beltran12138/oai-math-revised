@@ -14,7 +14,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 - [Nathan Humphrey, *A sign slip in OpenAI's split-eightfold proof, and why the natural repair looks blocked*](https://goodluckhavefun04.substack.com/p/a-sign-slip-in-openais-split-eightfold) (Substack, 7 Oct 2026). Reports the double-point sign inconsistency in Proposition 3.1 of the withdrawn eightfold paper, with a [check repository](https://github.com/mrnathanhumphrey-droid/openai-split-eightfold-gap) that its README says was worked out with AI models; Lekili–Sheridan credit this report, and neither source discusses this paper. [family-level]
 
 ## Formalization
-- [OpenAI, *Lean scope notes for family 032*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/032.md) (lean/docs/032.md, added 26 Oct 2026). Describes a Lean formalization of the CM Hodge theorem, the companion result this paper's proof uses; this paper's own theorems are not covered. [family-level]
+- None found.
 
 ## Related prior literature mentioned by others
 - None found.

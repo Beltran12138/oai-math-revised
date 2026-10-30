@@ -28,4 +28,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 - None found.
 
 ## News and blogs
-- [Hong A-reum, *OpenAI floods math with 719 AI papers; Korea hails speed, flags clarity strain*](https://biz.chosun.com/en/en-science/2026/10/12/ZF43Y2FTRZH4BIKNWISTHSGJMU/?outputType=amp) (ChosunBiz, 2026-10-12). Reports Ji-woon Lee's account that OpenAI's low-temperature SK fluctuation claim develops an approach that first appeared in July 2026, placing this family's claim in the context of recent human research. [family-level]
+- None found.
