@@ -62,7 +62,7 @@ def main():
                     continue
             lines.append(line)
         out = normalize("\n".join(lines) + "\n")
-        if args.update:
+        if args.update and notes.is_file():
             out, lost, _ = additive(out, notes.read_text(encoding="utf-8"), blocked[folder])
             if lost:
                 print(f"skip {folder}: {len(lost)} items differ from the repository, for example {lost[0][:80]}", file=sys.stderr)
