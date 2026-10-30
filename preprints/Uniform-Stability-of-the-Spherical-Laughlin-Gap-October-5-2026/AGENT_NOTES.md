@@ -1,9 +1,11 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Qiang Gao, *Improving the lower bound on the Laughlin gap: An SDP search*](https://arxiv.org/abs/2610.12700) (arXiv:2610.12700, 2026-10-08). Reports an SDP-based improvement of the family's unperturbed spherical gap bound from $1/25$ to $1/5$ for sufficiently large systems, strengthening the type of unperturbed input used in the stability paper. [AI-generated per source] [family-level]
+- [Michael G. Scheer and Eslam Khalaf, *A Hierarchy of Exact Lower Bounds on the Laughlin Spectral Gap*](https://arxiv.org/html/2610.18854v2) (arXiv:2610.18854v2, 2026-10-27). Presents an independently developed SDP hierarchy for the unperturbed spherical gap, reporting a thermodynamic-limit bound greater than $1/100$, and compares its exact certification and rank-stability argument with OpenAI’s fixed sum-of-squares certificate in Section V. [family-level]
+- [GitHub user canghaimeng / Euler project, *An exact spherical Laughlin gap certificate*](https://raw.githubusercontent.com/canghaimeng/openai-math-improvement/main/problems/bound-269/README.md) (GitHub research note, 2026). Reports an eventual unperturbed spherical gap bound of $4380340253/20000000000=0.21901701265$ by combining OpenAI’s Fock-space comparison with Gao’s enlarged certificate and tail estimates and adjusting the certificate by an exact rational multiplier. [family-level]
 
 ## Comments and discussion
 - None found.

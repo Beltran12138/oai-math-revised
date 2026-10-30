@@ -1,10 +1,11 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Buhai, Cohen-Addad, Fleischmann, Gupta, Jubés Monforte, Pittu, Stouras, Svensson, Vogl, *A Better-than-2 Approximation for k-Median Part I: The Power of General Bids*](https://arxiv.org/abs/2610.18144) (arXiv:2610.18144, 13 October 2026). An independent randomized polynomial-time 1.95-approximation for k-median; its "AI Acknowledgment and Concurrent Work" paragraph describes the OpenAI result that extends iterative rounding to a $(1+2/e+\varepsilon)$-approximation as concurrent work announced on 6 October 2026. [family-level]
 - [Buhai, Cohen-Addad, Fleischmann, Gupta, Jubés Monforte, Pittu, Stouras, Svensson, Vogl, *A Better-than-2 Approximation for k-Median Part II: Stable Instances*](https://arxiv.org/abs/2610.17172) (arXiv:2610.17172, 12 October 2026). The companion paper (a $(1.89+\varepsilon)$-approximation for β-stable instances) calls the iterative-rounding OpenAI paper "an optimal" $(1+2/e+\varepsilon)$-approximation in its concurrent-work discussion. [family-level]
+- [Byrka, Guo, Hu, Li, Shin, Vajanopath, Wan, Wang, *Iterative Randomized Rounding for Better-Than-2 k-Median Approximation*](https://arxiv.org/abs/2610.31229) (arXiv:2610.31229, 22 October 2026). A randomized 1.9999-approximation that also bounds the LP integrality gap below 2 with $k+O(1)$ facilities; its concurrent-work discussion says this paper "claims" a deterministic $(1+2/e+\varepsilon)$-approximation built on the same iterative rounding framework, with a modified, distance-tapered rounding graph and a different per-client potential. Its footnote 1 notes that a black-box reduction from this result gives $(\gamma_{\mathrm{UFL}}+\varepsilon)$ for uncapacitated facility location only with uniform facility costs, and that because this paper's rounding preserves marginal opening probabilities it also works for arbitrary facility costs. [family-level]
 
 ## Comments and discussion
 - [Ola Svensson (@AlgoSvensson), post on X](https://x.com/AlgoSvensson/status/2107736070192287922) (2026-10-07). The original post says OpenAI "completely solved a problem on which my students have worked hard for 1+ years" and that the group will upload a different algorithmic approach. [family-level]

@@ -1,9 +1,10 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Chenglong Ma, *Invariant Primes in Lubin–Tate Space and Hovey–Strickland at Every Height*](https://arxiv.org/abs/2610.10072) (arXiv:2610.10072v1, 7 Oct 2026). Proves the same classification of open-stabilizer-stable primes and radical ideals of the Lubin–Tate ring, and the Hovey–Strickland classification via Barthel–Heard–Naumann, by a Cartier-theoretic special-fiber argument; its introduction cites this paper as [8] and says its proof strategy and notation are "identical to a preliminary version of the present paper that was uploaded to ChatGPT on September 8, 2026". It also reports that Ningyi Li independently proved the same result by a different method, and the [HTML version](https://arxiv.org/html/2610.10072v1) discloses AI assistance with the fixed-jet argument in Appendix A.
+- [Ningyi Li, *Invariant Ideals and the Hovey-Strickland Conjecture*](https://drive.google.com/file/d/18I24YG9HLckW5r-AqPwfGwpJaFOryduU/view) (Google Drive PDF, file name dated 2026-10-07; cited as [7] in arXiv:2610.10072). Ma's paper cites this manuscript as an independent proof of the same result by a different method; only the Drive viewer page and file name loaded for the agent, so the title and this description come from Ma's citation, not from the manuscript's text.
 
 ## Comments and discussion
 - [mahrud (repository maintainer), PR #311 "The Hovey–Strickland and Chai conjectures" in mahrud/openai-math-comments](https://github.com/mahrud/openai-math-comments/pull/311) (GitHub, 9 Oct 2026). The maintainer links arXiv:2610.10072, quotes its remarks on Ningyi Li's independent proof and on the overlap with this paper, and labels the family `2nd-proof`.

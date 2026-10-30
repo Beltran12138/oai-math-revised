@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -9,6 +9,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Indira Chatterji, contribution to *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (Proofs and Prompts, posted 2026-10-08). A co-author of the amenable-group case (Berrick–Chatterji–Mislin) writes: "I don't understand the proof, and I still don't believe that this conjecture could be true in general," and asks for a small group of colleagues to examine it.
 - [Johan Öinert, contribution to *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (Proofs and Prompts, posted 2026-10-08). Öinert notes the paper "does not say a word about the characteristic p case" and argues that the release's claimed characteristic-2 counterexample to Kaplansky's direct finiteness conjecture would also give one to the idempotent conjecture in characteristic 2; he also criticizes the write-up style.
 - [Roman Sauer, contribution to *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (Proofs and Prompts, posted 2026-10-08). Sauer writes that a trick replacing a manifold by a measurable foliated object, from his work with Braun and Alpert's extension of it, "now appear in OpenAI's deeply creative solutions of problems 207 and 335"; both works are cited in this paper's geometric part. [family-level]
+- [MathVet, *Statement-fidelity assessment for family 207*](https://github.com/mathvet/mathvet/blob/14c7f918cd336d0da03a02aae5a0eed4a429d4db/reviews/openai-math/fidelity-table.csv) (model-assisted review, undated). The assessment distinguishes the complex group-algebra statements from the ℓ¹ headline and identifies the custom presentations of K₀, projective right modules and the Hattori–Stallings trace as definitions to compare with the paper. [family-level]
 
 ## Formalization
 - [OpenAI / mathcommunity mirror, *Lean scope note 207*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/207.md) (release Lean docs, 2026-10-06). The note says the formalization proves the complex Bass trace theorem for all groups and, for torsion-free groups, the trace/augmentation-rank identity and the characteristic-zero idempotent statement. [family-level]

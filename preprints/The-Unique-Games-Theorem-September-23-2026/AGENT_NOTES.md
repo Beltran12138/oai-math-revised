@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Ariel Elboim, *The Unique Games Theorem: A Short Self-Contained Proof*](https://zenodo.org/records/23265572) (Zenodo, doi:10.5281/zenodo.23265572, version 1.0, 2026-10-09). An 11-page reconstruction of this paper's proof that takes Håstad's parity gap, the Khot–Minzer–Safra Grassmann expansion theorem and Dinur–Steurer repetition as inputs and simplifies the noise gadget, certificate extraction and decoding; it states no human expert has reviewed it. [AI-generated per source]
@@ -10,6 +10,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - [Scott Aaronson, *The Mathocalypse*](https://scottaaronson.blog/?p=10169) (Shtetl-Optimized, 2026-10-07). Relays Dana Moshkovitz's first reading of the release; her quoted messages note that it also contains "direct optimal NP hardness of approximation proofs" for the main applications of the UGC, bypassing the UGC. [family-level]
 - [Dana Moshkovitz (relayed by Scott Aaronson), comment #2 on *The Mathocalypse*](https://scottaaronson.blog/?p=10169#comment-2041062) (Shtetl-Optimized, 2026-10-07). States the UGC "is true, though it wasn't really needed for the proof of its most famous corollaries", describes the proof's new tree-based recursive code with a noise test and the difficulty of reading it, and wonders whether a half-space code could also work.
 - [Sasho Nikolov (@thesasho), post on X](https://x.com/thesasho/status/2109281180659163372) (2026-10-11). Describes the UGC proof as an extension of the Khot–Minzer–Safra line of work on the 2-to-1 games conjecture that "very much follows an existing program".
+- [Ankur Moitra, *Unique Games Conjecture and complexity theory*](https://lexfridman.com/math-ai-crisis-transcript/) (Lex Fridman Podcast #503, 2026-10-26, transcript 2:04:39–2:13:35). Places the claimed proof in the context of the human 2-to-1 Games work and Raghavendra’s approximation framework, while noting that the write-up makes its key new ideas difficult to identify.
 
 ## Formalization
 - [OpenAI, *Lean scope notes for family 102*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/102.md) (release Lean docs, lean/docs/102.md). States the formalized Unique Games gap reduction (binary 3SAT to unweighted simple bipartite fixed-alphabet translation games over F_2^s) and links the comparator statement UniqueGamesTheorem.lean. [family-level]
@@ -34,3 +35,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - [Manuel Uth, Matthias Bastian, *Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field*](https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field/) (The Decoder, 2026-10-08). Quotes Moshkovitz's remarks on the readability of this paper.
 - [Agentic Economy, *OpenAI's Unique Games claim: repairing the completeness gap*](https://aecon.ai/blog/openai-unique-games-approximation) (2026-10-08). Discusses the completeness obstacle, the proposed nonlinear noise and the released reasoning summary, and distinguishes the direct Max-Cut and Vertex Cover companions. [family-level]
 - [Post-Cutoff, *OpenAI model claims a proof of Khot's Unique Games Conjecture, with Lean formalization*](https://postcutoff.com/e/2026-10-06-unique-games-conjecture-openai/) (postcutoff.com, filed 2026-10-07). News entry on the Unique Games manuscript that also lists the companion Max-Cut, Vertex Cover, Min-UnCut and DFVS claims and collects early reactions. [AI-generated per source] [family-level]
+- [Geoff Brumfiel, *AI is shaking up the field of mathematics. But what comes next?*](https://www.kosu.org/technology/2026-10-21/ai-is-shaking-up-the-field-of-mathematics-but-what-comes-next) (NPR, carried by KOSU, 2026-10-21). Interviews Dana Moshkovitz about this proof, reporting her preliminary view that it looks right and her criticism of its readability while emphasizing that the results still need checking.

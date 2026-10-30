@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -16,6 +16,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Possibly relevant literature (found by the agent, not checked)
 - [Zhiyuan Jiang, *An approach to the abundance conjecture for Kähler varieties via algebraic reduction*](https://arxiv.org/abs/2604.03879) (arXiv:2604.03879, April 2026). Proves abundance cases for non-algebraic Kähler fourfolds and Kähler fourfolds with trivial canonical bundle, which overlaps with this paper's semiampleness theorem for compact Kähler klt fourfolds after nonvanishing.
+- [Jihao Liu, *Nonvanishing implies abundance*](https://arxiv.org/html/2610.35913v1) (arXiv:2610.35913v1, October 7, 2026). Corollary 11.1 treats effective projective klt pairs through dimension four, overlapping the projective case here. [family-level]
 
 ## Digests and expositions
 - [AI Proved What?, *Always semiample?*](https://aiprovedwhat.com/episodes/034-log-abundance-compact-kahler-spaces/) (Episode 034, October 2026). Explains the family’s abundance claims, proof strategy, and dependencies. [AI-generated per source] [family-level]

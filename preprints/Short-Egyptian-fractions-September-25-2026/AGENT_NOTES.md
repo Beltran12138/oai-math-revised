@@ -1,16 +1,19 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Thomas F. Bloom and Wouter van Doorn, *Optimal bounds for the length and number of unit fraction representations*](https://hexagonmath.org/abs/2610.00407v1) (hexagon:2610.00407v1, 2026-10-20). A human-written exposition and simplification of this paper's proofs of $N(b)\ll\log\log b$, $\log\log F(k)\gg k$ and $\log\log v(k)\gg k$, deriving Theorem 1 from the more elementary prescribed-denominator argument and discussing improved constants in Section 5. The same note is also hosted at [erdosproblems.com](https://www.erdosproblems.com/static/UnitFractions.pdf).
 - [Thomas Bloom (@thomasfbloom), post on X](https://x.com/thomasfbloom/status/2110500887026151887) (2026-10-14). A 12-post thread announcing the Bloom-van Doorn exposition, which describes the proof of the $O(\log\log b)$ bound as "short and elementary", combining sum-product theory and the weak Goldbach problem, and notes that the AI paper proved the bound twice, first in a long way and then "in a much shorter and simpler way".
+- [Wouter van Doorn, *Short Egyptian fractions* (file name)](https://github.com/Woett/Mathematical-shorts/blob/main/Short%20Egyptian%20fractions.pdf) (GitHub, Woett/Mathematical-shorts, uploaded 2026-10-09). A note that its author's forum comment describes as a simplified proof of the paper's main theorem with at most $(16/\log 2+o(1))\log\log b$ distinct unit fractions, without claiming optimality and suggesting about $7/\log 2$ via prime-distribution results; the same comment says it was later refined into the Bloom-van Doorn exposition.
 
 ## Comments and discussion
 - [Thomas F. Bloom and Wouter van Doorn, Section 6 "Comparison to the AI-generated paper"](https://www.erdosproblems.com/static/UnitFractions.pdf) (hexagon:2610.00407v1, October 2026). Says the later elementary argument for $v(k)$ also gives Theorem 1, so "the technical arguments of Sections 3-5 (occupying 15 pages, out of 33 total) are entirely redundant"; it also criticizes the exposition and attribution of novelty, and the authors state they had not read Sections 3-5 in detail.
 - [Thomas Bloom, *Erdős Problem #304*](https://www.erdosproblems.com/304) (erdosproblems.com, last edited 2026-10-16). The problem page now refers to "the recent OpenAI proof that $N(b)\ll \log\log b$" and links the paper and the Bloom-van Doorn exposition.
 - [Thomas Bloom, *Erdős Problem #293*](https://www.erdosproblems.com/293) (erdosproblems.com, last edited 2026-10-16). Credits the paper with the proof that $\log\log v(k)\gg k$ (the paper's prescribed-denominator corollary), after van Doorn and Tang's $\log v(k)\gg k^2$.
 - [Thomas Bloom, *Erdős Problem #148*](https://www.erdosproblems.com/148) (erdosproblems.com, last edited 2026-10-16). Credits the paper with the proof that $\log\log F(k)\gg k$; the page cites Elsholtz-Planitzer for the best known upper bound on $F(k)$.
+- [Thomas Bloom, *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10) (erdosproblems.com blog, 2026-10-08). The entry on Problems 148, 293 and 304 gives the previous best bounds for all three results and says the PDF "appears to mostly focus on establishing the first theorem, deducing the other two as corollaries".
+- [Wouter van Doorn (Woett), comment on *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10#post-9352) (erdosproblems.com forum, 2026-10-10). Says Section 8 of the paper resolves Problem 293 by a much easier argument using Vinogradov's theorem on odd Goldbach, independently of the first seven sections, and that the Lean formalization modifies that argument to avoid Vinogradov.
 
 ## Formalization
 - [OpenAI math release, Lean scope notes for family 025](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/025.md) (OpenAI Math Release, 2026-10-06). Per these notes, the release's Lean development proves the $\Theta(\log\log b)$ order of $N(b)$, $\log\log F(k)=\Theta(k)$, and $e^{e^{k/600}}\le v(k)\le 1+k^{2^{k-1}}$ for large $k$, via the comparator challenges `EgyptianFractions.lean` and `ShortEgyptianFractions.lean`.
@@ -23,6 +26,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - [M. N. Bleicher and P. Erdős, *Denominators of Egyptian fractions*](https://doi.org/10.1016/0022-314X%2876%2990098-6) (J. Number Theory 8 (1976), 157-168). Bloom-van Doorn note that Erdős and Graham said the bound $v(k)\gg k!$ should follow from this work.
 - [K. Soundararajan, *Approximating 1 from below using n Egyptian fractions*](https://arxiv.org/abs/math/0502247) (arXiv:math/0502247, 2005-02-11). Cited by Bloom-van Doorn in Appendix A for the classical approximation bound used to obtain the complementary bounds for the three results.
 - [Thomas F. Bloom and Christian Elsholtz, *Egyptian fractions*](https://arxiv.org/abs/2210.04496) (arXiv:2210.04496; Nieuw Arch. Wiskd. 2022). A survey of open problems and recent progress on unit fractions, cited by Bloom-van Doorn for background.
+- [Quanyu Tang and Wouter van Doorn, comments on *Erdős Problem #148*](https://www.erdosproblems.com/forum/thread/148) (erdosproblems.com forum, 2025-09-05 and 2025-12-29). Report that equation (4) of Konyagin's 2014 paper, which this paper cites for the earlier lower bound on $F(k)$, is incorrect, and that Konyagin confirmed this by email, gave a corrected equation and said the main result still holds.
 
 ## Possibly relevant literature (found by the agent, not checked)
 - None found.

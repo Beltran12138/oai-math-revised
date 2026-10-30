@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Pol van Hoften and Jack Sempliner, *The Hodge Conjecture for CM abelian varieties*](https://hexagonmath.org/abs/2610.00259v2) (hexagon:2610.00259v2, v1 15 Oct 2026, v2 18 Oct 2026). The authors present this as a proof of the Hodge conjecture for CM abelian varieties "following the recent work [Ope26]" (this paper), using theta lifts and the doubling method. The text is described as human-written, with ChatGPT used among other things to rework [Ope26, Section 2] via Hazama's work.
@@ -12,7 +12,8 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - [Elliot Glazer (@ElliotGlazer), post on X](https://x.com/ElliotGlazer/status/2108125478469111983) (8 Oct 2026). States that the CM result was not Lean-formalized and expresses confidence in it because it "was achieved independently by Ant and by OAI" and trusted people report the ideas make sense.
 
 ## Formalization
-- None found.
+- [OpenAI, *The rational Hodge conjecture for CM abelian varieties — Lean scope notes*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/032.md) (release formalization added 26 Oct 2026). Describes formal coverage of algebraicity of rational Hodge classes in every dimension and codimension under the stated geometric CM hypotheses, excluding the Tate and Hodge-standard consequences.
+- [Paul-Lez and contributors, *HodgeConjecture*](https://github.com/Paul-Lez/HodgeConjecture) (GitHub, 2026). Work-in-progress Lean statement of the Hodge conjecture whose statement the scope notes credit as used for this theorem's Comparator challenge; the repository itself does not mention CM abelian varieties.
 
 ## Related prior literature mentioned by others
 - [James S. Milne, *Hodge classes on abelian varieties*](https://arxiv.org/abs/2010.08857) (arXiv:2010.08857v2, 11 Nov 2020). Cited by van Hoften–Sempliner and discussed by Agentic Economy; explains the Deligne–André reduction to divisor and split Weil classes that precedes this paper's cycle construction.
@@ -23,6 +24,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 ## Possibly relevant literature (found by the agent, not checked)
 - [J. S. Milne, *The Tate and Standard Conjectures for Certain Abelian Varieties*](https://arxiv.org/abs/2112.12815) (arXiv:2112.12815, 2021/2022). Reworks the Milne 1999/2002 deductions, which this paper uses for its Tate and Hodge-standard corollaries, so that they apply to a single abelian variety.
 - [Ningyi Li, *The Tate conjecture for powers of abelian fourfolds and the Hodge conjecture for powers of CM fourfolds*](https://arxiv.org/abs/2609.27916) (arXiv:2609.27916, v1 10 Sep 2026, withdrawn in v2 on 8 Oct 2026). Claimed an overlapping special case, the Hodge conjecture for powers of CM fourfolds; the withdrawal comment cites "recent work on the Hodge and Tate conjectures for abelian varieties" without naming it.
+- [Keerthi Madapusi, *Milne's rationality conjecture*](https://hexagonmath.org/abs/2610.00226v1) (hexagon:2610.00226v1, 13 Oct 2026). Described as a cleaned-up version of the OpenAI Milne-rationality preprint, whose CM transport this paper cites in its remark on algebraicity of specialized Hodge classes; whether that transport is retained was not checked. [AI-generated per source]
 
 ## Digests and expositions
 - None found.

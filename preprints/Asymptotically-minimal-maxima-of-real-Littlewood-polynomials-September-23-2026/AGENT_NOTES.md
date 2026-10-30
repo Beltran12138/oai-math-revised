@@ -1,9 +1,9 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [el Houcein el Abdalaoui, *OpenAI partially disproves Littlewood's 1961 $L^\alpha$-flat theorem*](https://arxiv.org/abs/2610.30797) (arXiv:2610.30797, 22 October 2026; LLM assistance acknowledged). Attributes to this paper a counterexample to Littlewood's 1961 theorem with hyper-lacunary coefficients $a_m=2^{2^m}$, which it says violates an assumption implicit in Littlewood's argument and so gives "a limited refutation"; the term "lacunary" does not occur in the TeX sources of the three manuscripts, and the author says the note and arXiv:2509.04212 (a contrary claim examined in this paper's Appendix A) "will be adapted or withdrawn to reflect the consolidated literature". [family-level]
 
 ## Comments and discussion
 - [Thomas Bloom, *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10) (erdosproblems.com blog, 8 October 2026). Lists Erdős Problem #1150 among the release's claimed results, links the ultraflat companion PDF and the comparator Lean file for this paper's Theorem 1.1, and notes that the 16-page PDF "appears to heavily rely on two other related PDFs". [family-level]

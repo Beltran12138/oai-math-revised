@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -16,6 +16,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Possibly relevant literature (found by the agent, not checked)
 - [R. Rossignol, *Threshold for monotone symmetric properties through a logarithmic Sobolev inequality*](https://arxiv.org/abs/math/0511607) (arXiv:math/0511607; Ann. Probab. 34(5), 2006). The paper improves the general threshold-width bound for monotone properties with transitive symmetry, the edge-transitivity baseline the introduction contrasts with the vertex-symmetry bound of Corollary 4.1.
+- [Jean Bourgain and Gil Kalai, *Threshold Intervals under Group Symmetries*](https://library.slmath.org/books/Book34/files/bourkalai.pdf) (Convex Geometric Analysis, MSRI Publications vol. 34, 1998). This announcement, distinct from the 1997 GAFA paper in the bibliography, lists $2,\tfrac32,\tfrac43,\tfrac54,\ldots$ as exponents around which worst-case threshold intervals of primitive permutation groups can occur (Theorem 3), the values of the exponent $r/(r-1)$ in Theorem 1.1 and Corollary 4.1.
 
 ## Digests and expositions
 - None found.

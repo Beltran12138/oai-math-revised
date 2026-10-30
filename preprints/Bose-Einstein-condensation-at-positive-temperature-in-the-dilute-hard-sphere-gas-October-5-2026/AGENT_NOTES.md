@@ -1,9 +1,9 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [P. M. Aronow, P. Lopatto, *Superfluid Stiffness and Nonclassical Rotational Inertia of the Dilute Hard-Sphere Bose Gas*](https://hexagonmath.org/abs/2610.00450v1) (hexagon:2610.00450v1, 22 October 2026). Claims lower bounds of order $(\rho a^3)^{3/8}$ on the superfluid fraction and the nonclassical rotational inertia fraction for the model of this paper, adapting its thermal estimates (not its condensation theorem), extending them from scaled temperatures $T\le D^{-1}$ to $T\le\tau_0/\log D$ (Appendix B) and transferring them to bounded hard-wall containers (Appendix A); its warning page says the results "rest extensively on unrefereed and unformalized work recently released by OpenAI" and have not been verified by a human expert. [AI-generated per source] [family-level]
 
 ## Comments and discussion
 - None found.

@@ -1,9 +1,9 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [Guoliang Yu, *Projections in reduced group C\*-algebras with prescribed trace values in (0,1)*](https://arxiv.org/abs/2610.35674) (arXiv:2610.35674, 2026-10-26). Citing this paper as [27] and acknowledging that its "geometric and the spectral techniques" are "developed from arguments in the OpenAI preprint", it constructs for every real r in (0,1) a finitely generated group G_r with torsion and a projection of canonical trace r, places the class outside the reduced assembly image for irrational r, and proves integral injectivity of maximal assembly for G_r.
 
 ## Comments and discussion
 - None found.

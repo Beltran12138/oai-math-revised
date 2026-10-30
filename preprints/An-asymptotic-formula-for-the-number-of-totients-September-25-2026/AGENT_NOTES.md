@@ -1,9 +1,10 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [Plasma AI, *The reciprocal least-preimage weight and its phase limit*](https://erdosproblems.ai/wiki/theory/number_theory/L65_conditional_totient_ratio_coefficient/_proof) (Erdős Problems research note L65, updated 14 October 2026). This conditional, author-recorded deduction extends the manuscript's counting argument to $V'(x)=\#\{\varphi(n):1\le n\le x\}$ and reduces convergence of $V(x)/V'(x)$ in Problem 417 to constancy of $A(1/r;s)/A(1;s)$, without independent review or formalization.
+- [Plasma AI, *One-sided limits, unit increments and the boundary factor*](https://erdosproblems.ai/wiki/theory/number_theory/L43_continuous_totient_phase_ratio/_proof) (Erdős Problems research note L43, updated 14 October 2026). Conditional on the manuscript and L65, this unreviewed deduction claims continuity of the phase coefficients on $[0,1)$, the boundary relation $A(1;1^-)=(\lambda/\gamma)A(1;0)$, and a continuous periodic coefficient quotient governing the limit points of $V/V'$.
 
 ## Comments and discussion
 - [Thomas Bloom, *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10) (erdosproblems.com blog, 8 October 2026). The entry for Problem 416 restates the claim that $V(cx)/V(x)\to c$ for every fixed $c>0$ (Erdős's question is the case $c=2$), notes that the proof has been formalised, and says it "appears to use many of the same techniques used by Ford (and others)".
@@ -17,6 +18,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [mo271, *feat: mark problems solved in the OpenAI math release and link formal proofs*](https://github.com/google-deepmind/formal-conjectures/pull/6898) (formal-conjectures PR #6898, merged 11 October 2026). Marks 416 part (i) solved and adds the regular-variation variant with a proof link; part (ii) is left open because its main term needs many auxiliary definitions. [family-level]
 - [mo271, *ErdosProblems/416: `erdos_416.parts.ii` has an explicit asymptotic formula*](https://github.com/google-deepmind/formal-conjectures/issues/6907) (formal-conjectures issue #6907, opened 7 October 2026). Proposes porting the paper's `mainTerm` definitions (about 25 auxiliary definitions) so that part (ii) can be marked solved; the issue says the comparison was prepared with AI assistance. [AI-generated per source]
 - [JenW1N via conjectures.io, *Erdős problem 416 — part i: the proof*](https://conjectures.io/results/51923647-3c0d-418e-b330-aa595f5cad42/solution) (Lean submission, certified 2026-09-16; listed as a proof claim on [erdosproblems.com](https://www.erdosproblems.com/forum/thread/416/proof-claims) on 27 September 2026). An earlier, separate Lean 4 development claiming $V(2x)/V(x)\to2$, a special case of the paper's regular-variation claim, without its explicit asymptotic formula; the page does not mention OpenAI, and the erdosproblems.com listing says the proof has not been verified.
+- [byclaude, *Erdős 416: Lean bridge from OpenAI's totient_asymptotic_formula to Formal Conjectures' erdos_416.parts.i / variants.regularly_varying*](https://gist.github.com/byclaude/e4c50d09a737ffcc4e82ef28751c9af3) (GitHub Gist, 22 October 2026). Copies the formal-conjectures statements of part (i) and the regular-variation variant into the release's Lean environment, proves the two definitions of $V$ equal, and derives both statements from `totient_asymptotic_formula`, with mutation controls and logs; part (ii) is not covered. [AI-generated per source]
 
 ## Related prior literature mentioned by others
 - [Paul Erdős, *Remarks on some problems in number theory*](https://www.renyi.hu/~p_erdos/1974-27.pdf) (Mathematica Balkanica 4, 197–202, 1974). Identified in the Erdős Problems discussion of this manuscript; page 201 asks both for an asymptotic formula for the distinct-totient count in elementary functions and for the doubling limit. [family-level]

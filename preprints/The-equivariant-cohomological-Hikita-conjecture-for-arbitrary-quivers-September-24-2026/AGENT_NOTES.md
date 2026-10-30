@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Ben Webster (repository owner), with substantial assistance from Claude, *Hikita's conjecture for quiver gauge theories: after the slop*](https://raw.githubusercontent.com/bwebste/Hikita-AI/main/Hikita-rewrite.tex) (LaTeX draft in github.com/bwebste/Hikita-AI, October 2026). A rewrite that credits the theorem and overall strategy to this preprint, takes the comparison map from Botta–Tamagni, and proves the dimension count for quivers with a loop at every vertex by restriction to Levi subgroups instead of Hausel's formula, using an announced comparison theorem without proof; an inline comment says "At the moment I don't want to say that humans have verified the full argument, since that isn't true". [AI-generated per source]
@@ -17,9 +17,11 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Ilya Dumanski and Vasily Krylov, *K-theoretic Hikita conjecture for quiver gauge theories*](https://arxiv.org/abs/2509.06226) (arXiv:2509.06226, 2025; revised 2026-01-05). Identified in the AI Proved What? exposition as a finite-type predecessor; the manuscript states that its main theorem proves this work's Conjecture 2.1, Equation (2.3).
 - [Vasily Krylov and Pavel Shlykov, *Hikita-Nakajima conjecture for the Gieseker variety*](https://arxiv.org/abs/2202.09934) (arXiv:2202.09934, 2022; revised 2023-07-01). Identified in the AI Proved What? exposition as the framed Jordan-quiver predecessor; it proves the equivariant correspondence for the Gieseker variety with an explicit isomorphism on generators.
 - [Tatsuyuki Hikita, *An algebro-geometric realization of the cohomology ring of Hilbert scheme of points in the affine plane*](https://arxiv.org/abs/1501.02430) (arXiv:1501.02430, 2015-01-11). Cited in the AI Proved What? exposition as the Hilbert-scheme precedent for realizing cohomology as functions on a scheme-theoretic fixed locus.
+- [Tommaso Maria Botta and Ben Davison, *Okounkov's conjecture via BPS Lie algebras*](https://arxiv.org/abs/2312.14008) (arXiv:2312.14008, 2023; revised 2025-11-11). Cited in the Hikita-AI BPS draft as a source for hypothesis H3, the framed BPS cohomology rank; it is not in the preprint's bibliography.
 
 ## Possibly relevant literature (found by the agent, not checked)
 - [J. Kamnitzer, M. McBreen, N. Proudfoot, *The quantum Hikita conjecture*](https://arxiv.org/abs/1807.09858) (arXiv:1807.09858, 2018/2020). Formulates the quantum Hikita conjecture; relevant to the preprint's statement that it does not assert the quantized version, and not in its bibliography.
+- [Kohei Hatano, *The cohomology of framed moduli spaces and the coordinate ring of torus fixed points of quotient singularities*](https://arxiv.org/abs/2109.14655) (arXiv:2109.14655, 2021; v3 2026-10-07). Treats the Gieseker case that the preprint attributes to Krylov–Shlykov, identifying the cohomology of framed moduli spaces with a C^*-fixed-point coordinate ring of C^{2n}/((Z/rZ) ≀ S_n); v3 adds an algebra isomorphism in an appendix and corrects an error in an earlier proof, and the paper is not in the preprint's bibliography.
 
 ## Digests and expositions
 - [Ben Webster (requester), *Hikita-AI: Reader's guide to the OpenAI equivariant Hikita preprint*](https://github.com/bwebste/Hikita-AI) (GitHub repository, from 7 October 2026). A 7-page reader's guide drafted by Claude at Webster's request for participants of an SLMath program, reorganizing the argument without verifying the proofs. [AI-generated per source]

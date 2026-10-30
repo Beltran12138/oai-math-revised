@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -8,6 +8,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Comments and discussion
 - [Scott Aaronson, *The Mathocalypse*](https://scottaaronson.blog/?p=10169) (Shtetl-Optimized, 2026-10-07). Relays Dana Moshkovitz's first reading of the release; her quoted messages note that it also contains "direct optimal NP hardness of approximation proofs" for the main applications of the UGC, bypassing the UGC. [family-level]
 - [Comment thread, *102. The Unique Games Conjecture and optimal approximation thresholds*](https://github.com/mahrud/openai-math-comments/pull/102) (mahrud/openai-math-comments PR #102, opened 2026-10-09). Thread for human commentary on the five manuscripts; so far its only human comment points to the Fei–Minzer–Wang 4-to-1 games preprint and the Quanta article. [family-level]
+- [Kunal Relia, *Comment on oai-math-revised: a community hub for revising OpenAI’s math write-ups*](https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/) (What's new, 2026-10-24). Asks for clearer statements of the Max-Cut and Vertex Cover papers’ contributions relative to the earlier UGC-conditional results of Khot–Kindler–Mossel–O’Donnell and Khot–Regev. [family-level]
 
 ## Formalization
 - [OpenAI, *Lean scope notes for family 102*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/102.md) (release Lean docs, lean/docs/102.md). Describes the formalized statements of all five results, for this paper the cover-density gap and its consequence for every fixed approximation factor below two, and links the corresponding Comparator challenge files. [family-level]

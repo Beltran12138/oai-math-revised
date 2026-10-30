@@ -1,12 +1,12 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
 
 ## Comments and discussion
-- None found.
+- [maximusrufus, *Independent replays of computational claims in the openai/math October 2026 release*](https://raw.githubusercontent.com/maximusrufus/openai-math-replays/main/README.md) (GitHub, undated). Reports 26 passing computational checks across both manuscripts, including exact-rational checks of this paper's Section 2.2 inequalities and equation (39) arithmetic, while explicitly excluding the algorithms and their correctness and running-time analyses. [family-level]
 
 ## Formalization
 - None found.

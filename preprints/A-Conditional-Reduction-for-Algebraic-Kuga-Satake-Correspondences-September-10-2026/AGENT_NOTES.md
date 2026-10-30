@@ -1,12 +1,12 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [Yankı Lekili and Nick Sheridan, *Rigidity, flexibility, and a sign error*](https://arxiv.org/abs/2610.30976) (arXiv:2610.30976, 22 Oct 2026). Locates the error in the withdrawn "Algebraicity of Kuga–Satake correspondences for K3 surfaces" and two related documents in the construction of an unobstructed Lagrangian immersion; this paper is not among the documents discussed. [family-level]
 
 ## Comments and discussion
-- None found.
+- [Nathan Humphrey, *A sign slip in OpenAI's split-eightfold proof, and why the natural repair looks blocked*](https://goodluckhavefun04.substack.com/p/a-sign-slip-in-openais-split-eightfold) (Substack, 7 Oct 2026). Reports the double-point sign inconsistency in Proposition 3.1 of the withdrawn eightfold paper, with a [check repository](https://github.com/mrnathanhumphrey-droid/openai-split-eightfold-gap) that its README says was worked out with AI models; Lekili–Sheridan credit this report, and neither source discusses this paper. [family-level]
 
 ## Formalization
 - None found.

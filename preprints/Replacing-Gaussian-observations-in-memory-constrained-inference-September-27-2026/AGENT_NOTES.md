@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -10,6 +10,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Formalization
 - [OpenAI, *Memory–sample lower bounds for noiseless Gaussian regression: Lean scope notes*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/140.md) (oai-math-revised mirror of openai/math, 2026-10). Describes the Lean formalization across the six papers, with eight comparator files (e.g. NoiselessRegression.lean, SubsphereCurrent.lean); for this paper it reports row-replacement comparisons and fiber-block estimates, excluding the separate streaming consequences and several intermediate constructions. [family-level]
+- [MathVet, *Family 140 statement-fidelity audit*](https://github.com/mathvet/mathvet/blob/14c7f918cd336d0da03a02aae5a0eed4a429d4db/reviews/openai-math/fidelity-table.csv) (GitHub audit, accessed 2026-10-30). Classifies the family’s formal statements as covering its headline and identifies custom learner and measurability definitions for scrutiny. [AI-generated per source] [family-level]
 
 ## Related prior literature mentioned by others
 - [V. Sharan, A. Sidford and G. Valiant, *Memory-Sample Tradeoffs for Linear Regression with Small Error*](https://arxiv.org/abs/1904.08544) (arXiv:1904.08544, STOC 2019). Identified by VibeMathed as the noisy-regression precursor to the family's precision question. [family-level]

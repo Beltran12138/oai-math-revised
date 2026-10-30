@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Yude Liu, Qiang Sun, Ge Xiong, *The centered logarithmic Brunn–Minkowski inequality*](https://arxiv.org/abs/2610.10152) (arXiv:2610.10152, v1 7 Oct 2026, v2 8 Oct 2026). Proves the logarithmic Brunn–Minkowski and logarithmic Minkowski inequalities for convex bodies with centroid at the origin, with equality cases and L_p consequences for p > 0, citing this paper as its analytic starting point (ref. [24]); the authors report that independent human verification remains incomplete. [AI-generated per source]
@@ -24,6 +24,9 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Possibly relevant literature (found by the agent, not checked)
 - [Amir Livne Bar-on, *The (B) conjecture for uniform measures in the plane*](https://arxiv.org/abs/1311.6584) (arXiv:1311.6584, 2013). It proves a planar (B)-type log-concavity for uniform measures on symmetric convex sets, which is earlier work on the measure consequence the paper derives in Section 8.
 - [Shouda Wang, *Monotonicity of the deficit in the local log-Brunn-Minkowski inequality*](https://arxiv.org/abs/2510.19061) (arXiv:2510.19061, 2025). It gives another proof of the local inequality for zonoids, a case the paper attributes to van Handel in its survey of local results.
+- [Alexander V. Kolesnikov, *A logarithmic Brascamp–Lieb variance inequality*](https://arxiv.org/abs/2610.21669) (arXiv:2610.21669, 15 Oct 2026). Proves a strengthened Brascamp–Lieb inequality for even log-concave measures under the hypothesis that each positive sublevel body satisfies the local logarithmic Brunn–Minkowski inequality, a local form of Theorem 1.1; it does not cite this paper, and its acknowledgments state the results were obtained with assistance of "Chat GPT-6".
+- [Sotiris Armeniakos, Jacopo Ulivelli, *A strengthening of the dimensional Brunn–Minkowski conjecture implies the (B)-conjecture*](https://arxiv.org/abs/2602.23350) (arXiv:2602.23350, v2 12 Mar 2026). Derives the (B)-conjecture for sufficiently regular even log-concave measures from a strengthened dimensional Brunn–Minkowski conjecture, a conditional route to the scalar-dilation statement of Corollary 8.1.
+- [Pavlos Kalantzopoulos, *Commutativity in a Poincaré-Type Inequality*](https://arxiv.org/abs/2610.07248) (arXiv:2610.07248, 5 Oct 2026). Studies a Poincaré-type inequality for Gaussian measures on origin-symmetric convex sets related to Saroglou's reformulation of the conjecture of Theorem 1.1, with counterexamples among orthogonal boxes in the non-commuting case; posted the day before the release, it treats the conjecture as open.
 
 ## Digests and expositions
 - [ChatGPT, prepared for Galyna Livshyts, *A concise proof of the scalar B-conjecture*](https://glivshyts6.math.gatech.edu/Bconj.pdf) (public expository note, 2026-10-11). Extracts a direct scalar specialization of the manuscript’s moment-coordinate argument and identifies itself as neither independent human peer review nor formal verification. [AI-generated per source]

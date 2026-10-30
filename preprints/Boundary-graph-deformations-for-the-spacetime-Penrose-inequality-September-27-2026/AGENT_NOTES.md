@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -15,7 +15,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Hubert L. Bray and Marcus A. Khuri, *P.d.e.'s which imply the Penrose conjecture*](https://arxiv.org/abs/0905.2622) (arXiv:0905.2622, 2009; Asian Journal of Mathematics, 2011). Bray–Dolmen–Khuri–Schmidt identify this generalized Jang and Schoen–Yau framework as a predecessor when discussing OpenAI's neutral deformation program. [family-level]
 
 ## Possibly relevant literature (found by the agent, not checked)
-- None found.
+- [Hollis Williams, *Numerical investigation of the generalized Jang equation coupled to conformal flow of metrics*](https://arxiv.org/abs/2601.15359) (arXiv:2601.15359, v1 21 Jan 2026, v2 20 Apr 2026). Numerically studies, for spherically symmetric time-symmetric data, the generalized Jang coupling to conformal flow that this paper's introduction describes as a reduction contingent on solving the coupled system, and reports no finite-radius breakdown; not in this paper's bibliography.
 
 ## Digests and expositions
 - None found.

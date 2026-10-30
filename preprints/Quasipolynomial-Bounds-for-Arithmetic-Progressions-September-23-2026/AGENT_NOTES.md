@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -29,3 +29,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## News and blogs
 - [José Hdz. Stgo., *The long-awaited simple proof of the Green-Tao theorem is finally here!*](https://elr3to.blogspot.com/2026/10/the-long-awaited-proof-of-green-tao-is.html) (Apuntes misceláneos, 7 October 2026). Observes that the manuscript’s Corollary 1.2, together with divergence of the sum of reciprocals of primes, implies arbitrarily long arithmetic progressions in the primes.
+- [Bill Gasarch, *Conjectures that I thought would not be proved in my lifetime....were*](https://blog.computationalcomplexity.org/2026/10/conjecture-that-i-thought-would-not-be.html?m=0) (Computational Complexity, 11 October 2026). Section 2 discusses the manuscript's reciprocal-sum result in light of Bloom–Sisask's three-term theorem, explains why the extension to every length surprised Gasarch, and calls for human understanding of the formalized proof.

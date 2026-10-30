@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Paolo Leonetti, *On the inverse Goldbach problem*](https://arxiv.org/abs/2610.15758) (arXiv:2610.15758, 11 Oct 2026). Proves upper and lower counting-function bounds for a hypothetical decomposition of the primes and a lower bound for ternary sumsets; its introduction cites this paper and says the claim "has not yet been verified by the math community."
@@ -14,6 +14,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [google-deepmind/formal-conjectures, *FormalConjectures/ErdosProblems/431.lean*](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/431.lean) (formal-conjectures). States both the infinite-summands case and the full Ostmann statement, marked "research solved" and citing this paper; the theorem bodies are `sorry` and link to the Lean proofs in the openai/math repository.
 - [mo271, *feat: mark problems solved in the OpenAI math release and link formal proofs*](https://github.com/google-deepmind/formal-conjectures/pull/6898) (formal-conjectures PR #6898, merged 11 Oct 2026). Marks Erdős 431 as solved and adds a proof link for the Ostmann variant; the review discussion does not address this problem. [family-level]
 - [Shinsuke-Hamaji, *ostmann-proof-lean4*](https://github.com/Shinsuke-Hamaji/ostmann-proof-lean4) (GitHub repository, 2026). A third-party repository that describes itself as a Lean 4 verification of Ostmann's conjecture that is "overriding OpenAI's frozen Result 013"; its relation to the release's Lean code is not documented.
+- [pw, *erdosproblemaday-verification: 431/openai-ostmann-inverse-goldbach-refereed*](https://github.com/pw/erdosproblemaday-verification/tree/main/431/openai-ostmann-inverse-goldbach-refereed) (GitHub repository, README dated 23 Oct 2026). Independent replay of the release's Lean development reporting 7,582 of 7,582 modules built with only standard axioms, and a dependency finding that `OstmannPrimes` uses a Lean proof that Landau–Siegel zeros do not exist (`dirichlet_real_zero_bound`) while `OstmannComplete` and the paper do not; the README states that its authors did not referee that proof. [AI-generated per source]
 
 ## Related prior literature mentioned by others
 - [Terence Tao and Tamar Ziegler, *Infinite partial sumsets in the primes*](https://arxiv.org/abs/2301.10303) (arXiv:2301.10303, 2023). Cited on [erdosproblems.com/431](https://www.erdosproblems.com/431) as an unconditional construction of infinite sequences $A$ and $B$ with $a_i+b_j$ prime for $i<j$; this is a partial-sumset counterpart to the full-sumset statement proved here.

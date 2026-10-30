@@ -1,9 +1,9 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [Jihao Liu, *Nonvanishing implies abundance*](https://arxiv.org/html/2610.35913v1) (arXiv:2610.35913v1, October 7, 2026). Theorem 1.3 derives projective lc good models from smooth canonical nonvanishing, overlapping this manuscript’s abundance step. Remark 0.1 claims shared ideas with OpenAI’s nonvanishing-to-abundance argument and raises possible use of the author’s earlier Codex-submitted draft; this is the author’s priority statement. [family-level]
 
 ## Comments and discussion
 - None found.

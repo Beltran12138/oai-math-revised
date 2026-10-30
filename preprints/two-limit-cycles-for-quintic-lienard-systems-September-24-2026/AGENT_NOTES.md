@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -20,6 +20,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Hebai Chen, Leshan Chen and Yu Xiao, *Limit cycles of slow-fast quintic Lienard systems*](https://arxiv.org/abs/2610.13080) (arXiv:2610.13080, 9 October 2026). Independently proves that for each fixed real quintic F, $\dot x=y-F(x)$, $\dot y=-\varepsilon x$ has at most two limit cycles for small ε > 0, with a two-cycle example; it covers the slow–fast regime of Theorem 1.1, presents itself as complementing Li–Lu, and does not mention the release.
 - [Chen Cao, Nasrin Sadri, Yilei Tang and Zhaoxia Wang, *Global Dynamics and Periodic-Annulus Bifurcations in a Reversible Quintic Liénard System*](https://arxiv.org/html/2610.26699) (arXiv:2610.26699, 19 October 2026). A study of a different (reversible) quintic Liénard family whose introduction states that the maximum number of limit cycles of a general classical quintic Liénard equation "is still unknown"; it does not mention the release.
 - [Valery A. Gaiko, *Liénard's system and Smale's problem*](https://arxiv.org/abs/math/0611143) (arXiv:math/0611143, November 2006). An earlier preprint claiming a solution of Smale's thirteenth problem on the maximum number of limit cycles of Liénard polynomial systems, by field-rotation methods; relevant as prior claimed work on the bound addressed in Theorem 1.1.
+- [Chen Cao, Hebai Chen and Yilei Tang, *New criteria for upper bounds on the number of limit cycles in Liénard systems*](https://arxiv.org/abs/2610.30417) (arXiv:2610.30417v2, v1 21 October 2026, v2 23 October 2026). Gives a two-cycle criterion for generalized Liénard systems in a single potential well, under shape conditions and with no prescribed degree or parity, plus another proof of the quartic bound of Li–Llibre; relevant as a separate route to bounds of the type in Theorem 1.1, it cites Rychkov and Li–Lu for degree five and does not cite the release.
 
 ## Digests and expositions
 - [Singh-AP, *ai-math-papers-explained: Uniform bounds for planar polynomial limit cycles*](https://github.com/Singh-AP/ai-math-papers-explained/blob/main/papers/uniform-bounds-for-planar-polynomial-limit-cycles-September-24-2026) (GitHub, accessed 2026-10-21). A beginner-level explainer filed under the uniform-bounds paper that also covers this companion's theorem, proof outline, a two-cycle example and its Lean formalization; the README states that the slides, infographics, report and audio were generated with NotebookLM. [AI-generated per source] [family-level]

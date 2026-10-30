@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -23,6 +23,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Markus Kunze, *Yet another criterion for global existence in the 3D relativistic Vlasov-Maxwell system*](https://arxiv.org/abs/1406.1517) (arXiv:1406.1517, 2014). A continuation criterion based on an $L^2_x$ bound for a velocity-averaged quantity, related to the continuation criteria listed in the paper's introduction.
 - [Neel Patel, *Three New Results on Continuation Criteria for the 3D Relativistic Vlasov-Maxwell System*](https://arxiv.org/abs/1607.07416) (arXiv:1607.07416, 2016). Refines the Kunze and Luk–Strain continuation criteria, including a version with a time-varying support plane, related to the Luk–Strain results the paper cites.
 - [Christophe Cheverry and Slim Ibrahim, *The relativistic Vlasov-Maxwell system: Local smooth solvability for weak topologies*](https://arxiv.org/abs/2306.11812) (arXiv:2306.11812, 2023). Local smooth solvability via a representation formula for momentum spreading, related to the paper's local existence and uniqueness step; the Xie survey reports that the release's reasoning summary cites it, although the paper does not.
+- [Peter Constantin and Hezekiah Grayer II, *Radiative Vlasov-Maxwell Equations*](https://arxiv.org/abs/2504.01687) (arXiv:2504.01687, 2025). Proves unconditional global regularity with large initial data for a class of equations that modify the Lorentz force by radiation reaction, a large-data result for a related system next to the paper's Theorem 1.1, which has no size or symmetry restriction.
 
 ## Digests and expositions
 - [Ying Xie, *What the Machine Invented: Mining New Mathematical Instruments from OpenAI's October 2026 Release of AI-Generated Mathematics*](https://arxiv.org/html/2610.17090v1) (arXiv:2610.17090, 12 Oct 2026). Section 8.2.3 summarizes the paper's new tools (signed momentum-increment bootstrap, Prop. 2.1; signed force identity along source labels, Lemma 6.1; direction-change counting and selection, §§4, 7, 8) and lists caveats, including a small margin in the exponent comparison and a discrepancy between the paper and the reasoning summary. [family-level]

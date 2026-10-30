@@ -1,12 +1,12 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
 
 ## Comments and discussion
-- None found.
+- [Carlos Toledo, *OpenAI's math release: what it claims beyond what it checks*](https://carlostoledo.co/reports/openai-math.html) (cert-machine audit, findings dated 2026-10-10; report updated 2026-10-27). The audit identifies the Gyárfás tree-cover consequence as absent from family 162's Comparator statements, distinguishing that statement-coverage assessment from its successful kernel checks of the hypergraph results. [AI-generated per source] [family-level]
 
 ## Formalization
 - [OpenAI math release, *Counterexamples to Ryser's covering conjecture: Lean formalization scope*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/162.md) (lean/docs/162.md, 6 October 2026). The release's scope note states that the formalization covers ranks $r=p^n+1$, including every sufficiently large prime $p\equiv2\pmod3$ with every sufficiently large odd $n$ (comparator `RyserOddExtensions.lean`), and a fixed-prime variant with prime degrees $n$ (comparator `RyserCovering.lean`). [family-level]

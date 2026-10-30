@@ -1,15 +1,16 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [Kenta Kitamura, *infinity-laplacian-bounded-forcing*](https://github.com/KitaKen1/infinity-laplacian-bounded-forcing) (GitHub, theorem dated 12 October 2026). States an interior $C^{1,\alpha_d}$ estimate for viscosity solutions with $|\Delta_\infty u|\le M$ in dimensions $d\ge2$, with an added $(RM)^{1/3}$ term on the right-hand side, and presents this manuscript's Theorem 1.1 as the homogeneous starting point.
 
 ## Comments and discussion
 - None found.
 
 ## Formalization
-- None found.
+- [Juan J. Manfredi, *infharmonic-lean*](https://github.com/na0b/infharmonic-lean) (GitHub; Palomar entry PALOMAR-2026-10-29-000040, registered 29 October 2026). Lean 4 / Mathlib formalization of Theorem 1.1, Corollary 1.2 and the Liouville theorem that reports following the manuscript's argument, with no `sorry` and only the three standard axioms, the proofs and blueprint being written by Claude agents under the Trellis pipeline. [AI-generated per source]
+- [Kenta Kitamura, *Formalize infinity-Laplacian regularity and record the Lean proofs*](https://github.com/google-deepmind/formal-conjectures/pull/7446) (formal-conjectures PR #7446, opened 18 October 2026, unmerged on 30 October 2026). Adds Lean statements of Theorem 1.1, its scaling corollary and the bounded-forcing variant, linking external Lean proofs for which it reports passing Comparator targets and axiom audits, and states that ChatGPT and OpenAI Codex assisted. The approving review by bocowgill (19 October 2026) reports checking norms, viscosity signs and dimension-only constants against Theorem 1.1 and Kitamura's statements, while noting that the external proofs were not rerun.
 
 ## Related prior literature mentioned by others
 - None found.

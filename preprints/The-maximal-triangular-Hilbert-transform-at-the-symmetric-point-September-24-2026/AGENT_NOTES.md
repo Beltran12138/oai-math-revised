@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -17,6 +17,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Possibly relevant literature (found by the agent, not checked)
 - [Michael Christ, Polona Durcik, Vjekoslav Kovač, Joris Roos, *Pointwise convergence of certain continuous-time double ergodic averages*](https://arxiv.org/abs/2011.06370) (arXiv:2011.06370; Ergodic Theory Dynam. Systems 42 (2022)). Derives a.e. convergence results from bounds for a curved triangular Hilbert transform model, related to the paper's joint a.e. and $L^{3/2}$ principal-value consequence for the flat operator.
+- [Polona Durcik, Marco Fraccaroli, Joris Roos, *A curved three-dimensional simplex Hilbert transform*](https://arxiv.org/abs/2610.24850) (arXiv:2610.24850, 17 Oct 2026). Proves Lebesgue estimates for a curved simplex operator along the moment curve, with a Lean 4 verification, and records in a footnote that OpenAI made public preprints claiming the bound $L^3\times L^3\to L^{3/2}$ for the triangular Hilbert transform, the scalar estimate of this paper; it does not assess or use that claim.
 
 ## Digests and expositions
 - [AI Proved What?, *Triangle, tamed? The triangular Hilbert transform at the symmetric point*](https://aiprovedwhat.com/episodes/082-triangular-hilbert-transform-symmetric-point/) (Episode 082, October 2026). This AI-assisted video and transcript distinguish the three manuscripts' claims and outline their matrix-energy, Gaussian heat-flow and dyadic telescoping arguments. [AI-generated per source] [family-level]

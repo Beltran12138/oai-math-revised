@@ -1,10 +1,11 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [P. M. Aronow and Patrick Lopatto, *Lower and Upper Bounds for Glauber Dynamics from Typical States of the Low-Temperature Sherrington–Kirkpatrick Model*](https://hexagonmath.org/abs/2610.00402v1) (hexagon:2610.00402v1, 2026-10-20). Cites this paper's Theorems 1.1–1.2 (variance prefactor $a_2(\beta)>0$ and limiting law), notes these would sharpen its mean-bias lower bound to $c_\beta n^{-5/6}$, and states that it does not use this paper. [AI-generated per source]
 - [P. M. Aronow and Patrick Lopatto, *An $N^{-7/10}$ Bound for the Finite-Size Bias of the Sherrington–Kirkpatrick Free Energy*](https://hexagonmath.org/abs/2610.00177v1) (hexagon:2610.00177v1, 2026-10-12). Section 1.6 derives conditional mean-bias bounds from both manuscripts of this family, including an $N^{-5/6}$ lower bound from the positive variance prefactor and an upper bound from this paper's uncentered comparison. [AI-generated per source] [cites earlier version] [family-level]
+- [Hang Du, Shuyang Gong, Brice Huang, Zhangsong Li, *Free energy fluctuations of symmetric perceptron models up to and including criticality*](https://arxiv.org/html/2610.31736v1) (arXiv:2610.31736v1, 2026-10-22). Section 1.3 lists "fluctuations of order $N^{1/6}$ at low temperature" for the SK free energy as now known, citing Chatterjee 2009 and this paper (reference [Ope26c]); the paper's own results concern perceptron models and do not use this result.
 
 ## Comments and discussion
 - None found.
@@ -22,9 +23,10 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Possibly relevant literature (found by the agent, not checked)
 - [T. Aspelmeier, *Free energy fluctuations and chaos in the Sherrington-Kirkpatrick model*](https://arxiv.org/abs/0712.3586) (Phys. Rev. Lett. 100 (2008) 117205). Links free-energy sample-to-sample fluctuations to bond chaos, which bears on this paper's corollary deriving upper disorder-chaos scales from the variance asymptotic; not in this paper's bibliography.
+- [Cécile Monthus and Thomas Garel, *Matching between typical fluctuations and large deviations in disordered systems: application to the statistics of the ground state energy in the SK spin-glass model*](https://arxiv.org/abs/0912.2875) (J. Stat. Mech. (2010) P02023). Relates the tail exponents of the rescaled SK ground-state energy law to the fluctuation exponent, which bears on this paper's introduction contrasting tail matching with a limiting law and on the exponential moment of $\nu_\beta$, though at zero rather than fixed positive temperature; not in this paper's bibliography.
 
 ## Digests and expositions
 - None found.
 
 ## News and blogs
-- None found.
+- [Hong A-reum, *OpenAI floods math with 719 AI papers; Korea hails speed, flags clarity strain*](https://biz.chosun.com/en/en-science/2026/10/12/ZF43Y2FTRZH4BIKNWISTHSGJMU/?outputType=amp) (ChosunBiz, 2026-10-12). Reports Ji-woon Lee's account that OpenAI's low-temperature SK fluctuation claim develops an approach that first appeared in July 2026, placing this family's claim in the context of recent human research. [family-level]

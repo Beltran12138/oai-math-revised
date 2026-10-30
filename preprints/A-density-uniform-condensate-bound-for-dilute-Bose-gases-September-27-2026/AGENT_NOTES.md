@@ -1,9 +1,9 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [P. M. Aronow, P. Lopatto, *Superfluid Stiffness and Nonclassical Rotational Inertia of the Dilute Hard-Sphere Bose Gas*](https://hexagonmath.org/abs/2610.00450v1) (hexagon:2610.00450v1, 22 October 2026). Claims lower bounds of order $(\rho a^3)^{3/8}$ on the superfluid and nonclassical rotational inertia fractions of the hard-sphere gas at positive temperature, adapting from this paper the open-route construction (Section 9), the comparison of normalizing constants (Section 10), the ordered expansion in the proof of Lemma 8.1 and the route-stability argument (Lemmas 10.2–10.3, Section 10.4); its warning page says it has not been verified by a human expert. [AI-generated per source] [family-level]
 
 ## Comments and discussion
 - None found.

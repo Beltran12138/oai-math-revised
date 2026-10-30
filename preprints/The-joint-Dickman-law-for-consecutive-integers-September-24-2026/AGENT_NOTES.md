@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Ji Ho Bae (jbaelaw), *Erdos928*](https://github.com/jbaelaw/Erdos928) (GitHub repository, Lean 4/Mathlib, accessed 2026-10-21). Formalizes in Lean a counting estimate and an explicit implication from the joint Dickman law of this paper to Erdős Problem 928; it explicitly does not re-prove or import the paper's analytic theorem. [AI-generated per source]
@@ -19,9 +19,10 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Possibly relevant literature (found by the agent, not checked)
 - [Zhiyuan Yang, *Note on the largest prime factors of consecutive integers*](https://arxiv.org/abs/2610.23280) (arXiv:2610.23280, 16 Oct 2026). Gives an alternative proof of the Tao–Teräväinen positive-proportion results on patterns of $P^+$ at consecutive integers, discussed in the paper's "Previous work" section, and a lower bound $\gg x/\log x$ for $P^+(n+1)/P^+(n)\in[1,1+\varepsilon)$; it does not cite the release.
+- [Zhiyuan Yang, *On the largest prime factors less than $y$ of consecutive shifted primes*](https://arxiv.org/abs/2609.15166) (arXiv:2609.15166, v1 14 Sep 2026, v2 29 Oct 2026). With $P_y^+(n)$ the largest prime factor of $n$ not exceeding $y$, proves $\#\{n\le x:P_y^+(n)<P_y^+(n+1)\}\sim x/2$ for $3\le y\ll x^{o(1)}$, a truncated analogue of Corollary 1.2; v2 still states the untruncated density $1/2$ as Conjecture 1.1, and its bibliography does not cite the release.
 
 ## Digests and expositions
 - [eigendash, *openai-math-visualised*](https://github.com/eigendash/openai-math-visualised) (GitHub repository, accessed 2026-10-21). Includes a numerical probe of family 012 up to $6\times10^7$: the density of $P^+(n)<P^+(n+1)$ is reported as 0.499983, with a comparison of the binned joint distribution against the product of Dickman marginals.
 
 ## News and blogs
-- None found.
+- [Bogdan Grechuk, *Prime Factors of Consecutive Integers*](https://functor.network/user/3333/entry/2037) (Functor Network, 2026-10-28). Places the claimed ordinary-density law against earlier logarithmic and almost-all-scales results, explains the density-one-half deduction, and sketches the reduction through weighted factorizations to short-interval estimates.

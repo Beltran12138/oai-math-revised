@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -18,6 +18,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [D. R. Heath-Brown, *Gaps between primes, and the pair correlation of zeros of the zeta-function*](https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/41/1/103404/gaps-between-primes-and-the-pair-correlation-of-zeros-of-the-zeta-function) (Acta Arith. 41 (1982), 85–99). Tao's 2025 erdosproblems comment uses an estimate from this paper for the conditional (RH plus pair correlation) answer to the question that Corollary 1.2 settles unconditionally; it is not in the paper's bibliography.
 - [Danilo Bazzanella, Alessandro Languasco and Alessandro Zaccagnini, *Prime numbers in logarithmic intervals*](https://arxiv.org/abs/0809.2967) (arXiv:0809.2967, 2008; Transactions of the American Mathematical Society 362, 2010). The AI Proved What? exposition identifies this work, also cited in the manuscript, as the earlier unconditional positive-proportion result for thresholds below approximately 0.58 times the logarithmic gap scale.
 - [mo271, *fix(ErdosProblems/968): the increasing and decreasing triple variants are true*](https://github.com/google-deepmind/formal-conjectures/pull/6752) (formal-conjectures PR #6752, 30 Sep 2026). This PR settles Erdős's follow-up questions about increasing and decreasing triples of $p_n/n$ by citing Ford–Maynard–Tao, "Chains of large gaps between primes" (arXiv:1511.04468), and Maynard (2015); the paper does not cover these variants.
+- [linrock, *feat(ErdosProblems/968): link the Erdős–Prachar companion proofs*](https://github.com/google-deepmind/formal-conjectures/pull/7621) (formal-conjectures PR #7621, opened 25 Oct 2026, open and approved by one reviewer on 26 Oct 2026). This PR links Lean proofs in [linrock/math-proofs](https://github.com/linrock/math-proofs/tree/f2c06c925dd01819fcb0bf4674d302850108cb8a/erdos-968) of the two earlier Erdős–Prachar statements on $u_n=p_n/n$ (total variation of order $(\log x)^2$, positive lower density of decreases), which are companions to Corollary 1.2 and not formalizations of the paper's results; the PR states that AI assistance was used. [AI-generated per source]
 
 ## Possibly relevant literature (found by the agent, not checked)
 - [D. A. Goldston, J. Pintz, C. Y. Yıldırım, *Positive Proportion of Small Gaps Between Consecutive Primes*](https://arxiv.org/abs/1103.3986) (arXiv:1103.3986, 2011). This paper proves the small-gap counterpart of Theorem 1.1: a positive proportion of consecutive gaps are below $\eta\log p_n$, counted with equal weight on prime indices. It is not in the bibliography.

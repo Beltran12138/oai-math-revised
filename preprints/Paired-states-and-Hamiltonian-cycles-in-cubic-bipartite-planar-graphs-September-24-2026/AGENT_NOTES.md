@@ -1,9 +1,9 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [Zhentao Li, *A note on the proof of Barnette's conjecture*](https://arxiv.org/abs/2610.30490) (arXiv:2610.30490, 2026-10-21). Exposition of this paper's proof, which it calls "essentially unchanged" while replacing the complex-valued exponential sum with two sign-reversing involutions; it proves the edge-avoiding form (for every edge e₀, G − e₀ has a Hamiltonian cycle), treats the cyclically 4-edge-connected case in the main text, handles non-trivial 3-edge cuts in an appendix, and states that LLMs were used to read the preprint and to revise and format the note.
 
 ## Comments and discussion
 - [Mohamed Sabba (@ma_sabba), post on X](https://x.com/ma_sabba/status/2108263808011555123) (2026-10-08). Replying to the physics-flavoured description of the proof, points to "a deep connection between a quantum control problem involving sums of complex exponentials (composite pulse design) and Hamiltonian cycles"; a [follow-up post](https://x.com/ma_sabba/status/2108282706484199747) says Astra claims this analogy for the proof's key insight and that the author can attest only to the composite-pulse side.
@@ -33,4 +33,4 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - [Azmat, *Barnette's Conjecture: Inside OpenAI's Surprising Proof and Why It Matters*](https://binaryverseai.com/barnettes-conjecture-openai-proof/) (Binary Verse AI, 2026-10-08). Non-technical walkthrough of the dual induced-tree formulation, paired states, disk identity, and cancellation-then-nonvanishing structure, noting that it gives no polynomial-time algorithm; several of its "Lean" links point to unrelated articles on the same site.
 
 ## News and blogs
-- None found.
+- [ai.thesatyajit.com, *openai/math: 372 claimed theorems, 26 million lines of Lean, and what the green tick means*](https://ai.thesatyajit.com/articles/openai-math) (blog, 2026-10-06). Its Barnette section explains the dual induced-tree formulation and the two regroupings of the paired-state sum, and discusses the Lean encoding of planarity and Hamiltonicity while the article discloses that the author did not build the code.

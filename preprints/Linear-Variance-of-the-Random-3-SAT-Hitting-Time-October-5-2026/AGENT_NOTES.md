@@ -1,9 +1,9 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [P. M. Aronow and Patrick Lopatto, *Existence of the $q$-Colorability Threshold for Sparse Random Graphs*](https://hexagonmath.org/abs/2610.00608v1) (Hexagon 2610.00608v1, 28 October 2026). Cites this paper's bounded-potential occupation argument (Lemmas 2.2 and 4.1) as related to its own frozen-class growth estimate and its Theorem 1.1 as a comparison for its window of order $n(\log n)^{-3/2}$ edges in $q$-colorability, noting that its variance bound cannot certify a window smaller than order $\sqrt n$. [AI-generated per source]
 
 ## Comments and discussion
 - None found.
