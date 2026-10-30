@@ -12,7 +12,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 - [spele1100 (GitHub), *scs-2approx*](https://github.com/spele1100/scs-2approx) (GitHub repository, C++17, 2026). Implements the paper's pipeline with a runtime check of length at most 2W and an independent verifier, reports no violations over a 40,000-instance campaign, and states a running time of roughly L⁵ to L⁸, with W ≤ OPT tested rather than proved per run.
 
 ## Comments and discussion
-- [Lior Pachter, *Thread on the shortest-common-superstring algorithm's practical scaling*](https://x.com/lpachter/status/2108060856034771400) (X, 2026-10-08). Reports that the paper's construction requires 4.29 million candidate vertices for 1,000 reads in their test and argues that the algorithm as written is impractical at sequencing scale.
+- [Lior Pachter (@lpachter), post on X](https://x.com/lpachter/status/2108060856034771400) (2026-10-08). Reports that the paper's construction requires 4.29 million candidate vertices for 1,000 reads in their test and argues that the algorithm as written is impractical at sequencing scale.
 
 ## Formalization
 - [OpenAI, *A factor-two approximation for shortest common superstring — Lean scope note*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/128.md) (OpenAI Math Release, lean/docs/128.md, 2026-10-06). The release's scope note describes a Lean formalization of a deterministic polynomial-time factor-two algorithm for every finite list of explicitly encoded strings, with time measured in input bits and approximation in symbol length, and links the comparator statement `ComparatorChallenges/Superstring.lean`.
