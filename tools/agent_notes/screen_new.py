@@ -58,9 +58,9 @@ def new_items(work: Path, families: dict) -> dict[str, list[dict]]:
 def screen(num: str, fam, items: list[dict]) -> list[dict]:
     blocks = []
     for s in fam.papers:
-        old = sections((ROOT / "preprints" / s / "AGENT_NOTES.md").read_text(encoding="utf-8"))
         new = [f"#{i['id']} ({i['section']}) {i['line']}" for i in items if s in i["folders"]]
         if new:
+            old = sections((ROOT / "preprints" / s / "AGENT_NOTES.md").read_text(encoding="utf-8"))
             existing = [l[:300] for ls in old.values() for l in ls]
             blocks.append(f"## Paper {s}\n\nExisting items:\n" + ("\n".join(existing) or "(none)") + "\n\nNew items:\n" + "\n".join(new))
     prompt = (HERE / "SCREEN_NEW.md").read_text(encoding="utf-8").replace("{ITEMS}", "\n\n".join(blocks))
