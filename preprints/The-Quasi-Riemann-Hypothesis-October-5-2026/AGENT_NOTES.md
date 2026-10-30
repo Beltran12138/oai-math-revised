@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Dean Cureton, Jesse Thorner, *A quasi-Riemann hypothesis for Dedekind zeta functions*](https://hexagonmath.org/abs/2610.00200v2) (hexagon:2610.00200, v1 2026-10-12, v2 2026-10-14). Proves ζ_K(s) ≠ 0 for Re s > 31/32 for every number field K, citing this paper as the shorter proof of the 11/12 region; proofs and Lean formalization attributed to AxiomProver.
@@ -16,10 +16,12 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - [John Carlos Baez (@johncarlosbaez.bsky.social), post on Bluesky](https://bsky.app/profile/johncarlosbaez.bsky.social/post/3myd7hu2irs2u) (2026-10-20). Opens a thread explaining the zero-free strip and the resulting bound on |π(n) − li(n)| for p > 11/12, saying "a lot of number theorists are checking the second one and it seems to be correct!" [family-level]
 - [Abhishek Saha (@ObhishekSaha), post on X](https://x.com/ObhishekSaha/status/2110275632223453627) (2026-10-14). Describes follow-up developments to the quasi-RH proof, starting with the Cureton–Thorner Hexagon preprint of October 12 that builds on OpenAI's proof. [family-level]
 - [Ricardo Pérez-Marco (@rperezmarco), post on X](https://x.com/rperezmarco/status/2113515394841428306) (2026-10-23). Says he checked, with ChatGPT's help, that the Lean formalization of the 11/12 quasi-Riemann paper has the same problem as the case discussed in the thread he replies to.
+- [Edgar Assing, Valentin Blomer and Farrell Brumley, retreat announcement on Tao's blog, *Collaborative retreat: New developments in the theory of zeta functions*](https://terrytao.wordpress.com/2026/10/30/collaborative-retreat-new-developments-in-the-theory-of-zeta-functions/) (2026-10-30). Announces lectures, exercise sessions and small-group projects for early-career researchers at the Hausdorff Center in Bonn (January 11-15), motivated by "the recently established proof of the quasi Riemann Hypothesis over the rational numbers" and its number-field generalization. [family-level]
 
 ## Formalization
 - [OpenAI, *The quasi-Riemann hypothesis: Lean scope note*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/003.md) (openai/math release, 2026-10). Formalizes the stronger 7/8 statement of the companion paper and the logarithmic real-zero gap; this 11/12 paper is not listed among the note's accompanying papers. [family-level]
 - [Axiom Math, Dean Cureton and Jesse Thorner, *Dedekind Zeta Zero-Free Region*](https://github.com/AxiomMath/DedekindZetaZeroFree) (GitHub, accessed 2026-10-21). AxiomProver-generated Lean development for the $31/32$ half-plane over arbitrary number fields and finite-order Hecke characters, using analytic-number-theory code adapted from the OpenAI release. [AI-generated per source] [family-level]
+- [Alex Kontorovich, *Quasi-RH at 11/12*](https://github.com/AlexKontorovich/quasi-rh) (GitHub, accessed 2026-10-30). Presents a direct Lean development of zeta nonvanishing for $\Re s>11/12$, reusing the release's analytic components with a variable descent reserve and an all-element sixth-power amplifier; its advertised endpoint is the zeta statement, and its assembly modifies the paper's prime amplifier. [family-level]
 
 ## Related prior literature mentioned by others
 - [Alexander Dunn and Maksym Radziwiłł, *Bias in cubic Gauss sums: Patterson's conjecture*](https://arxiv.org/abs/2109.07463) (Annals of Mathematics 200, 2024; arXiv:2109.07463v3). Cited in Rubinstein and Restrepo Borrero's follow-up, this work develops cubic-Gauss-sum transformations that also enter the quasi-Riemann arguments. [family-level]
@@ -29,7 +31,9 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - [Yitang Zhang, *Discrete mean estimates and the Landau-Siegel zero*](https://arxiv.org/abs/2211.02515) (arXiv:2211.02515, 2022). Earlier claimed effective bound L(1,χ) ≫ (log D)^(−2022), relevant to the abstract's statement that Theorem 1 rules out Landau–Siegel zeros.
 
 ## Digests and expositions
-- None found.
+- [Maksym Radziwiłł, *The quasi-Riemann Hypothesis*, Mathematics in the Age of AI seminar, Courant Institute](https://math.nyu.edu/dynamic/calendars/seminars/mathematics-in-the-age-of-ai/4570/) (2026-10-28). Hybrid seminar talk on the result; the listing gives no abstract, notes or recording. [family-level]
+- [Valentin Blomer, *A Quasi Riemann Hypothesis*, Number Theory Web Seminar](https://www.ntwebseminar.org/) (scheduled 2026-11-05). Talk announced to discuss "some ideas and methods in the proof of a quasi Riemann hypothesis released by OpenAI". [family-level]
+- [Alex Kontorovich, *The 11/12 argument*](https://alexkontorovich.github.io/quasi-rh/index.html) (Lean blueprint, accessed 2026-10-30). Pairs a mathematical account of the Poisson, cubic-theta, quadratic-sieve and amplification steps with Lean declarations, explaining how an Euler correction removes the modified amplifier's totient weight. [family-level]
 
 ## News and blogs
 - [Konstantin Kakaes, *AI Proved the Quasi-Riemann Hypothesis. What Happens Now?*, Quanta Magazine](https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/) (2026-10-19). Reports that this 49-page paper is the only one of the release edited by a person, is not yet formally verified, and is the version experts are studying.

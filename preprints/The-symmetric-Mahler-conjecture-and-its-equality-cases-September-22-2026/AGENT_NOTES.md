@@ -1,9 +1,10 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Martin Winter, *A relation between Mahler volume and flag number for convex polytopes*](https://arxiv.org/abs/2610.09990) (arXiv:2610.09990, 7 Oct 2026). Proves a volume-product/flag-number inequality and notes in its Section 1.1 that, assuming this paper's symmetric Mahler theorem is correct, Kalai's flag conjecture follows; Hanner equality for its own inequality is stated as open (Conjecture 3).
+- [Yanlu Lian, Fei Xue, *A note on consequences of Mahler's inequalities*](https://arxiv.org/abs/2610.34396) (arXiv:2610.34396, 25 Oct 2026). Cites this paper and, formulating its results as implications from these inequalities, applies the symmetric bound in dimension $n+1$ to deduce Makai's inequality $|K||(K-K)^\circ|\ge(n+1)/n!$ with equality exactly for simplices, along with sharp bounds for polar successive minima, critical determinants, first covering minima, non-separable lattices and paired mixed volumes.
 
 ## Comments and discussion
 - [Gil Kalai, *Updates: Sharing AI progress on mathematics (amazing!); and my lecture plans*](https://gilkalai.wordpress.com/2026/10/07/updates-sharing-ai-progress-on-mathematics-amazing-and-my-lecture-plans/) (Combinatorics and more, 7 Oct 2026). Lists the symmetric and general Mahler proofs with Hanner and simplex equality cases, links them to his earlier discussions of faces, flags and symplectic geometry, and says the results still need to be verified by human mathematicians. [family-level]
@@ -16,9 +17,12 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Related prior literature mentioned by others
 - [Matthieu Fradelizi, Mathieu Meyer, Artem Zvavitch, *Volume Product*](https://arxiv.org/abs/2301.06131) (arXiv:2301.06131, Jan 2023). Survey of known lower bounds and special cases of Mahler's conjecture, used by Agentic Economy's Mahler article for the history and definitions behind the symmetric and general claims. [family-level]
+- [E. Makai Jr., H. Martini, *Density estimates for $k$-impassable lattices of balls and general convex bodies in ${\Bbb R}^n$*](https://arxiv.org/abs/1612.01307) (arXiv:1612.01307, 5 Dec 2016). Lian and Xue cite its Conjecture 3.17 for the normalization of Makai's inequality and say the symmetric Mahler bound, with its general-body consequence, establishes both assertions of its Conjecture 3.14 on non-separable lattice densities.
+- [Arkadiy Aliev, *Mahler-type volume inequality for convex bodies with tetrahedral symmetry*](https://arxiv.org/abs/2511.14991) (arXiv:2511.14991, 19 Nov 2025). Lian and Xue cite this as the prior three-dimensional case of Makai's inequality, for bodies with tetrahedral symmetry, which their deduction from this paper's theorem extends to all convex bodies in every dimension.
 
 ## Possibly relevant literature (found by the agent, not checked)
 - [Shibing Chen, Yuanyuan Li, Dongmeng Xi, Zhefeng Xu, *The Symmetric Mahler Inequality in Dimension Three via Admissible Shadow Systems*](https://arxiv.org/abs/2605.13795) (arXiv:2605.13795, May 2026). A separate shadow-system proof of the three-dimensional symmetric case; the paper instead cites the same authors' arXiv:2605.09334 for this.
+- [Agam Guberman, *A connection between the Mahler conjecture and floating bodies*](https://arxiv.org/abs/2608.10994) (arXiv:2608.10994, 11 Aug 2026). Theorem 1.3 gives a combinatorial dichotomy for symmetric polytopes that locally minimize the volume product among those with at most $l$ vertices (every facet has many high-degree vertices, or the polytope is a linear cube), which relates to the paper's Hanner equality classification; not in its bibliography.
 
 ## Digests and expositions
 - [Elliot Kienzle, *Illustrating the AI proof of the Mahler conjecture*](https://chessapig.github.io/Mahler) (personal site, Oct 2026). Illustrated exposition centred on the companion symplectic-width paper, explaining how replacing its ball argument by a Lelong mass bound connects to this paper's equality cases; Kienzle calls the symplectic proof "a clever construction applying a technique I haven't published yet" and says he has not checked details line by line. [family-level]

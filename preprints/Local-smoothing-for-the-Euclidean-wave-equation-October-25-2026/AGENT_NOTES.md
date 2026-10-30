@@ -1,12 +1,13 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-27.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
 
 ## Comments and discussion
 - [James Leng (@JamesLeng15), post on X](https://x.com/JamesLeng15/status/2114875830228906072) (2026-10-27). Notes that the proof is only about 25 pages, relies primarily on elliptic PDEs and "does not use much of the mathematics developed by the harmonic analysis lineage".
+- [arutar, comment on Hacker News](https://news.ycombinator.com/item?id=50256326) (Hacker News, 2026-10-27). Contrasts the paper's short proof with the routes of the Wang–Zahl Kakeya proof and the two-dimensional local smoothing proof, noting that Wang–Zahl prove a stronger statement for tubes satisfying the Convex Wolff Axioms and that the paper bypasses the surrounding work on continuous incidence geometry.
 
 ## Formalization
 - [OpenAI math release, *Lean scope notes for family 079*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/079.md) (lean/docs/079.md). The release's scope note for both papers says the Lean development covers half-wave local smoothing for all $n\ge2$ and $2\le p<\infty$ with $\varepsilon$-loss, plus strict-range Bochner–Riesz, spherical extension, Stein square-function and Kakeya maximal/Hausdorff-dimension statements, with comparator links to `LocalSmoothing.lean`. [family-level]
@@ -22,6 +23,8 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-27.
 ## Digests and expositions
 - [AI Proved What?, *Local smoothing in every dimension? OpenAI's wave equation claim*](https://aiprovedwhat.com/episodes/079-local-smoothing-every-dimension/) (Episode 079, 2026-10-26). Explains the claimed all-dimensional theorem, its consequences and proof outline, discusses the September three-dimensional companion paper, reports the site's own numerical checks, and says no expert review has been named. [family-level] [AI-generated per source]
 - [Closed Form, *Local smoothing for the Euclidean wave equation*](https://closedform.nishachay.tech/e/openai-math-2026-079/) (Closed Form, accessed 2026-10-27). Explains the fixed-time versus time-averaged Sobolev thresholds with numerical examples, distinguishes the September three-dimensional and October all-dimensional claims, and summarizes their consequences and listed formalization scope. [AI-generated per source] [family-level]
+- [Eric W. Weisstein, *Local Smoothing Conjecture*](https://mathworld.wolfram.com/LocalSmoothingConjecture.html) (Wolfram MathWorld, accessed 2026-10-30). States the Sobolev threshold, cites the October manuscript, and distinguishes its Euclidean estimates with positive loss from zero-loss endpoints and variable-coefficient wave estimates.
 
 ## News and blogs
 - [OpenAI, *Working with academic communities to build scientific understanding*](https://openai.com/index/building-scientific-understanding-with-academic-communities/) (OpenAI, 2026-10-26). Its local-smoothing section describes the auxiliary-PDE approach and the restriction and Kakeya consequences, and reports that the AI output was obtained on October 18 and formalized in Lean the following day.
+- [Konstantin Kakaes, *OpenAI releases three landmark results in math, physics, and computer science*](https://www.quantamagazine.org/update/168483/) (Quanta Magazine, 2026-10-29). Its local-smoothing section explains time-averaged wave concentration, contrasts the claimed all-dimensional result with the earlier two-dimensional theorem, and describes the implication for Kakeya sets.

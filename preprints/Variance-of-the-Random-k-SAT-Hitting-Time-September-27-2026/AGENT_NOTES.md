@@ -1,9 +1,9 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [P. M. Aronow and Patrick Lopatto, *Existence of the $q$-Colorability Threshold for Sparse Random Graphs*](https://hexagonmath.org/abs/2610.00608v1) (Hexagon 2610.00608v1, 28 October 2026). Cites this paper's combination of expected lifetimes with clause deletions (Section 3.3, Lemma 3.4) and its charging of occupation to the expected lifetime (Section 4.1, Lemma 4.1) as antecedents of its $q$-colorability window bound, and its Theorem 1.1 as a comparison for that bound. [AI-generated per source]
 
 ## Comments and discussion
 - None found.

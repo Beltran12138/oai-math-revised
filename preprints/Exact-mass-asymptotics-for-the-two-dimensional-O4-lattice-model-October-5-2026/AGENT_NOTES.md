@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Anton Ragin, *The massive continuum limit of the two-dimensional O(4) sigma model*](https://zenodo.org/records/23349319) (Zenodo, doi:10.5281/zenodo.23349319, v7, 2026-10-13). Cites this manuscript while constructing an O(4) continuum limit; its stated conditional inputs are the O(4) renormalization-group paper and the O(3) continuum-limit paper. [AI-generated per source]
@@ -19,6 +19,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [AI Proved What?, *Do spins forget?*](https://aiprovedwhat.com/episodes/215-o3-continuum-o4-mass-asymptotics/) (Episode 215, October 2026). Explains the five papers’ claims, proof strategies and differing formalization scopes. [AI-generated per source] [family-level]
+- [Roland Bauerschmidt and contributors (README credits "the community"), *Digesting the O(3) NLSM construction*](https://github.com/bauerscr/nlsm) (GitHub repository bauerscr/nlsm, first commit 2026-10-13, latest commit 2026-10-29). Open effort to write a human-digested version of the O(3) construction; its README lists this paper as giving the O(4) mass asymptotics with an explicit constant, while the notes so far concentrate on the O(3) continuum-limit paper. [family-level]
 
 ## News and blogs
 - None found.

@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -10,6 +10,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Formalization
 - [OpenAI math release, *Lean scope notes for family 238*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/238.md) (lean/docs/238.md, 2026). States that the formalization covers the weighted compatibility theorem for balanced A×D rectangles with an exp(C₀n^{54/100}) loss (ThorpWeightedCompatibility.lean); the bounded regular-moment and other moment/rank conclusions are not included. [family-level]
+- [Carlos Toledo, cert-machine, *OpenAI math statement audit: family 238*](https://raw.githubusercontent.com/carlostoledo1891/cert-machine/9814e4c06281e34a113ce853d7d99ccce160b750/certs/openai-math-statements.json) (audit of release fd4aeeb, October 2026). Assesses the full-permutation mixing headline as matching ThorpRemaining’s statement, while checking the OccupiedOverlap and SpinAngle definition holes separately; this is a statement assessment, not a certificate of the manuscripts’ proofs. [family-level]
 
 ## Related prior literature mentioned by others
 - None found.

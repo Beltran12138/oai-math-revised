@@ -1,9 +1,11 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [queelius (fork of piiiico/openai-math-counterexamples), *openai-math-counterexamples*](https://github.com/queelius/openai-math-counterexamples) (GitHub repository, accessed 2026-10-21). Its row 047 reports an independent exact-arithmetic recomputation of the identities in the stabilization step (the route to $A[w]\cong\mathbb C^{[5]}$) as "holds", and states that the non-polynomiality of $A$ (Sections 3–6) was not checked. [AI-generated per source]
+- [Gaofeng Huang, *A Counterexample to the Holomorphic Cancellation Problem*](https://arxiv.org/abs/2610.12581) (arXiv:2610.12581, v1 2026-10-08, v3 2026-10-24). Version 3 cites this paper for the case $n=4$ of Zariski cancellation and, in Remark 1.7, deduces from it a non-linearizable algebraic $\mathbb C^*$-action on $\mathbb C^5$, while its main theorem is a separate holomorphic result using McLean's exotic varieties; the author discloses generative AI assistance with proofs and states that they checked the content.
+- [OpenAI, *A stable coordinate that is not a coordinate in four variables*](https://github.com/openai/math/tree/main/preprints/A-stable-coordinate-that-is-not-a-coordinate-in-four-variables-October-5-2026) (openai/math, 2026-10-05). This manuscript from the same release cites this paper and states that its graded-ring and line-bundle strategy adapts Sections 2–6 here, to obtain an explicit degree-five stable coordinate in four variables, one variable below Corollary 1.2 of this paper. [AI-generated per source]
 
 ## Comments and discussion
 - None found.
@@ -26,6 +28,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [AI Proved What?, *Cancel a line? Zariski cancellation over the complex numbers*](https://aiprovedwhat.com/episodes/047-zariski-cancellation-affine-fibrations-complex/) (episode 047, October 2026). This video and transcript outline the explicit equation, stabilization, degeneration and additive-action obstruction, and the claimed stable-coordinate and affine-fibration consequences. [AI-generated per source] [family-level]
+- [数学ビジュアライズ, *OpenAIのAIが見つけた「ザリスキの消去問題」の反例：直線を掛けると5次元空間になるのに、それ自身は4次元空間でない図形*](https://mathvis.sankakutech.com/posts/zariski-cancellation) (Japanese exposition, 2026-10-12). This illustrated exposition develops the explicit stabilization and locally nilpotent derivation argument, explains why the stable-coordinate consequence additionally uses the residual-coordinate theorem, and distinguishes the main theorem's Lean scope from the paper's further consequences.
 
 ## News and blogs
 - [Carlos Toledo, *OpenAI's math release: what it claims beyond what it checks*](https://carlostoledo.co/reports/openai-math.html) (audit report, findings dated 2026-10-10). The report lists family 047's Dolgachev–Weisfeiler affine-fibration claims among conclusions broader than the formal statement checked in the release. [family-level]

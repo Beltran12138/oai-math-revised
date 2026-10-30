@@ -1,9 +1,10 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [David Sawall, Markus Schweighofer, *Spectrahedral relaxations and tightenings of rigidly convex sets*](https://arxiv.org/abs/2610.37850) (arXiv:2610.37850, 2026-10-27). The introduction cites this paper as giving a hyperbolicity cone that is not a linear projection of a spectrahedral cone, as background to the paper's spectrahedral relaxations and spectrahedral-shadow tightenings of rigidly convex sets.
+- [Alexander Richard Towell, *Independent finite-field verification of a Hankel seed certificate for hyperbolicity cones*](https://zenodo.org/records/23648332) (Zenodo technical note, version 1.0.0, 2026-10-25). Reports a reconstruction with substantial Codex assistance of Appendix A’s prescribed calculation over $\mathbb F_7$, reproducing the seed rank and displayed determinant data while explicitly excluding characteristic-zero lifting, the real PSD construction and the final nonliftability theorem from its verification scope.
 
 ## Comments and discussion
 - None found.

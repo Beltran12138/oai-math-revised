@@ -1,12 +1,12 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [Antonio De Rosa, Robin Neumayer and Hui Yu, *Singular set estimates in quasilinear Alt-Caffarelli problems*](https://arxiv.org/abs/2610.34986) (arXiv:2610.34986, 2026-10-26). Cites this paper (reference [70]) as background, writing "Very recently OpenAI extended this though dimension six" and recording $\dim_{\mathrm H}\operatorname{Sing}(u)\le n-7$ for the classical problem (Theorem 2.4); its main results on quasilinear energies do not use this threshold.
 
 ## Comments and discussion
-- None found.
+- [William M. Feldman, *Statement from the author*](https://github.com/willmfeldman/one-phase-critical-dim#statement-from-the-author) (one-phase-critical-dim README, October 2026). Based on an initial reading, Feldman identifies the proposed new idea as a systematic search for instability test functions depending on the unknown minimizer's value, gradient and Hessian, using polynomial ansätze, semidefinite programming and exact rational verification within the earlier Simons and Bernoulli-cone stability framework.
 
 ## Formalization
 - [OpenAI, *The critical dimension for the one-phase Bernoulli problem — Lean scope note*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/367.md) (OpenAI Math Release Lean docs, 2026-10-06). The release's own Lean development covers only the existence half of Theorem 1.1 (a nonflat one-homogeneous global minimizer in $\mathbb R^7$); flatness for $d\le6$ and the regularity and singular-set consequences are explicitly outside its scope. [family-level]
@@ -20,10 +20,14 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [N. Edelen and M. Engelstein, *Quantitative stratification for some free-boundary problems*](https://arxiv.org/abs/1702.04325v3) (arXiv:1702.04325, Trans. Amer. Math. Soc. 2019). Proves rectifiability and measure bounds for the singular set of Alt–Caffarelli minimizers, which bears on the singular-set statements of Corollary 1.2 (dimension bound $n-7$, local finiteness for $n=7$).
 - [Giorgio Tortone and Bozhidar Velichkov, *Vectorial Bernoulli Problems and Free Boundary Systems*](https://link.springer.com/article/10.1007/s44007-026-00195-z) (La Matematica 5, article 16, 4 February 2026). Its Theorem 1.1 summarizes the dependence of one-phase singular-set bounds on the critical dimension, providing background for Corollary 1.2 and its specialization to critical dimension seven.
 - [C. Hines, J. Kolesar and P. McGrath, *New Homogeneous Solutions for the One-Phase Free Boundary Problem*](https://arxiv.org/abs/2509.09409) (arXiv:2509.09409, 2025-09-11). Constructs new nonflat one-homogeneous solutions (including an infinite family in dimension four); Theorem 1.1 would imply none of these is a global minimizer in dimensions at most six.
+- [Matteo Carducci and Bozhidar Velichkov, *Uniqueness of one-phase cones with isolated singularity*](https://arxiv.org/abs/2609.35175) (arXiv:2609.35175, v2 2026-10-12). Proves uniqueness of the blow-up at a singular point when one blow-up has an isolated singularity, without an integrability assumption, which bears on the singular points of Corollary 1.2 in the case $n=7$, where the singular set is claimed to be locally finite.
+- [Matteo Carducci and Bozhidar Velichkov, *A minimizing cone from Cartan polynomials in the Alt-Caffarelli problem*](https://arxiv.org/abs/2609.35179) (arXiv:2609.35179, 2026-09-28). Shows that cones built from Cartan isoparametric cubics are unstable in dimensions 5, 8, 14 and minimizing in dimension 26, giving a nonflat homogeneous example in dimension five that lies in the range of the flatness statement of Theorem 1.1.
 
 ## Digests and expositions
 - [Expository note in the one-phase-critical-dim repository, *The critical dimension of the one-phase Bernoulli problem: an expository account*](https://github.com/willmfeldman/one-phase-critical-dim/blob/main/expository/note.typ) (Typst source with compiled `note.pdf`, October 2026). Explains the structure of the flatness proof for $d\le6$ (reduction to smooth links, suspension from dimension five to six, stability inequality, finite algebraic certificate); the README says the expository notes were only partly reviewed by the author. [AI-generated per source]
 - [Latent Seminar, *The critical dimension of the one-phase Bernoulli problem*](https://lowrank.github.io/latent-seminar/OpenAI-Math/367-bernoulli-critical-dimension) (6 October 2026). Outlines the spherical Hessian, stability, exact tensor certificate and cutoff arguments, and states that it does not independently verify the complete proof or run the certificate engines. [family-level]
+- [Xavier Fernández-Real, *Overview and recent progress on the classical Bernoulli free boundary problem*](https://link.springer.com/article/10.1007/s40324-026-00449-4) (SeMA Journal, published 2026-10-25). Survey that cites this paper as a preprint and states $d_*=7$; Remark 4 describes its method as refining Jerison–Savin by coupling a scalar test with a vector field built from the normalized Hessian, while its Theorem 3 attributes the cases $d=5,6$ to this paper in a statement about stable critical points with smooth free boundary away from the origin, whereas Theorem 1.1 here is stated for global minimizers.
+- [Companion note in William M. Feldman's one-phase-critical-dim repository, *Calibrations in jet space: a short history*](https://github.com/willmfeldman/one-phase-critical-dim/blob/main/expository/literature-jet-calibrations.md) (GitHub, undated; accessed 2026-10-30). Traces antecedents of the Bernoulli certificate, from calibrations and null Lagrangians through Simons, Caffarelli–Jerison–Kenig and Jerison–Savin to sum-of-squares searches. It states that its historical attributions and novelty assessment have not been carefully verified by a human. [AI-generated per source]
 
 ## News and blogs
 - None found.

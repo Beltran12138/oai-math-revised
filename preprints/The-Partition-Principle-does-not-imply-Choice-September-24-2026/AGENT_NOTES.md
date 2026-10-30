@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Frederico Cançado, *AC-zoo-results* (notes and reports on weak forms of choice)](https://github.com/frederico-cancado/AC-zoo-results) (GitHub repository, notes dated 7 October 2026 and later). Preliminary notes that take this paper's model construction as their "external source" and derive a finite-basis property for the injection order on cardinalities in that model; the author states they were prepared with substantial OpenAI Codex assistance and have not been externally reviewed.
@@ -16,6 +16,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 ## Formalization
 - [OpenAI math release, *Lean scope notes for result 244*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/244.md) (lean/docs/244.md). The release's own Lean formalization proves Con(ZF) → Con(ZF + PP + ACwo + ¬AC); its transitive-model construction assumes a countable transitive ground model containing an internal strongly inaccessible cardinal and does not cover the paper's stronger transitive-model preservation assertions. [AI-generated per source]
 - [google-deepmind/formal-conjectures issue #4581, *Does the Partition Principle imply the Axiom of Choice over ZF?*](https://github.com/google-deepmind/formal-conjectures/issues/4581) (GitHub issue, opened 23 July 2026). Proposes a Lean statement of the open question that this paper answers; when checked it had no comments or linked pull requests.
+- [MathVet, *Family 244 formalization review*](https://math.vet/openai-math/data.json) (review data for openai/math commit fd4aeeb2, generated 2026-10-30). This model-assisted review, explicitly awaiting human referee review, reports a sandboxed Comparator pass for PartitionConsistency and PartitionPrinciple, identifies the narrower transitive-model coverage, and flags the custom proof calculus, ZF axiom schemas and internal set-theoretic definitions for checking. [AI-generated per source]
 
 ## Related prior literature mentioned by others
 - None found.

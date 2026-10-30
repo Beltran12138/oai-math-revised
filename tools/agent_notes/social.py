@@ -2,6 +2,7 @@
 
     python3 tools/agent_notes/social.py --out social.json [--families 102 025 ...]
                                         [--sources bluesky,mastodon,x] [--max-x-posts 2000]
+                                        [--x-since YYYY-MM-DD] [--x-focus TEXT ...] [--x-handles a,b]
 
 Credentials come from the environment or ~/.config/oai-math-revised/secrets.env
 (XAI_API_KEY, BLUESKY_HANDLE, BLUESKY_APP_PASSWORD, MASTODON_TOKEN); sources
@@ -10,7 +11,9 @@ without credentials are skipped. Output has the same shape as prepass.py
 all papers of its family and still has to be checked by an agent.
 
 X search is billed per post fetched (xAI: $5 per 1,000 posts plus tokens);
---max-x-posts stops the X part once that many posts have been fetched.
+--max-x-posts stops the X part once that many posts have been fetched, and
+--max-x-usd once that much has been spent, counting earlier runs with the same --out.
+With --x-focus, each family gets one search per focus instead of one general search.
 """
 
 from __future__ import annotations
@@ -99,17 +102,21 @@ Result family {num}: {title}
 Summary: {summary}
 Papers: {papers}
 
-Only include posts that are specifically about this result (not about the release in general), preferably by mathematicians or other people commenting with expertise. Return ONLY a JSON array (no prose), at most 10 entries, each
+{focus}Only include posts that are specifically about this result (not about the release in general), preferably by mathematicians or other people commenting with expertise. Return ONLY a JSON array (no prose), at most 10 entries, each
 {{"url": "https://x.com/<handle>/status/<id>", "author": "<display name> (@handle)", "date": "YYYY-MM-DD", "summary": "<one neutral sentence on what the post says about the result>"}}
 Return [] if there are none."""
 
 
-def x_search(fam, papers, key: str) -> tuple[list[dict], dict]:
-    prompt = X_PROMPT.format(since=SINCE, num=fam.num, title=plain(fam.title), summary=plain(fam.summary)[:800],
-                             papers="; ".join(plain(papers[s].title) for s in fam.papers))
+def x_search(fam, papers, key: str, since: str = SINCE, focus: str = "", handles: list[str] | None = None) -> tuple[list[dict], dict]:
+    prompt = X_PROMPT.format(since=since, num=fam.num, title=plain(fam.title), summary=plain(fam.summary)[:800],
+                             papers="; ".join(plain(papers[s].title) for s in fam.papers),
+                             focus=f"Look specifically for: {focus}\n\n" if focus else "")
+    tool = {"type": "x_search", "from_date": since}
+    if handles:
+        tool["allowed_x_handles"] = handles
     r = http("https://api.x.ai/v1/responses",
              {"model": XAI_MODEL, "input": [{"role": "user", "content": prompt}],
-              "tools": [{"type": "x_search", "from_date": SINCE}]},
+              "tools": [tool]},
              headers={"Authorization": f"Bearer {key}"}, timeout=300)
     texts = []
 
@@ -164,6 +171,9 @@ def main():
     ap.add_argument("--sources", default="bluesky,mastodon,x")
     ap.add_argument("--max-x-posts", type=int, default=2000)
     ap.add_argument("--max-x-usd", type=float, default=10.0, help="stop X searches once xAI reports this much spent")
+    ap.add_argument("--x-since", default=SINCE, help="only posts from this date on (X is billed per post fetched)")
+    ap.add_argument("--x-focus", nargs="*", default=[""], help="one X search per family for each of these angles")
+    ap.add_argument("--x-handles", help="comma-separated: only posts by these accounts (at most 10)")
     args = ap.parse_args()
     sec = secrets()
     _, families, papers = load(ROOT)
@@ -184,6 +194,12 @@ def main():
         print("x: no XAI_API_KEY, skipped", file=sys.stderr)
 
     x_posts, x_usd = 0, 0.0
+    if usage_log.exists():
+        for line in usage_log.read_text().splitlines():
+            usage = json.loads(line)["usage"]
+            x_posts += usage.get("server_side_tool_usage_details", {}).get("x_posts_fetched", 0)
+            x_usd += usage.get("cost_in_usd_ticks", 0) / 1e10
+    handles = args.x_handles.split(",") if args.x_handles else None
     for num in nums:
         fam = families[num]
         query = plain(fam.title)
@@ -193,8 +209,10 @@ def main():
                 found += bluesky(query, bsky_token)
             if "mastodon" in sources and "MASTODON_TOKEN" in sec:
                 found += mastodon(query, sec["MASTODON_TOKEN"])
-            if "x" in sources and "XAI_API_KEY" in sec and x_posts < args.max_x_posts and x_usd < args.max_x_usd:
-                items, usage = x_search(fam, papers, sec["XAI_API_KEY"])
+            for focus in args.x_focus if "x" in sources and "XAI_API_KEY" in sec else []:
+                if x_posts >= args.max_x_posts or x_usd >= args.max_x_usd:
+                    break
+                items, usage = x_search(fam, papers, sec["XAI_API_KEY"], args.x_since, focus, handles)
                 fetched = usage.get("server_side_tool_usage_details", {}).get("x_posts_fetched", 0)
                 x_posts += fetched
                 x_usd += usage.get("cost_in_usd_ticks", 0) / 1e10  # xAI reports cost in 1e-10 USD ticks
@@ -204,7 +222,7 @@ def main():
                         c["context"] = f"Post text: {text} | Grok's summary: {c['context']}"
                         found.append(c)
                 with open(usage_log, "a") as f:
-                    f.write(json.dumps({"family": num, "x_items": len(items), "usage": usage}) + "\n")
+                    f.write(json.dumps({"family": num, "focus": focus, "x_items": len(items), "usage": usage}) + "\n")
         except Exception as e:  # keep going; report per family
             print(f"{num}: {type(e).__name__}: {e}", file=sys.stderr)
         for s in fam.papers:

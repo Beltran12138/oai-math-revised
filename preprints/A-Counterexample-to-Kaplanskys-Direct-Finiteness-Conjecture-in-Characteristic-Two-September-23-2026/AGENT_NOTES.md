@@ -1,9 +1,9 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [Peter Burton, *Finitary collapse of Bernoulli shifts from an algebraic splitting*](https://github.com/peterburton1728/bernoulli-iso-1/blob/main/bernoulli-iso.pdf) (expository note, GitHub, draft of 2026-10-25). Uses subgroup averages and a rectangular splitting from this paper's construction to claim Bernoulli conjugacies with unequal base entropies over an enlarged group, so that base entropy would not be an isomorphism invariant for that group. Broader all-base and finitary conclusions are explicitly outside the accompanying Lean certificate, and the disclosure records a GPT-6 draft under Burton's direction. [AI-generated per source]
 
 ## Comments and discussion
 - None found.
@@ -13,6 +13,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [mo271, KevorkianPhilippe and others, *Wikipedia/SurjunctiveGroup: `gottschalk_surjunctivity_conjecture` is false*](https://github.com/google-deepmind/formal-conjectures/issues/6919) (formal-conjectures issue #6919, 2026-10-07 to 2026-10-19). Proposes restating Gottschalk's conjecture as false on the basis of this preprint and its odd-characteristic companion; the release's Lean proofs cover injectivity and non-surjectivity but not continuity or shift-equivariance, for which a commenter supplied a Lean bridge, and a commenter notes the finitely presented group appears only in the characteristic-two Lean statement.
 - [KevorkianPhilippe, *fix(Wikipedia/SurjunctiveGroup): `gottschalk_surjunctivity_conjecture` is false*](https://github.com/google-deepmind/formal-conjectures/pull/7440) (formal-conjectures PR #7440, merged 2026-10-19). Restates the conjecture as false, citing this preprint and the odd-characteristic companion and flagging that continuity and shift-equivariance are not part of the linked proof; the approving reviewer (bocowgill) says they checked the non-surjunctivity conclusions (Corollary 7.3) and "relied on the reported build and axiom checks without independently rerunning the external proof."
 - [The Formal Conjectures Authors, *Gottschalk’s surjunctivity conjecture — SurjunctiveGroup.lean*](https://raw.githubusercontent.com/google-deepmind/formal-conjectures/main/FormalConjectures/Wikipedia/SurjunctiveGroup.lean) (GitHub, accessed 21 October 2026). This Lean statement file cites both characteristic companions but retains `sorry` in the counterexample declarations and notes that the linked odd-characteristic proof omits continuity and shift equivariance. [family-level]
+- [Peter Burton, *Finite uniform Bernoulli shifts with unequal base entropy*](https://github.com/peterburton1728/bernoulli-iso-1) (PALOMAR-2026-10-27-000030 v1, registered 2026-10-27). Reports Lean and NanoDa verification that the shifts on $A$ and $A\times A$ with uniform measures are isomorphic on invariant conull sets for some countable group, importing `lean/OAI/RingTheory/DirectFiniteness` from this release at commit `adc7f12`. It covers only this finite-uniform statement, the review was automated, not human peer review, and the source credits GPT-6 Astra and GPT-6 Sol under Burton's direction. [AI-generated per source]
 
 ## Related prior literature mentioned by others
 - None found.

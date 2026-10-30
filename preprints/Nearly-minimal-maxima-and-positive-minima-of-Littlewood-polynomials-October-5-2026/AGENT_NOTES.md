@@ -1,9 +1,9 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [el Houcein el Abdalaoui, *OpenAI partially disproves Littlewood's 1961 $L^\alpha$-flat theorem*](https://arxiv.org/abs/2610.30797) (arXiv:2610.30797, 22 October 2026; LLM assistance acknowledged). Quotes the bounds $\sqrt N/16$ and $(1+\eta)\sqrt N$ of this family as its Theorem 2, cites this paper, and treats the constructions as counterexamples to Littlewood's 1961 theorem, limited by an implicit assumption it identifies; the author says the note and arXiv:2509.04212, a nonflatness preprint cited in this paper's bibliography, "will be adapted or withdrawn to reflect the consolidated literature". [family-level]
 
 ## Comments and discussion
 - [Thomas Bloom, *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10) (erdosproblems.com blog, 8 October 2026). Lists Erdős Problem #1150 among the release's claimed results via the ultraflat companion PDF, which it says "appears to heavily rely on two other related PDFs" of 28 and 26 pages (this paper and the September 23 one). [family-level]

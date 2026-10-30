@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Ruihan Chen, *On the algebraic and analytic ranks of the twin-prime elliptic curve $y^2=x(x-2)(x-p)$*](https://arxiv.org/abs/2610.09370) (arXiv:2610.09370, 2026-10-07). Computes the $2^\infty$-Selmer corank of this family and, taking the specialization at 2 of this paper's main theorem as an explicit hypothesis (Hypothesis 1.1), deduces rank equality, finiteness of Sha and the exact leading-term formula for $p\equiv3,5,7\pmod8$. [cites earlier version]
@@ -14,6 +14,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - [Alexander Smith (@Alexand11428651), post on X](https://x.com/Alexand11428651/status/2107899455139725335) (2026-10-07). Says BSD in Selmer corank 0 and 1 was an active research area "likely to reach this point 'soon'", counts it as no progress on BSD, calls it "unwisely not formalized", and compares the 2-converse argument to work of Kriz and Nordentoft. [family-level]
 - [Pierre Colmez (@ColmezPierre), post on X](https://x.com/ColmezPierre/status/2107898549476180125) (2026-10-07). Contrasts the release's BSD and Riemann items, calling the claimed progress on BSD "pure PR, no content"; a later reply describes the result as "basically a matter of chasing powers of 2". [family-level]
 - [Hara qui rit (@humanismetoussa), post on X](https://x.com/humanismetoussa/status/2107765964951449956) (2026-10-07). Explains that full BSD in Selmer corank 0 and 1 combined with the Goldfeld conjecture gives full BSD for 100% of quadratic twists of any elliptic curve over Q, "still far from BSD." [family-level]
+- [Alex Smith, comment on Burungale's guest post on Persiflage](https://galoisrepresentations.org/2026/10/15/bsd-and-the-p-converse-guest-post-ashay-burungale/#comment-28698) (2026-10-23). Announces a Zulip, with access by emailed invitation, "for discussion of OAI's papers around the converse theorems (Hilbert 10, Goldfeld, and Full BSD)." [family-level]
 
 ## Formalization
 - None found.
@@ -24,6 +25,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 ## Possibly relevant literature (found by the agent, not checked)
 - [Wei Zhang, *Selmer groups and the indivisibility of Heegner points*](https://math.mit.edu/~wz2113/math/online/Kconj.pdf) (Cambridge J. Math. 2 (2014)). Proves the p-part of the refined BSD formula in analytic rank one for certain good ordinary $p\ge5$, relevant to this paper's odd-primary rank-one valuation; it is not cited here (the two companion papers cite it).
 - [Francesc Castella, *On the p-part of the Birch-Swinnerton-Dyer formula for multiplicative primes*](https://arxiv.org/abs/1704.06608) (arXiv:1704.06608, 2017). Extends the Jetchev–Skinner–Wan rank-one p-part result to primes of multiplicative reduction, relevant to the paper's odd-prime leading-term claim; it is not in the bibliography.
+- [Zhuoni Chi, Shurui Liu and Ping Nie, *On The Manin Constant*](https://arxiv.org/abs/2610.25672) (arXiv:2610.25672, 2026-10-19). Claims the Manin constant conjecture for every optimal elliptic curve over Q, relevant to the Manin factor $c_E$ that Section 6 of this paper keeps in every exact formula; it is not in the bibliography, and the arXiv comments field notes an appendix on generative AI usage.
 
 ## Digests and expositions
 - [Ying Xie, *What the Machine Invented: Mining New Mathematical Instruments from OpenAI's October 2026 Release of AI-Generated Mathematics*, §9.1.1](https://arxiv.org/abs/2610.17090) (arXiv:2610.17090, 2026-10-12). Survey entry on family 002 that summarizes the three-paper chain, extracts tame variables, integral character division and the U(3,1) theta implication, relates them to Taylor–Wiles–Kisin, Scholze–Manning and Skinner–Urban/Castella–Liu–Wan, and lists caveats including a Kato-divisibility step at every odd prime. [AI-generated per source] [family-level]

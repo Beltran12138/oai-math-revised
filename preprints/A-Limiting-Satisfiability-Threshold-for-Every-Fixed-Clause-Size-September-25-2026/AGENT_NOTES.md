@@ -1,9 +1,9 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [P. M. Aronow and Patrick Lopatto, *Existence of the $q$-Colorability Threshold for Sparse Random Graphs*](https://hexagonmath.org/abs/2610.00608v1) (Hexagon 2610.00608v1, 28 October 2026). Adapts this paper's capped hitting-time variance bound (Lemmas 3.1–3.2), product inequality and balanced-tree convergence (Lemmas 5.2 and 5.4) to prove a limiting $q$-colorability threshold for every fixed $q\ge3$ with a window of order $n(\log n)^{-3/2}$ edges, replacing the variable-deletion step (Proposition 2.2), which it says does not carry over to colorings, by frozen-pair estimates. [AI-generated per source]
 
 ## Comments and discussion
 - None found.

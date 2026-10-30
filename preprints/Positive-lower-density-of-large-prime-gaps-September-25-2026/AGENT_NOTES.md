@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -13,6 +13,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [OpenAI, *lean/OAI/NumberTheory/PrimeGaps/Main.lean*](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/PrimeGaps/Main.lean) (openai/math, commit adc7f12). This file states `theorem main`, a Lean version of Theorem 1.1 (for every $C>0$ there are $c>0$, $N_0$ with $c N\le$ #large-gap indices up to $N$), proved from a formalized Bombieri–Vinogradov theorem; the directory contains about 57 supporting files.
 - [OpenAI, *lean/OAI/NumberTheory/PrimeGaps/RatioCorollary.lean*](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/PrimeGaps/RatioCorollary.lean) (openai/math, commit adc7f12). This file proves the ratio-increase density statement (Corollary 1.2) and the conjunction `large_gaps_and_ratio_density`, using `LargePrimeGaps.main`.
 - [Google DeepMind formal-conjectures, *FormalConjectures/ErdosProblems/968.lean*](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/968.lean) (formal-conjectures). This file is an independent Lean statement of Erdős Problem 968 as `0 < {n | u n < u (n+1)}.lowerDensity`; it is marked solved, with a docstring that credits the OpenAI preprint and links the OpenAI Lean proof, while the file itself keeps `sorry`.
+- [linrock, *feat(ErdosProblems/968): link the Erdős–Prachar companion proofs*](https://github.com/google-deepmind/formal-conjectures/pull/7621) (formal-conjectures PR #7621, opened 25 Oct 2026, open and approved by one reviewer on 26 Oct 2026). This PR links Lean proofs in [linrock/math-proofs](https://github.com/linrock/math-proofs/tree/f2c06c925dd01819fcb0bf4674d302850108cb8a/erdos-968) of the two earlier Erdős–Prachar statements on $u_n=p_n/n$ (total variation of order $(\log x)^2$, positive lower density of decreases), which are companions to Corollary 1.2 and not formalizations of the paper's results; the PR states that AI assistance was used. [AI-generated per source]
 
 ## Related prior literature mentioned by others
 - [D. R. Heath-Brown, *Gaps between primes, and the pair correlation of zeros of the zeta-function*](https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/41/1/103404/gaps-between-primes-and-the-pair-correlation-of-zeros-of-the-zeta-function) (Acta Arith. 41 (1982), 85–99). Tao's 2025 erdosproblems comment uses an estimate from this paper for the conditional (RH plus pair correlation) answer to the question that Corollary 1.2 settles unconditionally; it is not in the paper's bibliography.

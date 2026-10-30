@@ -1,9 +1,9 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [OpenAI, *Local smoothing for the Euclidean wave equation*](https://github.com/openai/math/blob/main/preprints/Local-smoothing-for-the-Euclidean-wave-equation-October-25-2026/paper.pdf) (OpenAI Math Release preprint, dated 2026-10-25, added 2026-10-26). This manuscript claims local smoothing in every dimension $n\ge2$ and derives $\|K_\delta f\|_{L^n(S^{n-1})}\le C_n[\log(2/\delta)]^{4/p_c}\|f\|_{L^n}$ with $p_c=2n/(n-1)$, a logarithmic-loss bound that would contain this paper's Theorem 1.1, and its Kakeya section cites this paper as a separate three-dimensional estimate with $\delta^{-\varepsilon}$ loss. [AI-generated per source] [family-level]
 
 ## Comments and discussion
 - [deffie (@df_163), post on X](https://x.com/df_163/status/2107613280558551392) (2026-10-06). Points out that Wang and Zahl resolved the three-dimensional Kakeya set conjecture, while this claim concerns the stronger maximal conjecture, which implies it and which Wang and Zahl had not solved.

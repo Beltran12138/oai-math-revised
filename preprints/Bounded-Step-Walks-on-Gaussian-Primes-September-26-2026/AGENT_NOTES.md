@@ -1,9 +1,10 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Kenta Kitamura, *Gaussian moat variants and binary-form classification in Lean 4*](https://github.com/KitaKen1/erdos-952-binary-form-moat-classification) (GitHub; author-reported Lean4Web check 2026-10-10). This project cites OpenAI's uniform component bound and claims a generalization to lattice points where an irreducible homogeneous integer binary form of degree at least two has a nonzero value with a bounded number of distinct prime factors, with a classification for general binary forms; it reports Lean checks whose axiom lists contain only `propext`, `Classical.choice`, and `Quot.sound`. [AI-generated per source]
+- [Renriviera (GitHub account), *quadratic-moats-lean*](https://github.com/Renriviera/quadratic-moats-lean) (GitHub; author-reported local build 2026-10-09). This Lean project builds on OpenAI's Gaussian moat proof at commit adc7f12 and claims uniform component bounds, with no explicit value, for the graphs on irreducible elements and on nonzero elements with boundedly many distinct prime-ideal factors in rings of integers of real and imaginary quadratic fields, including non-UFD rings, using the full Minkowski Euclidean metric with both real embeddings in the real quadratic case. Its README reports axiom audits showing only `propext`, `Classical.choice`, and `Quot.sound`.
 
 ## Comments and discussion
 - None found.
@@ -23,10 +24,12 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [M. Das, *A Note on The Gaussian Moat Problem*](https://arxiv.org/abs/1908.10392) (arXiv:1908.10392, August 2019, withdrawn September 2024). An earlier claimed negative answer for primes off the axes; the withdrawal comment states that the claim in Theorem 3 is incorrect.
 - [M. Das, *Walking through the Gaussian Primes*](https://arxiv.org/abs/1901.04549) (arXiv:1901.04549, January 2019, withdrawn September 2024). Computational work on moats compared against the Gethner–Wagon–Wick algorithm; related to the paper's account of earlier computations (Tsuchimura, Gethner–Wagon–Wick).
 - [Siddharth Prasad, *Walks on Primes in Imaginary Quadratic Fields*](https://arxiv.org/abs/1412.2310) (arXiv:1412.2310, 2014-12-07). A computational treatment of bounded-step prime walks and moats in imaginary quadratic unique-factorization rings, related to the paper's distinction between finite searches from the origin and a uniform bound for every component.
+- [Bencheng Li, Steven J. Miller, Tudor Popescu, Daniel Sarnecki, and Nawapan Wattanawanichkul, *Modeling Random Walks to Infinity on Primes in Z[√2]*](https://arxiv.org/abs/2011.07386) (arXiv:2011.07386, November 2020, revised January 2022). Studies the real quadratic analogue of Theorem 1.1, proving that a bounded-step walk cannot reach infinity while staying within bounded distance of the asymptotes and conjecturing that no bounded-step walk to infinity exists.
 
 ## Digests and expositions
 - [Bogdan Grechuk, *The Gaussian moat conjecture*](https://functor.network/user/3333/entry/2014) (Functor Network, 2026-10-17). This exposition explains the paper's uniform bound, its inclusion of axis primes, and the passage from a periodic sieve obstruction to bounded components.
 - [AI Proved What?, *Walk to infinity? The Gaussian moat conjecture*](https://aiprovedwhat.com/episodes/028-uniformly-bounded-components-gaussian-prime/) (episode 028, October 2026; status updated 2026-10-19). A video and transcript explaining the nonexplicit uniform bound and the sieve-and-information proof outline, with small computational illustrations and a statement that the project has not run OpenAI's Lean check. [AI-generated per source] [family-level]
+- [Eric W. Weisstein, *Gaussian Moat Problem*](https://mathworld.wolfram.com/GaussianMoatProblem.html) (Wolfram MathWorld, accessed 2026-10-30; its references include an access date of 26 October 2026). This encyclopedia entry states the problem in its walk and graph-component forms, recalls that for B = √26 the component of $1+i$ is finite, and reports OpenAI's nonexplicit uniform component bound as covering axis primes and all associates, distinguishing it from that earlier finite moat.
 
 ## News and blogs
 - [ぶちょう, *OpenAIが「ガウス素数の堀」の証明を主張——方眼紙の素数を飛び石に、無限の彼方へ行けるか*](https://note.com/rivas_bucho/n/n30a89846f858) (note.com, 2026-10-08). A Japanese-language article on result 028 explaining the uniform component-size claim, its nonexplicit bound, and the historical computational moat results.

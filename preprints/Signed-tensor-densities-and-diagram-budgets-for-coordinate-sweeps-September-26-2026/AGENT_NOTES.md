@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -11,6 +11,8 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Formalization
 - [OpenAI math release, *Lean scope notes for family 238*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/238.md) (lean/docs/238.md, 2026). States that the formalization covers the uniform signed-occurrence moment bound for coordinate sweeps (SignedSweepMoment.lean) and the supporting angle bound for signed spin types (SpinAngle.lean); the full $L^2$ and total-variation conclusion is outside the scope. [family-level]
 - [punk01-shaka, *OpenAI's Comparator configs leave 62 fully-written definitions unchecked (definition holes)*](https://github.com/punk01-shaka/hadwiger-nelson-audit/issues/1) (GitHub issue, 12 Oct 2026). Lists the SpinAngle comparator config of family 238 as leaving 3 of 3 definitions as holes, so the automated check alone would not fix those definitions. [family-level]
+- [Carlos Toledo, cert-machine, *OpenAI math statement audit: family 238*](https://raw.githubusercontent.com/carlostoledo1891/cert-machine/9814e4c06281e34a113ce853d7d99ccce160b750/certs/openai-math-statements.json) (audit of release fd4aeeb, October 2026). Assesses the full-permutation mixing headline as matching ThorpRemaining’s statement, while checking the OccupiedOverlap and SpinAngle definition holes separately; this is a statement assessment, not a certificate of the manuscripts’ proofs. [family-level]
+- [Carlos Toledo, cert-machine, *SpinAngle definition and transfer checks*](https://raw.githubusercontent.com/carlostoledo1891/cert-machine/9814e4c06281e34a113ce853d7d99ccce160b750/certs/openai-math-kernel.json) (Comparator replay, 10 October 2026). Reports a differing missingInRow definition body but a successful separate Lean transfer to the displayed statement, with a deliberately invalid control rejected, supplementing the previously noted definition-hole concern.
 
 ## Related prior literature mentioned by others
 - None found.

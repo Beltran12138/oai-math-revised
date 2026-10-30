@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [B. Kjos-Hanssen, *Baire measurable functions and automorphisms of the truth-table degrees*](https://arxiv.org/abs/2610.16059) (arXiv:2610.16059, October 2026). Adapts this paper's proof to truth-table (and weak truth-table) reducibility for automorphisms induced by Baire measurable functions, noting that the Turing-degree decoding is an unbounded search and so not a truth-table reduction. Its acknowledgments state assistance from Claude and a Lean 4 formalization with Aristotle (Harmonic), in [bjoernkjoshanssen/tt-auto](https://github.com/bjoernkjoshanssen/tt-auto).
@@ -21,6 +21,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Possibly relevant literature (found by the agent, not checked)
 - [T. A. Slaman and M. I. Soskova, *The Δ⁰₂ Turing degrees: Automorphisms and Definability*](https://math.berkeley.edu/~slaman/papers/LocalBasesTuring.pdf) (preprint, submitted to the London Mathematical Society). Local analogue of the global Slaman–Woodin results the paper builds on: rigidity of D_T(≤0′) is equivalent to its biinterpretability with first-order arithmetic; compare the paper's biinterpretability corollary.
 - [R. A. Shore, *Rigidity and biinterpretability in the hyperdegrees*](https://richardashore.github.io/papers/pdf/hyp9.pdf) (preprint dated 31 Oct 2005). Proves rigidity and biinterpretability with second-order arithmetic for the hyperarithmetic degrees by coding arguments, a precedent for the paper's conclusions in a coarser degree structure.
+- [B. Kjos-Hanssen, *A tractable case of the Turing automorphism problem: bi-uniformly E₀-invariant Cantor homeomorphisms*](https://arxiv.org/abs/1908.05381) (arXiv:1908.05381, v2 August 2020). Shows that a Cantor-space homeomorphism that is a bi-uniform E₀-isomorphism induces only the trivial automorphism of the Turing degrees, a restricted-class rigidity result alongside the permutation case (arXiv:1603.00525) that the paper's introduction compares with its method.
 
 ## Digests and expositions
 - [A. Marks, *Rigidity of the Turing degrees (after OpenAI)*](https://math.berkeley.edu/~marks/notes/aut.pdf) (expository note, 3 pp., 7 Oct 2026). Re-proves the key lemma X ≤_T F(X) ⊕ F(G) ⊕ F(H) for arithmetically X-generic pairs (G,H) using arithmetic Cohen forcing and 2-adic addition on Cantor space, with the Slaman–Woodin representation as the only external input; it describes the result as completing Slaman and Woodin's argument and acknowledges ChatGPT-Astra proofreading.

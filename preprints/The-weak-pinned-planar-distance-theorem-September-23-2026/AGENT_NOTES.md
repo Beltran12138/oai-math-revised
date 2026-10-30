@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -13,6 +13,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [OpenAI, *PinnedDistances.lean* (comparator statement)](https://github.com/openai/math/blob/main/lean/ComparatorChallenges/PinnedDistances.lean) (openai/math, October 2026). Comparator file with the target statement `theorem main (s : ℝ) (hs : 0<s) : Tendsto (fun n => F n s) atTop (𝓝 0)` in namespace `WeakPinned`, i.e. Theorem 1.1 rather than Corollary 1.2.
 - [OpenAI, *OAI/Geometry/PinnedDistances/Main.lean*](https://github.com/openai/math/blob/main/lean/OAI/Geometry/PinnedDistances/Main.lean) (openai/math, October 2026). Top-level file of the release's proof: `OAI.WeakPinned.main` is derived from `mainStatement`, which is proved by contradiction from imported lemmas (`sequence_arithmetic_model`, `arithmetic_sequence_impossible`).
 - [cert-machine, *PinnedDistances comparator run*](https://github.com/carlostoledo1891/cert-machine/blob/main/corpus/openai-math/kernel-runs/38019899278/PinnedDistances.json) (run 38019899278). Records exit code zero and acceptance of the release's pinned-distance solution by both Lean's default kernel and nanoda.
+- [MendozaLab, *erdos-experiments: proofs/erdos604*](https://github.com/MendozaLab/erdos-experiments/tree/09f72c57ed2d98906b9cf03bff2091f6fe73807f/proofs/erdos604) (pinned commit 09f72c5, checked 14 Oct 2026). Lean 4.33.1 port of the release's 47 pinned-distance modules plus a counting adapter proving `erdos604_from_openai` and `almost_all_pins_from_openai` from `OAI.WeakPinned.main`, with Codex used to draft the Lean per the PR; it does not claim an original solution. Its VERIFICATION.md records a compile of all 58 modules and an axiom audit reporting only `propext`, `Classical.choice` and `Quot.sound`, and lists as limitations no independent rederivation of the paper, no official Comparator run and no replay on Lean 4.34.1. [AI-generated per source]
 
 ## Related prior literature mentioned by others
 - [Sean Dewar, Nora Frankl, Samuel Mansfield, Anthony Nixon, Jonathan Passant and Audie Warren, *Generalised Erdős distance theory on graphs*](https://arxiv.org/abs/2505.06590) (arXiv:2505.06590, 2025-05-10). The Erdős Problem a Day report identifies Conjecture 4.7 as the weak pinned conjecture addressed here and discusses this earlier paper's implication from the unit-distance conjecture to the pinned-distance conjecture.

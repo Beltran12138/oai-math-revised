@@ -1,9 +1,9 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [David Sawall, Markus Schweighofer, *Spectrahedral relaxations and tightenings of rigidly convex sets*](https://arxiv.org/abs/2610.37850) (arXiv:2610.37850, 2026-10-27). The introduction cites this paper as a counterexample to the Generalized Lax Conjecture, as background to the paper's spectrahedral relaxations and spectrahedral-shadow tightenings of rigidly convex sets.
 
 ## Comments and discussion
 - None found.

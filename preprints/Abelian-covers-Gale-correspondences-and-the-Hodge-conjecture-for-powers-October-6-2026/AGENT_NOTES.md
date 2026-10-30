@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Pol van Hoften and Jack Sempliner, *The Hodge Conjecture for CM abelian varieties*](https://hexagonmath.org/abs/2610.00259v2) (hexagon:2610.00259v2, 18 Oct 2026). This human-written exposition, with disclosed ChatGPT assistance, reworks the CM theorem used by the abelian-powers and abelian-cover companions, using theta lifts and the doubling method. [family-level]
@@ -18,7 +18,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - None found.
 
 ## Possibly relevant literature (found by the agent, not checked)
-- None found.
+- [Benjamin Severn, *Weil classes on abelian sixfolds of Weil type for Q(i) with discriminant −3*](https://hexagonmath.org/abs/2610.00477v1) (hexagon:2610.00477v1, 22 Oct 2026). Includes a general theorem on products of determinant lines on abelian covers of curves, for comparison with this paper's self-power results for Jacobians of abelian covers. [AI-generated per source]
 
 ## Digests and expositions
 - None found.

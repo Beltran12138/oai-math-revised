@@ -1,9 +1,10 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Diyi Liu, Shuchen Zhu, Wibe Albert de Jong, Di Fang, David Williams-Young, Chao Yang, *T-efficient unitary synthesis via block-sparse Hamiltonian simulation*](https://arxiv.org/abs/2610.18589) (arXiv:2610.18589, 13 Oct 2026). Section VIII cites the OpenAI draft as giving constant diamond-norm-error synthesis with polynomially many gates and Boolean-oracle queries, and notes that this accounting excludes the oracle's implementation cost, so it is not directly comparable to Clifford+T T-count bounds.
+- [Anurag Anshu and Quynh T. Nguyen, *A simple proof of unitary parallelization via port-based teleportation*](https://arxiv.org/abs/2610.30761) (arXiv:2610.30761, 22 Oct 2026; v2, 28 Oct 2026). Cites the OpenAI manuscript and gives a port-based-teleportation proof of synthesis with depth polynomial in n and log(1/ε) and width exponential in n, recovering a parallelization consequence rather than the polynomial-resource Boolean-oracle theorem; the authors credit ChatGPT Astra with developing the protocol from their suggested starting points. [AI-generated per source]
 
 ## Comments and discussion
 - [Scott Aaronson, *The Mathocalypse*](https://scottaaronson.blog/?p=10169) (Shtetl-Optimized, 7 Oct 2026). One of the problem's two posers lists the paper as a "Positive solution to the Unitary Synthesis Problem", calls it "the opposite of what most of us expected", and notes that the paper does not give an efficient way to construct the oracle.
@@ -17,6 +18,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - [Zvika Brakerski and Henry Yuen, *On Scalable Pseudorandom Unitaries and the Unitary Synthesis Problem*](https://arxiv.org/abs/2605.09957) (arXiv:2605.09957, 11 May 2026). Listed as further reading in Khurana's post; it connects scalable PRUs to a positive answer to unitary synthesis and proves that any unitary synthesis algorithm needs oracle input length of roughly 2 log d, which bears on the oracle input length m(n) in Theorem 1.1.
 - [Andrew Huang, Akshar Ramkumar, John Wright, *Random-Oracle Unitary Synthesis is Impossible*](https://arxiv.org/abs/2610.06700) (arXiv:2610.06700, 5 Oct 2026). Cited in Khurana's post; it proves a superpolynomial query lower bound for implementing Haar-random unitaries from a random Boolean function, which contrasts with the target-dependent oracle in this paper.
 - [Aditya Gulati, Dakshita Khurana, Kabir Tomer, *How to Build Pseudorandom Unitaries in Microcrypt*](https://arxiv.org/abs/2610.03711) (arXiv:2610.03711, 2 Oct 2026). Linked in Khurana's post; it builds pseudorandom unitaries from diagonal phase layers and Hadamard transforms using a classical random oracle, related to the paper's use of random diagonal signs and Walsh transforms.
+- [Barak Nehoran, Joseph Slote, Henry Yuen, *All Unitaries Have Constant Depth Quantum Circuits*](https://arxiv.org/abs/2609.40351) (arXiv:2609.40351, 30 Sep 2026; v2 5 Oct 2026). Named in an added note to [Khurana's post](https://dakshitakhurana.substack.com/p/classical-at-heart) as the strongest known evidence for a positive resolution just before the release; the paper cites this work as NY2026 with two authors, while v2 adds Slote as a co-author and boosting to exact implementation.
 
 ## Possibly relevant literature (found by the agent, not checked)
 - [William Kretschmer and Ewin Tang, *Unitary complexity in polynomial space*](https://arxiv.org/abs/2610.03705) (arXiv:2610.03705, v1 2 Oct 2026, v2 5 Oct 2026). Proves that if quantum commitments exist, then either the unitary synthesis problem has no polynomial-time solution or BPP ≠ NEXP, which may bear on how the paper's existential, non-constructive oracle statement should be interpreted.

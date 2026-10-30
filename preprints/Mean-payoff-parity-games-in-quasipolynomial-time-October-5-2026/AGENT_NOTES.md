@@ -1,9 +1,9 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [Ashkan Soleymani and Gabriele Farina, *A Quasipolynomial Algorithm for $\ell_\infty$ Contractions*](https://arxiv.org/abs/2610.30122) (arXiv:2610.30122, 21 Oct 2026). Its [Section 2](https://arxiv.org/html/2610.30122v1) cites this paper, among all four family papers, as concurrent work that exploits monotonicity of value operators; its own application list covers turn-based stochastic parity and mean-payoff games but does not claim the combined mean-payoff parity objective. [family-level]
 
 ## Comments and discussion
 - None found.

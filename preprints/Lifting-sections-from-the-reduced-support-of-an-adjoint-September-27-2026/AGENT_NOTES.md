@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -15,7 +15,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Jihao Liu and Zheng Xu, *Non-vanishing implies numerical dimension one abundance*](https://arxiv.org/abs/2505.05250) (arXiv:2505.05250v2, July 30, 2025). Highlighted in the family exposition as prior abundance with nonnegative Kodaira dimension and numerical dimension at most one through dimension five, providing a restricted comparison for this manuscript’s broader claim. [family-level]
 
 ## Possibly relevant literature (found by the agent, not checked)
-- None found.
+- [Jihao Liu, *Nonvanishing implies abundance*](https://arxiv.org/html/2610.35913v1) (arXiv:2610.35913v1, October 7, 2026). Its root-stack and mixed-Hodge-module lifting argument gives a comparison for this manuscript’s reduction of abundance to nonvanishing. [family-level]
 
 ## Digests and expositions
 - [AI Proved What?, *Always semiample?*](https://aiprovedwhat.com/episodes/034-log-abundance-compact-kahler-spaces/) (Episode 034, October 2026). Explains the family’s abundance claims, proof strategy, and dependencies. [AI-generated per source] [family-level]

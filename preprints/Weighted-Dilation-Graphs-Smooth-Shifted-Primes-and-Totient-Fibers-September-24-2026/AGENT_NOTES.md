@@ -1,12 +1,13 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Shisheng Li, Zhong Zhuang, *Coprime pairs with equal sum of divisors, assuming smooth shifted primes*](https://arxiv.org/abs/2610.15674) (arXiv:2610.15674, 2026-10-11). Uses a Pollack–Pomerance argument to reduce Erdős Problem #824 to a smooth-$p+1$ hypothesis, and argues that this paper's method for $p-1$ carries over to $p+1$ after sign changes in two sections; the authors state they have not independently verified the paper's main new estimates.
 - [Plasma AI, *The normal order of the number of iterations of Euler’s function*](https://github.com/plasma-ai/erdos-408/blob/main/paper/totient_iterates.pdf) (preprint, Palomar PALOMAR-2026-10-19-000009, 2026-10-19). Derives a normal order for iterated-totient heights (Erdős #408); its graph-transference step reuses this paper's Lemma 3.4, Theorem 3.5, Corollary 3.11, Theorem 4.1 and Lemma 4.3, together with OpenAI's Dirichlet zero-free half-plane. [family-level]
 - [Jizhou Guo, *Shifted primes with a prescribed parity of the number of prime factors*](https://github.com/aster2024/openai-math-followups/blob/main/shifted-prime-parity/README.md) (preprint, 2026-10-09). Uses the parity paper’s prime-slot correlations and this paper's sieve estimates to claim a lower bound of $cX/(\log X)^{300}$ for squarefree $p+h$ with either Möbius sign, uniformly for $0<|h|\le(\log X)^5$. [AI-generated per source] [family-level]
 - [Jizhou Guo, *Sums of two rough numbers with prescribed Liouville signs*](https://github.com/aster2024/openai-math-followups/blob/main/rough-goldbach-parity/README.md) (preprint, 2026-10-09). Combines adaptations of this paper’s graph estimates with OpenAI’s Dirichlet zero-free half-plane to claim many representations of large even integers as sums of squarefree rough numbers with prescribed Liouville signs. [AI-generated per source]
+- [Jizhou Guo, *Consequences of results in the OpenAI mathematics release*, Entry 2](https://github.com/aster2024/openai-math-followups/blob/main/consequences/README.md) (preprint, 2026-10-08). Derives lower bounds for Carmichael and Novák–Carmichael numbers from the companion Poisson–Dirichlet theorem, and notes that this paper's Theorem 1.2 can supply the smooth-shifted-prime hypothesis for the bound $N_C(x)\ge x^{1-\varepsilon}$. [AI-generated per source] [family-level]
 
 ## Comments and discussion
 - [Thomas Bloom, *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10) (erdosproblems.com blog, 2026-10-08). The erdosproblems.com maintainer lists this paper's claim as a resolution of Problem #821, notes the previous best exponent was $0.715\ldots$, and says the proof goes through results on the prime factors of $p-1$.
@@ -21,9 +22,10 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Related prior literature mentioned by others
 - [Kevin Ford, *The distribution of totients*](https://arxiv.org/abs/1104.3264) (arXiv:1104.3264, revised version of Ramanujan J. 2 (1998)). Boris Alexeev cited this paper on the [Erdős #821 forum](https://www.erdosproblems.com/forum/discuss/821) (2025-09-30) for the earlier multiplicity-exponent record $0.7039$, which Thomas Bloom noted Lichtman had since improved.
+- [Alexander Kalmynin, *Novák-Carmichael numbers and shifted primes without large prime factors*](https://arxiv.org/abs/1706.07343) (arXiv:1706.07343, 2017). Guo's consequences note uses this paper to pass from smooth shifted primes to lower bounds for the Novák–Carmichael counting function.
 
 ## Possibly relevant literature (found by the agent, not checked)
-- None found.
+- [Paul Pollack, *Small values of Carmichael's lambda function*](https://arxiv.org/abs/2606.19132) (arXiv:2606.19132, 2026-06-17). Its upper bound for the count of $n\le x$ with $\lambda(n)\le y$ is stated to be sharp under a hypothesis on powersmooth shifted primes, which may bear on Theorem 1.2 (smooth rather than powersmooth); the two have not been compared.
 
 ## Digests and expositions
 - None found.

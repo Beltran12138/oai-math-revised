@@ -1,9 +1,9 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [Ankit Pradhan, Cole Vick, Ruijie Fang, Carl Kwan, *Weak and strong βη-normalization in pure type systems with βη-conversion*](https://github.com/localmotiveproofs/PTS-beta-eta) (Lean repository, first commit 2026-10-24, latest 2026-10-27; no paper). Adapts this paper's proof to Geuvers' PTS_βη, the case the paper leaves aside, stating that weak βη-normalization, and also weak β-normalization, implies strong βη-normalization for every specification; the system with a strengthening rule and Geuvers' Conjecture 8.1.3 are stated as not proved. The development reuses OpenAI's Lean files for the β case and was checked by the kernels nanoda and con-ron according to Palomar (record PALOMAR-2026-10-27-000027 v1), with the review recorded as self-assessed and no outside reviewer of statement or proof. [AI-generated per source]
 
 ## Comments and discussion
 - None found.
@@ -21,6 +21,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Digests and expositions
 - [AI Proved What?, *If every program can finish, must it?*](https://aiprovedwhat.com/episodes/245-wn-implies-sn-pure-type-systems/) (episode 245, October 2026). Provides a video and transcript explaining the system-wide hypothesis, the restriction to β-reduction, and the proposed proof through sort profiles and exclusion of a paradox-supporting configuration. [AI-generated per source] [family-level]
+- [Ankit Pradhan, Cole Vick, Ruijie Fang and Carl Kwan, *A visual guide to the proof of the βη-Barendregt–Geuvers–Klop conjectures*](https://github.com/localmotiveproofs/PTS-beta-eta/blob/main/guide/proof-map.pdf) (GitHub manuscript, accessed 2026-10-30). Explains OpenAI's β proof through recursion over strongly connected components of a signed sort-profile graph, illustrates the candidate constructions and typed paradox with examples linked to Lean declarations, and describes the changes needed for βη-conversion. [family-level]
 
 ## News and blogs
 - None found.

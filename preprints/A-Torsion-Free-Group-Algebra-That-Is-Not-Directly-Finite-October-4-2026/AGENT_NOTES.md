@@ -1,12 +1,15 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Seth Douglas, Nidhal Mghirbi, *hyperbolic-group-not-sofic* (note and Lean formalization)](https://github.com/Apsiape/hyperbolic-group-not-sofic) (GitHub, v1.1.0, October 2026). This note on a different OpenAI group (*A torsion-free hyperbolic group that is not residually finite*) remarks in its introduction that OpenAI's characteristic-two torsion-free groups "with a group algebra that is not directly finite" already show that Linnell division rings need not exist.
+- [Elena I. Bunina, Winston Lee, Alexei Miasnikov, Kyrylo Muliarchyk, *Failure of direct finiteness for group algebras in every odd characteristic*](https://arxiv.org/abs/2610.22536) (arXiv:2610.22536, 2026-10-15). Constructs, for every odd prime $p$, a finitely presented $G_p$ and $a,b,c\in\mathbb F_p[G_p]$ with $ab=1$, $ac=0$, $c\ne0$; it cites this manuscript for the $\mathbb F_2$ case, takes bounded-path and planar-localization arguments from *A Torsion-Free Group Algebra with Zero Divisors*, and does not prove torsion-freeness. The authors state that "OpenAI's ChatGPT was used extensively for mathematical exploration".
+- [S. V. Ivanov, *Zero divisors in group algebras of torsion-free groups in odd characteristic*](https://arxiv.org/abs/2610.17662) (arXiv:2610.17662, 2026-10-13). Extends the characteristic-two zero-divisor construction underlying this manuscript's method to every odd prime; Bunina et al. name it as a source of ingredients and explain why its witnesses cannot be reused unchanged for direct finiteness.
 
 ## Comments and discussion
 - [Johan Öinert, comment on *100+ reactions to 100+ solutions*](https://proofsandprompts.com/2026/10/08/100-reactions-to-100-solutions/) (proofsandprompts.com, post of 2026-10-08). Öinert observes that the claimed torsion-free example over $\mathbb F_2$ also gives a nontrivial idempotent $ba$, hence a characteristic-two counterexample to the idempotent conjecture, and criticizes the manuscript for not mentioning this.
+- [MathWorld (Wolfram), *Kaplansky Direct-Finiteness Conjecture*](https://mathworld.wolfram.com/KaplanskyDirect-FinitenessConjecture.html) (updated 2026-10-30). Reports the Bunina et al. claim and says its inputs from unnamed "earlier OpenAI manuscripts" "have not been independently verified here", so the refutation is not treated as established.
 
 ## Formalization
 - [OpenAI, *Lean scope note for family 197* (`lean/docs/197.md`)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/197.md) (openai/math release, 2026-10-06). The family's scope note covers the characteristic-two, odd-characteristic and determinant companions; it does not list this torsion-free manuscript among the formalized papers. [family-level]

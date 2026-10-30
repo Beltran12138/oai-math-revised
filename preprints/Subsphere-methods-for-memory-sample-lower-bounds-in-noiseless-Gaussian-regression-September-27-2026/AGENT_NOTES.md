@@ -1,15 +1,17 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [GitHub user acprk (author name not given), *The leading constant of the memory–sample tradeoff for noiseless Gaussian regression*](https://github.com/acprk/memory-sample-leading-constant) (GitHub note, v0.1.0, 2026-10-10). Claims the constant $2^{-16}$ of this paper can be replaced by any $c < 2\ln 2$ for $o(d^2)$ memory, matched by finite-bit randomized Kaczmarz, conditional on the upstream proof; it takes its architecture and unchanged lemmas from this paper. [AI-generated per source]
+- [Zeyu Wu, Zihao Wang, Minghua Deng, *The Cost of Working Memory in Streaming Mean Estimation*](https://arxiv.org/abs/2610.39540) (arXiv:2610.39540, stat.ML, 2026-10-29). Mentions this paper in its related work (Section 1.1) as a finite-memory sample lower bound for exact linear equations, contrasted with its own noisy Gaussian location model, and uses no result from it.
 
 ## Comments and discussion
 - None found.
 
 ## Formalization
 - [OpenAI, *Memory–sample lower bounds for noiseless Gaussian regression: Lean scope notes*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/140.md) (oai-math-revised mirror of openai/math, 2026-10). Describes the Lean formalization across the six papers, with eight comparator files (e.g. NoiselessRegression.lean, SubsphereCurrent.lean); for this paper it reports the explicit $2^{-16} d \log_2(1/\epsilon)$ bound at success 2/3 and a same-order bound at success 1/2. [family-level]
+- [MathVet, *Family 140 statement-fidelity audit*](https://github.com/mathvet/mathvet/blob/14c7f918cd336d0da03a02aae5a0eed4a429d4db/reviews/openai-math/fidelity-table.csv) (GitHub audit, accessed 2026-10-30). Classifies the family’s formal statements as covering its headline and identifies custom learner and measurability definitions for scrutiny. [AI-generated per source] [family-level]
 
 ## Related prior literature mentioned by others
 - [V. Sharan, A. Sidford and G. Valiant, *Memory-Sample Tradeoffs for Linear Regression with Small Error*](https://arxiv.org/abs/1904.08544) (arXiv:1904.08544, STOC 2019). Identified by VibeMathed as the noisy-regression precursor to the family's precision question. [family-level]

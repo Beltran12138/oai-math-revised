@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Anton Ragin, *The massive continuum limit of the two-dimensional O(4) sigma model*](https://zenodo.org/records/23349319) (Zenodo, doi:10.5281/zenodo.23349319, v7, 2026-10-13). Constructs an O(4) continuum limit "conditionally on results of two recent unrefereed, AI-generated manuscripts released by OpenAI", one being the renormalization-group analysis of the lattice O(4) model; this manuscript is in its citation list. [AI-generated per source]
@@ -22,6 +22,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Digests and expositions
 - [AI Proved What?, *Do spins forget?*](https://aiprovedwhat.com/episodes/215-o3-continuum-o4-mass-asymptotics/) (Episode 215, October 2026). Explains the five papers’ claims, proof strategies and differing formalization scopes. [AI-generated per source] [family-level]
+- [Roland Bauerschmidt and contributors (README credits "the community"), *Digesting the O(3) NLSM construction*](https://github.com/bauerscr/nlsm) (GitHub repository bauerscr/nlsm, first commit 2026-10-13, latest commit 2026-10-29). Open effort to write a human-digested version of the O(3) construction; its README lists this paper as establishing $m(\beta)\asymp\sqrt{\beta}e^{-\pi\beta}$ and describes it as often referenced and adapted in the O(3) papers. [family-level]
 
 ## News and blogs
 - None found.

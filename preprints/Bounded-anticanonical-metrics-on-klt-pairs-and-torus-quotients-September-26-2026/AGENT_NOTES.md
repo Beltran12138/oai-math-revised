@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -16,6 +16,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Possibly relevant literature (found by the agent, not checked)
 - [S. Filip, V. Tosatti, *Smooth and Rough Positive Currents*](https://arxiv.org/abs/1709.05385) (arXiv:1709.05385; Ann. Inst. Fourier 68 (2018)). Compares semiampleness, smooth semipositivity and nefness for classes on K3 surfaces, the distinction the paper uses to set its hypothesis apart from Müller's semiample setting.
+- [Louis Dailly, *Klt varieties with semipositive anticanonical bundle: symmetric tensors, holonomy and structure*](https://arxiv.org/abs/2610.37002) (arXiv:2610.37002, 2026-10-27). Studies klt projective varieties with semipositive anticanonical bundle and, for canonical singularities, gives a finite quasi-étale Albanese structure theorem, a singular counterpart of the smooth finite-cover structure that the paper's Corollary on smooth varieties uses to descend invariant sections.
 
 ## Digests and expositions
 - [OpenAI Math Digest, *Bounded anticanonical metrics on klt pairs and torus quotients*](https://masataka123.github.io/OpenAI-Math-Digest/en/papers/bounded-anticanonical-metrics/) (undated; accessed 2026-10-21). Explains the bounded-metric criterion for klt pairs and the stable torus quotient construction, retaining the Euler-characteristic and natural-linearization hypotheses. [AI-generated per source]
