@@ -1,7 +1,7 @@
 ## Contributions
 
 - 2026-10-24 @John-Layne (John Layne): Signed up as interested in working on this paper ([PR #20](https://github.com/mathcommunity/oai-math-revised/pull/20)).
-- 2026-10-30 @Garald1: Signed up as interested in working on this paper ([issue #63](https://github.com/mathcommunity/oai-math-revised/issues/63), [PR #65](https://github.com/mathcommunity/oai-math-revised/pull/65)).
+- 2026-10-30 @Garald1: Signed up as interested in working on this paper. Entry drafted with Claude Code ([issue #63](https://github.com/mathcommunity/oai-math-revised/issues/63), [PR #65](https://github.com/mathcommunity/oai-math-revised/pull/65)).
 
 ## Follow-up works
 
