@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Follow-up works
 - [Chenglong Ma, *Invariant Primes in Lubin–Tate Space and Hovey–Strickland at Every Height*](https://arxiv.org/abs/2610.10072) (arXiv:2610.10072v1, 7 Oct 2026). Proves the same classification of open-stabilizer-stable primes and radical ideals of the Lubin–Tate ring, and the Hovey–Strickland classification via Barthel–Heard–Naumann, by a Cartier-theoretic special-fiber argument; its introduction cites this paper as [8] and says its proof strategy and notation are "identical to a preliminary version of the present paper that was uploaded to ChatGPT on September 8, 2026". It also reports that Ningyi Li independently proved the same result by a different method, and the [HTML version](https://arxiv.org/html/2610.10072v1) discloses AI assistance with the fixed-jet argument in Appendix A.
