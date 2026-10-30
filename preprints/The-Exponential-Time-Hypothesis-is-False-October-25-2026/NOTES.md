@@ -9,6 +9,6 @@
 
 ## Constructive comments / reviews
 
-- [McElveen, `measurement_toy.py`](https://github.com/chelsinchaos/measurement-indexed-counting/blob/7a73e39b11c71d2b3c7209074e04e84208612b58/code/measurement_toy.py): Extending the formulas of Section 2.7 to $R=Q+1$, outside the paper's parameter regime, gives $M_0=I$ and no measurements, with replacement forms of degree up to $Q$; this illustrates the remark that a different form at each point "would generally cost degree $Q$" (run with `--design aux --Q 3 --R 4`).
+- [McElveen, `measurement_toy.py`](https://github.com/chelsinchaos/measurement-indexed-counting/blob/7a73e39b11c71d2b3c7209074e04e84208612b58/code/measurement_toy.py): In the toy's extension of Section 2.7 to $R=Q+1$, outside the paper's parameter regime, choosing the interpolation interval $\{0,\ldots,Q\}$ gives $M_0=I$ and no measurements, with replacement forms of degree up to $Q$; this illustrates the remark that a different form at each point "would generally cost degree $Q$" (run with `--design aux --Q 3 --R 4`).
 
 ## People interested in meeting to work on digestion
