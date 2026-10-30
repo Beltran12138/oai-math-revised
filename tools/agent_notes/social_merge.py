@@ -117,6 +117,8 @@ def main():
             if c["source"].startswith("X") and not c["context"].startswith("Post text:"):
                 text = oembed_text(c["url"])
                 c["context"] = f"Post text: {text} | Grok's summary: {c['context']}" if text is not None else None
+        if not cands:
+            continue
         known = set().union(*(urls_in((ROOT / "preprints" / s / "AGENT_NOTES.md").read_text(encoding="utf-8")) | blocked[s]
                               for s in fam.papers))
         cands = [c for c in cands.values() if c["context"] is not None and canonical(c["url"]) not in known]

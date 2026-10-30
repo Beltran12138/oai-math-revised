@@ -48,6 +48,15 @@ def blocked_urls(root: Path, families: dict) -> dict[str, set[str]]:
     return out
 
 
+def sections(text: str) -> dict[str, list[str]]:
+    """Section title -> its items (without '- None found.')."""
+    out = {}
+    for block in re.split(r"^## ", text, flags=re.M)[1:]:
+        title, _, body = block.partition("\n")
+        out[title] = [l for l in body.splitlines() if l.startswith("- [")]
+    return out
+
+
 def additive(new: str, old: str, blocked: set[str]) -> tuple[str, list[str], list[str]]:
     """Return (text without unwanted new items, existing items missing from it, dropped new items).
 
@@ -63,5 +72,9 @@ def additive(new: str, old: str, blocked: set[str]) -> tuple[str, list[str], lis
                 continue
             have.add(links[0])
         kept.append(line)
-    lost = [l for l in old_lines if l.startswith("- [") and l not in kept]
-    return "\n".join(kept) + "\n", lost, dropped
+    text = "\n".join(kept) + "\n"
+    now, lost = sections(text), []
+    for title, items in sections(old).items():  # each existing item stays in its section, in order
+        rest = iter(now.get(title, []))
+        lost += [l for l in items if l not in rest]
+    return text, lost, dropped
