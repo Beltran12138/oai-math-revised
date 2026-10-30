@@ -1,6 +1,6 @@
 # Task: collect context for one result family of the OpenAI math release
 
-You are collecting publicly available context about the papers of result family {FAMILY} ("{FAMILY_TITLE}") from the OpenAI math release (github.com/openai/math, 6 October 2026; 719 AI-generated manuscripts in 372 families). The output is shown, marked as automatically collected and unreviewed, on the community site mathcommunity.github.io/oai-math-revised. Mathematicians in the area will read it, so precision matters more than volume.
+You are collecting publicly available context about the papers of result family {FAMILY} ("{FAMILY_TITLE}") from the OpenAI math release (github.com/openai/math, 6 October 2026; 721 AI-generated manuscripts in 373 families, as of the update of 26 October). The output is shown, marked as automatically collected and unreviewed, on the community site mathcommunity.github.io/oai-math-revised. Mathematicians in the area will read it, so precision matters more than volume.
 
 Repository (read-only for you): {REPO}. The family's papers are these folders under `preprints/`:
 
@@ -18,7 +18,8 @@ These links point to the papers from structured sources (VibeMathed, whataifound
 
 Search for follow-up work, expositions, expert comments and formalizations about these specific papers:
 - arXiv (search the titles and key terms of the main results; papers from October 2026 onwards that mention OpenAI or cite the release), hexagonmath.org (`https://hexagonmath.org/search?q=...`)
-- blogs and their comment threads: Terence Tao, Gil Kalai, galoisrepresentations.org (Persiflage), Xena, Shtetl-Optimized, Lance Fortnow (and github.com/fortnow/AI-Papers), proofsandprompts.com; Hacker News (hn.algolia.com)
+- blogs and their comment threads: Terence Tao, Gil Kalai, galoisrepresentations.org (Persiflage), Xena, Shtetl-Optimized, Lance Fortnow (and github.com/fortnow/AI-Papers), Windows on Theory, proofsandprompts.com; Hacker News (hn.algolia.com)
+- for theoretical computer science also ECCC (eccc.weizmann.ac.il) and cstheory.stackexchange.com
 - github.com/google-deepmind/formal-conjectures issues and PRs; the Palomar registry
 - readable-intelligence.com (readable rewrites of some papers)
 - news coverage that discusses these papers specifically

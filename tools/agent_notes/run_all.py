@@ -1,13 +1,17 @@
 """Collect AGENT_NOTES.md for many families with Claude Code and Codex, then merge.
 
     python3 tools/agent_notes/run_all.py --work DIR --candidates candidates.json [--families 001 002 ...]
-                                          [--claude-jobs 5] [--codex-jobs 5] [--merge-jobs 3]
+                                          [--claude-jobs 5] [--codex-jobs 5] [--merge-jobs 3] [--update]
 
 For each family, a Claude Code run (`claude -p`) and a Codex run (`codex exec`)
 research the family independently (PROMPT.md). When both have succeeded, a
 low-effort Claude run merges their outputs, together with any existing
 AGENT_NOTES.md in the repository (CONSOLIDATE.md). Results land in
 DIR/merged/<folder>/AGENT_NOTES.md; nothing in the repository is written.
+
+With --update the notes in the repository are the base: the runs look for what is
+new (UPDATE.md), the merge only adds items (CONSOLIDATE_UPDATE.md), and items
+removed from the notes earlier stay out (removed.py).
 
 Safety: every job runs in its own fresh directory holding a copy of just the
 files it needs. Claude jobs run with --restricted (no shell, file tools confined
@@ -44,6 +48,7 @@ sys.path.insert(0, str(ROOT / "site"))
 from catalog import load  # noqa: E402
 from check import normalize, problems_in  # noqa: E402
 from make_prompt import make_prompt  # noqa: E402
+from removed import additive, blocked_urls  # noqa: E402
 
 CLAUDE_MODEL, CLAUDE_NAME = "claude-opus-5-5", "Claude Opus 5.5"
 CODEX_MODEL, CODEX_NAME = "gpt-6-astra", "GPT-6 Astra"
@@ -56,6 +61,7 @@ lock = threading.Lock()
 stopped: dict[str, str] = {}  # engine -> reason; "claude" also stops merges
 failures = {"claude": 0, "codex": 0}
 results: list[tuple[str, str, bool]] = []
+blocked: dict[str, set[str]] | None = None  # set with --update: folder -> URLs that stay out
 
 
 def log(work: Path, msg: str) -> None:
@@ -132,6 +138,14 @@ def publish(src: Path, dst: Path, folders: list[str]) -> list[str]:
     return problems
 
 
+def update_text(fam) -> str:
+    dates = [re.search(r" on (\d{4}-\d{2}-\d{2})\.", (ROOT / "preprints" / f / "AGENT_NOTES.md").read_text(encoding="utf-8")).group(1)
+             for f in fam.papers]
+    urls = sorted(set().union(*(blocked[f] for f in fam.papers)))
+    text = (HERE / "UPDATE.md").read_text(encoding="utf-8")
+    return text.replace("{SINCE}", min(dates)).replace("{BLOCKED}", "\n".join(f"- {u}" for u in urls) or "- None.")
+
+
 def research(engine: str, fam, work: Path, cands: dict) -> bool:
     marker = work / "done" / f"{engine}-{fam.num}"
     if marker.exists():
@@ -143,6 +157,8 @@ def research(engine: str, fam, work: Path, cands: dict) -> bool:
     out.mkdir(parents=True)
     repo = snapshot(job, fam, fam.papers)
     prompt = make_prompt(fam.num, cands, str(out), CLAUDE_NAME if engine == "claude" else CODEX_NAME, repo=repo)
+    if blocked is not None:
+        prompt += update_text(fam)
     logfile = work / "logs" / f"{engine}-{fam.num}.log"
     t = time.time()
     if engine == "claude":
@@ -195,7 +211,7 @@ def merge(fam, work: Path) -> bool:
             inputs.append(f"  - existing (older run): {dst}")
     (job / "docs").mkdir()
     shutil.copy(ROOT / "docs" / "AGENT_NOTES_FORMAT.md", job / "docs")
-    text = (HERE / "CONSOLIDATE.md").read_text(encoding="utf-8")
+    text = (HERE / ("CONSOLIDATE.md" if blocked is None else "CONSOLIDATE_UPDATE.md")).read_text(encoding="utf-8")
     for k, v in {"FAMILY": fam.num, "INPUTS": "\n".join(inputs), "REPO": str(job), "OUT": str(out),
                  "MODELS": f"{CLAUDE_NAME} and {CODEX_NAME}", "DATE": datetime.date.today().isoformat()}.items():
         text = text.replace("{" + k + "}", v)
@@ -205,7 +221,18 @@ def merge(fam, work: Path) -> bool:
     t = time.time()
     code = run(cmd, job, logfile, text)
     recover_from_log(logfile, out, fam.papers)
-    problems = publish(out, work / "merged", fam.papers) if code == 0 else [f"exit {code}"]
+    problems = []
+    for f in fam.papers if blocked is not None else []:  # an update may only add items
+        result = out / f / "AGENT_NOTES.md"
+        if result.is_file():
+            old = (ROOT / "preprints" / f / "AGENT_NOTES.md").read_text(encoding="utf-8")
+            new, lost, dropped = additive(result.read_text(encoding="utf-8"), old, blocked[f])
+            result.write_text(new, encoding="utf-8")
+            problems += [f"{f}: existing item changed or dropped: {l[:80]}" for l in lost]
+            if dropped:
+                log(work, f"merge {fam.num}: {f}: dropped {len(dropped)} repeated or removed items")
+    if not problems:
+        problems = publish(out, work / "merged", fam.papers) if code == 0 else [f"exit {code}"]
     ok = not problems
     log(work, f"merge {fam.num}: {'ok' if ok else 'FAILED: ' + '; '.join(problems)[:300]} ({time.time() - t:.0f}s)")
     if ok:
@@ -223,6 +250,7 @@ def main():
     ap.add_argument("--claude-jobs", type=int, default=5)
     ap.add_argument("--codex-jobs", type=int, default=5)
     ap.add_argument("--merge-jobs", type=int, default=3)
+    ap.add_argument("--update", action="store_true", help="add to the existing notes (see above)")
     args = ap.parse_args()
     work = Path(args.work).resolve()
     for d in ("done", "logs", "jobs", "claude", "codex", "merged"):
@@ -234,6 +262,9 @@ def main():
         sys.exit(f"another run is using {work}")
 
     _, families, _ = load(ROOT)
+    if args.update:
+        global blocked
+        blocked = blocked_urls(ROOT, families)
     nums = list(dict.fromkeys(f.zfill(3) for f in args.families)) if args.families else sorted(families)
     cands = json.loads(Path(args.candidates).read_text())
     pools = {"claude": cf.ThreadPoolExecutor(args.claude_jobs), "codex": cf.ThreadPoolExecutor(args.codex_jobs)}

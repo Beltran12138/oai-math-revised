@@ -25,11 +25,12 @@ sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(ROOT / "site"))
 from catalog import load  # noqa: E402
 from check import problems_in  # noqa: E402
+from removed import additive, blocked_urls, canonical, urls_in  # noqa: E402
 from run_all import CLAUDE_MODEL, log, publish, recover_from_log, run  # noqa: E402
 from social import oembed_text  # noqa: E402
 
 
-def merge_family(fam, cands: list[dict], work: Path) -> bool:
+def merge_family(fam, cands: list[dict], work: Path, blocked: dict[str, set[str]]) -> bool:
     marker = work / "done" / f"social-{fam.num}"
     if marker.exists():
         return True
@@ -57,10 +58,14 @@ def merge_family(fam, cands: list[dict], work: Path) -> bool:
     recover_from_log(logfile, out, fam.papers)
     problems = []
     for f in fam.papers:  # the merge may only add items, never drop or edit existing ones
-        new = (out / f / "AGENT_NOTES.md").read_text(encoding="utf-8") if (out / f / "AGENT_NOTES.md").is_file() else ""
-        lost = [l for l in (job / "notes" / f / "AGENT_NOTES.md").read_text(encoding="utf-8").splitlines()
-                if l.startswith("- [") and l not in new]
+        result = out / f / "AGENT_NOTES.md"
+        new = result.read_text(encoding="utf-8") if result.is_file() else ""
+        text, lost, dropped = additive(new, (job / "notes" / f / "AGENT_NOTES.md").read_text(encoding="utf-8"), blocked[f])
+        if result.is_file():
+            result.write_text(text, encoding="utf-8")
         problems += [f"{f}: existing item changed or dropped: {l[:80]}" for l in lost]
+        if dropped:
+            log(work, f"social {fam.num}: {f}: dropped {len(dropped)} repeated or removed items")
     if not problems:
         problems = publish(out, work / "social_merged", fam.papers) if code == 0 else [f"exit {code}"]
     ok = not problems
@@ -82,6 +87,7 @@ def main():
     for d in ("done", "logs", "jobs", "social_merged"):
         (work / d).mkdir(parents=True, exist_ok=True)
     _, families, _ = load(ROOT)
+    blocked = blocked_urls(ROOT, families)
 
     if args.apply:
         # Only the selected families (default: all) are copied.
@@ -111,12 +117,14 @@ def main():
             if c["source"].startswith("X") and not c["context"].startswith("Post text:"):
                 text = oembed_text(c["url"])
                 c["context"] = f"Post text: {text} | Grok's summary: {c['context']}" if text is not None else None
-        cands = [c for c in cands.values() if c["context"] is not None]
+        known = set().union(*(urls_in((ROOT / "preprints" / s / "AGENT_NOTES.md").read_text(encoding="utf-8")) | blocked[s]
+                              for s in fam.papers))
+        cands = [c for c in cands.values() if c["context"] is not None and canonical(c["url"]) not in known]
         if cands:
             todo.append((fam, cands))
     log(work, f"social merge: {len(todo)} families with candidates")
     with cf.ThreadPoolExecutor(args.jobs) as ex:
-        results = list(ex.map(lambda a: merge_family(*a, work), todo))
+        results = list(ex.map(lambda a: merge_family(*a, work, blocked), todo))
     log(work, f"social merge finished: {sum(results)}/{len(todo)} ok")
 
 

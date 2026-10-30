@@ -3,7 +3,8 @@
     python3 tools/agent_notes/finalize.py --work DIR [--dry-run]
 
 An item is dropped only if every link in it is definitely gone (HTTP 404 or 410);
-sites that block automated requests (403, 429, timeouts) are kept.
+sites that block automated requests (403, 429, timeouts) are kept. Items already in
+the repository are never dropped: a dead link there is reported, to be replaced by hand.
 """
 
 from __future__ import annotations
@@ -42,12 +43,17 @@ def main():
         if not target.is_dir():
             print(f"skip {folder}: no such folder in preprints/", file=sys.stderr)
             continue
+        notes = target / "AGENT_NOTES.md"
+        existing = set(notes.read_text(encoding="utf-8").splitlines()) if notes.is_file() else set()
         lines = []
         for line in text.splitlines():
             links = LINK.findall(line)
             if line.startswith("- ") and links and all(u in dead for u in links):
-                dropped += 1
-                continue
+                if line in existing:
+                    print(f"dead link in existing item, {folder}: {line[:100]}", file=sys.stderr)
+                else:
+                    dropped += 1
+                    continue
             lines.append(line)
         out = normalize("\n".join(lines) + "\n")
         tmp = f.with_suffix(".final")
