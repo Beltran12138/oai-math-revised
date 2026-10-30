@@ -16,10 +16,11 @@ from check import LINK
 
 
 def canonical(url: str) -> str:
-    """Same page, same string: scheme, www, trailing slash, X's domains, arXiv abs/pdf/versions."""
+    """Same page, same string: scheme, www, trailing slash, X post ids, arXiv abs/pdf/versions."""
     u = re.sub(r"^http://", "https://", url.strip()).rstrip("/")
     u = re.sub(r"^https://www\.", "https://", u).replace("https://twitter.com/", "https://x.com/")
-    u = re.sub(r"^(https://x\.com/[^?#]+)[?#].*$", r"\1", u)
+    if m := re.match(r"https://(?:x\.com|(?:api\.)?fxtwitter\.com)/(?:[^/]+/)?status/(\d+)", u):
+        return f"https://x.com/i/status/{m.group(1)}"
     m = re.match(r"https://arxiv\.org/(?:abs|pdf)/([^?#]+?)(?:v\d+)?(?:\.pdf)?$", u)
     return f"https://arxiv.org/abs/{m.group(1)}" if m else u
 

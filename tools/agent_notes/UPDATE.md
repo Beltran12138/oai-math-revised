@@ -7,6 +7,8 @@ Look for what the notes do not have yet, above all anything from {SINCE} onwards
 
 Write only the new items. Each output file has the usual header and all seven sections, with `- None found.` wherever there is nothing new; do not copy existing items. Do not change the name of a section to explain an update.
 
+Cite an X post only at `https://x.com/<handle>/status/<id>`, never at a mirror or API such as fxtwitter, even if that is how you read it.
+
 Do not include these links, removed from the notes on purpose:
 
 {BLOCKED}

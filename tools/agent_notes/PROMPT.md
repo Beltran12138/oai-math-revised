@@ -49,6 +49,7 @@ Collected by an AI agent ({MODEL}) on {DATE}.
 Rules:
 - One item per line: `- [Author(s) or who/where, *Title*](URL) (ID or venue, date). One neutral sentence on how it relates to this paper.` Optional tags at the end: `[AI-generated per source]`, `[cites earlier version]`, `[family-level]`.
 - An item about the whole family goes into the file of every paper it concerns, tagged `[family-level]`.
+- Cite an X post at `https://x.com/<handle>/status/<id>`, not at a mirror or API.
 - Every URL must have been opened successfully by you. Never invent citations, identifiers, dates or quotes.
 - Neutral descriptions. Do not judge correctness yourself. Quotes at most 25 words.
 - "Possibly relevant literature": at most 5 items, each tied to a specific claim of the paper and not already in its bibliography (check!).
