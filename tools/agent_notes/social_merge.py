@@ -24,7 +24,7 @@ ROOT = HERE.parents[1]
 sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(ROOT / "site"))
 from catalog import load  # noqa: E402
-from check import problems_in  # noqa: E402
+from check import normalize, problems_in  # noqa: E402
 from removed import additive, blocked_urls, canonical, urls_in  # noqa: E402
 from run_all import CLAUDE_MODEL, log, publish, recover_from_log, run  # noqa: E402
 from social import oembed_text  # noqa: E402
@@ -104,7 +104,12 @@ def main():
             if lost:  # the repository moved on since the merge
                 print(f"skip {f.parent.name}: {len(lost)} items differ from the repository, for example {lost[0][:80]}")
                 continue
-            target.write_text(text, encoding="utf-8")
+            checked = f.with_suffix(".apply")
+            checked.write_text(normalize(text), encoding="utf-8")
+            if problems_in(checked):
+                print(f"skip {f.parent.name}: {problems_in(checked)}")
+                continue
+            shutil.copy(checked, target)
             n += 1
         print(f"{n} files copied into preprints/")
         return
