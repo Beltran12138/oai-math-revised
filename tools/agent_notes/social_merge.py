@@ -119,8 +119,8 @@ def main():
                 c["context"] = f"Post text: {text} | Grok's summary: {c['context']}" if text is not None else None
         if not cands:
             continue
-        known = set().union(*(urls_in((ROOT / "preprints" / s / "AGENT_NOTES.md").read_text(encoding="utf-8")) | blocked[s]
-                              for s in fam.papers))
+        known = set.intersection(*(urls_in((ROOT / "preprints" / s / "AGENT_NOTES.md").read_text(encoding="utf-8")) | blocked[s]
+                                   for s in fam.papers))  # still needed by any paper of the family
         cands = [c for c in cands.values() if c["context"] is not None and canonical(c["url"]) not in known]
         if cands:
             todo.append((fam, cands))

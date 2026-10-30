@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import re
 import subprocess
+from collections import Counter
 from pathlib import Path
 
 from check import LINK
@@ -31,8 +32,10 @@ def urls_in(text: str) -> set[str]:
 
 def blocked_urls(root: Path, families: dict) -> dict[str, set[str]]:
     """folder -> URLs once in the notes of its family that are not in its notes now."""
-    log = subprocess.run(["git", "-C", str(root), "log", "-p", "--unified=0", "--format=", "--",
-                          "preprints/*/AGENT_NOTES.md"], capture_output=True, text=True, check=True).stdout
+    log = ""
+    for cmd in (["log", "-p", "--format="], ["diff", "HEAD"]):  # commits, then removals not committed yet
+        log += subprocess.run(["git", "-C", str(root), *cmd, "--unified=0", "--", "preprints/*/AGENT_NOTES.md"],
+                              capture_output=True, text=True, check=True).stdout
     removed: dict[str, set[str]] = {}
     folder = ""
     for line in log.splitlines():
@@ -63,11 +66,13 @@ def additive(new: str, old: str, blocked: set[str]) -> tuple[str, list[str], lis
 
     A new item is dropped if its main link is already in the notes or any link is blocked.
     """
-    old_lines = old.splitlines()
+    copies = Counter(old.splitlines())
     have, kept, dropped = urls_in(old), [], []
     for line in new.splitlines():
         links = [canonical(u) for u in LINK.findall(line)]
-        if line.startswith("- ") and links and line not in old_lines:
+        if copies[line] > 0:
+            copies[line] -= 1
+        elif line.startswith("- ") and links:
             if links[0] in have or blocked.intersection(links):
                 dropped.append(line)
                 continue

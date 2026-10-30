@@ -91,6 +91,10 @@ def main():
                 continue
             for s in d["folders"]:
                 f = work / "merged" / s / "AGENT_NOTES.md"
+                repo = (ROOT / "preprints" / s / "AGENT_NOTES.md").read_text(encoding="utf-8").splitlines()
+                if d["line"] in repo:
+                    print(f"kept, already in the repository: {d['line'][:80]}", file=sys.stderr)
+                    continue
                 lines = f.read_text(encoding="utf-8").splitlines()
                 f.write_text(normalize("\n".join(l for l in lines if l != d["line"]) + "\n"), encoding="utf-8")
                 n += 1
@@ -105,11 +109,14 @@ def main():
     todo = {n: [i for i in its if i["id"] not in held] for n, its in items.items()}
     todo = {n: its for n, its in todo.items() if its}
 
+    failed: list[str] = []
+
     def job(n):
         try:
             found = screen(n, families[n], todo[n])
         except Exception as e:  # one family's failure should not lose the others
             print(f"FAILED {e}", file=sys.stderr)
+            failed.append(n)
             return []
         by_id = {i["id"]: i for i in todo[n]}
         print(f"{n}: {len(found)} of {len(todo[n])} dropped", file=sys.stderr)
@@ -118,6 +125,8 @@ def main():
     with cf.ThreadPoolExecutor(args.jobs) as ex:
         for r in ex.map(job, todo):
             drops += r
+    if failed:  # unscreened items must not pass as screened
+        sys.exit(f"screen failed for families {' '.join(failed)}; nothing written, rerun")
     path.write_text(json.dumps(drops, indent=1, ensure_ascii=False))
     print(f"{sum(map(len, items.values()))} new items, {len(held)} held back, {len(drops) - len(held)} marked by the screen", file=sys.stderr)
 
