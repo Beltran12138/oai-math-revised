@@ -65,3 +65,14 @@ supplies gradient energy, from which short candidate-label lists can
 be extracted without an alphabet-size factor. These ingredients
 are proved in full in \Cref{sec:restriction,ana:private-section};
 the final decoding uses the ordinary Label Cover promise above.
+
+\paragraph{Relation to the Unique Games Theorem.}
+A companion manuscript in the same release~\cite{OpenAIUniqueGames2026}
+presents a proof of the Unique Games Conjecture. If that proof holds up,
+then NP-hardness of Vertex Cover at every fixed factor below two
+follows from the reduction of Khot and
+Regev~\cite{KhotRegev2008} discussed above, as recorded
+in~\cite[Section~8]{OpenAIUniqueGames2026}. The proof given here does not
+use~\cite{OpenAIUniqueGames2026}: its only external hardness input is
+the Label Cover promise of \Cref{src:hardness}. It is therefore an
+independent route to this consequence of the Unique Games Conjecture.
