@@ -43,9 +43,10 @@ def new_items(work: Path, families: dict) -> dict[str, list[dict]]:
     for num, fam in families.items():
         for s in fam.papers:
             merged = work / "merged" / s / "AGENT_NOTES.md"
-            if not merged.is_file():
+            notes = ROOT / "preprints" / s / "AGENT_NOTES.md"
+            if not merged.is_file() or not notes.is_file():
                 continue
-            old = sections((ROOT / "preprints" / s / "AGENT_NOTES.md").read_text(encoding="utf-8"))
+            old = sections(notes.read_text(encoding="utf-8"))
             for title, items in sections(merged.read_text(encoding="utf-8")).items():
                 for line in items:
                     if line not in old.get(title, []):
