@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -16,6 +16,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Possibly relevant literature (found by the agent, not checked)
 - [Dinur, Mossel, Regev, *Conditional Hardness for Approximate Coloring*](https://arxiv.org/abs/cs/0504062) (arXiv:cs/0504062, 2005). Derives hardness of approximate coloring (chromatic number at most q vs. at least Q, for q ≥ 4) from Khot's 2-to-1 conjecture, which bears on the paper's coloring consequences in Section 1.3; the paper does not cite it.
+- [Moritz Hardt, Raghu Meka, Prasad Raghavendra and Benjamin Weitz, *Computational Limits for Matrix Completion*](https://arxiv.org/abs/1402.2331) (arXiv:1402.2331, 2014). Relates low-rank matrix completion to the hardness of coloring; Fei, Minzer and Wang apply it to derive matrix-completion corollaries from the three-colorable vs. not-k-colorable statement that Section 1.3 of this paper says it recovers, and the paper does not cite it.
 
 ## Digests and expositions
 - [Prepared with Claude for Lance Fortnow, *Perfect Completeness for 2-to-1 Games: An expository account of the proof*](https://github.com/fortnow/AI-Papers/blob/main/perfect-completeness-2-to-1-expository.tex) (github.com/fortnow/AI-Papers, 15 Oct 2026; [PDF](https://github.com/fortnow/AI-Papers/blob/main/perfect-completeness-2-to-1-expository.pdf)). An expository rewrite aimed at complexity theorists covering the tree of function spaces, partition-valued questions, the three soundness stages and the three external black-box theorems; it states that its author did not run the Lean check. [AI-generated per source]

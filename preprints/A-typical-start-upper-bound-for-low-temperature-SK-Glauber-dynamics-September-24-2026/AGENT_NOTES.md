@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [P. M. Aronow, Patrick Lopatto, *Lower and Upper Bounds for Glauber Dynamics from Typical States of the Low-Temperature Sherrington–Kirkpatrick Model*](https://hexagonmath.org/abs/2610.00402v1) (hexagon:2610.00402v1, 20 Oct 2026). Follows this paper's proof structure and improves the typical-start upper bound from exp(n^{1−1/40000000}) to exp(n^{1−ω}) for every fixed ω in (0, 1/4), using a pathwise information–energy cancellation. [AI-generated per source]
@@ -10,6 +10,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Formalization
 - [P. M. Aronow, Patrick Lopatto, *Lower and Upper Bounds for Glauber Dynamics from Typical States of the Low-Temperature Sherrington–Kirkpatrick Model*](https://hexagonmath.org/abs/2610.00402v1) (hexagon:2610.00402v1, 20 Oct 2026). Reports a Lean 4 formalization of the strengthened continuous-time upper bound exp(n^{1−ω}). The source says the Lean code was produced with Claude Opus 5.5 and GPT 6.1 Sol. [AI-generated per source]
+- [P. M. Aronow, *fluctuations-palomar*](https://github.com/pmaronow/fluctuations-palomar) (GitHub repository, registered in Palomar as PALOMAR-2026-10-21-000025, 21 Oct 2026). Lean 4 source for the Aronow–Lopatto strengthening of this paper's upper bound: Theorem 1.3 is the continuous-time typical-start bound for 0 < ω < 1/4, with the endpoint excluded, and Metropolis dynamics and general bounded rates are not formalized. [AI-generated per source]
 
 ## Related prior literature mentioned by others
 - None found.

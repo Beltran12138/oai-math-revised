@@ -1,10 +1,11 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Buhai, Cohen-Addad, Fleischmann, Gupta, Jubés Monforte, Pittu, Stouras, Svensson, Vogl, *A Better-than-2 Approximation for k-Median Part II: Stable Instances*](https://arxiv.org/abs/2610.17172) (arXiv:2610.17172, 12 October 2026). An independent $(1.89+\varepsilon)$-approximation for β-stable instances; its concurrent-work discussion says the OpenAI stable-instance paper shares "many similarities" with it and achieves $(1+2/e+\varepsilon)$ on stable instances but only $(2-\sigma)$ in general. [family-level]
 - [Buhai, Cohen-Addad, Fleischmann, Gupta, Jubés Monforte, Pittu, Stouras, Svensson, Vogl, *A Better-than-2 Approximation for k-Median Part I: The Power of General Bids*](https://arxiv.org/abs/2610.18144) (arXiv:2610.18144, 13 October 2026). An independent randomized polynomial-time 1.95-approximation for k-median; it describes the OpenAI $(2-\sigma)$ result as building on the stable-instance and pseudo-approximation framework, much like its own approach. [family-level]
+- [Byrka, Guo, Hu, Li, Shin, Vajanopath, Wan, Wang, *Iterative Randomized Rounding for Better-Than-2 k-Median Approximation*](https://arxiv.org/abs/2610.31229) (arXiv:2610.31229, 22 October 2026). A randomized 1.9999-approximation obtained by a different route, through iterative LP rounding combined with a filtering and bundling rounding; its concurrent-work discussion says this paper "claims" a randomized $(2-\sigma)$-approximation and builds on the approach of Cohen-Addad, Grandoni, Lee, Schwiegelshohn and Svensson. [family-level]
 
 ## Comments and discussion
 - [Ola Svensson (@AlgoSvensson), post on X](https://x.com/AlgoSvensson/status/2107736070192287922) (2026-10-07). The original post says OpenAI "completely solved a problem on which my students have worked hard for 1+ years" and that the group will upload a different algorithmic approach. [family-level]

@@ -1,12 +1,13 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Hao-Yu Sun, *Mutually unbiased bases: common states, completion, and extension obstructions*](https://arxiv.org/abs/2610.12180) (arXiv:2610.12180, 2026-10-08). Cites this preprint alongside its companion, states "Neither preprint is a premise of the proofs in this article," and proves an unextendibility result for a specific dimension-six MUB triple. [family-level]
 
 ## Comments and discussion
 - [mo271 and commenters, *OpenQuantumProblems/13: `mutuallyUnbiasedBases_dim6` has answer 3*](https://github.com/google-deepmind/formal-conjectures/issues/6918) (google-deepmind/formal-conjectures issue #6918, opened 2026-10-07). A comment of 2026-10-11 reports a re-implementation of this paper's μ(6) ≤ 5 certificate from the LaTeX in exact rational arithmetic, with matching table sizes and ranks; the comment says the Lean proof was not built. [family-level] [AI-generated per source]
+- [maximusrufus, comment on pivot order in the μ(6) ≤ 5 certificate](https://github.com/google-deepmind/formal-conjectures/issues/6918#issuecomment-6350546340) (formal-conjectures issue #6918, 2026-10-22). Answers an earlier report of a different bound of about −7.8·10^10 by citing Section 7.1 of this paper and rerunning its Listing 1, which reproduced the printed outputs and gave other values under other priority lists (including one positive); the comment says this tests order dependence, not an independent rebuild of the tables. [AI-generated per source]
 
 ## Formalization
 - [OpenAI math release, Lean scope note for family 266](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/266.md) (lean/docs/266.md, 2026). The release's Lean development proves the Fourier vanishing statement for order-six Hadamard matrices not equivalent to Tao's matrix, a family bound of five, and a supporting cube-fiber cancellation lemma (`MUBSix.lean`, `HadamardCubeFiber.lean`), distinguishing these from the companion paper's exclusion of four arbitrary bases. [family-level]

@@ -1,9 +1,9 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [Kenta Kitamura, *Next-order Riesz and logarithmic energy on spheres of dimensions 2, 8 and 24*](https://github.com/KitaKen1/riesz-energy-spheres) (GitHub repository with manuscript and Lean sources, commits 2026-10-14 to 2026-10-19). The manuscript takes "the sharp triangular Gaussian minorant theorem" as known, without a bibliography or a citation of this paper, and uses it to claim next-order Riesz energy asymptotics on the 2-sphere for -2 < s < 2, s ≠ 0, alongside S⁸ and S²⁴; the README self-reports its Lean checks and says correspondence with the targets remains for the owner's review.
 
 ## Comments and discussion
 - None found.

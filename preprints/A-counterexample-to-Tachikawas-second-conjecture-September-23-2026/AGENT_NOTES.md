@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [琪越 唐 (Hexagon contributor), *A note on counterexamples to homological conjectures*](https://hexagonmath.org/abs/2610.00143v4) (hexagon:2610.00143, v1 2026-10-07, v4 2026-10-15). Extends the constructions of both family papers to any base field containing an element of infinite multiplicative order, and lists counterexamples to both Tachikawa conjectures, the Auslander–Reiten, Nakayama-type, Auslander–Gorenstein, finitistic-dimension and Wakamatsu tilting conjectures; the page marks the authorship as mixed human/AI and says "Human understanding: no parts". [AI-generated per source] [family-level]
@@ -8,6 +8,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Comments and discussion
 - [René Marczinzik, *Homological conjectures and problems*](https://sites.google.com/view/rene-marczinzik/homological-conjectures-and-problems) (personal research page, updated 16 October 2026). Discussing the claimed Tachikawa counterexample and its homological consequences, Marczinzik calls for careful checking and proposes a weakly Gorenstein conjecture over fields whose nonzero elements all have finite multiplicative order, outside the fields used by these constructions. [family-level]
+- [Claus Michael Ringel, *A new age has started!*](https://www.math.uni-bielefeld.de/~ringel/new.html) (personal research page, 2026-10-09). Discussing the claimed AI counterexamples to the classical homological conjectures, Ringel stresses that verification remains necessary and argues that these examples could redirect representation theory toward concrete constructions, recalling Happel's emphasis on the shortage of examples. [family-level]
 
 ## Formalization
 - [OpenAI math release, *Counterexamples to Auslander–Reiten, Tachikawa and related homological conjectures: Lean scope* (mirrored on mathcommunity/oai-math-revised)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/199.md) (lean/docs/199.md, 2026). Describes the release's Lean formalization of Theorem 1.1 (a symmetric algebra over F_2(q,H_1,H_2) and a nonprojective module M with Ext^i(M,M)=0 for i>0), with comparator statement `Tachikawa.lean`; the field-extension, endomorphism-algebra and other homological corollaries are listed as not formalized. [family-level]

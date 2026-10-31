@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Jananan Arulseelan and James E. Hanson, *Counterexamples to the Monotone Completeness Conjecture*](https://arxiv.org/abs/2610.27184) (arXiv:2610.27184, 19 Oct 2026). Modifies this paper's vector-bundle construction (called "the quasitrace manuscript") to get uniform failure of traciality, which together with model-theoretic reductions gives a counterexample to the monotone completeness conjecture. The abstract says the authors fully reproduce the quasitrace disproof with modified arguments, e.g. rank stratification and parametric transversality in place of the incidence-variety estimate.
@@ -11,6 +11,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Formalization
 - [OpenAI math release, *Kaplansky's quasitrace conjecture and failure of tensor-product stable finiteness: Lean scope note*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/294.md) (lean/docs/294.md, 2026-10-06). Describes the release's Lean formalization of the fixed-pair nonadditivity bound $\mathrm{Re}(\tau(a+b)-\tau(a)-\tau(b))\ge1/144$ and of the stable-finiteness and tensor-product consequences, with comparator statements `KaplanskyQuasitrace.lean` and `KaplanskyStableFiniteness.lean`. [family-level]
+- [MathVet, *OpenAI math fidelity review: family 294*](https://raw.githubusercontent.com/mathvet/mathvet/14c7f918cd336d0da03a02aae5a0eed4a429d4db/reviews/openai-math/fidelity-table.csv) (model-assisted review, 8 Oct 2026; updated to the upstream revision on 10 Oct 2026). Assesses both the quasitrace and stable-finiteness statements as covering the advertised results, reports sandboxed Comparator acceptance, and identifies the custom quasitrace, reduced free-group algebra and proper-infiniteness definitions for comparison with the paper. [family-level] [AI-generated per source]
 
 ## Related prior literature mentioned by others
 - [Uffe Haagerup, *Quasitraces on exact C\*-algebras are traces*](https://arxiv.org/abs/1403.7653) (arXiv:1403.7653, 2014-03-29). The Latent Seminar exposition invokes this theorem to explain why the manuscript's quasitrace counterexample must be nonexact.
@@ -19,6 +20,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Narutaka Ozawa, *The hyperfinite II_1 factor is not quasidiagonal*](https://arxiv.org/abs/2609.08892) (arXiv:2609.08892, 8 Sep 2026). Gives an MF C\*-algebra whose spatial tensor product with the hyperfinite II$_1$ factor contains a proper isometry, so stable finiteness is not preserved under tensor products; this is related to Corollary 1.2. Its abstract says the result was obtained using OpenAI's ChatGPT Pro 6.0. [AI-generated per source]
 - [Henning Olai Milhøj, *Quasitraces, Tracial States, and Kaplansky's Conjecture*](https://www.math.ku.dk/english/calendar/events/phd-defense-henning-olai-milhoej/) (PhD thesis, University of Copenhagen, defended 5 Jul 2022). Defines numerical invariants measuring the distance from having quasitraces or tracial states; background to the bounded-length strategy of Milhøj–Rørdam (Remark 4.7) that the paper adopts.
 - [Samuel Evington, Shanshan Hua, Christopher Schafhauser, Apurva Seth, Aaron Tikuisis and Stuart White, *Regular simple nuclear C\*-algebras*](https://arxiv.org/abs/2610.09390) (arXiv:2610.09390, 2026-10-07). Its K-stability result for simple pure C\*-algebras assumes that quasitraces are traces, a hypothesis relevant to the manuscript's claimed failure of quasitrace additivity in general.
+- [Alec Gow, *Every 2-quasitrace is a trace*](https://arxiv.org/abs/2501.13088) (arXiv:2501.13088, v1 22 Jan 2025, withdrawn 31 Jan 2025). Claimed the affirmative answer to the question that Theorem 1.1 answers negatively; the withdrawn listing's comment reports a gap in its Proposition 5.2, and the paper's bibliography cites only Gow's later arXiv:2601.04431.
 
 ## Digests and expositions
 - [Latent Seminar, *Quasitraces: a uniform additivity defect and tensor finiteness*](https://lowrank.github.io/latent-seminar/OpenAI-Math/294-quasitraces-uniform-defect-tensor-finiteness) (2026-10-07). Explains the scaling, Chern-class obstruction and telescoping argument, distinguishes the algebras in the three consequences, and states that it is not an independent verification of the complete proofs. [family-level]

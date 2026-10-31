@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -11,7 +11,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 - [Anders Sandberg (@anderssandberg), post on X](https://x.com/anderssandberg/status/2111120089437151292) (16 Oct 2026). Four-post thread calling the family the author's favorite in the release and a result "kind of suspected long before"; it describes a particle advected to a "0" or "1" box according to the computation's output, notes that the error budget tightens and total work grows quadratically with computation length, and concludes it is less "fluids can compute" and more "fluids can contribute the nonlinear step in computation". [family-level]
 
 ## Formalization
-- None found.
+- [OpenAI, *InitializedMain.lean*](https://github.com/openai/math/blob/main/lean/OAI/MathematicalPhysics/NavierStokes/ForcedComputation/Programs/InitializedMain.lean) (OpenAI math release, October 2026). Contains `initialized_effective_computation`, a Lean declaration explicitly associated with this paper that combines the fixed-particle halting equivalence, force-derivative evaluation and machine-only dynamics after loading.
 
 ## Related prior literature mentioned by others
 - [Warren D. Smith, *On the Uncomputability of Hydrodynamics*](https://vixra.org/abs/2503.0157) (viXra:2503.0157, posted 2025; written 2001 per its abstract). The work the forum post above claims overlaps with this family; its abstract argues that Navier–Stokes cannot be simulated by a Turing machine. [family-level]

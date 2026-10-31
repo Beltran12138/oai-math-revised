@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -11,6 +11,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Formalization
 - [OpenAI math release, *Lean scope notes for family 189: Cycle–clique Ramsey numbers*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/189.md) (lean/docs/189.md, 2026-10-06). The release's Lean formalization states $R(C_m,K_n)=(m-1)(n-1)+1$ for all $m\ge n\ge3$ except $(3,3)$, and $R(C_3,K_3)=6$, covering the paper's full main theorem; the comparator statement is in `CycleCliqueRamsey.lean`.
 - [Google DeepMind formal-conjectures, *FormalConjectures/ErdosProblems/551.lean*](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/551.lean) (formal-conjectures, accessed 2026-10-21). An independent Lean statement of the Erdős–Faudree–Rousseau–Schelp conjecture (Erdős Problem 551), still tagged `research open` with `sorry`, which also contains a "sufficiently large $n$" variant attributed to Keevash–Long–Skokan.
+- [byclaude, *Bridge551.lean*](https://gist.github.com/byclaude/6213323d9766ee5f4e036ecd8fbce9a3) (GitHub gist, 2026-10-22). Copies formal-conjectures' `graphRamsey` and both `erdos_551` statements verbatim and proves them from `OAI.CycleClique.main`, with `#print axioms` giving `propext`, `Classical.choice`, `Quot.sound`, two negative controls, and a `leanchecker --fresh` run over the 182-module closure; it was not compiled in formal-conjectures' own environment, so it "checks a verbatim copy of the statement, not FC's constant." [AI-generated per source]
 
 ## Related prior literature mentioned by others
 - None found.

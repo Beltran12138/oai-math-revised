@@ -1,9 +1,9 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [el Houcein el Abdalaoui, *OpenAI partially disproves Littlewood's 1961 $L^\alpha$-flat theorem*](https://arxiv.org/abs/2610.30797) (arXiv:2610.30797, 22 October 2026; LLM assistance acknowledged). Cites this paper and treats the family's constructions as counterexamples to Littlewood's 1961 theorem, limited by an implicit assumption it identifies; the author says the note and arXiv:2509.04212, a nonflatness preprint cited in this paper's footnote, "will be adapted or withdrawn to reflect the consolidated literature". [family-level]
 
 ## Comments and discussion
 - [Thomas Bloom, *Erdős problems in the OpenAI proofs*](https://www.erdosproblems.com/forum/thread/blog:10) (erdosproblems.com blog, 8 October 2026). Links this paper's PDF for Erdős Problem #1150, summarizing it as "there exist 'ultraflat' polynomials", and notes it is 16 pages but "appears to heavily rely on two other related PDFs". [family-level]

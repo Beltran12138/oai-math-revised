@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Ilia Binder, Oleg Ivrii, István Prause, Stanislav Smirnov, *Brennan's Conjecture and the Universal Integral Means Spectrum*](https://arxiv.org/abs/2610.23853) (arXiv:2610.23853 [math.CV], 16 Oct 2026). Cites this paper and states that $B_b(t)\le t^2/4$ on $[-2,2]$, with strict inequality for $t\in(-2,2)\setminus\{0\}$. It gives a full argument only for the non-strict inequality and defers the details of strictness to a separate paper. [family-level]
@@ -10,6 +10,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Formalization
 - [OpenAI math release, *Lean scope notes for family 072*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/072.md) (lean/docs/072.md). Describes the release's Lean formalization of the uniform bound $M_{-1}[f'](r)\le C(1-r)^{-1/4+\varepsilon}$ and of $B_b(-1)<1/4$, with no numerical value of $\varepsilon$ specified. The comparator statement is `StrictMeans.lean`. [family-level]
+- [Carlos Toledo’s cert-machine, *Statement-scope audit: family 072*](https://github.com/carlostoledo1891/cert-machine/blob/9814e4c06281e34a113ce853d7d99ccce160b750/certs/openai-math-statements.json) (cert-machine, snapshot `9814e4c`). The report identifies Brennan’s integrability interval and the strict Kraetzer bound as stated in the Lean challenges, but flags that the manuscript’s spectral identity for all $t\le -2$ is represented there only at $t=-2$. [family-level]
 
 ## Related prior literature mentioned by others
 - [Lars V. Ahlfors, *Quasiconformal reflections*](https://archive.ymsc.tsinghua.edu.cn/pacm_download/117/5956-11511_2006_Article_BF02391816.pdf) (Acta Mathematica 109, 1963). Binder et al. identify this as an antecedent of the papers' critical-point maps. [family-level]
@@ -19,7 +20,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Oleg Ivrii, *On Makarov's principle in conformal mapping*](https://arxiv.org/abs/1604.05619) (arXiv:1604.05619; IMRN 2019). Cited in arXiv:2610.23853 in the same group; it relates asymptotic variance to the second derivative of the integral means spectrum at $0$.
 
 ## Possibly relevant literature (found by the agent, not checked)
-- None found.
+- [Bertrand Duplantier, Véronique Gayrard, Eero Saksman, *Integral Means Spectrum for the Random Riemann Zeta Function*](https://arxiv.org/abs/2603.26507) (arXiv:2603.26507, 27 Mar 2026). Shows that the primitive of the random zeta function almost surely has a spectrum of the form Kraetzer conjectured for univalent functions, while proving that this primitive is not injective; this bears on the formula that Theorem 1.1 of this paper states is false for univalent maps at $p=-1$.
 
 ## Digests and expositions
 - [AI Proved What?, *Four thirds to four? Brennan’s conjecture and the integral-means spectrum*](https://aiprovedwhat.com/episodes/072-brennans-conjecture-integral-means-spectrum/) (episode 072, October 2026). Animated exposition and transcript covering both claims, Koebe endpoint behavior, the probability-law construction, and the saddle–maximum comparison; its status discussion does not incorporate the Binder–Ivrii–Prause–Smirnov follow-up. [AI-generated per source] [family-level]

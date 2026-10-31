@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Nutelligence Research, *Independent Research Inspired by OpenAI’s Critical Percolation Work*](https://community.openai.com/t/first-look-at-mathematics-manuscripts-from-an-internal-frontier-model-at-openai/1403886) (OpenAI Developer Community, post 15, 2026-10-17). This announcement explicitly cites family 213 as inspiration for claimed site-percolation results on periodic, quasi-transitive and specialized lattice graphs, reports Lean verification, and notes an additional assumption for the quasi-transitive result and unresolved novelty assessment. [family-level]
@@ -22,9 +22,11 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Arthur Blanc-Renaudie, *Notes on Kozma and Nitzan's proof of θ(p_c)=0*](https://arxiv.org/abs/2610.10502) (arXiv:2610.10502, 2026-10-07). This gives a human-written proof of the Kozma–Nitzan conjectures. It is relevant to the paper's finite connection inequality (intro, eq. (1)), which the paper says implies Kozma–Nitzan Conjecture 1.
 - [Jianping Jiang, Sike Lang, Yuxuan Sun, *A connection inequality for the random-cluster model*](https://arxiv.org/abs/2610.26419) (arXiv:2610.26419, 2026-10-19). This proves a slightly generalized Kozma–Nitzan connection inequality for the random-cluster model with $q\ge1$. It relates to the paper's finite hyperedge comparison, which is stated for independent bits only.
 - [Lucas Flammant, *A finite-graph conjecture related to θ(p_c)=0 for Bernoulli bond percolation on Z^d*](https://arxiv.org/abs/2609.03492) (arXiv:2609.03492, 2026-09-03). This proposes a finite-graph statement about reaching boundary vertices whose increasing events occur, which implies $\theta(p_c)=0$ on $\mathbb Z^d$. It is close in form to the paper's relay failure bound derived from the comparison inequality.
+- [Raphaël Cerf, *θ(p_c, Z^d)=0?*](https://arxiv.org/abs/2608.23661) (arXiv:2608.23661, 2026-08-24). This proves that for Bernoulli percolation on $\mathbb Z^d$, $d\ge3$, at $p_c$ either there is no infinite cluster or the finite-cluster tail is not stretched exponential, a conditional statement on the same question as the paper's main theorem on $\mathbb Z^3$.
 
 ## Digests and expositions
 - [Perplexity / Orply, *Critical Percolation on the Cubic Lattice Has No Infinite Cluster*](https://orply.com/articles/perplexity/213-1-critical-bond-and-site-percolation-on-the-cubic-lattice-0afddf10) (Orply, 2026-10-11). This AI-assisted exposition summarizes the manuscript’s finite hyperedge comparison, site endpoint convention, and adaptive exploration with conditional failure bounds. [AI-generated per source]
+- [Jean-Baptiste Gouéré, *On the proof of the Kozma-Nitzan conjecture*](https://arxiv.org/abs/2610.30063) (arXiv:2610.30063, 2026-10-21). This human-written expository note presents this paper's proof of Kozma–Nitzan Conjecture 1 for finite graphs, restricted to the edge setting rather than hypergraphs, and compares it with Leder's earlier proof and Blanc-Renaudie's notes; it states the proofs "are very similar and rely on the same ideas".
 
 ## News and blogs
 - None found.

@@ -1,12 +1,13 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Qiyue Tang (琪越 唐), *A note of refinements to an algebra of infinite little finitistic dimension*](https://hexagonmath.org/abs/2610.00140v5) (hexagon:2610.00140v5, v1 Oct 7, 2026, v5 Oct 13, 2026). Builds on this paper and extends the construction to every field, stating stronger bounds including a split basic algebra with seventh radical power zero and pairwise Hom-orthogonal brick test modules of Loewy length three; the page labels the text as mixed human/AI-written and links a Lean formalization. [AI-generated per source]
 - [Andy Jiang, *Another Counterexample to Little Finitistic Dimension Conjecture*](https://hexagonmath.org/abs/2610.00232v1) (hexagon:2610.00232v1, Oct 14, 2026). Proposes a characteristic-zero variant using homogenized enveloping algebras and the Casimir operator, adapting OpenAI's square-zero-extension step; the author states the representation-theoretic inputs have not been checked. [AI-generated per source]
 - [Weiheng Xia, *Global obstruction property and its applications*](https://arxiv.org/abs/2610.12583) (arXiv:2610.12583, Oct 8, 2026). Cites this paper in its introduction as proposing an algebra of infinite little finitistic dimension and states that its own finitistic-dimension results are independent of that construction.
 - [Qiyue Tang (琪越 唐), *A note on counterexamples to homological conjectures*](https://hexagonmath.org/abs/2610.00143v4) (hexagon:2610.00143v4, Oct 15, 2026). Builds on the release's Auslander–Reiten and Tachikawa papers (not on this one) and claims counterexamples to the little and big finitistic dimension conjectures over any field with an element of infinite multiplicative order; the page records "Human understanding: no parts". [family-level]
+- [Kevin Coulembier and Edmund Heng, *A subcategory with remarkable homological properties via actions of tensor categories*](https://arxiv.org/abs/2610.17646) (arXiv:2610.17646, Oct 13, 2026). States the small finitistic dimension conjecture alongside its Theorem 1.5, on computing finitistic dimension by a subcategory, with a footnote that "a counterexample to this conjecture was announced by an AI company"; the footnote names neither the company nor the paper.
 
 ## Comments and discussion
 - None found.

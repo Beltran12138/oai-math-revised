@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -17,6 +17,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Possibly relevant literature (found by the agent, not checked)
 - [S. Filip, V. Tosatti, *Smooth and Rough Positive Currents*](https://arxiv.org/abs/1709.05385) (arXiv:1709.05385; Ann. Inst. Fourier 68 (2018)). Constructs nef classes on K3 surfaces without smooth semipositive representatives, which bears on the gap between the paper's smooth-semipositivity hypothesis and the nef nonvanishing question it leaves open.
 - [J. Cao, A. Höring, *Manifolds with nef anticanonical bundle*](https://arxiv.org/abs/1305.1018) (arXiv:1305.1018, 2013/2017). Studies the Albanese map of compact Kähler manifolds with nef anticanonical bundle, the nef analogue of the Demailly–Peternell–Schneider finite-cover Albanese structure used in the paper's geometric reduction.
+- [Louis Dailly, *Klt varieties with semipositive anticanonical bundle: symmetric tensors, holonomy and structure*](https://arxiv.org/abs/2610.37002) (arXiv:2610.37002, 2026-10-27). Generalizes the Campana–Demailly–Peternell structure theorem used in the paper's geometric reduction to projective varieties with canonical singularities, with a finite quasi-étale cover whose Albanese morphism is locally constant; its stated results concern symmetric tensors, holonomy and structure rather than sections of $-mK_X$.
 
 ## Digests and expositions
 - [OpenAI Math Digest, *Anticanonical nonvanishing from smooth semipositivity*](https://masataka123.github.io/OpenAI-Math-Digest/en/papers/anticanonical-smooth-semipositivity/) (undated; accessed 2026-10-21). Explains the finite-volume induction, the separate construction of naturally invariant sections, and descent through compact torus monodromy. [AI-generated per source]

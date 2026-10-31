@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -8,9 +8,11 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 ## Comments and discussion
 - [DH and Persiflage, comments on *A Brief Digest of Some New OpenAI Results*, galoisrepresentations.org](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/#comment-28529) (blog comments, 9 Oct 2026). The thread discusses the companion paper's zero-free claim for finite-order Hecke L-functions of cyclotomic fields containing ζ₁₂, which is the analytic input this paper imports as Theorem 10.1; it discusses that claim in the context of Artin's conjecture and does not mention factorization.
 - [Divesh Aggarwal and commenters, *Deterministic Polynomial Factorization Over Finite Fields*](https://www.linkedin.com/posts/divesh-aggarwal-66595610_mathpreprintsdeterministic-polynomial-factorization-over-prime-fields-october-activity-7513737033291554816-u4o9) (LinkedIn, October 2026). Aggarwal highlights the manuscript's significance for deterministic versus randomized computation, while Alon Rosen asks whether it is Lean-verified and about polynomial identity testing; the visible thread does not supply a technical review.
+- [Pierre-Jean Spaenlehauer, *Deterministic Root-Finding over Finite Fields with Elliptic Curves*](https://arxiv.org/abs/2610.32508) (arXiv:2610.32508, 23 Oct 2026). Proposes deterministic root-finding through elliptic curves and their quadratic twists, with an unconditional online phase and an open polynomial-time construction of the preprocessing datum; its method does not build on this paper, which Section 1.3 discusses as "A recent claim by OpenAI", saying it "has not been reviewed or validated by the community" and that no formalization of its proof is available.
 
 ## Formalization
 - [Yao Xu (cadamcat), *artin-primitive-roots-lean4*, file `Hecke/Boundary.lean`](https://github.com/cadamcat/artin-primitive-roots-lean4/blob/main/ArtinPrimitiveRoots/Hecke/Boundary.lean) (GitHub, 2026). This Lean 4 formalization of the companion paper states `thm_hecke_zero_free` for `CyclotomicField n ℚ` with `12 ∣ n` and δ₀ = 10⁻⁶, matching the input this paper imports; when accessed, its proof depended on a lemma marked `sorry` ("this is what part A proves"). The factorization algorithm itself is not formalized there. [AI-generated per source]
+- [Yao Xu (cadamcat), *artin-primitive-roots-lean4*, `docs/verification.md`](https://github.com/cadamcat/artin-primitive-roots-lean4/blob/main/docs/verification.md) (GitHub, checks of 9–11 Oct 2026). Records a build of this Lean 4 formalization of the companion paper with no `sorry`, axioms limited to `propext`, `Classical.choice` and `Quot.sound`, and a Comparator run accepted by the Lean kernel and nanoda; the [Hecke boundary lemma](https://raw.githubusercontent.com/cadamcat/artin-primitive-roots-lean4/main/ArtinPrimitiveRoots/Hecke/Boundary.lean) now delegates to `A2.thm_hecke_zero_free`, the input this paper imports, and the factorization algorithm itself is not formalized. The project's [`formalization.yaml`](https://github.com/cadamcat/artin-primitive-roots-lean4/blob/main/formalization.yaml) gives the review status as "agent-reviewed" and states that no independent human expert has reviewed the formalization. [AI-generated per source]
 
 ## Related prior literature mentioned by others
 - None found.

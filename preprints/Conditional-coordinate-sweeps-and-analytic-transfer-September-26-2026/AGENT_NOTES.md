@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -10,6 +10,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Formalization
 - [OpenAI math release, *Lean scope notes for family 238*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/238.md) (lean/docs/238.md, 2026). States that the formalization covers the binary-sweep power contraction D^{-g} and the resulting mixing (BinarySweep.lean), plus the conditional moment estimate with its feasibility premise (CoordinateSweeps.lean); physical-shuffle law identification is not included. [family-level]
+- [Carlos Toledo, cert-machine, *CoordinateSweeps hypothesis assessment*](https://raw.githubusercontent.com/carlostoledo1891/cert-machine/9814e4c06281e34a113ce853d7d99ccce160b750/certs/openai-math-statements.json) (family 238 audit, October 2026). Examines possible vacuity in all_grid_moment, argues that its scale and perturbation hypotheses are jointly satisfiable, and notes that conditional_main is unconditional.
 
 ## Related prior literature mentioned by others
 - None found.

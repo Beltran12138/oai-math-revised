@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [P. M. Aronow and Patrick Lopatto, *Lower and Upper Bounds for Glauber Dynamics from Typical States of the Low-Temperature Sherrington–Kirkpatrick Model*](https://hexagonmath.org/abs/2610.00402v1) (hexagon:2610.00402v1, 2026-10-20). Restates this paper's main theorem as its Theorem 1.6, reproves the deduction from the positive-logarithmic-moment bound (its Section 20), and combines the variance exponent with a variance–bias inequality to get a mean-bias lower bound of order $n^{-5/6-\varepsilon}$ (its Corollary 1.7). [AI-generated per source]
@@ -22,6 +22,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Possibly relevant literature (found by the agent, not checked)
 - [T. Aspelmeier, *Free energy fluctuations and chaos in the Sherrington-Kirkpatrick model*](https://arxiv.org/abs/0712.3586) (Phys. Rev. Lett. 100 (2008) 117205). A replica argument linking free-energy fluctuations to bond chaos that bounds the fluctuation exponent by 1/4, a physics bound that this paper's $n^{1/6+o(1)}$ theorem is consistent with; not in this paper's bibliography.
+- [Cécile Monthus and Thomas Garel, *Matching between typical fluctuations and large deviations in disordered systems: application to the statistics of the ground state energy in the SK spin-glass model*](https://arxiv.org/abs/0912.2875) (J. Stat. Mech. (2010) P02023). Studies the matching of typical fluctuations and large deviations for the SK ground-state energy, the type of matching assumption this paper's introduction notes for the Parisi–Rizzo calculation, though at zero rather than fixed positive temperature; not in this paper's bibliography.
 
 ## Digests and expositions
 - None found.

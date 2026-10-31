@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [J. D. Jones, *Sharp robustness and stability of the four-row permanent inequality*](https://palomar-registry.org/entry?id=PALOMAR-2026-10-08-000007&version=1) (Palomar PALOMAR-2026-10-08-000007, registered 8 Oct 2026; code at [JD-Jones-ASES/four-row](https://github.com/JD-Jones-ASES/four-row)). A Lean development that the registry marks as adapting this paper; it claims the sharp total-variation radius 1/24 and optimal variance-deficit coefficient (1−24r)/9 for balanced laws, and its [disclosure](https://github.com/JD-Jones-ASES/four-row/blob/main/DISCLOSURE.md) says OpenAI models contributed and the review status is agent-reviewed. [AI-generated per source]
@@ -10,6 +10,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 
 ## Formalization
 - [OpenAI math release, *Lean scope notes for family 238*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/238.md) (lean/docs/238.md, 2026). States that the strict four-row permanent inequality (some 4/3<p<2 and ε>0, laws on S₄ ε-close to uniform with uniform marginals) is formalized in FourRowPermanent.lean; the Thorp mixing consequence is outside the scope. [family-level]
+- [Carlos Toledo, cert-machine, *OpenAI math statement audit: family 238*](https://raw.githubusercontent.com/carlostoledo1891/cert-machine/9814e4c06281e34a113ce853d7d99ccce160b750/certs/openai-math-statements.json) (audit of release fd4aeeb, October 2026). Assesses the full-permutation mixing headline as matching ThorpRemaining’s statement, while checking the OccupiedOverlap and SpinAngle definition holes separately; this is a statement assessment, not a certificate of the manuscripts’ proofs. [family-level]
 
 ## Related prior literature mentioned by others
 - None found.

@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Zhi-Wei Sun, *86 unknowns for Hilbert's tenth problem over the rationals*](https://arxiv.org/abs/2610.20691) (arXiv:2610.20691, v1 14 Oct 2026, v2 19 Oct 2026). Starting from this paper's negative answer, it proves undecidability for polynomials in 86 rational unknowns, using this paper's Theorem 2.4, Corollary 2.5 and Sections 3.2, 5 and 6.1.
@@ -9,6 +9,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Persiflage (galoisrepresentations.org), *A Brief Digest of Some New OpenAI Results*, item 3](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/) (blog post, 8 Oct 2026). The blogger writes that the result "threw me for a loop", distinguishes it from existential definability of ℤ in ℚ, and raises the separate question of decidability for curves; the post also notes the Fontaine–Mazur-at-2 paper as an input to the proof.
 - [Maarten Derickx, comment on the Persiflage digest](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/#comment-28555) (blog comment, 10 Oct 2026). Pointing to a post by Jennifer Park, the comment says: "Apparently, they cite her work in a completely wrong way!"; a reply ([comment-28569](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/#comment-28569)) answers that the point does not seem cogent and the proof's ideas need to be studied.
 - [Felipe Voloch, comment on the Persiflage digest](https://galoisrepresentations.org/2026/10/08/a-brief-digest-of-some-new-openai-results/#comment-28562) (blog comment, 11 Oct 2026). On the curve case, it lists conjectural routes to decidability: ABC/Vojta with explicit constants, Tate + Hodge + Fontaine–Mazur (conditional algorithmic Mordell), and finiteness of Sha in genus one.
+- [Alex Smith, comment on Ashay Burungale's guest post *BSD and the p-converse* (Persiflage)](https://galoisrepresentations.org/2026/10/15/bsd-and-the-p-converse-guest-post-ashay-burungale/#comment-28698) (blog comment, 23 Oct 2026). Announces an invitation-only discussion forum covering this paper and related ones: "I've set up a Zulip for discussion of OAI's papers around the converse theorems (Hilbert 10, Goldfeld, and Full BSD)." [family-level]
 
 ## Formalization
 - [j2d9w5xtjn-png and reviewers, *feat: add Hilbert's 10th problem over ℚ*](https://github.com/google-deepmind/formal-conjectures/pull/5391) (google-deepmind/formal-conjectures PR #5391, opened 9 Sep 2026, open). A statement-only Lean formalization of the problem, with the ℚ case tagged `research open`; a 9 Oct 2026 review comment asks whether that tag is still appropriate given this preprint.

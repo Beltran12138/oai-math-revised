@@ -1,12 +1,12 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [Elena I. Bunina, Winston Lee, Alexei Miasnikov, Kyrylo Muliarchyk, *Failure of direct finiteness for group algebras in every odd characteristic*](https://arxiv.org/abs/2610.22536) (arXiv:2610.22536, 2026-10-15). Claims failure of direct finiteness for every odd prime, with witnesses over $\mathbb F_p$ and finitely presented $G_p$, by a different construction; it cites this preprint as covering one specified prime over a field of order $p^4$ using torsion. The authors state that "OpenAI's ChatGPT was used extensively for mathematical exploration".
 
 ## Comments and discussion
-- None found.
+- [MathWorld (Wolfram), *Kaplansky Direct-Finiteness Conjecture*](https://mathworld.wolfram.com/KaplanskyDirect-FinitenessConjecture.html) (updated 2026-10-30). Reports the Bunina et al. all-odd-primes claim and says its inputs from unnamed "earlier OpenAI manuscripts" "have not been independently verified here", so the refutation is not treated as established.
 
 ## Formalization
 - [OpenAI, *Lean scope note for family 197* (`lean/docs/197.md`)](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/197.md) (openai/math release, 2026-10-06). States that the formalization constructs the field of order $p^4$, a finitely generated group with torsion and $a,b$ with $ab=1\ne ba$. It also covers the injective, non-surjective map on $K^G$ and some fixed-field transfer results.

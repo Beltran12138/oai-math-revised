@@ -1,9 +1,10 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Nutelligence Research, *Independent Research Inspired by OpenAI’s Critical Percolation Work*](https://community.openai.com/t/first-look-at-mathematics-manuscripts-from-an-internal-frontier-model-at-openai/1403886) (OpenAI Developer Community, post 15, 2026-10-17). This announcement explicitly cites family 213 as inspiration for claimed site-percolation results on periodic, quasi-transitive and specialized lattice graphs, reports Lean verification, and notes an additional assumption for the quasi-transitive result and unresolved novelty assessment. [family-level]
+- [Omer Angel, Daniel de la Riva, Christoforos Panagiotis, Yuliang Shi, *Continuity of the phase transition for long-range Bernoulli percolation with exponential decay on ℤ²*](https://arxiv.org/abs/2610.35233) (arXiv:2610.35233, 2026-10-26). The background section records this paper's result as an OpenAI claim; the authors prove continuity for long-range percolation on $\mathbb Z^2$ by a self-contained argument that does not rely on it.
 
 ## Comments and discussion
 - [Olle Häggström, *What I write about the day after the most earth-shattering event in the history of mathematics*](https://haggstrom.substack.com/p/what-i-write-about-the-day-after) (Crunch Time for Humanity, 2026-10-07). Häggström links both manuscripts among percolation problems he had worked on, mentions the role of the van den Berg–Häggström–Kahn inequality, and postpones detailed assessment. [family-level]
@@ -21,6 +22,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Arthur Blanc-Renaudie, *Notes on Kozma and Nitzan's proof of θ(p_c)=0*](https://arxiv.org/abs/2610.10502) (arXiv:2610.10502, 2026-10-07). This gives a human-written proof of the Kozma–Nitzan conjectures. It is relevant to the paper's joint gluing theorem (Theorem joint-gluing), which the paper relates to Kozma–Nitzan Conjecture 1.
 - [Jianping Jiang, Sike Lang, Yuxuan Sun, *A connection inequality for the random-cluster model*](https://arxiv.org/abs/2610.26419) (arXiv:2610.26419, 2026-10-19). This proves a slightly generalized Kozma–Nitzan connection inequality for the random-cluster model with $q\ge1$, which bears on the paper's joint gluing inequality for Bernoulli percolation.
 - [Lucas Flammant, *A finite-graph conjecture related to θ(p_c)=0 for Bernoulli bond percolation on Z^d*](https://arxiv.org/abs/2609.03492) (arXiv:2609.03492, 2026-09-03). This proposes a finite-graph connection statement that implies $\theta(p_c)=0$ on $\mathbb Z^d$. It is related to the paper's relay-set consequence of joint gluing used in the corridor exploration.
+- [Jean-Baptiste Gouéré, *On the proof of the Kozma-Nitzan conjecture*](https://arxiv.org/abs/2610.30063) (arXiv:2610.30063, 2026-10-21). This human-written note expounds the proof of Kozma–Nitzan Conjecture 1 from the companion cubic-lattice manuscript, a statement this paper's joint gluing theorem also implies; it lists this paper as a claimed proof and says it does not consider its content.
 
 ## Digests and expositions
 - None found.

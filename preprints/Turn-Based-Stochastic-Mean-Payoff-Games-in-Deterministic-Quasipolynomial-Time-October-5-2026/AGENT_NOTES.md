@@ -1,9 +1,9 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [Ashkan Soleymani and Gabriele Farina, *A Quasipolynomial Algorithm for $\ell_\infty$ Contractions*](https://arxiv.org/abs/2610.30122) (arXiv:2610.30122, 21 Oct 2026). Its [Applications paragraph](https://arxiv.org/html/2610.30122v1) states that the algorithm "solves SSGs exactly in quasipolynomial time" and, via Andersson–Miltersen equivalences, that the bound extends to turn-based stochastic parity, mean-payoff, discounted-payoff and terminal-payoff games; Section 2 cites this paper as concurrent work that exploits monotonicity of value operators. [family-level]
 
 ## Comments and discussion
 - None found.

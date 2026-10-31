@@ -1,9 +1,9 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [Yanlu Lian, Fei Xue, *A note on consequences of Mahler's inequalities*](https://arxiv.org/abs/2610.34396) (arXiv:2610.34396, 25 Oct 2026). Cites this paper and, assuming its inequality at the Santaló point, deduces a sharp successive-minima bound $|K|\prod_i\lambda_i(K,\Lambda)/\det\Lambda\ge(n+1)/n!$ for $s(K)=0$ (Corollary 3.3) and a sharp paired mixed-volume inequality (Corollary 5.1(2)).
 
 ## Comments and discussion
 - [Gil Kalai, *Updates: Sharing AI progress on mathematics (amazing!); and my lecture plans*](https://gilkalai.wordpress.com/2026/10/07/updates-sharing-ai-progress-on-mathematics-amazing-and-my-lecture-plans/) (Combinatorics and more, 7 Oct 2026). Lists the symmetric and general Mahler proofs with Hanner and simplex equality cases, links them to his earlier discussions of faces, flags and symplectic geometry, and says the results still need to be verified by human mathematicians. [family-level]

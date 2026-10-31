@@ -1,13 +1,16 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Annanay Kapila, *Subset Sum in time O(2^{0.4877n})*](https://hexagonmath.org/2610.00261v1) (hexagon:2610.00261v1, 15 Oct 2026). States that it builds on this paper, keeping its framework of isolation, capped preliminary search, modular checksum and alias subtraction, replacing the alias procedure and using 43 checksum filters, and claiming exponent 0.4877; results of this paper are restated in an appendix and Arb-based scripts check numerical inequalities. [AI-generated per source]
 - [Joshua Wharton, *A conditional refinement of the Subset Sum exponent to 0.487676*](https://github.com/JoshuaQFEX/subset-sum-bound/blob/dcb002174cb1e06213e171c9f5ff6b063fdf2c40/paper.tex) (GitHub manuscript, 20 October 2026). Refines parameters and transfers certificates from Kapila's follow-up, retaining explicit dependence on the underlying algorithmic and analytic premises. [AI-generated per source]
+- [Lixi Ye, Baitian Li, *Subset Sum via Partial Match*](https://arxiv.org/abs/2610.10446) (arXiv:2610.10446v1, 7 Oct 2026). Claims a randomized worst-case Subset Sum algorithm with exponent 1/2 − 1/450000 (stated as $O(2^{0.499999n})$) by a different route, a representation-technique reduction to partial match solved with a depth-2 linear circuit; it cites this paper and declares "Our result was developed independently of that work and uses a different approach", and its AI disclosure section credits GPT-6 Pro and GPT-6 astra ultra with key steps. [AI-generated per source]
+- [Swapnil Jain, *Deterministic Subset Sum below meet-in-the-middle*](https://github.com/Swapnil-jain/subsetsum-derand) (GitHub preprint, undated). Claims deterministic time $\operatorname{poly}(n,L)2^{(E+\varepsilon)n}$ with $E\leq0.4986298176$ via a non-explicit fixed circuit and Ye–Li's approach, crediting an audit of OpenAI's randomness for a covering tool while explicitly stating that the construction does not derandomize OpenAI's algorithm.
 
 ## Comments and discussion
-- None found.
+- [maximusrufus, *Independent replays of computational claims in the openai/math October 2026 release*](https://raw.githubusercontent.com/maximusrufus/openai-math-replays/main/README.md) (GitHub, undated). Reports 26 passing computational checks across both manuscripts, including Arb checks of this paper's numerical table and floating-point integration checks, while explicitly excluding a rigorous quadrature-remainder enclosure, the finite-modulus lemma, and the complete algorithmic analysis. [family-level]
+- [Swapnil Jain, *Closed ideas*, Section 1](https://raw.githubusercontent.com/Swapnil-jain/subsetsum-derand/main/docs/CLOSED_IDEAS.md) (GitHub, undated). Discusses obstacles to specific derandomizations of this paper, including the cost of scanning a modulus large enough to control aliases and the inability to reconstruct a composite-modulus bin count from its factor-modulus bin counts.
 
 ## Formalization
 - [Joshua Wharton, *Lean formalisation: scope and reproduction*](https://raw.githubusercontent.com/JoshuaQFEX/subset-sum-bound/master/FORMALIZATION.md) (GitHub, updated 20 October 2026). Reports compiled Lean proofs for finite certificates, numerical inequalities, isolation and supporting lemmas in the conditional refinement, while leaving continuous moment bounds as hypotheses and the complete solver's operation-count guarantee unproved. [AI-generated per source]

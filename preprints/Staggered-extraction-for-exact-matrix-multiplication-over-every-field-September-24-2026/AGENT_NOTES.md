@@ -1,9 +1,10 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [Alimzhan Amanov, Maxim van den Berg and Jeroen Zuiddam, *Multiplying matrices via polynomials: exposition and barriers*](https://arxiv.org/abs/2610.30054) (arXiv:2610.30054, 2026-10-21). Proves $\omega_{\mathbb F}\le9/4$ for every field by the polynomial-multiplication route rather than the laser method, a smaller exponent than this paper's $\omega(F)<2.371054886$; it does not cite this paper. [family-level]
+- [Amir Shpilka, *Exposition of OpenAI’s Matrix Multiplication in Exponent 9/4 (and an explicit algorithm)*](https://eccc.weizmann.ac.il/report/2026/281/) (ECCC TR26-281, 2026-10-27). Extends its constructive polynomial-tensor proof of $\omega\le9/4$ to arbitrary fields in Section 7, giving a stronger all-fields bound than this paper’s staggered extraction, with disclosed AI assistance. [family-level]
 
 ## Comments and discussion
 - None found.
@@ -13,6 +14,8 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Jeroen Zuiddam, *ω(F) ≤ 9/4 over every field, in Lean*](https://github.com/jzuiddam/omega-nine-quarters-all-fields) (Lean 4 repository, verification reported 2026-10-07). Generalizes the family’s complex $9/4$ proof to every field through modified Fourier periods and descent, reporting kernel and Comparator verification and disclosing Claude assistance. [family-level]
 - [Sela Navot, *Matrix multiplication over arbitrary fields*](https://github.com/selanavot/matrix-multiplication-all-fields) (Lean 4 repository, verification reported 2026-10-06). Extends the family’s $9/4$ proof to arbitrary fields, with exact coefficient identities, positive-slack operation bounds and documented kernel replay, developed by GPT-6 Astra and GPT-6.1 Sol under Navot’s direction. [AI-generated per source] [family-level]
 - [Sela Navot, *Matrix multiplication: ω ≤ 9/4 over every ring*](https://github.com/selanavot/omega_le_nine_quarters_all_rings) (Lean 4 repository, version 0.1.0; accessed 2026-10-21). Extends the family’s $9/4$ construction through exact integer tensor identities to division-free programs over arbitrary associative unital rings, including noncommutative rings, with verification records and an accompanying manuscript. [AI-generated per source] [family-level]
+- [Yuval Filmus, *matrix-multiplication-block-identities*](https://github.com/YuvalFilmus/matrix-multiplication-block-identities) (Lean 4 repository with manuscript, 2026-10-17). Proves $\omega_F\le9/4$ over every field, including finite fields, with division-free cost theorems, and notes that equality of formal and functional exponents is not assumed over finite fields. [family-level]
+- [Yang Zhou and Mingsheng Wang, *Rectangular matrix multiplication over arbitrary rings (Lean 4)*](https://github.com/Hugin-Hilbert/rectangular-matmul-rings) (Lean 4 repository, built 2026-10-12, checked 2026-10-14). Formalizes exponent at most $9/4$ for square multiplication over arbitrary associative rings, counting additions, negations and multiplications. [family-level]
 
 ## Related prior literature mentioned by others
 - None found.

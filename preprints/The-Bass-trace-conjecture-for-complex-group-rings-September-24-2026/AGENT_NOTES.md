@@ -1,6 +1,6 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - None found.
@@ -14,6 +14,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [OpenAI / mathcommunity mirror, *Lean scope note 207*](https://github.com/mathcommunity/oai-math-revised/blob/main/lean/docs/207.md) (release Lean docs, 2026-10-06). The note says the formalization proves the complex Bass trace theorem for all groups and, for torsion-free groups, the trace/augmentation-rank identity and the characteristic-zero idempotent statement. [family-level]
 - [OpenAI, *BassTrace.lean*](https://github.com/openai/math/blob/main/lean/ComparatorChallenges/BassTrace.lean) (openai/math Comparator challenge). The Lean statement `bassTraceModules_vanishing_and_support`: the Hattori–Stallings coefficient vanishes at non-finite-order classes and is supported on finite-order classes (Theorem 1.1).
 - [OpenAI, *BassTorsionFree.lean*](https://github.com/openai/math/blob/main/lean/ComparatorChallenges/BassTorsionFree.lean) (openai/math Comparator challenge). The Lean statement `torsion_free_corollary`, covering both parts of Corollary 1.2 (trace equals augmentation rank, and idempotents in R[G] are 0 or 1 for characteristic-zero domains R).
+- [MathVet, *Statement-fidelity assessment for family 207*](https://github.com/mathvet/mathvet/blob/14c7f918cd336d0da03a02aae5a0eed4a429d4db/reviews/openai-math/fidelity-table.csv) (model-assisted review, undated). The assessment distinguishes the complex group-algebra statements from the ℓ¹ headline and identifies the custom presentations of K₀, projective right modules and the Hattori–Stallings trace as definitions to compare with the paper. [family-level] [AI-generated per source]
 
 ## Related prior literature mentioned by others
 - None found.

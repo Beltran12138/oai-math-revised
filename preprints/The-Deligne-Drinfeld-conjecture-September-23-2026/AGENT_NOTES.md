@@ -1,11 +1,12 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
 - [Thomas Willwacher, *The Deligne–Drinfeld conjecture after OpenAI*](https://arxiv.org/abs/2610.15592) (arXiv:2610.15592, v1 11 Oct 2026, v2 16 Oct 2026). Presents a streamlined, simplified version of this paper's proof built around a reduction to characteristic 2, and states that the author "claims no originality regarding the proof strategy"; its AI usage statement says AI tools helped restructure the arguments.
 - [Minoru Hirose, *Confluence relations, Hoffman basis over $\mathbb{Z}_{(2)}$, and the Deligne–Drinfeld conjecture*](https://arxiv.org/abs/2610.23719) (arXiv:2610.23719, 16 Oct 2026). Gives an alternative proof via a $\mathbb{Z}_{(2)}$-integral Hoffman-basis result for multiple zeta values, combined with Brown's theorem and Furusho's confluence characterization of GRT; cites this paper as the earlier proof, notes both arguments use reduction modulo 2, and discloses AI assistance with author verification.
 - [Minoru Hirose (@hirose_minoru), post on X](https://x.com/hirose_minoru/status/2112725404645826716) (21 Oct 2026). The author states (in Japanese) that combining his result with results of Brown and Furusho and with motivic results also gives an alternative proof of the Deligne–Drinfeld conjecture announced by OpenAI.
+- [Thomas Willwacher, *The Deligne–Drinfeld conjecture after OpenAI*, version 4](https://arxiv.org/html/2610.15592v4) (arXiv:2610.15592, v3 22 Oct 2026, v4 28 Oct 2026). New versions of this follow-up: v2 added a discussion of the Lie brackets and generators, v3 adds a proof that grt(F₂) is closed under the Ihara bracket, and v4 adds Section 4.4, which notes that this paper's proof does not rely on Brown's injectivity and derives injectivity from the characteristic-two theorem using reduction modulo 2, the Shirshov–Witt theorem and vanishing second Lie algebra homology. The v4 acknowledgments state that a reworked version of this paper's proof by Leila Schneps and Benjamin Enriquez inspired the simplified formula for the representation ρ of Lemma 3.1.
 
 ## Comments and discussion
 - [Leila Schneps, *The OpenAI proof of the Deligne-Drinfeld conjecture*](https://sites.google.com/view/hmi-workshop-2026/schedule) (HMI workshop talk abstract, October 2026). Announces an overview of the paper's proof strategy and main ideas, distinguishing straightforward steps from technical parts.
@@ -18,6 +19,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 
 ## Related prior literature mentioned by others
 - [Hidekazu Furusho, *The pentagon equation and the confluence relations*](https://arxiv.org/abs/1809.00789) (arXiv:1809.00789; American Journal of Mathematics 144, 2022). Hirose's follow-up uses its equivalence between the pentagon equation and confluence relations to turn Hoffman generation into an alternative proof of the conjecture treated by this paper.
+- [Richard Hain, *Infinitesimal presentations of the Torelli groups*](https://arxiv.org/abs/alg-geom/9512001) (arXiv:alg-geom/9512001; J. Amer. Math. Soc. 10 (1997)). Section 4.4 of Willwacher's follow-up cites its Corollary 5.7, that a positively graded Lie algebra with vanishing second homology is free, in its proof of injectivity from the characteristic-two theorem.
 
 ## Possibly relevant literature (found by the agent, not checked)
 - [Hidekazu Furusho, *Pentagon and hexagon equations*](https://arxiv.org/abs/math/0702128) (arXiv:math/0702128; Annals of Math. 171 (2010)). Shows the pentagon implies the hexagon equations, relevant to the paper's definition of W through antisymmetry, the three-term relation and the pentagon only.
@@ -26,6 +28,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-23.
 ## Digests and expositions
 - [AI Proved What?, *One per odd weight: the Deligne–Drinfeld conjecture*](https://aiprovedwhat.com/episodes/008-deligne-drinfeld-conjecture/) (Episode 008, October 2026). Animated introduction and transcript outlining the statement, prior results, characteristic-two proof strategy and stated Lean scope, with AI-assisted production disclosed by the site. [AI-generated per source] [family-level]
 - [Platzi, *The Grothendieck–Teichmüller Lie algebra and the Deligne–Drinfeld conjecture* (lesson 14 of the "OpenAI Math Preprints" course)](https://platzi.com/cursos/openai-math-preprints/the-grothendieck-teichmuller-lie-algebra-c109936/) (online course, undated, no author stated). Short video and written summary outlining the paper's characteristic-two dimension bound and the free-Lie-algebra lower bound.
+- [Thomas Willwacher, *On Deligne-Drinfeld conjecture* (video recording)](https://www.youtube.com/watch?v=bktNhiewtVo&feature=youtu.be) (Taming the Flow seminar, 22 Oct 2026). Recording of the seminar talk on this manuscript; the seminar's [talk page](https://ahgt.math.cnrs.fr/videos/2026/10/22/Willwacher_Taming_VID.html) lists arXiv:2610.15592 as its notes.
 
 ## News and blogs
 - [Trinity College Dublin News, *Leading mathematicians gather in Trinity to examine new AI-generated mathematical proof*](https://www.tcd.ie/news_events/articles/2026/delignedrinfeld-conjecture-workshop/) (15 Oct 2026). Reports that a Hamilton Mathematics Institute workshop examined this proof, that Leila Schneps presented her understanding of it, and that Willwacher reduced the roughly 40-page argument to about eight pages; it quotes Anton Alekseev and Florian Naef.

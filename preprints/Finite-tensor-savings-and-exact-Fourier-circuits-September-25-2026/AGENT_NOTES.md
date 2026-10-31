@@ -1,9 +1,9 @@
 # Automatically collected context
 
-Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
+Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-30.
 
 ## Follow-up works
-- None found.
+- [Jacob Sussman, *wht-power-saving-lean*](https://github.com/jacobalansussman/wht-power-saving-lean) (GitHub repository, fifth revision October 2026; [commits](https://github.com/jacobalansussman/wht-power-saving-lean/commits/main) through 2026-10-23). Reports a Lean-checked bound for the tensor-power Walsh–Hadamard transform at lengths $2^k$ with exponent $1-15699306/10^{10}$ in the RAM model of the companion paper, going beyond the leading-constant improvements that this paper says do not settle its question; the README states that AI agents wrote the proofs and that no one outside the project has reviewed them. [AI-generated per source]
 
 ## Comments and discussion
 - [Scott Aaronson, *The Mathocalypse*](https://scottaaronson.blog/?p=10169) (Shtetl-Optimized, October 2026). Lists the sub-n log n FFT among the release's TCS results, describing it as "breaking a barrier that had stood since the 1960s"; in the comments, b_jonas discusses the unit-cost coefficient model. [family-level]
@@ -19,6 +19,7 @@ Collected by an AI agent (Claude Opus 5.5 and GPT-6 Astra) on 2026-10-21.
 - [Nir Ailon, *Tighter Fourier Transform Complexity Tradeoffs*](https://arxiv.org/abs/1404.1741) (arXiv:1404.1741, 2014–2015). Shows that speeding up the FFT by a factor b forces Ω(n) ill-conditioned intermediate steps, which bears on the paper's point that its circuits allow arbitrary intermediate conditioning (the bibliography cites arXiv:1305.4745 and arXiv:1403.1307, not this one).
 - [Christos H. Papadimitriou, *Optimality of the fast Fourier transform*](https://projects.csail.mit.edu/jacm/jacm79.html) (J. ACM 26(1):95–102, 1979). A classical optimality result for FFT addition counts under restrictions on the algorithm's graph; relevant to the paper's survey of lower bounds proved under restrictions on the algorithm.
 - [Pavel Pudlák, *A Note On the Use of Determinant for Proving Lower Bounds on the Size of Linear Circuits*](https://eccc.weizmann.ac.il/report/1998/042) (ECCC TR98-042, 1998). Gives determinant-based lower bounds for bounded-coefficient linear circuits, extending the Morgenstern argument that Theorem 1.1 avoids by allowing unbounded coefficients.
+- [Adelmo Morrison Orozco, Nathan Sheffield and Ryan Williams, *Computing faster with a full memory: Catalytic algorithms break time-space lower bounds*](https://arxiv.org/abs/2610.24377) (arXiv:2610.24377, 2026-10-17). Gives a catalytic DFT over suitable rings for $n$ a power of 2 in near-linear time with $O(\log n)$ clean space, related to the paper's use of restoration from arbitrary workspace contents in its Fourier transfer (the bibliography cites only Buhrman et al. 2014 on this theme); the arXiv paper does not cite this release.
 
 ## Digests and expositions
 - [Perplexity / Orply, *Exact Fourier Cost Has Vanishing Normalized Growth on a Subsequence*](https://orply.com/articles/perplexity/130-2-finite-tensor-savings-and-exact-fourier-circuits-e64ecc42) (Orply, 2026-10-11). An AI-assisted rendering summarizing the paper's nonuniform circuit model, finite tensor saving, width-preserving Fourier transfer and price-function contradiction. [AI-generated per source]
